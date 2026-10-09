@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local model weights, media and experiment outputs
+checkpoints/
+outputs/
+data/
+*.safetensors
+*.pt
+*.pth
+*.mp4
+*.avi
+*.mov
