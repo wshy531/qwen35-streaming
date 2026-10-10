@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/wshy531/qwen35-streaming/pull/1",
+  "number": 1,
+  "draft": true,
+  "head_branch": "36tar/s4-mixed-state",
+  "head_sha": "d3f4fc51ff41d983870b845df8bc009361ae75bd",
+  "base_branch": "main",
+  "state": "open",
+  "merged": false,
+  "main_sha": "61e8de673fe9abb7281f803c1d1c94dc65f6a064"
+}
