@@ -1,0 +1,20 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 13258.12it/s]
+{"id": "short_2_rest", "logits": {"max_abs_diff": 0.6875, "mean_abs_diff": 0.043379031121730804, "rms_diff": 0.06130180135369301, "bitwise_equal": false, "allclose_5e3": false, "last_argmax_equal": true, "all_positions_argmax_equal": true, "registered_numeric_limits_passed": false}}
+{"id": "short_1_rest", "logits": {"max_abs_diff": 0.51953125, "mean_abs_diff": 0.04071526229381561, "rms_diff": 0.057332076132297516, "bitwise_equal": false, "allclose_5e3": false, "last_argmax_equal": true, "all_positions_argmax_equal": true, "registered_numeric_limits_passed": false}}
+{"id": "long_63_1_rest", "logits": {"max_abs_diff": 0.618896484375, "mean_abs_diff": 0.03380201384425163, "rms_diff": 0.04610002040863037, "bitwise_equal": false, "allclose_5e3": false, "last_argmax_equal": true, "all_positions_argmax_equal": false, "registered_numeric_limits_passed": false}}
+{"id": "video_2_rest", "logits": {"max_abs_diff": 1.00390625, "mean_abs_diff": 0.04532578960061073, "rms_diff": 0.061889179050922394, "bitwise_equal": false, "allclose_5e3": false, "last_argmax_equal": true, "all_positions_argmax_equal": false, "registered_numeric_limits_passed": false}}
+{"id": "video_inside_visual", "logits": {"max_abs_diff": 1.375, "mean_abs_diff": 0.04771403223276138, "rms_diff": 0.06735429912805557, "bitwise_equal": false, "allclose_5e3": false, "last_argmax_equal": true, "all_positions_argmax_equal": false, "registered_numeric_limits_passed": false}}
+{"id": "video_64_rest", "logits": {"max_abs_diff": 1.15625, "mean_abs_diff": 0.05252800136804581, "rms_diff": 0.07274632900953293, "bitwise_equal": false, "allclose_5e3": false, "last_argmax_equal": true, "all_positions_argmax_equal": false, "registered_numeric_limits_passed": false}}
+{"id": "video_last_single", "logits": {"max_abs_diff": 0.125, "mean_abs_diff": 0.0001504270767327398, "rms_diff": 0.0023150923661887646, "bitwise_equal": false, "allclose_5e3": false, "last_argmax_equal": true, "all_positions_argmax_equal": true, "registered_numeric_limits_passed": true}}
+{"registered_numeric_limits_passed": false, "all_last_argmax_equal": true, "strict_allclose_all_groups": false, "wall_seconds_including_load": 12.895172100001218}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\chunk_weight_check.py", line 258, in <module>
+    main()
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\chunk_weight_check.py", line 249, in main
+    (preflight if args.stage == "preflight" else gpu)(args.out,args)
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\chunk_weight_check.py", line 232, in gpu
+    raise RuntimeError("Registered BF16 numerical limits failed; retain evidence")
+RuntimeError: Registered BF16 numerical limits failed; retain evidence

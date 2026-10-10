@@ -1,0 +1,1207 @@
+{
+  "scope": "CPU inputs/actual PTS only",
+  "tiny_adapter_test": {
+    "adapter": "upstream_44474_input_positions",
+    "position_grid": [
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "vision_grid_unchanged": [
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "rope_delta": [
+      [
+        0
+      ]
+    ],
+    "position_shape": [
+      4,
+      1,
+      9
+    ],
+    "coordinate_oracle_matches": true,
+    "temporal_groups": 2,
+    "local_upstream_max_logit_error": 0.0,
+    "tiny_generation_tokens": 3
+  },
+  "questions": 15,
+  "cases": [
+    {
+      "video": "cat_play",
+      "sample_index": 1,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "CAT",
+      "kind": "native_last_subject",
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        30
+      ],
+      "timestamps": [
+        0.0,
+        0.9999999999999999
+      ],
+      "frame_sha256": [
+        "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+        "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb"
+      ],
+      "window_pixel_bytes": 221184,
+      "delivered_decode_count": 31,
+      "pixel_source_frame_ids": [
+        0,
+        30
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        0.49999999999999994
+      ],
+      "rendered_timestamps": [
+        "0.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        30
+      ],
+      "visual_tokens": 32,
+      "video_grid_thw": [
+        [
+          1,
+          16,
+          8
+        ]
+      ],
+      "input_fingerprint": "c1772cc13c68985db3ee34c882d2da7ffc1dbbb5003c317f713ec6a9c98e57d2",
+      "input_tokens": 77,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "cat_play",
+      "sample_index": 3,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "CAT",
+      "kind": "native_last_subject",
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "timestamps": [
+        0.0,
+        0.9999999999999999,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+        "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+        "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+        "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a"
+      ],
+      "window_pixel_bytes": 442368,
+      "delivered_decode_count": 91,
+      "pixel_source_frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        0.49999999999999994,
+        2.5
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "visual_tokens": 64,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          8
+        ]
+      ],
+      "input_fingerprint": "84059d5d602dbf19e71e69f3375e28351dda1e0bd6ed6cfae80a998f1646cea2",
+      "input_tokens": 117,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "cat_play",
+      "sample_index": 5,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "CAT",
+      "kind": "native_last_subject",
+      "accepted_samples": 6,
+      "frame_ids": [
+        60,
+        90,
+        120,
+        150
+      ],
+      "timestamps": [
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "frame_sha256": [
+        "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+        "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+        "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+        "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853"
+      ],
+      "window_pixel_bytes": 442368,
+      "delivered_decode_count": 151,
+      "pixel_source_frame_ids": [
+        60,
+        90,
+        120,
+        150
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        2.5,
+        4.5
+      ],
+      "rendered_timestamps": [
+        "2.5",
+        "4.5"
+      ],
+      "temporal_padding_frame_ids": [
+        60,
+        90,
+        120,
+        150
+      ],
+      "visual_tokens": 64,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          8
+        ]
+      ],
+      "input_fingerprint": "040ace8b96877aea6d60b0dcaabb1715ddde0b6175478f06dd8ae4febcf1a535",
+      "input_tokens": 117,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "cat_play",
+      "sample_index": 7,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "CAT",
+      "kind": "native_last_subject",
+      "accepted_samples": 8,
+      "frame_ids": [
+        120,
+        150,
+        180,
+        210
+      ],
+      "timestamps": [
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_sha256": [
+        "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+        "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853",
+        "9b02285010ba71c6d9df318df0f056b7a04248ee52819ca43c7e0365f9dea9c2",
+        "63352334d328cac3903a4bd94929a2d809fa3d33920490f3d89782c62a161543"
+      ],
+      "window_pixel_bytes": 442368,
+      "delivered_decode_count": 211,
+      "pixel_source_frame_ids": [
+        120,
+        150,
+        180,
+        210
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        4.5,
+        6.5
+      ],
+      "rendered_timestamps": [
+        "4.5",
+        "6.5"
+      ],
+      "temporal_padding_frame_ids": [
+        120,
+        150,
+        180,
+        210
+      ],
+      "visual_tokens": 64,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          8
+        ]
+      ],
+      "input_fingerprint": "04fe2cc9cacfa51cd33767fdf89811358209484bd93fb23d0e6ff339878ec017",
+      "input_tokens": 117,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 3,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject",
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "timestamps": [
+        0.0,
+        1.001,
+        2.002,
+        3.003
+      ],
+      "frame_sha256": [
+        "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+        "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+        "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+        "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 91,
+      "pixel_source_frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        0.5005,
+        2.5025
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931",
+      "input_tokens": 149,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 7,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject",
+      "accepted_samples": 8,
+      "frame_ids": [
+        120,
+        150,
+        180,
+        210
+      ],
+      "timestamps": [
+        4.004,
+        5.005,
+        6.006,
+        7.007
+      ],
+      "frame_sha256": [
+        "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5",
+        "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3",
+        "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+        "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 211,
+      "pixel_source_frame_ids": [
+        120,
+        150,
+        180,
+        210
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        4.5045,
+        6.5065
+      ],
+      "rendered_timestamps": [
+        "4.5",
+        "6.5"
+      ],
+      "temporal_padding_frame_ids": [
+        120,
+        150,
+        180,
+        210
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "6c712568076e8ccebfe3e47896c0b144cbfe0e107e1d1ceba8c7eb3512c163e7",
+      "input_tokens": 149,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 13,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject",
+      "accepted_samples": 14,
+      "frame_ids": [
+        300,
+        330,
+        360,
+        390
+      ],
+      "timestamps": [
+        10.01,
+        11.011,
+        12.012,
+        13.013
+      ],
+      "frame_sha256": [
+        "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496",
+        "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505",
+        "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962",
+        "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 391,
+      "pixel_source_frame_ids": [
+        300,
+        330,
+        360,
+        390
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        10.5105,
+        12.5125
+      ],
+      "rendered_timestamps": [
+        "10.5",
+        "12.5"
+      ],
+      "temporal_padding_frame_ids": [
+        300,
+        330,
+        360,
+        390
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "9e410a1fb03b967613791e99325285fc659ca870f624000883a0af9ba3a6aca0",
+      "input_tokens": 151,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject",
+      "accepted_samples": 16,
+      "frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "timestamps": [
+        12.012,
+        13.013,
+        14.014,
+        15.015
+      ],
+      "frame_sha256": [
+        "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962",
+        "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9",
+        "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371",
+        "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 451,
+      "pixel_source_frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        12.5125,
+        14.5145
+      ],
+      "rendered_timestamps": [
+        "12.5",
+        "14.5"
+      ],
+      "temporal_padding_frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "8b0279869a4fdbbff654baf67d9bf1c79eb9d4e1a1e5492acc53ce1071d69c44",
+      "input_tokens": 151,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "Which happens FIRST in these frames: hands under the faucet or taking a paper towel? Answer only FAUCET or TOWEL.",
+      "expected": "FAUCET",
+      "kind": "order_diagnostic",
+      "variant": "original",
+      "options": "faucet_first",
+      "accepted_samples": 16,
+      "frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "timestamps": [
+        12.012,
+        13.013,
+        14.014,
+        15.015
+      ],
+      "frame_sha256": [
+        "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962",
+        "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9",
+        "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371",
+        "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 451,
+      "pixel_source_frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        12.5125,
+        14.5145
+      ],
+      "rendered_timestamps": [
+        "12.5",
+        "14.5"
+      ],
+      "temporal_padding_frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "2af467b8fa482730fb0aa323e8775dc42db6acc3d536755e5b8af1a465c4be84",
+      "input_tokens": 153,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "Which happens FIRST in these frames: taking a paper towel or hands under the faucet? Answer only TOWEL or FAUCET.",
+      "expected": "FAUCET",
+      "kind": "order_diagnostic",
+      "variant": "original",
+      "options": "towel_first",
+      "accepted_samples": 16,
+      "frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "timestamps": [
+        12.012,
+        13.013,
+        14.014,
+        15.015
+      ],
+      "frame_sha256": [
+        "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962",
+        "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9",
+        "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371",
+        "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 451,
+      "pixel_source_frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        12.5125,
+        14.5145
+      ],
+      "rendered_timestamps": [
+        "12.5",
+        "14.5"
+      ],
+      "temporal_padding_frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "3283fe08ac0be0bed3d636d3c64cb903b45f47ffff4bd94f433e4057e5da0415",
+      "input_tokens": 153,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "Which happens FIRST in these frames: hands under the faucet or taking a paper towel? Answer only FAUCET or TOWEL.",
+      "expected": "TOWEL",
+      "kind": "order_diagnostic",
+      "variant": "reverse_pixels",
+      "options": "faucet_first",
+      "accepted_samples": 16,
+      "frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "timestamps": [
+        12.012,
+        13.013,
+        14.014,
+        15.015
+      ],
+      "frame_sha256": [
+        "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244",
+        "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371",
+        "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9",
+        "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 451,
+      "pixel_source_frame_ids": [
+        450,
+        420,
+        390,
+        360
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        12.5125,
+        14.5145
+      ],
+      "rendered_timestamps": [
+        "12.5",
+        "14.5"
+      ],
+      "temporal_padding_frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "e70771f229c2c49b03d5e80f99ffa4ec42cbbac041c21c3f43ea952b009c5675",
+      "input_tokens": 153,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "Which happens FIRST in these frames: taking a paper towel or hands under the faucet? Answer only TOWEL or FAUCET.",
+      "expected": "TOWEL",
+      "kind": "order_diagnostic",
+      "variant": "reverse_pixels",
+      "options": "towel_first",
+      "accepted_samples": 16,
+      "frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "timestamps": [
+        12.012,
+        13.013,
+        14.014,
+        15.015
+      ],
+      "frame_sha256": [
+        "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244",
+        "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371",
+        "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9",
+        "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 451,
+      "pixel_source_frame_ids": [
+        450,
+        420,
+        390,
+        360
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        12.5125,
+        14.5145
+      ],
+      "rendered_timestamps": [
+        "12.5",
+        "14.5"
+      ],
+      "temporal_padding_frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "c44f63cfee04d92ead7e84ed0deaa2a0a6e6aef706859dd57161bc586b17c748",
+      "input_tokens": 153,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 19,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject",
+      "accepted_samples": 20,
+      "frame_ids": [
+        480,
+        510,
+        540,
+        570
+      ],
+      "timestamps": [
+        16.016,
+        17.017,
+        18.018,
+        19.019
+      ],
+      "frame_sha256": [
+        "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+        "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70",
+        "2331e28fba920a75511adca756a0861f0deebc9282a9d1b6044ecc718bd77089",
+        "f32486eeee3dfee0be2db07c28bb3808fdb3c2c34280f1ea4fa924cdb307e8b0"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 571,
+      "pixel_source_frame_ids": [
+        480,
+        510,
+        540,
+        570
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        16.5165,
+        18.5185
+      ],
+      "rendered_timestamps": [
+        "16.5",
+        "18.5"
+      ],
+      "temporal_padding_frame_ids": [
+        480,
+        510,
+        540,
+        570
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "a834ca676413f794f8e9e4d89ab0136d04169983b3d5ecf9b0df77ad9487b07d",
+      "input_tokens": 151,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "hands_vfr",
+      "sample_index": 1,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "controlled_vfr_last_subject",
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        2
+      ],
+      "timestamps": [
+        0.0,
+        1.5
+      ],
+      "frame_sha256": [
+        "e6628828eb8cbed6c96d0bd43d51a05568bac8f60879312fa32a722ef0469a85",
+        "a0451ce3e1c4b712a2373551330f08783c0adcc8d47cd71da9833ec030e6d84e"
+      ],
+      "window_pixel_bytes": 294912,
+      "delivered_decode_count": 3,
+      "pixel_source_frame_ids": [
+        0,
+        2
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        0.75
+      ],
+      "rendered_timestamps": [
+        "0.8"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        2
+      ],
+      "visual_tokens": 48,
+      "video_grid_thw": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "080ac3670411c71a5d46f0258fcbbb2d3272d4ea3dfabfea754c85d942fd1806",
+      "input_tokens": 93,
+      "processor_pixels_match": true
+    },
+    {
+      "video": "hands_vfr",
+      "sample_index": 3,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "controlled_vfr_last_subject",
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "timestamps": [
+        0.0,
+        1.5,
+        3.1,
+        4.7
+      ],
+      "frame_sha256": [
+        "e6628828eb8cbed6c96d0bd43d51a05568bac8f60879312fa32a722ef0469a85",
+        "a0451ce3e1c4b712a2373551330f08783c0adcc8d47cd71da9833ec030e6d84e",
+        "8448af32a9d63927ad2218fabfe1ecf5fca4f4efe8f9e373c86987b4d00e9031",
+        "fb82444f35c9ce16d376ad239c3cd7faab22e992fdd1a67d7dd67e29495fbc0a"
+      ],
+      "window_pixel_bytes": 589824,
+      "delivered_decode_count": 6,
+      "pixel_source_frame_ids": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "frame_id_semantics": "display slots; pixel_source_frame_ids identifies actual source pixels",
+      "temporal_patch_means": [
+        0.75,
+        3.9000000000000004
+      ],
+      "rendered_timestamps": [
+        "0.8",
+        "3.9"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "input_fingerprint": "c4a0055b492dee4b1e10e889e79febd6c600f08fd67468f601726212bd45b247",
+      "input_tokens": 149,
+      "processor_pixels_match": true
+    }
+  ],
+  "reader_audit": {
+    "cat_play": {
+      "accepted_samples": 9,
+      "samples": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "delivered_decode_count": 1
+        },
+        {
+          "frame_id": 30,
+          "timestamp": 0.9999999999999999,
+          "delivered_decode_count": 31
+        },
+        {
+          "frame_id": 60,
+          "timestamp": 2.0,
+          "delivered_decode_count": 61
+        },
+        {
+          "frame_id": 90,
+          "timestamp": 3.0,
+          "delivered_decode_count": 91
+        },
+        {
+          "frame_id": 120,
+          "timestamp": 4.0,
+          "delivered_decode_count": 121
+        },
+        {
+          "frame_id": 150,
+          "timestamp": 5.0,
+          "delivered_decode_count": 151
+        },
+        {
+          "frame_id": 180,
+          "timestamp": 6.0,
+          "delivered_decode_count": 181
+        },
+        {
+          "frame_id": 210,
+          "timestamp": 7.0,
+          "delivered_decode_count": 211
+        },
+        {
+          "frame_id": 240,
+          "timestamp": 8.0,
+          "delivered_decode_count": 241
+        }
+      ],
+      "last_window": {
+        "accepted_samples": 9,
+        "frame_ids": [
+          150,
+          180,
+          210,
+          240
+        ],
+        "timestamps": [
+          5.0,
+          6.0,
+          7.0,
+          8.0
+        ],
+        "frame_sha256": [
+          "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853",
+          "9b02285010ba71c6d9df318df0f056b7a04248ee52819ca43c7e0365f9dea9c2",
+          "63352334d328cac3903a4bd94929a2d809fa3d33920490f3d89782c62a161543",
+          "663f7bbc390c4799ddbb9b0bcbf5947c999b28f31fd77cf44a0fab850323b327"
+        ],
+        "window_pixel_bytes": 442368,
+        "delivered_decode_count": 241
+      }
+    },
+    "clean_hands": {
+      "accepted_samples": 23,
+      "samples": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "delivered_decode_count": 1
+        },
+        {
+          "frame_id": 30,
+          "timestamp": 1.001,
+          "delivered_decode_count": 31
+        },
+        {
+          "frame_id": 60,
+          "timestamp": 2.002,
+          "delivered_decode_count": 61
+        },
+        {
+          "frame_id": 90,
+          "timestamp": 3.003,
+          "delivered_decode_count": 91
+        },
+        {
+          "frame_id": 120,
+          "timestamp": 4.004,
+          "delivered_decode_count": 121
+        },
+        {
+          "frame_id": 150,
+          "timestamp": 5.005,
+          "delivered_decode_count": 151
+        },
+        {
+          "frame_id": 180,
+          "timestamp": 6.006,
+          "delivered_decode_count": 181
+        },
+        {
+          "frame_id": 210,
+          "timestamp": 7.007,
+          "delivered_decode_count": 211
+        },
+        {
+          "frame_id": 240,
+          "timestamp": 8.008,
+          "delivered_decode_count": 241
+        },
+        {
+          "frame_id": 270,
+          "timestamp": 9.009,
+          "delivered_decode_count": 271
+        },
+        {
+          "frame_id": 300,
+          "timestamp": 10.01,
+          "delivered_decode_count": 301
+        },
+        {
+          "frame_id": 330,
+          "timestamp": 11.011,
+          "delivered_decode_count": 331
+        },
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "delivered_decode_count": 361
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "delivered_decode_count": 391
+        },
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "delivered_decode_count": 421
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "delivered_decode_count": 451
+        },
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "delivered_decode_count": 481
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "delivered_decode_count": 511
+        },
+        {
+          "frame_id": 540,
+          "timestamp": 18.018,
+          "delivered_decode_count": 541
+        },
+        {
+          "frame_id": 570,
+          "timestamp": 19.019,
+          "delivered_decode_count": 571
+        },
+        {
+          "frame_id": 600,
+          "timestamp": 20.02,
+          "delivered_decode_count": 601
+        },
+        {
+          "frame_id": 630,
+          "timestamp": 21.021,
+          "delivered_decode_count": 631
+        },
+        {
+          "frame_id": 660,
+          "timestamp": 22.022,
+          "delivered_decode_count": 661
+        }
+      ],
+      "last_window": {
+        "accepted_samples": 23,
+        "frame_ids": [
+          570,
+          600,
+          630,
+          660
+        ],
+        "timestamps": [
+          19.019,
+          20.02,
+          21.021,
+          22.022
+        ],
+        "frame_sha256": [
+          "f32486eeee3dfee0be2db07c28bb3808fdb3c2c34280f1ea4fa924cdb307e8b0",
+          "fa39c3ddccb1fc1de87a8f781812207505408fb99b3caa8feb1b4e11217fe4b4",
+          "f0fcd3c1c6cac921a63ccec718725420c021c55016cd51fe622a1affb16f330b",
+          "2538f2d023fdf93144d2895c769ab5bb7c95eb340cca610f5de0e97ede7cadb5"
+        ],
+        "window_pixel_bytes": 589824,
+        "delivered_decode_count": 661
+      }
+    },
+    "hands_vfr": {
+      "accepted_samples": 5,
+      "samples": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "delivered_decode_count": 1
+        },
+        {
+          "frame_id": 2,
+          "timestamp": 1.5,
+          "delivered_decode_count": 3
+        },
+        {
+          "frame_id": 4,
+          "timestamp": 3.1,
+          "delivered_decode_count": 5
+        },
+        {
+          "frame_id": 5,
+          "timestamp": 4.7,
+          "delivered_decode_count": 6
+        },
+        {
+          "frame_id": 6,
+          "timestamp": 6.0,
+          "delivered_decode_count": 7
+        }
+      ],
+      "last_window": {
+        "accepted_samples": 5,
+        "frame_ids": [
+          2,
+          4,
+          5,
+          6
+        ],
+        "timestamps": [
+          1.5,
+          3.1,
+          4.7,
+          6.0
+        ],
+        "frame_sha256": [
+          "a0451ce3e1c4b712a2373551330f08783c0adcc8d47cd71da9833ec030e6d84e",
+          "8448af32a9d63927ad2218fabfe1ecf5fca4f4efe8f9e373c86987b4d00e9031",
+          "fb82444f35c9ce16d376ad239c3cd7faab22e992fdd1a67d7dd67e29495fbc0a",
+          "e446a553276aa52905be331faafdc7700653ffdfc2f8340d532040918e2b2828"
+        ],
+        "window_pixel_bytes": 589824,
+        "delivered_decode_count": 7
+      }
+    }
+  },
+  "asset_hashes": {
+    "manifest.json": "be0813a5d14b9260d34cf30d9f74a49882b7b4c276b3914dc6d7495205d45c26",
+    "cases.json": "7ad07d2ddbb94c3a390f7a83fad413a31bb17486d4015af1123e6f0fa81a08fc",
+    "cat_play.webm": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+    "clean_hands.webm": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+    "hands_vfr.mp4": "bcd07c5f63079e09bb346bf7974dd0cf4f01427970e4beb4e1ceda3efbe7f577"
+  },
+  "controlled_vfr_samples_correct": true,
+  "odd_eof_has_no_extra_question": true,
+  "reversal_uses_only_arrived_pixels": true
+}

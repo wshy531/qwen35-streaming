@@ -1,0 +1,17 @@
+{
+  "frozen_sources_derived_ids_pts_and_input_controls_verified": true,
+  "eight_strict_language_controls_and_main_isolation_verified": true,
+  "current_subject_success_and_early_subject_failure_both_preserved": true,
+  "one_of_two_early_visual_pairs_passes_only": true,
+  "budget_forwards_generation_cleanup_verified": true,
+  "old_48_sources_unchanged_except_report": true,
+  "original_baseline_files_unchanged": 15,
+  "ten_model_assets_sha_verified": true,
+  "three_negative_launch_gates_verified": true,
+  "source_files": 49,
+  "no_inference_in_audit": true,
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "commit_created": false,
+  "remote_push": false
+}

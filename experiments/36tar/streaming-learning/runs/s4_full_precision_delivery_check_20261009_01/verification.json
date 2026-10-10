@@ -1,0 +1,15 @@
+{
+  "four_groups_verified": true,
+  "original_bf16_reproduced_and_failure_preserved": true,
+  "bf16_reduction_control_failure_preserved": true,
+  "fp32_text_two_groups_and_four_states_passed": true,
+  "same_input_norm_and_projection_replay_checked": true,
+  "wrong_preflight_rejected_before_launch": true,
+  "old_executable_sources_unchanged": true,
+  "source_files": 38,
+  "no_inference_in_audit": true,
+  "branch": "36tar/s4-mixed-state",
+  "head": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "commit_created": false,
+  "remote_push": false
+}

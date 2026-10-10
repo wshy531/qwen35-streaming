@@ -1,0 +1,355 @@
+{
+  "scope": "CPU isolated first linear layer only; no full-model or GPU success claim",
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "groups": [
+    {
+      "dtype": "torch.float32",
+      "rule": "chunk",
+      "comparisons": {
+        "in_proj_qkv": {
+          "max_abs_diff": 5.7220458984375e-06,
+          "mean_abs_diff": 1.8531158829659944e-08,
+          "different_elements": 11004,
+          "elements": 122880,
+          "bitwise_equal": false
+        },
+        "in_proj_b": {
+          "max_abs_diff": 1.9073486328125e-06,
+          "mean_abs_diff": 2.4575275148208675e-08,
+          "different_elements": 26,
+          "elements": 320,
+          "bitwise_equal": false
+        },
+        "in_proj_a": {
+          "max_abs_diff": 1.1920928955078125e-06,
+          "mean_abs_diff": 3.697350692277723e-08,
+          "different_elements": 27,
+          "elements": 320,
+          "bitwise_equal": false
+        },
+        "core": {
+          "max_abs_diff": 2.9802322387695312e-08,
+          "mean_abs_diff": 6.981392547400489e-11,
+          "different_elements": 29232,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "gated_norm_input": {
+          "max_abs_diff": 2.9802322387695312e-08,
+          "mean_abs_diff": 6.981392547400489e-11,
+          "different_elements": 29232,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "gate": {
+          "max_abs_diff": 1.9073486328125e-06,
+          "mean_abs_diff": 1.8131094847717577e-08,
+          "different_elements": 3701,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "gated_norm_output": {
+          "max_abs_diff": 8.940696716308594e-07,
+          "mean_abs_diff": 4.466384595502859e-09,
+          "different_elements": 27937,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "out_proj": {
+          "max_abs_diff": 1.7881393432617188e-07,
+          "mean_abs_diff": 5.917157430701536e-09,
+          "different_elements": 17741,
+          "elements": 20480,
+          "bitwise_equal": false
+        },
+        "output": {
+          "max_abs_diff": 1.7881393432617188e-07,
+          "mean_abs_diff": 5.917157430701536e-09,
+          "different_elements": 17741,
+          "elements": 20480,
+          "bitwise_equal": false
+        },
+        "conv_state": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 24576,
+          "bitwise_equal": true
+        },
+        "recurrent_state": {
+          "max_abs_diff": 5.960464477539062e-07,
+          "mean_abs_diff": 5.302213113012044e-10,
+          "different_elements": 172624,
+          "elements": 262144,
+          "bitwise_equal": false
+        }
+      }
+    },
+    {
+      "dtype": "torch.float32",
+      "rule": "recurrent",
+      "comparisons": {
+        "in_proj_qkv": {
+          "max_abs_diff": 5.7220458984375e-06,
+          "mean_abs_diff": 1.8531158829659944e-08,
+          "different_elements": 11004,
+          "elements": 122880,
+          "bitwise_equal": false
+        },
+        "in_proj_b": {
+          "max_abs_diff": 1.9073486328125e-06,
+          "mean_abs_diff": 2.4575275148208675e-08,
+          "different_elements": 26,
+          "elements": 320,
+          "bitwise_equal": false
+        },
+        "in_proj_a": {
+          "max_abs_diff": 1.1920928955078125e-06,
+          "mean_abs_diff": 3.697350692277723e-08,
+          "different_elements": 27,
+          "elements": 320,
+          "bitwise_equal": false
+        },
+        "core": {
+          "max_abs_diff": 2.9802322387695312e-08,
+          "mean_abs_diff": 6.147393705191462e-11,
+          "different_elements": 25093,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "gated_norm_input": {
+          "max_abs_diff": 2.9802322387695312e-08,
+          "mean_abs_diff": 6.147393705191462e-11,
+          "different_elements": 25093,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "gate": {
+          "max_abs_diff": 1.9073486328125e-06,
+          "mean_abs_diff": 1.8131094847717577e-08,
+          "different_elements": 3701,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "gated_norm_output": {
+          "max_abs_diff": 6.556510925292969e-07,
+          "mean_abs_diff": 4.164189437716459e-09,
+          "different_elements": 25197,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "out_proj": {
+          "max_abs_diff": 1.7881393432617188e-07,
+          "mean_abs_diff": 5.515075507389611e-09,
+          "different_elements": 17525,
+          "elements": 20480,
+          "bitwise_equal": false
+        },
+        "output": {
+          "max_abs_diff": 1.7881393432617188e-07,
+          "mean_abs_diff": 5.515075507389611e-09,
+          "different_elements": 17525,
+          "elements": 20480,
+          "bitwise_equal": false
+        },
+        "conv_state": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 24576,
+          "bitwise_equal": true
+        },
+        "recurrent_state": {
+          "max_abs_diff": 4.76837158203125e-07,
+          "mean_abs_diff": 4.682230714259106e-10,
+          "different_elements": 137699,
+          "elements": 262144,
+          "bitwise_equal": false
+        }
+      }
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "rule": "chunk",
+      "comparisons": {
+        "in_proj_qkv": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 122880,
+          "bitwise_equal": true
+        },
+        "in_proj_b": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 320,
+          "bitwise_equal": true
+        },
+        "in_proj_a": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 320,
+          "bitwise_equal": true
+        },
+        "core": {
+          "max_abs_diff": 1.9073486328125e-06,
+          "mean_abs_diff": 4.6588909813349844e-11,
+          "different_elements": 3,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "gated_norm_input": {
+          "max_abs_diff": 1.9073486328125e-06,
+          "mean_abs_diff": 4.6588909813349844e-11,
+          "different_elements": 3,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "gate": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 40960,
+          "bitwise_equal": true
+        },
+        "gated_norm_output": {
+          "max_abs_diff": 3.0517578125e-05,
+          "mean_abs_diff": 7.450587924395791e-10,
+          "different_elements": 2,
+          "elements": 40960,
+          "bitwise_equal": false
+        },
+        "out_proj": {
+          "max_abs_diff": 0.0001220703125,
+          "mean_abs_diff": 9.062932626591191e-09,
+          "different_elements": 7,
+          "elements": 20480,
+          "bitwise_equal": false
+        },
+        "output": {
+          "max_abs_diff": 0.0001220703125,
+          "mean_abs_diff": 9.062932626591191e-09,
+          "different_elements": 7,
+          "elements": 20480,
+          "bitwise_equal": false
+        },
+        "conv_state": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 24576,
+          "bitwise_equal": true
+        },
+        "recurrent_state": {
+          "max_abs_diff": 7.152557373046875e-07,
+          "mean_abs_diff": 3.8614053621266464e-10,
+          "different_elements": 164476,
+          "elements": 262144,
+          "bitwise_equal": false
+        }
+      }
+    },
+    {
+      "dtype": "torch.bfloat16",
+      "rule": "recurrent",
+      "comparisons": {
+        "in_proj_qkv": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 122880,
+          "bitwise_equal": true
+        },
+        "in_proj_b": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 320,
+          "bitwise_equal": true
+        },
+        "in_proj_a": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 320,
+          "bitwise_equal": true
+        },
+        "core": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 40960,
+          "bitwise_equal": true
+        },
+        "gated_norm_input": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 40960,
+          "bitwise_equal": true
+        },
+        "gate": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 40960,
+          "bitwise_equal": true
+        },
+        "gated_norm_output": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 40960,
+          "bitwise_equal": true
+        },
+        "out_proj": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 20480,
+          "bitwise_equal": true
+        },
+        "output": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 20480,
+          "bitwise_equal": true
+        },
+        "conv_state": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 24576,
+          "bitwise_equal": true
+        },
+        "recurrent_state": {
+          "max_abs_diff": 0.0,
+          "mean_abs_diff": 0.0,
+          "different_elements": 0,
+          "elements": 262144,
+          "bitwise_equal": true
+        }
+      }
+    }
+  ],
+  "whole_layer_rule_shift": {
+    "torch.float32": {
+      "max_abs_diff": 2.384185791015625e-07,
+      "mean_abs_diff": 5.795159019328366e-09,
+      "different_elements": 17936,
+      "elements": 20480,
+      "bitwise_equal": false
+    },
+    "torch.bfloat16": {
+      "max_abs_diff": 0.0001220703125,
+      "mean_abs_diff": 9.062932626591191e-09,
+      "different_elements": 7,
+      "elements": 20480,
+      "bitwise_equal": false
+    }
+  },
+  "wall_seconds": 1.9977884999971138
+}

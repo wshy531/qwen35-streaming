@@ -1,0 +1,79 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\original_first_control.py", line 257, in main
+    (preflight if args.stage == "preflight" else gpu)(args.out, args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\original_first_control.py", line 216, in gpu
+    answer = generate(model, processor, inputs, counter)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\original_first_control.py", line 114, in generate
+    output = model.generate(**device_inputs, max_new_tokens=8, do_sample=False, eos_token_id=sorted(eos_ids))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\generation\utils.py", line 2535, in generate
+    result = decoding_method(
+             ^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\generation\utils.py", line 2728, in _sample
+    outputs = self._prefill(
+              ^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\generation\utils.py", line 3776, in _prefill
+    return self(**model_inputs, return_dict=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\utils\generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming\qwen35_local\modeling_qwen3_5.py", line 2024, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\utils\generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming\qwen35_local\modeling_qwen3_5.py", line 1754, in forward
+    video_outputs: BaseModelOutputWithPooling = self.get_video_features(
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\utils\generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming\qwen35_local\modeling_qwen3_5.py", line 1602, in get_video_features
+    return self.get_image_features(pixel_values_videos, video_grid_thw, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\utils\generic.py", line 843, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming\qwen35_local\modeling_qwen3_5.py", line 1619, in get_image_features
+    vision_output: BaseModelOutputWithPooling = self.visual(
+                                                ^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1882, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1843, in inner
+    hook_result = hook(self, args, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\original_first_control.py", line 82, in vision
+    self.features.append(tensor_fingerprint({"features": output.pooler_output}))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\streaming\inputs.py", line 16, in tensor_fingerprint
+    digest.update(value.detach().cpu().contiguous().numpy().tobytes())
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Got unsupported ScalarType BFloat16

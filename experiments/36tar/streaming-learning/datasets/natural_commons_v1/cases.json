@@ -1,0 +1,139 @@
+{
+  "frozen_before_model_answers": true,
+  "annotation": "assistant visually inspected actual 1FPS decoded thumbnails, not independent human benchmark",
+  "window": 4,
+  "fps": 1,
+  "questions": 15,
+  "max_new_tokens": 16,
+  "wall_seconds": 600,
+  "cases": [
+    {
+      "video": "cat_play",
+      "sample_index": 1,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "CAT",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "cat_play",
+      "sample_index": 3,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "CAT",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "cat_play",
+      "sample_index": 5,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "CAT",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "cat_play",
+      "sample_index": 7,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "CAT",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 3,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 7,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 13,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 19,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "native_last_subject"
+    },
+    {
+      "video": "hands_vfr",
+      "sample_index": 1,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "controlled_vfr_last_subject"
+    },
+    {
+      "video": "hands_vfr",
+      "sample_index": 3,
+      "prompt": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "expected": "HANDS",
+      "kind": "controlled_vfr_last_subject"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "Which happens FIRST in these frames: hands under the faucet or taking a paper towel? Answer only FAUCET or TOWEL.",
+      "expected": "FAUCET",
+      "kind": "order_diagnostic",
+      "variant": "original",
+      "options": "faucet_first"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "Which happens FIRST in these frames: taking a paper towel or hands under the faucet? Answer only TOWEL or FAUCET.",
+      "expected": "FAUCET",
+      "kind": "order_diagnostic",
+      "variant": "original",
+      "options": "towel_first"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "Which happens FIRST in these frames: hands under the faucet or taking a paper towel? Answer only FAUCET or TOWEL.",
+      "expected": "TOWEL",
+      "kind": "order_diagnostic",
+      "variant": "reverse_pixels",
+      "options": "faucet_first"
+    },
+    {
+      "video": "clean_hands",
+      "sample_index": 15,
+      "prompt": "Which happens FIRST in these frames: taking a paper towel or hands under the faucet? Answer only TOWEL or FAUCET.",
+      "expected": "TOWEL",
+      "kind": "order_diagnostic",
+      "variant": "reverse_pixels",
+      "options": "towel_first"
+    }
+  ],
+  "vfr_expected_frame_ids": [
+    0,
+    2,
+    4,
+    5,
+    6
+  ],
+  "vfr_expected_timestamps": [
+    0,
+    1.5,
+    3.1,
+    4.7,
+    6
+  ],
+  "score": "strip+upper strict; secondary whole-word with optional trailing period/exclamation only"
+}

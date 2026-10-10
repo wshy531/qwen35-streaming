@@ -1,0 +1,20 @@
+{
+  "original_snapshot_files_unchanged": 15,
+  "current_code_matches_run_provenance": true,
+  "status_and_watchdogs_completed": true,
+  "s3_inputs_match_preflight": 100,
+  "sampled_frames": 200,
+  "questions": 100,
+  "resets": 20,
+  "control_prefills": 4,
+  "exact_answers": 81,
+  "reset_logits_bitwise_matches": 40,
+  "temporary_caches_released": 100,
+  "registered_state_resource_passed": true,
+  "timestamp_paired_inputs_match_preflight": 8,
+  "timestamp_original_correct": 0,
+  "timestamp_relative_correct": 2,
+  "changed_assets_rejected_before_run_creation": true,
+  "asset_hashes_match": true,
+  "checks_passed": true
+}

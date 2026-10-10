@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "width": 736,
+      "time": "11 秒",
+      "answers": [
+        "视频 A已记录答案：blue",
+        "视频 B已记录答案：green"
+      ],
+      "images": 8,
+      "detail": "窗口 4/4 帧 · 帧 0–7 已离开窗口 · 时间块 8.5 / 10.5 秒",
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "time": "11 秒",
+      "answers": [
+        "视频 A已记录答案：blue",
+        "视频 B已记录答案：green"
+      ],
+      "images": 8,
+      "detail": "窗口 4/4 帧 · 帧 0–7 已离开窗口 · 时间块 8.5 / 10.5 秒",
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

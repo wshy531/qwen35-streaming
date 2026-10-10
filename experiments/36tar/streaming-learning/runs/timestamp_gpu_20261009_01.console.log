@@ -1,0 +1,18 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 20394.61it/s]
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"source_question": 7, "variant": "original", "answer": "blue\n", "expected": "green"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"source_question": 7, "variant": "window_relative", "answer": "blue\n", "expected": "green"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"source_question": 16, "variant": "original", "answer": "green\n", "expected": "yellow"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"source_question": 16, "variant": "window_relative", "answer": " yellow\n", "expected": "yellow"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"source_question": 17, "variant": "original", "answer": "white\n", "expected": "red"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"source_question": 17, "variant": "window_relative", "answer": " red\n", "expected": "red"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"source_question": 59, "variant": "original", "answer": "blue\n", "expected": "green"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"source_question": 59, "variant": "window_relative", "answer": "blue\n", "expected": "green"}

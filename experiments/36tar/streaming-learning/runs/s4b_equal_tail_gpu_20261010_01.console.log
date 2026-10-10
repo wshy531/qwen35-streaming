@@ -1,0 +1,10 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 8555.12it/s]
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'bf16_sdpa_hands_to_hands', 'answer': 'HANDS', 'target': 'HANDS', 'correct': True}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'bf16_sdpa_hands_to_cat', 'answer': 'CAT', 'target': 'HANDS', 'correct': False}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'fp32_ieee_math_hands_to_hands', 'answer': 'HANDS', 'target': 'HANDS', 'correct': True}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'fp32_ieee_math_hands_to_cat', 'answer': 'CAT', 'target': 'HANDS', 'correct': False}

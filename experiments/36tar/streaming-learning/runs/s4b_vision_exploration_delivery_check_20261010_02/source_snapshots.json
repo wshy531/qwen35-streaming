@@ -1,0 +1,42 @@
+{
+  "s4b_vision_trace_preflight_20261010_01": {
+    "module": "e5ce68b266a2de0806293f68d29a7ff0d822f5ea7eaeaf83411ebbbb6a82478e",
+    "launcher": "8dcf122cca5f5a906581a37e9ab28c7be1b43c65f3936575907eacd6049478a4"
+  },
+  "s4b_vision_trace_gpu_20261010_01": {
+    "module": "e5ce68b266a2de0806293f68d29a7ff0d822f5ea7eaeaf83411ebbbb6a82478e",
+    "launcher": "8dcf122cca5f5a906581a37e9ab28c7be1b43c65f3936575907eacd6049478a4"
+  },
+  "s4b_qkv_replay_preflight_20261010_01": {
+    "module": "1a9338dbcfd2423674b22e4493fa5cbc0e4041072227df55a4160accde184f77",
+    "launcher": "1dc3c33b4a795d8844bfdf3d3919d8aaa98ea2decb7d9abaec9b4a35d053940d"
+  },
+  "s4b_qkv_replay_gpu_20261010_01": {
+    "module": "1a9338dbcfd2423674b22e4493fa5cbc0e4041072227df55a4160accde184f77",
+    "launcher": "1dc3c33b4a795d8844bfdf3d3919d8aaa98ea2decb7d9abaec9b4a35d053940d"
+  },
+  "s4b_vision_fixed_preflight_20261010_01": {
+    "module": "a682f9623ae2dc3f9ea4e773267a2ce94c8f0126854d561ce39c2b1c986f8766",
+    "launcher": "fe8f9b271e1fdd226ecf3ee76ddb08a83c1fe9836694fc3867dc5a8ce0d854ac"
+  },
+  "s4b_vision_fixed_preflight_20261010_02": {
+    "module": "d5639c805f91002a8c533ad9962da9a3011aacc5721e5fd0fb37fd83ca396a4f",
+    "launcher": "fe8f9b271e1fdd226ecf3ee76ddb08a83c1fe9836694fc3867dc5a8ce0d854ac"
+  },
+  "s4b_vision_fixed_gpu_20261010_01": {
+    "module": "d5639c805f91002a8c533ad9962da9a3011aacc5721e5fd0fb37fd83ca396a4f",
+    "launcher": "fe8f9b271e1fdd226ecf3ee76ddb08a83c1fe9836694fc3867dc5a8ce0d854ac"
+  },
+  "s4b_vision_fixed_online_preflight_20261010_01": {
+    "module": "416511332e31188ca519deadfde72bd75dc62b08221772bc97773a723cdee9db",
+    "launcher": "7d8b78a48722f452554fec39352ae1df4771daca5a4e06e43016cce7c8dbfd0a"
+  },
+  "s4b_vision_fixed_online_preflight_20261010_02": {
+    "module": "99a212591ab8c19e18498368b8561a4ad5c7c52befb880729c5f5c0bacda9474",
+    "launcher": "7d8b78a48722f452554fec39352ae1df4771daca5a4e06e43016cce7c8dbfd0a"
+  },
+  "s4b_vision_fixed_online_gpu_20261010_01": {
+    "module": "99a212591ab8c19e18498368b8561a4ad5c7c52befb880729c5f5c0bacda9474",
+    "launcher": "7d8b78a48722f452554fec39352ae1df4771daca5a4e06e43016cce7c8dbfd0a"
+  }
+}

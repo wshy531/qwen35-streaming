@@ -1,0 +1,2807 @@
+{
+  "model_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "branch": "36tar/s4-mixed-state",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "input_fingerprints": {
+    "short_text": "7b5b654e5cd2e7c32dd9e9dd1171d2ff5849c2cd0c458deb0c258c6b2f374bf8",
+    "long_text": "bff1dc188dc03b273eceac9ca7fd134e84482372e1e9739077e351e1f068238c",
+    "video": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931"
+  },
+  "groups": [
+    {
+      "id": "short_2_rest",
+      "input": "short_text",
+      "chunks": [
+        2,
+        18
+      ],
+      "cache_lengths": [
+        2,
+        20
+      ],
+      "logits": {
+        "max_abs_diff": 0.5,
+        "mean_abs_diff": 0.04166379198431969,
+        "rms_diff": 0.058756425976753235,
+        "bitwise_equal": false,
+        "allclose_5e3": false,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": false
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.15625,
+          "all_tensors_bitwise_equal": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.09375,
+          "all_tensors_bitwise_equal": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.3125,
+          "all_tensors_bitwise_equal": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.07079458236694336,
+          "all_tensors_bitwise_equal": false
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ]
+          ],
+          "bytes": 122880
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ]
+          ],
+          "bytes": 122880
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 884736
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 20004864,
+        "seq_length": 20
+      }
+    },
+    {
+      "id": "short_1_rest",
+      "input": "short_text",
+      "chunks": [
+        1,
+        19
+      ],
+      "cache_lengths": [
+        1,
+        20
+      ],
+      "logits": {
+        "max_abs_diff": 0.5625,
+        "mean_abs_diff": 0.04155509173870087,
+        "rms_diff": 0.05918007716536522,
+        "bitwise_equal": false,
+        "allclose_5e3": false,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": false
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.14794921875,
+          "all_tensors_bitwise_equal": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.09375,
+          "all_tensors_bitwise_equal": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.25,
+          "all_tensors_bitwise_equal": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.050447940826416016,
+          "all_tensors_bitwise_equal": false
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ]
+          ],
+          "bytes": 122880
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              20,
+              256
+            ]
+          ],
+          "bytes": 122880
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 884736
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 20004864,
+        "seq_length": 20
+      }
+    },
+    {
+      "id": "long_63_1_rest",
+      "input": "long_text",
+      "chunks": [
+        63,
+        1,
+        34
+      ],
+      "cache_lengths": [
+        63,
+        64,
+        98
+      ],
+      "logits": {
+        "max_abs_diff": 0.625,
+        "mean_abs_diff": 0.033861733973026276,
+        "rms_diff": 0.04607290402054787,
+        "bitwise_equal": false,
+        "allclose_5e3": false,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": false,
+        "registered_numeric_limits_passed": false
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.15625,
+          "all_tensors_bitwise_equal": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.1875,
+          "all_tensors_bitwise_equal": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.203125,
+          "all_tensors_bitwise_equal": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.04740476608276367,
+          "all_tensors_bitwise_equal": false
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ]
+          ],
+          "bytes": 602112
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              98,
+              256
+            ]
+          ],
+          "bytes": 602112
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 884736
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 20963328,
+        "seq_length": 98
+      }
+    },
+    {
+      "id": "video_2_rest",
+      "input": "video",
+      "chunks": [
+        2,
+        147
+      ],
+      "cache_lengths": [
+        2,
+        149
+      ],
+      "logits": {
+        "max_abs_diff": 0.96875,
+        "mean_abs_diff": 0.045921288430690765,
+        "rms_diff": 0.06264438480138779,
+        "bitwise_equal": false,
+        "allclose_5e3": false,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": false,
+        "registered_numeric_limits_passed": false
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.1953125,
+          "all_tensors_bitwise_equal": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.203125,
+          "all_tensors_bitwise_equal": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.3125,
+          "all_tensors_bitwise_equal": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.043085694313049316,
+          "all_tensors_bitwise_equal": false
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ]
+          ],
+          "bytes": 915456
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ]
+          ],
+          "bytes": 915456
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 884736
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 21590016,
+        "seq_length": 149
+      }
+    },
+    {
+      "id": "video_inside_visual",
+      "input": "video",
+      "chunks": [
+        11,
+        7,
+        131
+      ],
+      "cache_lengths": [
+        11,
+        18,
+        149
+      ],
+      "logits": {
+        "max_abs_diff": 1.15625,
+        "mean_abs_diff": 0.04811885207891464,
+        "rms_diff": 0.0670488178730011,
+        "bitwise_equal": false,
+        "allclose_5e3": false,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": false,
+        "registered_numeric_limits_passed": false
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.2138671875,
+          "all_tensors_bitwise_equal": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.15625,
+          "all_tensors_bitwise_equal": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.34375,
+          "all_tensors_bitwise_equal": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.0668938159942627,
+          "all_tensors_bitwise_equal": false
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ]
+          ],
+          "bytes": 915456
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ]
+          ],
+          "bytes": 915456
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 884736
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 21590016,
+        "seq_length": 149
+      }
+    },
+    {
+      "id": "video_64_rest",
+      "input": "video",
+      "chunks": [
+        64,
+        85
+      ],
+      "cache_lengths": [
+        64,
+        149
+      ],
+      "logits": {
+        "max_abs_diff": 1.03125,
+        "mean_abs_diff": 0.04951193183660507,
+        "rms_diff": 0.06878695636987686,
+        "bitwise_equal": false,
+        "allclose_5e3": false,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": false,
+        "registered_numeric_limits_passed": false
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.24560546875,
+          "all_tensors_bitwise_equal": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.21875,
+          "all_tensors_bitwise_equal": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.3125,
+          "all_tensors_bitwise_equal": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.0657111406326294,
+          "all_tensors_bitwise_equal": false
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ]
+          ],
+          "bytes": 915456
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ]
+          ],
+          "bytes": 915456
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 884736
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 21590016,
+        "seq_length": 149
+      }
+    },
+    {
+      "id": "video_last_single",
+      "input": "video",
+      "chunks": [
+        148,
+        1
+      ],
+      "cache_lengths": [
+        148,
+        149
+      ],
+      "logits": {
+        "max_abs_diff": 0.1875,
+        "mean_abs_diff": 0.00015550878015346825,
+        "rms_diff": 0.0024419401306658983,
+        "bitwise_equal": false,
+        "allclose_5e3": false,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.125,
+          "all_tensors_bitwise_equal": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.03125,
+          "all_tensors_bitwise_equal": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.140625,
+          "all_tensors_bitwise_equal": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.012583136558532715,
+          "all_tensors_bitwise_equal": false
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ]
+          ],
+          "bytes": 915456
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              149,
+              256
+            ]
+          ],
+          "bytes": 915456
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 884736
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 21590016,
+        "seq_length": 149
+      }
+    },
+    {
+      "id": "fork_isolation",
+      "main_unchanged_bitwise": true,
+      "prefix_tokens": 149,
+      "branch_tokens": 152,
+      "fork_copy_tensor_bytes": 21590016,
+      "logits": {
+        "max_abs_diff": 0.25,
+        "mean_abs_diff": 0.02961343340575695,
+        "rms_diff": 0.03818446025252342,
+        "bitwise_equal": false,
+        "allclose_5e3": false,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": false
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.1015625,
+          "all_tensors_bitwise_equal": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.0625,
+          "all_tensors_bitwise_equal": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.25,
+          "all_tensors_bitwise_equal": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.017660975456237793,
+          "all_tensors_bitwise_equal": false
+        }
+      }
+    },
+    {
+      "id": "reset",
+      "all_state_and_positions_cleared": true,
+      "logits": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true
+        }
+      }
+    },
+    {
+      "id": "capacity_rejection",
+      "rejected_before_forward": true,
+      "all_state_unchanged_bitwise": true
+    }
+  ],
+  "generated_tokens": 0,
+  "scope": "same pre-encoded known sequence split across real hybrid state; not online vision/QA protocol",
+  "registered_numeric_limits_passed": false,
+  "all_last_argmax_equal": true,
+  "strict_allclose_all_groups": false,
+  "state_isolation_reset_capacity_passed": true,
+  "peak_allocated_gib": 2.8473668098449707,
+  "peak_reserved_gib": 3.544921875,
+  "wall_seconds_including_load": 7.612795299999561
+}

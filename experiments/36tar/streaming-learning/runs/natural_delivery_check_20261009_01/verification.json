@@ -1,0 +1,21 @@
+{
+  "original_snapshot_files_unchanged": 15,
+  "current_code_matches_preflight_gpu_provenance": true,
+  "gpu_inputs_and_pixel_hashes_match_preflight": 15,
+  "source_and_frozen_cases_hashes_match": true,
+  "independent_empty_past_and_cache_release": 15,
+  "native_subject_correct": 9,
+  "native_subject_questions": 9,
+  "controlled_vfr_correct": 2,
+  "controlled_vfr_questions": 2,
+  "order_correct": 2,
+  "order_questions": 4,
+  "order_all_variants_correct": false,
+  "order_original_reverse_actual_pixel_mapping_verified": true,
+  "vfr_actual_sampling_and_odd_eof_verified": true,
+  "changed_asset_directory_rejected_before_run_creation": true,
+  "existing_download_resume_preserves_derivatives": true,
+  "existing_cases_rejected_without_mutation": true,
+  "fresh_directory_rebuild_case_video_manifest_hashes_match": true,
+  "checks_passed": true
+}

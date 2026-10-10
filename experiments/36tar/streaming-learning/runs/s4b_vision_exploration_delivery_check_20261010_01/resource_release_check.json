@@ -1,0 +1,7 @@
+{
+  "observed_driver_query": "0 MiB used, 7957 MiB free",
+  "command": "nvidia-smi --query-gpu=memory.used,memory.free --format=csv,noheader",
+  "all_four_watchdog_exit_codes": 0,
+  "background_monitoring": false,
+  "verification_script_sha256": "23d0b5750fd7e52b8b179784af3033022f1a193855097c3f8865ac1c2731a09d"
+}

@@ -1,0 +1,268 @@
+{
+  "model_directory": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "model_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "dtype": "torch.bfloat16",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "sources": {
+    "model": "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py",
+    "vision": "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py",
+    "text": "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py"
+  },
+  "parameters": 852985920,
+  "repair_video_positions": true,
+  "capability_scope": "tiny synthetic diagnostic, not a benchmark",
+  "cases": [
+    {
+      "id": "red_then_blue",
+      "prompt": "What color was the square at the beginning of the video? Answer with one English color word.",
+      "expected": "red",
+      "answer": " red\n",
+      "position_adapter": {
+        "adapter": "upstream_44474_input_positions",
+        "position_grid": [
+          [
+            1,
+            16,
+            16
+          ],
+          [
+            1,
+            16,
+            16
+          ]
+        ],
+        "vision_grid_unchanged": [
+          [
+            2,
+            16,
+            16
+          ]
+        ],
+        "rope_delta": [
+          [
+            -112
+          ]
+        ],
+        "position_shape": [
+          4,
+          1,
+          175
+        ],
+        "coordinate_oracle_matches": true,
+        "temporal_groups": 2
+      },
+      "contains_expected_color_or_digit": true,
+      "asset_sha256": "755e650cebd4325e837b8403835c9a02e68bf3bd2a5199795d1a3141a8e28ec6",
+      "input_shapes": {
+        "input_ids": [
+          1,
+          175
+        ],
+        "attention_mask": [
+          1,
+          175
+        ],
+        "mm_token_type_ids": [
+          1,
+          175
+        ],
+        "pixel_values_videos": [
+          512,
+          1536
+        ],
+        "video_grid_thw": [
+          1,
+          3
+        ],
+        "position_ids": [
+          4,
+          1,
+          175
+        ]
+      },
+      "grid": {
+        "video_grid_thw": [
+          [
+            2,
+            16,
+            16
+          ]
+        ]
+      },
+      "input_tokens": 175,
+      "generated_tokens": 4,
+      "preparation_seconds": 0.15828770000007353,
+      "generation_seconds": 0.6832383999999365,
+      "peak_allocated_gib": 1.6740751266479492,
+      "peak_reserved_gib": 1.73046875
+    },
+    {
+      "id": "green_then_blue",
+      "prompt": "What color was the square at the beginning of the video? Answer with one English color word.",
+      "expected": "green",
+      "answer": " green\n",
+      "position_adapter": {
+        "adapter": "upstream_44474_input_positions",
+        "position_grid": [
+          [
+            1,
+            16,
+            16
+          ],
+          [
+            1,
+            16,
+            16
+          ]
+        ],
+        "vision_grid_unchanged": [
+          [
+            2,
+            16,
+            16
+          ]
+        ],
+        "rope_delta": [
+          [
+            -112
+          ]
+        ],
+        "position_shape": [
+          4,
+          1,
+          175
+        ],
+        "coordinate_oracle_matches": true,
+        "temporal_groups": 2
+      },
+      "contains_expected_color_or_digit": true,
+      "asset_sha256": "a20926b60cbdbee7d62e98ed3bc047d85b01ccfffe1b871527f237ad2a2a4466",
+      "input_shapes": {
+        "input_ids": [
+          1,
+          175
+        ],
+        "attention_mask": [
+          1,
+          175
+        ],
+        "mm_token_type_ids": [
+          1,
+          175
+        ],
+        "pixel_values_videos": [
+          512,
+          1536
+        ],
+        "video_grid_thw": [
+          1,
+          3
+        ],
+        "position_ids": [
+          4,
+          1,
+          175
+        ]
+      },
+      "grid": {
+        "video_grid_thw": [
+          [
+            2,
+            16,
+            16
+          ]
+        ]
+      },
+      "input_tokens": 175,
+      "generated_tokens": 4,
+      "preparation_seconds": 0.020267599999897357,
+      "generation_seconds": 0.2628215000004275,
+      "peak_allocated_gib": 1.6740765571594238,
+      "peak_reserved_gib": 1.7421875
+    },
+    {
+      "id": "blue_then_red",
+      "prompt": "What color was the square at the beginning of the video? Answer with one English color word.",
+      "expected": "blue",
+      "answer": "blue\n",
+      "position_adapter": {
+        "adapter": "upstream_44474_input_positions",
+        "position_grid": [
+          [
+            1,
+            16,
+            16
+          ],
+          [
+            1,
+            16,
+            16
+          ]
+        ],
+        "vision_grid_unchanged": [
+          [
+            2,
+            16,
+            16
+          ]
+        ],
+        "rope_delta": [
+          [
+            -112
+          ]
+        ],
+        "position_shape": [
+          4,
+          1,
+          175
+        ],
+        "coordinate_oracle_matches": true,
+        "temporal_groups": 2
+      },
+      "contains_expected_color_or_digit": true,
+      "asset_sha256": "923119b5d16cf75d938ee87dec30b741baf7449751c0a284df939fe45b1aae05",
+      "input_shapes": {
+        "input_ids": [
+          1,
+          175
+        ],
+        "attention_mask": [
+          1,
+          175
+        ],
+        "mm_token_type_ids": [
+          1,
+          175
+        ],
+        "pixel_values_videos": [
+          512,
+          1536
+        ],
+        "video_grid_thw": [
+          1,
+          3
+        ],
+        "position_ids": [
+          4,
+          1,
+          175
+        ]
+      },
+      "grid": {
+        "video_grid_thw": [
+          [
+            2,
+            16,
+            16
+          ]
+        ]
+      },
+      "input_tokens": 175,
+      "generated_tokens": 4,
+      "preparation_seconds": 0.020521800000096846,
+      "generation_seconds": 0.2823711999999432,
+      "peak_allocated_gib": 1.6740765571594238,
+      "peak_reserved_gib": 1.7421875
+    }
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "budget": {
+    "vision_encodings": 1,
+    "candidate_projection_operations_max": 100,
+    "language_forwards": 36,
+    "chunk_rule_calls_max": 612,
+    "generated_tokens": 0,
+    "model_loads": 1,
+    "wall_seconds": 600,
+    "retained_features_bytes": 8388608
+  },
+  "actual_forwards": {
+    "vision": 1,
+    "language": 36
+  },
+  "chunk_rule_calls": 34,
+  "candidate_projection_operations": 12,
+  "input_identity": {
+    "pixels_tokens_positions_types_equal": true,
+    "full_grid": [
+      [
+        2,
+        12,
+        16
+      ]
+    ],
+    "canvas": [
+      192,
+      256
+    ],
+    "real_frames": 4,
+    "padded_frames": 4,
+    "frame_ids": [
+      0,
+      30,
+      60,
+      90
+    ],
+    "timestamps": [
+      0.0,
+      1.001,
+      2.002,
+      3.003
+    ],
+    "frame_sha256": [
+      "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+      "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+      "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+      "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+    ],
+    "pairs": [
+      {
+        "frame_ids": [
+          0,
+          30
+        ],
+        "timestamps": [
+          0.0,
+          1.001
+        ],
+        "temporal_mean": 0.5005,
+        "rendered_timestamp": "0.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          15,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          60,
+          90
+        ],
+        "timestamps": [
+          2.002,
+          3.003
+        ],
+        "temporal_mean": 2.5025,
+        "rendered_timestamp": "2.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          17,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      }
+    ],
+    "full_fingerprint": "7bc2d951d3b23a16c5be64fcf977c1a4cd02bdab6dc4fb9c0aef2f6df24d6b11"
+  },
+  "modes": [
+    {
+      "chunk_size": 64,
+      "numeric": {
+        "increment_vs_own_full": {
+          "logits": {
+            "max_abs_diff": 1.7881393432617188e-07,
+            "mean_abs_diff": 6.123821005843411e-09,
+            "rms_diff": 1.0183286214271448e-08,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "final_states": {
+            "key_cache": {
+              "populated_layers": 1,
+              "max_abs_diff": 5.960464477539062e-07,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "value_cache": {
+              "populated_layers": 1,
+              "max_abs_diff": 4.470348358154297e-08,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "conv_states": {
+              "populated_layers": 1,
+              "max_abs_diff": 0.0,
+              "all_tensors_bitwise_equal": true,
+              "allclose_1e4": true
+            },
+            "recurrent_states": {
+              "populated_layers": 1,
+              "max_abs_diff": 1.8044374883174896e-09,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            }
+          },
+          "passed": true
+        }
+      },
+      "samples": [
+        {
+          "iteration": 1,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 102.39120000005641
+          },
+          "prompt": {
+            "wall_ms": 6.581100000403239
+          },
+          "first_pair": {
+            "wall_ms": 23.914800000056857
+          },
+          "second_pair": {
+            "wall_ms": 23.041399999783607
+          },
+          "increment_total": {
+            "wall_ms": 53.537300000243704
+          }
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 69.27399999949557
+          },
+          "prompt": {
+            "wall_ms": 6.75039999987348
+          },
+          "first_pair": {
+            "wall_ms": 27.48979999887524
+          },
+          "second_pair": {
+            "wall_ms": 27.964999999312568
+          },
+          "increment_total": {
+            "wall_ms": 62.20519999806129
+          }
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 59.94480000117619
+          },
+          "prompt": {
+            "wall_ms": 6.667199999355944
+          },
+          "first_pair": {
+            "wall_ms": 28.562699999383767
+          },
+          "second_pair": {
+            "wall_ms": 27.39119999932882
+          },
+          "increment_total": {
+            "wall_ms": 62.62109999806853
+          }
+        }
+      ],
+      "warmup_excluded": {
+        "iteration": 0,
+        "warmup": true,
+        "full_prefix": {
+          "wall_ms": 65.35669999902893
+        },
+        "prompt": {
+          "wall_ms": 6.702200000290759
+        },
+        "first_pair": {
+          "wall_ms": 67.93819999984407
+        },
+        "second_pair": {
+          "wall_ms": 26.777799999763374
+        },
+        "warmup_question": {
+          "wall_ms": 14.95729999987816
+        },
+        "warmup_fixed_token": {
+          "wall_ms": 2.632199999425211
+        }
+      },
+      "stage_summary_ms": {
+        "full_prefix": {
+          "wall_ms": {
+            "median": 69.27399999949557,
+            "min": 59.94480000117619,
+            "max": 102.39120000005641
+          }
+        },
+        "prompt": {
+          "wall_ms": {
+            "median": 6.667199999355944,
+            "min": 6.581100000403239,
+            "max": 6.75039999987348
+          }
+        },
+        "first_pair": {
+          "wall_ms": {
+            "median": 27.48979999887524,
+            "min": 23.914800000056857,
+            "max": 28.562699999383767
+          }
+        },
+        "second_pair": {
+          "wall_ms": {
+            "median": 27.39119999932882,
+            "min": 23.041399999783607,
+            "max": 27.964999999312568
+          }
+        },
+        "increment_total": {
+          "wall_ms": {
+            "median": 62.20519999806129,
+            "min": 53.537300000243704,
+            "max": 62.62109999806853
+          }
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            [
+              1,
+              1,
+              115,
+              16
+            ]
+          ],
+          "bytes": 7360
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            [
+              1,
+              1,
+              115,
+              16
+            ]
+          ],
+          "bytes": 7360
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              96,
+              4
+            ],
+            null
+          ],
+          "bytes": 1536
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              2,
+              16,
+              16
+            ],
+            null
+          ],
+          "bytes": 2048
+        },
+        "total_tensor_bytes": 18304,
+        "seq_length": 115
+      },
+      "chunk_rule_calls": 17
+    },
+    {
+      "chunk_size": 32,
+      "numeric": {
+        "increment_vs_own_full": {
+          "logits": {
+            "max_abs_diff": 1.7881393432617188e-07,
+            "mean_abs_diff": 5.787271994961429e-09,
+            "rms_diff": 9.82320713660556e-09,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "final_states": {
+            "key_cache": {
+              "populated_layers": 1,
+              "max_abs_diff": 5.960464477539062e-07,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "value_cache": {
+              "populated_layers": 1,
+              "max_abs_diff": 4.470348358154297e-08,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "conv_states": {
+              "populated_layers": 1,
+              "max_abs_diff": 0.0,
+              "all_tensors_bitwise_equal": true,
+              "allclose_1e4": true
+            },
+            "recurrent_states": {
+              "populated_layers": 1,
+              "max_abs_diff": 4.656612873077393e-10,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            }
+          },
+          "passed": true
+        },
+        "full32_vs_full64_all_logits": {
+          "logits": {
+            "max_abs_diff": 1.4901161193847656e-07,
+            "mean_abs_diff": 3.658699121444897e-09,
+            "rms_diff": 7.914816357867949e-09,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "final_states": {
+            "key_cache": {
+              "populated_layers": 1,
+              "max_abs_diff": 4.76837158203125e-07,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "value_cache": {
+              "populated_layers": 1,
+              "max_abs_diff": 2.9802322387695312e-08,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "conv_states": {
+              "populated_layers": 1,
+              "max_abs_diff": 0.0,
+              "all_tensors_bitwise_equal": true,
+              "allclose_1e4": true
+            },
+            "recurrent_states": {
+              "populated_layers": 1,
+              "max_abs_diff": 1.3387762010097504e-09,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            }
+          },
+          "passed": true
+        },
+        "question32_vs_question64": {
+          "logits": {
+            "max_abs_diff": 1.1920928955078125e-07,
+            "mean_abs_diff": 4.784414198155673e-09,
+            "rms_diff": 8.278037810782735e-09,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "passed": true
+        },
+        "fixed_token32_vs_fixed_token64": {
+          "logits": {
+            "max_abs_diff": 5.960464477539063e-08,
+            "mean_abs_diff": 1.4551586602351563e-09,
+            "rms_diff": 4.15462020342261e-09,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "final_states": {
+            "key_cache": {
+              "populated_layers": 1,
+              "max_abs_diff": 4.76837158203125e-07,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "value_cache": {
+              "populated_layers": 1,
+              "max_abs_diff": 2.9802322387695312e-08,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "conv_states": {
+              "populated_layers": 1,
+              "max_abs_diff": 0.0,
+              "all_tensors_bitwise_equal": true,
+              "allclose_1e4": true
+            },
+            "recurrent_states": {
+              "populated_layers": 1,
+              "max_abs_diff": 5.820766091346741e-11,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            }
+          },
+          "passed": true
+        }
+      },
+      "samples": [
+        {
+          "iteration": 1,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 49.05019999932847
+          },
+          "prompt": {
+            "wall_ms": 5.629000001135864
+          },
+          "first_pair": {
+            "wall_ms": 22.930799999812734
+          },
+          "second_pair": {
+            "wall_ms": 23.242400000526686
+          },
+          "increment_total": {
+            "wall_ms": 51.802200001475285
+          }
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 48.7477000006038
+          },
+          "prompt": {
+            "wall_ms": 5.0212999994982965
+          },
+          "first_pair": {
+            "wall_ms": 23.554500001409906
+          },
+          "second_pair": {
+            "wall_ms": 22.482399999717018
+          },
+          "increment_total": {
+            "wall_ms": 51.05820000062522
+          }
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 48.20380000091973
+          },
+          "prompt": {
+            "wall_ms": 5.416699999841512
+          },
+          "first_pair": {
+            "wall_ms": 23.14029999979539
+          },
+          "second_pair": {
+            "wall_ms": 22.352099998897756
+          },
+          "increment_total": {
+            "wall_ms": 50.90909999853466
+          }
+        }
+      ],
+      "warmup_excluded": {
+        "iteration": 0,
+        "warmup": true,
+        "full_prefix": {
+          "wall_ms": 59.9357000010059
+        },
+        "prompt": {
+          "wall_ms": 5.347500000425498
+        },
+        "first_pair": {
+          "wall_ms": 24.077899999610963
+        },
+        "second_pair": {
+          "wall_ms": 22.946800001591328
+        },
+        "warmup_question": {
+          "wall_ms": 18.203500001618522
+        },
+        "warmup_fixed_token": {
+          "wall_ms": 2.9431000002659857
+        }
+      },
+      "stage_summary_ms": {
+        "full_prefix": {
+          "wall_ms": {
+            "median": 48.7477000006038,
+            "min": 48.20380000091973,
+            "max": 49.05019999932847
+          }
+        },
+        "prompt": {
+          "wall_ms": {
+            "median": 5.416699999841512,
+            "min": 5.0212999994982965,
+            "max": 5.629000001135864
+          }
+        },
+        "first_pair": {
+          "wall_ms": {
+            "median": 23.14029999979539,
+            "min": 22.930799999812734,
+            "max": 23.554500001409906
+          }
+        },
+        "second_pair": {
+          "wall_ms": {
+            "median": 22.482399999717018,
+            "min": 22.352099998897756,
+            "max": 23.242400000526686
+          }
+        },
+        "increment_total": {
+          "wall_ms": {
+            "median": 51.05820000062522,
+            "min": 50.90909999853466,
+            "max": 51.802200001475285
+          }
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            [
+              1,
+              1,
+              115,
+              16
+            ]
+          ],
+          "bytes": 7360
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            [
+              1,
+              1,
+              115,
+              16
+            ]
+          ],
+          "bytes": 7360
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              96,
+              4
+            ],
+            null
+          ],
+          "bytes": 1536
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              2,
+              16,
+              16
+            ],
+            null
+          ],
+          "bytes": 2048
+        },
+        "total_tensor_bytes": 18304,
+        "seq_length": 115
+      },
+      "chunk_rule_calls": 17
+    }
+  ],
+  "retained_feature_bytes": 12288,
+  "feature_sha256": "2813708c9d687d8af69e06bf20e0616f4e890fa9fb5a76c250ba2f4724632e61",
+  "all_strict_controls_passed": true,
+  "two_question_branches_main_unchanged_bitwise": true,
+  "scope": "tiny CPU contract, no official capability/speed evidence",
+  "hooks_methods_callables_restored": true,
+  "budget_exception_restored": true,
+  "real_config_budget_check": {
+    "gdn_layers": 18,
+    "multitoken_calls": 34,
+    "expected_core_calls": 612
+  }
+}

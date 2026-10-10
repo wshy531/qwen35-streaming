@@ -1,0 +1,18 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 18071.32it/s]
+{'prefix_frames': 2, 'math_passed': True, 'answer': 'CAT\n'}
+{'prefix_frames': 4, 'math_passed': False, 'answer': 'ONE\n'}
+{'all_interface_numeric_groups_passed': False, 'actual_forwards': {'language': 31, 'vision': 8}, 'generated_tokens': 16, 'wall_seconds_including_load': 6.310401900002034, 'peak_allocated_gib': 3.8392457962036133, 'peak_reserved_gib': 4.365234375}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\online_experiment.py", line 302, in <module>
+    main()
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\online_experiment.py", line 293, in main
+    (preflight if args.stage == "preflight" else gpu)(args.out,args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\online_experiment.py", line 269, in gpu
+    raise RuntimeError("Online registered interfaces/numerics failed; retain evidence")
+RuntimeError: Online registered interfaces/numerics failed; retain evidence

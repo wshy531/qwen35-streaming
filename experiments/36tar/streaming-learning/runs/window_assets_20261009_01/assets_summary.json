@@ -1,0 +1,46 @@
+{
+  "source": "self-generated synthetic, not a benchmark",
+  "fps": 1,
+  "videos": [
+    {
+      "id": "same_prefix_future_blue",
+      "file": "same_prefix_future_blue.mp4",
+      "colors": [
+        "red",
+        "red",
+        "blue",
+        "blue",
+        "green",
+        "green",
+        "yellow",
+        "yellow",
+        "red",
+        "red",
+        "blue",
+        "blue"
+      ],
+      "sha256": "b3e9ec82238bbef4d74b4bbb92b76b1aa75c05197db45ef961685f711e8f9fee",
+      "frames": 12
+    },
+    {
+      "id": "same_prefix_future_green",
+      "file": "same_prefix_future_green.mp4",
+      "colors": [
+        "red",
+        "red",
+        "green",
+        "green",
+        "blue",
+        "blue",
+        "yellow",
+        "yellow",
+        "red",
+        "red",
+        "green",
+        "green"
+      ],
+      "sha256": "7133d06cfd96a15d2caf28fae4718f96b3f78e87b26bd69a95777adecace99b9",
+      "frames": 12
+    }
+  ]
+}

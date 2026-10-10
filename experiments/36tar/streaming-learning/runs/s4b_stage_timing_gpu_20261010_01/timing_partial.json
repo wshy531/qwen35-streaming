@@ -1,0 +1,288 @@
+{
+  "samples": [
+    {
+      "iteration": 1,
+      "warmup": false,
+      "candidate_install": {
+        "wall_ms": 0.2715999999054475,
+        "cuda_event_ms": 0.24726399779319763
+      },
+      "vision_candidate_pairs2plus2": {
+        "wall_ms": 20.286400000259164,
+        "cuda_event_ms": 20.27123260498047
+      },
+      "vision_candidate_full4": {
+        "wall_ms": 17.25350000015169,
+        "cuda_event_ms": 17.23904037475586
+      },
+      "candidate_restore": {
+        "wall_ms": 0.048800000513438135,
+        "cuda_event_ms": 0.03379200026392937
+      },
+      "vision_original_full4": {
+        "wall_ms": 15.456299999641487,
+        "cuda_event_ms": 15.444992065429688
+      },
+      "language_full_prefix": {
+        "wall_ms": 141.25459999922896,
+        "cuda_event_ms": 141.23724365234375
+      },
+      "language_prompt_init": {
+        "wall_ms": 115.28410000028089,
+        "cuda_event_ms": 115.24095916748047
+      },
+      "language_first_pair": {
+        "wall_ms": 127.83839999974589,
+        "cuda_event_ms": 127.82144165039062
+      },
+      "language_second_pair": {
+        "wall_ms": 134.5142999998643,
+        "cuda_event_ms": 134.49325561523438
+      },
+      "fork": {
+        "wall_ms": 0.4688000008172821,
+        "cuda_event_ms": 0.45260798931121826
+      },
+      "question_prefill": {
+        "wall_ms": 107.71729999942181,
+        "cuda_event_ms": 107.69817352294922
+      },
+      "fixed_single_token_continue": {
+        "wall_ms": 25.707599999805097,
+        "cuda_event_ms": 25.69113540649414
+      },
+      "reset": {
+        "wall_ms": 0.07300000106624793,
+        "cuda_event_ms": 0.0560000017285347
+      }
+    },
+    {
+      "iteration": 2,
+      "warmup": false,
+      "vision_original_full4": {
+        "wall_ms": 15.264100000422332,
+        "cuda_event_ms": 15.235872268676758
+      },
+      "candidate_install": {
+        "wall_ms": 0.1979000007850118,
+        "cuda_event_ms": 0.18348799645900726
+      },
+      "vision_candidate_full4": {
+        "wall_ms": 16.642399999909685,
+        "cuda_event_ms": 16.630592346191406
+      },
+      "vision_candidate_pairs2plus2": {
+        "wall_ms": 19.504300000335206,
+        "cuda_event_ms": 19.489791870117188
+      },
+      "candidate_restore": {
+        "wall_ms": 0.05129999954078812,
+        "cuda_event_ms": 0.03766399994492531
+      },
+      "language_full_prefix": {
+        "wall_ms": 147.21900000040478,
+        "cuda_event_ms": 147.20204162597656
+      },
+      "language_prompt_init": {
+        "wall_ms": 119.26049999965471,
+        "cuda_event_ms": 119.23455810546875
+      },
+      "language_first_pair": {
+        "wall_ms": 131.9855000001553,
+        "cuda_event_ms": 131.96485900878906
+      },
+      "language_second_pair": {
+        "wall_ms": 121.63469999904919,
+        "cuda_event_ms": 121.61219024658203
+      },
+      "fork": {
+        "wall_ms": 0.4389000005176058,
+        "cuda_event_ms": 0.4177919924259186
+      },
+      "question_prefill": {
+        "wall_ms": 105.99249999904714,
+        "cuda_event_ms": 105.9758071899414
+      },
+      "fixed_single_token_continue": {
+        "wall_ms": 25.33909999874595,
+        "cuda_event_ms": 25.327295303344727
+      },
+      "reset": {
+        "wall_ms": 0.07519999962823931,
+        "cuda_event_ms": 0.05820799991488457
+      }
+    },
+    {
+      "iteration": 3,
+      "warmup": false,
+      "candidate_install": {
+        "wall_ms": 0.27269999918644316,
+        "cuda_event_ms": 0.24857600033283234
+      },
+      "vision_candidate_pairs2plus2": {
+        "wall_ms": 19.925599999623955,
+        "cuda_event_ms": 19.910655975341797
+      },
+      "vision_candidate_full4": {
+        "wall_ms": 16.528699999980745,
+        "cuda_event_ms": 16.51081657409668
+      },
+      "candidate_restore": {
+        "wall_ms": 0.049500000386615284,
+        "cuda_event_ms": 0.03497600182890892
+      },
+      "vision_original_full4": {
+        "wall_ms": 14.843100001598941,
+        "cuda_event_ms": 14.831616401672363
+      },
+      "language_full_prefix": {
+        "wall_ms": 142.46599999933096,
+        "cuda_event_ms": 142.44557189941406
+      },
+      "language_prompt_init": {
+        "wall_ms": 124.11959999917599,
+        "cuda_event_ms": 124.08700561523438
+      },
+      "language_first_pair": {
+        "wall_ms": 135.06660000166448,
+        "cuda_event_ms": 135.04409790039062
+      },
+      "language_second_pair": {
+        "wall_ms": 122.88730000000214,
+        "cuda_event_ms": 122.85810852050781
+      },
+      "fork": {
+        "wall_ms": 0.5034999994677491,
+        "cuda_event_ms": 0.48844799399375916
+      },
+      "question_prefill": {
+        "wall_ms": 108.7442000007286,
+        "cuda_event_ms": 108.727294921875
+      },
+      "fixed_single_token_continue": {
+        "wall_ms": 25.716000000102213,
+        "cuda_event_ms": 25.699199676513672
+      },
+      "reset": {
+        "wall_ms": 0.07410000034724362,
+        "cuda_event_ms": 0.05663999915122986
+      }
+    },
+    {
+      "iteration": 4,
+      "warmup": false,
+      "vision_original_full4": {
+        "wall_ms": 15.18930000020191,
+        "cuda_event_ms": 15.157407760620117
+      },
+      "candidate_install": {
+        "wall_ms": 0.20880000010947697,
+        "cuda_event_ms": 0.1945600062608719
+      },
+      "vision_candidate_full4": {
+        "wall_ms": 16.71399999941059,
+        "cuda_event_ms": 16.702367782592773
+      },
+      "vision_candidate_pairs2plus2": {
+        "wall_ms": 21.684400000594906,
+        "cuda_event_ms": 21.66579246520996
+      },
+      "candidate_restore": {
+        "wall_ms": 0.04850000004807953,
+        "cuda_event_ms": 0.03478400036692619
+      },
+      "language_full_prefix": {
+        "wall_ms": 133.20370000110415,
+        "cuda_event_ms": 133.18655395507812
+      },
+      "language_prompt_init": {
+        "wall_ms": 131.91660000120464,
+        "cuda_event_ms": 131.88607788085938
+      },
+      "language_first_pair": {
+        "wall_ms": 125.21729999934905,
+        "cuda_event_ms": 125.18809509277344
+      },
+      "language_second_pair": {
+        "wall_ms": 120.00149999948917,
+        "cuda_event_ms": 119.97891235351562
+      },
+      "fork": {
+        "wall_ms": 0.4648000012821285,
+        "cuda_event_ms": 0.449535995721817
+      },
+      "question_prefill": {
+        "wall_ms": 106.74910000125237,
+        "cuda_event_ms": 106.73350524902344
+      },
+      "fixed_single_token_continue": {
+        "wall_ms": 25.63460000055784,
+        "cuda_event_ms": 25.61612892150879
+      },
+      "reset": {
+        "wall_ms": 0.07639999967068434,
+        "cuda_event_ms": 0.05939200147986412
+      }
+    }
+  ],
+  "warmup": {
+    "iteration": 0,
+    "warmup": true,
+    "vision_original_full4": {
+      "wall_ms": 236.73090000011143,
+      "cuda_event_ms": 227.10140991210938
+    },
+    "candidate_install": {
+      "wall_ms": 0.3756000005523674,
+      "cuda_event_ms": 0.35225600004196167
+    },
+    "vision_candidate_full4": {
+      "wall_ms": 20.217500001308508,
+      "cuda_event_ms": 20.204544067382812
+    },
+    "vision_candidate_pairs2plus2": {
+      "wall_ms": 23.470199999792385,
+      "cuda_event_ms": 23.451648712158203
+    },
+    "candidate_restore": {
+      "wall_ms": 0.09180000051856041,
+      "cuda_event_ms": 0.06774400174617767
+    },
+    "language_full_prefix": {
+      "wall_ms": 333.2585999996809,
+      "cuda_event_ms": 333.23602294921875
+    },
+    "language_prompt_init": {
+      "wall_ms": 149.23319999979867,
+      "cuda_event_ms": 149.2060089111328
+    },
+    "language_first_pair": {
+      "wall_ms": 148.98680000078457,
+      "cuda_event_ms": 148.96844482421875
+    },
+    "language_second_pair": {
+      "wall_ms": 117.73030000040308,
+      "cuda_event_ms": 117.7088623046875
+    },
+    "fork": {
+      "wall_ms": 1.1850999999296619,
+      "cuda_event_ms": 1.1571199893951416
+    },
+    "question_prefill": {
+      "wall_ms": 118.75490000056743,
+      "cuda_event_ms": 118.73587036132812
+    },
+    "fixed_single_token_continue": {
+      "wall_ms": 42.53140000037092,
+      "cuda_event_ms": 42.5081901550293
+    },
+    "reset": {
+      "wall_ms": 0.07870000081311446,
+      "cuda_event_ms": 0.06102399900555611
+    }
+  },
+  "actual_forwards": {
+    "vision": 21,
+    "language": 30
+  }
+}

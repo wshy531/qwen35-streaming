@@ -1,0 +1,19 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 15020.26it/s]
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'bf16_sdpa_frames2_subject', 'answer': 'CAT', 'generated_ids': [27280, 248046]}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'bf16_sdpa_frames2_hands_count', 'answer': 'ONE', 'generated_ids': [5059, 248046]}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'bf16_sdpa_frames4_subject', 'answer': 'HANDS', 'generated_ids': [72141, 50, 248046]}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'bf16_sdpa_frames4_hands_count', 'answer': 'ONE', 'generated_ids': [5059, 248046]}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'fp32_ieee_math_frames2_subject', 'answer': 'CAT', 'generated_ids': [27280, 248046]}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'fp32_ieee_math_frames2_hands_count', 'answer': 'ONE', 'generated_ids': [5059, 248046]}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'fp32_ieee_math_frames4_subject', 'answer': 'HANDS', 'generated_ids': [72141, 50, 248046]}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{'id': 'fp32_ieee_math_frames4_hands_count', 'answer': 'ONE', 'generated_ids': [5059, 248046]}
+{'actual_forwards': {'language': 18, 'vision': 8}, 'generated_tokens': 18, 'wall_seconds_including_load': 5.454097199999524}

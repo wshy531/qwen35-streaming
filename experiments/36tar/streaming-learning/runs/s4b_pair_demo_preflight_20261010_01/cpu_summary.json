@@ -1,0 +1,7 @@
+{
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "scope": "tiny FP32 weights; policy, not semantics"
+}

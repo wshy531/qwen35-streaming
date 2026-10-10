@@ -1,0 +1,5 @@
+{
+  "stage": "gpu",
+  "out": "E:\\VIT Model\\runs\\s4_layers_gpu_20261009_01",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B"
+}

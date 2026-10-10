@@ -1,0 +1,206 @@
+{
+  "sources": [
+    {
+      "source": "cat_play",
+      "video_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "frames": [
+        {
+          "frame_id": 0,
+          "source_pts": 0.0,
+          "decoded_count": 1,
+          "shape": [
+            256,
+            144,
+            3
+          ],
+          "rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8"
+        },
+        {
+          "frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "decoded_count": 31,
+          "shape": [
+            256,
+            144,
+            3
+          ],
+          "rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb"
+        },
+        {
+          "frame_id": 60,
+          "source_pts": 2.0,
+          "decoded_count": 61,
+          "shape": [
+            256,
+            144,
+            3
+          ],
+          "rgb_sha256": "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b"
+        },
+        {
+          "frame_id": 90,
+          "source_pts": 3.0,
+          "decoded_count": 91,
+          "shape": [
+            256,
+            144,
+            3
+          ],
+          "rgb_sha256": "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a"
+        },
+        {
+          "frame_id": 120,
+          "source_pts": 4.0,
+          "decoded_count": 121,
+          "shape": [
+            256,
+            144,
+            3
+          ],
+          "rgb_sha256": "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05"
+        },
+        {
+          "frame_id": 150,
+          "source_pts": 5.0,
+          "decoded_count": 151,
+          "shape": [
+            256,
+            144,
+            3
+          ],
+          "rgb_sha256": "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853"
+        }
+      ],
+      "derived_rgb_sha256": [
+        "d9a81eab1d83411836bd199abc88d8dbcc5fcf8aab54a74f373fbe4dec86309c",
+        "586fe639505acad3a64e9b726334fdafc6020d9c7578d353384bfe2d912fe678",
+        "13f94e756e88e322d0b73a11243550886e52bf291215b8b54198df1d2ec4d3be",
+        "a579491423d39f6d6ed02677d92337e2a9e6e74ce8986abc2985be01db350a35",
+        "00d0d59364f97538808b8129de50a52e8a6ea2ce3b3d830f9c46aa5bd82dcf09",
+        "5a650d38a8393e78c4ee79d5f01465064d84387a65f0ce039e15e70ea3723200"
+      ]
+    },
+    {
+      "source": "clean_hands",
+      "video_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+      "frames": [
+        {
+          "frame_id": 0,
+          "source_pts": 0.0,
+          "decoded_count": 1,
+          "shape": [
+            192,
+            256,
+            3
+          ],
+          "rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8"
+        },
+        {
+          "frame_id": 30,
+          "source_pts": 1.001,
+          "decoded_count": 31,
+          "shape": [
+            192,
+            256,
+            3
+          ],
+          "rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741"
+        },
+        {
+          "frame_id": 60,
+          "source_pts": 2.002,
+          "decoded_count": 61,
+          "shape": [
+            192,
+            256,
+            3
+          ],
+          "rgb_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632"
+        },
+        {
+          "frame_id": 90,
+          "source_pts": 3.003,
+          "decoded_count": 91,
+          "shape": [
+            192,
+            256,
+            3
+          ],
+          "rgb_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+        },
+        {
+          "frame_id": 120,
+          "source_pts": 4.004,
+          "decoded_count": 121,
+          "shape": [
+            192,
+            256,
+            3
+          ],
+          "rgb_sha256": "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5"
+        },
+        {
+          "frame_id": 150,
+          "source_pts": 5.005,
+          "decoded_count": 151,
+          "shape": [
+            192,
+            256,
+            3
+          ],
+          "rgb_sha256": "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3"
+        }
+      ],
+      "derived_rgb_sha256": [
+        "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+        "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+        "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+        "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+        "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5",
+        "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3"
+      ]
+    }
+  ],
+  "paired_pixel_controls": [
+    {
+      "cases": [
+        "cat_to_hands",
+        "hands_to_hands"
+      ],
+      "last_two_rgb_bitwise_equal": true,
+      "early_four_rgb_different": true
+    },
+    {
+      "cases": [
+        "hands_to_cat",
+        "cat_to_cat"
+      ],
+      "last_two_rgb_bitwise_equal": true,
+      "early_four_rgb_different": true
+    }
+  ],
+  "experimental_pts": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0
+  ],
+  "experimental_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "scope": "controlled in-memory splice, original frame IDs/PTS above; not continuous natural footage",
+  "fixture_source_sha256": "7d1e7b431b3241e167c7df3c57ae956616245775ded387f30a0e019649896801",
+  "contact_sheet_sha256": "6ce9db44f2e440e2dbf4a3eb6ed33cf411eeb24d57e9310778fa85f90e931724",
+  "layout_controls": {
+    "all_four_token_position_grid_layouts_bitwise_equal": true,
+    "paired_terminal_processor_pixels_bitwise_equal": true,
+    "paired_early_processor_pixels_different": true
+  }
+}

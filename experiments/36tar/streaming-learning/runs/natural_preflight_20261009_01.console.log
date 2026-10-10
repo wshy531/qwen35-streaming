@@ -1,0 +1,3 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"questions": 15, "pixel_references_match": 15, "position_oracles_pass": 15, "accepted_samples": {"cat_play": 9, "clean_hands": 23, "hands_vfr": 5}, "vfr_sampling_passed": true}

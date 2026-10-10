@@ -1,0 +1,25 @@
+{
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "branch": "36tar/s4-mixed-state",
+  "original_source_matches_normalized": true,
+  "baseline_preserved": "E:\\VIT Model\\code\\qwen35-streaming",
+  "s4_checkout": "E:\\VIT Model\\code\\qwen35-streaming-s4",
+  "carried_added_files": [
+    "requirements-baseline.lock.txt",
+    "SNAPSHOT.json",
+    "scripts\\baseline.py",
+    "scripts\\natural_experiment.py",
+    "scripts\\stability_experiment.py",
+    "scripts\\timestamp_diagnostic.py",
+    "scripts\\window_experiment.py",
+    "streaming\\inference.py",
+    "streaming\\inputs.py",
+    "streaming\\session.py",
+    "streaming\\window.py",
+    "streaming\\__init__.py",
+    "tests\\test_stream_session.py",
+    "tests\\test_stream_window.py"
+  ],
+  "remote_push": false,
+  "write_permission_confirmed": false
+}

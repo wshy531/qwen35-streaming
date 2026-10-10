@@ -1,0 +1,93 @@
+{
+  "retrieved_date": "2026-10-09",
+  "source": "Wikimedia Commons original real footage",
+  "videos": [
+    {
+      "id": "cat_play",
+      "file": "cat_play.webm",
+      "title": "Cat Plays.webm",
+      "author": "Riverarvi",
+      "page": "https://commons.wikimedia.org/wiki/File:Cat_Plays.webm",
+      "page_revision": "https://commons.wikimedia.org/w/index.php?title=File:Cat_Plays.webm&oldid=932108700",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Cat_Plays.webm",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "bytes": 2279724,
+      "expected_sha1": "9d3f2a0bd25a03b8938543eca96e9ce4a8d735d2",
+      "sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "local_changes": "original bytes unchanged; inference resizes RGB; audio ignored"
+    },
+    {
+      "id": "clean_hands",
+      "file": "clean_hands.webm",
+      "title": "Clean hands short.webm",
+      "author": "Centers for Disease Control and Prevention",
+      "page": "https://commons.wikimedia.org/wiki/File:Clean_hands_short.webm",
+      "page_revision": "https://commons.wikimedia.org/w/index.php?title=File:Clean_hands_short.webm&oldid=1260648365",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Clean_hands_short.webm",
+      "license": "Public domain (US federal work), Commons PDM 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "bytes": 4172129,
+      "expected_sha1": "086c61006e3b38bb0aed44d8f5e8b25ba6989bf5",
+      "sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+      "local_changes": "original bytes unchanged; inference resizes RGB; audio ignored"
+    }
+  ],
+  "not_a_benchmark": true,
+  "derived_videos": [
+    {
+      "id": "hands_vfr",
+      "file": "hands_vfr.mp4",
+      "author": "local derivative of CDC footage",
+      "license": "Public domain (US federal work), Commons PDM 1.0",
+      "source_file": "clean_hands.webm",
+      "source_frames": [
+        {
+          "frame_id": 300,
+          "timestamp": 10.01
+        },
+        {
+          "frame_id": 330,
+          "timestamp": 11.011
+        },
+        {
+          "frame_id": 360,
+          "timestamp": 12.012
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013
+        },
+        {
+          "frame_id": 420,
+          "timestamp": 14.014
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015
+        },
+        {
+          "frame_id": 480,
+          "timestamp": 16.016
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017
+        }
+      ],
+      "declared_display_pts_ms": [
+        0,
+        400,
+        1500,
+        1600,
+        3100,
+        4700,
+        6000,
+        6500
+      ],
+      "bytes": 243583,
+      "sha256": "bcd07c5f63079e09bb346bf7974dd0cf4f01427970e4beb4e1ceda3efbe7f577",
+      "local_changes": "8 already-sampled resized RGB frames re-encoded H264 yuv444p CRF0; controlled irregular display PTS; no audio"
+    }
+  ]
+}

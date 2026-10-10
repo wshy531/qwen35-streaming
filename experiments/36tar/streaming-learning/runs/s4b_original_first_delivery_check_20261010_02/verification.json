@@ -1,0 +1,42 @@
+{
+  "four_original_controls_verified": true,
+  "all_input_and_source_hashes_verified": true,
+  "budget_decode_positions_eos_and_cleanup_verified": true,
+  "old_first_failure_preserved": true,
+  "old_49_sources_unchanged_except_report": true,
+  "original_baseline_files_unchanged": 15,
+  "four_negative_launch_gates_verified": true,
+  "utf8_and_bf16_recording_failures_preserved": true,
+  "source_files": 50,
+  "no_inference_in_audit": true,
+  "answers": [
+    {
+      "id": "bf16_sdpa_hands_to_cat",
+      "answer": "CAT",
+      "target": "HANDS",
+      "correct": false
+    },
+    {
+      "id": "bf16_sdpa_cat_to_cat",
+      "answer": "CAT",
+      "target": "CAT",
+      "correct": true
+    },
+    {
+      "id": "fp32_ieee_math_hands_to_cat",
+      "answer": "CAT",
+      "target": "HANDS",
+      "correct": false
+    },
+    {
+      "id": "fp32_ieee_math_cat_to_cat",
+      "answer": "CAT",
+      "target": "CAT",
+      "correct": true
+    }
+  ],
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "commit_created": false,
+  "remote_push": false
+}

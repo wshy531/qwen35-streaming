@@ -1,0 +1,6 @@
+{
+  "model_variable_deleted": true,
+  "scope": "on exception traceback can retain tensors until process exit; report counters, not zero-memory claim",
+  "cuda_allocated_bytes_after_release": 9568256,
+  "cuda_reserved_bytes_after_release": 23068672
+}

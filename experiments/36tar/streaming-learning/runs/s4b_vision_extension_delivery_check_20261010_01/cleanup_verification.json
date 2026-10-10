@@ -1,0 +1,40 @@
+{
+  "removed": [
+    {
+      "path": "E:\\VIT Model\\runs\\s4b_vision_expand_gpu_20261010_01\\expansion_partial.json",
+      "bytes": 57758,
+      "sha256": "1055a158b6f90164d760d9267a0afa00d4a6db93f537420f976c5a36dcb89980",
+      "final_summary_covers_content": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\s4b_stage_timing_gpu_20261010_02\\timing_partial.json",
+      "bytes": 10185,
+      "sha256": "f766d1a35d2eb032918fd6726d0ba24841bd9580262c2b7ed7787c276f1e086c",
+      "final_summary_covers_content": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\s4b_chunk_probe_gpu_20261010_02\\chunk_probe_partial.json",
+      "bytes": 19443,
+      "sha256": "6692205df08eaecf6cce5bd328dbd93b8169f2bd256d9e465250f095177a34b0",
+      "final_summary_covers_content": true
+    },
+    {
+      "path": "E:\\VIT Model\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\vision_expand.cpython-312.pyc",
+      "bytes": 21527,
+      "regenerable_bytecode": true
+    },
+    {
+      "path": "E:\\VIT Model\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\stage_timing.cpython-312.pyc",
+      "bytes": 26076,
+      "regenerable_bytecode": true
+    },
+    {
+      "path": "E:\\VIT Model\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\chunk_size_probe.cpython-312.pyc",
+      "bytes": 25164,
+      "regenerable_bytecode": true
+    }
+  ],
+  "removed_bytes": 160153,
+  "failed_timing_partial_preserved": true,
+  "all_failures_and_snapshots_preserved": true
+}

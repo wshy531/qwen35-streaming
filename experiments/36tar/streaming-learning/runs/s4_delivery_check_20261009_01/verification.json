@@ -1,0 +1,22 @@
+{
+  "original_baseline_files_unchanged": 15,
+  "normalized_original_files_modified_in_s4": [
+    "THIRD_PARTY_NOTICES.md",
+    "qwen35_local/modeling_qwen3_5.py"
+  ],
+  "matched_run_code_hash_counts": {
+    "s4_cpu_20261009_01": 22,
+    "s4_preflight_20261009_01": 23,
+    "s4_gpu_20261009_01": 23,
+    "s4_after_20261009_01": 23
+  },
+  "gpu_input_fingerprints_match_preflight": true,
+  "gpu_numerical_failure_preserved": true,
+  "seven_comparison_groups_passed": 1,
+  "fork_reset_capacity_management_passed": true,
+  "two_precision_script_revisions_hash_verified": true,
+  "changed_video_rejected_before_run": true,
+  "no_model_forward_no_extra_gpu": true,
+  "source_tree_sha256": "281d32dc4dae4da14dce94eea0db6ecb618e11adfc869d49ee1990f9254c48a4",
+  "tracked_patch_sha256": "804dc675a2a65bb4e258c943e9a824f41a8a23f429cade4326009573e597bda1"
+}

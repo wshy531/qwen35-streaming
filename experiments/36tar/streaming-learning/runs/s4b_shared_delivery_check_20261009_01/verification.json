@@ -1,0 +1,20 @@
+{
+  "shared_strict_five_of_five_verified": true,
+  "different_vision_two_failures_preserved": true,
+  "old_online_error_reproduced_exactly": true,
+  "old_five_of_eight_failure_preserved": true,
+  "eos_real_two_answers_stop_verified": true,
+  "cat_one_semantic_failures_preserved": true,
+  "original_42_executable_sources_unchanged": true,
+  "baseline_files_unchanged": 15,
+  "all_model_assets_sha_verified": 10,
+  "provenance_inputs_budget_verified": true,
+  "negative_budget_and_source_gates_verified_before_launch": true,
+  "no_inference_in_audit": true,
+  "first_cpu_child_success_outer_display_error_separated": true,
+  "source_files": 43,
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "commit_created": false,
+  "remote_push": false
+}

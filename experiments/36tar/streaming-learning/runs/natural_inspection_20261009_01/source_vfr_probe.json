@@ -1,0 +1,59 @@
+{
+  "stream": {
+    "codec": "h264",
+    "time_base": "1/16000",
+    "average_rate": "128000/104533"
+  },
+  "decoded_frames": 8,
+  "raw_pts": [
+    {
+      "frame_id": 0,
+      "pts": 0,
+      "time_base": "1/16000",
+      "time_seconds": 0.0
+    },
+    {
+      "frame_id": 1,
+      "pts": 6400,
+      "time_base": "1/16000",
+      "time_seconds": 0.4
+    },
+    {
+      "frame_id": 2,
+      "pts": 24000,
+      "time_base": "1/16000",
+      "time_seconds": 1.5
+    },
+    {
+      "frame_id": 3,
+      "pts": 25600,
+      "time_base": "1/16000",
+      "time_seconds": 1.6
+    },
+    {
+      "frame_id": 4,
+      "pts": 49600,
+      "time_base": "1/16000",
+      "time_seconds": 3.1
+    },
+    {
+      "frame_id": 5,
+      "pts": 75200,
+      "time_base": "1/16000",
+      "time_seconds": 4.7
+    },
+    {
+      "frame_id": 6,
+      "pts": 96000,
+      "time_base": "1/16000",
+      "time_seconds": 6.0
+    },
+    {
+      "frame_id": 7,
+      "pts": 104000,
+      "time_base": "1/16000",
+      "time_seconds": 6.5
+    }
+  ],
+  "source": "explicit controlled derivative, not native VFR camera"
+}

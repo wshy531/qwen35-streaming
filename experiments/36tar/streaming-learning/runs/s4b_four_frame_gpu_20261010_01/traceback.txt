@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\four_frame_online.py", line 226, in main
+    (preflight if args.stage == "preflight" else gpu)(args.out,args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\four_frame_online.py", line 201, in gpu
+    report = controls(model,processor,reader,(192,256),out=out,proof=proof)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\four_frame_online.py", line 80, in controls
+    assert torch.equal(qinputs.input_ids,torch.cat((inputs.input_ids,first_evidence["suffix_ids"]),1))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected all tensors to be on the same device, but got tensors is on cpu, different from other tensors on cuda:0 (when checking argument in method wrapper_CUDA_cat)

@@ -1,0 +1,120 @@
+{
+  "groups": [
+    {
+      "id": "short_2_rest",
+      "input": "short_text",
+      "chunks": [
+        2,
+        18
+      ]
+    },
+    {
+      "id": "short_1_rest",
+      "input": "short_text",
+      "chunks": [
+        1,
+        19
+      ]
+    },
+    {
+      "id": "long_63_1_rest",
+      "input": "long_text",
+      "chunks": [
+        63,
+        1,
+        34
+      ]
+    },
+    {
+      "id": "video_2_rest",
+      "input": "video",
+      "chunks": [
+        2,
+        147
+      ]
+    },
+    {
+      "id": "video_inside_visual",
+      "input": "video",
+      "chunks": [
+        11,
+        7,
+        131
+      ]
+    },
+    {
+      "id": "video_64_rest",
+      "input": "video",
+      "chunks": [
+        64,
+        85
+      ]
+    },
+    {
+      "id": "video_last_single",
+      "input": "video",
+      "chunks": [
+        148,
+        1
+      ]
+    }
+  ],
+  "extra_groups": [
+    "fork_isolation",
+    "reset",
+    "capacity_rejection"
+  ],
+  "total_groups": 10,
+  "scope": "CPU input/position preflight; not official-weight inference",
+  "tiny_position_adapter": {
+    "adapter": "upstream_44474_input_positions",
+    "position_grid": [
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "vision_grid_unchanged": [
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "rope_delta": [
+      [
+        0
+      ]
+    ],
+    "position_shape": [
+      4,
+      1,
+      9
+    ],
+    "coordinate_oracle_matches": true,
+    "temporal_groups": 2,
+    "local_upstream_max_logit_error": 0.0,
+    "tiny_generation_tokens": 3
+  },
+  "video_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "input_fingerprints": {
+    "short_text": "7b5b654e5cd2e7c32dd9e9dd1171d2ff5849c2cd0c458deb0c258c6b2f374bf8",
+    "long_text": "bff1dc188dc03b273eceac9ca7fd134e84482372e1e9739077e351e1f068238c",
+    "video": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931"
+  },
+  "input_tokens": {
+    "short_text": 20,
+    "long_text": 98,
+    "video": 149
+  },
+  "max_sequence_tokens": 256,
+  "wall_seconds": 600,
+  "generated_tokens": 0
+}

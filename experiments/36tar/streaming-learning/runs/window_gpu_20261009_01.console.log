@@ -1,0 +1,26 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 7876.92it/s]
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_blue", "cutoff": 1.0, "ids": [0, 1], "answer": " red\n", "expected": "red"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_blue", "cutoff": 3.0, "ids": [0, 1, 2, 3], "answer": "blue\n", "expected": "blue"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_blue", "cutoff": 5.0, "ids": [2, 3, 4, 5], "answer": "green\n", "expected": "green"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_blue", "cutoff": 7.0, "ids": [4, 5, 6, 7], "answer": "yellow\n", "expected": "yellow"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_blue", "cutoff": 9.0, "ids": [6, 7, 8, 9], "answer": "red\n", "expected": "red"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_blue", "cutoff": 11.0, "ids": [8, 9, 10, 11], "answer": "blue\n", "expected": "blue"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_green", "cutoff": 1.0, "ids": [0, 1], "answer": " red\n", "expected": "red"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_green", "cutoff": 3.0, "ids": [0, 1, 2, 3], "answer": "green\n", "expected": "green"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_green", "cutoff": 5.0, "ids": [2, 3, 4, 5], "answer": "blue\n", "expected": "blue"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_green", "cutoff": 7.0, "ids": [4, 5, 6, 7], "answer": "yellow\n", "expected": "yellow"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_green", "cutoff": 9.0, "ids": [6, 7, 8, 9], "answer": "red\n", "expected": "red"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"video": "same_prefix_future_green", "cutoff": 11.0, "ids": [8, 9, 10, 11], "answer": "green\n", "expected": "green"}

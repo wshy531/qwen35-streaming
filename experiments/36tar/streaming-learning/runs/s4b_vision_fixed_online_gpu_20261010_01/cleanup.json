@@ -1,0 +1,5 @@
+{
+  "cuda_allocated_bytes_after_return": 9568256,
+  "cuda_reserved_bytes_after_return": 23068672,
+  "control_frame_returned": true
+}

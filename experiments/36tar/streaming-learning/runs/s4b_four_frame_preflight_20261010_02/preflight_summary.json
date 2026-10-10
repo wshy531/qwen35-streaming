@@ -1,0 +1,31 @@
+{
+  "cpu_controls_passed": true,
+  "cpu_groups": 4,
+  "hooks_cleanup_verified": true,
+  "budget": {
+    "groups": 4,
+    "max_tokens": 256,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 32,
+    "language_forwards_max": 43,
+    "vision_encodings": 4,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "input_fingerprints": {
+    "prefix4": "7bc2d951d3b23a16c5be64fcf977c1a4cd02bdab6dc4fb9c0aef2f6df24d6b11",
+    "question4_subject": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931"
+  },
+  "expected_original_ids": [
+    72141,
+    50,
+    248046
+  ],
+  "expected_original_answer": "HANDS",
+  "original_gpu_summary_sha256": "304de3fc9c168060c540d06d3089fcc9a766879a0277253ddc316858d47ae37a",
+  "video_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "all_model_assets_verified": 10,
+  "plan_sha256": "e3b99cbb5a78f1d27ed381800fc2cdc40d9fe58a238469a1fec57aacb6672c0d",
+  "launcher_sha256": "7948d46da5c3291f5722c008ab2985d74c6a2d564613504348bb31074230bad1"
+}

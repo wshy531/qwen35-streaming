@@ -1,0 +1,54 @@
+{
+  "four_gpu_runs_completed": true,
+  "six_cpu_runs_completed": true,
+  "changed_self_versions_preserved": [
+    "s4b_vision_fixed_preflight_20261010_01",
+    "s4b_vision_fixed_online_preflight_20261010_01"
+  ],
+  "source_files": 57,
+  "old_source_files_unchanged": 52,
+  "original_reference_files_unchanged": 15,
+  "model_assets_sha_verified": 10,
+  "negative_launch_gates": [
+    {
+      "case": "wrong_vision_budget",
+      "exit_code": 2,
+      "rejected_before_log_or_gpu": true
+    },
+    {
+      "case": "wrong_qkv_budget",
+      "exit_code": 2,
+      "rejected_before_log_or_gpu": true
+    },
+    {
+      "case": "changed_source",
+      "exit_code": 2,
+      "rejected_before_log_or_gpu": true
+    },
+    {
+      "case": "changed_cpu",
+      "exit_code": 2,
+      "rejected_before_log_or_gpu": true
+    },
+    {
+      "case": "changed_input",
+      "exit_code": 2,
+      "rejected_before_log_or_gpu": true
+    },
+    {
+      "case": "changed_plan",
+      "exit_code": 2,
+      "rejected_before_log_or_gpu": true
+    }
+  ],
+  "explicit_candidate_online_eight_strict_passed": true,
+  "original_default_and_semantic_failures_preserved": true,
+  "memory_bounds_checked": true,
+  "temporary_files_removed": 7,
+  "temporary_bytes_removed": 257366,
+  "branch": "36tar/s4-mixed-state",
+  "new_gpu_in_audit": 0,
+  "remote_commands": 0,
+  "training": 0,
+  "push": false
+}

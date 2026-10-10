@@ -1,0 +1,7 @@
+{
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "status": " M THIRD_PARTY_NOTICES.md\n M qwen35_local/modeling_qwen3_5.py\n?? S4_A.md\n?? SNAPSHOT.json\n?? requirements-baseline.lock.txt\n?? scripts/baseline.py\n?? scripts/chunk_experiment.py\n?? scripts/chunk_weight_check.py\n?? scripts/natural_experiment.py\n?? scripts/precision_diagnostic_cpu.py\n?? scripts/precision_layers.py\n?? scripts/precision_recurrence_cpu.py\n?? scripts/stability_experiment.py\n?? scripts/timestamp_diagnostic.py\n?? scripts/window_experiment.py\n?? streaming/\n?? tests/test_mixed_state.py\n?? tests/test_recurrent_reference.py\n?? tests/test_stream_session.py\n?? tests/test_stream_window.py\n",
+  "commit_created": false,
+  "remote_push": false
+}

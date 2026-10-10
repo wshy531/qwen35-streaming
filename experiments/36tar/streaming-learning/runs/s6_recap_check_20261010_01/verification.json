@@ -1,0 +1,34 @@
+{
+  "recap_sha256": "e2c0b1df2a510c81ae469c5ffb4da6c6597a05597e91163645d133e3ad3991b9",
+  "source_files_unchanged": 52,
+  "evidence_and_reference_hashes": {
+    "runs\\s4_fp32_regression_gpu_20261009_01\\fp32_regression_summary.json": "14580cc83181e8dd821030f067fa07eccb3ce53a3d8f3a48cf6aabde5513faac",
+    "runs\\s4b_shared_gpu_20261009_01\\shared_features_summary.json": "bb61e1d3220fdd483706366ba68a167e275c147a0fdd22b3d7824574e477e198",
+    "runs\\s4b_pair_demo_gpu_20261010_01\\pair_demo_summary.json": "14f3e796e9816d39278ae9eee6d3c49734a5e8236657154ef562359af8fe368f",
+    "runs\\s4b_scene_pairs_gpu_20261010_01\\scene_pair_summary.json": "95cea47ed893ef97930d9c59fef8803d470833d1daf8a1919ba4af3af5bcdb98",
+    "runs\\s4b_equal_tail_gpu_20261010_01\\equal_tail_summary.json": "8d55b6b3d5954a014dcfcc5978d85da6e335359691543570e81e7d66a56bffd3",
+    "FP32混合状态回归结果.md": "54576e32049f1e81661fcb7e68f70a422c8e047189378333f0b5851ae3ac5c15",
+    "逐层精度诊断与递归参考结果.md": "c3416195bfcfa5bc0c6fe236b3c529a349cf0d4dbe4b79b965f2486544a4fd80",
+    "共享视觉特征控制结果与复现.md": "742c07b13ee7dcf4c051eb685a3b417023d3627a20bc5dd6b7ba69d2269a2f95",
+    "同步成对帧演示结果与复现.md": "0b568ef4be71a073de7cc4907be5d51ddd85bd911da4ecf50be59b4470c90727",
+    "自然视频结果与复现.md": "e9a6e3873437f4c72e0110448b3ef0f431c2ea649d319b5c6b812c9eb4c56daf",
+    "长运行与重置结果.md": "4adb10bc6fc54b28b9378c4f204830db1813551de91dde3579c0d7ef14418415",
+    "原模型六帧等长末尾对照结果.md": "68138cc7c4bdf0d272cf018f1a2e2f80fed764fb431d434b275b77d5972fc8e1"
+  },
+  "two_absolute_document_links_valid": true,
+  "one_mermaid_block_fenced": true,
+  "eleven_unresolved_items_classified": true,
+  "core_existing_status_and_first_counterexample_checked": true,
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "origin": "https://github.com/wshy531/qwen35-streaming.git",
+  "git_identity_configured": {
+    "user.name": false,
+    "user.email": false
+  },
+  "new_model_inference": false,
+  "new_gpu_runs": 0,
+  "new_training": 0,
+  "remote_commands": 0,
+  "push": false
+}

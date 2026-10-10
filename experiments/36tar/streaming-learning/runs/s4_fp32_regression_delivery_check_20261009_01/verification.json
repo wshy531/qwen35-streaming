@@ -1,0 +1,15 @@
+{
+  "fp32_fixed_ten_checks_passed": true,
+  "fork_main_continuation_verified": true,
+  "input_and_source_provenance_matched": true,
+  "all_old_executable_sources_unchanged": true,
+  "short_cpu_protocol_probe_verified": true,
+  "historical_bf16_failures_preserved": true,
+  "wrong_preflight_rejected_before_launch": true,
+  "source_files": 39,
+  "no_inference_in_audit": true,
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "commit_created": false,
+  "remote_push": false
+}

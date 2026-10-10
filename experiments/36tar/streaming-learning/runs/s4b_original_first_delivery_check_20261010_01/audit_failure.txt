@@ -1,0 +1,1 @@
+只读审计首次在tiny_generate EOS列表断言失败：审计错把真实权重generation_config EOS=248044固定套用到微型随机模型。实际微型配置无此model EOS，只含tokenizer EOS=248046。修正只读审计：真实四例仍要求[248044,248046]，微型要求包含248046并核验实际停止。未运行推理，不改模型/CPU/GPU证据；修正后以新delivery_check_02执行。

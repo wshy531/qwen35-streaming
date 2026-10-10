@@ -1,0 +1,187 @@
+{
+  "scope": "post-failure CPU only; original first linear-attention layer, no full model/GPU/answers",
+  "layout": [
+    2,
+    18
+  ],
+  "input_token_ids": [
+    [
+      248045,
+      846,
+      198,
+      814,
+      20139,
+      1092,
+      264,
+      2678,
+      3899,
+      369,
+      13,
+      248046,
+      198,
+      248045,
+      74455,
+      198,
+      248068,
+      271,
+      248069,
+      271
+    ]
+  ],
+  "loaded_weight_bytes": 21086816,
+  "random_kernel": {
+    "torch.float32": {
+      "output": {
+        "max_abs_diff": 4.470348358154297e-08,
+        "mean_abs_diff": 4.707908285439544e-09,
+        "bitwise_equal": false
+      },
+      "state": {
+        "max_abs_diff": 1.4901161193847656e-07,
+        "mean_abs_diff": 3.129707693005912e-08,
+        "bitwise_equal": false
+      }
+    },
+    "torch.bfloat16": {
+      "output": {
+        "max_abs_diff": 0.001953125,
+        "mean_abs_diff": 0.00011528991308296099,
+        "bitwise_equal": false
+      },
+      "state": {
+        "max_abs_diff": 0.008980870246887207,
+        "mean_abs_diff": 0.0010467382380738854,
+        "bitwise_equal": false
+      }
+    }
+  },
+  "official_first_layer": {
+    "torch.float32": {
+      "in_proj_qkv": {
+        "max_abs_diff": 5.7220458984375e-06,
+        "mean_abs_diff": 1.8531158829659944e-08,
+        "bitwise_equal": false
+      },
+      "in_proj_b": {
+        "max_abs_diff": 1.9073486328125e-06,
+        "mean_abs_diff": 2.4575275148208675e-08,
+        "bitwise_equal": false
+      },
+      "in_proj_a": {
+        "max_abs_diff": 1.1920928955078125e-06,
+        "mean_abs_diff": 3.697350692277723e-08,
+        "bitwise_equal": false
+      },
+      "query": {
+        "max_abs_diff": 1.6689300537109375e-06,
+        "mean_abs_diff": 1.812139993617734e-09,
+        "bitwise_equal": false
+      },
+      "key": {
+        "max_abs_diff": 4.76837158203125e-07,
+        "mean_abs_diff": 1.1635399310705452e-09,
+        "bitwise_equal": false
+      },
+      "value": {
+        "max_abs_diff": 4.76837158203125e-07,
+        "mean_abs_diff": 6.135186803035708e-10,
+        "bitwise_equal": false
+      },
+      "g": {
+        "max_abs_diff": 4.76837158203125e-07,
+        "mean_abs_diff": 4.620972049451666e-09,
+        "bitwise_equal": false
+      },
+      "beta": {
+        "max_abs_diff": 1.1920928955078125e-07,
+        "mean_abs_diff": 2.8870998924901414e-09,
+        "bitwise_equal": false
+      },
+      "core": {
+        "max_abs_diff": 2.9802322387695312e-08,
+        "mean_abs_diff": 6.981392547400489e-11,
+        "bitwise_equal": false
+      },
+      "output": {
+        "max_abs_diff": 1.7881393432617188e-07,
+        "mean_abs_diff": 5.917157430701536e-09,
+        "bitwise_equal": false
+      },
+      "conv_state": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "recurrent_state": {
+        "max_abs_diff": 5.960464477539062e-07,
+        "mean_abs_diff": 5.302213113012044e-10,
+        "bitwise_equal": false
+      }
+    },
+    "torch.bfloat16": {
+      "in_proj_qkv": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "in_proj_b": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "in_proj_a": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "query": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "key": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "value": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "g": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "beta": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "core": {
+        "max_abs_diff": 1.9073486328125e-06,
+        "mean_abs_diff": 4.6588909813349844e-11,
+        "bitwise_equal": false
+      },
+      "output": {
+        "max_abs_diff": 0.0001220703125,
+        "mean_abs_diff": 9.062932626591191e-09,
+        "bitwise_equal": false
+      },
+      "conv_state": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "bitwise_equal": true
+      },
+      "recurrent_state": {
+        "max_abs_diff": 7.152557373046875e-07,
+        "mean_abs_diff": 3.8614053621266464e-10,
+        "bitwise_equal": false
+      }
+    }
+  },
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "wall_seconds": 1.6764271000010922,
+  "process_rss_bytes_at_end": 860045312
+}

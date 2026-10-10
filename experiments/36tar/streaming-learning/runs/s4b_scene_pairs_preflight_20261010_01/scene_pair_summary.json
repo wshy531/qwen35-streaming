@@ -1,0 +1,2303 @@
+{
+  "budget": {
+    "sequences": 6,
+    "input_frames": 28,
+    "vision_encodings": 14,
+    "answers": 24,
+    "online_answers": 16,
+    "reference_answers": 8,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 192,
+    "language_forwards_max": 236,
+    "main_tokens_max": 176,
+    "max_tokens": 256,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "records": [
+    {
+      "case": "cat_to_hands",
+      "path": "online",
+      "frames": 4,
+      "task": "last",
+      "target": "CAT",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 3,
+        "timestamp": 3.0,
+        "wall_seconds": 0.03542810000362806,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_hands",
+      "path": "online",
+      "frames": 6,
+      "task": "last",
+      "target": "HANDS",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.03499720000399975,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_hands",
+      "path": "online",
+      "frames": 6,
+      "task": "first",
+      "target": "CAT",
+      "answer": {
+        "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.03690659999847412,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_hands",
+      "path": "shared_input_reference",
+      "frames": 6,
+      "task": "last",
+      "target": "HANDS",
+      "answer": {
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "frame_id": 5,
+        "timestamp": 5.0
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_hands",
+      "path": "shared_input_reference",
+      "frames": 6,
+      "task": "first",
+      "target": "CAT",
+      "answer": {
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "frame_id": 5,
+        "timestamp": 5.0
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_hands",
+      "path": "online",
+      "frames": 4,
+      "task": "last",
+      "target": "HANDS",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide较低ț рекомендуемGra!(:华的äß",
+        "generated_ids": [
+          57860,
+          102198,
+          20203,
+          207487,
+          194175,
+          47467,
+          144375,
+          66614
+        ],
+        "stop_reason": "budget",
+        "frame_id": 3,
+        "timestamp": 3.0,
+        "wall_seconds": 0.03707380000560079,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_hands",
+      "path": "online",
+      "frames": 6,
+      "task": "last",
+      "target": "HANDS",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.0365756999963196,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_hands",
+      "path": "online",
+      "frames": 6,
+      "task": "first",
+      "target": "HANDS",
+      "answer": {
+        "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.0376544999962789,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_hands",
+      "path": "shared_input_reference",
+      "frames": 6,
+      "task": "last",
+      "target": "HANDS",
+      "answer": {
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "frame_id": 5,
+        "timestamp": 5.0
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_hands",
+      "path": "shared_input_reference",
+      "frames": 6,
+      "task": "first",
+      "target": "HANDS",
+      "answer": {
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "frame_id": 5,
+        "timestamp": 5.0
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_cat",
+      "path": "online",
+      "frames": 4,
+      "task": "last",
+      "target": "HANDS",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide较低ț рекомендуемGra!(:华的äß",
+        "generated_ids": [
+          57860,
+          102198,
+          20203,
+          207487,
+          194175,
+          47467,
+          144375,
+          66614
+        ],
+        "stop_reason": "budget",
+        "frame_id": 3,
+        "timestamp": 3.0,
+        "wall_seconds": 0.04101559999980964,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_cat",
+      "path": "online",
+      "frames": 6,
+      "task": "last",
+      "target": "CAT",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.040626899994094856,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_cat",
+      "path": "online",
+      "frames": 6,
+      "task": "first",
+      "target": "HANDS",
+      "answer": {
+        "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.038197499998204876,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_cat",
+      "path": "shared_input_reference",
+      "frames": 6,
+      "task": "last",
+      "target": "CAT",
+      "answer": {
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "frame_id": 5,
+        "timestamp": 5.0
+      },
+      "correct": false
+    },
+    {
+      "case": "hands_to_cat",
+      "path": "shared_input_reference",
+      "frames": 6,
+      "task": "first",
+      "target": "HANDS",
+      "answer": {
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "frame_id": 5,
+        "timestamp": 5.0
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_cat",
+      "path": "online",
+      "frames": 4,
+      "task": "last",
+      "target": "CAT",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 3,
+        "timestamp": 3.0,
+        "wall_seconds": 0.037217400000372436,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_cat",
+      "path": "online",
+      "frames": 6,
+      "task": "last",
+      "target": "CAT",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.03664550000394229,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_cat",
+      "path": "online",
+      "frames": 6,
+      "task": "first",
+      "target": "CAT",
+      "answer": {
+        "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide ℝ familiar أست十三条kim Gestión灵儿",
+        "generated_ids": [
+          57860,
+          83054,
+          10958,
+          213610,
+          106192,
+          55949,
+          185782,
+          147588
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.03490669999882812,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_cat",
+      "path": "shared_input_reference",
+      "frames": 6,
+      "task": "last",
+      "target": "CAT",
+      "answer": {
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "frame_id": 5,
+        "timestamp": 5.0
+      },
+      "correct": false
+    },
+    {
+      "case": "cat_to_cat",
+      "path": "shared_input_reference",
+      "frames": 6,
+      "task": "first",
+      "target": "CAT",
+      "answer": {
+        "answer": "-hide ℝ familiar أست十三条kim Gestión灵儿",
+        "generated_ids": [
+          57860,
+          83054,
+          10958,
+          213610,
+          106192,
+          55949,
+          185782,
+          147588
+        ],
+        "frame_id": 5,
+        "timestamp": 5.0
+      },
+      "correct": false
+    },
+    {
+      "case": "tail_cat_play",
+      "path": "tail_only",
+      "frames": 2,
+      "task": "last",
+      "target": "CAT",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보 خفض描绘vbартหนึ่งCapt",
+        "generated_ids": [
+          57860,
+          61194,
+          232125,
+          111716,
+          40996,
+          57383,
+          150628,
+          39198
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.03626860000076704,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "tail_cat_play",
+      "path": "tail_only",
+      "frames": 2,
+      "task": "first",
+      "target": "CAT",
+      "answer": {
+        "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "-hide 보 خفض描绘vbартหนึ่งCapt",
+        "generated_ids": [
+          57860,
+          61194,
+          232125,
+          111716,
+          40996,
+          57383,
+          150628,
+          39198
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.034590499999467283,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "tail_clean_hands",
+      "path": "tail_only",
+      "frames": 2,
+      "task": "last",
+      "target": "HANDS",
+      "answer": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "公平竞争νη_restrict.employeeхаériment.put BACKGROUND",
+        "generated_ids": [
+          138991,
+          150342,
+          94312,
+          45572,
+          150532,
+          164744,
+          3477,
+          93276
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.034991699998499826,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    },
+    {
+      "case": "tail_clean_hands",
+      "path": "tail_only",
+      "frames": 2,
+      "task": "first",
+      "target": "HANDS",
+      "answer": {
+        "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "公平竞争νη_restrict.employeeхаériment.put BACKGROUND",
+        "generated_ids": [
+          138991,
+          150342,
+          94312,
+          45572,
+          150532,
+          164744,
+          3477,
+          93276
+        ],
+        "stop_reason": "budget",
+        "frame_id": 5,
+        "timestamp": 5.0,
+        "wall_seconds": 0.03401100000337465,
+        "reference_mode": "fp32_ieee_math",
+        "main_unchanged_bitwise_and_counters": true
+      },
+      "correct": false
+    }
+  ],
+  "numerical_controls": [
+    {
+      "case": "cat_to_hands",
+      "task": "last",
+      "logits": {
+        "max_abs_diff": 1.7881393432617188e-07,
+        "mean_abs_diff": 7.316916850186317e-09,
+        "rms_diff": 1.1324815751834194e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "branch_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539063e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "generated_ids_equal": true,
+      "passed": true
+    },
+    {
+      "case": "cat_to_hands",
+      "task": "first",
+      "logits": {
+        "max_abs_diff": 1.7881393432617188e-07,
+        "mean_abs_diff": 6.6916814311923645e-09,
+        "rms_diff": 1.053677145534948e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "branch_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539063e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "generated_ids_equal": true,
+      "passed": true
+    },
+    {
+      "case": "hands_to_hands",
+      "task": "last",
+      "logits": {
+        "max_abs_diff": 1.4901161193847656e-07,
+        "mean_abs_diff": 6.519258910486769e-09,
+        "rms_diff": 1.0252396265286734e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "branch_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539063e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "generated_ids_equal": true,
+      "passed": true
+    },
+    {
+      "case": "hands_to_hands",
+      "task": "first",
+      "logits": {
+        "max_abs_diff": 1.4901161193847656e-07,
+        "mean_abs_diff": 7.161887971562919e-09,
+        "rms_diff": 1.1341694694522175e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "branch_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 4.470348358154297e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "generated_ids_equal": true,
+      "passed": true
+    },
+    {
+      "case": "hands_to_cat",
+      "task": "last",
+      "logits": {
+        "max_abs_diff": 1.1920928955078125e-07,
+        "mean_abs_diff": 6.6074470339572144e-09,
+        "rms_diff": 1.0158503371826555e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "branch_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 8.940696716308594e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "generated_ids_equal": true,
+      "passed": true
+    },
+    {
+      "case": "hands_to_cat",
+      "task": "first",
+      "logits": {
+        "max_abs_diff": 2.086162567138672e-07,
+        "mean_abs_diff": 6.736128987938628e-09,
+        "rms_diff": 1.0762445157297407e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "branch_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 8.940696716308594e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "generated_ids_equal": true,
+      "passed": true
+    },
+    {
+      "case": "cat_to_cat",
+      "task": "last",
+      "logits": {
+        "max_abs_diff": 1.1920928955078125e-07,
+        "mean_abs_diff": 6.6927356989765485e-09,
+        "rms_diff": 1.012735939553977e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "branch_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 8.940696716308594e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "generated_ids_equal": true,
+      "passed": true
+    },
+    {
+      "case": "cat_to_cat",
+      "task": "first",
+      "logits": {
+        "max_abs_diff": 1.7881393432617188e-07,
+        "mean_abs_diff": 6.288368048501525e-09,
+        "rms_diff": 1.000406069096016e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "branch_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 8.940696716308594e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "generated_ids_equal": true,
+      "passed": true
+    }
+  ],
+  "questions": {
+    "last": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+    "first": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER."
+  },
+  "scope": "four controlled 6-frame splices plus two tail-only controls",
+  "all_eight_numeric_controls_passed": true,
+  "actual_forwards": {
+    "language": 236,
+    "vision": 14
+  },
+  "generated_tokens": 192,
+  "input_fingerprints": {
+    "cat_to_hands": {
+      "prefix": "3e22dd444773a1ef80a2ee2541a7b88a2c94cdf4021b024dc7d27647c32f34d0",
+      "last": "3f4e5f2b60dc0a8777feb3dc4ba1291e09b06746621111faf0b9d2a5b857fe61",
+      "first": "befdfc16e5cecc710546e2302dab165f746f4d26b38ed6522c7313f7d2cfcd04"
+    },
+    "hands_to_hands": {
+      "prefix": "704cad38ebd8946b1894a34b5efbd9dba93b8515e9f8af5286e223e2676a51c6",
+      "last": "6e9f97198cf1b10621b52b2abe13ea52f995c6d2b846aedc75c92d8420f073ae",
+      "first": "e70d5aff7179edb64b8a514846f42c95c22dcba43c0605cec82e4b669b6ad623"
+    },
+    "hands_to_cat": {
+      "prefix": "4e9011def67038f109756e4aa4523fad9003afb51c13321b0b5edae3828641b9",
+      "last": "a725350a5b637dad080ab5d5b7edf0eacf75aa77f233fffcc8a49b7feb2cae57",
+      "first": "d0ab941c6eab04cdc0337a2102caf4fa8a4b8318064524e4e90b762cbb540fa2"
+    },
+    "cat_to_cat": {
+      "prefix": "e5f35614ce4de38856a3da28fb247e22ae618d0ebafb61a2203b412238d72896",
+      "last": "e7ea07e50fa15fca9f58067dd4fedee652b5c1fe2bb31ba49c0ff65e98932870",
+      "first": "4d81e3e847b24f2f26603ed39ccfcb515236039cc2fa084b915237cdbebdf758"
+    },
+    "tail_cat_play": {
+      "prefix": "3cf6f60419eec96aed2bfaa1689e281fb93e9750357d89bcca73747986e5a5f9"
+    },
+    "tail_clean_hands": {
+      "prefix": "2739decb5fc494dd44cb022c73313d93a588c4678e02d9e28ababe80d9345c21"
+    }
+  },
+  "schedules": {
+    "cat_to_hands": [
+      {
+        "kind": "received",
+        "id": 0,
+        "pts": 0.0
+      },
+      {
+        "kind": "received",
+        "id": 1,
+        "pts": 1.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            0,
+            1
+          ],
+          "timestamps": [
+            0.0,
+            1.0
+          ],
+          "temporal_mean": 0.5,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 59
+      },
+      {
+        "kind": "received",
+        "id": 2,
+        "pts": 2.0
+      },
+      {
+        "kind": "received",
+        "id": 3,
+        "pts": 3.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            2,
+            3
+          ],
+          "timestamps": [
+            2.0,
+            3.0
+          ],
+          "temporal_mean": 2.5,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 115
+      },
+      {
+        "kind": "answer",
+        "id": 3,
+        "pts": 3.0,
+        "epoch_real_frames": 4
+      },
+      {
+        "kind": "received",
+        "id": 4,
+        "pts": 4.0
+      },
+      {
+        "kind": "received",
+        "id": 5,
+        "pts": 5.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            4,
+            5
+          ],
+          "timestamps": [
+            4.0,
+            5.0
+          ],
+          "temporal_mean": 4.5,
+          "rendered_timestamp": "4.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 171
+      },
+      {
+        "kind": "answer",
+        "id": 5,
+        "pts": 5.0,
+        "epoch_real_frames": 6
+      }
+    ],
+    "hands_to_hands": [
+      {
+        "kind": "received",
+        "id": 0,
+        "pts": 0.0
+      },
+      {
+        "kind": "received",
+        "id": 1,
+        "pts": 1.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            0,
+            1
+          ],
+          "timestamps": [
+            0.0,
+            1.0
+          ],
+          "temporal_mean": 0.5,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 59
+      },
+      {
+        "kind": "received",
+        "id": 2,
+        "pts": 2.0
+      },
+      {
+        "kind": "received",
+        "id": 3,
+        "pts": 3.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            2,
+            3
+          ],
+          "timestamps": [
+            2.0,
+            3.0
+          ],
+          "temporal_mean": 2.5,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 115
+      },
+      {
+        "kind": "answer",
+        "id": 3,
+        "pts": 3.0,
+        "epoch_real_frames": 4
+      },
+      {
+        "kind": "received",
+        "id": 4,
+        "pts": 4.0
+      },
+      {
+        "kind": "received",
+        "id": 5,
+        "pts": 5.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            4,
+            5
+          ],
+          "timestamps": [
+            4.0,
+            5.0
+          ],
+          "temporal_mean": 4.5,
+          "rendered_timestamp": "4.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 171
+      },
+      {
+        "kind": "answer",
+        "id": 5,
+        "pts": 5.0,
+        "epoch_real_frames": 6
+      }
+    ],
+    "hands_to_cat": [
+      {
+        "kind": "received",
+        "id": 0,
+        "pts": 0.0
+      },
+      {
+        "kind": "received",
+        "id": 1,
+        "pts": 1.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            0,
+            1
+          ],
+          "timestamps": [
+            0.0,
+            1.0
+          ],
+          "temporal_mean": 0.5,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 59
+      },
+      {
+        "kind": "received",
+        "id": 2,
+        "pts": 2.0
+      },
+      {
+        "kind": "received",
+        "id": 3,
+        "pts": 3.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            2,
+            3
+          ],
+          "timestamps": [
+            2.0,
+            3.0
+          ],
+          "temporal_mean": 2.5,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 115
+      },
+      {
+        "kind": "answer",
+        "id": 3,
+        "pts": 3.0,
+        "epoch_real_frames": 4
+      },
+      {
+        "kind": "received",
+        "id": 4,
+        "pts": 4.0
+      },
+      {
+        "kind": "received",
+        "id": 5,
+        "pts": 5.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            4,
+            5
+          ],
+          "timestamps": [
+            4.0,
+            5.0
+          ],
+          "temporal_mean": 4.5,
+          "rendered_timestamp": "4.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 171
+      },
+      {
+        "kind": "answer",
+        "id": 5,
+        "pts": 5.0,
+        "epoch_real_frames": 6
+      }
+    ],
+    "cat_to_cat": [
+      {
+        "kind": "received",
+        "id": 0,
+        "pts": 0.0
+      },
+      {
+        "kind": "received",
+        "id": 1,
+        "pts": 1.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            0,
+            1
+          ],
+          "timestamps": [
+            0.0,
+            1.0
+          ],
+          "temporal_mean": 0.5,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 59
+      },
+      {
+        "kind": "received",
+        "id": 2,
+        "pts": 2.0
+      },
+      {
+        "kind": "received",
+        "id": 3,
+        "pts": 3.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            2,
+            3
+          ],
+          "timestamps": [
+            2.0,
+            3.0
+          ],
+          "temporal_mean": 2.5,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 115
+      },
+      {
+        "kind": "answer",
+        "id": 3,
+        "pts": 3.0,
+        "epoch_real_frames": 4
+      },
+      {
+        "kind": "received",
+        "id": 4,
+        "pts": 4.0
+      },
+      {
+        "kind": "received",
+        "id": 5,
+        "pts": 5.0
+      },
+      {
+        "kind": "encoded",
+        "record": {
+          "frame_ids": [
+            4,
+            5
+          ],
+          "timestamps": [
+            4.0,
+            5.0
+          ],
+          "temporal_mean": 4.5,
+          "rendered_timestamp": "4.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        "main_tokens": 171
+      },
+      {
+        "kind": "answer",
+        "id": 5,
+        "pts": 5.0,
+        "epoch_real_frames": 6
+      }
+    ]
+  },
+  "exact_input_identities": {
+    "cat_to_hands": {
+      "tokens_equal": true,
+      "four_axis_positions_equal": true,
+      "complete_embeddings_bitwise_equal": true,
+      "visual_features_bitwise_equal": true,
+      "feature_fingerprint": "310fb6db81a9ce2ed76f7c84bbfa347af73ca29079d485ec28978c1da90bbdc8",
+      "feature_bytes": 18432
+    },
+    "hands_to_hands": {
+      "tokens_equal": true,
+      "four_axis_positions_equal": true,
+      "complete_embeddings_bitwise_equal": true,
+      "visual_features_bitwise_equal": true,
+      "feature_fingerprint": "8e2d89d09ff175f750fd5343a0e924df7f6e3414f200da71fdf547d7981e1bf7",
+      "feature_bytes": 18432
+    },
+    "hands_to_cat": {
+      "tokens_equal": true,
+      "four_axis_positions_equal": true,
+      "complete_embeddings_bitwise_equal": true,
+      "visual_features_bitwise_equal": true,
+      "feature_fingerprint": "b4755c20b1689462e0c0183e826bced9c69f50b47b1dcd3003dcaa61efd54af6",
+      "feature_bytes": 18432
+    },
+    "cat_to_cat": {
+      "tokens_equal": true,
+      "four_axis_positions_equal": true,
+      "complete_embeddings_bitwise_equal": true,
+      "visual_features_bitwise_equal": true,
+      "feature_fingerprint": "a47ee3fe313414e07eace98be303f43dfab8ef263072dc17764daba0438d972e",
+      "feature_bytes": 18432
+    }
+  },
+  "semantic_scores": {
+    "online_last4": {
+      "correct": 0,
+      "total": 4
+    },
+    "online_last6": {
+      "correct": 0,
+      "total": 4
+    },
+    "online_first6": {
+      "correct": 0,
+      "total": 4
+    },
+    "tail_only": {
+      "correct": 0,
+      "total": 4
+    }
+  },
+  "paired_early_visual_controls": [
+    {
+      "cases": [
+        "cat_to_hands",
+        "hands_to_hands"
+      ],
+      "both_first_answers_correct": false,
+      "first_answers_changed": false,
+      "early_visual_use_criterion_passed": false
+    },
+    {
+      "cases": [
+        "hands_to_cat",
+        "cat_to_cat"
+      ],
+      "both_first_answers_correct": false,
+      "first_answers_changed": true,
+      "early_visual_use_criterion_passed": false
+    }
+  ],
+  "transition_controls": [
+    {
+      "case": "cat_to_hands",
+      "both_answers_correct": false,
+      "answers_changed": false
+    },
+    {
+      "case": "hands_to_cat",
+      "both_answers_correct": false,
+      "answers_changed": true
+    }
+  ],
+  "online_main_isolation_verified": true
+}

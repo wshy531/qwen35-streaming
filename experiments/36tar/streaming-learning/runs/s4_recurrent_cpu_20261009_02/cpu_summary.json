@@ -1,0 +1,8 @@
+{
+  "tests": 29,
+  "errors": 0,
+  "failures": 0,
+  "passed": true,
+  "recurrent_reference": true,
+  "scope": "FP32 tiny-model state/logits equivalence and isolation, no quality claims"
+}

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source_files61_sha_unchanged": true,
+  "absolute_links_checked": 5,
+  "table_medians_and_paired_percentages_recomputed": true,
+  "failure_and_residuals_disclosed": true,
+  "cumulative_gpu_records": 33,
+  "cluster_jobs": 0,
+  "training_jobs": 0,
+  "document_sha256": {
+    "实验总纲.md": "f2eac980216c9271e219308426209f8712c3824884a376272bccc1c9e9a7688f",
+    "架构设计.md": "2ddc6a003f19f7adf0492fea8df75b76940588583710f289a5ae63a6f88ade7f",
+    "语言计算块交错扩展方案.md": "0a12984ab874495d285a34587eaaa7d6a2ad7c28d7127a63a0cdcecf15d34810",
+    "语言计算块交错扩展结果.md": "4b9c9b681abb6bd71763e2a1b63462c08811f0985a306c6d77afb6da22006ba4",
+    "backup.ps1": "31051025895e2507028ffcf709c3cdf1f8538bdc923227b283139cbad8ce7f0f",
+    "scripts/run_chunk_interleaved.py": "db9c1d01ab824ce229f52e6abd4f93d55bbd8906de08a5c377d0fb5a94a7932c",
+    "scripts/verify_chunk_interleaved.py": "18fd41c403b2dd73321e2bbaa4bc574521adee294076df0048ce5cb1105ea4d8"
+  },
+  "scope": "closing document hashes refreshed after verified first package, no inference"
+}

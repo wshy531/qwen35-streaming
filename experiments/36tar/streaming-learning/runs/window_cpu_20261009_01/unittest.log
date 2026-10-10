@@ -1,0 +1,11 @@
+test_invalid_append_leaves_window_unchanged (tests.test_stream_window.WindowTests.test_invalid_append_leaves_window_unchanged) ... ok
+test_question_does_not_pull_next_frame (tests.test_stream_window.WindowTests.test_question_does_not_pull_next_frame) ... ok
+test_same_prefix_different_future_has_same_early_window (tests.test_stream_window.WindowTests.test_same_prefix_different_future_has_same_early_window) ... ok
+test_sampler_uses_arrived_pts_and_skips_missed_deadlines (tests.test_stream_window.WindowTests.test_sampler_uses_arrived_pts_and_skips_missed_deadlines) ... ok
+test_window_is_bounded_after_many_frames (tests.test_stream_window.WindowTests.test_window_is_bounded_after_many_frames) ... ok
+test_window_owns_pixels_and_reset_restarts_identity (tests.test_stream_window.WindowTests.test_window_owns_pixels_and_reset_restarts_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK

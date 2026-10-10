@@ -1,0 +1,89 @@
+{
+  "model_directory": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "model_revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "dtype": "torch.bfloat16",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "sources": {
+    "model": "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py",
+    "vision": "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py",
+    "text": "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py"
+  },
+  "parameters": 852985920,
+  "capability_scope": "tiny synthetic diagnostic, not a benchmark",
+  "cases": [
+    {
+      "id": "text",
+      "prompt": "What is 2 plus 2? Answer with one digit.",
+      "expected": "4",
+      "answer": "4\n",
+      "contains_expected_color_or_digit": true,
+      "asset_sha256": null,
+      "input_shapes": {
+        "input_ids": [
+          1,
+          25
+        ],
+        "attention_mask": [
+          1,
+          25
+        ],
+        "mm_token_type_ids": [
+          1,
+          25
+        ]
+      },
+      "grid": {},
+      "input_tokens": 25,
+      "generated_tokens": 4,
+      "preparation_seconds": 0.024786200000107783,
+      "generation_seconds": 1.00801169999977,
+      "peak_allocated_gib": 1.6529431343078613,
+      "peak_reserved_gib": 1.728515625
+    },
+    {
+      "id": "image",
+      "prompt": "What color is the square? Answer with one English color word.",
+      "expected": "red",
+      "answer": " red\n",
+      "contains_expected_color_or_digit": true,
+      "asset_sha256": "15d4018d795740107372a9e53d16ebc9f01faff97633f32e36b5abb0ebc00973",
+      "input_shapes": {
+        "input_ids": [
+          1,
+          91
+        ],
+        "attention_mask": [
+          1,
+          91
+        ],
+        "mm_token_type_ids": [
+          1,
+          91
+        ],
+        "pixel_values": [
+          256,
+          1536
+        ],
+        "image_grid_thw": [
+          1,
+          3
+        ]
+      },
+      "grid": {
+        "image_grid_thw": [
+          [
+            1,
+            16,
+            16
+          ]
+        ]
+      },
+      "input_tokens": 91,
+      "generated_tokens": 4,
+      "preparation_seconds": 0.020981600000141043,
+      "generation_seconds": 0.45466860000033194,
+      "peak_allocated_gib": 1.6633501052856445,
+      "peak_reserved_gib": 1.75390625
+    }
+  ]
+}

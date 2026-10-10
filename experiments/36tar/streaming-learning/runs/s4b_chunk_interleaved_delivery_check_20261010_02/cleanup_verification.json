@@ -1,0 +1,23 @@
+{
+  "removed": [
+    {
+      "path": "E:\\VIT Model\\runs\\s4b_chunk_interleaved_preflight_20261010_01\\interleaved_partial.json",
+      "bytes": 243575,
+      "sha256": "d2f0371c977d45f8853a75ce835601ed30f3b0c2f0b1a0ef1f3e979b5b439ad4",
+      "final_summary_covers_content": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\s4b_chunk_interleaved_gpu_20261010_01\\interleaved_partial.json",
+      "bytes": 292170,
+      "sha256": "0b7368a90db9b797f0520e8702578b6ce1dcf995fe73353f155008e608ba409d",
+      "final_summary_covers_content": true
+    },
+    {
+      "path": "E:\\VIT Model\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\chunk_interleaved.cpython-312.pyc",
+      "bytes": 34229,
+      "regenerable_bytecode": true
+    }
+  ],
+  "removed_bytes": 569974,
+  "historical_failures_and_assets_preserved": true
+}

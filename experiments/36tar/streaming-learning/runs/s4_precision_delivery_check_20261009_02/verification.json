@@ -1,0 +1,88 @@
+{
+  "original_baseline_files_unchanged": 15,
+  "matched_provenance": {
+    "s4_cpu_20261009_01": {
+      "current_source_count": 20,
+      "exact_historical_sources": {
+        "qwen35_local\\modeling_qwen3_5.py": "runs\\s4_before_recurrent_20261009_01\\modeling_snapshot.py",
+        "scripts\\chunk_experiment.py": "runs\\s4_before_recurrent_20261009_01\\chunk_experiment_snapshot.py"
+      }
+    },
+    "s4_preflight_20261009_01": {
+      "current_source_count": 20,
+      "exact_historical_sources": {
+        "qwen35_local\\modeling_qwen3_5.py": "runs\\s4_before_recurrent_20261009_01\\modeling_snapshot.py",
+        "scripts\\chunk_experiment.py": "runs\\s4_before_recurrent_20261009_01\\chunk_experiment_snapshot.py",
+        "scripts\\chunk_weight_check.py": "runs\\s4_before_recurrent_20261009_01\\chunk_weight_check_snapshot.py"
+      }
+    },
+    "s4_gpu_20261009_01": {
+      "current_source_count": 20,
+      "exact_historical_sources": {
+        "qwen35_local\\modeling_qwen3_5.py": "runs\\s4_before_recurrent_20261009_01\\modeling_snapshot.py",
+        "scripts\\chunk_experiment.py": "runs\\s4_before_recurrent_20261009_01\\chunk_experiment_snapshot.py",
+        "scripts\\chunk_weight_check.py": "runs\\s4_before_recurrent_20261009_01\\chunk_weight_check_snapshot.py"
+      }
+    },
+    "s4_layers_preflight_20261009_01": {
+      "current_source_count": 21,
+      "exact_historical_sources": {
+        "qwen35_local\\modeling_qwen3_5.py": "runs\\s4_before_recurrent_20261009_01\\modeling_snapshot.py",
+        "scripts\\chunk_experiment.py": "runs\\s4_before_recurrent_20261009_01\\chunk_experiment_snapshot.py",
+        "scripts\\chunk_weight_check.py": "runs\\s4_before_recurrent_20261009_01\\chunk_weight_check_snapshot.py",
+        "scripts\\precision_layers.py": "runs\\s4_layers_preflight_20261009_01\\script_snapshot.py"
+      }
+    },
+    "s4_layers_preflight_20261009_02": {
+      "current_source_count": 22,
+      "exact_historical_sources": {
+        "qwen35_local\\modeling_qwen3_5.py": "runs\\s4_before_recurrent_20261009_01\\modeling_snapshot.py",
+        "scripts\\chunk_experiment.py": "runs\\s4_before_recurrent_20261009_01\\chunk_experiment_snapshot.py",
+        "scripts\\chunk_weight_check.py": "runs\\s4_before_recurrent_20261009_01\\chunk_weight_check_snapshot.py"
+      }
+    },
+    "s4_layers_gpu_20261009_01": {
+      "current_source_count": 22,
+      "exact_historical_sources": {
+        "qwen35_local\\modeling_qwen3_5.py": "runs\\s4_before_recurrent_20261009_01\\modeling_snapshot.py",
+        "scripts\\chunk_experiment.py": "runs\\s4_before_recurrent_20261009_01\\chunk_experiment_snapshot.py",
+        "scripts\\chunk_weight_check.py": "runs\\s4_before_recurrent_20261009_01\\chunk_weight_check_snapshot.py"
+      }
+    },
+    "s4_recurrence_cpu_20261009_01": {
+      "current_source_count": 23,
+      "exact_historical_sources": {
+        "qwen35_local\\modeling_qwen3_5.py": "runs\\s4_before_recurrent_20261009_01\\modeling_snapshot.py",
+        "scripts\\chunk_experiment.py": "runs\\s4_before_recurrent_20261009_01\\chunk_experiment_snapshot.py",
+        "scripts\\chunk_weight_check.py": "runs\\s4_before_recurrent_20261009_01\\chunk_weight_check_snapshot.py"
+      }
+    },
+    "s4_recurrent_cpu_20261009_01": {
+      "current_source_count": 26,
+      "exact_historical_sources": {
+        "scripts\\chunk_weight_check.py": "runs\\s4_recurrent_cpu_20261009_01\\chunk_weight_check_snapshot.py"
+      }
+    },
+    "s4_recurrent_cpu_20261009_02": {
+      "current_source_count": 27,
+      "exact_historical_sources": {}
+    },
+    "s4_recurrent_preflight_20261009_01": {
+      "current_source_count": 27,
+      "exact_historical_sources": {}
+    },
+    "s4_recurrent_gpu_20261009_01": {
+      "current_source_count": 27,
+      "exact_historical_sources": {}
+    }
+  },
+  "original_gpu_two_groups_exactly_reproduced": true,
+  "first_original_gpu_difference_at_core": true,
+  "norm_fp32_rejected": true,
+  "recurrent_cpu29_pass_gpu_failure_preserved": true,
+  "all_gpu_input_fingerprints_match": true,
+  "recurrent_original_prefill_shifts_recorded": true,
+  "mode_mismatch_rejected_before_run": true,
+  "source_files": 38,
+  "no_forward_or_extra_gpu_in_audit": true
+}

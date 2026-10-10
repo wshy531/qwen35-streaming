@@ -1,0 +1,14 @@
+test_actual_timestamp_tokens_are_checked_before_vision (tests.test_pair_demo.DemoTests.test_actual_timestamp_tokens_are_checked_before_vision) ... ok
+test_capacity_reset_retains_both_new_frames_and_restarts_four_frame_trigger (tests.test_pair_demo.DemoTests.test_capacity_reset_retains_both_new_frames_and_restarts_four_frame_trigger) ... ok
+test_empty_and_even_eof_release_and_seal (tests.test_pair_demo.DemoTests.test_empty_and_even_eof_release_and_seal) ... ok
+test_eof_capacity_reset_keeps_one_real_frame (tests.test_pair_demo.DemoTests.test_eof_capacity_reset_keeps_one_real_frame) ... ok
+test_failure_is_logged_and_close_clears_active_state (tests.test_pair_demo.DemoTests.test_failure_is_logged_and_close_clears_active_state) ... ok
+test_first_four_then_each_two_and_pending_no_computation (tests.test_pair_demo.DemoTests.test_first_four_then_each_two_and_pending_no_computation) ... ok
+test_global_order_and_shape_survive_capacity_reset_and_rejection_is_reversible (tests.test_pair_demo.DemoTests.test_global_order_and_shape_survive_capacity_reset_and_rejection_is_reversible) ... ok
+test_odd_after_first_answer_does_not_trigger_extra_eof_answer (tests.test_pair_demo.DemoTests.test_odd_after_first_answer_does_not_trigger_extra_eof_answer) ... ok
+test_three_real_frames_at_eof_do_not_become_four (tests.test_pair_demo.DemoTests.test_three_real_frames_at_eof_do_not_become_four) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.396s
+
+OK

@@ -1,0 +1,6 @@
+{
+  "stage": "gpu",
+  "out": "E:\\VIT Model\\runs\\natural_gpu_20261009_01",
+  "assets": "E:\\VIT Model\\datasets\\natural_commons_v1",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B"
+}

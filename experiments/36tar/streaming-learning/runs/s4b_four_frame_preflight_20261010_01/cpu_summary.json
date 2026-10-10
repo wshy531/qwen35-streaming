@@ -1,0 +1,271 @@
+{
+  "groups": [
+    {
+      "id": "four_frame_prefix_shared",
+      "logits": {
+        "max_abs_diff": 1.7881393432617188e-07,
+        "mean_abs_diff": 7.222138886930907e-09,
+        "rms_diff": 1.1053899129365163e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 3.725290298461914e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 2.6557245291769505e-10,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "status": {
+        "accepted_frames": 4,
+        "encoded_real_frames": 4,
+        "pending_frame_id": null,
+        "last_received_id": 90,
+        "last_encoded_id": 90,
+        "last_encoded_pts": 3.003,
+        "seen_tokens": 21,
+        "next_rope_position": 21,
+        "vision_encodings": 2,
+        "pending_rgb_bytes": 0,
+        "finished": false,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "85cbd31e805ebec7256a201a9095501ac15472c353702b247688485227fdeb97",
+        "feature_bytes": 256
+      },
+      "passed": true
+    },
+    {
+      "id": "four_frame_subject_shared",
+      "online": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "公平竞争νη wichtigsten十三条kim Gestión灵儿omorphic",
+        "generated_ids": [
+          138991,
+          150342,
+          186615,
+          106192,
+          55949,
+          185782,
+          147588,
+          67548
+        ],
+        "stop_reason": "budget",
+        "frame_id": 90,
+        "timestamp": 3.003,
+        "wall_seconds": 0.03698230000009062,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "reference_answer": "公平竞争νη wichtigsten十三条kim Gestión灵儿omorphic",
+      "reference_ids": [
+        138991,
+        150342,
+        186615,
+        106192,
+        55949,
+        185782,
+        147588,
+        67548
+      ],
+      "main_unchanged_bitwise_and_counters": true,
+      "logits": {
+        "max_abs_diff": 1.7881393432617188e-07,
+        "mean_abs_diff": 6.532749896592804e-09,
+        "rms_diff": 1.0119224569393737e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 4.470348358154297e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "same_prefix_repeated_subject",
+      "online": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "公平竞争νη wichtigsten十三条kim Gestión灵儿omorphic",
+        "generated_ids": [
+          138991,
+          150342,
+          186615,
+          106192,
+          55949,
+          185782,
+          147588,
+          67548
+        ],
+        "stop_reason": "budget",
+        "frame_id": 90,
+        "timestamp": 3.003,
+        "wall_seconds": 0.03507059999901685,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "main_unchanged_bitwise_and_counters": true,
+      "ids_match_first": true,
+      "initial_logits_bitwise_equal": true,
+      "branch_states_bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "id": "reset_replay_four_frame_subject",
+      "online": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "公平竞争νη wichtigsten十三条kim Gestión灵儿omorphic",
+        "generated_ids": [
+          138991,
+          150342,
+          186615,
+          106192,
+          55949,
+          185782,
+          147588,
+          67548
+        ],
+        "stop_reason": "budget",
+        "frame_id": 90,
+        "timestamp": 3.003,
+        "wall_seconds": 0.034360000001470326,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "reset_empty_contract": true,
+      "reset_status": {
+        "accepted_frames": 0,
+        "encoded_real_frames": 0,
+        "pending_frame_id": null,
+        "last_received_id": null,
+        "last_encoded_id": null,
+        "last_encoded_pts": null,
+        "seen_tokens": 0,
+        "next_rope_position": 0,
+        "vision_encodings": 0,
+        "pending_rgb_bytes": 0,
+        "finished": false,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "85cbd31e805ebec7256a201a9095501ac15472c353702b247688485227fdeb97",
+        "feature_bytes": 256
+      },
+      "input_fingerprints_equal": true,
+      "actual_features_bitwise_equal": true,
+      "complete_embeddings_bitwise_equal": true,
+      "main_after_replay_bitwise_equal": true,
+      "main_status_after_replay_equal": true,
+      "main_unchanged_bitwise_and_counters": true,
+      "ids_match_first": true,
+      "initial_logits_bitwise_equal": true,
+      "branch_states_bitwise_equal": true,
+      "passed": true
+    }
+  ],
+  "budget": {
+    "groups": 4,
+    "max_tokens": 256,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 32,
+    "language_forwards_max": 43,
+    "vision_encodings": 4,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+  "canvas": [
+    32,
+    32
+  ],
+  "scope": "one fixed four-frame causal replay, repeated isolated QA and reset; not a long-run/live benchmark",
+  "experiment_query_trigger": "after four delivered frames; underlying two-frame ask contract unchanged",
+  "all_numeric_groups_passed": true,
+  "actual_forwards": {
+    "language": 43,
+    "vision": 4
+  },
+  "generated_tokens": 32,
+  "input_fingerprints": {
+    "prefix4": "aac3b276ef0440bd0bd8e356884466f5502361709012cab55b93bce373ede3d5",
+    "question4_subject": "03ed0d1390bc572373dbb2aa06f566888df60407ef9afbe61819ae6e9e7f592e"
+  },
+  "frame_ids": [
+    0,
+    30,
+    60,
+    90
+  ],
+  "timestamps": [
+    0.0,
+    1.001,
+    2.002,
+    3.003
+  ],
+  "question_cutoff": {
+    "frame_id": 90,
+    "timestamp": 3.003
+  },
+  "semantic_expected_ids_match": null
+}

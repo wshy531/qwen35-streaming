@@ -1,0 +1,34 @@
+test_image_and_video_logits (tests.test_local_model.LocalModelTests.test_image_and_video_logits) ... ok
+test_local_modules_and_checkpoint_roundtrip (tests.test_local_model.LocalModelTests.test_local_modules_and_checkpoint_roundtrip) ... ok
+test_text_logits_and_incremental_cache (tests.test_local_model.LocalModelTests.test_text_logits_and_incremental_cache) ... ok
+test_batch_two_unpadded (tests.test_mixed_state.MixedStateTests.test_batch_two_unpadded) ... ok
+test_budget_rejection_before_mutating_state (tests.test_mixed_state.MixedStateTests.test_budget_rejection_before_mutating_state) ... ok
+test_causal_prefix_unaffected_by_future (tests.test_mixed_state.MixedStateTests.test_causal_prefix_unaffected_by_future) ... ok
+test_clone_copies_storage_for_all_four_fields (tests.test_mixed_state.MixedStateTests.test_clone_copies_storage_for_all_four_fields) ... ok
+test_embeddings_and_nonuniform_four_axis_positions (tests.test_mixed_state.MixedStateTests.test_embeddings_and_nonuniform_four_axis_positions) ... ok
+test_fork_question_branch_does_not_pollute_main (tests.test_mixed_state.MixedStateTests.test_fork_question_branch_does_not_pollute_main) ... ok
+test_internal_64_token_boundaries_and_multiple_seeds (tests.test_mixed_state.MixedStateTests.test_internal_64_token_boundaries_and_multiple_seeds) ... ok
+test_invalid_positions_and_reset_leave_state_unchanged (tests.test_mixed_state.MixedStateTests.test_invalid_positions_and_reset_leave_state_unchanged) ... ok
+test_repeated_forks_reuse_same_prefix_without_shared_storage (tests.test_mixed_state.MixedStateTests.test_repeated_forks_reuse_same_prefix_without_shared_storage) ... ok
+test_reset_removes_real_states_counts_and_model_rope (tests.test_mixed_state.MixedStateTests.test_reset_removes_real_states_counts_and_model_rope) ... ok
+test_short_and_convolution_boundary_chunks (tests.test_mixed_state.MixedStateTests.test_short_and_convolution_boundary_chunks) ... ok
+test_text_after_visual_positions_uses_rope_offset (tests.test_mixed_state.MixedStateTests.test_text_after_visual_positions_uses_rope_offset) ... ok
+test_batch_two_unpadded (tests.test_recurrent_reference.RecurrentReferenceTests.test_batch_two_unpadded) ... ok
+test_budget_rejection_before_mutating_state (tests.test_recurrent_reference.RecurrentReferenceTests.test_budget_rejection_before_mutating_state) ... ok
+test_causal_prefix_unaffected_by_future (tests.test_recurrent_reference.RecurrentReferenceTests.test_causal_prefix_unaffected_by_future) ... ok
+test_clone_copies_storage_for_all_four_fields (tests.test_recurrent_reference.RecurrentReferenceTests.test_clone_copies_storage_for_all_four_fields) ... ok
+test_embeddings_and_nonuniform_four_axis_positions (tests.test_recurrent_reference.RecurrentReferenceTests.test_embeddings_and_nonuniform_four_axis_positions) ... ok
+test_fork_question_branch_does_not_pollute_main (tests.test_recurrent_reference.RecurrentReferenceTests.test_fork_question_branch_does_not_pollute_main) ... ok
+test_internal_64_token_boundaries_and_multiple_seeds (tests.test_recurrent_reference.RecurrentReferenceTests.test_internal_64_token_boundaries_and_multiple_seeds) ... ok
+test_invalid_positions_and_reset_leave_state_unchanged (tests.test_recurrent_reference.RecurrentReferenceTests.test_invalid_positions_and_reset_leave_state_unchanged) ... ok
+test_optional_rule_does_not_change_parameters_and_fp32_prefill_close (tests.test_recurrent_reference.RecurrentReferenceTests.test_optional_rule_does_not_change_parameters_and_fp32_prefill_close) ... ok
+test_repeated_forks_reuse_same_prefix_without_shared_storage (tests.test_recurrent_reference.RecurrentReferenceTests.test_repeated_forks_reuse_same_prefix_without_shared_storage) ... ok
+test_reset_removes_real_states_counts_and_model_rope (tests.test_recurrent_reference.RecurrentReferenceTests.test_reset_removes_real_states_counts_and_model_rope) ... ok
+test_rule_config_survives_checkpoint (tests.test_recurrent_reference.RecurrentReferenceTests.test_rule_config_survives_checkpoint) ... ok
+test_short_and_convolution_boundary_chunks (tests.test_recurrent_reference.RecurrentReferenceTests.test_short_and_convolution_boundary_chunks) ... ok
+test_text_after_visual_positions_uses_rope_offset (tests.test_recurrent_reference.RecurrentReferenceTests.test_text_after_visual_positions_uses_rope_offset) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.938s
+
+OK

@@ -1,0 +1,49 @@
+{
+  "scope": "CPU real processor/token/position interfaces; no official weights or GPU",
+  "whole_grid": [
+    [
+      2,
+      12,
+      16
+    ]
+  ],
+  "pair_grids": [
+    [
+      [
+        1,
+        12,
+        16
+      ]
+    ],
+    [
+      [
+        1,
+        12,
+        16
+      ]
+    ]
+  ],
+  "pair_pixels_concatenate_exactly_to_whole": true,
+  "component_tokens_concatenate_exactly_to_native_template": true,
+  "component_token_counts": [
+    3,
+    56,
+    56,
+    34
+  ],
+  "first_pair_tokens_and_positions_independent_of_second_pair": true,
+  "text_suffix_positions_match_incremental_rule": true,
+  "native_question_suffix_text": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "prefix_text": "<|im_start|>user\n",
+  "pair_timestamps": [
+    0.5005,
+    2.5025
+  ],
+  "whole_input_fingerprint_with_positions": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931",
+  "processor_source_sha256": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10",
+  "warnings": [
+    "Native smart_resize uses frame count: the four-frame result does not generalize to long videos.",
+    "This probe does not exercise official-weight pair vision features, pending-frame state or actual QA generation."
+  ],
+  "checked_short_protocol_interfaces_passed": true
+}

@@ -1,0 +1,56 @@
+{
+  "s4b_vision_expand_preflight_20261010_01": {
+    "module_snapshot_sha256": "4d703213a1680da0bc746123a41b3595ad04ea77f4ac98294452658d8d44c561",
+    "launcher_snapshot_sha256": "54b0e404994e2f59c6d830e31c36418b95e50efa9c9f039c310c4e56fa1770b1",
+    "plan_snapshot_sha256": "5183fc0290d8c920ccbfd3a362a89d32a6013833fc55ddb52f5bbf990dddb44f",
+    "status": "completed"
+  },
+  "s4b_vision_expand_gpu_20261010_01": {
+    "module_snapshot_sha256": "4d703213a1680da0bc746123a41b3595ad04ea77f4ac98294452658d8d44c561",
+    "launcher_snapshot_sha256": "54b0e404994e2f59c6d830e31c36418b95e50efa9c9f039c310c4e56fa1770b1",
+    "plan_snapshot_sha256": "5183fc0290d8c920ccbfd3a362a89d32a6013833fc55ddb52f5bbf990dddb44f",
+    "status": "completed"
+  },
+  "s4b_stage_timing_preflight_20261010_01": {
+    "module_snapshot_sha256": "1c3f7b506983b716aca388584b32cfd32f75182b79d73fd8d12ffce6e580fc24",
+    "launcher_snapshot_sha256": "e3436751ce0f2e1496413df6ec54337e74ba20bb85d4e41c588ded730a64f284",
+    "plan_snapshot_sha256": "d80f218d392b79e1b8f797f093f06dfd94a231d2271cadbb7ed84229791e2194",
+    "status": "completed"
+  },
+  "s4b_stage_timing_preflight_20261010_02": {
+    "module_snapshot_sha256": "6b04038281fe56e6c661ec5f0456892b7a1c579e0ea7ed951584040c0ded2eaf",
+    "launcher_snapshot_sha256": "8ac1212b75736175efbba9e23dd2f5e4d121514580db7c7c3f9fa9b44707a82a",
+    "plan_snapshot_sha256": "708148d826b19d749133fb664295fea51453c20bfc6915581cf2f65d7c0bf9e7",
+    "status": "completed"
+  },
+  "s4b_stage_timing_gpu_20261010_01": {
+    "module_snapshot_sha256": "1c3f7b506983b716aca388584b32cfd32f75182b79d73fd8d12ffce6e580fc24",
+    "launcher_snapshot_sha256": "e3436751ce0f2e1496413df6ec54337e74ba20bb85d4e41c588ded730a64f284",
+    "plan_snapshot_sha256": "d80f218d392b79e1b8f797f093f06dfd94a231d2271cadbb7ed84229791e2194",
+    "status": "failed"
+  },
+  "s4b_stage_timing_gpu_20261010_02": {
+    "module_snapshot_sha256": "6b04038281fe56e6c661ec5f0456892b7a1c579e0ea7ed951584040c0ded2eaf",
+    "launcher_snapshot_sha256": "8ac1212b75736175efbba9e23dd2f5e4d121514580db7c7c3f9fa9b44707a82a",
+    "plan_snapshot_sha256": "708148d826b19d749133fb664295fea51453c20bfc6915581cf2f65d7c0bf9e7",
+    "status": "completed"
+  },
+  "s4b_chunk_probe_preflight_20261010_01": {
+    "module_snapshot_sha256": "60a1d6522f2524dbc3a161609b595cfd315e04fe530e507fcacb48e94cbb036d",
+    "launcher_snapshot_sha256": "776ce9b83ee3b07e7f19110f226265704c75ca129550e96160185fb9b6281109",
+    "plan_snapshot_sha256": "2578cf072470f14fb5bde63607d93a91a831b737559f5bf520ebfab2abd14dea",
+    "status": "completed"
+  },
+  "s4b_chunk_probe_gpu_20261010_01": {
+    "module_snapshot_sha256": "60a1d6522f2524dbc3a161609b595cfd315e04fe530e507fcacb48e94cbb036d",
+    "launcher_snapshot_sha256": "776ce9b83ee3b07e7f19110f226265704c75ca129550e96160185fb9b6281109",
+    "plan_snapshot_sha256": "2578cf072470f14fb5bde63607d93a91a831b737559f5bf520ebfab2abd14dea",
+    "status": "failed"
+  },
+  "s4b_chunk_probe_gpu_20261010_02": {
+    "module_snapshot_sha256": "60a1d6522f2524dbc3a161609b595cfd315e04fe530e507fcacb48e94cbb036d",
+    "launcher_snapshot_sha256": "776ce9b83ee3b07e7f19110f226265704c75ca129550e96160185fb9b6281109",
+    "plan_snapshot_sha256": "2578cf072470f14fb5bde63607d93a91a831b737559f5bf520ebfab2abd14dea",
+    "status": "completed"
+  }
+}

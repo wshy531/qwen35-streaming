@@ -1,0 +1,81 @@
+diff --git a/THIRD_PARTY_NOTICES.md b/THIRD_PARTY_NOTICES.md
+index 9d18183..9067926 100644
+--- a/THIRD_PARTY_NOTICES.md
++++ b/THIRD_PARTY_NOTICES.md
+@@ -13,6 +13,13 @@ Initial adaptation replaces package-relative imports of Transformers utilities
+ with absolute `transformers.*` imports. Model/configuration code remains local.
+ No architectural or parameter-name changes are intended in this baseline.
+ 
++The separate S4-A branch adds cache clone/reset and permits cached multi-token
++GatedDeltaNet continuation using the existing torch convolution update and
++recurrent initial state. It adds no trainable parameters or renamed weights.
++The original baseline snapshot is retained separately. FP32 tiny-model checks
++passed; the first official-weight BF16 numerical check failed its registered
++limits. See `S4_A.md` for the recorded scope and reproduction entry points.
++
+ The upstream files were generated from `modular_qwen3_5.py`. In this independent
+ project, the adapted files are maintained directly; upstream code-generation
+ tools are not used. Preserve the upstream header as provenance and review any
+diff --git a/qwen35_local/modeling_qwen3_5.py b/qwen35_local/modeling_qwen3_5.py
+index edd212d..ecdb480 100644
+--- a/qwen35_local/modeling_qwen3_5.py
++++ b/qwen35_local/modeling_qwen3_5.py
+@@ -155,6 +155,21 @@ class Qwen3_5DynamicCache:
+         """We have a previous state if the last linear (conv) layer was already updated."""
+         return self.conv_states[self.last_linear_layer] is not None
+ 
++    def clone(self):
++        """Fork all tensor storage; weights and model position state live elsewhere."""
++        cloned = object.__new__(type(self))
++        cloned.layer_types = list(self.layer_types)
++        cloned.transformer_layers = list(self.transformer_layers)
++        cloned.last_linear_layer = self.last_linear_layer
++        for field in ("key_cache", "value_cache", "conv_states", "recurrent_states"):
++            setattr(cloned, field, [None if tensor is None else tensor.clone() for tensor in getattr(self, field)])
++        return cloned
++
++    def reset(self):
++        """Drop this cache's history while preserving its layer layout."""
++        for field in ("key_cache", "value_cache", "conv_states", "recurrent_states"):
++            setattr(self, field, [None for _ in self.layer_types])
++
+ 
+ class Qwen3_5VisionRotaryEmbedding(nn.Module):
+     inv_freq: torch.Tensor  # fix linting for `register_buffer`
+@@ -524,7 +539,6 @@ class Qwen3_5GatedDeltaNet(nn.Module):
+         use_precomputed_states = (
+             cache_params is not None
+             and cache_params.has_previous_state
+-            and seq_len == 1
+             and cache_position is not None
+         )
+ 
+@@ -545,7 +559,10 @@ class Qwen3_5GatedDeltaNet(nn.Module):
+         if use_precomputed_states:
+             # 2. Convolution sequence transformation
+             # NOTE: the conv state is updated in `causal_conv1d_update`
+-            mixed_qkv = self.causal_conv1d_update(
++            # The optional optimized update is retained for its original one-token
++            # contract. The torch reference also supports a multi-token suffix.
++            conv_update = self.causal_conv1d_update if seq_len == 1 else torch_causal_conv1d_update
++            mixed_qkv = conv_update(
+                 mixed_qkv,
+                 conv_state,
+                 self.conv1d.weight.squeeze(1),
+@@ -589,14 +606,14 @@ class Qwen3_5GatedDeltaNet(nn.Module):
+             query = query.repeat_interleave(self.num_v_heads // self.num_k_heads, dim=2)
+             key = key.repeat_interleave(self.num_v_heads // self.num_k_heads, dim=2)
+ 
+-        if not use_precomputed_states:
++        if not use_precomputed_states or seq_len > 1:
+             core_attn_out, last_recurrent_state = self.chunk_gated_delta_rule(
+                 query,
+                 key,
+                 value,
+                 g=g,
+                 beta=beta,
+-                initial_state=None,
++                initial_state=recurrent_state if use_precomputed_states else None,
+                 output_final_state=cache_params is not None,
+                 use_qk_l2norm_in_kernel=True,
+             )

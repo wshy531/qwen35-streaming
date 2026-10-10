@@ -1,0 +1,278 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Keyword argument `enable_thinking` is not a valid argument for this processor and will be ignored.
+[
+  {
+    "id": "text",
+    "shapes": {
+      "input_ids": [
+        1,
+        25
+      ],
+      "attention_mask": [
+        1,
+        25
+      ],
+      "mm_token_type_ids": [
+        1,
+        25
+      ]
+    },
+    "input_tokens": 25,
+    "position_adapter": null
+  },
+  {
+    "id": "image",
+    "shapes": {
+      "input_ids": [
+        1,
+        91
+      ],
+      "attention_mask": [
+        1,
+        91
+      ],
+      "mm_token_type_ids": [
+        1,
+        91
+      ],
+      "pixel_values": [
+        256,
+        1536
+      ],
+      "image_grid_thw": [
+        1,
+        3
+      ]
+    },
+    "input_tokens": 91,
+    "position_adapter": null,
+    "image_grid_thw": [
+      [
+        1,
+        16,
+        16
+      ]
+    ],
+    "visual_tokens": 64
+  },
+  {
+    "id": "red_then_blue",
+    "shapes": {
+      "input_ids": [
+        1,
+        175
+      ],
+      "attention_mask": [
+        1,
+        175
+      ],
+      "mm_token_type_ids": [
+        1,
+        175
+      ],
+      "pixel_values_videos": [
+        512,
+        1536
+      ],
+      "video_grid_thw": [
+        1,
+        3
+      ],
+      "position_ids": [
+        4,
+        1,
+        175
+      ]
+    },
+    "input_tokens": 175,
+    "position_adapter": {
+      "adapter": "upstream_44474_input_positions",
+      "position_grid": [
+        [
+          1,
+          16,
+          16
+        ],
+        [
+          1,
+          16,
+          16
+        ]
+      ],
+      "vision_grid_unchanged": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "rope_delta": [
+        [
+          -112
+        ]
+      ],
+      "position_shape": [
+        4,
+        1,
+        175
+      ],
+      "coordinate_oracle_matches": true,
+      "temporal_groups": 2
+    },
+    "video_grid_thw": [
+      [
+        2,
+        16,
+        16
+      ]
+    ],
+    "visual_tokens": 128
+  },
+  {
+    "id": "green_then_blue",
+    "shapes": {
+      "input_ids": [
+        1,
+        175
+      ],
+      "attention_mask": [
+        1,
+        175
+      ],
+      "mm_token_type_ids": [
+        1,
+        175
+      ],
+      "pixel_values_videos": [
+        512,
+        1536
+      ],
+      "video_grid_thw": [
+        1,
+        3
+      ],
+      "position_ids": [
+        4,
+        1,
+        175
+      ]
+    },
+    "input_tokens": 175,
+    "position_adapter": {
+      "adapter": "upstream_44474_input_positions",
+      "position_grid": [
+        [
+          1,
+          16,
+          16
+        ],
+        [
+          1,
+          16,
+          16
+        ]
+      ],
+      "vision_grid_unchanged": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "rope_delta": [
+        [
+          -112
+        ]
+      ],
+      "position_shape": [
+        4,
+        1,
+        175
+      ],
+      "coordinate_oracle_matches": true,
+      "temporal_groups": 2
+    },
+    "video_grid_thw": [
+      [
+        2,
+        16,
+        16
+      ]
+    ],
+    "visual_tokens": 128
+  },
+  {
+    "id": "blue_then_red",
+    "shapes": {
+      "input_ids": [
+        1,
+        175
+      ],
+      "attention_mask": [
+        1,
+        175
+      ],
+      "mm_token_type_ids": [
+        1,
+        175
+      ],
+      "pixel_values_videos": [
+        512,
+        1536
+      ],
+      "video_grid_thw": [
+        1,
+        3
+      ],
+      "position_ids": [
+        4,
+        1,
+        175
+      ]
+    },
+    "input_tokens": 175,
+    "position_adapter": {
+      "adapter": "upstream_44474_input_positions",
+      "position_grid": [
+        [
+          1,
+          16,
+          16
+        ],
+        [
+          1,
+          16,
+          16
+        ]
+      ],
+      "vision_grid_unchanged": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "rope_delta": [
+        [
+          -112
+        ]
+      ],
+      "position_shape": [
+        4,
+        1,
+        175
+      ],
+      "coordinate_oracle_matches": true,
+      "temporal_groups": 2
+    },
+    "video_grid_thw": [
+      [
+        2,
+        16,
+        16
+      ]
+    ],
+    "visual_tokens": 128
+  }
+]

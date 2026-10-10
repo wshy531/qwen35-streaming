@@ -1,0 +1,3797 @@
+{
+  "budget": {
+    "sampled_frames": 200,
+    "questions": 100,
+    "resets": 20,
+    "control_prefills": 4,
+    "fps": 1,
+    "window": 4,
+    "every": 2,
+    "max_new_tokens": 16,
+    "wall_seconds": 600
+  },
+  "tiny_adapter_test": {
+    "adapter": "upstream_44474_input_positions",
+    "position_grid": [
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "vision_grid_unchanged": [
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "rope_delta": [
+      [
+        0
+      ]
+    ],
+    "position_shape": [
+      4,
+      1,
+      9
+    ],
+    "coordinate_oracle_matches": true,
+    "temporal_groups": 2,
+    "local_upstream_max_logit_error": 0.0,
+    "tiny_generation_tokens": 3
+  },
+  "controls": {
+    "reset_A:2": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+    "reset_A:4": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+    "reset_B:2": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+    "reset_B:4": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159"
+  },
+  "windows": [
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 1,
+      "reset_count": 0,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 2,
+      "reset_count": 0,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 3,
+      "reset_count": 0,
+      "accepted_samples": 6,
+      "frame_ids": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "timestamps": [
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 6,
+      "input_fingerprint": "ee29f3ef9af61e3cc30bb4c8439e5956c60038328d807580de41e055e1e4836b",
+      "input_tokens": 177,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 4,
+      "reset_count": 0,
+      "accepted_samples": 8,
+      "frame_ids": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "timestamps": [
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 8,
+      "input_fingerprint": "51ca6b0848c8c261f42aa38fc2be916ca63f0f2024a66747344c518628845277",
+      "input_tokens": 177,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 5,
+      "reset_count": 0,
+      "accepted_samples": 10,
+      "frame_ids": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "timestamps": [
+        6.0,
+        7.0,
+        8.0,
+        9.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 10,
+      "input_fingerprint": "2f6848aa4a225011d0266a446c10c1014f24ad4beeaa01cdba5e7c8bbdbea5f2",
+      "input_tokens": 177,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 6,
+      "reset_count": 0,
+      "accepted_samples": 12,
+      "frame_ids": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "timestamps": [
+        8.0,
+        9.0,
+        10.0,
+        11.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 12,
+      "input_fingerprint": "8ec1bba94b4345c60c307dff5958b3399b5f4d3d6707815432563413a0d3d709",
+      "input_tokens": 178,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 7,
+      "reset_count": 0,
+      "accepted_samples": 14,
+      "frame_ids": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "timestamps": [
+        10.0,
+        11.0,
+        12.0,
+        13.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 14,
+      "input_fingerprint": "3372e0d15ffadb65307401d2212d5471d6596bdfd9aae789c5ea0c821e4beb5e",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 8,
+      "reset_count": 0,
+      "accepted_samples": 16,
+      "frame_ids": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "timestamps": [
+        12.0,
+        13.0,
+        14.0,
+        15.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 16,
+      "input_fingerprint": "34f3550b1a10be113f66383e8d171da6f0305b1be3404dcf35a338b7d385ce0b",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 9,
+      "reset_count": 0,
+      "accepted_samples": 18,
+      "frame_ids": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "timestamps": [
+        14.0,
+        15.0,
+        16.0,
+        17.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 18,
+      "input_fingerprint": "4acef57c1c9539cfabdb4b8bca2556af083aff4f6216315daa01050667d8d403",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 10,
+      "reset_count": 0,
+      "accepted_samples": 20,
+      "frame_ids": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "timestamps": [
+        16.0,
+        17.0,
+        18.0,
+        19.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 20,
+      "input_fingerprint": "345786726a267f9305cab350cf60e90c460ecb152df8b9813ff85755cf3980aa",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 11,
+      "reset_count": 0,
+      "accepted_samples": 22,
+      "frame_ids": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "timestamps": [
+        18.0,
+        19.0,
+        20.0,
+        21.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 22,
+      "input_fingerprint": "ab7e7e3749c7f9001414ff98928676d87bd4a2fbb14924f074d96ee64a039ad9",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 12,
+      "reset_count": 0,
+      "accepted_samples": 24,
+      "frame_ids": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "timestamps": [
+        20.0,
+        21.0,
+        22.0,
+        23.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 24,
+      "input_fingerprint": "9891b94189bc16c5fad37cd7d4df7a8eab51987d2a847e7bb0416f2d431dcb5d",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 13,
+      "reset_count": 0,
+      "accepted_samples": 26,
+      "frame_ids": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "timestamps": [
+        22.0,
+        23.0,
+        24.0,
+        25.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 26,
+      "input_fingerprint": "29b96833dab2dc4904563f643c8eb03fb3ac6d40703bf1a78110d44d5b307b58",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 14,
+      "reset_count": 0,
+      "accepted_samples": 28,
+      "frame_ids": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "timestamps": [
+        24.0,
+        25.0,
+        26.0,
+        27.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 28,
+      "input_fingerprint": "7f341a4ed362c230b5015dff0cb74980e8dd133dbf3b4307981458b489ac72e8",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 15,
+      "reset_count": 0,
+      "accepted_samples": 30,
+      "frame_ids": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "timestamps": [
+        26.0,
+        27.0,
+        28.0,
+        29.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 30,
+      "input_fingerprint": "b3e814d1ddf3798be3bb7db1dd2cdb1f59a1de8e76d8e00d343e9b73bcefc01a",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 16,
+      "reset_count": 0,
+      "accepted_samples": 32,
+      "frame_ids": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "timestamps": [
+        28.0,
+        29.0,
+        30.0,
+        31.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 32,
+      "input_fingerprint": "cef9fb584fbf7d1579e10908e4d4356e00862be309f37eab48b46abaeb234f85",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 17,
+      "reset_count": 0,
+      "accepted_samples": 34,
+      "frame_ids": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "timestamps": [
+        30.0,
+        31.0,
+        32.0,
+        33.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 34,
+      "input_fingerprint": "0e221ac0b0f2f63bdd25e5b4c12806cfe72ff9bdcd4a2ea3eb232e68d8b766f9",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 18,
+      "reset_count": 0,
+      "accepted_samples": 36,
+      "frame_ids": [
+        32,
+        33,
+        34,
+        35
+      ],
+      "timestamps": [
+        32.0,
+        33.0,
+        34.0,
+        35.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 36,
+      "input_fingerprint": "037dde41bef579a3a9ec53c00f942ae20d7def996b68be843cd6632505847851",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 19,
+      "reset_count": 0,
+      "accepted_samples": 38,
+      "frame_ids": [
+        34,
+        35,
+        36,
+        37
+      ],
+      "timestamps": [
+        34.0,
+        35.0,
+        36.0,
+        37.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 38,
+      "input_fingerprint": "ab6015f53d41d0e2a28390bf24494da1c4a978ee2f0cfd17f5f32207ae4a7998",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 20,
+      "reset_count": 0,
+      "accepted_samples": 40,
+      "frame_ids": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "timestamps": [
+        36.0,
+        37.0,
+        38.0,
+        39.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 40,
+      "input_fingerprint": "20eb1b146e1ba3322090ddecd98461a9b3dee79f1e0c787c976bf63ca9b8c030",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 21,
+      "reset_count": 0,
+      "accepted_samples": 42,
+      "frame_ids": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "timestamps": [
+        38.0,
+        39.0,
+        40.0,
+        41.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 42,
+      "input_fingerprint": "ace3b0579d3cd0e1a6a10d4401eb650f78059fef3fb8df62941aa062cf2ad6fa",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 22,
+      "reset_count": 0,
+      "accepted_samples": 44,
+      "frame_ids": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "timestamps": [
+        40.0,
+        41.0,
+        42.0,
+        43.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 44,
+      "input_fingerprint": "41fbc886e5eaa2c0933f01114f441305b1435733304a820fdef89d846e613c5a",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 23,
+      "reset_count": 0,
+      "accepted_samples": 46,
+      "frame_ids": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "timestamps": [
+        42.0,
+        43.0,
+        44.0,
+        45.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 46,
+      "input_fingerprint": "17ca9e95764a1d50bfb1c095600f53701a718928296c07d7e7f982d28f4946d4",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 24,
+      "reset_count": 0,
+      "accepted_samples": 48,
+      "frame_ids": [
+        44,
+        45,
+        46,
+        47
+      ],
+      "timestamps": [
+        44.0,
+        45.0,
+        46.0,
+        47.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 48,
+      "input_fingerprint": "b54631f45825b1b1a081c094ff36628645453759780882a6e9e3ba935afd7cad",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 25,
+      "reset_count": 0,
+      "accepted_samples": 50,
+      "frame_ids": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "timestamps": [
+        46.0,
+        47.0,
+        48.0,
+        49.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 50,
+      "input_fingerprint": "938e77aef449145086fc68344855a0fbc680c492bcfef1d0c1f49b03a30fe4b7",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 26,
+      "reset_count": 0,
+      "accepted_samples": 52,
+      "frame_ids": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "timestamps": [
+        48.0,
+        49.0,
+        50.0,
+        51.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 52,
+      "input_fingerprint": "ed39c366d746f4daafe0fbfe2bee1a555f99805330ee5d0afeeb39914d95ece8",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 27,
+      "reset_count": 0,
+      "accepted_samples": 54,
+      "frame_ids": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "timestamps": [
+        50.0,
+        51.0,
+        52.0,
+        53.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 54,
+      "input_fingerprint": "7ff8a4d272138036b62d988067064a6988afbe59cea0e1092038be86ebce2b2d",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 28,
+      "reset_count": 0,
+      "accepted_samples": 56,
+      "frame_ids": [
+        52,
+        53,
+        54,
+        55
+      ],
+      "timestamps": [
+        52.0,
+        53.0,
+        54.0,
+        55.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 56,
+      "input_fingerprint": "07d57042667dc9f46c8141417a9510e6ab76ee2e7b27b68952649a7a154fb9e9",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 29,
+      "reset_count": 0,
+      "accepted_samples": 58,
+      "frame_ids": [
+        54,
+        55,
+        56,
+        57
+      ],
+      "timestamps": [
+        54.0,
+        55.0,
+        56.0,
+        57.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 58,
+      "input_fingerprint": "ca8b507fa2fa2b7e807c67a92b38afa397de73e141f7bfcd702653ff929e9dc8",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 30,
+      "reset_count": 0,
+      "accepted_samples": 60,
+      "frame_ids": [
+        56,
+        57,
+        58,
+        59
+      ],
+      "timestamps": [
+        56.0,
+        57.0,
+        58.0,
+        59.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 60,
+      "input_fingerprint": "5eaa1bd3a8d0c7e9925f6cc3fbbf55ea5e496caecf54c8f0708bf59c864c658f",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 31,
+      "reset_count": 0,
+      "accepted_samples": 62,
+      "frame_ids": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "timestamps": [
+        58.0,
+        59.0,
+        60.0,
+        61.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 62,
+      "input_fingerprint": "9885856c73eaad4b11e72b33a7041a8b9b1cee3b9088c341fa6290d61c539f16",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 32,
+      "reset_count": 0,
+      "accepted_samples": 64,
+      "frame_ids": [
+        60,
+        61,
+        62,
+        63
+      ],
+      "timestamps": [
+        60.0,
+        61.0,
+        62.0,
+        63.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 64,
+      "input_fingerprint": "d5a11ae0f65f3f68f83cf2198213af6e8cdce00149efa749ee0afbb6f3f85ac2",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 33,
+      "reset_count": 0,
+      "accepted_samples": 66,
+      "frame_ids": [
+        62,
+        63,
+        64,
+        65
+      ],
+      "timestamps": [
+        62.0,
+        63.0,
+        64.0,
+        65.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 66,
+      "input_fingerprint": "da907ccd166b7a7ff36a3c2cd7245fb3942e90dced14546b0424fd4adcad32b1",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 34,
+      "reset_count": 0,
+      "accepted_samples": 68,
+      "frame_ids": [
+        64,
+        65,
+        66,
+        67
+      ],
+      "timestamps": [
+        64.0,
+        65.0,
+        66.0,
+        67.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 68,
+      "input_fingerprint": "4f0ac78abd48f21fae8659d162598a10a859fc6dd869f218efdd2bae64f40491",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 35,
+      "reset_count": 0,
+      "accepted_samples": 70,
+      "frame_ids": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "timestamps": [
+        66.0,
+        67.0,
+        68.0,
+        69.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 70,
+      "input_fingerprint": "047b68354b6134e19918691174a0b8ed814781d278b28d59bb3eb74b6e3a5a4f",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 36,
+      "reset_count": 0,
+      "accepted_samples": 72,
+      "frame_ids": [
+        68,
+        69,
+        70,
+        71
+      ],
+      "timestamps": [
+        68.0,
+        69.0,
+        70.0,
+        71.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 72,
+      "input_fingerprint": "d4ab3e75d58dcd9dbf0f31ce112868601b2f988e9552417d761b182b5a597f17",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 37,
+      "reset_count": 0,
+      "accepted_samples": 74,
+      "frame_ids": [
+        70,
+        71,
+        72,
+        73
+      ],
+      "timestamps": [
+        70.0,
+        71.0,
+        72.0,
+        73.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 74,
+      "input_fingerprint": "08835f597e0395c7ea73cb6d7461dcaa39cd40bd3a942b205bc45619895c8e98",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 38,
+      "reset_count": 0,
+      "accepted_samples": 76,
+      "frame_ids": [
+        72,
+        73,
+        74,
+        75
+      ],
+      "timestamps": [
+        72.0,
+        73.0,
+        74.0,
+        75.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 76,
+      "input_fingerprint": "01113198c9105f1b3b8982ba46dfbb69d09c6f534bd12860d8c8cc7dd39dd472",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 39,
+      "reset_count": 0,
+      "accepted_samples": 78,
+      "frame_ids": [
+        74,
+        75,
+        76,
+        77
+      ],
+      "timestamps": [
+        74.0,
+        75.0,
+        76.0,
+        77.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 78,
+      "input_fingerprint": "7bf8187651e3a4d37ffdb5df17b99c86545f28cc00cca7a2c9610e5fb85ab0be",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 40,
+      "reset_count": 0,
+      "accepted_samples": 80,
+      "frame_ids": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "timestamps": [
+        76.0,
+        77.0,
+        78.0,
+        79.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 80,
+      "input_fingerprint": "3c169b62f58664c1864954e3342a5db19ae43b4020c9c6b7e5cbf20093590d26",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 41,
+      "reset_count": 0,
+      "accepted_samples": 82,
+      "frame_ids": [
+        78,
+        79,
+        80,
+        81
+      ],
+      "timestamps": [
+        78.0,
+        79.0,
+        80.0,
+        81.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 82,
+      "input_fingerprint": "e11790e0f1f49979d1706b97d23c79e1ea099990e3d8212518732d53c98518bf",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 42,
+      "reset_count": 0,
+      "accepted_samples": 84,
+      "frame_ids": [
+        80,
+        81,
+        82,
+        83
+      ],
+      "timestamps": [
+        80.0,
+        81.0,
+        82.0,
+        83.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 84,
+      "input_fingerprint": "dc199e3d8453f72411de5b237ec987b472732689672b0e9a7f2df759bd854dea",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 43,
+      "reset_count": 0,
+      "accepted_samples": 86,
+      "frame_ids": [
+        82,
+        83,
+        84,
+        85
+      ],
+      "timestamps": [
+        82.0,
+        83.0,
+        84.0,
+        85.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 86,
+      "input_fingerprint": "0bfa7caa7f5b93fe01424273a285f91128352cee91fc8c03256052c1d403f8f8",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 44,
+      "reset_count": 0,
+      "accepted_samples": 88,
+      "frame_ids": [
+        84,
+        85,
+        86,
+        87
+      ],
+      "timestamps": [
+        84.0,
+        85.0,
+        86.0,
+        87.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 88,
+      "input_fingerprint": "01ba8c2d0570ec6caeaf71e7889031c187140595dc05e82ef2f8395e90a70e00",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 45,
+      "reset_count": 0,
+      "accepted_samples": 90,
+      "frame_ids": [
+        86,
+        87,
+        88,
+        89
+      ],
+      "timestamps": [
+        86.0,
+        87.0,
+        88.0,
+        89.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 90,
+      "input_fingerprint": "589fb2430e40a0dcec6acc685bfab2add2b5bd22bb33cc2f8402ef1c0d85278e",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 46,
+      "reset_count": 0,
+      "accepted_samples": 92,
+      "frame_ids": [
+        88,
+        89,
+        90,
+        91
+      ],
+      "timestamps": [
+        88.0,
+        89.0,
+        90.0,
+        91.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 92,
+      "input_fingerprint": "4e4d5edd4ad8706edff62b5d7683a6635fe0cfd414d983874e47baea82f30488",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 47,
+      "reset_count": 0,
+      "accepted_samples": 94,
+      "frame_ids": [
+        90,
+        91,
+        92,
+        93
+      ],
+      "timestamps": [
+        90.0,
+        91.0,
+        92.0,
+        93.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 94,
+      "input_fingerprint": "987bf621fade2294c4576569c47f0bc092f45f96a88283897d6dfaa69cf69e36",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 48,
+      "reset_count": 0,
+      "accepted_samples": 96,
+      "frame_ids": [
+        92,
+        93,
+        94,
+        95
+      ],
+      "timestamps": [
+        92.0,
+        93.0,
+        94.0,
+        95.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 96,
+      "input_fingerprint": "60fa57a0f3ee431fca7783e003bbfc58be34fdf76d1bfdf3d43b17c365054a07",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 49,
+      "reset_count": 0,
+      "accepted_samples": 98,
+      "frame_ids": [
+        94,
+        95,
+        96,
+        97
+      ],
+      "timestamps": [
+        94.0,
+        95.0,
+        96.0,
+        97.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 98,
+      "input_fingerprint": "5ec484c79244f9ef49c08889225851bcb72791488bfb3bfa80058770b50ded02",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 50,
+      "reset_count": 0,
+      "accepted_samples": 100,
+      "frame_ids": [
+        96,
+        97,
+        98,
+        99
+      ],
+      "timestamps": [
+        96.0,
+        97.0,
+        98.0,
+        99.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 100,
+      "input_fingerprint": "3239ea0c67aab84bf75c115543e69a1f14569dbd4b13fdb73deb7d8becb72aa4",
+      "input_tokens": 179,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 51,
+      "reset_count": 0,
+      "accepted_samples": 102,
+      "frame_ids": [
+        98,
+        99,
+        100,
+        101
+      ],
+      "timestamps": [
+        98.0,
+        99.0,
+        100.0,
+        101.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 102,
+      "input_fingerprint": "6460e0c59981933cdc2d45510a4fcb60ed4076eaf418ce810ba064be6c362776",
+      "input_tokens": 180,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 52,
+      "reset_count": 0,
+      "accepted_samples": 104,
+      "frame_ids": [
+        100,
+        101,
+        102,
+        103
+      ],
+      "timestamps": [
+        100.0,
+        101.0,
+        102.0,
+        103.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 104,
+      "input_fingerprint": "9e1a6c3799d3fdb484fe1f997136baf4441ad710b651fb0b2abba1ef331b6f5c",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 53,
+      "reset_count": 0,
+      "accepted_samples": 106,
+      "frame_ids": [
+        102,
+        103,
+        104,
+        105
+      ],
+      "timestamps": [
+        102.0,
+        103.0,
+        104.0,
+        105.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 106,
+      "input_fingerprint": "fbd96f9b0d9b7722ddd4775e343bb63fc2e48db12cfe50446a6ccd9d2dc432b4",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 54,
+      "reset_count": 0,
+      "accepted_samples": 108,
+      "frame_ids": [
+        104,
+        105,
+        106,
+        107
+      ],
+      "timestamps": [
+        104.0,
+        105.0,
+        106.0,
+        107.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 108,
+      "input_fingerprint": "f72a4e0c69bcdcc3beb88f4d50f7990f50f88aa1e63cca9249554b31425e8adc",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 55,
+      "reset_count": 0,
+      "accepted_samples": 110,
+      "frame_ids": [
+        106,
+        107,
+        108,
+        109
+      ],
+      "timestamps": [
+        106.0,
+        107.0,
+        108.0,
+        109.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 110,
+      "input_fingerprint": "9f1579e6d9841f951eac520ccccee7e3cfb6931e324ef242e6f6dbcfd7ca9e97",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 56,
+      "reset_count": 0,
+      "accepted_samples": 112,
+      "frame_ids": [
+        108,
+        109,
+        110,
+        111
+      ],
+      "timestamps": [
+        108.0,
+        109.0,
+        110.0,
+        111.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 112,
+      "input_fingerprint": "a073f51d4bc49318ba2bc6e396199538e0d6cd104df8b2fe8d682bbb605a16d6",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 57,
+      "reset_count": 0,
+      "accepted_samples": 114,
+      "frame_ids": [
+        110,
+        111,
+        112,
+        113
+      ],
+      "timestamps": [
+        110.0,
+        111.0,
+        112.0,
+        113.0
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 114,
+      "input_fingerprint": "25c682ab3310b6613ac226313a852c1f5b2fab2f06a51fc91db71aa8602abef7",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 58,
+      "reset_count": 0,
+      "accepted_samples": 116,
+      "frame_ids": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "timestamps": [
+        112.0,
+        113.0,
+        114.0,
+        115.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 116,
+      "input_fingerprint": "0cfc726ca3b94e9567d49217304705a6b2c17a1449233c172a524c3e4e97eb6c",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 59,
+      "reset_count": 0,
+      "accepted_samples": 118,
+      "frame_ids": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "timestamps": [
+        114.0,
+        115.0,
+        116.0,
+        117.0
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 118,
+      "input_fingerprint": "6e35daf2693ff830ced1cbf2435464c398d38269e01d9d3d0d357f20f9106f58",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "continuous",
+      "session_id": "continuous",
+      "questions": 60,
+      "reset_count": 0,
+      "accepted_samples": 120,
+      "frame_ids": [
+        116,
+        117,
+        118,
+        119
+      ],
+      "timestamps": [
+        116.0,
+        117.0,
+        118.0,
+        119.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 120,
+      "input_fingerprint": "817c60f38557aa3692813b10ccbd19bfc8de66f7a33c4ec85ef474629092d9c9",
+      "input_tokens": 181,
+      "reset_control_match": null
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_1",
+      "questions": 1,
+      "reset_count": 1,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_1",
+      "questions": 2,
+      "reset_count": 1,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_2",
+      "questions": 1,
+      "reset_count": 2,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_2",
+      "questions": 2,
+      "reset_count": 2,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_3",
+      "questions": 1,
+      "reset_count": 3,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_3",
+      "questions": 2,
+      "reset_count": 3,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_4",
+      "questions": 1,
+      "reset_count": 4,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_4",
+      "questions": 2,
+      "reset_count": 4,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_5",
+      "questions": 1,
+      "reset_count": 5,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_5",
+      "questions": 2,
+      "reset_count": 5,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_6",
+      "questions": 1,
+      "reset_count": 6,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_6",
+      "questions": 2,
+      "reset_count": 6,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_7",
+      "questions": 1,
+      "reset_count": 7,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_7",
+      "questions": 2,
+      "reset_count": 7,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_8",
+      "questions": 1,
+      "reset_count": 8,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_8",
+      "questions": 2,
+      "reset_count": 8,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_9",
+      "questions": 1,
+      "reset_count": 9,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_9",
+      "questions": 2,
+      "reset_count": 9,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_10",
+      "questions": 1,
+      "reset_count": 10,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_10",
+      "questions": 2,
+      "reset_count": 10,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_11",
+      "questions": 1,
+      "reset_count": 11,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_11",
+      "questions": 2,
+      "reset_count": 11,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_12",
+      "questions": 1,
+      "reset_count": 12,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_12",
+      "questions": 2,
+      "reset_count": 12,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_13",
+      "questions": 1,
+      "reset_count": 13,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_13",
+      "questions": 2,
+      "reset_count": 13,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_14",
+      "questions": 1,
+      "reset_count": 14,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_14",
+      "questions": 2,
+      "reset_count": 14,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_15",
+      "questions": 1,
+      "reset_count": 15,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_15",
+      "questions": 2,
+      "reset_count": 15,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_16",
+      "questions": 1,
+      "reset_count": 16,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_16",
+      "questions": 2,
+      "reset_count": 16,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_17",
+      "questions": 1,
+      "reset_count": 17,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_17",
+      "questions": 2,
+      "reset_count": 17,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_18",
+      "questions": 1,
+      "reset_count": 18,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_18",
+      "questions": 2,
+      "reset_count": 18,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_19",
+      "questions": 1,
+      "reset_count": 19,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_A",
+      "session_id": "reset_19",
+      "questions": 2,
+      "reset_count": 19,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+      "input_tokens": 177,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_20",
+      "questions": 1,
+      "reset_count": 20,
+      "accepted_samples": 2,
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "window_pixel_bytes": 393216,
+      "delivered_decode_count": 2,
+      "input_fingerprint": "d4dcfba01f3fffcb034662bff3eae17ce060a1213337cb933831b7730839062d",
+      "input_tokens": 105,
+      "reset_control_match": true
+    },
+    {
+      "case": "reset_B",
+      "session_id": "reset_20",
+      "questions": 2,
+      "reset_count": 20,
+      "accepted_samples": 4,
+      "frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+      ],
+      "window_pixel_bytes": 786432,
+      "delivered_decode_count": 4,
+      "input_fingerprint": "9fede6b85505c04b08275f22a9c6505dd53ce2fb9d4f9049ab31f994273a0159",
+      "input_tokens": 177,
+      "reset_control_match": true
+    }
+  ],
+  "resets": [
+    {
+      "identity": "reset_1",
+      "before": {
+        "session_id": "continuous",
+        "questions": 60,
+        "reset_count": 0,
+        "accepted_samples": 120,
+        "frame_ids": [
+          116,
+          117,
+          118,
+          119
+        ],
+        "timestamps": [
+          116.0,
+          117.0,
+          118.0,
+          119.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+          "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 120
+      },
+      "after": {
+        "session_id": "reset_1",
+        "questions": 0,
+        "reset_count": 1,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_2",
+      "before": {
+        "session_id": "reset_1",
+        "questions": 2,
+        "reset_count": 1,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_2",
+        "questions": 0,
+        "reset_count": 2,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_3",
+      "before": {
+        "session_id": "reset_2",
+        "questions": 2,
+        "reset_count": 2,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_3",
+        "questions": 0,
+        "reset_count": 3,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_4",
+      "before": {
+        "session_id": "reset_3",
+        "questions": 2,
+        "reset_count": 3,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_4",
+        "questions": 0,
+        "reset_count": 4,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_5",
+      "before": {
+        "session_id": "reset_4",
+        "questions": 2,
+        "reset_count": 4,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_5",
+        "questions": 0,
+        "reset_count": 5,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_6",
+      "before": {
+        "session_id": "reset_5",
+        "questions": 2,
+        "reset_count": 5,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_6",
+        "questions": 0,
+        "reset_count": 6,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_7",
+      "before": {
+        "session_id": "reset_6",
+        "questions": 2,
+        "reset_count": 6,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_7",
+        "questions": 0,
+        "reset_count": 7,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_8",
+      "before": {
+        "session_id": "reset_7",
+        "questions": 2,
+        "reset_count": 7,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_8",
+        "questions": 0,
+        "reset_count": 8,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_9",
+      "before": {
+        "session_id": "reset_8",
+        "questions": 2,
+        "reset_count": 8,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_9",
+        "questions": 0,
+        "reset_count": 9,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_10",
+      "before": {
+        "session_id": "reset_9",
+        "questions": 2,
+        "reset_count": 9,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_10",
+        "questions": 0,
+        "reset_count": 10,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_11",
+      "before": {
+        "session_id": "reset_10",
+        "questions": 2,
+        "reset_count": 10,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_11",
+        "questions": 0,
+        "reset_count": 11,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_12",
+      "before": {
+        "session_id": "reset_11",
+        "questions": 2,
+        "reset_count": 11,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_12",
+        "questions": 0,
+        "reset_count": 12,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_13",
+      "before": {
+        "session_id": "reset_12",
+        "questions": 2,
+        "reset_count": 12,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_13",
+        "questions": 0,
+        "reset_count": 13,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_14",
+      "before": {
+        "session_id": "reset_13",
+        "questions": 2,
+        "reset_count": 13,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_14",
+        "questions": 0,
+        "reset_count": 14,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_15",
+      "before": {
+        "session_id": "reset_14",
+        "questions": 2,
+        "reset_count": 14,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_15",
+        "questions": 0,
+        "reset_count": 15,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_16",
+      "before": {
+        "session_id": "reset_15",
+        "questions": 2,
+        "reset_count": 15,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_16",
+        "questions": 0,
+        "reset_count": 16,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_17",
+      "before": {
+        "session_id": "reset_16",
+        "questions": 2,
+        "reset_count": 16,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_17",
+        "questions": 0,
+        "reset_count": 17,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_18",
+      "before": {
+        "session_id": "reset_17",
+        "questions": 2,
+        "reset_count": 17,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_18",
+        "questions": 0,
+        "reset_count": 18,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_19",
+      "before": {
+        "session_id": "reset_18",
+        "questions": 2,
+        "reset_count": 18,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_19",
+        "questions": 0,
+        "reset_count": 19,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    },
+    {
+      "identity": "reset_20",
+      "before": {
+        "session_id": "reset_19",
+        "questions": 2,
+        "reset_count": 19,
+        "accepted_samples": 4,
+        "frame_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "timestamps": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+          "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+        ],
+        "window_pixel_bytes": 786432,
+        "delivered_decode_count": 4
+      },
+      "after": {
+        "session_id": "reset_20",
+        "questions": 0,
+        "reset_count": 20,
+        "accepted_samples": 0,
+        "frame_ids": [],
+        "timestamps": [],
+        "frame_sha256": [],
+        "window_pixel_bytes": 0,
+        "delivered_decode_count": 0
+      },
+      "rope_before": null,
+      "rope_cleared": true,
+      "passed": true
+    }
+  ],
+  "questions": 100,
+  "sampled_frames": 200,
+  "asset_manifest_sha256": "c7aa8f0a5b82991efeca1e5ff167c0c522b6f9d9f3723272742cd208a12d7614",
+  "scope": "CPU interface, no model capability"
+}

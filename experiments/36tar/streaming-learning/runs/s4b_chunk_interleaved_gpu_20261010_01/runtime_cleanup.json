@@ -1,0 +1,9 @@
+{
+  "actual_counts": {
+    "vision": 2,
+    "language": 314,
+    "chunk_rule": 5472,
+    "vision_projections": 250
+  },
+  "hooks_methods_callables_restored": true
+}

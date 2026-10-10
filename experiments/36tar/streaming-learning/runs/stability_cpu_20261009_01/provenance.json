@@ -1,0 +1,34 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "E:\\VIT Model\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed": 42,
+  "packages": {
+    "torch": "2.10.0+cu126",
+    "torchvision": "0.25.0+cu126",
+    "transformers": "5.3.0",
+    "accelerate": "1.12.0",
+    "Pillow": "12.1.1",
+    "av": "16.1.0"
+  },
+  "repository_snapshot": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "code_hashes": {
+    "qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
+    "scripts\\__init__.py": "86dfb66a6285dc8b962b9e4ede5fde54115da09f79f552083e9d53fa9fe45280",
+    "scripts\\baseline.py": "6675b088761705a9f98c349fbdbf02e52344a595fa7f500b4274d0594cf019c6",
+    "scripts\\smoke_test.py": "d5cc3173daf4cd1fafb5cd881968b8de11cb4c98075dbdb171c49cf3c4624b3c",
+    "scripts\\stability_experiment.py": "f1f869c71cee8c3d12edfc4f5bf0598c5287df32d73f679a28f20d97a10cbcac",
+    "scripts\\window_experiment.py": "589e95f20eb3fb947aef33d0ab78624d69fa96d67bb05e28066f3b3c3ec72c62",
+    "streaming\\__init__.py": "16795d71ce6a13c2d34275576d369c83e7ae791940b898dd42eaa3e47a38db23",
+    "streaming\\inputs.py": "aaa98fcb49801c6e09df2bb9743cbd20992bae25110c8325bd3f69a112e54c45",
+    "streaming\\session.py": "12e06e161593d94ce9c9422df8627c8bfb440a0c255216f526b8e1b9ad7bb8f9",
+    "streaming\\window.py": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
+    "tests\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests\\test_local_model.py": "1deeb001e7bca335fe0b786c0f548543b4386079b6d29926525f5d110e64c24d",
+    "tests\\test_stream_session.py": "8f0af36ce5a81ddca526d44fd0772d52b205abde68fa0d4022d1fe902b7be792",
+    "tests\\test_stream_window.py": "94de80f03e6413a386be82cc84b0716474fdb535d7c8af209b3b1b6132a5e0a4"
+  },
+  "psutil": "7.2.2"
+}

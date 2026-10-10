@@ -1,0 +1,27 @@
+{
+  "initial_device_error_and_exact_source_preserved": true,
+  "historical_source_matches": {
+    "s4b_four_frame_preflight_20261010_01": [
+      "scripts\\four_frame_online.py"
+    ],
+    "s4b_four_frame_gpu_20261010_01": [
+      "scripts\\four_frame_online.py"
+    ],
+    "s4b_four_frame_preflight_20261010_02": [],
+    "s4b_four_frame_gpu_20261010_02": []
+  },
+  "repaired_four_groups_and_hands_ids_verified": true,
+  "repeated_qa_reset_bitwise_and_main_isolation_verified": true,
+  "input_budget_provenance_verified": true,
+  "old_44_executable_sources_unchanged": true,
+  "baseline_files_unchanged": 15,
+  "old_cat_one_and_numeric_failures_preserved": true,
+  "three_negative_launch_gates_verified": true,
+  "all_model_assets_sha_verified": 10,
+  "no_inference_in_audit": true,
+  "source_files": 45,
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "commit_created": false,
+  "remote_push": false
+}

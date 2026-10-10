@@ -1,0 +1,44 @@
+[
+  {
+    "path": "runs\\s4b_vision_trace_gpu_20261010_01\\trace_partial.json",
+    "bytes": 82262,
+    "sha256": "5154f836985445786b3f35539820060a04d0b553280927ee7bf27f885ed65224",
+    "reason": "identical records/resources preserved in final summary"
+  },
+  {
+    "path": "runs\\s4b_vision_fixed_gpu_20261010_01\\trace_partial.json",
+    "bytes": 78091,
+    "sha256": "03d31b6aaffd78492a8d894eca9e0f6a3640f1148fb760c842b6faed4c28b05f",
+    "reason": "identical records/resources preserved in final summary"
+  },
+  {
+    "path": "code\\qwen35-streaming-s4\\scripts\\__pycache__\\vision_trace.cpython-312.pyc",
+    "bytes": 32113,
+    "sha256": "50b8c3e486005e3cb5a21c4de2f72b7c3c86ef4120fe9e0b985fcd64ae05674e",
+    "reason": "regenerable bytecode for this turn's new modules only"
+  },
+  {
+    "path": "code\\qwen35-streaming-s4\\scripts\\__pycache__\\qkv_replay.cpython-312.pyc",
+    "bytes": 17641,
+    "sha256": "ee7d3dcb749f5437f4a7bfac9d6fbe050091c8da7dee7e4b470a4fb1a02dbc69",
+    "reason": "regenerable bytecode for this turn's new modules only"
+  },
+  {
+    "path": "code\\qwen35-streaming-s4\\scripts\\__pycache__\\vision_fixed_units.cpython-312.pyc",
+    "bytes": 4738,
+    "sha256": "c23bc0966ab86b5f2680b9710c38ca01bf4738b29b259446bfecd9291382b2af",
+    "reason": "regenerable bytecode for this turn's new modules only"
+  },
+  {
+    "path": "code\\qwen35-streaming-s4\\scripts\\__pycache__\\vision_fixed_control.cpython-312.pyc",
+    "bytes": 17139,
+    "sha256": "f3345b250a86d8713da12dbf973d99fdad5d048dd34f07cccd542987d305db5d",
+    "reason": "regenerable bytecode for this turn's new modules only"
+  },
+  {
+    "path": "code\\qwen35-streaming-s4\\scripts\\__pycache__\\vision_fixed_online.cpython-312.pyc",
+    "bytes": 25382,
+    "sha256": "50757ebc5baaa4bec0f71bb5b3ad5d3f4d81dcfc1344a22c24c7ec5c004a25f7",
+    "reason": "regenerable bytecode for this turn's new modules only"
+  }
+]

@@ -1,0 +1,1 @@
+Read-only delivery audit failed before inference: path comparison expected scripts/four_frame_online.py, while Windows provenance records scripts\four_frame_online.py. AssertionError at verifier line 26; no GPU or model execution occurred.

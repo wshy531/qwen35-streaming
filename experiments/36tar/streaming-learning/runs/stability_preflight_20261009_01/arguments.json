@@ -1,0 +1,6 @@
+{
+  "stage": "preflight",
+  "out": "E:\\VIT Model\\runs\\stability_preflight_20261009_01",
+  "assets": "E:\\VIT Model\\datasets\\stability_synthetic",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B"
+}
