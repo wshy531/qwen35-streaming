@@ -1,0 +1,273 @@
+{
+  "passed": true,
+  "files": {
+    "experiments/36tar/streaming-learning/CURRENT_SOURCE_MANIFEST.json": {
+      "bytes": 7828,
+      "sha256": "a56c6746f5e4e3f33c69ffd3cd546ca631edbb63e94f73295b7d146529c0bb08"
+    },
+    "experiments/36tar/streaming-learning/README.md": {
+      "bytes": 24443,
+      "sha256": "6473cf985d9a53aa3e2332f410a5a3519c8bfcb8f1ba5ccc33e7b263faedf885"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/scripts/capture_worker.py": {
+      "bytes": 7315,
+      "sha256": "9b18ec6b211d6c097be9396c288b11b781e1168aa5873bd41e79d5db92588783"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/scripts/live_demo.py": {
+      "bytes": 11798,
+      "sha256": "156acd9282fe3cfcae73ef2f10c4db972134c4855e145b78d2c3870a67b858a2"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/scripts/video_demo.py": {
+      "bytes": 20768,
+      "sha256": "aeddaeee797e1e4fb310b37e00cee8d05ce71a839e2876974064e89ae130b9ab"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/streaming/live_source.py": {
+      "bytes": 9997,
+      "sha256": "7bc13a3f270ae82762dd846ffdd2dd3cb037c1da8eccefdd95fc34625fa125c6"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/tests/test_live_source.py": {
+      "bytes": 10169,
+      "sha256": "a82f5378880463429413924a8e991ab10ab62721f86264a4f3ca10ab786c7fd2"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_cpu_20261011_01/source_hashes.json": {
+      "bytes": 7357,
+      "sha256": "c55f878de0c8c039f62039cdb53676ed038f150c61d418723c3dc91bf44ae5e0"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_cpu_20261011_01/summary.json": {
+      "bytes": 184,
+      "sha256": "a32b860bf1f4b6760568db3103c3cf5b8fab929cb44e4c4d7d779d3cd8be2089"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_cpu_20261011_01/unittest.log": {
+      "bytes": 25245,
+      "sha256": "ffee196b71f3513dad8439c6359c7eea909228aa99ebc4ea6a8dfe6280d2a34d"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_cpu_20261011_02/source_hashes.json": {
+      "bytes": 7357,
+      "sha256": "c55f878de0c8c039f62039cdb53676ed038f150c61d418723c3dc91bf44ae5e0"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_cpu_20261011_02/summary.json": {
+      "bytes": 183,
+      "sha256": "a1c88cdbc2d65309c7533c73b4b7d3b6b9ef828a8cbe5782e5dcffa7f91fd9c1"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_cpu_20261011_02/unittest.log": {
+      "bytes": 21547,
+      "sha256": "fc90c51da5ce617a9aff669f71790c68adbf8717a0af1e7ad4e6c4427b2ecf9c"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_delivery_20261011_01/active_source_hashes.json": {
+      "bytes": 7525,
+      "sha256": "43cc61b4ddfcc035b7efc33bf6745852156a7d53a56adfaf2d3da2dfe5b7d92c"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_delivery_20261011_01/check_viewer.cjs": {
+      "bytes": 1323,
+      "sha256": "e00bdef85b11b8d32aec0442bbf0a01d5f7049f8d865b66373bd222ab1beacf4"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_delivery_20261011_01/cleanup.json": {
+      "bytes": 814,
+      "sha256": "6ffd1b6fbf74eaa869b78ec4939d84845e90ebb5741a87b0e65db7c522cc1278"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_delivery_20261011_01/verification.json": {
+      "bytes": 767,
+      "sha256": "e9f112ad681ef3cbbbbb75595c296fcb10959209edd832441337e000d5b46728"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_delivery_20261011_01/viewer_check.json": {
+      "bytes": 472,
+      "sha256": "9ff3d55868e81c909d3f5516d6be771d254adc7a3673c6bdd2ef1992e1577e27"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/arguments.json": {
+      "bytes": 605,
+      "sha256": "524913690bbee63be53db69aea363508ac1d0d4f8663487452a95ad9348fed11"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/budget.json": {
+      "bytes": 547,
+      "sha256": "abe3b37b7075674b30cd00f5b3b54d2c23ddbf5897b367c8c19a2859ae55e9c0"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/checked_branch.json": {
+      "bytes": 44,
+      "sha256": "0fb415f42c8dc179ec2d73be96c7dd6b7762270c36e1051782d1060850b79d25"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/console.log": {
+      "bytes": 815,
+      "sha256": "5894f6c363b1036e4086e65ba188bd069e778b3431b93639385bb41ba169e472"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/resource_precheck.json": {
+      "bytes": 108,
+      "sha256": "9aefed91d0de8b56f50d8b4b9ab06ab44f88f93248ba2294a3712b0c8f7c992d"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/source_hashes.json": {
+      "bytes": 7601,
+      "sha256": "744cb4e63baca9195be81a39fb24259b2646b65aaf1e0afcbc48d7c02e85c308"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/status.json": {
+      "bytes": 45,
+      "sha256": "3fdefe7936dfdab16fdd6b19d7ef6b599ad24490a9fcde867acd6fc6d4c0b447"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/traceback.txt": {
+      "bytes": 542,
+      "sha256": "087bdb09b6a4c1ffa91627aff66fb22d32f6a63cc2139757a747576d68fd9099"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_gpu_20261011_01/watchdog_status.json": {
+      "bytes": 83,
+      "sha256": "58c46f26c3e9970522cebe124917f582b5621ca624a7d572f8d65020095dd6a9"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/arguments.json": {
+      "bytes": 605,
+      "sha256": "524913690bbee63be53db69aea363508ac1d0d4f8663487452a95ad9348fed11"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/budget.json": {
+      "bytes": 547,
+      "sha256": "abe3b37b7075674b30cd00f5b3b54d2c23ddbf5897b367c8c19a2859ae55e9c0"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/capture_worker.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/console.log": {
+      "bytes": 1149,
+      "sha256": "234dfa816856d830667640c7f5d1e6c069f91ec807a0c1df9bc5ca05de40a478"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/cpu_tests.json": {
+      "bytes": 104,
+      "sha256": "010ed41e0db1de520e3ee1efbf2db730f354c1ec1791badff60ff29132b426d8"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/events.jsonl": {
+      "bytes": 33591,
+      "sha256": "93f7b7f8ba53b532aff03de2102994f6812785bec62fbf995271e4bab60e5f9c"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/proof.json": {
+      "bytes": 11961,
+      "sha256": "f007e8339938824a77d5e78bf166d2de88b6e9fa4f6870ed684732e183f60ed6"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/source_hashes.json": {
+      "bytes": 7601,
+      "sha256": "744cb4e63baca9195be81a39fb24259b2646b65aaf1e0afcbc48d7c02e85c308"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/status.json": {
+      "bytes": 54,
+      "sha256": "0b646679ff792179efd2649fda585f3881361c5825194942ecb40788016834f0"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/summary.json": {
+      "bytes": 6931,
+      "sha256": "cb1604d35d3ccf464d590113c25ddef0842ce1ca4c125640cf6924c6a5de0ba0"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/unittest.log": {
+      "bytes": 2737,
+      "sha256": "9f85b31325623d409dd0ff9b486358b257c8e1fb330238eb24fadf878bdce858"
+    },
+    "experiments/36tar/streaming-learning/runs/file_live_preflight_20261011_01/watchdog_status.json": {
+      "bytes": 83,
+      "sha256": "f8d51596b6170f79468abb98cc9a7e7d5d32c903438f130dcd65d293216d4ad6"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_cpu_20261011_01/source_hashes.json": {
+      "bytes": 7269,
+      "sha256": "cd7c094effc758ee73638362d3a72de8fa6841f499f4cc34b22d7e9c0e682339"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_cpu_20261011_01/summary.json": {
+      "bytes": 183,
+      "sha256": "994b52f775f3f4f61470bb082db9bd69998b36424eed0b84cc0a58e42b0fece2"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_cpu_20261011_01/unittest.log": {
+      "bytes": 21060,
+      "sha256": "65772f32fb9a91513669b7feda02c85c8bbc77c4905379c4aa991b5571dce63c"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_delivery_20261011_01/active_source_hashes.json": {
+      "bytes": 7441,
+      "sha256": "b69c91555706f881afa36a058a0bfdc057c93efa264b782da7ceff77eaf7e557"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_delivery_20261011_01/check_viewer.cjs": {
+      "bytes": 1334,
+      "sha256": "33e37dfcd7b84664e745378f71e25e9892c6162862225c2c0fba0e4a8563aacf"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_delivery_20261011_01/cleanup.json": {
+      "bytes": 470,
+      "sha256": "4c4ed2434762c6a8b7e10c12b81897699b2791024f0645378f9648d99e161a27"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_delivery_20261011_01/verification.json": {
+      "bytes": 642,
+      "sha256": "f5e584edd8b22470fe9053f14a2ca76c088ac82ef86ad28543ee9a77ddc8cbc2"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_delivery_20261011_01/viewer_check.json": {
+      "bytes": 491,
+      "sha256": "60413815a955954cea6bd380e58f46d0520b5754479b62cd9f482d82f67ce58c"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/arguments.json": {
+      "bytes": 535,
+      "sha256": "dd85766d1e7cd48fa6245eb4db421a8d0e90c66f6f197690a4e90e6c7ecd4fe1"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/budget.json": {
+      "bytes": 548,
+      "sha256": "fcc8c78d24984d4e2f6343e6d39c508b6a02348c11f910638a61c4618fbe29db"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/capture_worker.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/console.log": {
+      "bytes": 1970,
+      "sha256": "dab8cc2efeb36d9fcbcb8bd64ff2ba830d61a057a3640557c31c4de42eec0f1a"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/cpu_tests.json": {
+      "bytes": 104,
+      "sha256": "d1d427db02b1b75ee177a97d69f0785f5f31b2d720cbbf0d18026e0cde22a011"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/events.jsonl": {
+      "bytes": 45565,
+      "sha256": "0991d5cde0d1ba69e0a0b69eace941ba989bbde9f5ec195225ad4df1de490324"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/proof.json": {
+      "bytes": 11612,
+      "sha256": "fe175f467503f67b6b51cabb6a964569f492fdbda6cf6293bd6a06f387dc9233"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/source_hashes.json": {
+      "bytes": 7516,
+      "sha256": "a8c4145b50679567b7756d232ef12944ac0ef3607d12266c1d1ff286dcb1c735"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/status.json": {
+      "bytes": 54,
+      "sha256": "0b646679ff792179efd2649fda585f3881361c5825194942ecb40788016834f0"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/summary.json": {
+      "bytes": 8779,
+      "sha256": "0066b0fc295e41d16faf377e183c963d65c7c43ed90d505f8d52bc0a579abeac"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/unittest.log": {
+      "bytes": 2250,
+      "sha256": "3f4bc7876a7cdb5beecbcf484a53a95b398f06e09d94c29b41fc913586d0309d"
+    },
+    "experiments/36tar/streaming-learning/runs/live_source_preflight_20261011_01/watchdog_status.json": {
+      "bytes": 84,
+      "sha256": "082f53b429188c8c421465c0c48acc56982ad6a57d0ff881e285ba4d4c41a425"
+    },
+    "experiments/36tar/streaming-learning/scripts/run_live_demo.py": {
+      "bytes": 1604,
+      "sha256": "5c91d9afafcd0449d0faacec266a2b61034c4af0ebba605898ea8e8bbe49f2d3"
+    },
+    "experiments/36tar/streaming-learning/实时输入接口结果.md": {
+      "bytes": 3176,
+      "sha256": "6975c2ac4b57ea8604e93cc3581b0f1415a48d5b29c21f1ff3669b6a72e392a8"
+    },
+    "experiments/36tar/streaming-learning/实时输入接口验收方案.md": {
+      "bytes": 3265,
+      "sha256": "67c7ee62866771b574910e93515d89b4fb98db0780165b2bb177b1c43598de49"
+    },
+    "experiments/36tar/streaming-learning/实验总纲.md": {
+      "bytes": 178395,
+      "sha256": "7ce2ad9eaf380b488ce7113abdc716e133b353f7a67341d4c64faabaf4c4b7b3"
+    },
+    "experiments/36tar/streaming-learning/文件实时来源结果.md": {
+      "bytes": 2647,
+      "sha256": "06d9a048098d812a173f24d2c0940d84ba0922abcc19ae0a0424e4c5811ccd29"
+    },
+    "experiments/36tar/streaming-learning/文件实时来源验收方案.md": {
+      "bytes": 2483,
+      "sha256": "7b12efa1588e2b65c7e41e5bc78b3c200384841d6113b6867c1b5aed3627ce40"
+    },
+    "experiments/36tar/streaming-learning/架构设计.md": {
+      "bytes": 23979,
+      "sha256": "55abef2b61bdb033e50b437181c2079b4534c97724f2d9bc25a2c0c85ba59d29"
+    }
+  },
+  "changed_files": 66,
+  "changed_bytes": 574301,
+  "scope_personal_only": true,
+  "raw_git_bytes_match": true
+}
