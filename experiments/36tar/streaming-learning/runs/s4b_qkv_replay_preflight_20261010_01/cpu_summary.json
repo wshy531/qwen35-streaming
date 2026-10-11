@@ -1,0 +1,339 @@
+{
+  "budget": {
+    "projection_operations": 9,
+    "prefix_builds": 1,
+    "vision_encodings": 0,
+    "language_forwards": 0,
+    "generated_tokens": 0,
+    "model_loads": 1,
+    "wall_seconds": 600,
+    "trace_buffer_bytes": 134217728
+  },
+  "actual_operations": {
+    "prefix": 1,
+    "projection": 9,
+    "vision": 0,
+    "language": 0
+  },
+  "fingerprints": {
+    "input": "26b00aec736b3ced65632a661196590b3880ce94511d0a879e877c71107240a1",
+    "weight": "e120ee1c7127b9b288cbea4b509cc65a9476a67c30529bd4abfd6dabe03b0ccc",
+    "bias": "11c5649d2ca67750b13fd8009eca18aa76a63136c0adab03879dcfdaff295d5a"
+  },
+  "fp32_repeat": {
+    "shape": [
+      384,
+      96
+    ],
+    "dtype": "torch.float32",
+    "bitwise_equal": true,
+    "different_elements": 0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "rms_diff": 0.0,
+    "allclose_1e4": true,
+    "actual_sha256": "954074f4a20918ed58c019b5720412d424d8384f850c41a29533a515ddeda5c3",
+    "reference_sha256": "954074f4a20918ed58c019b5720412d424d8384f850c41a29533a515ddeda5c3"
+  },
+  "fp32_split": {
+    "shape": [
+      384,
+      96
+    ],
+    "dtype": "torch.float32",
+    "bitwise_equal": true,
+    "different_elements": 0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "rms_diff": 0.0,
+    "allclose_1e4": true,
+    "actual_sha256": "954074f4a20918ed58c019b5720412d424d8384f850c41a29533a515ddeda5c3",
+    "reference_sha256": "954074f4a20918ed58c019b5720412d424d8384f850c41a29533a515ddeda5c3"
+  },
+  "fp32_equal_shape_padding": {
+    "shape": [
+      384,
+      96
+    ],
+    "dtype": "torch.float32",
+    "bitwise_equal": true,
+    "different_elements": 0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "rms_diff": 0.0,
+    "allclose_1e4": true,
+    "actual_sha256": "954074f4a20918ed58c019b5720412d424d8384f850c41a29533a515ddeda5c3",
+    "reference_sha256": "954074f4a20918ed58c019b5720412d424d8384f850c41a29533a515ddeda5c3"
+  },
+  "local_fp64_cast_fp32_split": {
+    "shape": [
+      384,
+      96
+    ],
+    "dtype": "torch.float32",
+    "bitwise_equal": true,
+    "different_elements": 0,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "rms_diff": 0.0,
+    "allclose_1e4": true,
+    "actual_sha256": "6a3120871f5856c4387a291dcf877d3e32435056f9ef884387f0d5fd3bb80ba8",
+    "reference_sha256": "6a3120871f5856c4387a291dcf877d3e32435056f9ef884387f0d5fd3bb80ba8"
+  },
+  "fp32_whole_vs_local_fp64": {
+    "shape": [
+      384,
+      96
+    ],
+    "dtype": "torch.float32",
+    "bitwise_equal": false,
+    "different_elements": 25989,
+    "max_abs_diff": 1.1920928955078125e-07,
+    "mean_abs_diff": 7.550623114403898e-09,
+    "rms_diff": 1.158720825688475e-08,
+    "allclose_1e4": true,
+    "actual_sha256": "954074f4a20918ed58c019b5720412d424d8384f850c41a29533a515ddeda5c3",
+    "reference_sha256": "6a3120871f5856c4387a291dcf877d3e32435056f9ef884387f0d5fd3bb80ba8"
+  },
+  "fp32_split_vs_local_fp64": {
+    "shape": [
+      384,
+      96
+    ],
+    "dtype": "torch.float32",
+    "bitwise_equal": false,
+    "different_elements": 25989,
+    "max_abs_diff": 1.1920928955078125e-07,
+    "mean_abs_diff": 7.550623114403898e-09,
+    "rms_diff": 1.158720825688475e-08,
+    "allclose_1e4": true,
+    "actual_sha256": "954074f4a20918ed58c019b5720412d424d8384f850c41a29533a515ddeda5c3",
+    "reference_sha256": "6a3120871f5856c4387a291dcf877d3e32435056f9ef884387f0d5fd3bb80ba8"
+  },
+  "weights_bitwise_unchanged": true,
+  "trace_input_and_outputs_reproduced": false,
+  "input_shape": [
+    384,
+    32
+  ],
+  "weight_shape": [
+    96,
+    32
+  ],
+  "trace_buffer_peak_bound_bytes": 37388288,
+  "rss_bytes": 835600384,
+  "ram_available_bytes": 3735375872,
+  "scope": "tiny random projection; CPU interface only",
+  "input_identity": {
+    "pixels_bitwise_equal": true,
+    "grids_aligned_by_temporal_unit": true,
+    "tokens_bitwise_equal": true,
+    "four_axis_positions_bitwise_equal": true,
+    "full_grid": [
+      [
+        2,
+        12,
+        16
+      ]
+    ],
+    "pair_grids": [
+      [
+        1,
+        12,
+        16
+      ],
+      [
+        1,
+        12,
+        16
+      ]
+    ],
+    "full_pixels_shape": [
+      384,
+      1536
+    ],
+    "frame_ids": [
+      0,
+      30,
+      60,
+      90
+    ],
+    "timestamps": [
+      0.0,
+      1.001,
+      2.002,
+      3.003
+    ],
+    "frame_sha256": [
+      "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+      "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+      "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+      "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+    ],
+    "pairs": [
+      {
+        "frame_ids": [
+          0,
+          30
+        ],
+        "timestamps": [
+          0.0,
+          1.001
+        ],
+        "temporal_mean": 0.5005,
+        "rendered_timestamp": "0.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          15,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          60,
+          90
+        ],
+        "timestamps": [
+          2.002,
+          3.003
+        ],
+        "temporal_mean": 2.5025,
+        "rendered_timestamp": "2.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          17,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      }
+    ],
+    "input_fingerprints": {
+      "prefix4": "7bc2d951d3b23a16c5be64fcf977c1a4cd02bdab6dc4fb9c0aef2f6df24d6b11",
+      "prefix2": "32f0f8dcd1a82331dcdfb1315e9e7c203590c3d72c5459afa3a23ca441d764bc"
+    }
+  },
+  "hooks_restored": true
+}

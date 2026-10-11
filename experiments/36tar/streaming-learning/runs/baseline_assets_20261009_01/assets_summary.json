@@ -1,0 +1,46 @@
+{
+  "source": "self-generated synthetic, mechanism/IO diagnostic only",
+  "fps": 1,
+  "image": {
+    "path": "E:\\VIT Model\\datasets\\baseline_synthetic\\red_square.png",
+    "sha256": "15d4018d795740107372a9e53d16ebc9f01faff97633f32e36b5abb0ebc00973"
+  },
+  "videos": [
+    {
+      "name": "red_then_blue",
+      "path": "E:\\VIT Model\\datasets\\baseline_synthetic\\red_then_blue.mp4",
+      "colors": [
+        "red",
+        "red",
+        "blue",
+        "blue"
+      ],
+      "frames": 4,
+      "sha256": "755e650cebd4325e837b8403835c9a02e68bf3bd2a5199795d1a3141a8e28ec6"
+    },
+    {
+      "name": "green_then_blue",
+      "path": "E:\\VIT Model\\datasets\\baseline_synthetic\\green_then_blue.mp4",
+      "colors": [
+        "green",
+        "green",
+        "blue",
+        "blue"
+      ],
+      "frames": 4,
+      "sha256": "a20926b60cbdbee7d62e98ed3bc047d85b01ccfffe1b871527f237ad2a2a4466"
+    },
+    {
+      "name": "blue_then_red",
+      "path": "E:\\VIT Model\\datasets\\baseline_synthetic\\blue_then_red.mp4",
+      "colors": [
+        "blue",
+        "blue",
+        "red",
+        "red"
+      ],
+      "frames": 4,
+      "sha256": "923119b5d16cf75d938ee87dec30b741baf7449751c0a284df939fe45b1aae05"
+    }
+  ]
+}

@@ -1,0 +1,1427 @@
+{
+  "budget": {
+    "vision_encodings": 1,
+    "candidate_projection_operations_max": 100,
+    "language_forwards": 36,
+    "chunk_rule_calls_max": 612,
+    "generated_tokens": 0,
+    "model_loads": 1,
+    "wall_seconds": 600,
+    "retained_features_bytes": 8388608
+  },
+  "actual_forwards": {
+    "vision": 1,
+    "language": 36
+  },
+  "chunk_rule_calls": 612,
+  "candidate_projection_operations": 100,
+  "input_identity": {
+    "pixels_tokens_positions_types_equal": true,
+    "full_grid": [
+      [
+        2,
+        12,
+        16
+      ]
+    ],
+    "canvas": [
+      192,
+      256
+    ],
+    "real_frames": 4,
+    "padded_frames": 4,
+    "frame_ids": [
+      0,
+      30,
+      60,
+      90
+    ],
+    "timestamps": [
+      0.0,
+      1.001,
+      2.002,
+      3.003
+    ],
+    "frame_sha256": [
+      "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+      "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+      "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+      "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+    ],
+    "pairs": [
+      {
+        "frame_ids": [
+          0,
+          30
+        ],
+        "timestamps": [
+          0.0,
+          1.001
+        ],
+        "temporal_mean": 0.5005,
+        "rendered_timestamp": "0.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          15,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          60,
+          90
+        ],
+        "timestamps": [
+          2.002,
+          3.003
+        ],
+        "temporal_mean": 2.5025,
+        "rendered_timestamp": "2.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          17,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      }
+    ],
+    "full_fingerprint": "7bc2d951d3b23a16c5be64fcf977c1a4cd02bdab6dc4fb9c0aef2f6df24d6b11"
+  },
+  "modes": [
+    {
+      "chunk_size": 64,
+      "numeric": {
+        "increment_vs_own_full": {
+          "logits": {
+            "max_abs_diff": 8.58306884765625e-05,
+            "mean_abs_diff": 4.326062935433583e-06,
+            "rms_diff": 5.712152869818965e-06,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "final_states": {
+            "key_cache": {
+              "populated_layers": 6,
+              "max_abs_diff": 2.2530555725097656e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "value_cache": {
+              "populated_layers": 6,
+              "max_abs_diff": 3.24249267578125e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "conv_states": {
+              "populated_layers": 18,
+              "max_abs_diff": 2.0503997802734375e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "recurrent_states": {
+              "populated_layers": 18,
+              "max_abs_diff": 6.4373016357421875e-06,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            }
+          },
+          "passed": true
+        }
+      },
+      "samples": [
+        {
+          "iteration": 1,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 171.96859999967273,
+            "cuda_event_ms": 171.9400634765625
+          },
+          "prompt": {
+            "wall_ms": 133.2442999992054,
+            "cuda_event_ms": 133.22035217285156
+          },
+          "first_pair": {
+            "wall_ms": 132.42260000151873,
+            "cuda_event_ms": 132.40293884277344
+          },
+          "second_pair": {
+            "wall_ms": 122.09389999952691,
+            "cuda_event_ms": 122.0750732421875
+          },
+          "increment_total": {
+            "wall_ms": 387.76080000025104,
+            "cuda_event_ms": 387.6983642578125
+          }
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 147.86869999988994,
+            "cuda_event_ms": 147.8410186767578
+          },
+          "prompt": {
+            "wall_ms": 152.78880000005302,
+            "cuda_event_ms": 152.76748657226562
+          },
+          "first_pair": {
+            "wall_ms": 139.96980000047188,
+            "cuda_event_ms": 139.94598388671875
+          },
+          "second_pair": {
+            "wall_ms": 118.52110000108951,
+            "cuda_event_ms": 118.50035095214844
+          },
+          "increment_total": {
+            "wall_ms": 411.2797000016144,
+            "cuda_event_ms": 411.2138214111328
+          }
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 142.5978999996005,
+            "cuda_event_ms": 142.567138671875
+          },
+          "prompt": {
+            "wall_ms": 139.5381999991514,
+            "cuda_event_ms": 139.5127716064453
+          },
+          "first_pair": {
+            "wall_ms": 143.98760000040056,
+            "cuda_event_ms": 143.9672393798828
+          },
+          "second_pair": {
+            "wall_ms": 118.5801999999967,
+            "cuda_event_ms": 118.5638427734375
+          },
+          "increment_total": {
+            "wall_ms": 402.10599999954866,
+            "cuda_event_ms": 402.0438537597656
+          }
+        }
+      ],
+      "warmup_excluded": {
+        "iteration": 0,
+        "warmup": true,
+        "full_prefix": {
+          "wall_ms": 322.7764000002935,
+          "cuda_event_ms": 322.40740966796875
+        },
+        "prompt": {
+          "wall_ms": 171.7640000006213,
+          "cuda_event_ms": 171.72889709472656
+        },
+        "first_pair": {
+          "wall_ms": 173.3049000013125,
+          "cuda_event_ms": 173.2842559814453
+        },
+        "second_pair": {
+          "wall_ms": 111.68809999981022,
+          "cuda_event_ms": 111.66413116455078
+        },
+        "warmup_question": {
+          "wall_ms": 135.27030000113882,
+          "cuda_event_ms": 135.2281951904297
+        },
+        "warmup_fixed_token": {
+          "wall_ms": 42.38950000035402,
+          "cuda_event_ms": 42.37004852294922
+        }
+      },
+      "stage_summary_ms": {
+        "full_prefix": {
+          "wall_ms": {
+            "median": 147.86869999988994,
+            "min": 142.5978999996005,
+            "max": 171.96859999967273
+          },
+          "cuda_event_ms": {
+            "median": 147.8410186767578,
+            "min": 142.567138671875,
+            "max": 171.9400634765625
+          }
+        },
+        "prompt": {
+          "wall_ms": {
+            "median": 139.5381999991514,
+            "min": 133.2442999992054,
+            "max": 152.78880000005302
+          },
+          "cuda_event_ms": {
+            "median": 139.5127716064453,
+            "min": 133.22035217285156,
+            "max": 152.76748657226562
+          }
+        },
+        "first_pair": {
+          "wall_ms": {
+            "median": 139.96980000047188,
+            "min": 132.42260000151873,
+            "max": 143.98760000040056
+          },
+          "cuda_event_ms": {
+            "median": 139.94598388671875,
+            "min": 132.40293884277344,
+            "max": 143.9672393798828
+          }
+        },
+        "second_pair": {
+          "wall_ms": {
+            "median": 118.5801999999967,
+            "min": 118.52110000108951,
+            "max": 122.09389999952691
+          },
+          "cuda_event_ms": {
+            "median": 118.5638427734375,
+            "min": 118.50035095214844,
+            "max": 122.0750732421875
+          }
+        },
+        "increment_total": {
+          "wall_ms": {
+            "median": 402.10599999954866,
+            "min": 387.76080000025104,
+            "max": 411.2797000016144
+          },
+          "cuda_event_ms": {
+            "median": 402.0438537597656,
+            "min": 387.6983642578125,
+            "max": 411.2138214111328
+          }
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ]
+          ],
+          "bytes": 1413120
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ]
+          ],
+          "bytes": 1413120
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 1769472
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 23470080,
+        "seq_length": 115
+      },
+      "chunk_rule_calls": 306
+    },
+    {
+      "chunk_size": 32,
+      "numeric": {
+        "increment_vs_own_full": {
+          "logits": {
+            "max_abs_diff": 6.29425048828125e-05,
+            "mean_abs_diff": 4.301511580706574e-06,
+            "rms_diff": 5.6633857639099006e-06,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "final_states": {
+            "key_cache": {
+              "populated_layers": 6,
+              "max_abs_diff": 2.2530555725097656e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "value_cache": {
+              "populated_layers": 6,
+              "max_abs_diff": 3.24249267578125e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "conv_states": {
+              "populated_layers": 18,
+              "max_abs_diff": 1.52587890625e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "recurrent_states": {
+              "populated_layers": 18,
+              "max_abs_diff": 5.9604644775390625e-06,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            }
+          },
+          "passed": true
+        },
+        "full32_vs_full64_all_logits": {
+          "logits": {
+            "max_abs_diff": 6.008148193359375e-05,
+            "mean_abs_diff": 2.479769136698451e-06,
+            "rms_diff": 3.8006610338925384e-06,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "final_states": {
+            "key_cache": {
+              "populated_layers": 6,
+              "max_abs_diff": 1.2874603271484375e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "value_cache": {
+              "populated_layers": 6,
+              "max_abs_diff": 1.2755393981933594e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "conv_states": {
+              "populated_layers": 18,
+              "max_abs_diff": 1.71661376953125e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "recurrent_states": {
+              "populated_layers": 18,
+              "max_abs_diff": 2.86102294921875e-06,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            }
+          },
+          "passed": true
+        },
+        "question32_vs_question64": {
+          "logits": {
+            "max_abs_diff": 9.822845458984375e-05,
+            "mean_abs_diff": 4.206814082863275e-06,
+            "rms_diff": 6.624488378292881e-06,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "passed": true
+        },
+        "fixed_token32_vs_fixed_token64": {
+          "logits": {
+            "max_abs_diff": 1.52587890625e-05,
+            "mean_abs_diff": 2.404508450126741e-06,
+            "rms_diff": 3.0231269647629233e-06,
+            "bitwise_equal": false,
+            "allclose_5e3": true,
+            "last_argmax_equal": true,
+            "all_positions_argmax_equal": true,
+            "registered_numeric_limits_passed": true,
+            "allclose_1e4": true,
+            "fp32_reference_limits_passed": true
+          },
+          "final_states": {
+            "key_cache": {
+              "populated_layers": 6,
+              "max_abs_diff": 2.03549861907959e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "value_cache": {
+              "populated_layers": 6,
+              "max_abs_diff": 1.3709068298339844e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "conv_states": {
+              "populated_layers": 18,
+              "max_abs_diff": 3.4332275390625e-05,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            },
+            "recurrent_states": {
+              "populated_layers": 18,
+              "max_abs_diff": 5.193054676055908e-06,
+              "all_tensors_bitwise_equal": false,
+              "allclose_1e4": true
+            }
+          },
+          "passed": true
+        }
+      },
+      "samples": [
+        {
+          "iteration": 1,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 110.02480000024661,
+            "cuda_event_ms": 109.99488067626953
+          },
+          "prompt": {
+            "wall_ms": 94.52019999844197,
+            "cuda_event_ms": 94.50179290771484
+          },
+          "first_pair": {
+            "wall_ms": 105.14389999843843,
+            "cuda_event_ms": 105.11958312988281
+          },
+          "second_pair": {
+            "wall_ms": 127.2212000003492,
+            "cuda_event_ms": 127.18284606933594
+          },
+          "increment_total": {
+            "wall_ms": 326.8852999972296,
+            "cuda_event_ms": 326.8042221069336
+          }
+        },
+        {
+          "iteration": 2,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 110.53350000111095,
+            "cuda_event_ms": 110.50361633300781
+          },
+          "prompt": {
+            "wall_ms": 90.2382000003854,
+            "cuda_event_ms": 90.21836853027344
+          },
+          "first_pair": {
+            "wall_ms": 91.9527999994898,
+            "cuda_event_ms": 91.92960357666016
+          },
+          "second_pair": {
+            "wall_ms": 92.27329999885114,
+            "cuda_event_ms": 92.25190734863281
+          },
+          "increment_total": {
+            "wall_ms": 274.46429999872635,
+            "cuda_event_ms": 274.3998794555664
+          }
+        },
+        {
+          "iteration": 3,
+          "warmup": false,
+          "full_prefix": {
+            "wall_ms": 112.84410000007483,
+            "cuda_event_ms": 112.81187438964844
+          },
+          "prompt": {
+            "wall_ms": 90.8584000007977,
+            "cuda_event_ms": 90.83187103271484
+          },
+          "first_pair": {
+            "wall_ms": 118.05860000094981,
+            "cuda_event_ms": 118.03443145751953
+          },
+          "second_pair": {
+            "wall_ms": 110.91119999946386,
+            "cuda_event_ms": 110.88905334472656
+          },
+          "increment_total": {
+            "wall_ms": 319.82820000121137,
+            "cuda_event_ms": 319.75535583496094
+          }
+        }
+      ],
+      "warmup_excluded": {
+        "iteration": 0,
+        "warmup": true,
+        "full_prefix": {
+          "wall_ms": 114.30119999931776,
+          "cuda_event_ms": 114.2679672241211
+        },
+        "prompt": {
+          "wall_ms": 93.90689999963797,
+          "cuda_event_ms": 93.87315368652344
+        },
+        "first_pair": {
+          "wall_ms": 110.681599999225,
+          "cuda_event_ms": 110.65650939941406
+        },
+        "second_pair": {
+          "wall_ms": 128.79139999859035,
+          "cuda_event_ms": 128.76698303222656
+        },
+        "warmup_question": {
+          "wall_ms": 85.42560000023514,
+          "cuda_event_ms": 85.3934097290039
+        },
+        "warmup_fixed_token": {
+          "wall_ms": 26.256900000589667,
+          "cuda_event_ms": 26.229440689086914
+        }
+      },
+      "stage_summary_ms": {
+        "full_prefix": {
+          "wall_ms": {
+            "median": 110.53350000111095,
+            "min": 110.02480000024661,
+            "max": 112.84410000007483
+          },
+          "cuda_event_ms": {
+            "median": 110.50361633300781,
+            "min": 109.99488067626953,
+            "max": 112.81187438964844
+          }
+        },
+        "prompt": {
+          "wall_ms": {
+            "median": 90.8584000007977,
+            "min": 90.2382000003854,
+            "max": 94.52019999844197
+          },
+          "cuda_event_ms": {
+            "median": 90.83187103271484,
+            "min": 90.21836853027344,
+            "max": 94.50179290771484
+          }
+        },
+        "first_pair": {
+          "wall_ms": {
+            "median": 105.14389999843843,
+            "min": 91.9527999994898,
+            "max": 118.05860000094981
+          },
+          "cuda_event_ms": {
+            "median": 105.11958312988281,
+            "min": 91.92960357666016,
+            "max": 118.03443145751953
+          }
+        },
+        "second_pair": {
+          "wall_ms": {
+            "median": 110.91119999946386,
+            "min": 92.27329999885114,
+            "max": 127.2212000003492
+          },
+          "cuda_event_ms": {
+            "median": 110.88905334472656,
+            "min": 92.25190734863281,
+            "max": 127.18284606933594
+          }
+        },
+        "increment_total": {
+          "wall_ms": {
+            "median": 319.82820000121137,
+            "min": 274.46429999872635,
+            "max": 326.8852999972296
+          },
+          "cuda_event_ms": {
+            "median": 319.75535583496094,
+            "min": 274.3998794555664,
+            "max": 326.8042221069336
+          }
+        }
+      },
+      "cache": {
+        "key_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ]
+          ],
+          "bytes": 1413120
+        },
+        "value_cache": {
+          "shapes": [
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ],
+            null,
+            null,
+            null,
+            [
+              1,
+              2,
+              115,
+              256
+            ]
+          ],
+          "bytes": 1413120
+        },
+        "conv_states": {
+          "shapes": [
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null,
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            [
+              1,
+              6144,
+              4
+            ],
+            null
+          ],
+          "bytes": 1769472
+        },
+        "recurrent_states": {
+          "shapes": [
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null,
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            [
+              1,
+              16,
+              128,
+              128
+            ],
+            null
+          ],
+          "bytes": 18874368
+        },
+        "total_tensor_bytes": 23470080,
+        "seq_length": 115
+      },
+      "chunk_rule_calls": 306
+    }
+  ],
+  "retained_feature_bytes": 393216,
+  "feature_sha256": "04386b4267395e5ce47ff540bf87a6e7213cb3e63817597d03d68fe2334b3356",
+  "all_strict_controls_passed": true,
+  "two_question_branches_main_unchanged_bitwise": true,
+  "scope": "explicit 32 execution candidate, finite FP32 input; not default/BF16/semantics",
+  "hooks_methods_callables_restored": true,
+  "wall_seconds_including_load": 8.77863140000045,
+  "peak_allocated_gib": 4.111364364624023,
+  "peak_reserved_gib": 4.669921875
+}

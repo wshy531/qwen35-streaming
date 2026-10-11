@@ -1,0 +1,689 @@
+{
+  "budget": {
+    "records": 7,
+    "strict_shared_groups": 5,
+    "max_tokens": 256,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 32,
+    "language_forwards_max": 47,
+    "vision_encodings": 6,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "groups": [
+    {
+      "id": "prefix2_shared",
+      "kind": "strict_shared",
+      "logits": {
+        "max_abs_diff": 0.00013303756713867188,
+        "mean_abs_diff": 4.454674126463942e-06,
+        "rms_diff": 6.293330898188287e-06,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 2.193450927734375e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 4.00543212890625e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 1.52587890625e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 7.3909759521484375e-06,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "status": {
+        "accepted_frames": 2,
+        "encoded_real_frames": 2,
+        "pending_frame_id": null,
+        "last_received_id": 30,
+        "last_encoded_id": 30,
+        "last_encoded_pts": 1.001,
+        "seen_tokens": 59,
+        "next_rope_position": 19,
+        "vision_encodings": 1,
+        "pending_rgb_bytes": 0,
+        "finished": false,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "70790451b42324bd19799043ff201c7667cf29ba2e83ae25afa0bdd08fec99bb",
+        "feature_bytes": 196608
+      },
+      "passed": true
+    },
+    {
+      "id": "qa2_shared",
+      "kind": "strict_shared",
+      "online": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "CAT",
+        "generated_ids": [
+          27280,
+          248046
+        ],
+        "stop_reason": "eos",
+        "frame_id": 30,
+        "timestamp": 1.001,
+        "wall_seconds": 0.2236525000007532,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "reference_answer": "CAT",
+      "reference_ids": [
+        27280,
+        248046
+      ],
+      "logits": {
+        "max_abs_diff": 9.322166442871094e-05,
+        "mean_abs_diff": 4.561446075967979e-06,
+        "rms_diff": 6.658630354650086e-06,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 2.4497509002685547e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 3.2067298889160156e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 4.00543212890625e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 1.0251998901367188e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "passed": true
+    },
+    {
+      "id": "prefix4_shared",
+      "kind": "strict_shared",
+      "logits": {
+        "max_abs_diff": 8.58306884765625e-05,
+        "mean_abs_diff": 4.326062935433583e-06,
+        "rms_diff": 5.712152869818965e-06,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 2.2530555725097656e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 3.24249267578125e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 2.0503997802734375e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 6.4373016357421875e-06,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "status": {
+        "accepted_frames": 4,
+        "encoded_real_frames": 4,
+        "pending_frame_id": null,
+        "last_received_id": 90,
+        "last_encoded_id": 90,
+        "last_encoded_pts": 3.003,
+        "seen_tokens": 115,
+        "next_rope_position": 35,
+        "vision_encodings": 2,
+        "pending_rgb_bytes": 0,
+        "finished": false,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "8795c6aa033603e587b746f3a867d0c24a6d9286d966ed5f1a99add3e6a2c002",
+        "feature_bytes": 393216
+      },
+      "passed": true
+    },
+    {
+      "id": "qa4_shared",
+      "kind": "strict_shared",
+      "online": {
+        "question": "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.",
+        "answer": "ONE",
+        "generated_ids": [
+          5059,
+          248046
+        ],
+        "stop_reason": "eos",
+        "frame_id": 90,
+        "timestamp": 3.003,
+        "wall_seconds": 0.20621179999943706,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "reference_answer": "ONE",
+      "reference_ids": [
+        5059,
+        248046
+      ],
+      "logits": {
+        "max_abs_diff": 0.00010204315185546875,
+        "mean_abs_diff": 5.038233666709857e-06,
+        "rms_diff": 7.499499133700738e-06,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 2.5272369384765625e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 2.7835369110107422e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 2.09808349609375e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 5.7220458984375e-06,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "passed": true
+    },
+    {
+      "id": "prefix4_vision_bias",
+      "kind": "diagnostic_different_inputs",
+      "features": {
+        "max_abs_diff": 9.34600830078125e-05,
+        "mean_abs_diff": 5.118171770845947e-07,
+        "rms_diff": 1.0967236221404164e-06,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "logits": {
+        "max_abs_diff": 0.0015048980712890625,
+        "mean_abs_diff": 1.7864627807284705e-05,
+        "rms_diff": 3.741313412319869e-05,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": false,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.0004961490631103516,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.00039446353912353516,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.000125885009765625,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 9.268522262573242e-06,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "online_vs_whole": {
+        "logits": {
+          "max_abs_diff": 0.0008098334074020386,
+          "mean_abs_diff": 1.839580545492936e-05,
+          "rms_diff": 3.342442141729407e-05,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": false,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 6,
+            "max_abs_diff": 0.0004940032958984375,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": false
+          },
+          "value_cache": {
+            "populated_layers": 6,
+            "max_abs_diff": 0.0003933906555175781,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": false
+          },
+          "conv_states": {
+            "populated_layers": 18,
+            "max_abs_diff": 0.00012683868408203125,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 18,
+            "max_abs_diff": 9.775161743164062e-06,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          }
+        },
+        "status": {
+          "accepted_frames": 4,
+          "encoded_real_frames": 4,
+          "pending_frame_id": null,
+          "last_received_id": 90,
+          "last_encoded_id": 90,
+          "last_encoded_pts": 3.003,
+          "seen_tokens": 115,
+          "next_rope_position": 35,
+          "vision_encodings": 2,
+          "pending_rgb_bytes": 0,
+          "finished": false,
+          "invalid": false,
+          "closed": false,
+          "reference_mode": "fp32_ieee_math"
+        },
+        "passed": false
+      },
+      "within_old_strict_language_gate": false
+    },
+    {
+      "id": "eof3_shared",
+      "kind": "strict_shared",
+      "logits": {
+        "max_abs_diff": 0.0001125335693359375,
+        "mean_abs_diff": 4.545163847069489e-06,
+        "rms_diff": 6.164846581668826e-06,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 2.2530555725097656e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 3.24249267578125e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 3.62396240234375e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 7.271766662597656e-06,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "status": {
+        "accepted_frames": 3,
+        "encoded_real_frames": 3,
+        "pending_frame_id": null,
+        "last_received_id": 60,
+        "last_encoded_id": 60,
+        "last_encoded_pts": 2.002,
+        "seen_tokens": 115,
+        "next_rope_position": 35,
+        "vision_encodings": 2,
+        "pending_rgb_bytes": 0,
+        "finished": true,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "7183d031d739adf56711865f27cb919e472d93305c11ddbe9f338c3ae45c9aba",
+        "feature_bytes": 393216
+      },
+      "padding_record": {
+        "frame_ids": [
+          60,
+          60
+        ],
+        "timestamps": [
+          2.002,
+          2.002
+        ],
+        "temporal_mean": 2.002,
+        "rendered_timestamp": "2.0",
+        "synthetic_padding": true,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          17,
+          13,
+          15,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<2.0 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      "input_sealed": true,
+      "passed": true
+    },
+    {
+      "id": "eof3_vision_bias",
+      "kind": "diagnostic_different_inputs",
+      "features": {
+        "max_abs_diff": 9.34600830078125e-05,
+        "mean_abs_diff": 4.775960746883356e-07,
+        "rms_diff": 9.796308404474985e-07,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "logits": {
+        "max_abs_diff": 0.0033410638570785522,
+        "mean_abs_diff": 2.1139530872460455e-05,
+        "rms_diff": 6.410043715732172e-05,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": false,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.0006560683250427246,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": false
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 0.0004723072052001953,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": false
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 0.000247955322265625,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": false
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 1.9758939743041992e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "online_vs_whole": {
+        "logits": {
+          "max_abs_diff": 0.0033154338598251343,
+          "mean_abs_diff": 2.4730132281547412e-05,
+          "rms_diff": 8.077475649770349e-05,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": false,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 6,
+            "max_abs_diff": 0.0006551146507263184,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": false
+          },
+          "value_cache": {
+            "populated_layers": 6,
+            "max_abs_diff": 0.00046825408935546875,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": false
+          },
+          "conv_states": {
+            "populated_layers": 18,
+            "max_abs_diff": 0.00022077560424804688,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": false
+          },
+          "recurrent_states": {
+            "populated_layers": 18,
+            "max_abs_diff": 1.996755599975586e-05,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          }
+        },
+        "status": {
+          "accepted_frames": 3,
+          "encoded_real_frames": 3,
+          "pending_frame_id": null,
+          "last_received_id": 60,
+          "last_encoded_id": 60,
+          "last_encoded_pts": 2.002,
+          "seen_tokens": 115,
+          "next_rope_position": 35,
+          "vision_encodings": 2,
+          "pending_rgb_bytes": 0,
+          "finished": true,
+          "invalid": false,
+          "closed": false,
+          "reference_mode": "fp32_ieee_math"
+        },
+        "passed": false
+      },
+      "within_old_strict_language_gate": false
+    }
+  ],
+  "questions": [
+    "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+    "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER."
+  ],
+  "canvas": [
+    192,
+    256
+  ],
+  "scope": "fixed causal file replay, explicit FP32 IEEE/math; no live service or BF16 acceptance",
+  "input_fingerprints": {
+    "prefix2": "32f0f8dcd1a82331dcdfb1315e9e7c203590c3d72c5459afa3a23ca441d764bc",
+    "question2": "db9c4773c4aa85a42d9063bf014efc6cf801ce82eb701e9e3c66ec4b90b66393",
+    "prefix4": "7bc2d951d3b23a16c5be64fcf977c1a4cd02bdab6dc4fb9c0aef2f6df24d6b11",
+    "question4": "8c7a27137361de5972cf7e8347b4c2289ee369f44e056abdefd8141118649834",
+    "eof3": "2b6a32466ddec5395a50a9f6658d791504f1a53aa0be256de96cab64d917464b"
+  },
+  "actual_forwards": {
+    "language": 23,
+    "vision": 6
+  },
+  "generated_tokens": 8,
+  "all_shared_groups_passed": true,
+  "frame_ids": [
+    0,
+    30,
+    60,
+    90
+  ],
+  "timestamps": [
+    0.0,
+    1.001,
+    2.002,
+    3.003
+  ],
+  "hooks_removed_after_return": true,
+  "wall_seconds_including_load": 6.394900899998902,
+  "peak_allocated_gib": 4.056765556335449,
+  "peak_reserved_gib": 4.7734375,
+  "resource_precheck": {
+    "gpu_free_bytes": 7443841024,
+    "gpu_total_bytes": 8585216000,
+    "ram_available_bytes": 5492711424
+  }
+}

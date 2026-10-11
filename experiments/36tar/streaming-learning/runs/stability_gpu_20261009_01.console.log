@@ -1,0 +1,113 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 5839.47it/s]
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 10, "resets": 0, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 1707.25390625}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 20, "resets": 0, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 1707.20703125}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 30, "resets": 0, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 1707.20703125}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 40, "resets": 0, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 80.86328125}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 50, "resets": 0, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 81.66015625}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 60, "resets": 0, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 82.84765625}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 70, "resets": 5, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 120.140625}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 80, "resets": 10, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 114.92578125}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 90, "resets": 15, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 122.47265625}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 100, "resets": 20, "cache_alive": 0, "allocated_mib": 1665.21435546875, "rss_mib": 122.7578125}
+{"answers_correct": 81, "state_reset_passed": true, "registered_acceptance_passed": true, "seconds": 38.8549766999995}

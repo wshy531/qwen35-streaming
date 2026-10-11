@@ -1,0 +1,4 @@
+{
+  "modeling_sha256": "16e1ca3041586785d99d0fcd7971adcd35800b89d2cf36391149212c645140a5",
+  "scope": "exact S4 model source used by previous CPU/preflight/GPU runs before optional recurrent reference"
+}

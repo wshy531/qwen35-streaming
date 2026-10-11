@@ -1,0 +1,1145 @@
+{
+  "tiny_adapter_test": {
+    "adapter": "upstream_44474_input_positions",
+    "position_grid": [
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        2
+      ]
+    ],
+    "vision_grid_unchanged": [
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "rope_delta": [
+      [
+        0
+      ]
+    ],
+    "position_shape": [
+      4,
+      1,
+      9
+    ],
+    "coordinate_oracle_matches": true,
+    "temporal_groups": 2,
+    "local_upstream_max_logit_error": 0.0,
+    "tiny_generation_tokens": 3
+  },
+  "same_prefix_model_inputs_match": true,
+  "cases": [
+    {
+      "id": "same_prefix_future_blue",
+      "windows": [
+        {
+          "temporal_patch_means": [
+            0.5
+          ],
+          "rendered_timestamps": [
+            "0.5"
+          ],
+          "temporal_padding_frame_ids": [
+            0,
+            1
+          ],
+          "visual_tokens": 64,
+          "video_grid_thw": [
+            [
+              1,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -56
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              105
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 1,
+          "accepted_samples": 2,
+          "frame_ids": [
+            0,
+            1
+          ],
+          "timestamps": [
+            0.0,
+            1.0
+          ],
+          "frame_sha256": [
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+          ],
+          "window_pixel_bytes": 393216,
+          "delivered_decode_count": 2,
+          "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+          "input_tokens": 105,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            0.5,
+            2.5
+          ],
+          "rendered_timestamps": [
+            "0.5",
+            "2.5"
+          ],
+          "temporal_padding_frame_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              177
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 4,
+          "frame_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "timestamps": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "frame_sha256": [
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 4,
+          "input_fingerprint": "c8946b7a37e91ee342faa483e2488d7f9684526af6a3569e3b242cd5ccb96914",
+          "input_tokens": 177,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            2.5,
+            4.5
+          ],
+          "rendered_timestamps": [
+            "2.5",
+            "4.5"
+          ],
+          "temporal_padding_frame_ids": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              177
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 6,
+          "frame_ids": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "timestamps": [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "frame_sha256": [
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 6,
+          "input_fingerprint": "ee29f3ef9af61e3cc30bb4c8439e5956c60038328d807580de41e055e1e4836b",
+          "input_tokens": 177,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            4.5,
+            6.5
+          ],
+          "rendered_timestamps": [
+            "4.5",
+            "6.5"
+          ],
+          "temporal_padding_frame_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              177
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 8,
+          "frame_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "timestamps": [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          "frame_sha256": [
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+            "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+            "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 8,
+          "input_fingerprint": "51ca6b0848c8c261f42aa38fc2be916ca63f0f2024a66747344c518628845277",
+          "input_tokens": 177,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            6.5,
+            8.5
+          ],
+          "rendered_timestamps": [
+            "6.5",
+            "8.5"
+          ],
+          "temporal_padding_frame_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              177
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 10,
+          "frame_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "timestamps": [
+            6.0,
+            7.0,
+            8.0,
+            9.0
+          ],
+          "frame_sha256": [
+            "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+            "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 10,
+          "input_fingerprint": "2f6848aa4a225011d0266a446c10c1014f24ad4beeaa01cdba5e7c8bbdbea5f2",
+          "input_tokens": 177,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            8.5,
+            10.5
+          ],
+          "rendered_timestamps": [
+            "8.5",
+            "10.5"
+          ],
+          "temporal_padding_frame_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              178
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 12,
+          "frame_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "timestamps": [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          "frame_sha256": [
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 12,
+          "input_fingerprint": "8ec1bba94b4345c60c307dff5958b3399b5f4d3d6707815432563413a0d3d709",
+          "input_tokens": 178,
+          "full_processor_matches": true
+        }
+      ]
+    },
+    {
+      "id": "same_prefix_future_green",
+      "windows": [
+        {
+          "temporal_patch_means": [
+            0.5
+          ],
+          "rendered_timestamps": [
+            "0.5"
+          ],
+          "temporal_padding_frame_ids": [
+            0,
+            1
+          ],
+          "visual_tokens": 64,
+          "video_grid_thw": [
+            [
+              1,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -56
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              105
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 1,
+          "accepted_samples": 2,
+          "frame_ids": [
+            0,
+            1
+          ],
+          "timestamps": [
+            0.0,
+            1.0
+          ],
+          "frame_sha256": [
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+          ],
+          "window_pixel_bytes": 393216,
+          "delivered_decode_count": 2,
+          "input_fingerprint": "9f69973c74a6862d6ab057d056e2e53a7ca1f7dce965c5cc7dc85c7b4d692848",
+          "input_tokens": 105,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            0.5,
+            2.5
+          ],
+          "rendered_timestamps": [
+            "0.5",
+            "2.5"
+          ],
+          "temporal_padding_frame_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              177
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 4,
+          "frame_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "timestamps": [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          "frame_sha256": [
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 4,
+          "input_fingerprint": "686026cd621a4c73b463b7d82185c91df9b026001cf30a07e0e0feef22f304aa",
+          "input_tokens": 177,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            2.5,
+            4.5
+          ],
+          "rendered_timestamps": [
+            "2.5",
+            "4.5"
+          ],
+          "temporal_padding_frame_ids": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              177
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 6,
+          "frame_ids": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "timestamps": [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ],
+          "frame_sha256": [
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 6,
+          "input_fingerprint": "8dec7f353b246a0de74fb7b7ea0b8da36bea75f11540a7cb70f1a13254d9cf8c",
+          "input_tokens": 177,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            4.5,
+            6.5
+          ],
+          "rendered_timestamps": [
+            "4.5",
+            "6.5"
+          ],
+          "temporal_padding_frame_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              177
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 8,
+          "frame_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "timestamps": [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          "frame_sha256": [
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+            "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+            "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+            "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 8,
+          "input_fingerprint": "680b6308ab4cfe8b4c0a70245dd58165273f41f7ed14e1ad4264fd9dfd0cafc2",
+          "input_tokens": 177,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            6.5,
+            8.5
+          ],
+          "rendered_timestamps": [
+            "6.5",
+            "8.5"
+          ],
+          "temporal_padding_frame_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              177
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 10,
+          "frame_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "timestamps": [
+            6.0,
+            7.0,
+            8.0,
+            9.0
+          ],
+          "frame_sha256": [
+            "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+            "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 10,
+          "input_fingerprint": "2f6848aa4a225011d0266a446c10c1014f24ad4beeaa01cdba5e7c8bbdbea5f2",
+          "input_tokens": 177,
+          "full_processor_matches": true
+        },
+        {
+          "temporal_patch_means": [
+            8.5,
+            10.5
+          ],
+          "rendered_timestamps": [
+            "8.5",
+            "10.5"
+          ],
+          "temporal_padding_frame_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "visual_tokens": 128,
+          "video_grid_thw": [
+            [
+              2,
+              16,
+              16
+            ]
+          ],
+          "position_adapter": {
+            "adapter": "upstream_44474_input_positions",
+            "position_grid": [
+              [
+                1,
+                16,
+                16
+              ],
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "vision_grid_unchanged": [
+              [
+                2,
+                16,
+                16
+              ]
+            ],
+            "rope_delta": [
+              [
+                -112
+              ]
+            ],
+            "position_shape": [
+              4,
+              1,
+              178
+            ]
+          },
+          "coordinate_oracle_matches": true,
+          "temporal_groups": 2,
+          "accepted_samples": 12,
+          "frame_ids": [
+            8,
+            9,
+            10,
+            11
+          ],
+          "timestamps": [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          "frame_sha256": [
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+            "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+          ],
+          "window_pixel_bytes": 786432,
+          "delivered_decode_count": 12,
+          "input_fingerprint": "1d2c7fe2eebb39a0c340692c096076c0252b4f22a76b999e7455c8289e32a607",
+          "input_tokens": 178,
+          "full_processor_matches": true
+        }
+      ]
+    }
+  ],
+  "odd_known_frame_padding": [
+    {
+      "frames": 1,
+      "temporal_patch_means": [
+        0.0
+      ],
+      "rendered_timestamps": [
+        "0.0"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        0
+      ],
+      "visual_tokens": 64,
+      "video_grid_thw": [
+        [
+          1,
+          16,
+          16
+        ]
+      ],
+      "position_shape": [
+        4,
+        1,
+        105
+      ]
+    },
+    {
+      "frames": 2,
+      "temporal_patch_means": [
+        0.5
+      ],
+      "rendered_timestamps": [
+        "0.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        1
+      ],
+      "visual_tokens": 64,
+      "video_grid_thw": [
+        [
+          1,
+          16,
+          16
+        ]
+      ],
+      "position_shape": [
+        4,
+        1,
+        105
+      ]
+    },
+    {
+      "frames": 3,
+      "temporal_patch_means": [
+        0.5,
+        2.0
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.0"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "position_shape": [
+        4,
+        1,
+        177
+      ]
+    },
+    {
+      "frames": 4,
+      "temporal_patch_means": [
+        0.5,
+        2.5
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "position_shape": [
+        4,
+        1,
+        177
+      ]
+    }
+  ],
+  "irregular_pts": {
+    "temporal_patch_means": [
+      0.7999999999999999,
+      3.9
+    ],
+    "rendered_timestamps": [
+      "0.8",
+      "3.9"
+    ],
+    "temporal_padding_frame_ids": [
+      0,
+      1,
+      2,
+      2
+    ],
+    "visual_tokens": 128,
+    "video_grid_thw": [
+      [
+        2,
+        16,
+        16
+      ]
+    ]
+  },
+  "questions": 12,
+  "capability_scope": "CPU interface only"
+}

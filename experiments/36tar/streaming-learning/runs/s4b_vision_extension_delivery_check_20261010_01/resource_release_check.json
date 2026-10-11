@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-10T17:34:46.521459+08:00",
+  "gpu_driver_query": "NVIDIA GeForce RTX 4060 Laptop GPU, 0 MiB, 7957 MiB",
+  "ram_available_bytes": 3232546816,
+  "scope": "single read-only query after child exit; no background monitor",
+  "native_ram_query_unavailable": "CIM denied; psutil used instead, no zero-RAM inference"
+}

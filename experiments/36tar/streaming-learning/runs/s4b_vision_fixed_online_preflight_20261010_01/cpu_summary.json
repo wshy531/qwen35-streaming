@@ -1,0 +1,661 @@
+{
+  "budget": {
+    "records": 7,
+    "strict_shared_groups": 5,
+    "max_tokens": 256,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 32,
+    "language_forwards_max": 47,
+    "vision_encodings": 6,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "groups": [
+    {
+      "id": "prefix2_shared",
+      "kind": "strict_shared",
+      "logits": {
+        "max_abs_diff": 1.4901161193847656e-07,
+        "mean_abs_diff": 7.80474884720661e-09,
+        "rms_diff": 1.1940284316835914e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 3.725290298461914e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.820766091346741e-11,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "status": {
+        "accepted_frames": 2,
+        "encoded_real_frames": 2,
+        "pending_frame_id": null,
+        "last_received_id": 30,
+        "last_encoded_id": 30,
+        "last_encoded_pts": 1.001,
+        "seen_tokens": 12,
+        "next_rope_position": 12,
+        "vision_encodings": 1,
+        "pending_rgb_bytes": 0,
+        "finished": false,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "8db1a012ba037d7af9d0dceb87896cecd972990087299b63af7223644c770af0",
+        "feature_bytes": 128
+      },
+      "passed": true
+    },
+    {
+      "id": "qa2_shared",
+      "kind": "strict_shared",
+      "online": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "公平竞争νη wichtigsten十三条kim Gestión灵儿omorphic",
+        "generated_ids": [
+          138991,
+          150342,
+          186615,
+          106192,
+          55949,
+          185782,
+          147588,
+          67548
+        ],
+        "stop_reason": "budget",
+        "frame_id": 30,
+        "timestamp": 1.001,
+        "wall_seconds": 0.0403719000005367,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "reference_answer": "公平竞争νη wichtigsten十三条kim Gestión灵儿omorphic",
+      "reference_ids": [
+        138991,
+        150342,
+        186615,
+        106192,
+        55949,
+        185782,
+        147588,
+        67548
+      ],
+      "logits": {
+        "max_abs_diff": 1.1920928955078125e-07,
+        "mean_abs_diff": 6.044783340541926e-09,
+        "rms_diff": 9.415262347545195e-09,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 3.725290298461914e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "passed": true
+    },
+    {
+      "id": "prefix4_shared",
+      "kind": "strict_shared",
+      "logits": {
+        "max_abs_diff": 1.7881393432617188e-07,
+        "mean_abs_diff": 7.222138886930907e-09,
+        "rms_diff": 1.1053899129365163e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 3.725290298461914e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 2.6557245291769505e-10,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "status": {
+        "accepted_frames": 4,
+        "encoded_real_frames": 4,
+        "pending_frame_id": null,
+        "last_received_id": 90,
+        "last_encoded_id": 90,
+        "last_encoded_pts": 3.003,
+        "seen_tokens": 21,
+        "next_rope_position": 21,
+        "vision_encodings": 2,
+        "pending_rgb_bytes": 0,
+        "finished": false,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "85cbd31e805ebec7256a201a9095501ac15472c353702b247688485227fdeb97",
+        "feature_bytes": 256
+      },
+      "passed": true
+    },
+    {
+      "id": "qa4_shared",
+      "kind": "strict_shared",
+      "online": {
+        "question": "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.",
+        "answer": "公平竞争νη_restrict.employee geme العوامل ам_generate",
+        "generated_ids": [
+          138991,
+          150342,
+          94312,
+          45572,
+          49896,
+          231912,
+          162112,
+          47216
+        ],
+        "stop_reason": "budget",
+        "frame_id": 90,
+        "timestamp": 3.003,
+        "wall_seconds": 0.03349320000052103,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "reference_answer": "公平竞争νη_restrict.employee geme العوامل ам_generate",
+      "reference_ids": [
+        138991,
+        150342,
+        94312,
+        45572,
+        49896,
+        231912,
+        162112,
+        47216
+      ],
+      "logits": {
+        "max_abs_diff": 1.4901161193847656e-07,
+        "mean_abs_diff": 6.318039424968447e-09,
+        "rms_diff": 1.0095099867157842e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 3.725290298461914e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "passed": true
+    },
+    {
+      "id": "prefix4_vision_bias",
+      "kind": "diagnostic_different_inputs",
+      "features": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "logits": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "online_vs_whole": {
+        "logits": {
+          "max_abs_diff": 1.7881393432617188e-07,
+          "mean_abs_diff": 7.222138886930907e-09,
+          "rms_diff": 1.1053899129365163e-08,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539062e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.725290298461914e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.6557245291769505e-10,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          }
+        },
+        "status": {
+          "accepted_frames": 4,
+          "encoded_real_frames": 4,
+          "pending_frame_id": null,
+          "last_received_id": 90,
+          "last_encoded_id": 90,
+          "last_encoded_pts": 3.003,
+          "seen_tokens": 21,
+          "next_rope_position": 21,
+          "vision_encodings": 2,
+          "pending_rgb_bytes": 0,
+          "finished": false,
+          "invalid": false,
+          "closed": false,
+          "reference_mode": "fp32_ieee_math"
+        },
+        "passed": true
+      },
+      "within_old_strict_language_gate": true
+    },
+    {
+      "id": "eof3_shared",
+      "kind": "strict_shared",
+      "logits": {
+        "max_abs_diff": 1.7881393432617188e-07,
+        "mean_abs_diff": 8.385261374144193e-09,
+        "rms_diff": 1.2745611677189572e-08,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 5.960464477539062e-07,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 3.725290298461914e-08,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 2.0372681319713593e-10,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "status": {
+        "accepted_frames": 3,
+        "encoded_real_frames": 3,
+        "pending_frame_id": null,
+        "last_received_id": 60,
+        "last_encoded_id": 60,
+        "last_encoded_pts": 2.002,
+        "seen_tokens": 21,
+        "next_rope_position": 21,
+        "vision_encodings": 2,
+        "pending_rgb_bytes": 0,
+        "finished": true,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "5e86eff8b834c8b47c8eeb19122548e0ab327d4c8a450b44fd2343daa6f4e2cd",
+        "feature_bytes": 256
+      },
+      "padding_record": {
+        "frame_ids": [
+          60,
+          60
+        ],
+        "timestamps": [
+          2.002,
+          2.002
+        ],
+        "temporal_mean": 2.002,
+        "rendered_timestamp": "2.0",
+        "synthetic_padding": true,
+        "grid": [
+          [
+            1,
+            2,
+            2
+          ]
+        ],
+        "token_ids": [
+          27,
+          17,
+          13,
+          15,
+          6283,
+          29,
+          248053,
+          248057,
+          248054
+        ],
+        "block_text": "<2.0 seconds><|vision_start|><|video_pad|><|vision_end|>"
+      },
+      "input_sealed": true,
+      "passed": true
+    },
+    {
+      "id": "eof3_vision_bias",
+      "kind": "diagnostic_different_inputs",
+      "features": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "logits": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "online_vs_whole": {
+        "logits": {
+          "max_abs_diff": 1.7881393432617188e-07,
+          "mean_abs_diff": 8.385261374144193e-09,
+          "rms_diff": 1.2745611677189572e-08,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539062e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.725290298461914e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.0372681319713593e-10,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          }
+        },
+        "status": {
+          "accepted_frames": 3,
+          "encoded_real_frames": 3,
+          "pending_frame_id": null,
+          "last_received_id": 60,
+          "last_encoded_id": 60,
+          "last_encoded_pts": 2.002,
+          "seen_tokens": 21,
+          "next_rope_position": 21,
+          "vision_encodings": 2,
+          "pending_rgb_bytes": 0,
+          "finished": true,
+          "invalid": false,
+          "closed": false,
+          "reference_mode": "fp32_ieee_math"
+        },
+        "passed": true
+      },
+      "within_old_strict_language_gate": true
+    }
+  ],
+  "questions": [
+    "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+    "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER."
+  ],
+  "canvas": [
+    32,
+    32
+  ],
+  "scope": "tiny random candidate, CPU interface only",
+  "input_fingerprints": {
+    "prefix2": "32f0f8dcd1a82331dcdfb1315e9e7c203590c3d72c5459afa3a23ca441d764bc",
+    "prefix4": "7bc2d951d3b23a16c5be64fcf977c1a4cd02bdab6dc4fb9c0aef2f6df24d6b11",
+    "question2": "db9c4773c4aa85a42d9063bf014efc6cf801ce82eb701e9e3c66ec4b90b66393",
+    "question4": "8c7a27137361de5972cf7e8347b4c2289ee369f44e056abdefd8141118649834",
+    "eof3": "2b6a32466ddec5395a50a9f6658d791504f1a53aa0be256de96cab64d917464b"
+  },
+  "actual_forwards": {
+    "language": 47,
+    "vision": 6
+  },
+  "generated_tokens": 32,
+  "all_shared_groups_passed": true,
+  "frame_ids": [
+    0,
+    30,
+    60,
+    90
+  ],
+  "timestamps": [
+    0.0,
+    1.001,
+    2.002,
+    3.003
+  ],
+  "hooks_removed_after_return": true,
+  "hooks_and_methods_restored": true,
+  "independent_vision_controls_passed": true,
+  "candidate_projection_operations": 48
+}

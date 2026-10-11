@@ -1,0 +1,10 @@
+{
+  "stage": "assets",
+  "out": "E:\\VIT Model\\runs\\window_assets_20261009_01",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "assets": "E:\\VIT Model\\datasets\\window_synthetic",
+  "fps": 1.0,
+  "window": 4,
+  "every": 2,
+  "prompt": "What color is the square in the last frame of the provided video? Answer with one English color word."
+}

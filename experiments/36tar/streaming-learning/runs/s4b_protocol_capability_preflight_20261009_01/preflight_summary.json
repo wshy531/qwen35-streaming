@@ -1,0 +1,341 @@
+{
+  "cpu_controls_passed": true,
+  "budget": {
+    "cases": 8,
+    "max_tokens": 256,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 64,
+    "language_forwards_max": 72,
+    "vision_encodings": 8,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "input_comparisons": [
+    {
+      "id": "frames2_subject",
+      "frames": 2,
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "question_kind": "subject",
+      "temporal_patch_means": [
+        0.5005
+      ],
+      "rendered_timestamps": [
+        "0.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        30
+      ],
+      "visual_tokens": 48,
+      "video_grid_thw": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "mm_token_type_ids": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "db9c4773c4aa85a42d9063bf014efc6cf801ce82eb701e9e3c66ec4b90b66393",
+      "input_tokens": 93,
+      "rendered_text": "<|im_start|>user\n<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "tiny_original_vs_modified_prefill": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      }
+    },
+    {
+      "id": "frames2_hands_count",
+      "frames": 2,
+      "question": "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.",
+      "question_kind": "hands_count",
+      "temporal_patch_means": [
+        0.5005
+      ],
+      "rendered_timestamps": [
+        "0.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        30
+      ],
+      "visual_tokens": 48,
+      "video_grid_thw": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "mm_token_type_ids": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "dc0328d61f41d5e4318cf8a81c0b809f2bf115b432b181eb22d569813000c31c",
+      "input_tokens": 87,
+      "rendered_text": "<|im_start|>user\n<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "tiny_original_vs_modified_prefill": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      }
+    },
+    {
+      "id": "frames4_subject",
+      "frames": 4,
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "question_kind": "subject",
+      "temporal_patch_means": [
+        0.5005,
+        2.5025
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "mm_token_type_ids": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931",
+      "input_tokens": 149,
+      "rendered_text": "<|im_start|>user\n<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|><2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "tiny_original_vs_modified_prefill": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      }
+    },
+    {
+      "id": "frames4_hands_count",
+      "frames": 4,
+      "question": "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.",
+      "question_kind": "hands_count",
+      "temporal_patch_means": [
+        0.5005,
+        2.5025
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "visual_tokens": 96,
+      "video_grid_thw": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "mm_token_type_ids": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "8c7a27137361de5972cf7e8347b4c2289ee369f44e056abdefd8141118649834",
+      "input_tokens": 143,
+      "rendered_text": "<|im_start|>user\n<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|><2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "tiny_original_vs_modified_prefill": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "bf16_sdpa_frames2_subject",
+      "mode": "bf16_sdpa",
+      "input": "frames2_subject"
+    },
+    {
+      "id": "bf16_sdpa_frames2_hands_count",
+      "mode": "bf16_sdpa",
+      "input": "frames2_hands_count"
+    },
+    {
+      "id": "bf16_sdpa_frames4_subject",
+      "mode": "bf16_sdpa",
+      "input": "frames4_subject"
+    },
+    {
+      "id": "bf16_sdpa_frames4_hands_count",
+      "mode": "bf16_sdpa",
+      "input": "frames4_hands_count"
+    },
+    {
+      "id": "fp32_ieee_math_frames2_subject",
+      "mode": "fp32_ieee_math",
+      "input": "frames2_subject"
+    },
+    {
+      "id": "fp32_ieee_math_frames2_hands_count",
+      "mode": "fp32_ieee_math",
+      "input": "frames2_hands_count"
+    },
+    {
+      "id": "fp32_ieee_math_frames4_subject",
+      "mode": "fp32_ieee_math",
+      "input": "frames4_subject"
+    },
+    {
+      "id": "fp32_ieee_math_frames4_hands_count",
+      "mode": "fp32_ieee_math",
+      "input": "frames4_hands_count"
+    }
+  ],
+  "frame_ids": [
+    0,
+    30,
+    60,
+    90
+  ],
+  "timestamps": [
+    0.0,
+    1.001,
+    2.002,
+    3.003
+  ],
+  "rgb_shapes": [
+    [
+      192,
+      256,
+      3
+    ],
+    [
+      192,
+      256,
+      3
+    ],
+    [
+      192,
+      256,
+      3
+    ],
+    [
+      192,
+      256,
+      3
+    ]
+  ],
+  "frame_sha256": [
+    "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+    "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+    "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+    "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+  ],
+  "historical_four_frame_subject_fingerprint_matches": true,
+  "historical_answer": "HANDS\n",
+  "prior_two_frame_subject_and_four_frame_count_fingerprints_match": true,
+  "original_reference_hashes": {
+    "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
+    "E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\processing_qwen3_vl.py": "e5abbaf1d035fe49cd8354f1e92fd3f92ab1103a39173c147471f30ff1908b6a",
+    "E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\video_processing_qwen3_vl.py": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10"
+  },
+  "video_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "plan_sha256": "0db52234ec8015294fb9093936844ccde901f6146f5ff73e1295a6e34a4fed20",
+  "launcher_sha256": "48ec513d22b5feb40f4002dcdd789d12bb080db8b23ef73b3af7b287619c6c04",
+  "model_reference": "unaltered S1-S3 original local model",
+  "scope": "input equality and tiny fresh-prefill only; no capability or pretrained run"
+}

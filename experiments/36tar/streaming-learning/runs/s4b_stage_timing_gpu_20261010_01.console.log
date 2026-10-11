@@ -1,0 +1,78 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 16936.77it/s]
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\stage_timing.py", line 282, in <module>
+    main()
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\stage_timing.py", line 273, in main
+    (preflight if args.stage == "preflight" else gpu)(args.out, args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\stage_timing.py", line 242, in gpu
+    report = experiment(model, processor, out, read(args.preflight / "preflight_summary.json")["input_identity"], cuda=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\stage_timing.py", line 120, in experiment
+    candidate, row["vision_candidate_full4"] = measured(lambda: visual(full), cuda)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\stage_timing.py", line 44, in measured
+    value = function()
+            ^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\stage_timing.py", line 120, in <lambda>
+    candidate, row["vision_candidate_full4"] = measured(lambda: visual(full), cuda)
+                                                                ^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\stage_timing.py", line 103, in visual
+    return model.model.visual(batch["pixel_values_videos"], grid_thw=batch["video_grid_thw"]).pooler_output
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1882, in _call_impl
+    return inner()
+           ^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1830, in inner
+    result = forward_call(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\utils\generic.py", line 917, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\utils\output_capturing.py", line 253, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\qwen35_local\modeling_qwen3_5.py", line 1294, in forward
+    hidden_states = blk(
+                    ^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\modeling_layers.py", line 93, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\qwen35_local\modeling_qwen3_5.py", line 1108, in forward
+    hidden_states = hidden_states + self.attn(
+                                    ^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\qwen35_local\modeling_qwen3_5.py", line 1088, in forward
+    attn_output = self.proj(attn_output)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1776, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\vision_fixed_units.py", line 45, in fixed
+    raise RuntimeError("Temporal-unit projection budget exceeded")
+RuntimeError: Temporal-unit projection budget exceeded

@@ -1,0 +1,18 @@
+{
+  "nine_new_documents_present": true,
+  "absolute_links_valid": true,
+  "master_gpu_count_27": true,
+  "candidate_reference_difference_and_semantic_failures_explicit": true,
+  "source_audit_passed": true,
+  "document_hashes": {
+    "视觉首次差异定位方案.md": "734c5731809236657a4079da31b2a768e75d5afaf0b24efcd30b4f8bcd74907b",
+    "视觉首次差异定位结果.md": "63610b14c6b02172c3231e06fb79a32abeda4bca70e039895a745cdb4d005908",
+    "视觉QKV同输入重放方案.md": "73629c161fe7478430ce51bd14a8184333f7d1e35bed70d3d599271dce01f7a0",
+    "视觉QKV同输入重放结果.md": "acc2954679974d433e2a6fd7ec49a81972f2a70feeb6f312ebbf308e3fbd3350",
+    "固定时间单元视觉参考方案.md": "a176c82fbb55541855a550bddbf5e0b9fb86aa0356fe3d637700120351b7ec16",
+    "固定时间单元视觉参考结果.md": "02f9462d8344f80b0df7eb991ef0538d3f04f388a1ea1d57e0671dd64a5ddcbe",
+    "固定视觉在线回归方案.md": "fa1edd329a395c6e3f829f83cdf360c0998638df8a309468d9838875b31b2911",
+    "固定视觉在线回归结果.md": "7bb839937b5ede0357d2a61ee3ccca38e3754385d597534fb6f87866c050b5c1",
+    "视觉一致性探索复盘.md": "4aaf58acbe1ecc6755589ee0d5070e89939f08e8c1d0bcb0bd58b9086976d824"
+  }
+}

@@ -1,0 +1,1 @@
+Audit failed at assertion: cuda_allocated_bytes_after_release == 0. Observed allocated=9568256 and reserved=23068672 bytes inside the child after deleting the model variable. Numerical run passed and is unchanged. This extra audit assumption is corrected to record actual in-process residuals and verify post-child-exit driver used=0 MiB. Snapshot retained; no inference rerun.

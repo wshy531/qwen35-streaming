@@ -1,0 +1,7 @@
+{
+  "stage": "gpu",
+  "out": "E:\\VIT Model\\runs\\s4b_vision_trace_gpu_20261010_01",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "video": "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm",
+  "preflight": "E:\\VIT Model\\runs\\s4b_vision_trace_preflight_20261010_01"
+}

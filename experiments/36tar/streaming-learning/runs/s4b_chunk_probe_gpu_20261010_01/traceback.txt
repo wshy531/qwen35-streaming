@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\chunk_size_probe.py", line 266, in main
+    (preflight if args.stage == "preflight" else gpu)(args.out, args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\chunk_size_probe.py", line 226, in gpu
+    assert free >= 5.5*2**30 and guard["ram_available_bytes"] >= 3*2**30
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

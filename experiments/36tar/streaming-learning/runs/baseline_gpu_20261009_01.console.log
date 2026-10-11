@@ -1,0 +1,31 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 19254.68it/s]
+Keyword argument `enable_thinking` is not a valid argument for this processor and will be ignored.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"id": "text", "answer": "4\n", "input_tokens": 25, "peak_allocated_gib": 1.6529431343078613}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"id": "image", "answer": " red\n", "input_tokens": 91, "peak_allocated_gib": 1.6633501052856445}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\VIT Model\code\qwen35-streaming\scripts\baseline.py", line 286, in <module>
+    main()
+  File "E:\VIT Model\code\qwen35-streaming\scripts\baseline.py", line 277, in main
+    gpu_baseline(args.out, args.model_dir, args.assets)
+  File "E:\VIT Model\code\qwen35-streaming\scripts\baseline.py", line 238, in gpu_baseline
+    output = model.generate(**inputs, max_new_tokens=16, do_sample=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\transformers\generation\utils.py", line 2434, in generate
+    model_kwargs["position_ids"] = self._prepare_position_ids_for_generation(inputs_tensor, model_kwargs)
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming\qwen35_local\modeling_qwen3_5.py", line 2122, in _prepare_position_ids_for_generation
+    vision_positions, rope_deltas = self.model.get_rope_index(inputs_tensor, **model_kwargs)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming\qwen35_local\modeling_qwen3_5.py", line 1572, in get_rope_index
+    grid_thw = next(grid_iters[modality_type])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

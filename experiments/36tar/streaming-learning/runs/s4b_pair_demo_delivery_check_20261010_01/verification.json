@@ -1,0 +1,18 @@
+{
+  "cpu_nine_contracts_verified": true,
+  "frozen_schedule_and_causal_cutoffs_verified": true,
+  "all_23_real_frames_encoded_once_no_loss_across_three_resets": true,
+  "one_explicit_padding_and_no_extra_eof_qa_verified": true,
+  "all_seven_qa_main_states_bitwise_unchanged": true,
+  "forward_token_time_resources_and_cleanup_verified": true,
+  "old_45_source_files_unchanged_except_report": true,
+  "original_baseline_files_unchanged": 15,
+  "all_model_assets_sha_verified": 10,
+  "three_negative_launch_gates_verified": true,
+  "no_inference_in_audit": true,
+  "source_files": 48,
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "branch": "36tar/s4-mixed-state",
+  "commit_created": false,
+  "remote_push": false
+}

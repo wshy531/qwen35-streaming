@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\code\qwen35-streaming\scripts\baseline.py", line 233, in main
+    cpu_checks(args.out)
+  File "E:\VIT Model\code\qwen35-streaming\scripts\baseline.py", line 98, in cpu_checks
+    raise RuntimeError("Original repository tests failed; see unittest.log")
+RuntimeError: Original repository tests failed; see unittest.log

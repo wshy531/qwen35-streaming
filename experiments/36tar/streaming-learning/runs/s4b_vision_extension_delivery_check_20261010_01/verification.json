@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "cpu_runs": 4,
+  "gpu_records": 5,
+  "successful_gpu_runs": 3,
+  "failed_budget_records": 1,
+  "rejected_before_model_load": 1,
+  "frozen_runs_checked": 9,
+  "old_source57_unchanged": true,
+  "source_files": 60,
+  "reference_files15_unchanged": true,
+  "verified_model_assets": 10,
+  "verified_video_assets": 2,
+  "negative_gates": [
+    {
+      "case": "budget",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "source",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "cpu",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "input",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "plan",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "launcher",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "asset",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "model_manifest",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    }
+  ],
+  "historical_versions_preserved": [
+    "s4b_stage_timing_preflight_20261010_01",
+    "s4b_stage_timing_gpu_20261010_01"
+  ],
+  "failures_preserved": [
+    "s4b_stage_timing_gpu_20261010_01",
+    "s4b_chunk_probe_gpu_20261010_01"
+  ],
+  "candidate_original_full_bias_preserved": true,
+  "timing_does_not_claim_real_time": true,
+  "chunk32_three_sequential_samples_only": true
+}

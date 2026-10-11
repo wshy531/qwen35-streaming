@@ -1,0 +1,5 @@
+{
+  "stage": "preflight",
+  "out": "E:\\VIT Model\\runs\\s4_layers_preflight_20261009_02",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B"
+}

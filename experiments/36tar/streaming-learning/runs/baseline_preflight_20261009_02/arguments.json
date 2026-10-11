@@ -1,0 +1,8 @@
+{
+  "stage": "preflight",
+  "out": "E:\\VIT Model\\runs\\baseline_preflight_20261009_02",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "assets": "E:\\VIT Model\\datasets\\baseline_synthetic",
+  "repair_video_positions": true,
+  "only_video": false
+}

@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "frozen_runs": 2,
+  "old_source60_unchanged": true,
+  "source_files": 61,
+  "reference_files15_unchanged": true,
+  "model_assets_checked": 10,
+  "video_assets_checked": 2,
+  "cases_per_stage": 5,
+  "timed_rounds_per_stage": 30,
+  "warmups_per_stage": 5,
+  "strict_controls_per_stage": 115,
+  "negative_gates": [
+    {
+      "case": "budget",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "source",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "cpu",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "input",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "plan",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "launcher",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "asset",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    },
+    {
+      "case": "model_manifest",
+      "rejected_before_log_or_gpu": true,
+      "exit_code": 2
+    }
+  ],
+  "defaults_unchanged": true,
+  "in_process_allocated_bytes_after_release": 9568256,
+  "in_process_reserved_bytes_after_release": 23068672,
+  "post_child_exit_driver_used_mib": 0,
+  "scope": "finite FP32 torch fallback benchmark; no answer generation or long-running claims"
+}

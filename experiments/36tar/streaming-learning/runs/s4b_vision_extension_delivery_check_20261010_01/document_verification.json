@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "documents": [
+    {
+      "path": "扩展视觉一致性验收方案.md",
+      "sha256": "5183fc0290d8c920ccbfd3a362a89d32a6013833fc55ddb52f5bbf990dddb44f",
+      "bytes": 2056
+    },
+    {
+      "path": "扩展视觉一致性验收结果.md",
+      "sha256": "77d59adeedf646c71f4a8d9a00964194db98164b97f9f723e97c99179704fe1f",
+      "bytes": 1695
+    },
+    {
+      "path": "分阶段耗时验收方案.md",
+      "sha256": "708148d826b19d749133fb664295fea51453c20bfc6915581cf2f65d7c0bf9e7",
+      "bytes": 2905
+    },
+    {
+      "path": "分阶段耗时验收结果.md",
+      "sha256": "81da8485de770c45e25677f7946769390cf8f7e13d9919c6b30de6499d6cff98",
+      "bytes": 3296
+    },
+    {
+      "path": "语言计算块对照方案.md",
+      "sha256": "2578cf072470f14fb5bde63607d93a91a831b737559f5bf520ebfab2abd14dea",
+      "bytes": 1995
+    },
+    {
+      "path": "语言计算块对照结果.md",
+      "sha256": "fd5b6585aaf3cf0f6433cca606c3a10c7d29dd0179636cad582621e3d3846be5",
+      "bytes": 2475
+    },
+    {
+      "path": "视觉扩展与性能探索复盘.md",
+      "sha256": "7da09b0edfa2437c048afa9daa1b172d84e52fad4e8f682da658f27a8dee76f7",
+      "bytes": 2830
+    },
+    {
+      "path": "实验总纲.md",
+      "sha256": "05df3bafc429f90d846e385b9db42315d6bc2beb5f52f0bc1a94e8cdebdb3a58",
+      "bytes": 118667
+    },
+    {
+      "path": "架构设计.md",
+      "sha256": "6e5b7b8d64fae5e6170e6a9f401386a7afad119cd2afc4277f4c9eec8c3a1fd1",
+      "bytes": 20200
+    }
+  ],
+  "absolute_file_links_checked": 12,
+  "gpu_record_count": 32,
+  "failed_records_preserved": true,
+  "scope": "final frozen document snapshot; master is sole progress record"
+}

@@ -1,0 +1,8 @@
+{
+  "actual_forwards": {
+    "vision": 25,
+    "language": 36
+  },
+  "candidate_projection_operations": 1300,
+  "methods_hooks_restored": true
+}

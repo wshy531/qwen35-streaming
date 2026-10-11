@@ -1,0 +1,21 @@
+{
+  "four_input_combinations_bitwise_equal": true,
+  "tiny_fresh_prefill_bitwise_equal": 4,
+  "original_model_source_path_and_sha_verified": true,
+  "eight_fixed_cases_answers_and_ids_verified": true,
+  "two_modes_same_answers_verified": true,
+  "two_frame_cat_four_frame_hands_one_preserved": true,
+  "historical_positive_input_rebuilt": true,
+  "old_failures_preserved": true,
+  "budget_and_provenance_verified": true,
+  "all_model_assets_sha_verified": 10,
+  "old_43_executable_sources_unchanged": true,
+  "baseline_files_unchanged": 15,
+  "negative_budget_and_original_source_gates_verified": true,
+  "no_inference_in_audit": true,
+  "source_files": 44,
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "commit_created": false,
+  "remote_push": false
+}

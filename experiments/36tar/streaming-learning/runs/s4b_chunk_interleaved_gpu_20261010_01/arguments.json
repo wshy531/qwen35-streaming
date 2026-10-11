@@ -1,0 +1,6 @@
+{
+  "stage": "gpu",
+  "out": "E:\\VIT Model\\runs\\s4b_chunk_interleaved_gpu_20261010_01",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "preflight": "E:\\VIT Model\\runs\\s4b_chunk_interleaved_preflight_20261010_01"
+}

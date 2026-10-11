@@ -1,0 +1,1155 @@
+{
+  "input_controls": [
+    {
+      "id": "early_hands",
+      "original_six_input": "hands_to_cat",
+      "target": "HANDS",
+      "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "input_fingerprint": "dc04278cc351048c84feb4f0310991173b11953ff4dcac17ba3cf9997fd86ede",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "position_adapter": {
+        "adapter": "upstream_44474_input_positions",
+        "position_grid": [
+          [
+            1,
+            12,
+            16
+          ],
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "vision_grid_unchanged": [
+          [
+            2,
+            12,
+            16
+          ]
+        ],
+        "rope_delta": [
+          [
+            -80
+          ]
+        ],
+        "position_shape": [
+          4,
+          1,
+          149
+        ]
+      },
+      "position_oracle": {
+        "coordinate_oracle_matches": true,
+        "temporal_groups": 2
+      },
+      "experimental_frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "experimental_pts": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "full_six_fingerprint": "d0ab941c6eab04cdc0337a2102caf4fa8a4b8318064524e4e90b762cbb540fa2",
+      "prefix_boundary_tokens": 115,
+      "all_input_tensors_bitwise_equal": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "prefix_only_controls": {
+        "input_ids": true,
+        "attention_mask": true,
+        "mm_token_type_ids": true,
+        "position_ids": true,
+        "pixels_equal_first_two_temporal_groups": true,
+        "pixel_count_is_two_thirds": true,
+        "same_question_suffix_ids": true
+      },
+      "tiny_prefill_logits": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "tiny_prefill_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "tiny_generate": {
+        "answer": "-hide较低ț рекомендуемGra!(:华的äß",
+        "generated_ids": [
+          57860,
+          102198,
+          20203,
+          207487,
+          194175,
+          47467,
+          144375,
+          66614
+        ],
+        "stopped_on_registered_eos": false,
+        "registered_eos_ids": [
+          248046
+        ],
+        "forward_counts": {
+          "vision": 1,
+          "language": 8
+        },
+        "generation_seconds": 0.029709500000535627,
+        "complete_visual_feature_fingerprints": [
+          "2aba0ac7c19c770bab2c343a82b39a447fe2baf6805caf75ea068ac132a09119"
+        ],
+        "language_steps": [
+          {
+            "length": 149,
+            "cache_positions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148
+            ],
+            "position_shape": [
+              4,
+              1,
+              149
+            ],
+            "text_axis": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              149
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              149
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              150
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              150
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              151
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              151
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              152
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              152
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              153
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              153
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              154
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              154
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              155
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              155
+            ]
+          }
+        ],
+        "incremental_decode_positions_verified": true
+      },
+      "hooks_restored": true,
+      "previous_six_by_mode": {
+        "bf16_sdpa": {
+          "answer": "CAT",
+          "generated_ids": [
+            27280,
+            248046
+          ],
+          "correct": false
+        },
+        "fp32_ieee_math": {
+          "answer": "CAT",
+          "generated_ids": [
+            27280,
+            248046
+          ],
+          "correct": false
+        }
+      }
+    },
+    {
+      "id": "early_cat",
+      "original_six_input": "cat_to_cat",
+      "target": "CAT",
+      "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "input_fingerprint": "b3eafe3f19c96f219d37de8c199e586c849f20e574e45e77bdba940c80ee8a25",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "position_adapter": {
+        "adapter": "upstream_44474_input_positions",
+        "position_grid": [
+          [
+            1,
+            12,
+            16
+          ],
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "vision_grid_unchanged": [
+          [
+            2,
+            12,
+            16
+          ]
+        ],
+        "rope_delta": [
+          [
+            -80
+          ]
+        ],
+        "position_shape": [
+          4,
+          1,
+          149
+        ]
+      },
+      "position_oracle": {
+        "coordinate_oracle_matches": true,
+        "temporal_groups": 2
+      },
+      "experimental_frame_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "experimental_pts": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "full_six_fingerprint": "4d81e3e847b24f2f26603ed39ccfcb515236039cc2fa084b915237cdbebdf758",
+      "prefix_boundary_tokens": 115,
+      "all_input_tensors_bitwise_equal": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "prefix_only_controls": {
+        "input_ids": true,
+        "attention_mask": true,
+        "mm_token_type_ids": true,
+        "position_ids": true,
+        "pixels_equal_first_two_temporal_groups": true,
+        "pixel_count_is_two_thirds": true,
+        "same_question_suffix_ids": true
+      },
+      "tiny_prefill_logits": {
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "bitwise_equal": true,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "tiny_prefill_states": {
+        "key_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 1,
+          "max_abs_diff": 0.0,
+          "all_tensors_bitwise_equal": true,
+          "allclose_1e4": true
+        }
+      },
+      "tiny_generate": {
+        "answer": "-hide 보แสน� Результа дели ниಲು",
+        "generated_ids": [
+          57860,
+          61194,
+          185567,
+          153,
+          189901,
+          187898,
+          159030,
+          224991
+        ],
+        "stopped_on_registered_eos": false,
+        "registered_eos_ids": [
+          248046
+        ],
+        "forward_counts": {
+          "vision": 1,
+          "language": 8
+        },
+        "generation_seconds": 0.030970499999966705,
+        "complete_visual_feature_fingerprints": [
+          "5e6dfbc24b81f5a0e3769864df68dd302715ba97fef77f2d82907c779e8ec7f5"
+        ],
+        "language_steps": [
+          {
+            "length": 149,
+            "cache_positions": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148
+            ],
+            "position_shape": [
+              4,
+              1,
+              149
+            ],
+            "text_axis": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              103,
+              104,
+              105,
+              106,
+              107,
+              108,
+              109,
+              110,
+              111,
+              112,
+              113,
+              114,
+              115,
+              116,
+              117,
+              118,
+              119,
+              120,
+              121,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127,
+              128,
+              129,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              140,
+              141,
+              142,
+              143,
+              144,
+              145,
+              146,
+              147,
+              148
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              149
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              149
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              150
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              150
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              151
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              151
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              152
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              152
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              153
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              153
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              154
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              154
+            ]
+          },
+          {
+            "length": 1,
+            "cache_positions": [
+              155
+            ],
+            "position_shape": [
+              4,
+              1,
+              1
+            ],
+            "text_axis": [
+              155
+            ]
+          }
+        ],
+        "incremental_decode_positions_verified": true
+      },
+      "hooks_restored": true,
+      "previous_six_by_mode": {
+        "bf16_sdpa": {
+          "answer": "CAT",
+          "generated_ids": [
+            27280,
+            248046
+          ],
+          "correct": true
+        },
+        "fp32_ieee_math": {
+          "answer": "CAT",
+          "generated_ids": [
+            27280,
+            248046
+          ],
+          "correct": true
+        }
+      }
+    }
+  ],
+  "scope": "two tiny CPU interface controls; random answers are not capability evidence"
+}

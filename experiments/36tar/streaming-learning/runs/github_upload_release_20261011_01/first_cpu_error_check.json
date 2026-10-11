@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "cpu_tests": 72,
+  "failures": 0,
+  "errors": 2,
+  "relocated_source61_byte_identical": true,
+  "python_files_ast_checked": 219,
+  "readme_relative_links_checked": 16,
+  "payload_files_before_release_receipt": 1037,
+  "payload_bytes_before_release_receipt": 8982372,
+  "forbidden_assets_and_known_secret_patterns_absent": true,
+  "test_source": "relocated export",
+  "processor_assets": "existing local read-only model directory via test-only PROJECT override",
+  "gpu_forwards": 0,
+  "credentials_saved": false
+}

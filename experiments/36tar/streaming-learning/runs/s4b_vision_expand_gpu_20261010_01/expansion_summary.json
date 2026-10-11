@@ -1,0 +1,3529 @@
+{
+  "cases": [
+    {
+      "case_id": "hands6_standard",
+      "identity": {
+        "pixels_tokens_positions_types_equal": true,
+        "full_grid": [
+          [
+            3,
+            12,
+            16
+          ]
+        ],
+        "canvas": [
+          192,
+          256
+        ],
+        "real_frames": 6,
+        "padded_frames": 6,
+        "frame_ids": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150
+        ],
+        "timestamps": [
+          0.0,
+          1.001,
+          2.002,
+          3.003,
+          4.004,
+          5.005
+        ],
+        "frame_sha256": [
+          "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+          "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+          "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5",
+          "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3"
+        ],
+        "pairs": [
+          {
+            "frame_ids": [
+              0,
+              30
+            ],
+            "timestamps": [
+              0.0,
+              1.001
+            ],
+            "temporal_mean": 0.5005,
+            "rendered_timestamp": "0.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              15,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              60,
+              90
+            ],
+            "timestamps": [
+              2.002,
+              3.003
+            ],
+            "temporal_mean": 2.5025,
+            "rendered_timestamp": "2.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              17,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              120,
+              150
+            ],
+            "timestamps": [
+              4.004,
+              5.005
+            ],
+            "temporal_mean": 4.5045,
+            "rendered_timestamp": "4.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              19,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          }
+        ],
+        "full_fingerprint": "704cad38ebd8946b1894a34b5efbd9dba93b8515e9f8af5286e223e2676a51c6",
+        "case_id": "hands6_standard"
+      },
+      "candidate_vs_pairs": {
+        "shape": [
+          144,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": true,
+        "different_elements": 0,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "allclose_1e4": true,
+        "actual_sha256": "49a571519abaae602c105ffddd64a33ca0457203d643d8bd3fed6e4f5d925499",
+        "reference_sha256": "49a571519abaae602c105ffddd64a33ca0457203d643d8bd3fed6e4f5d925499"
+      },
+      "candidate_vs_original_full": {
+        "shape": [
+          144,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": false,
+        "different_elements": 145994,
+        "max_abs_diff": 4.1484832763671875e-05,
+        "mean_abs_diff": 3.7975364393834826e-07,
+        "rms_diff": 6.976615986453043e-07,
+        "allclose_1e4": true,
+        "actual_sha256": "49a571519abaae602c105ffddd64a33ca0457203d643d8bd3fed6e4f5d925499",
+        "reference_sha256": "f4a4ab7e22c614491efc9e000d4b9c2d64e9595b32a036b3d58b13db252796bd"
+      },
+      "candidate_projection_operations": 300,
+      "candidate_vision_calls": 4,
+      "buffer_bound_bytes": 19778184,
+      "cpu_random_weights_only": false
+    },
+    {
+      "case_id": "cat6_standard",
+      "identity": {
+        "pixels_tokens_positions_types_equal": true,
+        "full_grid": [
+          [
+            3,
+            12,
+            16
+          ]
+        ],
+        "canvas": [
+          192,
+          256
+        ],
+        "real_frames": 6,
+        "padded_frames": 6,
+        "frame_ids": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150
+        ],
+        "timestamps": [
+          0.0,
+          0.9999999999999999,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "frame_sha256": [
+          "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+          "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+          "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+          "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853"
+        ],
+        "pairs": [
+          {
+            "frame_ids": [
+              0,
+              30
+            ],
+            "timestamps": [
+              0.0,
+              0.9999999999999999
+            ],
+            "temporal_mean": 0.49999999999999994,
+            "rendered_timestamp": "0.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              15,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              60,
+              90
+            ],
+            "timestamps": [
+              2.0,
+              3.0
+            ],
+            "temporal_mean": 2.5,
+            "rendered_timestamp": "2.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              17,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              120,
+              150
+            ],
+            "timestamps": [
+              4.0,
+              5.0
+            ],
+            "temporal_mean": 4.5,
+            "rendered_timestamp": "4.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              19,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          }
+        ],
+        "full_fingerprint": "e5f35614ce4de38856a3da28fb247e22ae618d0ebafb61a2203b412238d72896",
+        "case_id": "cat6_standard"
+      },
+      "candidate_vs_pairs": {
+        "shape": [
+          144,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": true,
+        "different_elements": 0,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "allclose_1e4": true,
+        "actual_sha256": "3e32c2b45be1cfceb525e5160bddcf8fab3bc38e5894eb9f2991a990fb8866db",
+        "reference_sha256": "3e32c2b45be1cfceb525e5160bddcf8fab3bc38e5894eb9f2991a990fb8866db"
+      },
+      "candidate_vs_original_full": {
+        "shape": [
+          144,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": false,
+        "different_elements": 146060,
+        "max_abs_diff": 6.341934204101562e-05,
+        "mean_abs_diff": 3.806223525248953e-07,
+        "rms_diff": 7.385746931187297e-07,
+        "allclose_1e4": true,
+        "actual_sha256": "3e32c2b45be1cfceb525e5160bddcf8fab3bc38e5894eb9f2991a990fb8866db",
+        "reference_sha256": "4a655646fc8084db4e3f085e87b067e21ccc37a0b3ef0063aa56e9e2e4369772"
+      },
+      "candidate_projection_operations": 300,
+      "candidate_vision_calls": 4,
+      "buffer_bound_bytes": 19557000,
+      "cpu_random_weights_only": false
+    },
+    {
+      "case_id": "hands8_small",
+      "identity": {
+        "pixels_tokens_positions_types_equal": true,
+        "full_grid": [
+          [
+            4,
+            8,
+            12
+          ]
+        ],
+        "canvas": [
+          128,
+          192
+        ],
+        "real_frames": 8,
+        "padded_frames": 8,
+        "frame_ids": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210
+        ],
+        "timestamps": [
+          0.0,
+          1.001,
+          2.002,
+          3.003,
+          4.004,
+          5.005,
+          6.006,
+          7.007
+        ],
+        "frame_sha256": [
+          "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+          "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+          "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5",
+          "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3",
+          "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+          "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+        ],
+        "pairs": [
+          {
+            "frame_ids": [
+              0,
+              30
+            ],
+            "timestamps": [
+              0.0,
+              1.001
+            ],
+            "temporal_mean": 0.5005,
+            "rendered_timestamp": "0.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                8,
+                12
+              ]
+            ],
+            "token_ids": [
+              27,
+              15,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              60,
+              90
+            ],
+            "timestamps": [
+              2.002,
+              3.003
+            ],
+            "temporal_mean": 2.5025,
+            "rendered_timestamp": "2.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                8,
+                12
+              ]
+            ],
+            "token_ids": [
+              27,
+              17,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              120,
+              150
+            ],
+            "timestamps": [
+              4.004,
+              5.005
+            ],
+            "temporal_mean": 4.5045,
+            "rendered_timestamp": "4.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                8,
+                12
+              ]
+            ],
+            "token_ids": [
+              27,
+              19,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              180,
+              210
+            ],
+            "timestamps": [
+              6.006,
+              7.007
+            ],
+            "temporal_mean": 6.5065,
+            "rendered_timestamp": "6.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                8,
+                12
+              ]
+            ],
+            "token_ids": [
+              27,
+              21,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<6.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          }
+        ],
+        "full_fingerprint": "7ea3a19b9370d5fe96da6600816835ec565c2d7c3cb6608708f9167ab113ddfb",
+        "case_id": "hands8_small"
+      },
+      "candidate_vs_pairs": {
+        "shape": [
+          96,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": true,
+        "different_elements": 0,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "allclose_1e4": true,
+        "actual_sha256": "fe368db1309b9ba4ea300911f71b8a1296e2577352b65f7a7f1652872c10f59f",
+        "reference_sha256": "fe368db1309b9ba4ea300911f71b8a1296e2577352b65f7a7f1652872c10f59f"
+      },
+      "candidate_vs_original_full": {
+        "shape": [
+          96,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": false,
+        "different_elements": 97192,
+        "max_abs_diff": 4.935264587402344e-05,
+        "mean_abs_diff": 3.677598948333601e-07,
+        "rms_diff": 6.933996113222731e-07,
+        "allclose_1e4": true,
+        "actual_sha256": "fe368db1309b9ba4ea300911f71b8a1296e2577352b65f7a7f1652872c10f59f",
+        "reference_sha256": "de13e7e08c9c1947a64daa26bbc974fa71f52e14eb08a06db58dbc18f21b1488"
+      },
+      "candidate_projection_operations": 400,
+      "candidate_vision_calls": 5,
+      "buffer_bound_bytes": 13777184,
+      "cpu_random_weights_only": false
+    },
+    {
+      "case_id": "cat8_portrait",
+      "identity": {
+        "pixels_tokens_positions_types_equal": true,
+        "full_grid": [
+          [
+            4,
+            16,
+            8
+          ]
+        ],
+        "canvas": [
+          256,
+          128
+        ],
+        "real_frames": 8,
+        "padded_frames": 8,
+        "frame_ids": [
+          0,
+          30,
+          60,
+          90,
+          120,
+          150,
+          180,
+          210
+        ],
+        "timestamps": [
+          0.0,
+          0.9999999999999999,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0
+        ],
+        "frame_sha256": [
+          "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+          "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+          "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+          "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853",
+          "9b02285010ba71c6d9df318df0f056b7a04248ee52819ca43c7e0365f9dea9c2",
+          "63352334d328cac3903a4bd94929a2d809fa3d33920490f3d89782c62a161543"
+        ],
+        "pairs": [
+          {
+            "frame_ids": [
+              0,
+              30
+            ],
+            "timestamps": [
+              0.0,
+              0.9999999999999999
+            ],
+            "temporal_mean": 0.49999999999999994,
+            "rendered_timestamp": "0.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                16,
+                8
+              ]
+            ],
+            "token_ids": [
+              27,
+              15,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              60,
+              90
+            ],
+            "timestamps": [
+              2.0,
+              3.0
+            ],
+            "temporal_mean": 2.5,
+            "rendered_timestamp": "2.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                16,
+                8
+              ]
+            ],
+            "token_ids": [
+              27,
+              17,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              120,
+              150
+            ],
+            "timestamps": [
+              4.0,
+              5.0
+            ],
+            "temporal_mean": 4.5,
+            "rendered_timestamp": "4.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                16,
+                8
+              ]
+            ],
+            "token_ids": [
+              27,
+              19,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              180,
+              210
+            ],
+            "timestamps": [
+              6.0,
+              7.0
+            ],
+            "temporal_mean": 6.5,
+            "rendered_timestamp": "6.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                16,
+                8
+              ]
+            ],
+            "token_ids": [
+              27,
+              21,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<6.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          }
+        ],
+        "full_fingerprint": "07350567868014d73b35692aa4e2217f61a10bd03f7485e07eeb1da1ad7e751b",
+        "case_id": "cat8_portrait"
+      },
+      "candidate_vs_pairs": {
+        "shape": [
+          128,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": true,
+        "different_elements": 0,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "allclose_1e4": true,
+        "actual_sha256": "b5c86097e4b90a4a86a7b870fe85e2617a72b24fcd1feb745caea1da5a48df7b",
+        "reference_sha256": "b5c86097e4b90a4a86a7b870fe85e2617a72b24fcd1feb745caea1da5a48df7b"
+      },
+      "candidate_vs_original_full": {
+        "shape": [
+          128,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": false,
+        "different_elements": 129786,
+        "max_abs_diff": 0.00010597705841064453,
+        "mean_abs_diff": 4.862573855790586e-07,
+        "rms_diff": 1.1710809596302532e-06,
+        "allclose_1e4": true,
+        "actual_sha256": "b5c86097e4b90a4a86a7b870fe85e2617a72b24fcd1feb745caea1da5a48df7b",
+        "reference_sha256": "b3ee396dbed68040e63959e3e6dcfc77f2e4400044aca891f602db418a445910"
+      },
+      "candidate_projection_operations": 400,
+      "candidate_vision_calls": 5,
+      "buffer_bound_bytes": 17680160,
+      "cpu_random_weights_only": false
+    },
+    {
+      "case_id": "cat4_square",
+      "identity": {
+        "pixels_tokens_positions_types_equal": true,
+        "full_grid": [
+          [
+            2,
+            16,
+            16
+          ]
+        ],
+        "canvas": [
+          256,
+          256
+        ],
+        "real_frames": 4,
+        "padded_frames": 4,
+        "frame_ids": [
+          0,
+          30,
+          60,
+          90
+        ],
+        "timestamps": [
+          0.0,
+          0.9999999999999999,
+          2.0,
+          3.0
+        ],
+        "frame_sha256": [
+          "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+          "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a"
+        ],
+        "pairs": [
+          {
+            "frame_ids": [
+              0,
+              30
+            ],
+            "timestamps": [
+              0.0,
+              0.9999999999999999
+            ],
+            "temporal_mean": 0.49999999999999994,
+            "rendered_timestamp": "0.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              15,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              60,
+              90
+            ],
+            "timestamps": [
+              2.0,
+              3.0
+            ],
+            "temporal_mean": 2.5,
+            "rendered_timestamp": "2.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                16,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              17,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          }
+        ],
+        "full_fingerprint": "98c31da8dcb5558d748e7d6c9fdaf90db5b8230ef02a91d7024737acff7b702a",
+        "case_id": "cat4_square"
+      },
+      "candidate_vs_pairs": {
+        "shape": [
+          128,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": true,
+        "different_elements": 0,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "allclose_1e4": true,
+        "actual_sha256": "05073a036e665555d387e1110278ce33166c62048f180f3dab1b82e6f0197382",
+        "reference_sha256": "05073a036e665555d387e1110278ce33166c62048f180f3dab1b82e6f0197382"
+      },
+      "candidate_vs_original_full": {
+        "shape": [
+          128,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": false,
+        "different_elements": 118294,
+        "max_abs_diff": 9.5367431640625e-07,
+        "mean_abs_diff": 2.647282271173168e-08,
+        "rms_diff": 3.7935752421521556e-08,
+        "allclose_1e4": true,
+        "actual_sha256": "05073a036e665555d387e1110278ce33166c62048f180f3dab1b82e6f0197382",
+        "reference_sha256": "0ace46e743aa9eed6dd7f0585bb00c2153d96d6843cb0065b6094e4d3df4c556"
+      },
+      "candidate_projection_operations": 200,
+      "candidate_vision_calls": 3,
+      "buffer_bound_bytes": 17235952,
+      "cpu_random_weights_only": false
+    },
+    {
+      "case_id": "hands5_eof",
+      "identity": {
+        "pixels_tokens_positions_types_equal": true,
+        "full_grid": [
+          [
+            3,
+            12,
+            16
+          ]
+        ],
+        "canvas": [
+          192,
+          256
+        ],
+        "real_frames": 5,
+        "padded_frames": 6,
+        "frame_ids": [
+          0,
+          30,
+          60,
+          90,
+          120
+        ],
+        "timestamps": [
+          0.0,
+          1.001,
+          2.002,
+          3.003,
+          4.004
+        ],
+        "frame_sha256": [
+          "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+          "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+          "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5"
+        ],
+        "pairs": [
+          {
+            "frame_ids": [
+              0,
+              30
+            ],
+            "timestamps": [
+              0.0,
+              1.001
+            ],
+            "temporal_mean": 0.5005,
+            "rendered_timestamp": "0.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              15,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              60,
+              90
+            ],
+            "timestamps": [
+              2.002,
+              3.003
+            ],
+            "temporal_mean": 2.5025,
+            "rendered_timestamp": "2.5",
+            "synthetic_padding": false,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              17,
+              13,
+              20,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          },
+          {
+            "frame_ids": [
+              120,
+              120
+            ],
+            "timestamps": [
+              4.004,
+              4.004
+            ],
+            "temporal_mean": 4.004,
+            "rendered_timestamp": "4.0",
+            "synthetic_padding": true,
+            "grid": [
+              [
+                1,
+                12,
+                16
+              ]
+            ],
+            "token_ids": [
+              27,
+              19,
+              13,
+              15,
+              6283,
+              29,
+              248053,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248057,
+              248054
+            ],
+            "block_text": "<4.0 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+          }
+        ],
+        "full_fingerprint": "1253df6e7431f8ed1ffe0eda63cdd49eb14b92ac0904914dfaaf8ff258d88150",
+        "case_id": "hands5_eof"
+      },
+      "candidate_vs_pairs": {
+        "shape": [
+          144,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": true,
+        "different_elements": 0,
+        "max_abs_diff": 0.0,
+        "mean_abs_diff": 0.0,
+        "rms_diff": 0.0,
+        "allclose_1e4": true,
+        "actual_sha256": "31a34694afa576f467868fc831e75a70dc2f6505c2b53a70a1af5584ee85f2fc",
+        "reference_sha256": "31a34694afa576f467868fc831e75a70dc2f6505c2b53a70a1af5584ee85f2fc"
+      },
+      "candidate_vs_original_full": {
+        "shape": [
+          144,
+          1024
+        ],
+        "dtype": "torch.float32",
+        "bitwise_equal": false,
+        "different_elements": 145990,
+        "max_abs_diff": 1.895427703857422e-05,
+        "mean_abs_diff": 3.6384532404238394e-07,
+        "rms_diff": 6.000532855505531e-07,
+        "allclose_1e4": true,
+        "actual_sha256": "31a34694afa576f467868fc831e75a70dc2f6505c2b53a70a1af5584ee85f2fc",
+        "reference_sha256": "8e8c82012f133be87661945d907c0008c22fd56048e950d439786e57e36801ff"
+      },
+      "candidate_projection_operations": 300,
+      "candidate_vision_calls": 4,
+      "buffer_bound_bytes": 19630728,
+      "cpu_random_weights_only": false
+    }
+  ],
+  "input_identity": [
+    {
+      "pixels_tokens_positions_types_equal": true,
+      "full_grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "canvas": [
+        192,
+        256
+      ],
+      "real_frames": 6,
+      "padded_frames": 6,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "timestamps": [
+        0.0,
+        1.001,
+        2.002,
+        3.003,
+        4.004,
+        5.005
+      ],
+      "frame_sha256": [
+        "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+        "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+        "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+        "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+        "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5",
+        "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3"
+      ],
+      "pairs": [
+        {
+          "frame_ids": [
+            0,
+            30
+          ],
+          "timestamps": [
+            0.0,
+            1.001
+          ],
+          "temporal_mean": 0.5005,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            60,
+            90
+          ],
+          "timestamps": [
+            2.002,
+            3.003
+          ],
+          "temporal_mean": 2.5025,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            120,
+            150
+          ],
+          "timestamps": [
+            4.004,
+            5.005
+          ],
+          "temporal_mean": 4.5045,
+          "rendered_timestamp": "4.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        }
+      ],
+      "full_fingerprint": "704cad38ebd8946b1894a34b5efbd9dba93b8515e9f8af5286e223e2676a51c6",
+      "case_id": "hands6_standard"
+    },
+    {
+      "pixels_tokens_positions_types_equal": true,
+      "full_grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "canvas": [
+        192,
+        256
+      ],
+      "real_frames": 6,
+      "padded_frames": 6,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "timestamps": [
+        0.0,
+        0.9999999999999999,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "frame_sha256": [
+        "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+        "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+        "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+        "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+        "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+        "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853"
+      ],
+      "pairs": [
+        {
+          "frame_ids": [
+            0,
+            30
+          ],
+          "timestamps": [
+            0.0,
+            0.9999999999999999
+          ],
+          "temporal_mean": 0.49999999999999994,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            60,
+            90
+          ],
+          "timestamps": [
+            2.0,
+            3.0
+          ],
+          "temporal_mean": 2.5,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            120,
+            150
+          ],
+          "timestamps": [
+            4.0,
+            5.0
+          ],
+          "temporal_mean": 4.5,
+          "rendered_timestamp": "4.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        }
+      ],
+      "full_fingerprint": "e5f35614ce4de38856a3da28fb247e22ae618d0ebafb61a2203b412238d72896",
+      "case_id": "cat6_standard"
+    },
+    {
+      "pixels_tokens_positions_types_equal": true,
+      "full_grid": [
+        [
+          4,
+          8,
+          12
+        ]
+      ],
+      "canvas": [
+        128,
+        192
+      ],
+      "real_frames": 8,
+      "padded_frames": 8,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150,
+        180,
+        210
+      ],
+      "timestamps": [
+        0.0,
+        1.001,
+        2.002,
+        3.003,
+        4.004,
+        5.005,
+        6.006,
+        7.007
+      ],
+      "frame_sha256": [
+        "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+        "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+        "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+        "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+        "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5",
+        "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3",
+        "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+        "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+      ],
+      "pairs": [
+        {
+          "frame_ids": [
+            0,
+            30
+          ],
+          "timestamps": [
+            0.0,
+            1.001
+          ],
+          "temporal_mean": 0.5005,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              8,
+              12
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            60,
+            90
+          ],
+          "timestamps": [
+            2.002,
+            3.003
+          ],
+          "temporal_mean": 2.5025,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              8,
+              12
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            120,
+            150
+          ],
+          "timestamps": [
+            4.004,
+            5.005
+          ],
+          "temporal_mean": 4.5045,
+          "rendered_timestamp": "4.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              8,
+              12
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            180,
+            210
+          ],
+          "timestamps": [
+            6.006,
+            7.007
+          ],
+          "temporal_mean": 6.5065,
+          "rendered_timestamp": "6.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              8,
+              12
+            ]
+          ],
+          "token_ids": [
+            27,
+            21,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<6.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        }
+      ],
+      "full_fingerprint": "7ea3a19b9370d5fe96da6600816835ec565c2d7c3cb6608708f9167ab113ddfb",
+      "case_id": "hands8_small"
+    },
+    {
+      "pixels_tokens_positions_types_equal": true,
+      "full_grid": [
+        [
+          4,
+          16,
+          8
+        ]
+      ],
+      "canvas": [
+        256,
+        128
+      ],
+      "real_frames": 8,
+      "padded_frames": 8,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150,
+        180,
+        210
+      ],
+      "timestamps": [
+        0.0,
+        0.9999999999999999,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "frame_sha256": [
+        "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+        "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+        "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+        "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+        "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+        "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853",
+        "9b02285010ba71c6d9df318df0f056b7a04248ee52819ca43c7e0365f9dea9c2",
+        "63352334d328cac3903a4bd94929a2d809fa3d33920490f3d89782c62a161543"
+      ],
+      "pairs": [
+        {
+          "frame_ids": [
+            0,
+            30
+          ],
+          "timestamps": [
+            0.0,
+            0.9999999999999999
+          ],
+          "temporal_mean": 0.49999999999999994,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              16,
+              8
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            60,
+            90
+          ],
+          "timestamps": [
+            2.0,
+            3.0
+          ],
+          "temporal_mean": 2.5,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              16,
+              8
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            120,
+            150
+          ],
+          "timestamps": [
+            4.0,
+            5.0
+          ],
+          "temporal_mean": 4.5,
+          "rendered_timestamp": "4.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              16,
+              8
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            180,
+            210
+          ],
+          "timestamps": [
+            6.0,
+            7.0
+          ],
+          "temporal_mean": 6.5,
+          "rendered_timestamp": "6.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              16,
+              8
+            ]
+          ],
+          "token_ids": [
+            27,
+            21,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<6.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        }
+      ],
+      "full_fingerprint": "07350567868014d73b35692aa4e2217f61a10bd03f7485e07eeb1da1ad7e751b",
+      "case_id": "cat8_portrait"
+    },
+    {
+      "pixels_tokens_positions_types_equal": true,
+      "full_grid": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "real_frames": 4,
+      "padded_frames": 4,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "timestamps": [
+        0.0,
+        0.9999999999999999,
+        2.0,
+        3.0
+      ],
+      "frame_sha256": [
+        "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+        "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+        "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+        "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a"
+      ],
+      "pairs": [
+        {
+          "frame_ids": [
+            0,
+            30
+          ],
+          "timestamps": [
+            0.0,
+            0.9999999999999999
+          ],
+          "temporal_mean": 0.49999999999999994,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              16,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            60,
+            90
+          ],
+          "timestamps": [
+            2.0,
+            3.0
+          ],
+          "temporal_mean": 2.5,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              16,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        }
+      ],
+      "full_fingerprint": "98c31da8dcb5558d748e7d6c9fdaf90db5b8230ef02a91d7024737acff7b702a",
+      "case_id": "cat4_square"
+    },
+    {
+      "pixels_tokens_positions_types_equal": true,
+      "full_grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "canvas": [
+        192,
+        256
+      ],
+      "real_frames": 5,
+      "padded_frames": 6,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90,
+        120
+      ],
+      "timestamps": [
+        0.0,
+        1.001,
+        2.002,
+        3.003,
+        4.004
+      ],
+      "frame_sha256": [
+        "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+        "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+        "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+        "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+        "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5"
+      ],
+      "pairs": [
+        {
+          "frame_ids": [
+            0,
+            30
+          ],
+          "timestamps": [
+            0.0,
+            1.001
+          ],
+          "temporal_mean": 0.5005,
+          "rendered_timestamp": "0.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            15,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            60,
+            90
+          ],
+          "timestamps": [
+            2.002,
+            3.003
+          ],
+          "temporal_mean": 2.5025,
+          "rendered_timestamp": "2.5",
+          "synthetic_padding": false,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            17,
+            13,
+            20,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        },
+        {
+          "frame_ids": [
+            120,
+            120
+          ],
+          "timestamps": [
+            4.004,
+            4.004
+          ],
+          "temporal_mean": 4.004,
+          "rendered_timestamp": "4.0",
+          "synthetic_padding": true,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "token_ids": [
+            27,
+            19,
+            13,
+            15,
+            6283,
+            29,
+            248053,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248057,
+            248054
+          ],
+          "block_text": "<4.0 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+        }
+      ],
+      "full_fingerprint": "1253df6e7431f8ed1ffe0eda63cdd49eb14b92ac0904914dfaaf8ff258d88150",
+      "case_id": "hands5_eof"
+    }
+  ],
+  "budget": {
+    "vision_encodings": 31,
+    "candidate_projection_operations_max": 1900,
+    "language_forwards": 0,
+    "generated_tokens": 0,
+    "model_loads": 1,
+    "wall_seconds": 600,
+    "comparison_buffer_bytes": 134217728
+  },
+  "actual_forwards": {
+    "vision": 31,
+    "language": 0
+  },
+  "candidate_projection_operations": 1900,
+  "comparison_buffer_peak_bound_bytes": 19778184,
+  "all_cases_bitwise_equal": true,
+  "methods_hooks_restored": true,
+  "scope": "fixed candidate FP32 numerical evidence, not original-full/BF16/semantics",
+  "wall_seconds_including_load": 5.71601820000069,
+  "peak_allocated_gib": 3.2194504737854004,
+  "peak_reserved_gib": 3.53125
+}

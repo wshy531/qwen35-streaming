@@ -1,0 +1,18 @@
+test_chat_end_stops_when_model_eos_is_different (tests.test_online.OnlineTests.test_chat_end_stops_when_model_eos_is_different) ... ok
+test_compute_failure_invalidates_until_reset (tests.test_online.OnlineTests.test_compute_failure_invalidates_until_reset) ... ok
+test_each_pair_matches_independent_whole_processor_rope_and_cache (tests.test_online.OnlineTests.test_each_pair_matches_independent_whole_processor_rope_and_cache) ... ok
+test_eos_is_committed_once_and_stops (tests.test_online.OnlineTests.test_eos_is_committed_once_and_stops) ... ok
+test_future_frames_do_not_change_committed_prefix (tests.test_online.OnlineTests.test_future_frames_do_not_change_committed_prefix) ... ok
+test_invalid_frame_rejected_without_mutating_pending_or_counts (tests.test_online.OnlineTests.test_invalid_frame_rejected_without_mutating_pending_or_counts) ... ok
+test_odd_eof_duplicates_only_then_seals_input (tests.test_online.OnlineTests.test_odd_eof_duplicates_only_then_seals_input) ... ok
+test_pending_is_copied_readonly_and_does_not_compute (tests.test_online.OnlineTests.test_pending_is_copied_readonly_and_does_not_compute) ... ok
+test_precision_context_restored_even_on_failure_and_canvas_validation (tests.test_online.OnlineTests.test_precision_context_restored_even_on_failure_and_canvas_validation) ... ok
+test_question_template_injection_and_budgets_rejected_before_fork (tests.test_online.OnlineTests.test_question_template_injection_and_budgets_rejected_before_fork) ... ok
+test_real_question_decode_matches_independent_reference_and_main_continues (tests.test_online.OnlineTests.test_real_question_decode_matches_independent_reference_and_main_continues) ... ok
+test_reserved_capacity_rejects_pair_before_vision_without_mutation (tests.test_online.OnlineTests.test_reserved_capacity_rejects_pair_before_vision_without_mutation) ... ok
+test_reset_clears_pending_caches_eof_and_close_releases (tests.test_online.OnlineTests.test_reset_clears_pending_caches_eof_and_close_releases) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.508s
+
+OK

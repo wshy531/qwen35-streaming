@@ -1,0 +1,33 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 10473.75it/s]
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 1, "video": "cat_play", "kind": "native_last_subject", "variant": null, "cutoff": 0.9999999999999999, "answer": "CAT\n", "expected": "CAT"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 2, "video": "cat_play", "kind": "native_last_subject", "variant": null, "cutoff": 3.0, "answer": "CAT\n", "expected": "CAT"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 3, "video": "cat_play", "kind": "native_last_subject", "variant": null, "cutoff": 5.0, "answer": "CAT\n", "expected": "CAT"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 4, "video": "cat_play", "kind": "native_last_subject", "variant": null, "cutoff": 7.0, "answer": "CAT\n", "expected": "CAT"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 5, "video": "clean_hands", "kind": "native_last_subject", "variant": null, "cutoff": 3.003, "answer": "HANDS\n", "expected": "HANDS"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 6, "video": "clean_hands", "kind": "native_last_subject", "variant": null, "cutoff": 7.007, "answer": "HANDS\n", "expected": "HANDS"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 7, "video": "clean_hands", "kind": "native_last_subject", "variant": null, "cutoff": 13.013, "answer": "HANDS\n", "expected": "HANDS"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 8, "video": "clean_hands", "kind": "native_last_subject", "variant": null, "cutoff": 15.015, "answer": "HANDS\n", "expected": "HANDS"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 9, "video": "clean_hands", "kind": "order_diagnostic", "variant": "original", "cutoff": 15.015, "answer": "FAUCET\n", "expected": "FAUCET"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 10, "video": "clean_hands", "kind": "order_diagnostic", "variant": "original", "cutoff": 15.015, "answer": "FAUCET\n", "expected": "FAUCET"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 11, "video": "clean_hands", "kind": "order_diagnostic", "variant": "reverse_pixels", "cutoff": 15.015, "answer": "FAUCET\n", "expected": "TOWEL"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 12, "video": "clean_hands", "kind": "order_diagnostic", "variant": "reverse_pixels", "cutoff": 15.015, "answer": "FAUCET\n", "expected": "TOWEL"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 13, "video": "clean_hands", "kind": "native_last_subject", "variant": null, "cutoff": 19.019, "answer": "HANDS\n", "expected": "HANDS"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 14, "video": "hands_vfr", "kind": "controlled_vfr_last_subject", "variant": null, "cutoff": 1.5, "answer": "HANDS\n", "expected": "HANDS"}
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+{"question": 15, "video": "hands_vfr", "kind": "controlled_vfr_last_subject", "variant": null, "cutoff": 4.7, "answer": "HANDS\n", "expected": "HANDS"}
+{"by_kind": {"native_last_subject": {"questions": 9, "strict_correct": 9, "normalized_correct": 9}, "order_diagnostic": {"questions": 4, "strict_correct": 2, "normalized_correct": 2}, "controlled_vfr_last_subject": {"questions": 2, "strict_correct": 2, "normalized_correct": 2}}, "interface_state_passed": true, "order_all_variants_correct": false}

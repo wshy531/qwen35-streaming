@@ -1,0 +1,29 @@
+{
+  "matched_provenance": {
+    "s4b_online_preflight_20261009_01": {
+      "scripts\\online_experiment.py": "runs\\s4b_online_gpu_20261009_01\\script_snapshot.py",
+      "streaming\\online.py": "runs\\s4b_online_gpu_20261009_01\\online_snapshot.py",
+      "tests\\test_online.py": "runs\\s4b_online_gpu_20261009_01\\tests_snapshot.py"
+    },
+    "s4b_online_gpu_20261009_01": {
+      "scripts\\online_experiment.py": "runs\\s4b_online_gpu_20261009_01\\script_snapshot.py",
+      "streaming\\online.py": "runs\\s4b_online_gpu_20261009_01\\online_snapshot.py",
+      "tests\\test_online.py": "runs\\s4b_online_gpu_20261009_01\\tests_snapshot.py"
+    },
+    "s4b_online_preflight_20261009_02": {}
+  },
+  "failed_gpu_five_of_eight_preserved": true,
+  "gpu_actual_budget_verified": true,
+  "cpu12_then_eos_candidate_cpu13_verified": true,
+  "candidate_has_no_new_gpu_claim": true,
+  "wrong_preflight_rejected_before_launch": true,
+  "cat_one_counterexamples_preserved": true,
+  "input_fingerprints_match": true,
+  "old_executable_sources_unchanged": true,
+  "source_files": 42,
+  "no_inference_in_audit": true,
+  "branch": "36tar/s4-mixed-state",
+  "base_commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "commit_created": false,
+  "remote_push": false
+}

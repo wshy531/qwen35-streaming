@@ -1,0 +1,35 @@
+{
+  "cpu_controls_passed": true,
+  "cpu_strict_groups": 5,
+  "hooks_cleanup_verified": true,
+  "budget": {
+    "records": 7,
+    "strict_shared_groups": 5,
+    "max_tokens": 256,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 32,
+    "language_forwards_max": 47,
+    "vision_encodings": 6,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "input_fingerprints": {
+    "prefix2": "32f0f8dcd1a82331dcdfb1315e9e7c203590c3d72c5459afa3a23ca441d764bc",
+    "prefix4": "7bc2d951d3b23a16c5be64fcf977c1a4cd02bdab6dc4fb9c0aef2f6df24d6b11",
+    "question2": "db9c4773c4aa85a42d9063bf014efc6cf801ce82eb701e9e3c66ec4b90b66393",
+    "question4": "8c7a27137361de5972cf7e8347b4c2289ee369f44e056abdefd8141118649834",
+    "eof3": "2b6a32466ddec5395a50a9f6658d791504f1a53aa0be256de96cab64d917464b"
+  },
+  "video_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "plan_sha256": "f730339f5a20de5116ae7a4dffa85256e9a6dd9092199a20d72ce8c808af62f5",
+  "launcher_sha256": "e51d0ca2c7ba950e7ae9343faa985f80729c0032d46dcefa9675fe68f6c58cf1",
+  "canvas": [
+    192,
+    256
+  ],
+  "questions": [
+    "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+    "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER."
+  ]
+}

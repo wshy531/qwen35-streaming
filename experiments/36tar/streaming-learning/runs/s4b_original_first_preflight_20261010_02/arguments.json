@@ -1,0 +1,7 @@
+{
+  "stage": "preflight",
+  "out": "E:\\VIT Model\\runs\\s4b_original_first_preflight_20261010_02",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "dataset": "E:\\VIT Model\\datasets\\natural_commons_v1",
+  "preflight": null
+}

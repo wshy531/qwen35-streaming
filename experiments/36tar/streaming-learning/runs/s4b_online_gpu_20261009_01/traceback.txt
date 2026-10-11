@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\online_experiment.py", line 293, in main
+    (preflight if args.stage == "preflight" else gpu)(args.out,args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\code\qwen35-streaming-s4\scripts\online_experiment.py", line 269, in gpu
+    raise RuntimeError("Online registered interfaces/numerics failed; retain evidence")
+RuntimeError: Online registered interfaces/numerics failed; retain evidence

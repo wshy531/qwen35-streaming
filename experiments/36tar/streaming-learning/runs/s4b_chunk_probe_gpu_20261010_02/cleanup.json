@@ -1,0 +1,6 @@
+{
+  "model_variable_deleted": true,
+  "scope": "exception frames may retain tensors until exit",
+  "cuda_allocated_bytes_after_release": 9568256,
+  "cuda_reserved_bytes_after_release": 23068672
+}

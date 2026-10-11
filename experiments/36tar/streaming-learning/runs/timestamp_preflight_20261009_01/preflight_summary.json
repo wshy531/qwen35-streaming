@@ -1,0 +1,404 @@
+{
+  "budget": {
+    "questions": 8,
+    "max_new_tokens": 16,
+    "wall_seconds": 600,
+    "scope": "post-hoc diagnostic, not tuned accuracy"
+  },
+  "pairs": [
+    {
+      "source_question": 7,
+      "variant": "original",
+      "expected": "green",
+      "historical_answer": "blue\n",
+      "historical_input_fingerprint": "3372e0d15ffadb65307401d2212d5471d6596bdfd9aae789c5ea0c821e4beb5e",
+      "frame_ids": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "timestamps": [
+        10.0,
+        11.0,
+        12.0,
+        13.0
+      ],
+      "temporal_patch_means": [
+        10.5,
+        12.5
+      ],
+      "rendered_timestamps": [
+        "10.5",
+        "12.5"
+      ],
+      "temporal_padding_frame_ids": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "input_fingerprint": "3372e0d15ffadb65307401d2212d5471d6596bdfd9aae789c5ea0c821e4beb5e",
+      "input_tokens": 179
+    },
+    {
+      "source_question": 7,
+      "variant": "window_relative",
+      "expected": "green",
+      "historical_answer": "blue\n",
+      "historical_input_fingerprint": "3372e0d15ffadb65307401d2212d5471d6596bdfd9aae789c5ea0c821e4beb5e",
+      "frame_ids": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "temporal_patch_means": [
+        0.5,
+        2.5
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "input_fingerprint": "d985e08232c1e378d950839c8f58fc91bb22816736c81d81b3136e3182f84d37",
+      "input_tokens": 177
+    },
+    {
+      "source_question": 16,
+      "variant": "original",
+      "expected": "yellow",
+      "historical_answer": "green\n",
+      "historical_input_fingerprint": "cef9fb584fbf7d1579e10908e4d4356e00862be309f37eab48b46abaeb234f85",
+      "frame_ids": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "timestamps": [
+        28.0,
+        29.0,
+        30.0,
+        31.0
+      ],
+      "temporal_patch_means": [
+        28.5,
+        30.5
+      ],
+      "rendered_timestamps": [
+        "28.5",
+        "30.5"
+      ],
+      "temporal_padding_frame_ids": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "input_fingerprint": "cef9fb584fbf7d1579e10908e4d4356e00862be309f37eab48b46abaeb234f85",
+      "input_tokens": 179
+    },
+    {
+      "source_question": 16,
+      "variant": "window_relative",
+      "expected": "yellow",
+      "historical_answer": "green\n",
+      "historical_input_fingerprint": "cef9fb584fbf7d1579e10908e4d4356e00862be309f37eab48b46abaeb234f85",
+      "frame_ids": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "frame_sha256": [
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1"
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "temporal_patch_means": [
+        0.5,
+        2.5
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "input_fingerprint": "08f453340ac12cbf81e84d3f4d0c5cc10a8f0a4d1790633b7033e92f994fbf9b",
+      "input_tokens": 177
+    },
+    {
+      "source_question": 17,
+      "variant": "original",
+      "expected": "red",
+      "historical_answer": "white\n",
+      "historical_input_fingerprint": "0e221ac0b0f2f63bdd25e5b4c12806cfe72ff9bdcd4a2ea3eb232e68d8b766f9",
+      "frame_ids": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "timestamps": [
+        30.0,
+        31.0,
+        32.0,
+        33.0
+      ],
+      "temporal_patch_means": [
+        30.5,
+        32.5
+      ],
+      "rendered_timestamps": [
+        "30.5",
+        "32.5"
+      ],
+      "temporal_padding_frame_ids": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "input_fingerprint": "0e221ac0b0f2f63bdd25e5b4c12806cfe72ff9bdcd4a2ea3eb232e68d8b766f9",
+      "input_tokens": 179
+    },
+    {
+      "source_question": 17,
+      "variant": "window_relative",
+      "expected": "red",
+      "historical_answer": "white\n",
+      "historical_input_fingerprint": "0e221ac0b0f2f63bdd25e5b4c12806cfe72ff9bdcd4a2ea3eb232e68d8b766f9",
+      "frame_ids": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "frame_sha256": [
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "72f5af4a05c9a1d153f72a753ffead2c4be7162a3f147ddf9231ab3906a8a2d1",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722",
+        "4f96d43839745764d459ecf82107a10662e8d678bd1ac6b1bd7419e8a2386722"
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "temporal_patch_means": [
+        0.5,
+        2.5
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "input_fingerprint": "d96974e7b8ab961e172104236b898be10de5182231839763667bb1efc1549c1a",
+      "input_tokens": 177
+    },
+    {
+      "source_question": 59,
+      "variant": "original",
+      "expected": "green",
+      "historical_answer": "blue\n",
+      "historical_input_fingerprint": "6e35daf2693ff830ced1cbf2435464c398d38269e01d9d3d0d357f20f9106f58",
+      "frame_ids": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "timestamps": [
+        114.0,
+        115.0,
+        116.0,
+        117.0
+      ],
+      "temporal_patch_means": [
+        114.5,
+        116.5
+      ],
+      "rendered_timestamps": [
+        "114.5",
+        "116.5"
+      ],
+      "temporal_padding_frame_ids": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "input_fingerprint": "6e35daf2693ff830ced1cbf2435464c398d38269e01d9d3d0d357f20f9106f58",
+      "input_tokens": 181
+    },
+    {
+      "source_question": 59,
+      "variant": "window_relative",
+      "expected": "green",
+      "historical_answer": "blue\n",
+      "historical_input_fingerprint": "6e35daf2693ff830ced1cbf2435464c398d38269e01d9d3d0d357f20f9106f58",
+      "frame_ids": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "frame_sha256": [
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "93b650a05e9477fc334c892385bb9f72fd1ee66665f5e541db3bcb7b2fc1cb2a",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091",
+        "b696c35e4f19eb06c02b09865688b1c20514082d067de3c43c9ab2b160476091"
+      ],
+      "timestamps": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "temporal_patch_means": [
+        0.5,
+        2.5
+      ],
+      "rendered_timestamps": [
+        "0.5",
+        "2.5"
+      ],
+      "temporal_padding_frame_ids": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "visual_tokens": 128,
+      "video_grid_thw": [
+        [
+          2,
+          16,
+          16
+        ]
+      ],
+      "input_fingerprint": "d985e08232c1e378d950839c8f58fc91bb22816736c81d81b3136e3182f84d37",
+      "input_tokens": 177
+    }
+  ],
+  "asset_manifest_sha256": "c7aa8f0a5b82991efeca1e5ff167c0c522b6f9d9f3723272742cd208a12d7614",
+  "reference_summary_sha256": "64b8e34a7ebb3492ca73c810c48bafd1baa524765f251efb6ba6e842b0a66ab7"
+}

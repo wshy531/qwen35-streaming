@@ -1,0 +1,5 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Setting `pad_token_id` to `eos_token_id`:248046 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248046 for open-end generation.
+{'equal_length_same_early_pixels_and_layout_different_tail_verified': True, 'two_inputs_and_tiny_fresh_prefills_bitwise_equal': True, 'tiny_original_generate_and_positions_verified': True, 'original_source': 'E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local', 'budget': {'cases': 4, 'max_tokens': 256, 'max_new_tokens_per_answer': 8, 'generated_tokens_max': 32, 'language_forwards_max': 36, 'vision_encodings': 4, 'model_loads': 1, 'wall_seconds': 600}}

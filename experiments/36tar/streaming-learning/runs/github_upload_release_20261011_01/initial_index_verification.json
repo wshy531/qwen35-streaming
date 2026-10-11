@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "added_files": 1042,
+  "raw_bytes": 9016162,
+  "all_staged_bytes_match_source": true,
+  "all61_frozen_source_sha_match": true,
+  "all_changes_isolated_additions": true,
+  "root_files_unchanged": true,
+  "forbidden_assets_and_known_secret_patterns_absent": true,
+  "branch": "36tar/s4-mixed-state",
+  "gpu_forwards": 0
+}

@@ -1,0 +1,15 @@
+{
+  "priority_document_sha256": "87bef76892029cba167f385f7442148c0139e94a5a2cdf99ef23ce8737a80c4a",
+  "ten_non_cluster_issues": true,
+  "source_files_unchanged": 52,
+  "prior_evidence_and_results_unchanged": 12,
+  "prior_recap_unchanged": true,
+  "absolute_document_link_valid": true,
+  "candidate_not_executed": true,
+  "new_model_inference": false,
+  "new_gpu_runs": 0,
+  "new_training": 0,
+  "remote_commands": 0,
+  "push": false,
+  "key_requested_or_recorded": false
+}

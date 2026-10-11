@@ -1,0 +1,147 @@
+{
+  "repo": "wshy531/qwen35-streaming",
+  "commit": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "retrieved_date": "2026-10-09",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5536aa13076ec296b210609c08d27ea82c3d45e",
+      "size": 83,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/e5536aa13076ec296b210609c08d27ea82c3d45e"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63fa69951f6dab3e17b80c59c3fb7fd29b4c52d7",
+      "size": 4788,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/63fa69951f6dab3e17b80c59c3fb7fd29b4c52d7"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34e8726da1afc8ea95eb8ce2e44e2eeb122c4795",
+      "size": 4594,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/34e8726da1afc8ea95eb8ce2e44e2eeb122c4795"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d18183a43946d353e728844989aa40eadfdc7d3",
+      "size": 1235,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/9d18183a43946d353e728844989aa40eadfdc7d3"
+    },
+    {
+      "path": "qwen35_local",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a415a3b0e70276c802af17e3e5e3303bb21ad90",
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/trees/0a415a3b0e70276c802af17e3e5e3303bb21ad90"
+    },
+    {
+      "path": "qwen35_local/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "672b3db0c29d4e1c0e38107d75edf9fcb6c33931",
+      "size": 433,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/672b3db0c29d4e1c0e38107d75edf9fcb6c33931"
+    },
+    {
+      "path": "qwen35_local/configuration_qwen3_5.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ede9f2094b9efa137d92aec885af27acc5e933c7",
+      "size": 14738,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/ede9f2094b9efa137d92aec885af27acc5e933c7"
+    },
+    {
+      "path": "qwen35_local/modeling_qwen3_5.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edd212d826a1fb118fd2bb545f9b3e9bf947c23e",
+      "size": 101733,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/edd212d826a1fb118fd2bb545f9b3e9bf947c23e"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de393aa228f9e41462f67bd003629bb5f9d117f0",
+      "size": 157,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/de393aa228f9e41462f67bd003629bb5f9d117f0"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48c14d192e089335cfb002bc860ac292567f278a",
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/trees/48c14d192e089335cfb002bc860ac292567f278a"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88921462713ea4844ca93576e5686b479d1521d9",
+      "size": 78,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/88921462713ea4844ca93576e5686b479d1521d9"
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feec119e9c0e1ee307f50d061b0c3a909fcf6214",
+      "size": 2823,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/feec119e9c0e1ee307f50d061b0c3a909fcf6214"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "183185699bb9a14bfcabf0e9bef284c1cdc822d9",
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/trees/183185699bb9a14bfcabf0e9bef284c1cdc822d9"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/test_local_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4e862a68b9fd1ade6c6af72239bf6027f607983",
+      "size": 4415,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/c4e862a68b9fd1ade6c6af72239bf6027f607983"
+    },
+    {
+      "path": "third_party",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7cfd73e1094c57001ae6d4750b83cf041624df4",
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/trees/c7cfd73e1094c57001ae6d4750b83cf041624df4"
+    },
+    {
+      "path": "third_party/transformers-LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68b7d66c97d66c58de883ed0c451af2b3183e6f3",
+      "size": 11418,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/68b7d66c97d66c58de883ed0c451af2b3183e6f3"
+    },
+    {
+      "path": "third_party/upstream.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fd1192999325a344bf488d867529d45de8c5327",
+      "size": 909,
+      "url": "https://api.github.com/repos/wshy531/qwen35-streaming/git/blobs/2fd1192999325a344bf488d867529d45de8c5327"
+    }
+  ]
+}

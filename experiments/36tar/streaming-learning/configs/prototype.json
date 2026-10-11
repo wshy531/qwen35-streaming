@@ -1,0 +1,18 @@
+{
+  "status": "superseded_historical_llava_design_do_not_execute",
+  "model_id": "llava-hf/llava-onevision-qwen2-0.5b-ov-hf",
+  "model_revision": null,
+  "transformers_candidate": "4.57.1",
+  "batch_size": 1,
+  "sample_fps": 1,
+  "chunk_frames": 1,
+  "max_frames": 16,
+  "max_stream_tokens": 4096,
+  "max_question_and_template_tokens": 448,
+  "max_new_tokens": 64,
+  "capacity_policy": "reject_append_preserve_state",
+  "answer_policy": "explicit_query_on_isolated_cache_copy",
+  "dialogue_history": false,
+  "train": false,
+  "seed": 42
+}

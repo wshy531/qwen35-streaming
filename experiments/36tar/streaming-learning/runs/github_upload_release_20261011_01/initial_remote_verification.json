@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "remote_head_sha": "d3f4fc51ff41d983870b845df8bc009361ae75bd",
+  "main_sha_unchanged": "61e8de673fe9abb7281f803c1d1c94dc65f6a064",
+  "pr_url": "https://github.com/wshy531/qwen35-streaming/pull/1",
+  "draft": true,
+  "merged": false,
+  "authenticated_login": "36tar"
+}

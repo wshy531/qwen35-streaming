@@ -1,0 +1,68 @@
+<div id="qwen-window-replay">
+  <h3>滑窗问答 · 已完成实验回放</h3>
+  <div class="viz-row"><label class="form-label" for="qwen-window-step">回答截至</label><output id="qwen-window-time" class="tabular-nums">1 秒</output></div>
+  <input class="form-range" id="qwen-window-step" type="range" min="0" max="5" value="0" step="1" aria-label="选择已记录的回答时刻">
+  <div id="qwen-window-rows"></div>
+  <div id="qwen-window-detail" class="text-small" aria-live="polite"></div>
+  <script type="application/json" id="qwen-window-data">__WINDOW_DATA__</script>
+</div>
+<style>
+  #qwen-window-replay .frame-strip { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin:12px 0 20px; }
+  #qwen-window-replay .frame-strip figure { margin:0; min-width:0; }
+  #qwen-window-replay .frame-strip img { display:block; width:100%; height:auto; }
+  #qwen-window-replay .frame-strip figcaption { color:var(--foreground); margin-top:4px; }
+  #qwen-window-replay .answer-row { display:flex; flex-wrap:wrap; gap:12px; margin-top:16px; color:var(--foreground); }
+  @media(max-width:440px) { #qwen-window-replay .frame-strip { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+</style>
+<script>
+(() => {
+  const root = document.getElementById('qwen-window-replay');
+  const data = JSON.parse(root.querySelector('#qwen-window-data').textContent);
+  const slider = root.querySelector('#qwen-window-step');
+  const rows = root.querySelector('#qwen-window-rows');
+  const time = root.querySelector('#qwen-window-time');
+  const detail = root.querySelector('#qwen-window-detail');
+  let step = 0;
+  function restore(state) {
+    const value = state?.privateContent?.step;
+    step = Number.isInteger(value) ? Math.max(0,Math.min(5,value)) : 0;
+    draw();
+  }
+  function draw() {
+    slider.value = step;
+    const first = data.videos[0].windows[step];
+    time.textContent = `${first.cutoff} 秒`;
+    rows.replaceChildren();
+    data.videos.forEach((video,index) => {
+      const window = video.windows[step];
+      const label = document.createElement('div'); label.className = 'answer-row';
+      const name = document.createElement('span'); name.textContent = `视频 ${index===0?'A':'B'}`;
+      const answer = document.createElement('span'); answer.textContent = `已记录答案：${window.answer}`;
+      label.append(name,answer); rows.append(label);
+      const strip = document.createElement('div'); strip.className = 'frame-strip';
+      window.ids.forEach(id => {
+        const figure = document.createElement('figure');
+        const image = document.createElement('img'); image.src = video.images[id];
+        image.alt = `视频 ${index===0?'A':'B'}，第 ${id} 帧，${id} 秒`;
+        image.width = 96; image.height = 96;
+        const caption = document.createElement('figcaption'); caption.className = 'text-small tabular-nums';
+        caption.textContent = `帧 ${id} · ${id} 秒`;
+        figure.append(image,caption); strip.append(figure);
+      });
+      rows.append(strip);
+    });
+    const earlier = first.ids[0]===0 ? '尚未淘汰早期帧' : `帧 0–${first.ids[0]-1} 已离开窗口`;
+    detail.textContent = `窗口 ${first.ids.length}/4 帧 · ${earlier} · 时间块 ${first.times.join(' / ')} 秒`;
+  }
+  slider.addEventListener('input',() => {
+    step = Number(slider.value); draw();
+    if (window.openai?.setWidgetState) {
+      window.openai.setWidgetState({modelContent:{cutoff_seconds:data.videos[0].windows[step].cutoff},privateContent:{step}}).catch(()=>{});
+    }
+  });
+  window.addEventListener('openai:set_globals',event => {
+    if (event.detail?.globals?.widgetState) restore(event.detail.globals.widgetState);
+  });
+  restore(window.openai?.widgetState);
+})();
+</script>

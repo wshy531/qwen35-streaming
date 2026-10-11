@@ -1,0 +1,259 @@
+{
+  "groups": [
+    {
+      "id": "four_frame_prefix_shared",
+      "logits": {
+        "max_abs_diff": 8.58306884765625e-05,
+        "mean_abs_diff": 4.326062935433583e-06,
+        "rms_diff": 5.712152869818965e-06,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 2.2530555725097656e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 3.24249267578125e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 2.0503997802734375e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 6.4373016357421875e-06,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "status": {
+        "accepted_frames": 4,
+        "encoded_real_frames": 4,
+        "pending_frame_id": null,
+        "last_received_id": 90,
+        "last_encoded_id": 90,
+        "last_encoded_pts": 3.003,
+        "seen_tokens": 115,
+        "next_rope_position": 35,
+        "vision_encodings": 2,
+        "pending_rgb_bytes": 0,
+        "finished": false,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "8795c6aa033603e587b746f3a867d0c24a6d9286d966ed5f1a99add3e6a2c002",
+        "feature_bytes": 393216
+      },
+      "passed": true
+    },
+    {
+      "id": "four_frame_subject_shared",
+      "online": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "HANDS",
+        "generated_ids": [
+          72141,
+          50,
+          248046
+        ],
+        "stop_reason": "eos",
+        "frame_id": 90,
+        "timestamp": 3.003,
+        "wall_seconds": 0.2591054999975313,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "reference_answer": "HANDS",
+      "reference_ids": [
+        72141,
+        50,
+        248046
+      ],
+      "main_unchanged_bitwise_and_counters": true,
+      "logits": {
+        "max_abs_diff": 9.679794311523438e-05,
+        "mean_abs_diff": 4.5863080231356435e-06,
+        "rms_diff": 6.889299584145192e-06,
+        "bitwise_equal": false,
+        "allclose_5e3": true,
+        "last_argmax_equal": true,
+        "all_positions_argmax_equal": true,
+        "registered_numeric_limits_passed": true,
+        "allclose_1e4": true,
+        "fp32_reference_limits_passed": true
+      },
+      "final_states": {
+        "key_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 2.5391578674316406e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "value_cache": {
+          "populated_layers": 6,
+          "max_abs_diff": 3.910064697265625e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "conv_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 2.6702880859375e-05,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        },
+        "recurrent_states": {
+          "populated_layers": 18,
+          "max_abs_diff": 9.179115295410156e-06,
+          "all_tensors_bitwise_equal": false,
+          "allclose_1e4": true
+        }
+      },
+      "passed": true
+    },
+    {
+      "id": "same_prefix_repeated_subject",
+      "online": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "HANDS",
+        "generated_ids": [
+          72141,
+          50,
+          248046
+        ],
+        "stop_reason": "eos",
+        "frame_id": 90,
+        "timestamp": 3.003,
+        "wall_seconds": 0.3022945999982767,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "main_unchanged_bitwise_and_counters": true,
+      "ids_match_first": true,
+      "initial_logits_bitwise_equal": true,
+      "branch_states_bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "id": "reset_replay_four_frame_subject",
+      "online": {
+        "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+        "answer": "HANDS",
+        "generated_ids": [
+          72141,
+          50,
+          248046
+        ],
+        "stop_reason": "eos",
+        "frame_id": 90,
+        "timestamp": 3.003,
+        "wall_seconds": 0.2138173999992432,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "reset_empty_contract": true,
+      "reset_status": {
+        "accepted_frames": 0,
+        "encoded_real_frames": 0,
+        "pending_frame_id": null,
+        "last_received_id": null,
+        "last_encoded_id": null,
+        "last_encoded_pts": null,
+        "seen_tokens": 0,
+        "next_rope_position": 0,
+        "vision_encodings": 0,
+        "pending_rgb_bytes": 0,
+        "finished": false,
+        "invalid": false,
+        "closed": false,
+        "reference_mode": "fp32_ieee_math"
+      },
+      "input_identity": {
+        "tokens_equal": true,
+        "four_axis_positions_equal": true,
+        "complete_embeddings_bitwise_equal": true,
+        "visual_features_bitwise_equal": true,
+        "feature_fingerprint": "8795c6aa033603e587b746f3a867d0c24a6d9286d966ed5f1a99add3e6a2c002",
+        "feature_bytes": 393216
+      },
+      "input_fingerprints_equal": true,
+      "actual_features_bitwise_equal": true,
+      "complete_embeddings_bitwise_equal": true,
+      "main_after_replay_bitwise_equal": true,
+      "main_status_after_replay_equal": true,
+      "main_unchanged_bitwise_and_counters": true,
+      "ids_match_first": true,
+      "initial_logits_bitwise_equal": true,
+      "branch_states_bitwise_equal": true,
+      "passed": true
+    }
+  ],
+  "budget": {
+    "groups": 4,
+    "max_tokens": 256,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 32,
+    "language_forwards_max": 43,
+    "vision_encodings": 4,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+  "canvas": [
+    192,
+    256
+  ],
+  "scope": "one fixed four-frame causal replay, repeated isolated QA and reset; not a long-run/live benchmark",
+  "experiment_query_trigger": "after four delivered frames; underlying two-frame ask contract unchanged",
+  "all_numeric_groups_passed": true,
+  "actual_forwards": {
+    "language": 23,
+    "vision": 4
+  },
+  "generated_tokens": 12,
+  "input_fingerprints": {
+    "prefix4": "7bc2d951d3b23a16c5be64fcf977c1a4cd02bdab6dc4fb9c0aef2f6df24d6b11",
+    "question4_subject": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931"
+  },
+  "frame_ids": [
+    0,
+    30,
+    60,
+    90
+  ],
+  "timestamps": [
+    0.0,
+    1.001,
+    2.002,
+    3.003
+  ],
+  "question_cutoff": {
+    "frame_id": 90,
+    "timestamp": 3.003
+  },
+  "semantic_expected_ids_match": true,
+  "wall_seconds_including_load": 5.5679631999992125,
+  "peak_allocated_gib": 3.788623332977295,
+  "peak_reserved_gib": 4.25390625,
+  "resource_precheck": {
+    "gpu_free_bytes": 7443841024,
+    "gpu_total_bytes": 8585216000,
+    "ram_available_bytes": 4213133312
+  }
+}

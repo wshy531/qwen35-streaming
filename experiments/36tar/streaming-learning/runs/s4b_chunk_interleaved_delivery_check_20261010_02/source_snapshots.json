@@ -1,0 +1,12 @@
+{
+  "s4b_chunk_interleaved_preflight_20261010_01": {
+    "module_sha256": "66ced70ccb9543a38fc76b1308a313bc305dbfa813e81cbbaec72559a11ff92d",
+    "plan_sha256": "0a12984ab874495d285a34587eaaa7d6a2ad7c28d7127a63a0cdcecf15d34810",
+    "launcher_sha256": "db9c1d01ab824ce229f52e6abd4f93d55bbd8906de08a5c377d0fb5a94a7932c"
+  },
+  "s4b_chunk_interleaved_gpu_20261010_01": {
+    "module_sha256": "66ced70ccb9543a38fc76b1308a313bc305dbfa813e81cbbaec72559a11ff92d",
+    "plan_sha256": "0a12984ab874495d285a34587eaaa7d6a2ad7c28d7127a63a0cdcecf15d34810",
+    "launcher_sha256": "db9c1d01ab824ce229f52e6abd4f93d55bbd8906de08a5c377d0fb5a94a7932c"
+  }
+}

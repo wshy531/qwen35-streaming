@@ -1,0 +1,16 @@
+{
+  "transformers_version": "5.3.0",
+  "commit": "aad13b87ed59f2afcfaebc985f403301887a35fc",
+  "files": {
+    "modeling_qwen3_5.py": {
+      "source": "https://raw.githubusercontent.com/huggingface/transformers/aad13b87ed59f2afcfaebc985f403301887a35fc/src/transformers/models/qwen3_5/modeling_qwen3_5.py",
+      "upstream_sha256": "0e7410f5251e5c324a5628c5340ee3551f7a6a505ce398569fcc3b5f3ac07f7a",
+      "adapted_sha256_lf": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71"
+    },
+    "configuration_qwen3_5.py": {
+      "source": "https://raw.githubusercontent.com/huggingface/transformers/aad13b87ed59f2afcfaebc985f403301887a35fc/src/transformers/models/qwen3_5/configuration_qwen3_5.py",
+      "upstream_sha256": "2ec132e5ec5610d3c8110c65ed71cb4f49c98c49f1b79ead0ec973cdb949dd61",
+      "adapted_sha256_lf": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565"
+    }
+  }
+}

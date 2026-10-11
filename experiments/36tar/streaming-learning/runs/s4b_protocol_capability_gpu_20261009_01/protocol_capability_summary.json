@@ -1,0 +1,583 @@
+{
+  "budget": {
+    "cases": 8,
+    "max_tokens": 256,
+    "max_new_tokens_per_answer": 8,
+    "generated_tokens_max": 64,
+    "language_forwards_max": 72,
+    "vision_encodings": 8,
+    "model_loads": 1,
+    "wall_seconds": 600
+  },
+  "cases": [
+    {
+      "id": "bf16_sdpa_frames2_subject",
+      "mode": "bf16_sdpa",
+      "frames": 2,
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "question_kind": "subject",
+      "input_fingerprint": "db9c4773c4aa85a42d9063bf014efc6cf801ce82eb701e9e3c66ec4b90b66393",
+      "generated_ids": [
+        27280,
+        248046
+      ],
+      "answer": "CAT",
+      "stopped_on_registered_eos": true,
+      "forward_counts": {
+        "language": 2,
+        "vision": 1
+      },
+      "generation_seconds": 0.6209258999988378,
+      "top5_first_token": [
+        {
+          "id": 27280,
+          "decoded": "CAT",
+          "probability": 0.4969939589500427
+        },
+        {
+          "id": 72141,
+          "decoded": "HAND",
+          "probability": 0.2660216987133026
+        },
+        {
+          "id": 29280,
+          "decoded": "OTHER",
+          "probability": 0.20717790722846985
+        },
+        {
+          "id": 34,
+          "decoded": "C",
+          "probability": 0.007089237682521343
+        },
+        {
+          "id": 39,
+          "decoded": "H",
+          "probability": 0.0037945955991744995
+        }
+      ],
+      "option_first_token_probabilities": {
+        "CAT": {
+          "token_ids": [
+            27280
+          ],
+          "first_token_probability": 0.4969939589500427
+        },
+        "HANDS": {
+          "token_ids": [
+            72141,
+            50
+          ],
+          "first_token_probability": 0.2660216987133026
+        },
+        "OTHER": {
+          "token_ids": [
+            29280
+          ],
+          "first_token_probability": 0.20717790722846985
+        }
+      },
+      "scope": "first-token probabilities only, not full option likelihoods"
+    },
+    {
+      "id": "bf16_sdpa_frames2_hands_count",
+      "mode": "bf16_sdpa",
+      "frames": 2,
+      "question": "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.",
+      "question_kind": "hands_count",
+      "input_fingerprint": "dc0328d61f41d5e4318cf8a81c0b809f2bf115b432b181eb22d569813000c31c",
+      "generated_ids": [
+        5059,
+        248046
+      ],
+      "answer": "ONE",
+      "stopped_on_registered_eos": true,
+      "forward_counts": {
+        "language": 2,
+        "vision": 1
+      },
+      "generation_seconds": 0.31001610000021174,
+      "top5_first_token": [
+        {
+          "id": 5059,
+          "decoded": "ONE",
+          "probability": 0.6117412447929382
+        },
+        {
+          "id": 29280,
+          "decoded": "OTHER",
+          "probability": 0.1986033022403717
+        },
+        {
+          "id": 51,
+          "decoded": "T",
+          "probability": 0.10630469024181366
+        },
+        {
+          "id": 3496,
+          "decoded": "TH",
+          "probability": 0.014386775903403759
+        },
+        {
+          "id": 248046,
+          "decoded": "<|im_end|>",
+          "probability": 0.011204431764781475
+        }
+      ],
+      "option_first_token_probabilities": {
+        "ONE": {
+          "token_ids": [
+            5059
+          ],
+          "first_token_probability": 0.6117412447929382
+        },
+        "TWO": {
+          "token_ids": [
+            51,
+            21977
+          ],
+          "first_token_probability": 0.10630469024181366
+        },
+        "OTHER": {
+          "token_ids": [
+            29280
+          ],
+          "first_token_probability": 0.1986033022403717
+        }
+      },
+      "scope": "first-token probabilities only, not full option likelihoods"
+    },
+    {
+      "id": "bf16_sdpa_frames4_subject",
+      "mode": "bf16_sdpa",
+      "frames": 4,
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "question_kind": "subject",
+      "input_fingerprint": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931",
+      "generated_ids": [
+        72141,
+        50,
+        248046
+      ],
+      "answer": "HANDS",
+      "stopped_on_registered_eos": true,
+      "forward_counts": {
+        "language": 3,
+        "vision": 1
+      },
+      "generation_seconds": 0.23016330000245944,
+      "top5_first_token": [
+        {
+          "id": 72141,
+          "decoded": "HAND",
+          "probability": 0.686581552028656
+        },
+        {
+          "id": 29280,
+          "decoded": "OTHER",
+          "probability": 0.17359499633312225
+        },
+        {
+          "id": 27280,
+          "decoded": "CAT",
+          "probability": 0.10529069602489471
+        },
+        {
+          "id": 39,
+          "decoded": "H",
+          "probability": 0.009793559089303017
+        },
+        {
+          "id": 34,
+          "decoded": "C",
+          "probability": 0.005242114886641502
+        }
+      ],
+      "option_first_token_probabilities": {
+        "CAT": {
+          "token_ids": [
+            27280
+          ],
+          "first_token_probability": 0.10529069602489471
+        },
+        "HANDS": {
+          "token_ids": [
+            72141,
+            50
+          ],
+          "first_token_probability": 0.686581552028656
+        },
+        "OTHER": {
+          "token_ids": [
+            29280
+          ],
+          "first_token_probability": 0.17359499633312225
+        }
+      },
+      "scope": "first-token probabilities only, not full option likelihoods"
+    },
+    {
+      "id": "bf16_sdpa_frames4_hands_count",
+      "mode": "bf16_sdpa",
+      "frames": 4,
+      "question": "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.",
+      "question_kind": "hands_count",
+      "input_fingerprint": "8c7a27137361de5972cf7e8347b4c2289ee369f44e056abdefd8141118649834",
+      "generated_ids": [
+        5059,
+        248046
+      ],
+      "answer": "ONE",
+      "stopped_on_registered_eos": true,
+      "forward_counts": {
+        "language": 2,
+        "vision": 1
+      },
+      "generation_seconds": 0.1911294999990787,
+      "top5_first_token": [
+        {
+          "id": 5059,
+          "decoded": "ONE",
+          "probability": 0.49053531885147095
+        },
+        {
+          "id": 51,
+          "decoded": "T",
+          "probability": 0.38202929496765137
+        },
+        {
+          "id": 29280,
+          "decoded": "OTHER",
+          "probability": 0.06638673692941666
+        },
+        {
+          "id": 248046,
+          "decoded": "<|im_end|>",
+          "probability": 0.011536285281181335
+        },
+        {
+          "id": 3496,
+          "decoded": "TH",
+          "probability": 0.010180735029280186
+        }
+      ],
+      "option_first_token_probabilities": {
+        "ONE": {
+          "token_ids": [
+            5059
+          ],
+          "first_token_probability": 0.49053531885147095
+        },
+        "TWO": {
+          "token_ids": [
+            51,
+            21977
+          ],
+          "first_token_probability": 0.38202929496765137
+        },
+        "OTHER": {
+          "token_ids": [
+            29280
+          ],
+          "first_token_probability": 0.06638673692941666
+        }
+      },
+      "scope": "first-token probabilities only, not full option likelihoods"
+    },
+    {
+      "id": "fp32_ieee_math_frames2_subject",
+      "mode": "fp32_ieee_math",
+      "frames": 2,
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "question_kind": "subject",
+      "input_fingerprint": "db9c4773c4aa85a42d9063bf014efc6cf801ce82eb701e9e3c66ec4b90b66393",
+      "generated_ids": [
+        27280,
+        248046
+      ],
+      "answer": "CAT",
+      "stopped_on_registered_eos": true,
+      "forward_counts": {
+        "language": 2,
+        "vision": 1
+      },
+      "generation_seconds": 0.19060979999994743,
+      "top5_first_token": [
+        {
+          "id": 27280,
+          "decoded": "CAT",
+          "probability": 0.5024518370628357
+        },
+        {
+          "id": 72141,
+          "decoded": "HAND",
+          "probability": 0.2643168568611145
+        },
+        {
+          "id": 29280,
+          "decoded": "OTHER",
+          "probability": 0.2052890956401825
+        },
+        {
+          "id": 34,
+          "decoded": "C",
+          "probability": 0.006058593280613422
+        },
+        {
+          "id": 39,
+          "decoded": "H",
+          "probability": 0.003555581672117114
+        }
+      ],
+      "option_first_token_probabilities": {
+        "CAT": {
+          "token_ids": [
+            27280
+          ],
+          "first_token_probability": 0.5024518370628357
+        },
+        "HANDS": {
+          "token_ids": [
+            72141,
+            50
+          ],
+          "first_token_probability": 0.2643168568611145
+        },
+        "OTHER": {
+          "token_ids": [
+            29280
+          ],
+          "first_token_probability": 0.2052890956401825
+        }
+      },
+      "scope": "first-token probabilities only, not full option likelihoods"
+    },
+    {
+      "id": "fp32_ieee_math_frames2_hands_count",
+      "mode": "fp32_ieee_math",
+      "frames": 2,
+      "question": "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.",
+      "question_kind": "hands_count",
+      "input_fingerprint": "dc0328d61f41d5e4318cf8a81c0b809f2bf115b432b181eb22d569813000c31c",
+      "generated_ids": [
+        5059,
+        248046
+      ],
+      "answer": "ONE",
+      "stopped_on_registered_eos": true,
+      "forward_counts": {
+        "language": 2,
+        "vision": 1
+      },
+      "generation_seconds": 0.20707649999894784,
+      "top5_first_token": [
+        {
+          "id": 5059,
+          "decoded": "ONE",
+          "probability": 0.6174618601799011
+        },
+        {
+          "id": 29280,
+          "decoded": "OTHER",
+          "probability": 0.19573882222175598
+        },
+        {
+          "id": 51,
+          "decoded": "T",
+          "probability": 0.11074261367321014
+        },
+        {
+          "id": 3496,
+          "decoded": "TH",
+          "probability": 0.013932975940406322
+        },
+        {
+          "id": 248046,
+          "decoded": "<|im_end|>",
+          "probability": 0.010847162455320358
+        }
+      ],
+      "option_first_token_probabilities": {
+        "ONE": {
+          "token_ids": [
+            5059
+          ],
+          "first_token_probability": 0.6174618601799011
+        },
+        "TWO": {
+          "token_ids": [
+            51,
+            21977
+          ],
+          "first_token_probability": 0.11074261367321014
+        },
+        "OTHER": {
+          "token_ids": [
+            29280
+          ],
+          "first_token_probability": 0.19573882222175598
+        }
+      },
+      "scope": "first-token probabilities only, not full option likelihoods"
+    },
+    {
+      "id": "fp32_ieee_math_frames4_subject",
+      "mode": "fp32_ieee_math",
+      "frames": 4,
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "question_kind": "subject",
+      "input_fingerprint": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931",
+      "generated_ids": [
+        72141,
+        50,
+        248046
+      ],
+      "answer": "HANDS",
+      "stopped_on_registered_eos": true,
+      "forward_counts": {
+        "language": 3,
+        "vision": 1
+      },
+      "generation_seconds": 0.22724430000016582,
+      "top5_first_token": [
+        {
+          "id": 72141,
+          "decoded": "HAND",
+          "probability": 0.6771174669265747
+        },
+        {
+          "id": 29280,
+          "decoded": "OTHER",
+          "probability": 0.1636044830083847
+        },
+        {
+          "id": 27280,
+          "decoded": "CAT",
+          "probability": 0.12431330233812332
+        },
+        {
+          "id": 39,
+          "decoded": "H",
+          "probability": 0.009995824657380581
+        },
+        {
+          "id": 34,
+          "decoded": "C",
+          "probability": 0.005256119184195995
+        }
+      ],
+      "option_first_token_probabilities": {
+        "CAT": {
+          "token_ids": [
+            27280
+          ],
+          "first_token_probability": 0.12431330233812332
+        },
+        "HANDS": {
+          "token_ids": [
+            72141,
+            50
+          ],
+          "first_token_probability": 0.6771174669265747
+        },
+        "OTHER": {
+          "token_ids": [
+            29280
+          ],
+          "first_token_probability": 0.1636044830083847
+        }
+      },
+      "scope": "first-token probabilities only, not full option likelihoods"
+    },
+    {
+      "id": "fp32_ieee_math_frames4_hands_count",
+      "mode": "fp32_ieee_math",
+      "frames": 4,
+      "question": "How many hands are visible in the LAST frame? Answer only ONE, TWO, or OTHER.",
+      "question_kind": "hands_count",
+      "input_fingerprint": "8c7a27137361de5972cf7e8347b4c2289ee369f44e056abdefd8141118649834",
+      "generated_ids": [
+        5059,
+        248046
+      ],
+      "answer": "ONE",
+      "stopped_on_registered_eos": true,
+      "forward_counts": {
+        "language": 2,
+        "vision": 1
+      },
+      "generation_seconds": 0.19871490000150516,
+      "top5_first_token": [
+        {
+          "id": 5059,
+          "decoded": "ONE",
+          "probability": 0.46335190534591675
+        },
+        {
+          "id": 51,
+          "decoded": "T",
+          "probability": 0.40028315782546997
+        },
+        {
+          "id": 29280,
+          "decoded": "OTHER",
+          "probability": 0.07307656109333038
+        },
+        {
+          "id": 248046,
+          "decoded": "<|im_end|>",
+          "probability": 0.012731858529150486
+        },
+        {
+          "id": 3496,
+          "decoded": "TH",
+          "probability": 0.01082372572273016
+        }
+      ],
+      "option_first_token_probabilities": {
+        "ONE": {
+          "token_ids": [
+            5059
+          ],
+          "first_token_probability": 0.46335190534591675
+        },
+        "TWO": {
+          "token_ids": [
+            51,
+            21977
+          ],
+          "first_token_probability": 0.40028315782546997
+        },
+        "OTHER": {
+          "token_ids": [
+            29280
+          ],
+          "first_token_probability": 0.07307656109333038
+        }
+      },
+      "scope": "first-token probabilities only, not full option likelihoods"
+    }
+  ],
+  "model_reference": "E:\\VIT Model\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py",
+  "scope": "fixed original-model same-input semantic diagnosis; no training or online-state acceptance",
+  "resource_precheck": {
+    "gpu_free_bytes": 7443841024,
+    "gpu_total_bytes": 8585216000,
+    "ram_available_bytes": 5297008640
+  },
+  "bf16_sdpa_peak_memory": {
+    "allocated_gib": 1.673215389251709,
+    "reserved_gib": 1.75390625
+  },
+  "fp32_ieee_math_peak_memory": {
+    "allocated_gib": 3.2450051307678223,
+    "reserved_gib": 3.580078125
+  },
+  "actual_forwards": {
+    "language": 18,
+    "vision": 8
+  },
+  "generated_tokens": 18,
+  "wall_seconds_including_load": 5.454097199999524,
+  "all_registered_cases_executed": true,
+  "all_input_fingerprints_verified": true
+}

@@ -1,0 +1,18 @@
+{
+  "original_source_files_unchanged": 15,
+  "cpu_contracts_passed": true,
+  "gpu_predictions_exact": 12,
+  "gpu_question_count": 12,
+  "same_prefix_model_inputs_match": true,
+  "all_queries_start_with_empty_past": true,
+  "visual_pixels_verified_against_model_input_hashes": true,
+  "visual_preview_passed": true,
+  "visual_widths": [
+    736,
+    320
+  ],
+  "changed_window_guard_rejected_before_run_creation": true,
+  "cluster_jobs": 0,
+  "training_runs": 0,
+  "github_uploaded": false
+}
