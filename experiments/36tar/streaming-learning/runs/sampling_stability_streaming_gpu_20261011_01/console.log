@@ -1,0 +1,14 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 16953.85it/s]
+{'arm': 'streaming', 'id': 'hands_0_p0', 'answer': 'The hands are washing their hands with soap and water.'}
+{'arm': 'streaming', 'id': 'hands_0_p05', 'answer': 'The hands are washing their hands under a faucet.'}
+{'arm': 'streaming', 'id': 'hands_4_p0', 'answer': 'The hands are washing their hands in a sink.'}
+{'arm': 'streaming', 'id': 'hands_4_p05', 'answer': 'The hands are washing their hands under a running tap.'}
+{'arm': 'streaming', 'id': 'hands_8_p0', 'answer': 'The hands are washing their hands in a sink.'}
+{'arm': 'streaming', 'id': 'hands_8_p05', 'answer': 'The hands are washing their hands in a sink.'}
+{'arm': 'streaming', 'id': 'cat_0_p0', 'answer': 'The cat is lying on its back on the ground.'}
+{'arm': 'streaming', 'id': 'cat_0_p05', 'answer': 'The cat is rolling around on the ground.'}
+{'arm': 'streaming', 'id': 'cat_2_p0', 'answer': 'The cat is playing with a ball on the ground.'}
+{'arm': 'streaming', 'id': 'cat_2_p05', 'answer': 'The cat is lying on its back on the ground.'}
+{'arm': 'streaming', 'id': 'cat_4_p0', 'answer': 'The cat is lying on the ground.'}
+{'arm': 'streaming', 'id': 'cat_4_p05', 'answer': 'The cat is lying on its back on the ground.'}

@@ -1,0 +1,492 @@
+{
+  "cases": [
+    {
+      "id": "hands_0_p0",
+      "video": "clean_hands",
+      "start": 0,
+      "phase": 0,
+      "original_answer": "The hands are washing their hands with soap and water.",
+      "streaming_answer": "The hands are washing their hands with soap and water.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        0.0,
+        1.001,
+        2.002,
+        3.003
+      ],
+      "rendered_pair_times": [
+        "0.5",
+        "2.5"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "washing-hands direction supported"
+    },
+    {
+      "id": "hands_0_p05",
+      "video": "clean_hands",
+      "start": 0,
+      "phase": 0.5,
+      "original_answer": "The hands are washing their hands under a faucet.",
+      "streaming_answer": "The hands are washing their hands under a faucet.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        0.501,
+        1.502,
+        2.503,
+        3.504
+      ],
+      "rendered_pair_times": [
+        "1.0",
+        "3.0"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "washing-hands direction supported"
+    },
+    {
+      "id": "hands_4_p0",
+      "video": "clean_hands",
+      "start": 4,
+      "phase": 0,
+      "original_answer": "The hands are washing their hands in a sink.",
+      "streaming_answer": "The hands are washing their hands in a sink.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        4.004,
+        5.005,
+        6.006,
+        7.007
+      ],
+      "rendered_pair_times": [
+        "4.5",
+        "6.5"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "washing-hands direction supported"
+    },
+    {
+      "id": "hands_4_p05",
+      "video": "clean_hands",
+      "start": 4,
+      "phase": 0.5,
+      "original_answer": "The hands are washing their hands under a running tap.",
+      "streaming_answer": "The hands are washing their hands under a running tap.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        4.505,
+        5.506,
+        6.507,
+        7.508
+      ],
+      "rendered_pair_times": [
+        "5.0",
+        "7.0"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "washing-hands direction supported"
+    },
+    {
+      "id": "hands_8_p0",
+      "video": "clean_hands",
+      "start": 8,
+      "phase": 0,
+      "original_answer": "The hands are washing their hands in a sink.",
+      "streaming_answer": "The hands are washing their hands in a sink.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        8.008,
+        9.009,
+        10.01,
+        11.011
+      ],
+      "rendered_pair_times": [
+        "8.5",
+        "10.5"
+      ],
+      "input_tokens": 131,
+      "input_fingerprint_equal": true,
+      "manual_review": "washing-hands direction supported"
+    },
+    {
+      "id": "hands_8_p05",
+      "video": "clean_hands",
+      "start": 8,
+      "phase": 0.5,
+      "original_answer": "The hands are washing their hands in a sink.",
+      "streaming_answer": "The hands are washing their hands in a sink.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        8.509,
+        9.51,
+        10.511,
+        11.512
+      ],
+      "rendered_pair_times": [
+        "9.0",
+        "11.0"
+      ],
+      "input_tokens": 131,
+      "input_fingerprint_equal": true,
+      "manual_review": "washing-hands direction supported"
+    },
+    {
+      "id": "cat_0_p0",
+      "video": "cat_play",
+      "start": 0,
+      "phase": 0,
+      "original_answer": "The cat is lying on its back on the ground.",
+      "streaming_answer": "The cat is lying on its back on the ground.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        0.0,
+        0.9999999999999999,
+        2.0,
+        3.0
+      ],
+      "rendered_pair_times": [
+        "0.5",
+        "2.5"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "ground posture/rolling visible; no fine-detail score"
+    },
+    {
+      "id": "cat_0_p05",
+      "video": "cat_play",
+      "start": 0,
+      "phase": 0.5,
+      "original_answer": "The cat is rolling around on the ground.",
+      "streaming_answer": "The cat is rolling around on the ground.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        0.5,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "rendered_pair_times": [
+        "1.0",
+        "3.0"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "ground posture/rolling visible; no fine-detail score"
+    },
+    {
+      "id": "cat_2_p0",
+      "video": "cat_play",
+      "start": 2,
+      "phase": 0,
+      "original_answer": "The cat is playing with a ball on the ground.",
+      "streaming_answer": "The cat is playing with a ball on the ground.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "rendered_pair_times": [
+        "2.5",
+        "4.5"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "ball detail not sufficiently verified"
+    },
+    {
+      "id": "cat_2_p05",
+      "video": "cat_play",
+      "start": 2,
+      "phase": 0.5,
+      "original_answer": "The cat is lying on its back on the ground.",
+      "streaming_answer": "The cat is lying on its back on the ground.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        2.5,
+        3.5,
+        4.5,
+        5.5
+      ],
+      "rendered_pair_times": [
+        "3.0",
+        "5.0"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "ground posture/rolling visible; no fine-detail score"
+    },
+    {
+      "id": "cat_4_p0",
+      "video": "cat_play",
+      "start": 4,
+      "phase": 0,
+      "original_answer": "The cat is lying on the ground.",
+      "streaming_answer": "The cat is lying on the ground.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        4.0,
+        5.0,
+        6.0,
+        7.0
+      ],
+      "rendered_pair_times": [
+        "4.5",
+        "6.5"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "ground posture/rolling visible; no fine-detail score"
+    },
+    {
+      "id": "cat_4_p05",
+      "video": "cat_play",
+      "start": 4,
+      "phase": 0.5,
+      "original_answer": "The cat is lying on its back on the ground.",
+      "streaming_answer": "The cat is lying on its back on the ground.",
+      "generated_ids_equal": true,
+      "source_pts": [
+        4.5,
+        5.5,
+        6.5,
+        7.5
+      ],
+      "rendered_pair_times": [
+        "5.0",
+        "7.0"
+      ],
+      "input_tokens": 130,
+      "input_fingerprint_equal": true,
+      "manual_review": "ground posture/rolling visible; no fine-detail score"
+    }
+  ],
+  "phase_pairs": [
+    {
+      "video": "clean_hands",
+      "start": 0,
+      "phase_case_ids": [
+        "hands_0_p0",
+        "hands_0_p05"
+      ],
+      "answers": [
+        "The hands are washing their hands with soap and water.",
+        "The hands are washing their hands under a faucet."
+      ],
+      "answer_text_changed": true,
+      "generated_ids_changed": true,
+      "changed_tensor_kinds": [
+        "input_ids",
+        "pixel_values_videos"
+      ],
+      "input_tokens": [
+        130,
+        130
+      ],
+      "source_pts_before_after": [
+        [
+          0.0,
+          1.001,
+          2.002,
+          3.003
+        ],
+        [
+          0.501,
+          1.502,
+          2.503,
+          3.504
+        ]
+      ]
+    },
+    {
+      "video": "clean_hands",
+      "start": 4,
+      "phase_case_ids": [
+        "hands_4_p0",
+        "hands_4_p05"
+      ],
+      "answers": [
+        "The hands are washing their hands in a sink.",
+        "The hands are washing their hands under a running tap."
+      ],
+      "answer_text_changed": true,
+      "generated_ids_changed": true,
+      "changed_tensor_kinds": [
+        "input_ids",
+        "pixel_values_videos"
+      ],
+      "input_tokens": [
+        130,
+        130
+      ],
+      "source_pts_before_after": [
+        [
+          4.004,
+          5.005,
+          6.006,
+          7.007
+        ],
+        [
+          4.505,
+          5.506,
+          6.507,
+          7.508
+        ]
+      ]
+    },
+    {
+      "video": "clean_hands",
+      "start": 8,
+      "phase_case_ids": [
+        "hands_8_p0",
+        "hands_8_p05"
+      ],
+      "answers": [
+        "The hands are washing their hands in a sink.",
+        "The hands are washing their hands in a sink."
+      ],
+      "answer_text_changed": false,
+      "generated_ids_changed": false,
+      "changed_tensor_kinds": [
+        "input_ids",
+        "pixel_values_videos"
+      ],
+      "input_tokens": [
+        131,
+        131
+      ],
+      "source_pts_before_after": [
+        [
+          8.008,
+          9.009,
+          10.01,
+          11.011
+        ],
+        [
+          8.509,
+          9.51,
+          10.511,
+          11.512
+        ]
+      ]
+    },
+    {
+      "video": "cat_play",
+      "start": 0,
+      "phase_case_ids": [
+        "cat_0_p0",
+        "cat_0_p05"
+      ],
+      "answers": [
+        "The cat is lying on its back on the ground.",
+        "The cat is rolling around on the ground."
+      ],
+      "answer_text_changed": true,
+      "generated_ids_changed": true,
+      "changed_tensor_kinds": [
+        "input_ids",
+        "pixel_values_videos"
+      ],
+      "input_tokens": [
+        130,
+        130
+      ],
+      "source_pts_before_after": [
+        [
+          0.0,
+          0.9999999999999999,
+          2.0,
+          3.0
+        ],
+        [
+          0.5,
+          1.5,
+          2.5,
+          3.5
+        ]
+      ]
+    },
+    {
+      "video": "cat_play",
+      "start": 2,
+      "phase_case_ids": [
+        "cat_2_p0",
+        "cat_2_p05"
+      ],
+      "answers": [
+        "The cat is playing with a ball on the ground.",
+        "The cat is lying on its back on the ground."
+      ],
+      "answer_text_changed": true,
+      "generated_ids_changed": true,
+      "changed_tensor_kinds": [
+        "input_ids",
+        "pixel_values_videos"
+      ],
+      "input_tokens": [
+        130,
+        130
+      ],
+      "source_pts_before_after": [
+        [
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        [
+          2.5,
+          3.5,
+          4.5,
+          5.5
+        ]
+      ]
+    },
+    {
+      "video": "cat_play",
+      "start": 4,
+      "phase_case_ids": [
+        "cat_4_p0",
+        "cat_4_p05"
+      ],
+      "answers": [
+        "The cat is lying on the ground.",
+        "The cat is lying on its back on the ground."
+      ],
+      "answer_text_changed": true,
+      "generated_ids_changed": true,
+      "changed_tensor_kinds": [
+        "input_ids",
+        "pixel_values_videos"
+      ],
+      "input_tokens": [
+        130,
+        130
+      ],
+      "source_pts_before_after": [
+        [
+          4.0,
+          5.0,
+          6.0,
+          7.0
+        ],
+        [
+          4.5,
+          5.5,
+          6.5,
+          7.5
+        ]
+      ]
+    }
+  ],
+  "same_generated_sequences": 12,
+  "phase_pairs_text_changed": 5,
+  "phase_pairs_total": 6,
+  "washing_direction_supported_cases": 6,
+  "cat_ball_detail_unverified_cases": 1,
+  "scope": "Two videos, six fixed real sampling-phase pairs. Not general accuracy or isolated pixel/time causality."
+}

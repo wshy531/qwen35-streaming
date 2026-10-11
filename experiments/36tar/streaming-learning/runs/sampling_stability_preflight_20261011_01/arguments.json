@@ -1,0 +1,8 @@
+{
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "video_dir": "E:\\VIT Model\\datasets\\natural_commons_v1",
+  "wall_seconds": 240,
+  "allow_branch": [],
+  "stage": "preflight",
+  "arm": "both"
+}

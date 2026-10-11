@@ -1,0 +1,17 @@
+{
+  "answer_tokens": 16,
+  "cases": [
+    {"id":"hands_0_p0","video":"clean_hands","start":0,"phase":0,"question":"What are the hands doing?"},
+    {"id":"hands_0_p05","video":"clean_hands","start":0,"phase":0.5,"question":"What are the hands doing?"},
+    {"id":"hands_4_p0","video":"clean_hands","start":4,"phase":0,"question":"What are the hands doing?"},
+    {"id":"hands_4_p05","video":"clean_hands","start":4,"phase":0.5,"question":"What are the hands doing?"},
+    {"id":"hands_8_p0","video":"clean_hands","start":8,"phase":0,"question":"What are the hands doing?"},
+    {"id":"hands_8_p05","video":"clean_hands","start":8,"phase":0.5,"question":"What are the hands doing?"},
+    {"id":"cat_0_p0","video":"cat_play","start":0,"phase":0,"question":"What is the cat doing?"},
+    {"id":"cat_0_p05","video":"cat_play","start":0,"phase":0.5,"question":"What is the cat doing?"},
+    {"id":"cat_2_p0","video":"cat_play","start":2,"phase":0,"question":"What is the cat doing?"},
+    {"id":"cat_2_p05","video":"cat_play","start":2,"phase":0.5,"question":"What is the cat doing?"},
+    {"id":"cat_4_p0","video":"cat_play","start":4,"phase":0,"question":"What is the cat doing?"},
+    {"id":"cat_4_p05","video":"cat_play","start":4,"phase":0.5,"question":"What is the cat doing?"}
+  ]
+}

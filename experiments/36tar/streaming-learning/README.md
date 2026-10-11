@@ -3,7 +3,7 @@
 这是36tar的独立实验工程，本轮开发分支为 `36tar/general-video-demo`。外层仓库原有文件保持原样；本目录保留 `code/`、`scripts/`、`runs/` 布局，方便双方阅读、复现与决定下一项改造。权重、真实视频、虚拟环境和凭据不入库。
 
 [原PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已由协作方合并；本轮修改通过新的个人分支和PR审阅，main不直推。
-[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新116项CPU通过；新增12例洗脸误答图像/时间诊断两臂生成一致，单图变化有影响、所试时间处理未修复原错误。此前14例咖啡/洗脸及先后错误继续保留。未合并。
+[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新124项CPU通过；第五段12例真实采样起点对照已完成，洗手方向稳定、猫细节谨慎复核；新增12例洗脸误答图像/时间诊断两臂生成一致，单图变化有影响、所试时间处理未修复原错误。此前14例咖啡/洗脸及先后错误继续保留。未合并。
 
 先读 [实验总纲](实验总纲.md)，再读 [架构设计入口](架构设计.md)。总纲是唯一进度主记录；其余方案、报告和历史快照不替代最新状态。旧记录中的本机绝对路径是实验来源，不是新机器上的运行路径。
 
@@ -16,6 +16,7 @@
 | 墙钟播放、单槽丢帧与时间观测 | [预登记预算](墙钟播放与丢帧验收方案.md) / [正常和过载结果](墙钟播放与丢帧结果.md) / [播放实现](code/qwen35-streaming-s4/streaming/playback.py) |
 | 两素材14例同输入原/流式诊断 | [方案与预算](多视频同输入公平对照方案.md) / [逐例真实答案](多视频同输入公平对照结果.md) / [独立输入核验](code/qwen35-streaming-s4/streaming/fair_inputs.py) |
 | 四帧洗脸误答：图片与时间文字诊断 | [方案](洗脸误答单因素定位方案.md) / [全部真实答案](洗脸误答单因素定位结果.md) / [固定12例](configs/action_ablation_cases.json) |
+| 两素材整秒/半秒真实采样对照 | [预登记](多视频采样稳定性方案.md) / [全部真实答案](多视频采样稳定性结果.md) / [12例配置](configs/sampling_stability_cases.json) |
 | 合作仓库结构与计划解释 | [架构解读](合作仓库架构与计划解读.md) |
 | 机制与未解决问题 | [通俗复盘](流式视频架构学习复盘与未解决问题.md) |
 | 当前语言计算块验证 | [32/64交错、多长度结果](语言计算块交错扩展结果.md) |
@@ -72,6 +73,22 @@ $clock = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
 
 正常实测12个样本全部接入，3次回答滞后0.551–0.633秒。另加 `--consumer-delay-seconds 1.5` 可独立预检和运行显式过载条件：本轮12样本中8接入、4丢弃，2次回答滞后2.370–3.568秒。这个参数是压力注入，不能据此估算正常速度；过载末答错误地说成洗脸。两轮allocated峰值均约3.266GiB，槽内待处理画面最多144KiB；后者不是进程总内存。见 [完整结果及边界](墙钟播放与丢帧结果.md)。
 
+## 两素材采样起点稳定性
+
+固定洗手0/4/8秒、猫0/2/4秒，每一起点比较phase0/0.5，共12个四真实帧输入。原模型与流式独立视觉，12例生成IDs一致；洗手6例方向稳定，猫姿态/动作文字随画面变化，玩球细节未充分证实。6对有5对文字不同，不计作失败率；旧洗脸反例保留，默认采样/时间/状态核心不改。124CPU/8新接口/12微型输入通过，流式12QA主状态逐位不变；峰值allocated约3.266GiB，仍无长期稳定或摄像头证明。
+
+在本目录用新run_id复现，两GPU命令顺序执行：
+
+```powershell
+$sampling = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
+              '--video-dir', 'E:/VIT Model/datasets/natural_commons_v1', '--wall-seconds', '240')
+.venv/Scripts/python.exe scripts/run_sampling_stability.py --stage preflight --arm both @sampling --out runs/my_sampling_cpu_01
+.venv/Scripts/python.exe scripts/run_sampling_stability.py --stage gpu --arm original @sampling --preflight runs/my_sampling_cpu_01 --out runs/my_sampling_original_01
+.venv/Scripts/python.exe scripts/run_sampling_stability.py --stage gpu --arm streaming @sampling --preflight runs/my_sampling_cpu_01 --out runs/my_sampling_streaming_01
+```
+
+每臂1载入/12答/最多192生成/240秒，原12视觉204语言、流式24视觉240语言，3GiB RAM/5.5GiB显存门禁。目标时间之后第一真实帧、取第四帧即止；不重复补帧或伪造时间。改变源码/素材/参数需新CPUproof。详见[逐例结果](多视频采样稳定性结果.md)和[机器比较](runs/sampling_stability_delivery_20261011_01/comparison.json)。
+
 ## 固定四帧的洗脸误答定位
 
 最新12例在原未改模型与流式臂重新运行，所有生成IDs相同。稀疏[7,8,10,11]画面仍误答洗脸；保持时间文字/位置不变，只换第1图7→8或第2图8→9后，两边均回答洗手/揉皂。稀疏画面不变的6个时间标签干预仍洗脸；归零/均匀标签只改变部分措辞，不作为修复。四格图像×时间交叉支持本固定例对图像组合敏感，不能推广成全部动作能力或内部机制结论。
@@ -120,7 +137,7 @@ python -m venv .venv
 .venv/Scripts/python.exe -m pip install -r code/qwen35-streaming-s4/requirements.txt
 .venv/Scripts/python.exe -m pip install av==16.1.0 psutil==7.2.2
 Set-Location code/qwen35-streaming-s4
-../../.venv/Scripts/python.exe -m unittest tests.test_local_model tests.test_mixed_state tests.test_recurrent_reference tests.test_stream_window tests.test_stream_session tests.test_action_inputs -v
+../../.venv/Scripts/python.exe -m unittest tests.test_local_model tests.test_mixed_state tests.test_recurrent_reference tests.test_stream_window tests.test_stream_session tests.test_action_inputs tests.test_sampling_inputs -v
 ```
 
 从 `code/qwen35-streaming-s4` 到本目录环境的正确相对路径是 `../../.venv`。Linux替换为 `../../.venv/bin/python`。上述测试使用随机微型参数、合成画面，不下载官方权重，也不证明视频理解能力。完整测试集中的online/demo测试另外需要 `models/Qwen3.5-0.8B` 下的官方处理器资产。
@@ -140,4 +157,4 @@ Set-Location code/qwen35-streaming-s4
 
 归档的proof中含旧资产路径、代码SHA和输入指纹，**不能直接用作新机器/新源码的GPU预检**。先产生新的CPU证明，保留成功和失败输出；Git或不同操作系统若改变换行字节，也应重新冻结源码证明。`UPLOAD_SOURCE_MANIFEST.json`记录此次导出内容的原始SHA；历史source_tree/provenance表示各次运行时的版本。
 
-接续优先级由最新总纲决定：多素材相邻帧与采样稳定性 → 更长墙钟输入/全程资源及摄像头 → BF16、32/64和长期状态。墙钟与单槽丢帧已有有限证据，模型能力错误仍需定位。合并通过PR审阅，不直接推送main。
+接续优先级由最新总纲决定：更长墙钟输入/全程资源与reset记忆边界 → 摄像头 → BF16、32/64和长期状态。墙钟与单槽丢帧已有有限证据，模型能力错误仍需定位。合并通过PR审阅，不直接推送main。

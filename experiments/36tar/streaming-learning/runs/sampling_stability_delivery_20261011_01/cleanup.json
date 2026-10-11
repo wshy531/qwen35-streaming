@@ -1,0 +1,27 @@
+{
+  "local_review_image_kept_only_in_design_run": true,
+  "scope": "Only four current stage tmp directories, old evidence and all assets unchanged",
+  "removed_tmp_directories": [
+    {
+      "path": "E:\\VIT Model\\runs\\sampling_stability_cpu_20261011_01\\tmp",
+      "bytes": 0,
+      "files": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\sampling_stability_preflight_20261011_01\\tmp",
+      "bytes": 0,
+      "files": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\sampling_stability_original_gpu_20261011_01\\tmp",
+      "bytes": 0,
+      "files": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\sampling_stability_streaming_gpu_20261011_01\\tmp",
+      "bytes": 0,
+      "files": 0
+    }
+  ],
+  "inference_children_finished": true
+}
