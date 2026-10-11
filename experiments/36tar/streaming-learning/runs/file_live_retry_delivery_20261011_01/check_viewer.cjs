@@ -1,0 +1,14 @@
+const fs=require('fs'),vm=require('vm');
+const root='E:/VIT Model/runs/';
+const html=fs.readFileSync(root+'file_live_gpu_20261011_02/viewer.html','utf8');
+const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(x=>x[1]);
+const elements={};
+const c={window:{},document:{getElementById(id){return elements[id]||={children:[],replaceChildren(){this.children=[]},append(x){this.children.push(x)}}},createElement(){return {}}}};
+for(const script of scripts)vm.runInNewContext(script,c,{timeout:1000});
+for(const label of ['模型已收到：9 帧','重置：1 次','本次运行已结束'])if(!elements.status.textContent.includes(label))throw Error(label);
+if(!elements.scope.textContent.includes('真实权重 GPU')||!elements.scope.textContent.includes('原视频PTS'))throw Error('Wrong scope');
+if(elements.answers.children.length!==2)throw Error('Wrong answer count');
+if(!elements.frame.src.startsWith('data:image/jpeg;base64,'))throw Error('Missing final file frame');
+const result={passed:true,status:elements.status.textContent,scope:elements.scope.textContent,answers:2,method:'Actual file GPU snapshot JS/DOM simulation; no camera or browser visual claim'};
+fs.writeFileSync(root+'file_live_retry_delivery_20261011_01/viewer_check.json',JSON.stringify(result,null,2));
+console.log(JSON.stringify(result));

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "login": "36tar",
+  "push_permission": true,
+  "remote_head": "e1c0c04edf9e605b626c4cda944da2d7459641fa",
+  "main": "2b43f529fefd2830a1d26034ec9c57bdbf6e0470",
+  "draft_pr": "https://github.com/wshy531/qwen35-streaming/pull/2",
+  "read_only": true,
+  "credentials_saved": false
+}

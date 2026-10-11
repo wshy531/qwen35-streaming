@@ -1,5 +1,5 @@
 {
-  "scope": "Current file/live interface; CPU file proof is current, historical runs remain source snapshots; actual camera unopened",
+  "scope": "Current file/live interface verified on CPU and file GPU retry; historical runs remain source snapshots; actual camera unopened",
   "files": {
     "qwen35_local/__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
     "qwen35_local/configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",

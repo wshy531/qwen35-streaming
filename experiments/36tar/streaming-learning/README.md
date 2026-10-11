@@ -88,6 +88,8 @@ $fileLive = @('--input-kind', 'file', '--video', 'E:/VIT Model/datasets/natural_
 .venv/Scripts/python.exe scripts/run_live_demo.py --stage gpu @fileLive --preflight runs/my_file_cpu_01 --ui-port 8765 --out runs/my_file_gpu_01
 ```
 
+本机真实GPU重试已完成：9帧/2问答/1reset/0丢帧，allocated峰值3.270GiB；两答滞后均0.609秒，主状态逐位不变、源指纹与当前CPUproof同一。首次载入前RAM拒绝保留；本次不打开摄像头，不能推断动作准确率或长期自然视频稳定。
+
 素材文件需自行按既有署名说明准备，不在Git包中。每次使用新的输出目录；资源不足会在载入前拒绝。文件模式不需要capture-check，不打开摄像头。
 
 ## 实时摄像头软件入口（本段仅CPU验收）
