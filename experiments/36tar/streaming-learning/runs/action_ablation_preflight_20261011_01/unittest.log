@@ -1,0 +1,13 @@
+test_duplicate_case_ids_rejected (tests.test_action_inputs.ActionInputTests.test_duplicate_case_ids_rejected) ... ok
+test_duplicate_images_have_unique_diagnostic_ids (tests.test_action_inputs.ActionInputTests.test_duplicate_images_have_unique_diagnostic_ids) ... ok
+test_invalid_labels_rejected (tests.test_action_inputs.ActionInputTests.test_invalid_labels_rejected) ... ok
+test_one_pixel_preserves_labels (tests.test_action_inputs.ActionInputTests.test_one_pixel_preserves_labels) ... ok
+test_one_pixel_with_label_change_rejected (tests.test_action_inputs.ActionInputTests.test_one_pixel_with_label_change_rejected) ... ok
+test_one_time_preserves_images (tests.test_action_inputs.ActionInputTests.test_one_time_preserves_images) ... ok
+test_shift_requires_same_gaps (tests.test_action_inputs.ActionInputTests.test_shift_requires_same_gaps) ... ok
+test_undeclared_factor_rejected (tests.test_action_inputs.ActionInputTests.test_undeclared_factor_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.005s
+
+OK

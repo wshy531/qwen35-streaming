@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\action_ablation.py", line 242, in <module>
+    main()
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\action_ablation.py", line 233, in main
+    (preflight if args.stage == 'preflight' else gpu)(args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\action_ablation.py", line 152, in gpu
+    raise RuntimeError('Resource guard refused model load')
+RuntimeError: Resource guard refused model load

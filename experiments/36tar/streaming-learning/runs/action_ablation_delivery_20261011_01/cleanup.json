@@ -1,0 +1,31 @@
+{
+  "removed_tmp_directories": [
+    {
+      "files": 0,
+      "path": "E:\\VIT Model\\runs\\action_ablation_cpu_20261011_01\\tmp",
+      "bytes": 0
+    },
+    {
+      "files": 0,
+      "path": "E:\\VIT Model\\runs\\action_ablation_preflight_20261011_01\\tmp",
+      "bytes": 0
+    },
+    {
+      "files": 0,
+      "path": "E:\\VIT Model\\runs\\action_ablation_original_gpu_20261011_01\\tmp",
+      "bytes": 0
+    },
+    {
+      "files": 0,
+      "path": "E:\\VIT Model\\runs\\action_ablation_original_gpu_20261011_02\\tmp",
+      "bytes": 0
+    },
+    {
+      "files": 0,
+      "path": "E:\\VIT Model\\runs\\action_ablation_streaming_gpu_20261011_01\\tmp",
+      "bytes": 0
+    }
+  ],
+  "inference_children_finished": true,
+  "scope": "Only the five current-stage tmp directories; frozen old runs/source and model/video assets untouched"
+}

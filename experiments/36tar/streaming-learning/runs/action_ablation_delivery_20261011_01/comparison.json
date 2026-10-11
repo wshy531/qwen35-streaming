@@ -1,0 +1,796 @@
+{
+  "cases": [
+    {
+      "id": "sparse_actual",
+      "factor": "actual_anchor",
+      "original_answer": "The hands are washing their faces with soap and water.",
+      "streaming_answer": "The hands are washing their faces with soap and water.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 131,
+      "rendered_pair_times": [
+        "7.5",
+        "10.5"
+      ],
+      "source_pts": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "synthetic_time_labels": false,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": true,
+      "prior_anchor_ids_reproduced_streaming": true
+    },
+    {
+      "id": "dense_actual",
+      "factor": "actual_anchor",
+      "original_answer": "The hands are washing their hands in a sink.",
+      "streaming_answer": "The hands are washing their hands in a sink.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 131,
+      "rendered_pair_times": [
+        "8.5",
+        "10.5"
+      ],
+      "source_pts": [
+        8.008,
+        9.009,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        8.008,
+        9.009,
+        10.01,
+        11.011
+      ],
+      "synthetic_time_labels": false,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": true,
+      "prior_anchor_ids_reproduced_streaming": true
+    },
+    {
+      "id": "pixel_first_to8",
+      "factor": "one_pixel_slot",
+      "original_answer": "The hands are washing their hands in a sink.",
+      "streaming_answer": "The hands are washing their hands in a sink.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 131,
+      "rendered_pair_times": [
+        "7.5",
+        "10.5"
+      ],
+      "source_pts": [
+        8.008,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": true,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "pixel_second_to9",
+      "factor": "one_pixel_slot",
+      "original_answer": "The hands are rubbing soap into their palms.",
+      "streaming_answer": "The hands are rubbing soap into their palms.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 131,
+      "rendered_pair_times": [
+        "7.5",
+        "10.5"
+      ],
+      "source_pts": [
+        7.007,
+        9.009,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "dense_pixels_sparse_times",
+      "factor": "pixel_combination",
+      "original_answer": "The hands are washing their hands in a sink.",
+      "streaming_answer": "The hands are washing their hands in a sink.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 131,
+      "rendered_pair_times": [
+        "7.5",
+        "10.5"
+      ],
+      "source_pts": [
+        8.008,
+        9.009,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "sparse_pixels_dense_times",
+      "factor": "time_combination",
+      "original_answer": "The hands are washing their faces with soap and water.",
+      "streaming_answer": "The hands are washing their faces with soap and water.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 131,
+      "rendered_pair_times": [
+        "8.5",
+        "10.5"
+      ],
+      "source_pts": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        8.008,
+        9.009,
+        10.01,
+        11.011
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "time_second_to9",
+      "factor": "one_time_slot",
+      "original_answer": "The hands are washing their faces with soap and water.",
+      "streaming_answer": "The hands are washing their faces with soap and water.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 131,
+      "rendered_pair_times": [
+        "8.0",
+        "10.5"
+      ],
+      "source_pts": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        7.007,
+        9.009,
+        10.01,
+        11.011
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "time_first_plus_half",
+      "factor": "one_time_slot",
+      "original_answer": "The hands are washing their faces with soap and water.",
+      "streaming_answer": "The hands are washing their faces with soap and water.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 131,
+      "rendered_pair_times": [
+        "7.8",
+        "10.5"
+      ],
+      "source_pts": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        7.507,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "sparse_origin_zero",
+      "factor": "time_shift",
+      "original_answer": "The hands are washing their faces under the running water.",
+      "streaming_answer": "The hands are washing their faces under the running water.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 130,
+      "rendered_pair_times": [
+        "0.5",
+        "3.5"
+      ],
+      "source_pts": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        0.0,
+        1.001,
+        3.003,
+        4.004
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "sparse_offset_plus10",
+      "factor": "time_shift",
+      "original_answer": "The hands are washing their faces with soap and water.",
+      "streaming_answer": "The hands are washing their faces with soap and water.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 132,
+      "rendered_pair_times": [
+        "17.5",
+        "20.5"
+      ],
+      "source_pts": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        17.007,
+        18.008,
+        20.01,
+        21.011
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "sparse_uniform_zero",
+      "factor": "time_origin_and_gaps",
+      "original_answer": "The hands are washing their faces under a faucet.",
+      "streaming_answer": "The hands are washing their faces under a faucet.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 130,
+      "rendered_pair_times": [
+        "0.5",
+        "2.5"
+      ],
+      "source_pts": [
+        7.007,
+        8.008,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    },
+    {
+      "id": "dense_origin_zero",
+      "factor": "time_shift",
+      "original_answer": "The hands are washing their hands in a sink.",
+      "streaming_answer": "The hands are washing their hands in a sink.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "input_tokens": 130,
+      "rendered_pair_times": [
+        "0.5",
+        "2.5"
+      ],
+      "source_pts": [
+        8.008,
+        9.009,
+        10.01,
+        11.011
+      ],
+      "diagnostic_labels": [
+        0.0,
+        1.001,
+        2.002,
+        3.003
+      ],
+      "synthetic_time_labels": true,
+      "duplicate_source_images": false,
+      "prior_anchor_ids_reproduced_original": null,
+      "prior_anchor_ids_reproduced_streaming": null
+    }
+  ],
+  "relations": [
+    {
+      "id": "pixel_first_to8",
+      "parent": "sparse_actual",
+      "factor": "one_pixel_slot",
+      "changed_image_slots": [
+        0
+      ],
+      "changed_time_slots": [],
+      "changed_tensor_kinds": [
+        "pixel_values_videos"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "7.5",
+          "10.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their hands in a sink.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their hands in a sink.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      }
+    },
+    {
+      "id": "pixel_second_to9",
+      "parent": "sparse_actual",
+      "factor": "one_pixel_slot",
+      "changed_image_slots": [
+        1
+      ],
+      "changed_time_slots": [],
+      "changed_tensor_kinds": [
+        "pixel_values_videos"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "7.5",
+          "10.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are rubbing soap into their palms.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are rubbing soap into their palms.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      }
+    },
+    {
+      "id": "dense_pixels_sparse_times",
+      "parent": "sparse_actual",
+      "factor": "pixel_combination",
+      "changed_image_slots": [
+        0,
+        1
+      ],
+      "changed_time_slots": [],
+      "changed_tensor_kinds": [
+        "pixel_values_videos"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "7.5",
+          "10.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their hands in a sink.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their hands in a sink.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      }
+    },
+    {
+      "id": "sparse_pixels_dense_times",
+      "parent": "sparse_actual",
+      "factor": "time_combination",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1
+      ],
+      "changed_tensor_kinds": [
+        "input_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "8.5",
+          "10.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces with soap and water.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces with soap and water.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      }
+    },
+    {
+      "id": "time_second_to9",
+      "parent": "sparse_actual",
+      "factor": "one_time_slot",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        1
+      ],
+      "changed_tensor_kinds": [
+        "input_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "8.0",
+          "10.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces with soap and water.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces with soap and water.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      }
+    },
+    {
+      "id": "time_first_plus_half",
+      "parent": "sparse_actual",
+      "factor": "one_time_slot",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0
+      ],
+      "changed_tensor_kinds": [
+        "input_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "7.8",
+          "10.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces with soap and water.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces with soap and water.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      }
+    },
+    {
+      "id": "sparse_origin_zero",
+      "parent": "sparse_actual",
+      "factor": "time_shift",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_tensor_kinds": [
+        "input_ids",
+        "attention_mask",
+        "mm_token_type_ids",
+        "position_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        130
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "0.5",
+          "3.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces under the running water.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces under the running water.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      }
+    },
+    {
+      "id": "sparse_offset_plus10",
+      "parent": "sparse_actual",
+      "factor": "time_shift",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_tensor_kinds": [
+        "input_ids",
+        "attention_mask",
+        "mm_token_type_ids",
+        "position_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        132
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "17.5",
+          "20.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces with soap and water.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces with soap and water.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      }
+    },
+    {
+      "id": "sparse_uniform_zero",
+      "parent": "sparse_actual",
+      "factor": "time_origin_and_gaps",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_tensor_kinds": [
+        "input_ids",
+        "attention_mask",
+        "mm_token_type_ids",
+        "position_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        130
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "0.5",
+          "2.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces under a faucet.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their faces with soap and water.",
+        "answer": "The hands are washing their faces under a faucet.",
+        "answer_text_changed": true,
+        "generated_ids_changed": true
+      }
+    },
+    {
+      "id": "dense_origin_zero",
+      "parent": "dense_actual",
+      "factor": "time_shift",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_tensor_kinds": [
+        "input_ids",
+        "attention_mask",
+        "mm_token_type_ids",
+        "position_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        130
+      ],
+      "rendered_pair_times_before_after": [
+        [
+          "8.5",
+          "10.5"
+        ],
+        [
+          "0.5",
+          "2.5"
+        ]
+      ],
+      "original": {
+        "parent_answer": "The hands are washing their hands in a sink.",
+        "answer": "The hands are washing their hands in a sink.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      },
+      "streaming": {
+        "parent_answer": "The hands are washing their hands in a sink.",
+        "answer": "The hands are washing their hands in a sink.",
+        "answer_text_changed": false,
+        "generated_ids_changed": false
+      }
+    }
+  ],
+  "same_generated_sequences": 12,
+  "tensor_kinds_compared": [
+    "input_ids",
+    "attention_mask",
+    "pixel_values_videos",
+    "video_grid_thw",
+    "mm_token_type_ids",
+    "position_ids"
+  ],
+  "real_runs": {
+    "original": {
+      "run": "action_ablation_original_gpu_20261011_02",
+      "summary_sha256": "20e9df92f8b0c80355a343b2c0cfac939f7574875f06f2a0002fe7c99c4c90ae",
+      "actual_forwards": {
+        "vision": 12,
+        "language": 149
+      },
+      "generated_tokens": 137,
+      "peak_allocated_gib": 3.2429752349853516,
+      "peak_reserved_gib": 3.5546875,
+      "wall_seconds_including_load": 11.608834799997567
+    },
+    "streaming": {
+      "run": "action_ablation_streaming_gpu_20261011_01",
+      "summary_sha256": "9977f7d7c00e90a8afbc0a1aa2244c476dc571ea739bf01aa16e5f724afa36be",
+      "actual_forwards": {
+        "vision": 24,
+        "language": 185
+      },
+      "generated_tokens": 137,
+      "peak_allocated_gib": 3.265895366668701,
+      "peak_reserved_gib": 3.599609375,
+      "wall_seconds_including_load": 14.810527400000865
+    }
+  },
+  "scope": "Fixed image/time-text sensitivity only. No causal RoPE isolation, generalized accuracy or default protocol change."
+}

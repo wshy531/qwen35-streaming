@@ -1,10 +1,11 @@
 {
-  "scope": "Current active Python and fair launcher; original/processor/plan/config bind this fair proof, historical runs keep their SHA",
+  "scope": "Current active Python and diagnostic launcher; frozen proofs bind original/processor/plan/config. Historical SHA stays historical.",
   "files": {
     "qwen35_local/__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
     "qwen35_local/configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
     "qwen35_local/modeling_qwen3_5.py": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611",
     "scripts/__init__.py": "86dfb66a6285dc8b962b9e4ede5fde54115da09f79f552083e9d53fa9fe45280",
+    "scripts/action_ablation.py": "c6d88d92fda2163fa88ddaf9d1828550b312e17fd4e1c47bebdb02f0c90a6f6f",
     "scripts/baseline.py": "6675b088761705a9f98c349fbdbf02e52344a595fa7f500b4274d0594cf019c6",
     "scripts/chunk_experiment.py": "b90d12682b6f07e995dd7611e34e0dc2f95047b88085bcb8a47a8ec685ea13fa",
     "scripts/chunk_interleaved.py": "66ced70ccb9543a38fc76b1308a313bc305dbfa813e81cbbaec72559a11ff92d",
@@ -39,6 +40,7 @@
     "scripts/vision_trace.py": "e5ce68b266a2de0806293f68d29a7ff0d822f5ea7eaeaf83411ebbbb6a82478e",
     "scripts/window_experiment.py": "589e95f20eb3fb947aef33d0ab78624d69fa96d67bb05e28066f3b3c3ec72c62",
     "streaming/__init__.py": "16795d71ce6a13c2d34275576d369c83e7ae791940b898dd42eaa3e47a38db23",
+    "streaming/action_inputs.py": "1235ae932233446c63fdf422fdcda26b7c83556c037e638dc3577d9fad8e53e0",
     "streaming/demo.py": "c1f1367be18698be06cbb7f4d316b08595880b4a67c399299a7813aeccb909a7",
     "streaming/fair_inputs.py": "eb5a0bc03bcef1f12ec3ce3328bc0a2c9fc7baf1f9ceef9fb2b8ff66f3317814",
     "streaming/hybrid.py": "86bb4855fa4af51e3f35ccb529684c6cfe4bc6e092f64a9c8b9777f73d69460a",
@@ -51,6 +53,7 @@
     "streaming/viewer.py": "e0c05e6f587e7e53193a6a328a64de1c55012c40d4a6d2328cb3074458a5b5ef",
     "streaming/window.py": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
     "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_action_inputs.py": "48e40fee55382c8af5301fd29c3e302f2d843b0cf597977b290ce468dac55d1f",
     "tests/test_fair_inputs.py": "bc8d1fb3d8d11c1b7d4b14dd25c4323b75bf1915fbeaa455179d3b1909635d87",
     "tests/test_local_model.py": "1deeb001e7bca335fe0b786c0f548543b4386079b6d29926525f5d110e64c24d",
     "tests/test_mixed_state.py": "b63e6a5609ea497fe4f47fd8bf2cb037837d6da1997560d7f87254558575d7e8",
@@ -61,14 +64,15 @@
     "tests/test_stream_session.py": "8f0af36ce5a81ddca526d44fd0772d52b205abde68fa0d4022d1fe902b7be792",
     "tests/test_stream_window.py": "94de80f03e6413a386be82cc84b0716474fdb535d7c8af209b3b1b6132a5e0a4",
     "tests/test_video_demo.py": "d24cb9085a550a19bfd9ef3fd37e69a1b8fa490ea81f0414850c0a0fdb89006b",
-    "@launcher": "5a42c44285edafe213bfb7bb416479d755885f005f9a0f4acbfa73b23249fa9f",
-    "@plan": "82d1aa9f943a1be109197a25cd7f0751436f83592e11ba634f6046f8de21af26",
-    "@cases": "5c6e2657693b34eedeb4603b35f39a666dd53db112552b3c53b46574ee53865d",
+    "@launcher": "8b8ab6f1fd7b37be71b16a6b0e3c8d726dfbfa8335b76c34a410e7b9b025a7b6",
+    "@plan": "c4e1dfa53e145412a7ec0004182d07f1ce1f5ab8e500efebfae972e11fd9c4df",
+    "@cases": "d52fec9f0eae00b71baca7d39c369e122cbac41f17bf301f77094fc1f3ff84ee",
     "@reference:E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
     "@reference:E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
     "@reference:E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
     "@reference:E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\processing_qwen3_vl.py": "e5abbaf1d035fe49cd8354f1e92fd3f92ab1103a39173c147471f30ff1908b6a",
     "@reference:E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\video_processing_qwen3_vl.py": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10"
   },
-  "generic_demo_launcher_sha256": "5ef71a7fbe70b06577a5b6e37fdd87098964fac549223d8a76697ce88f1d98c4"
+  "generic_demo_launcher_sha256": "5ef71a7fbe70b06577a5b6e37fdd87098964fac549223d8a76697ce88f1d98c4",
+  "fair_video_launcher_sha256": "5a42c44285edafe213bfb7bb416479d755885f005f9a0f4acbfa73b23249fa9f"
 }
