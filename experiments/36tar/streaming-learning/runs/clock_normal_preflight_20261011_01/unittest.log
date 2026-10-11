@@ -1,0 +1,26 @@
+test_collaborator_branch_config (tests.test_video_demo.VideoDemoTests.test_collaborator_branch_config) ... ok
+test_invalid_logit_option_rejected_before_state (tests.test_video_demo.VideoDemoTests.test_invalid_logit_option_rejected_before_state) ... ok
+test_launcher_and_core_are_in_source_proof (tests.test_video_demo.VideoDemoTests.test_launcher_and_core_are_in_source_proof) ... ok
+test_logit_modes_same_state_and_last_prediction (tests.test_video_demo.VideoDemoTests.test_logit_modes_same_state_and_last_prediction) ... ok
+test_loopback_http_current_state_and_cleanup (tests.test_video_demo.VideoDemoTests.test_loopback_http_current_state_and_cleanup) ... ok
+test_matching_aspect_has_no_padding_or_geometry_change (tests.test_video_demo.VideoDemoTests.test_matching_aspect_has_no_padding_or_geometry_change) ... ok
+test_missing_preflight_rejected_before_gpu (tests.test_video_demo.VideoDemoTests.test_missing_preflight_rejected_before_gpu) ... ok
+test_portrait_and_wide_geometry_no_stretch (tests.test_video_demo.VideoDemoTests.test_portrait_and_wide_geometry_no_stretch) ... ok
+test_proof_rejects_changed_input_source_request_and_failed_cpu (tests.test_video_demo.VideoDemoTests.test_proof_rejects_changed_input_source_request_and_failed_cpu) ... ok
+test_viewer_bounded_answers_and_safe_snapshot (tests.test_video_demo.VideoDemoTests.test_viewer_bounded_answers_and_safe_snapshot) ... ok
+test_cancel_wakes_waiter_and_releases_buffer (tests.test_playback.PlaybackTests.test_cancel_wakes_waiter_and_releases_buffer) ... ok
+test_close_interrupts_future_frame_wait_and_closes_generator (tests.test_playback.PlaybackTests.test_close_interrupts_future_frame_wait_and_closes_generator) ... ok
+test_duration_limit_is_not_counted_as_a_delivered_frame (tests.test_playback.PlaybackTests.test_duration_limit_is_not_counted_as_a_delivered_frame) ... ok
+test_eof_drains_last_slot_and_error_is_not_silently_eof (tests.test_playback.PlaybackTests.test_eof_drains_last_slot_and_error_is_not_silently_eof) ... ok
+test_invalid_input_budgets_rejected (tests.test_playback.PlaybackTests.test_invalid_input_budgets_rejected) ... ok
+test_overload_replaces_only_unclaimed_frame_and_counts_losses (tests.test_playback.PlaybackTests.test_overload_replaces_only_unclaimed_frame_and_counts_losses) ... ok
+test_pacer_does_not_deliver_future_and_uses_actual_vfr_pts (tests.test_playback.PlaybackTests.test_pacer_does_not_deliver_future_and_uses_actual_vfr_pts) ... ok
+test_real_thread_all_source_fingerprint_includes_dropped_frames (tests.test_playback.PlaybackTests.test_real_thread_all_source_fingerprint_includes_dropped_frames) ... ok
+test_repeated_overload_has_constant_pixel_storage (tests.test_playback.PlaybackTests.test_repeated_overload_has_constant_pixel_storage) ... ok
+test_source_exception_propagates_and_stops_producer (tests.test_playback.PlaybackTests.test_source_exception_propagates_and_stops_producer) ... ok
+test_threaded_vfr_source_never_publishes_before_pts (tests.test_playback.PlaybackTests.test_threaded_vfr_source_never_publishes_before_pts) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.754s
+
+OK

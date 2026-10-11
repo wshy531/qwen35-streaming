@@ -1,0 +1,8 @@
+{
+  "tests": 97,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "source_unchanged_during_tests": true,
+  "scope": "Tiny CPU weights and local processor; timing/mailbox/loopback contracts only"
+}

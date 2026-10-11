@@ -1,0 +1,16 @@
+[
+  {
+    "name": "clock_normal_gpu_20261011_01",
+    "scripts": 2,
+    "status": "正在播放：11.01 秒\n最近接入模型：11.01 秒\n当前记忆从：8.01 秒\n重置：2 次\n丢帧：0 / 已采样 12\n模型已收到：12 帧\n本次运行已结束",
+    "answerCount": 3,
+    "passed": true
+  },
+  {
+    "name": "clock_overload_gpu_20261011_01",
+    "scripts": 2,
+    "status": "正在播放：11.01 秒\n最近接入模型：11.01 秒\n当前记忆从：7.01 秒\n重置：1 次\n丢帧：4 / 已采样 12\n模型已收到：8 帧\n本次运行已结束",
+    "answerCount": 2,
+    "passed": true
+  }
+]

@@ -49,6 +49,16 @@ class DemoTests(unittest.TestCase):
         self.assertEqual(answer["answer"]["question"],"What is visible?")
         self.assertEqual(answer["status"]["memory_from_pts"],2.5)
 
+    def test_skipped_source_frames_preserve_actual_pts_and_qa_context(self):
+        for i in (0,5,10,15):
+            self.demo.append(packet(i))
+        self.assertEqual(self.demo.received,4)
+        self.assertEqual(self.demo.session.ledger[-1]["timestamps"],[10.,15.])
+        self.assertEqual(self.demo.status()["memory_from_pts"],0.)
+        answer = next(e for e in self.events if e["kind"] == "answer")
+        self.assertEqual(answer["answer"]["timestamp"],15.)
+        self.assertEqual(answer["answer"]["frame_id"],15)
+
     def test_capacity_reset_exposes_new_memory_origin(self):
         self.limited()
         for i in range(6):

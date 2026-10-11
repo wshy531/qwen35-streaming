@@ -1,0 +1,164 @@
+{
+  "scope": "真实权重 GPU · 按PTS墙钟播放 / 最新帧替换 · 人工消费者延迟1.5秒（调度压力）",
+  "budget": {
+    "model_loads": 1,
+    "frames_max": 12,
+    "vision_forwards_max": 6,
+    "questions_max": 6,
+    "language_forwards_max": 114,
+    "generated_tokens_max": 96,
+    "history_tokens_max": 144,
+    "wall_seconds": 90,
+    "free_gpu_gib_min": 5.5,
+    "available_ram_gib_min": 3,
+    "precision": "fp32_ieee_math",
+    "resize": "letterbox",
+    "video_logits": "none",
+    "qa_logits": "last",
+    "playback": "clock",
+    "queue_capacity": 1,
+    "consumer_delay_seconds": 1.5,
+    "first_qa_frames": 4
+  },
+  "counts": {
+    "vision": 4,
+    "language": 31,
+    "lm_head_rows": 25
+  },
+  "final": {
+    "received_real_frames": 8,
+    "encoded_real_frames": 8,
+    "pairs": 4,
+    "questions": 2,
+    "resets": 1,
+    "epoch": 1,
+    "generated_tokens": 23,
+    "memory_from_pts": 7.007,
+    "history_across_reset": false,
+    "last_received_id": 330,
+    "last_received_pts": 11.011,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "max_buffered_rgb_bytes": 294912,
+    "finished": true,
+    "closed": false,
+    "invalid": false,
+    "session": {
+      "accepted_frames": 4,
+      "encoded_real_frames": 4,
+      "pending_frame_id": null,
+      "last_received_id": 330,
+      "last_encoded_id": 330,
+      "last_encoded_pts": 11.011,
+      "seen_tokens": 116,
+      "next_rope_position": 36,
+      "vision_encodings": 2,
+      "pending_rgb_bytes": 0,
+      "finished": true,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    }
+  },
+  "schedule": [
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 1,
+      "memory_from_pts": 7.007,
+      "encoded_frames": 4,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 7.007,
+      "encoded_frames": 6,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 7.007,
+      "encoded_frames": 8,
+      "seen_tokens": 116
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 7.007,
+      "encoded_frames": 8,
+      "seen_tokens": 116
+    },
+    {
+      "kind": "eof",
+      "epoch": 1,
+      "memory_from_pts": 7.007,
+      "encoded_frames": 8,
+      "seen_tokens": 116
+    }
+  ],
+  "append_including_qa_and_decode_latency": {
+    "count": 8,
+    "sum_seconds": 14.697118300006878,
+    "max_seconds": 2.355115900000783
+  },
+  "replay_wall_seconds": 14.578999999999724,
+  "peak_process_rss_bytes": 1576108032,
+  "cross_reset_memory": false,
+  "end_to_end_speedup_proven": false,
+  "realtime": false,
+  "requested_playback": "clock",
+  "effective_playback": "clock",
+  "source_fingerprint": {
+    "samples": 12,
+    "sha256": "e292c3f8f2e2a3dd702c7bf8920c86c95199a042bbef43623501f653dba8ebe8"
+  },
+  "max_encoded_pair_gap_seconds": 2.002,
+  "answer_lags_seconds": [
+    2.37,
+    3.5679999999997243
+  ],
+  "playback": {
+    "produced_samples": 12,
+    "delivered_samples": 8,
+    "dropped_samples": 4,
+    "cancelled_samples": 0,
+    "buffered_samples": 0,
+    "max_buffered_samples": 1,
+    "buffered_rgb_bytes": 0,
+    "peak_buffered_rgb_bytes": 147456,
+    "finished": true,
+    "source_fingerprint": {
+      "samples": 12,
+      "sha256": "e292c3f8f2e2a3dd702c7bf8920c86c95199a042bbef43623501f653dba8ebe8"
+    },
+    "end_reason": "frame_budget_limit",
+    "max_source_lateness_seconds": 0.01599999999962165,
+    "producer_alive": false,
+    "queue_capacity": 1
+  },
+  "peak_allocated_gib": 3.26582670211792,
+  "peak_reserved_gib": 3.599609375,
+  "wall_seconds_including_load": 17.464775200000076
+}

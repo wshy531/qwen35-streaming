@@ -3,7 +3,7 @@
 这是36tar的独立实验工程，本轮开发分支为 `36tar/general-video-demo`。外层仓库原有文件保持原样；本目录保留 `code/`、`scripts/`、`runs/` 布局，方便双方阅读、复现与决定下一项改造。权重、真实视频、虚拟环境和凭据不入库。
 
 [原PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已由协作方合并；本轮修改通过新的个人分支和PR审阅，main不直推。
-[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 提供通用入口、85项CPU及一次真实权重运行的成功/失败证据，尚未合并。
+[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口和按PTS墙钟播放；最新97项CPU通过，另有正常/过载两轮真实权重记录及保留的错误回答。未合并。
 
 先读 [实验总纲](实验总纲.md)，再读 [架构设计入口](架构设计.md)。总纲是唯一进度主记录；其余方案、报告和历史快照不替代最新状态。旧记录中的本机绝对路径是实验来源，不是新机器上的运行路径。
 
@@ -13,6 +13,7 @@
 |---|---|
 | 当前通用视频入口 | [运行与约定](#通用视频演示入口) / [设计与预算](通用视频演示设计与验收.md) |
 | 本轮CPU与真实权重结果 | [通用视频结果及失败回答](通用视频演示结果.md) |
+| 墙钟播放、单槽丢帧与时间观测 | [预登记预算](墙钟播放与丢帧验收方案.md) / [正常和过载结果](墙钟播放与丢帧结果.md) / [播放实现](code/qwen35-streaming-s4/streaming/playback.py) |
 | 合作仓库结构与计划解释 | [架构解读](合作仓库架构与计划解读.md) |
 | 机制与未解决问题 | [通俗复盘](流式视频架构学习复盘与未解决问题.md) |
 | 当前语言计算块验证 | [32/64交错、多长度结果](语言计算块交错扩展结果.md) |
@@ -36,7 +37,7 @@ S4对多Token输入续接卷积与递归状态，另外管理普通注意力KV�
 $common = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
             '--video', 'E:/VIT Model/datasets/natural_commons_v1/clean_hands.webm',
             '--question', 'What are the hands doing?', '--fps', '1', '--duration', '8',
-            '--max-frames', '8', '--answer-tokens', '16', '--qa-every', '4',
+            '--max-frames', '8', '--answer-tokens', '16', '--first-qa-frames', '1', '--qa-every', '4',
             '--max-tokens', '256', '--wall-seconds', '180')
 .venv/Scripts/python.exe scripts/run_video_demo.py --stage preflight @common --out runs/my_video_cpu_01
 .venv/Scripts/python.exe scripts/run_video_demo.py --stage gpu @common --preflight runs/my_video_cpu_01 --ui-port 8765 --out runs/my_video_gpu_01
@@ -44,11 +45,30 @@ $common = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
 
 运行中打开 `http://127.0.0.1:8765/` 查看当前画面和最近回答；结束后服务关闭，打开输出的 `viewer.html` 查看末画面及最近8条回答。页面显示当前接收视频时间、实际回答对应时间、记忆从何时开始、重置次数和历史Token数。`events.jsonl` 保存全部有限事件，`summary.json` 保存显存峰值、全程重放时间和包括问答/解码的append耗时；不要只看语言阶段耗时。
 
-默认保持比例居中补黑边，视频写入不计算词表logits，问答只投影末位置；回归证据接口仍可输出完整logits。支持任意长度视频，按 `--duration` 与 `--max-frames` 明确截断，实际样本数可以小于预算，不要求23帧；奇数末帧在EOF/限制结束时补对。每次问题自包含；仅一帧也允许EOF回答，但两帧输入可能理解错误，不能用流程通过冒充准确率。
+默认保持比例居中补黑边，视频写入不计算词表logits，问答只投影末位置；回归证据接口仍可输出完整logits。支持任意长度视频，按 `--duration` 与 `--max-frames` 明确截断，实际样本数可以小于预算，不要求23帧；奇数末帧在EOF/限制结束时补对。每次问题自包含。默认首问需要4帧；上面的 `--first-qa-frames 1` 显式复现前轮早问配置，允许单帧EOF问答。两帧输入曾误答咖啡，增加首问帧数尚未证明能普遍修复能力。
 
 GPU默认允许任意非main/master、非detached的协作分支，不绑定36tar；可重复 `--allow-branch your/name` 收紧名单。CPU证明绑定源码及启动器、问题/参数、视频SHA和全部模型资产；改变任一项须重新预检。CPU阶段回答来自随机微型权重，页面会明确标注，不证明视频理解。所有运行在已声明显存/RAM/forward/生成/墙钟预算内；不适合绕过门禁做无限输入。
 
-当前是有限、同步顺序文件重放；没有按墙钟播放、摄像头、丢帧队列或跨reset记忆。先做这些工程验证及多视频能力比较，再评估BF16、32/64块与长期记忆。使用新入口时无需调用绑定个人分支的历史启动器。
+默认 `--playback fast` 按顺序尽快重放。另可选择下述有限墙钟播放，尚无摄像头、跨reset记忆或长期运行证明。使用新入口时无需调用绑定个人分支的历史启动器。
+
+## 按实际视频时间播放与丢帧
+
+```powershell
+$clock = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
+           '--video', 'E:/VIT Model/datasets/natural_commons_v1/clean_hands.webm',
+           '--question', 'What are the hands doing?', '--playback', 'clock',
+           '--fps', '1', '--duration', '12', '--max-frames', '12',
+           '--answer-tokens', '16', '--first-qa-frames', '4', '--qa-every', '4',
+           '--max-tokens', '256', '--wall-seconds', '90')
+.venv/Scripts/python.exe scripts/run_video_demo.py --stage preflight @clock --out runs/my_clock_cpu_01
+.venv/Scripts/python.exe scripts/run_video_demo.py --stage gpu @clock --preflight runs/my_clock_cpu_01 --ui-port 8765 --out runs/my_clock_gpu_01
+```
+
+读帧线程按解码得到的真实PTS发布采样画面，模型线程独占全部混合状态。待处理槽容量为1：推理来不及时，新画面替换尚未领取的旧画面，并累计丢弃样本数；正在推理的帧不撤回。这里的丢帧统计针对 `--fps` 选择的样本，不是视频的全部原始帧。模型仍成对编码，但过载时一对画面的实际时间间隔可能变大；报告记录最大间隔。
+
+页面分别显示源画面位置、接入模型流程的位置、回答实际依据的时间、答案出现的墙钟时间和滞后，以及记忆起点和reset。接入流程的单帧可能尚在等待配对，不能当作已完成视觉编码。CPU预检仍快速遍历全部样本，不按随机微型模型速度模拟GPU丢帧；真实运行核对完整源指纹、参数、源码和资产，实际接入/丢帧日程保存在 `events.jsonl`。
+
+正常实测12个样本全部接入，3次回答滞后0.551–0.633秒。另加 `--consumer-delay-seconds 1.5` 可独立预检和运行显式过载条件：本轮12样本中8接入、4丢弃，2次回答滞后2.370–3.568秒。这个参数是压力注入，不能据此估算正常速度；过载末答错误地说成洗脸。两轮allocated峰值均约3.266GiB，槽内待处理画面最多144KiB；后者不是进程总内存。见 [完整结果及边界](墙钟播放与丢帧结果.md)。
 
 ## 已有证据与边界
 
@@ -86,4 +106,4 @@ Set-Location code/qwen35-streaming-s4
 
 归档的proof中含旧资产路径、代码SHA和输入指纹，**不能直接用作新机器/新源码的GPU预检**。先产生新的CPU证明，保留成功和失败输出；Git或不同操作系统若改变换行字节，也应重新冻结源码证明。`UPLOAD_SOURCE_MANIFEST.json`记录此次导出内容的原始SHA；历史source_tree/provenance表示各次运行时的版本。
 
-接续优先级由最新总纲决定：通用连续效果 → 墙钟/摄像头与丢帧 → 多视频公平对照 → 全程延迟/长期资源 → BF16、32/64和长期状态。合并通过PR审阅，不直接推送main。
+接续优先级由最新总纲决定：多视频与相同实际输入的原模型公平对照 → 摄像头和更长运行/全程资源 → BF16、32/64和长期状态。墙钟与单槽丢帧已有有限证据，模型能力错误仍需定位。合并通过PR审阅，不直接推送main。

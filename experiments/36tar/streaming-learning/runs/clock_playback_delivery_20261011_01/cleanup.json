@@ -1,0 +1,42 @@
+{
+  "removed": [
+    {
+      "bytes": 0,
+      "path": "E:\\VIT Model\\runs\\clock_playback_cpu_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "path": "E:\\VIT Model\\runs\\clock_normal_preflight_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "path": "E:\\VIT Model\\runs\\clock_overload_preflight_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "path": "E:\\VIT Model\\runs\\clock_normal_gpu_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "path": "E:\\VIT Model\\runs\\clock_overload_gpu_20261011_01\\tmp"
+    },
+    {
+      "bytes": 137082,
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__pycache__"
+    },
+    {
+      "bytes": 208484,
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__"
+    },
+    {
+      "bytes": 85740,
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__"
+    },
+    {
+      "bytes": 126063,
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\__pycache__"
+    }
+  ],
+  "completed": true,
+  "scope": "Only this stage tmp and active Python caches; frozen history retained"
+}

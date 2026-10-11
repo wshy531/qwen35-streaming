@@ -15,14 +15,15 @@ img{width:100%;height:340px;object-fit:contain;background:#080d13;border-radius:
 .row{display:grid;grid-template-columns:1fr 1fr;gap:24px}pre{white-space:pre-wrap}li{margin:16px 0}
 .note{color:#ffd391} @media(max-width:650px){.row{display:block}}
 </style><h1>连续视频问答 · FP32 参考版本</h1>
-<p id="scope"></p><p class="note">容量重置会清空历史；回答仅覆盖当前记忆段。文件顺序重放不代表实时推理。</p>
+<p id="scope"></p><p class="note">容量重置会清空历史。模型忙时可能跳过画面；回答仅依据已接入模型的帧。按时间送帧不保证回答实时。</p>
 <div class="row"><div><img id="frame" alt="当前已到达画面"><pre id="status"></pre></div>
 <div><h2>最近回答</h2><ol id="answers"></ol></div></div>
 <script>function render(s){document.getElementById('scope').textContent=s.scope||'';
 document.getElementById('frame').src=s.image||'';
-document.getElementById('status').textContent=JSON.stringify(s.status||{},null,2);
+let t=s.status||{},p=s.source||{};let sec=x=>x==null?'暂无':x.toFixed(2)+' 秒';
+document.getElementById('status').textContent=`正在播放：${sec(p.timestamp)}\n最近接入模型：${sec(t.video_seconds)}\n当前记忆从：${sec(t.memory_from_seconds)}\n重置：${t.reset_count||0} 次\n丢帧：${p.dropped_samples||0} / 已采样 ${p.produced_samples||0}\n模型已收到：${t.received_frames||0} 帧\n${t.finished?'本次运行已结束':''}`;
 let a=document.getElementById('answers');a.replaceChildren();for(let x of s.answers||[]){let li=document.createElement('li');
-li.textContent=`视频 ${x.timestamp.toFixed(2)} 秒 / 记忆从 ${x.memory_from_pts.toFixed(2)} 秒开始\n${x.question}\n${x.answer}`;a.append(li)}}
+li.textContent=`依据视频 ${x.timestamp.toFixed(2)} 秒 / 记忆从 ${x.memory_from_pts.toFixed(2)} 秒开始${x.answer_lag_seconds==null?'':` / 回答滞后 ${x.answer_lag_seconds.toFixed(2)} 秒`}\n${x.question}\n${x.answer}`;a.append(li)}}
 if(window.RECORDED){render(window.RECORDED)}else{setInterval(async()=>{try{render(await(await fetch('/state',{cache:'no-store'})).json())}catch(e){}},500)}
 </script></html>'''
 
@@ -32,13 +33,15 @@ class Viewer:
         self.lock = threading.Lock()
         self.answers = deque(maxlen=8)
         self.image, self.status, self.scope = "", {}, scope
+        self.source = {}
         self.server = self.thread = None
 
-    def frame(self, rgb):
+    def frame(self, rgb, timestamp=None, timing=None):
         stream = io.BytesIO()
         Image.fromarray(rgb).save(stream, format="JPEG", quality=80)
         with self.lock:
             self.image = "data:image/jpeg;base64," + base64.b64encode(stream.getvalue()).decode("ascii")
+            self.source = {"timestamp":timestamp,**(timing or {})}
 
     def event(self, event):
         s = event["status"]
@@ -53,7 +56,8 @@ class Viewer:
 
     def snapshot(self):
         with self.lock:
-            return {"scope":self.scope,"image":self.image,"status":dict(self.status),"answers":list(self.answers)}
+            return {"scope":self.scope,"image":self.image,"status":dict(self.status),
+                    "source":dict(self.source),"answers":list(self.answers)}
 
     def start(self, port):
         owner = self

@@ -1,0 +1,6 @@
+{
+  "stage": "first delivery audit",
+  "inference_source_changed": false,
+  "reason": "overbroad media rejection included unchanged historical HTML",
+  "passed": false
+}
