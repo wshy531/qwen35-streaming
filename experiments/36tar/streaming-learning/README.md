@@ -3,7 +3,7 @@
 这是36tar的独立实验工程，本轮开发分支为 `36tar/general-video-demo`。外层仓库原有文件保持原样；本目录保留 `code/`、`scripts/`、`runs/` 布局，方便双方阅读、复现与决定下一项改造。权重、真实视频、虚拟环境和凭据不入库。
 
 [原PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已由协作方合并；本轮修改通过新的个人分支和PR审阅，main不直推。
-[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口和按PTS墙钟播放；最新97项CPU通过，另有正常/过载两轮真实权重记录及保留的错误回答。未合并。
+[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新108项CPU通过；14短例两臂生成一致，但咖啡/洗脸及先后错误保留。未合并。
 
 先读 [实验总纲](实验总纲.md)，再读 [架构设计入口](架构设计.md)。总纲是唯一进度主记录；其余方案、报告和历史快照不替代最新状态。旧记录中的本机绝对路径是实验来源，不是新机器上的运行路径。
 
@@ -14,6 +14,7 @@
 | 当前通用视频入口 | [运行与约定](#通用视频演示入口) / [设计与预算](通用视频演示设计与验收.md) |
 | 本轮CPU与真实权重结果 | [通用视频结果及失败回答](通用视频演示结果.md) |
 | 墙钟播放、单槽丢帧与时间观测 | [预登记预算](墙钟播放与丢帧验收方案.md) / [正常和过载结果](墙钟播放与丢帧结果.md) / [播放实现](code/qwen35-streaming-s4/streaming/playback.py) |
+| 两素材14例同输入原/流式诊断 | [方案与预算](多视频同输入公平对照方案.md) / [逐例真实答案](多视频同输入公平对照结果.md) / [独立输入核验](code/qwen35-streaming-s4/streaming/fair_inputs.py) |
 | 合作仓库结构与计划解释 | [架构解读](合作仓库架构与计划解读.md) |
 | 机制与未解决问题 | [通俗复盘](流式视频架构学习复盘与未解决问题.md) |
 | 当前语言计算块验证 | [32/64交错、多长度结果](语言计算块交错扩展结果.md) |
@@ -71,6 +72,20 @@ $clock = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
 正常实测12个样本全部接入，3次回答滞后0.551–0.633秒。另加 `--consumer-delay-seconds 1.5` 可独立预检和运行显式过载条件：本轮12样本中8接入、4丢弃，2次回答滞后2.370–3.568秒。这个参数是压力注入，不能据此估算正常速度；过载末答错误地说成洗脸。两轮allocated峰值均约3.266GiB，槽内待处理画面最多144KiB；后者不是进程总内存。见 [完整结果及边界](墙钟播放与丢帧结果.md)。
 
 ## 已有证据与边界
+
+最新公平对照在同两素材及明确拼接14例上重新运行两臂，生成Token全部一致，流式14次QA主状态逐位不变。原模型也在两帧回答咖啡、稀疏四帧回答洗脸；固定选择题均5/8，先后1/2。108CPU/11新接口及14微型输入控制通过；首个GPU被JSON坐标tuple/list比较拒绝，新增往返回归后重新预检/重跑，原失败保留。有限生成一致不是内部数值/长期等价，更不是14/14理解正确。
+
+从本目录使用新的run_id复现公平对照（需本机两个已署名视频及固定模型）：
+
+```powershell
+$fair = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
+          '--video-dir', 'E:/VIT Model/datasets/natural_commons_v1', '--wall-seconds', '240')
+.venv/Scripts/python.exe scripts/run_fair_video.py --stage preflight --arm both @fair --out runs/my_fair_cpu_01
+.venv/Scripts/python.exe scripts/run_fair_video.py --stage gpu --arm original @fair --preflight runs/my_fair_cpu_01 --out runs/my_fair_original_01
+.venv/Scripts/python.exe scripts/run_fair_video.py --stage gpu --arm streaming @fair --preflight runs/my_fair_cpu_01 --out runs/my_fair_streaming_01
+```
+
+两个GPU命令顺序执行。原模型臂14视觉/238语言，流式臂27视觉/280语言；各1载入、14答、最多224生成/240秒，载入前GPU5.5GiB/RAM3GiB门禁。默认读取本目录已有咖啡/洗脸历史文本记录来固定实际输入，源码/方案/配置/素材/历史/资产改变必须重新预检。原模型没有共享流式视觉特征；固定14例定义在 [配置](configs/fair_video_cases.json)，默认示例是诊断集，通用演示仍可输入任意视频和问题。
 
 固定FP32真实权重混合状态回归、共享特征控制、有限23帧/7问答同步重放已经完成。六组视觉候选完整/成对特征逐位一致；32块最新五组、每组六次交错计时全部满足原严格logits和四类缓存门槛，完整语言耗时减少17.4%–31.2%，分段累计减少26.8%–33.8%。这是本机RTX4060 Laptop、FP32 IEEE/math、torch后备路径的有限测试，不是完整视频问答端到端提速或模型能力提升。
 

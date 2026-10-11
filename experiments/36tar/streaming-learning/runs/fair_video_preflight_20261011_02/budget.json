@@ -1,0 +1,20 @@
+{
+  "model_loads_per_arm": 1,
+  "cases": 14,
+  "real_frames_total_max": 56,
+  "real_frames_per_case_max": 4,
+  "answer_tokens_per_case": 16,
+  "generated_tokens_per_arm_max": 224,
+  "original_vision_max": 14,
+  "original_language_max": 238,
+  "streaming_vision_max": 27,
+  "streaming_language_max": 280,
+  "tokens_max": 256,
+  "question_reserve": 96,
+  "precision": "fp32_ieee_math",
+  "wall_seconds": 240,
+  "gpu_free_gib_min": 5.5,
+  "ram_available_gib_min": 3,
+  "rgb_per_case_max_bytes": 589824,
+  "simultaneous_real_models": 1
+}

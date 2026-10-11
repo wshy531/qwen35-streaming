@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\fair_video.py", line 295, in main
+    (preflight if args.stage == 'preflight' else gpu)(args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\fair_video.py", line 238, in gpu
+    raise AssertionError('Actual case input/source differs from CPU proof')
+AssertionError: Actual case input/source differs from CPU proof

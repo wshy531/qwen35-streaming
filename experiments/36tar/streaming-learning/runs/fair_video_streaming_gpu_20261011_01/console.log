@@ -1,0 +1,16 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 15940.11it/s]
+{"arm": "streaming", "id": "hands_two_action", "answer": "The hands are pouring coffee into a mug."}
+{"arm": "streaming", "id": "hands_four_action", "answer": "The hands are washing their hands with soap and water."}
+{"arm": "streaming", "id": "hands_sparse_late_action", "answer": "The hands are washing their faces with soap and water."}
+{"arm": "streaming", "id": "hands_dense_late_action", "answer": "The hands are washing their hands in a sink."}
+{"arm": "streaming", "id": "cat_dense_action", "answer": "The cat is lying on its back on the ground."}
+{"arm": "streaming", "id": "cat_sparse_action", "answer": "The cat is lying on the ground."}
+{"arm": "streaming", "id": "hands_last_subject", "answer": "HANDS"}
+{"arm": "streaming", "id": "cat_last_subject", "answer": "CAT"}
+{"arm": "streaming", "id": "hands_cat_first", "answer": "CAT"}
+{"arm": "streaming", "id": "hands_cat_last", "answer": "CAT"}
+{"arm": "streaming", "id": "hands_cat_order", "answer": "HANDS_FIRST"}
+{"arm": "streaming", "id": "cat_hands_first", "answer": "CAT"}
+{"arm": "streaming", "id": "cat_hands_last", "answer": "CAT"}
+{"arm": "streaming", "id": "cat_hands_order", "answer": "HANDS_FIRST"}

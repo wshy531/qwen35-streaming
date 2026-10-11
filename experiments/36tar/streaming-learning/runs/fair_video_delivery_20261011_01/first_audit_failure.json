@@ -1,0 +1,6 @@
+{
+  "stage": "first fair delivery audit",
+  "reason": "SHA256 hex casing differs between asset manifest and lowercase digest; compare case-insensitively",
+  "inference_source_changed": false,
+  "passed": false
+}

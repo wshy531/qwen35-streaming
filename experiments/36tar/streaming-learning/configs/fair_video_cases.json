@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "fps": 1,
+  "canvas": [192, 256],
+  "answer_tokens": 16,
+  "cases": [
+    {"id": "hands_two_action", "selection": "historical_coffee", "question": "What are the hands doing?", "kind": "action", "rubric": "Hands at faucet/sink; coffee and face claims unsupported"},
+    {"id": "hands_four_action", "video": "clean_hands", "indices": [0, 1, 2, 3], "question": "What are the hands doing?", "kind": "action", "rubric": "Hands at sink/washing; do not require visible soap in early frames"},
+    {"id": "hands_sparse_late_action", "selection": "historical_faces", "question": "What are the hands doing?", "kind": "action", "rubric": "Hands washing at sink; faces unsupported"},
+    {"id": "hands_dense_late_action", "video": "clean_hands", "indices": [8, 9, 10, 11], "question": "What are the hands doing?", "kind": "action", "rubric": "Hands washing at sink"},
+    {"id": "cat_dense_action", "video": "cat_play", "indices": [0, 1, 2, 3], "question": "What is the cat doing?", "kind": "action", "rubric": "Cat lying/rolling on the ground; no exact wording required"},
+    {"id": "cat_sparse_action", "video": "cat_play", "indices": [0, 2, 4, 6], "question": "What is the cat doing?", "kind": "action", "rubric": "Cat lying/rolling on the ground; no exact wording required"},
+    {"id": "hands_last_subject", "video": "clean_hands", "indices": [0, 1, 2, 3], "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.", "kind": "last_subject", "expected": "HANDS"},
+    {"id": "cat_last_subject", "video": "cat_play", "indices": [0, 1, 2, 3], "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.", "kind": "last_subject", "expected": "CAT"},
+    {"id": "hands_cat_first", "splice": ["clean_hands", "cat_play"], "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.", "kind": "first_subject", "expected": "HANDS"},
+    {"id": "hands_cat_last", "splice": ["clean_hands", "cat_play"], "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.", "kind": "last_subject", "expected": "CAT"},
+    {"id": "hands_cat_order", "splice": ["clean_hands", "cat_play"], "question": "Which appears earlier in the clip, the hands or the cat? Answer only HANDS_FIRST or CAT_FIRST.", "kind": "order", "expected": "HANDS_FIRST"},
+    {"id": "cat_hands_first", "splice": ["cat_play", "clean_hands"], "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.", "kind": "first_subject", "expected": "CAT"},
+    {"id": "cat_hands_last", "splice": ["cat_play", "clean_hands"], "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.", "kind": "last_subject", "expected": "HANDS"},
+    {"id": "cat_hands_order", "splice": ["cat_play", "clean_hands"], "question": "Which appears earlier in the clip, the hands or the cat? Answer only HANDS_FIRST or CAT_FIRST.", "kind": "order", "expected": "CAT_FIRST"}
+  ]
+}
