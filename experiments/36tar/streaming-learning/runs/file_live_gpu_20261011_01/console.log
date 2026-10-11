@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\live_demo.py", line 208, in <module>
+    main()
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\live_demo.py", line 199, in main
+    {'preflight':preflight,'capture-check':capture_check,'gpu':gpu}[args.stage](args)
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\live_demo.py", line 126, in gpu
+    raise RuntimeError('Resource guard refused camera GPU load')
+RuntimeError: Resource guard refused camera GPU load

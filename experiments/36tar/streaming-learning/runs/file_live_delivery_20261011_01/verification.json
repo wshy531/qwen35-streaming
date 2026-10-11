@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "cpu_tests": 149,
+  "new_source_contracts": 17,
+  "gpu_records": 46,
+  "runs": [
+    {
+      "run": "file_live_preflight_20261011_01",
+      "model_loaded": false,
+      "received": 9,
+      "qa": 2,
+      "resets": 1
+    },
+    {
+      "run": "file_live_gpu_20261011_01",
+      "model_loaded": false,
+      "ram_gate_refused": true
+    }
+  ],
+  "actual_camera_opened": false,
+  "workers_exited": true,
+  "source_and_assets_verified": true,
+  "qa_bitwise_unchanged": true,
+  "reset_memory_verified": true,
+  "frozen_files_unchanged": 61,
+  "core_and_original_unchanged": true,
+  "capsule_files": 1426,
+  "capsule_bytes": 12158900,
+  "syntax_files": 245,
+  "readme_links": 44,
+  "only_personal_directory": true,
+  "cluster": 0,
+  "training": 0
+}

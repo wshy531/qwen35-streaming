@@ -1,0 +1,19 @@
+test_capture_worker_exits_when_parent_dies (tests.test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies) ... ok
+test_early_close_releases_pipe_and_cancels_slot (tests.test_live_source.LiveSourceTests.test_early_close_releases_pipe_and_cancels_slot) ... ok
+test_ids_time_and_shape_strict_across_packets (tests.test_live_source.LiveSourceTests.test_ids_time_and_shape_strict_across_packets) ... ok
+test_invalid_budget_and_camera_fault_fixture_rejected_before_spawn (tests.test_live_source.LiveSourceTests.test_invalid_budget_and_camera_fault_fixture_rejected_before_spawn) ... ok
+test_oversized_header_is_refused_before_allocation (tests.test_live_source.LiveSourceTests.test_oversized_header_is_refused_before_allocation) ... ok
+test_oversized_pixel_shape_is_refused_before_payload (tests.test_live_source.LiveSourceTests.test_oversized_pixel_shape_is_refused_before_payload) ... ok
+test_packet_wire_roundtrip_and_readonly_rgb (tests.test_live_source.LiveSourceTests.test_packet_wire_roundtrip_and_readonly_rgb) ... ok
+test_real_burst_overload_keeps_only_latest_and_conserves_counts (tests.test_live_source.LiveSourceTests.test_real_burst_overload_keeps_only_latest_and_conserves_counts) ... ok
+test_real_disconnect_error_is_not_silent_eof (tests.test_live_source.LiveSourceTests.test_real_disconnect_error_is_not_silent_eof) ... ok
+test_real_stalled_native_style_read_times_out_and_worker_stops (tests.test_live_source.LiveSourceTests.test_real_stalled_native_style_read_times_out_and_worker_stops) ... ok
+test_real_synthetic_worker_completes_and_closes_without_torch (tests.test_live_source.LiveSourceTests.test_real_synthetic_worker_completes_and_closes_without_torch) ... ok
+test_timestamp_basis_must_be_explicit_and_device_pts_metadata_valid (tests.test_live_source.LiveSourceTests.test_timestamp_basis_must_be_explicit_and_device_pts_metadata_valid) ... ok
+test_truncated_header_and_pixels_rejected (tests.test_live_source.LiveSourceTests.test_truncated_header_and_pixels_rejected) ... ok
+test_unknown_control_kind_refused (tests.test_live_source.LiveSourceTests.test_unknown_control_kind_refused) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 4.526s
+
+OK

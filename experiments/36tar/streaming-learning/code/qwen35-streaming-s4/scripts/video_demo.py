@@ -53,13 +53,16 @@ def budget(args):
 
 
 @torch.inference_mode()
-def replay(model, processor, args, expected_schedule=None, expected_source=None):
+def replay(model, processor, args, expected_schedule=None, expected_source=None, source_factory=None):
     # Timing depends on real inference latency. CPU proof checks every selected
     # source sample in fast mode; clock GPU runs verify the same complete source.
-    effective_playback = args.playback if args.stage == "gpu" else "fast"
+    effective_playback = "live" if source_factory else args.playback if args.stage == "gpu" else "fast"
     scope = "真实权重 GPU · "+("按PTS墙钟播放 / 最新帧替换" if effective_playback == "clock" else "顺序文件重放")
     if args.stage != "gpu":
         scope = "CPU 微型随机权重：全输入接口预检，回答没有语义意义；不模拟GPU耗时"
+    if source_factory:
+        scope += (" · 独立文件读帧进程 / 原视频PTS墙钟播放" if getattr(args,"input_kind",None)=="file"
+                  else " · 实时接收接口 / 接收时刻计时，非传感器曝光延迟")
     if args.consumer_delay_seconds:
         scope += f" · 人工消费者延迟{args.consumer_delay_seconds}秒（调度压力）"
     if getattr(args,"repeat_count",1) > 1:
@@ -79,7 +82,7 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
              model.model.language_model.register_forward_pre_hook(guard("language",limits["language_forwards_max"])),
              model.lm_head.register_forward_pre_hook(guard("lm_head_rows",limits["language_forwards_max"]))]
     repeated = getattr(args,"repeat_count",1) > 1
-    reader = (repeat_packets(args.video,args.fps,args.repeat_period,args.repeat_count)
+    reader = None if source_factory else (repeat_packets(args.video,args.fps,args.repeat_period,args.repeat_count)
               if repeated else read_packets(args.video,args.fps))
     fingerprint = SourceDigest()
     playback = None
@@ -113,9 +116,9 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
                 resources.append(sample)
             if event["kind"] == "answer":
                 lag = max(0.,event["available_wall_seconds"]-event["answer"]["timestamp"])
-                event["answer"]["answer_lag_seconds"] = lag if effective_playback == "clock" else None
+                event["answer"]["answer_lag_seconds"] = lag if effective_playback in ("clock","live") else None
                 event["answer"]["available_wall_seconds"] = event["available_wall_seconds"]
-                if effective_playback == "clock":
+                if effective_playback in ("clock","live"):
                     answer_lags.append(lag)
             if event["kind"] == "encoded":
                 pts = event["record"]["timestamps"]
@@ -136,7 +139,7 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
             if args.ui_port >= 0:
                 print("VIEWER "+viewer.start(args.ui_port),flush=True)
             reason = "source_eof"
-            if effective_playback == "clock":
+            if effective_playback in ("clock","live"):
                 def source_frame(packet, timing):
                     if repeated:
                         timing = {**timing,"source_provenance":provenance(packet)}
@@ -146,7 +149,7 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
                             "timestamp":packet.timestamp,"source_provenance":provenance(packet),
                             "playback":timing},ensure_ascii=False)+"\n")
                         stream.flush()
-                playback = ClockPlayback(reader,args.duration,args.max_frames,source_frame).start()
+                playback = (source_factory(source_frame) if source_factory else ClockPlayback(reader,args.duration,args.max_frames,source_frame)).start()
                 # All timestamps/lag are measured from the source playback origin.
                 begin = playback.origin
             source = playback if playback is not None else reader
@@ -162,7 +165,7 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
                     raise TimeoutError("Registered inference wall budget exceeded")
                 start = time.perf_counter()
                 # Explicit overload injection; never used silently in normal runs.
-                if effective_playback == "clock" and args.consumer_delay_seconds:
+                if effective_playback in ("clock","live") and args.consumer_delay_seconds:
                     time.sleep(args.consumer_delay_seconds)
                 demo.append(packet)
                 if model.device.type == "cuda":
@@ -204,7 +207,7 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
         finally:
             if playback is not None:
                 playback.close()
-            else:
+            elif reader is not None:
                 reader.close()
             # Save final state before close resets session counters.
             viewer.save(args.out/"viewer.html")

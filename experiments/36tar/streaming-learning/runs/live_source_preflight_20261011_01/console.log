@@ -1,0 +1,13 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"event": "encoded", "timestamp": 1.264999999999418, "memory_from": 0.2649999999994179, "answer": null}
+{"event": "encoded", "timestamp": 3.264999999999418, "memory_from": 0.2649999999994179, "answer": null}
+{"event": "answer", "timestamp": 3.264999999999418, "memory_from": 0.2649999999994179, "answer": " Beliau_PHASE乌龙油品(Field土建非常に人格anciaperturaتيح 일은不断增强 Bursa récemment十三条"}
+{"event": "encoded", "timestamp": 5.264999999999418, "memory_from": 0.2649999999994179, "answer": null}
+{"event": "answer", "timestamp": 5.264999999999418, "memory_from": 0.2649999999994179, "answer": " Beliau_PHASE乌龙油品(Field土建非常に人格anciaperturaتيح 일은不断增强 Bursa récemment十三条"}
+{"event": "capacity_reset", "timestamp": 7.264999999999418, "memory_from": 6.264999999999418, "answer": null}
+{"event": "encoded", "timestamp": 7.264999999999418, "memory_from": 6.264999999999418, "answer": null}
+{"event": "encoded", "timestamp": 9.264999999999418, "memory_from": 6.264999999999418, "answer": null}
+{"event": "answer", "timestamp": 9.264999999999418, "memory_from": 6.264999999999418, "answer": " Beliau campion收获的披萨 father เม车主 Pols Постановление液体的nisseiectーク Moderna_capacity撬"}
+{"event": "encoded", "timestamp": 11.264999999999418, "memory_from": 6.264999999999418, "answer": null}
+{"event": "answer", "timestamp": 11.264999999999418, "memory_from": 6.264999999999418, "answer": " Beliau_PHASE乌龙油品(Field土建非常に人格anciaperturaتيح 일은不断增强 Bursa récemment十三条"}
+{"event": "eof", "timestamp": 11.264999999999418, "memory_from": 6.264999999999418, "answer": null}

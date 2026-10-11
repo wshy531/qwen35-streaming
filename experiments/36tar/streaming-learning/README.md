@@ -3,7 +3,7 @@
 这是36tar的独立实验工程，本轮开发分支为 `36tar/general-video-demo`。外层仓库原有文件保持原样；本目录保留 `code/`、`scripts/`、`runs/` 布局，方便双方阅读、复现与决定下一项改造。权重、真实视频、虚拟环境和凭据不入库。
 
 [原PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已由协作方合并；本轮修改通过新的个人分支和PR审阅，main不直推。
-[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新132项CPU/29接口通过；第六段显式短片循环播放约120秒、112帧/36回答/19reset、无丢帧，allocated峰值3.270GiB；此前第五段12例真实采样起点对照已完成，洗手方向稳定、猫细节谨慎复核；新增12例洗脸误答图像/时间诊断两臂生成一致，单图变化有影响、所试时间处理未修复原错误。此前14例咖啡/洗脸及先后错误继续保留。未合并。
+[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新149项CPU/17来源契约通过；文件GPU结果见本段报告，未打开摄像头；第六段显式短片循环播放约120秒、112帧/36回答/19reset、无丢帧，allocated峰值3.270GiB；此前第五段12例真实采样起点对照已完成，洗手方向稳定、猫细节谨慎复核；新增12例洗脸误答图像/时间诊断两臂生成一致，单图变化有影响、所试时间处理未修复原错误。此前14例咖啡/洗脸及先后错误继续保留。未合并。
 
 先读 [实验总纲](实验总纲.md)，再读 [架构设计入口](架构设计.md)。总纲是唯一进度主记录；其余方案、报告和历史快照不替代最新状态。旧记录中的本机绝对路径是实验来源，不是新机器上的运行路径。
 
@@ -16,6 +16,7 @@
 | 墙钟播放、单槽丢帧与时间观测 | [预登记预算](墙钟播放与丢帧验收方案.md) / [正常和过载结果](墙钟播放与丢帧结果.md) / [播放实现](code/qwen35-streaming-s4/streaming/playback.py) |
 | 两素材14例同输入原/流式诊断 | [方案与预算](多视频同输入公平对照方案.md) / [逐例真实答案](多视频同输入公平对照结果.md) / [独立输入核验](code/qwen35-streaming-s4/streaming/fair_inputs.py) |
 | 四帧洗脸误答：图片与时间文字诊断 | [方案](洗脸误答单因素定位方案.md) / [全部真实答案](洗脸误答单因素定位结果.md) / [固定12例](configs/action_ablation_cases.json) |
+| 实时来源CPU软件接口 | [方案](实时输入接口验收方案.md) / [实际结果与待验边界](实时输入接口结果.md) / [采集进程](code/qwen35-streaming-s4/scripts/capture_worker.py) |
 | 两分钟显式循环播放与资源/reset | [预算](两分钟循环播放验收方案.md) / [全部回答及边界](两分钟循环播放结果.md) / [资源分组比较](runs/repeat_playback_delivery_20261011_01/comparison.json) |
 | 两素材整秒/半秒真实采样对照 | [预登记](多视频采样稳定性方案.md) / [全部真实答案](多视频采样稳定性结果.md) / [12例配置](configs/sampling_stability_cases.json) |
 | 合作仓库结构与计划解释 | [架构解读](合作仓库架构与计划解读.md) |
@@ -73,6 +74,42 @@ $clock = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
 页面分别显示源画面位置、接入模型流程的位置、回答实际依据的时间、答案出现的墙钟时间和滞后，以及记忆起点和reset。接入流程的单帧可能尚在等待配对，不能当作已完成视觉编码。CPU预检仍快速遍历全部样本，不按随机微型模型速度模拟GPU丢帧；真实运行核对完整源指纹、参数、源码和资产，实际接入/丢帧日程保存在 `events.jsonl`。
 
 正常实测12个样本全部接入，3次回答滞后0.551–0.633秒。另加 `--consumer-delay-seconds 1.5` 可独立预检和运行显式过载条件：本轮12样本中8接入、4丢弃，2次回答滞后2.370–3.568秒。这个参数是压力注入，不能据此估算正常速度；过载末答错误地说成洗脸。两轮allocated峰值均约3.266GiB，槽内待处理画面最多144KiB；后者不是进程总内存。见 [完整结果及边界](墙钟播放与丢帧结果.md)。
+
+## 独立文件读帧入口（当前使用）
+
+当前用户选择视频文件，暂不启用摄像头。先用真实文件和随机微型模型生成当前接口proof，再运行真实GPU；文件SHA/完整选定源指纹必须同一，按原视频PTS播放，忙时容量1最新帧槽可替换旧帧。完整CPU149/17来源契约通过；本段真实结果与载入前失败见[文件来源报告](文件实时来源结果.md)，预算见[验收方案](文件实时来源验收方案.md)。
+
+```powershell
+$fileLive = @('--input-kind', 'file', '--video', 'E:/VIT Model/datasets/natural_commons_v1/cat_play.webm',
+              '--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B', '--fps', '1', '--duration', '9',
+              '--max-frames', '12', '--question', 'What is the cat doing?', '--answer-tokens', '16',
+              '--max-tokens', '288', '--first-qa-frames', '4', '--qa-every', '2', '--wall-seconds', '90')
+.venv/Scripts/python.exe scripts/run_live_demo.py --stage preflight @fileLive --out runs/my_file_cpu_01
+.venv/Scripts/python.exe scripts/run_live_demo.py --stage gpu @fileLive --preflight runs/my_file_cpu_01 --ui-port 8765 --out runs/my_file_gpu_01
+```
+
+素材文件需自行按既有署名说明准备，不在Git包中。每次使用新的输出目录；资源不足会在载入前拒绝。文件模式不需要capture-check，不打开摄像头。
+
+## 实时摄像头软件入口（本段仅CPU验收）
+
+146完整CPU/14新来源契约通过，合成源真实子进程12帧/4QA/1reset，问答主状态逐位不变；断流、卡住、取消和父退出清理通过。没有打开真实设备，也未新增GPU。预检命令不打开摄像头：
+
+```powershell
+$live = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B', '--device', 'Integrated Camera',
+          '--capture-size', '640x480', '--capture-fps', '15', '--fps', '1',
+          '--duration', '12', '--max-frames', '12', '--question', 'Describe what is happening now.',
+          '--answer-tokens', '16', '--max-tokens', '288', '--first-qa-frames', '4', '--qa-every', '2', '--wall-seconds', '90')
+.venv/Scripts/python.exe scripts/run_live_demo.py --stage preflight @live --out runs/my_live_cpu_01
+```
+
+以下摄像头入口仅可选，当前用户选择暂不启用。用户另行选定拍摄范围后才能执行；两步会实际打开摄像头，不当本段已运行结果：
+
+```powershell
+.venv/Scripts/python.exe scripts/run_live_demo.py --stage capture-check @live --preflight runs/my_live_cpu_01 --out runs/my_camera_probe_01
+.venv/Scripts/python.exe scripts/run_live_demo.py --stage gpu @live --preflight runs/my_live_cpu_01 --capture-check runs/my_camera_probe_01 --ui-port 8765 --out runs/my_live_gpu_01
+```
+
+设备检查仅3帧、不载入模型/不保存RGB；GPU要求新CPUproof、同配置设备probe和原RAM/显存门禁。采集子进程不加载Torch，最大RGB256×256×3，native输入buffer8MiB、只视频不录音，父端最新帧槽容量1；阻塞超时可终止采集进程。会话时间依据接收后的monotonic时刻，原设备PTS另存，页面scope明确非传感器曝光到答案延迟。当前无实际驱动断流/摄像头GPU/场景质量证据，不能据软件测试宣布这些通过。所有历史proof是源快照，改过源码后必须重新预检。
 
 ## 两分钟显式重复压力输入
 

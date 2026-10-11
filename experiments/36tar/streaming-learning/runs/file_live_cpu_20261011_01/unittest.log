@@ -1,0 +1,201 @@
+test_duplicate_case_ids_rejected (tests.test_action_inputs.ActionInputTests.test_duplicate_case_ids_rejected) ... ok
+test_duplicate_images_have_unique_diagnostic_ids (tests.test_action_inputs.ActionInputTests.test_duplicate_images_have_unique_diagnostic_ids) ... ok
+test_invalid_labels_rejected (tests.test_action_inputs.ActionInputTests.test_invalid_labels_rejected) ... ok
+test_one_pixel_preserves_labels (tests.test_action_inputs.ActionInputTests.test_one_pixel_preserves_labels) ... ok
+test_one_pixel_with_label_change_rejected (tests.test_action_inputs.ActionInputTests.test_one_pixel_with_label_change_rejected) ... ok
+test_one_time_preserves_images (tests.test_action_inputs.ActionInputTests.test_one_time_preserves_images) ... ok
+test_shift_requires_same_gaps (tests.test_action_inputs.ActionInputTests.test_shift_requires_same_gaps) ... ok
+test_undeclared_factor_rejected (tests.test_action_inputs.ActionInputTests.test_undeclared_factor_rejected) ... ok
+test_answer_without_backing_pair_rejected (tests.test_fair_inputs.FairInputTests.test_answer_without_backing_pair_rejected) ... ok
+test_context_survives_proof_json_roundtrip (tests.test_fair_inputs.FairInputTests.test_context_survives_proof_json_roundtrip) ... ok
+test_duplicate_or_oversized_selection_rejected (tests.test_fair_inputs.FairInputTests.test_duplicate_or_oversized_selection_rejected) ... ok
+test_empty_full_input_rejected (tests.test_fair_inputs.FairInputTests.test_empty_full_input_rejected) ... ok
+test_eof_padding_not_counted_as_real_frame (tests.test_fair_inputs.FairInputTests.test_eof_padding_not_counted_as_real_frame) ... ok
+test_first_answer_does_not_include_later_frames (tests.test_fair_inputs.FairInputTests.test_first_answer_does_not_include_later_frames) ... ok
+test_landscape_and_odd_eof_inputs_exact (tests.test_fair_inputs.FairInputTests.test_landscape_and_odd_eof_inputs_exact) ... ok
+test_no_answer_rejected (tests.test_fair_inputs.FairInputTests.test_no_answer_rejected) ... ok
+test_portrait_nonuniform_time_inputs_exact (tests.test_fair_inputs.FairInputTests.test_portrait_nonuniform_time_inputs_exact) ... ok
+test_reset_excludes_prior_epoch (tests.test_fair_inputs.FairInputTests.test_reset_excludes_prior_epoch) ... ok
+test_template_control_question_rejected (tests.test_fair_inputs.FairInputTests.test_template_control_question_rejected) ... ok
+test_capture_worker_exits_when_parent_dies (tests.test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies) ... ok
+test_early_close_releases_pipe_and_cancels_slot (tests.test_live_source.LiveSourceTests.test_early_close_releases_pipe_and_cancels_slot) ... ok
+test_file_requires_source_pts_and_preserves_pts (tests.test_live_source.LiveSourceTests.test_file_requires_source_pts_and_preserves_pts) ... ok
+test_ids_time_and_shape_strict_across_packets (tests.test_live_source.LiveSourceTests.test_ids_time_and_shape_strict_across_packets) ... ok
+test_invalid_budget_and_camera_fault_fixture_rejected_before_spawn (tests.test_live_source.LiveSourceTests.test_invalid_budget_and_camera_fault_fixture_rejected_before_spawn) ... ok
+test_missing_file_worker_reports_error_and_closes (tests.test_live_source.LiveSourceTests.test_missing_file_worker_reports_error_and_closes) ... ok
+test_oversized_header_is_refused_before_allocation (tests.test_live_source.LiveSourceTests.test_oversized_header_is_refused_before_allocation) ... ok
+test_oversized_pixel_shape_is_refused_before_payload (tests.test_live_source.LiveSourceTests.test_oversized_pixel_shape_is_refused_before_payload) ... ok
+test_packet_wire_roundtrip_and_readonly_rgb (tests.test_live_source.LiveSourceTests.test_packet_wire_roundtrip_and_readonly_rgb) ... ok
+test_real_burst_overload_keeps_only_latest_and_conserves_counts (tests.test_live_source.LiveSourceTests.test_real_burst_overload_keeps_only_latest_and_conserves_counts) ... ok
+test_real_disconnect_error_is_not_silent_eof (tests.test_live_source.LiveSourceTests.test_real_disconnect_error_is_not_silent_eof) ... ok
+test_real_file_worker_preserves_complete_source_and_bounded_latest_slot (tests.test_live_source.LiveSourceTests.test_real_file_worker_preserves_complete_source_and_bounded_latest_slot) ... ok
+test_real_stalled_native_style_read_times_out_and_worker_stops (tests.test_live_source.LiveSourceTests.test_real_stalled_native_style_read_times_out_and_worker_stops) ... ok
+test_real_synthetic_worker_completes_and_closes_without_torch (tests.test_live_source.LiveSourceTests.test_real_synthetic_worker_completes_and_closes_without_torch) ... ok
+test_timestamp_basis_must_be_explicit_and_device_pts_metadata_valid (tests.test_live_source.LiveSourceTests.test_timestamp_basis_must_be_explicit_and_device_pts_metadata_valid) ... ok
+test_truncated_header_and_pixels_rejected (tests.test_live_source.LiveSourceTests.test_truncated_header_and_pixels_rejected) ... ok
+test_unknown_control_kind_refused (tests.test_live_source.LiveSourceTests.test_unknown_control_kind_refused) ... ok
+test_image_and_video_logits (tests.test_local_model.LocalModelTests.test_image_and_video_logits) ... ok
+test_local_modules_and_checkpoint_roundtrip (tests.test_local_model.LocalModelTests.test_local_modules_and_checkpoint_roundtrip) ... ok
+test_text_logits_and_incremental_cache (tests.test_local_model.LocalModelTests.test_text_logits_and_incremental_cache) ... ok
+test_batch_two_unpadded (tests.test_mixed_state.MixedStateTests.test_batch_two_unpadded) ... ok
+test_budget_rejection_before_mutating_state (tests.test_mixed_state.MixedStateTests.test_budget_rejection_before_mutating_state) ... ok
+test_causal_prefix_unaffected_by_future (tests.test_mixed_state.MixedStateTests.test_causal_prefix_unaffected_by_future) ... ok
+test_clone_copies_storage_for_all_four_fields (tests.test_mixed_state.MixedStateTests.test_clone_copies_storage_for_all_four_fields) ... ok
+test_embeddings_and_nonuniform_four_axis_positions (tests.test_mixed_state.MixedStateTests.test_embeddings_and_nonuniform_four_axis_positions) ... ok
+test_fork_question_branch_does_not_pollute_main (tests.test_mixed_state.MixedStateTests.test_fork_question_branch_does_not_pollute_main) ... ok
+test_internal_64_token_boundaries_and_multiple_seeds (tests.test_mixed_state.MixedStateTests.test_internal_64_token_boundaries_and_multiple_seeds) ... ok
+test_invalid_positions_and_reset_leave_state_unchanged (tests.test_mixed_state.MixedStateTests.test_invalid_positions_and_reset_leave_state_unchanged) ... ok
+test_repeated_forks_reuse_same_prefix_without_shared_storage (tests.test_mixed_state.MixedStateTests.test_repeated_forks_reuse_same_prefix_without_shared_storage) ... ok
+test_reset_removes_real_states_counts_and_model_rope (tests.test_mixed_state.MixedStateTests.test_reset_removes_real_states_counts_and_model_rope) ... ok
+test_short_and_convolution_boundary_chunks (tests.test_mixed_state.MixedStateTests.test_short_and_convolution_boundary_chunks) ... ok
+test_text_after_visual_positions_uses_rope_offset (tests.test_mixed_state.MixedStateTests.test_text_after_visual_positions_uses_rope_offset) ... ok
+test_chat_end_stops_when_model_eos_is_different (tests.test_online.OnlineTests.test_chat_end_stops_when_model_eos_is_different) ... ok
+test_compute_failure_invalidates_until_reset (tests.test_online.OnlineTests.test_compute_failure_invalidates_until_reset) ... ok
+test_each_pair_matches_independent_whole_processor_rope_and_cache (tests.test_online.OnlineTests.test_each_pair_matches_independent_whole_processor_rope_and_cache) ... ok
+test_eos_is_committed_once_and_stops (tests.test_online.OnlineTests.test_eos_is_committed_once_and_stops) ... ok
+test_future_frames_do_not_change_committed_prefix (tests.test_online.OnlineTests.test_future_frames_do_not_change_committed_prefix) ... ok
+test_invalid_frame_rejected_without_mutating_pending_or_counts (tests.test_online.OnlineTests.test_invalid_frame_rejected_without_mutating_pending_or_counts) ... ok
+test_odd_eof_duplicates_only_then_seals_input (tests.test_online.OnlineTests.test_odd_eof_duplicates_only_then_seals_input) ... ok
+test_pending_is_copied_readonly_and_does_not_compute (tests.test_online.OnlineTests.test_pending_is_copied_readonly_and_does_not_compute) ... ok
+test_precision_context_restored_even_on_failure_and_canvas_validation (tests.test_online.OnlineTests.test_precision_context_restored_even_on_failure_and_canvas_validation) ... ok
+test_question_template_injection_and_budgets_rejected_before_fork (tests.test_online.OnlineTests.test_question_template_injection_and_budgets_rejected_before_fork) ... ok
+test_real_question_decode_matches_independent_reference_and_main_continues (tests.test_online.OnlineTests.test_real_question_decode_matches_independent_reference_and_main_continues) ... ok
+test_reserved_capacity_rejects_pair_before_vision_without_mutation (tests.test_online.OnlineTests.test_reserved_capacity_rejects_pair_before_vision_without_mutation) ... ok
+test_reset_clears_pending_caches_eof_and_close_releases (tests.test_online.OnlineTests.test_reset_clears_pending_caches_eof_and_close_releases) ... ok
+test_state_only_video_writes_and_last_only_qa (tests.test_online.OnlineTests.test_state_only_video_writes_and_last_only_qa) ... ok
+test_actual_timestamp_tokens_are_checked_before_vision (tests.test_pair_demo.DemoTests.test_actual_timestamp_tokens_are_checked_before_vision) ... ok
+test_capacity_reset_exposes_new_memory_origin (tests.test_pair_demo.DemoTests.test_capacity_reset_exposes_new_memory_origin) ... ok
+test_capacity_reset_retains_both_new_frames_and_restarts_four_frame_trigger (tests.test_pair_demo.DemoTests.test_capacity_reset_retains_both_new_frames_and_restarts_four_frame_trigger) ... ok
+test_empty_and_even_eof_release_and_seal (tests.test_pair_demo.DemoTests.test_empty_and_even_eof_release_and_seal) ... ok
+test_eof_capacity_reset_keeps_one_real_frame (tests.test_pair_demo.DemoTests.test_eof_capacity_reset_keeps_one_real_frame) ... ok
+test_failure_is_logged_and_close_clears_active_state (tests.test_pair_demo.DemoTests.test_failure_is_logged_and_close_clears_active_state) ... ok
+test_first_four_then_each_two_and_pending_no_computation (tests.test_pair_demo.DemoTests.test_first_four_then_each_two_and_pending_no_computation) ... ok
+test_generic_single_frame_eof_can_answer_custom_question (tests.test_pair_demo.DemoTests.test_generic_single_frame_eof_can_answer_custom_question) ... ok
+test_global_order_and_shape_survive_capacity_reset_and_rejection_is_reversible (tests.test_pair_demo.DemoTests.test_global_order_and_shape_survive_capacity_reset_and_rejection_is_reversible) ... ok
+test_odd_after_first_answer_does_not_trigger_extra_eof_answer (tests.test_pair_demo.DemoTests.test_odd_after_first_answer_does_not_trigger_extra_eof_answer) ... ok
+test_skipped_source_frames_preserve_actual_pts_and_qa_context (tests.test_pair_demo.DemoTests.test_skipped_source_frames_preserve_actual_pts_and_qa_context) ... ok
+test_three_real_frames_at_eof_do_not_become_four (tests.test_pair_demo.DemoTests.test_three_real_frames_at_eof_do_not_become_four) ... ok
+test_cancel_wakes_waiter_and_releases_buffer (tests.test_playback.PlaybackTests.test_cancel_wakes_waiter_and_releases_buffer) ... ok
+test_close_interrupts_future_frame_wait_and_closes_generator (tests.test_playback.PlaybackTests.test_close_interrupts_future_frame_wait_and_closes_generator) ... ok
+test_duration_limit_is_not_counted_as_a_delivered_frame (tests.test_playback.PlaybackTests.test_duration_limit_is_not_counted_as_a_delivered_frame) ... ok
+test_eof_drains_last_slot_and_error_is_not_silently_eof (tests.test_playback.PlaybackTests.test_eof_drains_last_slot_and_error_is_not_silently_eof) ... ok
+test_invalid_input_budgets_rejected (tests.test_playback.PlaybackTests.test_invalid_input_budgets_rejected) ... ok
+test_overload_replaces_only_unclaimed_frame_and_counts_losses (tests.test_playback.PlaybackTests.test_overload_replaces_only_unclaimed_frame_and_counts_losses) ... ok
+test_pacer_does_not_deliver_future_and_uses_actual_vfr_pts (tests.test_playback.PlaybackTests.test_pacer_does_not_deliver_future_and_uses_actual_vfr_pts) ... ok
+test_real_thread_all_source_fingerprint_includes_dropped_frames (tests.test_playback.PlaybackTests.test_real_thread_all_source_fingerprint_includes_dropped_frames) ... ok
+test_repeated_overload_has_constant_pixel_storage (tests.test_playback.PlaybackTests.test_repeated_overload_has_constant_pixel_storage) ... ok
+test_source_exception_propagates_and_stops_producer (tests.test_playback.PlaybackTests.test_source_exception_propagates_and_stops_producer) ... ok
+test_threaded_vfr_source_never_publishes_before_pts (tests.test_playback.PlaybackTests.test_threaded_vfr_source_never_publishes_before_pts) ... ok
+test_batch_two_unpadded (tests.test_mixed_state.MixedStateTests.test_batch_two_unpadded) ... ok
+test_budget_rejection_before_mutating_state (tests.test_mixed_state.MixedStateTests.test_budget_rejection_before_mutating_state) ... ok
+test_causal_prefix_unaffected_by_future (tests.test_mixed_state.MixedStateTests.test_causal_prefix_unaffected_by_future) ... ok
+test_clone_copies_storage_for_all_four_fields (tests.test_mixed_state.MixedStateTests.test_clone_copies_storage_for_all_four_fields) ... ok
+test_embeddings_and_nonuniform_four_axis_positions (tests.test_mixed_state.MixedStateTests.test_embeddings_and_nonuniform_four_axis_positions) ... ok
+test_fork_question_branch_does_not_pollute_main (tests.test_mixed_state.MixedStateTests.test_fork_question_branch_does_not_pollute_main) ... ok
+test_internal_64_token_boundaries_and_multiple_seeds (tests.test_mixed_state.MixedStateTests.test_internal_64_token_boundaries_and_multiple_seeds) ... ok
+test_invalid_positions_and_reset_leave_state_unchanged (tests.test_mixed_state.MixedStateTests.test_invalid_positions_and_reset_leave_state_unchanged) ... ok
+test_repeated_forks_reuse_same_prefix_without_shared_storage (tests.test_mixed_state.MixedStateTests.test_repeated_forks_reuse_same_prefix_without_shared_storage) ... ok
+test_reset_removes_real_states_counts_and_model_rope (tests.test_mixed_state.MixedStateTests.test_reset_removes_real_states_counts_and_model_rope) ... ok
+test_short_and_convolution_boundary_chunks (tests.test_mixed_state.MixedStateTests.test_short_and_convolution_boundary_chunks) ... ok
+test_text_after_visual_positions_uses_rope_offset (tests.test_mixed_state.MixedStateTests.test_text_after_visual_positions_uses_rope_offset) ... ok
+test_batch_two_unpadded (tests.test_recurrent_reference.RecurrentReferenceTests.test_batch_two_unpadded) ... ok
+test_budget_rejection_before_mutating_state (tests.test_recurrent_reference.RecurrentReferenceTests.test_budget_rejection_before_mutating_state) ... ok
+test_causal_prefix_unaffected_by_future (tests.test_recurrent_reference.RecurrentReferenceTests.test_causal_prefix_unaffected_by_future) ... ok
+test_clone_copies_storage_for_all_four_fields (tests.test_recurrent_reference.RecurrentReferenceTests.test_clone_copies_storage_for_all_four_fields) ... ok
+test_embeddings_and_nonuniform_four_axis_positions (tests.test_recurrent_reference.RecurrentReferenceTests.test_embeddings_and_nonuniform_four_axis_positions) ... ok
+test_fork_question_branch_does_not_pollute_main (tests.test_recurrent_reference.RecurrentReferenceTests.test_fork_question_branch_does_not_pollute_main) ... ok
+test_internal_64_token_boundaries_and_multiple_seeds (tests.test_recurrent_reference.RecurrentReferenceTests.test_internal_64_token_boundaries_and_multiple_seeds) ... ok
+test_invalid_positions_and_reset_leave_state_unchanged (tests.test_recurrent_reference.RecurrentReferenceTests.test_invalid_positions_and_reset_leave_state_unchanged) ... ok
+test_optional_rule_does_not_change_parameters_and_fp32_prefill_close (tests.test_recurrent_reference.RecurrentReferenceTests.test_optional_rule_does_not_change_parameters_and_fp32_prefill_close) ... ok
+test_repeated_forks_reuse_same_prefix_without_shared_storage (tests.test_recurrent_reference.RecurrentReferenceTests.test_repeated_forks_reuse_same_prefix_without_shared_storage) ... ok
+test_reset_removes_real_states_counts_and_model_rope (tests.test_recurrent_reference.RecurrentReferenceTests.test_reset_removes_real_states_counts_and_model_rope) ... ok
+test_rule_config_survives_checkpoint (tests.test_recurrent_reference.RecurrentReferenceTests.test_rule_config_survives_checkpoint) ... ok
+test_short_and_convolution_boundary_chunks (tests.test_recurrent_reference.RecurrentReferenceTests.test_short_and_convolution_boundary_chunks) ... ok
+test_text_after_visual_positions_uses_rope_offset (tests.test_recurrent_reference.RecurrentReferenceTests.test_text_after_visual_positions_uses_rope_offset) ... ok
+test_early_close_does_not_open_next_loop (tests.test_repeat_source.RepeatSourceTests.test_early_close_does_not_open_next_loop) ... ok
+test_empty_source_is_rejected (tests.test_repeat_source.RepeatSourceTests.test_empty_source_is_rejected) ... ok
+test_gap_is_not_filled_with_duplicate_frames (tests.test_repeat_source.RepeatSourceTests.test_gap_is_not_filled_with_duplicate_frames) ... ok
+test_invalid_fps_rejected_without_open (tests.test_repeat_source.RepeatSourceTests.test_invalid_fps_rejected_without_open) ... ok
+test_invalid_repeat_budget_rejected_without_open (tests.test_repeat_source.RepeatSourceTests.test_invalid_repeat_budget_rejected_without_open) ... ok
+test_missing_and_reversed_pts_are_rejected (tests.test_repeat_source.RepeatSourceTests.test_missing_and_reversed_pts_are_rejected) ... ok
+test_period_overlap_is_rejected (tests.test_repeat_source.RepeatSourceTests.test_period_overlap_is_rejected) ... ok
+test_real_source_pts_global_timeline_and_decode_ids_include_tail (tests.test_repeat_source.RepeatSourceTests.test_real_source_pts_global_timeline_and_decode_ids_include_tail) ... ok
+test_declared_targets (tests.test_sampling_inputs.SamplingInputTests.test_declared_targets) ... ok
+test_does_not_read_after_fourth (tests.test_sampling_inputs.SamplingInputTests.test_does_not_read_after_fourth) ... ok
+test_first_real_pts_after_target (tests.test_sampling_inputs.SamplingInputTests.test_first_real_pts_after_target) ... ok
+test_invalid_delivered_pts (tests.test_sampling_inputs.SamplingInputTests.test_invalid_delivered_pts) ... ok
+test_invalid_start (tests.test_sampling_inputs.SamplingInputTests.test_invalid_start) ... ok
+test_missing_slot_not_duplicated (tests.test_sampling_inputs.SamplingInputTests.test_missing_slot_not_duplicated) ... ok
+test_short_source_rejected (tests.test_sampling_inputs.SamplingInputTests.test_short_source_rejected) ... ok
+test_unregistered_phase (tests.test_sampling_inputs.SamplingInputTests.test_unregistered_phase) ... ok
+test_invalid_reset_preserves_prior_state (tests.test_stream_session.SessionTests.test_invalid_reset_preserves_prior_state) ... ok
+test_many_resets_keep_numbering_and_capacity_valid (tests.test_stream_session.SessionTests.test_many_resets_keep_numbering_and_capacity_valid) ... ok
+test_reset_removes_pixels_identity_question_count_and_rope (tests.test_stream_session.SessionTests.test_reset_removes_pixels_identity_question_count_and_rope) ... ok
+test_invalid_append_leaves_window_unchanged (tests.test_stream_window.WindowTests.test_invalid_append_leaves_window_unchanged) ... ok
+test_question_does_not_pull_next_frame (tests.test_stream_window.WindowTests.test_question_does_not_pull_next_frame) ... ok
+test_same_prefix_different_future_has_same_early_window (tests.test_stream_window.WindowTests.test_same_prefix_different_future_has_same_early_window) ... ok
+test_sampler_uses_arrived_pts_and_skips_missed_deadlines (tests.test_stream_window.WindowTests.test_sampler_uses_arrived_pts_and_skips_missed_deadlines) ... ok
+test_window_is_bounded_after_many_frames (tests.test_stream_window.WindowTests.test_window_is_bounded_after_many_frames) ... ok
+test_window_owns_pixels_and_reset_restarts_identity (tests.test_stream_window.WindowTests.test_window_owns_pixels_and_reset_restarts_identity) ... ok
+test_collaborator_branch_config (tests.test_video_demo.VideoDemoTests.test_collaborator_branch_config) ... ok
+test_invalid_logit_option_rejected_before_state (tests.test_video_demo.VideoDemoTests.test_invalid_logit_option_rejected_before_state) ... ok
+test_launcher_and_core_are_in_source_proof (tests.test_video_demo.VideoDemoTests.test_launcher_and_core_are_in_source_proof) ... ok
+test_logit_modes_same_state_and_last_prediction (tests.test_video_demo.VideoDemoTests.test_logit_modes_same_state_and_last_prediction) ... ok
+test_loopback_http_current_state_and_cleanup (tests.test_video_demo.VideoDemoTests.test_loopback_http_current_state_and_cleanup) ... ERROR
+test_matching_aspect_has_no_padding_or_geometry_change (tests.test_video_demo.VideoDemoTests.test_matching_aspect_has_no_padding_or_geometry_change) ... ok
+test_missing_preflight_rejected_before_gpu (tests.test_video_demo.VideoDemoTests.test_missing_preflight_rejected_before_gpu) ... ok
+test_portrait_and_wide_geometry_no_stretch (tests.test_video_demo.VideoDemoTests.test_portrait_and_wide_geometry_no_stretch) ... ok
+test_proof_rejects_changed_input_source_request_and_failed_cpu (tests.test_video_demo.VideoDemoTests.test_proof_rejects_changed_input_source_request_and_failed_cpu) ... ok
+test_viewer_bounded_answers_and_safe_snapshot (tests.test_video_demo.VideoDemoTests.test_viewer_bounded_answers_and_safe_snapshot) ... ok
+
+======================================================================
+ERROR: test_loopback_http_current_state_and_cleanup (tests.test_video_demo.VideoDemoTests.test_loopback_http_current_state_and_cleanup)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1085, in send
+    self.connect()
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 865, in create_connection
+    raise exceptions[0]
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\socket.py", line 850, in create_connection
+    sock.connect(sa)
+PermissionError: [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\tests\test_video_demo.py", line 93, in test_loopback_http_current_state_and_cleanup
+    with opener.open(url+"state",timeout=2) as reply:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 1373, in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\21195\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\urllib\request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>
+
+----------------------------------------------------------------------
+Ran 149 tests in 16.665s
+
+FAILED (errors=1)
