@@ -1,8 +1,8 @@
 # 36tar：流式视频架构学习与实验交接
 
-这是截至2026-10-10的独立实验工程，位于个人分支 `36tar/s4-mixed-state`。外层仓库原有文件保持原样；本目录保留已验证的 `code/`、`scripts/`、`runs/` 布局，方便双方阅读、复现与决定下一项改造。没有上传权重、真实视频、虚拟环境或凭据。
+这是36tar的独立实验工程，本轮开发分支为 `36tar/general-video-demo`。外层仓库原有文件保持原样；本目录保留 `code/`、`scripts/`、`runs/` 布局，方便双方阅读、复现与决定下一项改造。权重、真实视频、虚拟环境和凭据不入库。
 
-[草稿PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已建立，等待双方审阅，尚未合并main。
+[原PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已由协作方合并；本轮修改通过新的个人分支和PR审阅，main不直推。
 
 先读 [实验总纲](实验总纲.md)，再读 [架构设计入口](架构设计.md)。总纲是唯一进度主记录；其余方案、报告和历史快照不替代最新状态。旧记录中的本机绝对路径是实验来源，不是新机器上的运行路径。
 
@@ -10,6 +10,8 @@
 
 | 内容 | 入口 |
 |---|---|
+| 当前通用视频入口 | [运行与约定](#通用视频演示入口) / [设计与预算](通用视频演示设计与验收.md) |
+| 本轮CPU与真实权重结果 | [通用视频结果及失败回答](通用视频演示结果.md) |
 | 合作仓库结构与计划解释 | [架构解读](合作仓库架构与计划解读.md) |
 | 机制与未解决问题 | [通俗复盘](流式视频架构学习复盘与未解决问题.md) |
 | 当前语言计算块验证 | [32/64交错、多长度结果](语言计算块交错扩展结果.md) |
@@ -21,7 +23,31 @@
 | 最新严格验证完整证据 | [GPU报告](runs/s4b_chunk_interleaved_gpu_20261010_01/interleaved_summary.json) / [审计](runs/s4b_chunk_interleaved_delivery_check_20261010_02/verification.json) |
 | 素材来源及署名 | [ATTRIBUTION](datasets/natural_commons_v1/ATTRIBUTION.md) |
 
-`code/qwen35-streaming` 保留原基线，`code/qwen35-streaming-s4` 是增量实验实现。S4对多Token输入续接卷积与递归状态，另外管理普通注意力KV；问答在fork分支运行，主历史不受回答影响。容量超限需reset或显式拒绝，尚未实现无限记忆、缓存裁剪或训练。递归参考、固定时间单元视觉与32计算块是显式实验候选，不能当作原默认路径已修复。
+**唯一活动实现是本目录的 `code/qwen35-streaming-s4`**，新通用入口为 `scripts/run_video_demo.py` → `scripts.video_demo`。`code/qwen35-streaming` 只读原基线；`runs/**/script_snapshot.py` 等是运行时证据，不是开发入口；旧根启动器和 `scripts.pair_demo` 是历史固定实验复现工具。双方修改活动实现，并使用新的run_id，避免编辑不同副本。首次上传清单 `UPLOAD_SOURCE_MANIFEST.json` 是1c8141b之前的导出快照，不能当作后续修改的当前校验清单；每次新预检重新生成source_hashes/proof。
+
+S4对多Token输入续接卷积与递归状态，另外管理普通注意力KV；问答在fork分支运行，主历史不受回答影响。容量超限需reset或显式拒绝，尚未实现无限记忆、缓存裁剪或训练。递归参考、固定时间单元视觉与32计算块是显式实验候选，不能当作原默认路径已修复。
+
+## 通用视频演示入口
+
+在本目录运行，准备本机固定revision的模型资产（含DOWNLOAD_MANIFEST.json）和任意本地视频。以下路径需改成自己的；两个stage使用同一视频、问题和参数，新输出目录不能已存在：
+
+```powershell
+$common = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
+            '--video', 'E:/VIT Model/datasets/natural_commons_v1/clean_hands.webm',
+            '--question', 'What are the hands doing?', '--fps', '1', '--duration', '8',
+            '--max-frames', '8', '--answer-tokens', '16', '--qa-every', '4',
+            '--max-tokens', '256', '--wall-seconds', '180')
+.venv/Scripts/python.exe scripts/run_video_demo.py --stage preflight @common --out runs/my_video_cpu_01
+.venv/Scripts/python.exe scripts/run_video_demo.py --stage gpu @common --preflight runs/my_video_cpu_01 --ui-port 8765 --out runs/my_video_gpu_01
+```
+
+运行中打开 `http://127.0.0.1:8765/` 查看当前画面和最近回答；结束后服务关闭，打开输出的 `viewer.html` 查看末画面及最近8条回答。页面显示当前接收视频时间、实际回答对应时间、记忆从何时开始、重置次数和历史Token数。`events.jsonl` 保存全部有限事件，`summary.json` 保存显存峰值、全程重放时间和包括问答/解码的append耗时；不要只看语言阶段耗时。
+
+默认保持比例居中补黑边，视频写入不计算词表logits，问答只投影末位置；回归证据接口仍可输出完整logits。支持任意长度视频，按 `--duration` 与 `--max-frames` 明确截断，实际样本数可以小于预算，不要求23帧；奇数末帧在EOF/限制结束时补对。每次问题自包含；仅一帧也允许EOF回答，但两帧输入可能理解错误，不能用流程通过冒充准确率。
+
+GPU默认允许任意非main/master、非detached的协作分支，不绑定36tar；可重复 `--allow-branch your/name` 收紧名单。CPU证明绑定源码及启动器、问题/参数、视频SHA和全部模型资产；改变任一项须重新预检。CPU阶段回答来自随机微型权重，页面会明确标注，不证明视频理解。所有运行在已声明显存/RAM/forward/生成/墙钟预算内；不适合绕过门禁做无限输入。
+
+当前是有限、同步顺序文件重放；没有按墙钟播放、摄像头、丢帧队列或跨reset记忆。先做这些工程验证及多视频能力比较，再评估BF16、32/64块与长期记忆。使用新入口时无需调用绑定个人分支的历史启动器。
 
 ## 已有证据与边界
 
@@ -59,4 +85,4 @@ Set-Location code/qwen35-streaming-s4
 
 归档的proof中含旧资产路径、代码SHA和输入指纹，**不能直接用作新机器/新源码的GPU预检**。先产生新的CPU证明，保留成功和失败输出；Git或不同操作系统若改变换行字节，也应重新冻结源码证明。`UPLOAD_SOURCE_MANIFEST.json`记录此次导出内容的原始SHA；历史source_tree/provenance表示各次运行时的版本。
 
-后续优先考虑统一显式32/64选项，再做短问答生成与完整延迟回归；长期输入、能力评测、BF16、压缩/森林和训练分别按证据决定。合并通过PR审阅，不直接推送main。
+接续优先级由最新总纲决定：通用连续效果 → 墙钟/摄像头与丢帧 → 多视频公平对照 → 全程延迟/长期资源 → BF16、32/64和长期状态。合并通过PR审阅，不直接推送main。

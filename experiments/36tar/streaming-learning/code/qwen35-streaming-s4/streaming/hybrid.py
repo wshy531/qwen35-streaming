@@ -17,7 +17,10 @@ class HybridSequence:
         self.next_rope_position = 0
 
     @torch.inference_mode()
-    def append(self,input_ids=None,inputs_embeds=None,position_ids=None):
+    def append(self,input_ids=None,inputs_embeds=None,position_ids=None,logits_mode="full"):
+        """Update all hybrid state; optionally project all, last or no hidden rows."""
+        if logits_mode not in ("full","last","none"):
+            raise ValueError("logits_mode must be full, last or none")
         if self.model.training:
             raise ValueError("This bounded interface is inference-only; call eval first")
         if (input_ids is None) == (inputs_embeds is None):
@@ -57,7 +60,10 @@ class HybridSequence:
         self.seen_tokens += length
         self.next_rope_position = max(self.next_rope_position,int(position_ids[1:].max())+1)
         assert self.cache.get_seq_length() == self.seen_tokens
-        return self.model.lm_head(result.last_hidden_state)
+        if logits_mode == "none":
+            return None
+        hidden = result.last_hidden_state
+        return self.model.lm_head(hidden if logits_mode == "full" else hidden[:,-1:,:])
 
     def fork(self,session_id="question"):
         branch = type(self)(self.model,self.max_tokens,session_id)

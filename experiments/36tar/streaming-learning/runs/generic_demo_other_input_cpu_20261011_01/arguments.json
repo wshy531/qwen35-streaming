@@ -1,0 +1,13 @@
+{
+  "video": "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "question": "画面里有什么动物？",
+  "fps": 0.625,
+  "duration": 3.4,
+  "max_frames": 5,
+  "answer_tokens": 2,
+  "qa_every": 4,
+  "max_tokens": 256,
+  "wall_seconds": 180,
+  "allow_branch": []
+}

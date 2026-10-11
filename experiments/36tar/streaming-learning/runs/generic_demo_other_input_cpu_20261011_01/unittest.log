@@ -1,0 +1,15 @@
+test_collaborator_branch_config (tests.test_video_demo.VideoDemoTests.test_collaborator_branch_config) ... ok
+test_invalid_logit_option_rejected_before_state (tests.test_video_demo.VideoDemoTests.test_invalid_logit_option_rejected_before_state) ... ok
+test_launcher_and_core_are_in_source_proof (tests.test_video_demo.VideoDemoTests.test_launcher_and_core_are_in_source_proof) ... ok
+test_logit_modes_same_state_and_last_prediction (tests.test_video_demo.VideoDemoTests.test_logit_modes_same_state_and_last_prediction) ... ok
+test_loopback_http_current_state_and_cleanup (tests.test_video_demo.VideoDemoTests.test_loopback_http_current_state_and_cleanup) ... ok
+test_matching_aspect_has_no_padding_or_geometry_change (tests.test_video_demo.VideoDemoTests.test_matching_aspect_has_no_padding_or_geometry_change) ... ok
+test_missing_preflight_rejected_before_gpu (tests.test_video_demo.VideoDemoTests.test_missing_preflight_rejected_before_gpu) ... ok
+test_portrait_and_wide_geometry_no_stretch (tests.test_video_demo.VideoDemoTests.test_portrait_and_wide_geometry_no_stretch) ... ok
+test_proof_rejects_changed_input_source_request_and_failed_cpu (tests.test_video_demo.VideoDemoTests.test_proof_rejects_changed_input_source_request_and_failed_cpu) ... ok
+test_viewer_bounded_answers_and_safe_snapshot (tests.test_video_demo.VideoDemoTests.test_viewer_bounded_answers_and_safe_snapshot) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.668s
+
+OK

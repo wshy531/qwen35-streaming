@@ -1,0 +1,13 @@
+{
+  "video": "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "question": "What are the hands doing?",
+  "fps": 1.0,
+  "duration": 8.0,
+  "max_frames": 8,
+  "answer_tokens": 16,
+  "qa_every": 4,
+  "max_tokens": 256,
+  "wall_seconds": 180,
+  "allow_branch": []
+}

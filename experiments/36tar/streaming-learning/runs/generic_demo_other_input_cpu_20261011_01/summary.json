@@ -1,0 +1,99 @@
+{
+  "scope": "CPU 微型随机权重：仅验证接口，回答没有语义意义",
+  "budget": {
+    "model_loads": 1,
+    "frames_max": 5,
+    "vision_forwards_max": 3,
+    "questions_max": 3,
+    "language_forwards_max": 15,
+    "generated_tokens_max": 6,
+    "history_tokens_max": 158,
+    "wall_seconds": 180,
+    "free_gpu_gib_min": 5.5,
+    "available_ram_gib_min": 3,
+    "precision": "fp32_ieee_math",
+    "resize": "letterbox",
+    "video_logits": "none",
+    "qa_logits": "last"
+  },
+  "counts": {
+    "vision": 2,
+    "language": 6,
+    "lm_head_rows": 3
+  },
+  "final": {
+    "received_real_frames": 3,
+    "encoded_real_frames": 3,
+    "pairs": 2,
+    "questions": 1,
+    "resets": 0,
+    "epoch": 0,
+    "generated_tokens": 2,
+    "memory_from_pts": 0.0,
+    "history_across_reset": false,
+    "last_received_id": 96,
+    "last_received_pts": 3.1999999999999997,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "max_buffered_rgb_bytes": 221184,
+    "finished": true,
+    "closed": false,
+    "invalid": false,
+    "session": {
+      "accepted_frames": 3,
+      "encoded_real_frames": 3,
+      "pending_frame_id": null,
+      "last_received_id": 96,
+      "last_encoded_id": 96,
+      "last_encoded_pts": 3.1999999999999997,
+      "seen_tokens": 115,
+      "next_rope_position": 35,
+      "vision_encodings": 2,
+      "pending_rgb_bytes": 0,
+      "finished": true,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    }
+  },
+  "schedule": [
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 3,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "eof",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 3,
+      "seen_tokens": 115
+    }
+  ],
+  "append_including_qa_and_decode_latency": {
+    "count": 3,
+    "sum_seconds": 0.14510860000245884,
+    "max_seconds": 0.0773922000012135
+  },
+  "replay_wall_seconds": 0.22788820000005217,
+  "peak_process_rss_bytes": 851009536,
+  "cross_reset_memory": false,
+  "end_to_end_speedup_proven": false,
+  "realtime": false
+}

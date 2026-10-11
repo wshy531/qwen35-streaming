@@ -12,6 +12,7 @@ from transformers.feature_extraction_utils import BatchFeature
 
 from streaming.hybrid import HybridSequence
 from streaming.window import FramePacket
+from streaming.preprocessing import fit_canvas
 
 
 @contextmanager
@@ -29,7 +30,10 @@ def fp32_reference():
 
 
 class PairInputBuilder:
-    def __init__(self,processor,canvas=(192,256)):
+    def __init__(self,processor,canvas=(192,256),resize_mode="stretch"):
+        if resize_mode not in ("stretch","letterbox"):
+            raise ValueError("resize_mode must be stretch or letterbox")
+        self.resize_mode = resize_mode
         self.processor = processor
         factor = processor.video_processor.patch_size*processor.video_processor.merge_size
         if (len(canvas) != 2 or any(not isinstance(x,int) or isinstance(x,bool) or x < factor or x > 256 or x%factor for x in canvas)
@@ -77,7 +81,8 @@ class PairInputBuilder:
         return torch.cat((text,torch.tensor(coordinates).T[None,:,:].transpose(0,1)),0)
 
     def pair(self,first,second,seen_tokens,next_rope,synthetic_padding=False):
-        images = [np.asarray(Image.fromarray(p.rgb).resize((self.canvas[1],self.canvas[0]),Image.Resampling.BICUBIC))
+        images = [fit_canvas(p.rgb,self.canvas) if self.resize_mode == "letterbox" else
+                  np.asarray(Image.fromarray(p.rgb).resize((self.canvas[1],self.canvas[0]),Image.Resampling.BICUBIC))
                   for p in (first,second)]
         pixels = self.processor.video_processor(videos=[np.stack(images)],do_resize=False,do_sample_frames=False,
             return_metadata=False,return_tensors="pt")
@@ -102,7 +107,7 @@ def greedy_decode(branch,logits,max_new_tokens,eos_ids):
     for _ in range(max_new_tokens):
         token = int(logits[0,-1].argmax())
         generated.append(token)
-        logits = branch.append(input_ids=torch.tensor([[token]],device=logits.device))
+        logits = branch.append(input_ids=torch.tensor([[token]],device=logits.device),logits_mode="last")
         if token in eos_ids:
             reason = "eos"
             break
@@ -111,12 +116,16 @@ def greedy_decode(branch,logits,max_new_tokens,eos_ids):
 
 class OnlinePairSession:
     """One session, no concurrency/rollback guarantee; fixed canvas and FP32 only."""
-    def __init__(self,model,processor,canvas=(192,256),max_tokens=256,max_question_tokens=64,max_answer_tokens=16):
+    def __init__(self,model,processor,canvas=(192,256),max_tokens=256,max_question_tokens=64,max_answer_tokens=16,
+                 resize_mode="stretch",video_logits="full"):
+        if video_logits not in ("full","last","none"):
+            raise ValueError("video_logits must be full, last or none")
+        self.video_logits = video_logits
         if model.training or model.get_input_embeddings().weight.dtype != torch.float32:
             raise ValueError("Explicit FP32 eval model required")
         if any(not isinstance(x,int) or isinstance(x,bool) or x < 1 for x in (max_tokens,max_question_tokens,max_answer_tokens)):
             raise ValueError("Positive integer token budgets required")
-        self.builder = PairInputBuilder(processor,canvas)
+        self.builder = PairInputBuilder(processor,canvas,resize_mode)
         self.model,self.processor = model,processor
         self.max_tokens,self.max_question_tokens,self.max_answer_tokens = max_tokens,max_question_tokens,max_answer_tokens
         self.main_budget = max_tokens-max_question_tokens-max_answer_tokens
@@ -183,8 +192,8 @@ class OnlinePairSession:
                 assert mask.sum() == features.numel()
                 embeddings = embeddings.masked_scatter(mask,features)
                 if prefix_size:
-                    self.main.append(input_ids=self.builder.prefix_ids.to(device))
-                logits = self.main.append(inputs_embeds=embeddings,position_ids=inputs.position_ids)
+                    self.main.append(input_ids=self.builder.prefix_ids.to(device),logits_mode=self.video_logits)
+                logits = self.main.append(inputs_embeds=embeddings,position_ids=inputs.position_ids,logits_mode=self.video_logits)
         except Exception:
             self.invalid = True
             raise
@@ -235,7 +244,7 @@ class OnlinePairSession:
         try:
             with fp32_reference():
                 branch = self.main.fork()
-                logits = branch.append(input_ids=suffix.to(device))
+                logits = branch.append(input_ids=suffix.to(device),logits_mode="full" if return_evidence else "last")
                 initial = logits if return_evidence else None
                 eos = self.model.generation_config.eos_token_id
                 eos_ids = set([] if eos is None else eos if isinstance(eos,list) else [eos])
