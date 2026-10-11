@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "status": "正在播放：22.02 秒\n最近接入模型：22.02 秒\n当前记忆从：18.02 秒\n重置：3 次\n丢帧：0 / 已采样 23\n模型已收到：23 帧\n本次运行已结束",
+  "scope": "真实权重 GPU · 顺序文件重放 · 独立文件读帧进程 / 原视频PTS墙钟播放",
+  "answers": 7,
+  "method": "Actual file GPU snapshot JS/DOM simulation; no camera or browser visual claim"
+}

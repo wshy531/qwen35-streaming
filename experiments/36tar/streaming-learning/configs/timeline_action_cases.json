@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "video": "clean_hands.webm",
+  "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+  "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+  "cases": [
+    {"sample_index": 3, "expected": "WASHING"},
+    {"sample_index": 5, "expected": "WASHING"},
+    {"sample_index": 9, "expected": "WASHING"},
+    {"sample_index": 11, "expected": "WASHING"},
+    {"sample_index": 15, "expected": "USING_PAPER"},
+    {"sample_index": 17, "expected": "USING_PAPER"},
+    {"sample_index": 21, "expected": "USING_PAPER"}
+  ],
+  "rubric": "Most recent two real frames; USING_PAPER includes retrieving/using towels. At index21, index20 visibly uses paper; index21 alone blurred. Exact trimmed label scoring, no post-answer rubric changes.",
+  "model_answer_budget": 16
+}

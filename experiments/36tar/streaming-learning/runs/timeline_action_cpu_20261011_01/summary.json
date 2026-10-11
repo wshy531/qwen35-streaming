@@ -1,0 +1,8 @@
+{
+  "tests": 153,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "source_unchanged_during_tests": true,
+  "scope": "Random tiny CPU contracts; not pretrained video capability"
+}

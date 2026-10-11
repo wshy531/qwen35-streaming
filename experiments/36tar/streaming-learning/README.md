@@ -3,7 +3,7 @@
 这是36tar的独立实验工程，本轮开发分支为 `36tar/general-video-demo`。外层仓库原有文件保持原样；本目录保留 `code/`、`scripts/`、`runs/` 布局，方便双方阅读、复现与决定下一项改造。权重、真实视频、虚拟环境和凭据不入库。
 
 [原PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已由协作方合并；本轮修改通过新的个人分支和PR审阅，main不直推。
-[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新149项CPU/17来源契约通过；文件GPU结果见本段报告，未打开摄像头；第六段显式短片循环播放约120秒、112帧/36回答/19reset、无丢帧，allocated峰值3.270GiB；此前第五段12例真实采样起点对照已完成，洗手方向稳定、猫细节谨慎复核；新增12例洗脸误答图像/时间诊断两臂生成一致，单图变化有影响、所试时间处理未修复原错误。此前14例咖啡/洗脸及先后错误继续保留。未合并。
+[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新153项CPU/17来源契约及4个epoch契约通过；文件GPU结果见本段报告，未打开摄像头；第六段显式短片循环播放约120秒、112帧/36回答/19reset、无丢帧，allocated峰值3.270GiB；此前第五段12例真实采样起点对照已完成，洗手方向稳定、猫细节谨慎复核；新增12例洗脸误答图像/时间诊断两臂生成一致，单图变化有影响、所试时间处理未修复原错误。此前14例咖啡/洗脸及先后错误继续保留。未合并。
 
 先读 [实验总纲](实验总纲.md)，再读 [架构设计入口](架构设计.md)。总纲是唯一进度主记录；其余方案、报告和历史快照不替代最新状态。旧记录中的本机绝对路径是实验来源，不是新机器上的运行路径。
 
@@ -216,4 +216,22 @@ Set-Location code/qwen35-streaming-s4
 
 归档的proof中含旧资产路径、代码SHA和输入指纹，**不能直接用作新机器/新源码的GPU预检**。先产生新的CPU证明，保留成功和失败输出；Git或不同操作系统若改变换行字节，也应重新冻结源码证明。`UPLOAD_SOURCE_MANIFEST.json`记录此次导出内容的原始SHA；历史source_tree/provenance表示各次运行时的版本。
 
-接续优先级由最新总纲决定：更长墙钟输入/全程资源与reset记忆边界 → 摄像头 → BF16、32/64和长期状态。墙钟与单槽丢帧已有有限证据，模型能力错误仍需定位。合并通过PR审阅，不直接推送main。
+接续优先级由最新总纲决定：先诊断纸巾动作与提问/输入条件，再选择新连续素材和更长文件验收；用户暂不启用摄像头。BF16、32/64和长期状态后置。墙钟与单槽丢帧已有有限证据，模型能力错误仍需定位。合并通过PR审阅，不直接推送main。
+
+## 连续自然动作：同输入原模型对照
+
+[预登记方案](连续动作同输入对照方案.md)与[结果和七次回答](连续动作同输入对照结果.md)。完整既有23秒CDC素材，不拼接；153项完整CPU、17来源契约、4epoch契约及7独立输入/fresh prefill检查通过。真实流式23帧/7QA/3reset/0丢帧；原模型只看相同当前记忆段4或6帧，生成Token序列7/7同一、严格均4/7，纸巾三次误答保留。源PTS/图像/模板/位置/FP32/EOS预算同一；不证明全部内部数值等价或通用能力。首轮原对照RAM门禁拒绝保留，第二轮成功；摄像头未打开。
+
+复现从个人目录运行，先准备模型和有署名的素材。各个`--out`必须是尚不存在的独立目录；以下CPU流式来源预检不等待真实播放墙钟，GPU按实际PTS播放。每个GPU进程90秒、顺序单模型，RAM3GiB/显存5.5GiB原门槛；源码或参数改变必须重做预检。
+
+```powershell
+$model = 'E:\VIT Model\models\Qwen3.5-0.8B'
+$video = 'E:\VIT Model\datasets\natural_commons_v1\clean_hands.webm'
+$question = 'What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.'
+python scripts/run_live_demo.py --stage preflight --input-kind file --model-dir $model --video $video --fps 1 --duration 23.1 --max-frames 24 --question $question --answer-tokens 16 --max-tokens 288 --first-qa-frames 4 --qa-every 2 --wall-seconds 90 --out runs/my_timeline_stream_cpu
+python scripts/run_timeline_reference.py --stage preflight --model-dir $model --video $video --stream-preflight runs/my_timeline_stream_cpu --wall-seconds 90 --out runs/my_timeline_reference_cpu
+python scripts/run_live_demo.py --stage gpu --input-kind file --model-dir $model --video $video --fps 1 --duration 23.1 --max-frames 24 --question $question --answer-tokens 16 --max-tokens 288 --first-qa-frames 4 --qa-every 2 --wall-seconds 90 --preflight runs/my_timeline_stream_cpu --out runs/my_timeline_stream_gpu
+python scripts/run_timeline_reference.py --stage gpu --model-dir $model --video $video --stream-preflight runs/my_timeline_stream_cpu --stream-run runs/my_timeline_stream_gpu --preflight runs/my_timeline_reference_cpu --wall-seconds 90 --out runs/my_timeline_reference_gpu
+```
+
+完整CPU回归仍使用前文的`unittest discover`入口（现153项）。若实际丢帧或问答日程偏离预登记七例，原对照在载入前拒绝；不能把不同输入当公平对照。上面的`timeline_action_cases.json`固定诊断配置仅用于复现，通用演示入口仍可换视频/问题。跨reset历史不保留；七例共享一个短片，不作为随机测试集准确率。原参考三源码、默认状态核心、旧四帧公平入口均未改。

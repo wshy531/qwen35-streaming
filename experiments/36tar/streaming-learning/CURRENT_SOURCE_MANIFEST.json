@@ -1,5 +1,5 @@
 {
-  "scope": "Current file/live interface verified on CPU and file GPU retry; historical runs remain source snapshots; actual camera unopened",
+  "scope": "Stage eight CPU153, source17, epoch4, seven same-input pretrained controls; original and streaming share paper errors, camera unopened; historical source snapshots preserved",
   "files": {
     "qwen35_local/__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
     "qwen35_local/configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
@@ -34,6 +34,7 @@
     "scripts/smoke_test.py": "d5cc3173daf4cd1fafb5cd881968b8de11cb4c98075dbdb171c49cf3c4624b3c",
     "scripts/stability_experiment.py": "620e59416873b5f894dc4e15b9002fe9fb644a0f56f8c2e1321c18cac53a1afd",
     "scripts/stage_timing.py": "6b04038281fe56e6c661ec5f0456892b7a1c579e0ea7ed951584040c0ded2eaf",
+    "scripts/timeline_reference.py": "b97ef089a60f32155b79c27b6e13373d5ff3e65dcdc75efe7f62a17878a9b217",
     "scripts/timestamp_diagnostic.py": "f0070d3d52a03e2d40499db69f96b205a19894d715422879d2b24f6a9807ec6f",
     "scripts/video_demo.py": "aeddaeee797e1e4fb310b37e00cee8d05ce71a839e2876974064e89ae130b9ab",
     "scripts/vision_expand.py": "4d703213a1680da0bc746123a41b3595ad04ea77f4ac98294452658d8d44c561",
@@ -56,6 +57,7 @@
     "streaming/repeat_source.py": "7be2ae0aa593ffc03c914748378778871eadfd6f1dbf4f865413109142868e6d",
     "streaming/sampling_inputs.py": "b2fe76308f4e8da0bc46f06df7cf67636813fa647bc31692fe76aa8d8b4d056f",
     "streaming/session.py": "12e06e161593d94ce9c9422df8627c8bfb440a0c255216f526b8e1b9ad7bb8f9",
+    "streaming/timeline_inputs.py": "6f181d29dda85f5913dddd80b966a208a2f12e8a9bcac6049acd7ed40b10a978",
     "streaming/viewer.py": "d537fa57ed0269705ec95afd474617e87e4327e58c37deec13f24e40f362f21c",
     "streaming/window.py": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
     "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
@@ -72,10 +74,19 @@
     "tests/test_sampling_inputs.py": "74b34be15fea7acdbbb3d08b7defe83f21e22cb70ac8e299c4b14bca1325e09c",
     "tests/test_stream_session.py": "8f0af36ce5a81ddca526d44fd0772d52b205abde68fa0d4022d1fe902b7be792",
     "tests/test_stream_window.py": "94de80f03e6413a386be82cc84b0716474fdb535d7c8af209b3b1b6132a5e0a4",
+    "tests/test_timeline_inputs.py": "0dfbd40dceead971120a1109fdb26ac989f0bd11dccd488ce803f2cdca8ed451",
     "tests/test_video_demo.py": "d24cb9085a550a19bfd9ef3fd37e69a1b8fa490ea81f0414850c0a0fdb89006b",
     "@launcher": "2b1d0ea83fe4cfe87b7e59606207a1052e04979a7d64c71825e5dd1405d34419",
     "@live_launcher": "5c91d9afafcd0449d0faacec266a2b61034c4af0ebba605898ea8e8bbe49f2d3",
     "@live_plan": "67c7ee62866771b574910e93515d89b4fb98db0780165b2bb177b1c43598de49",
-    "@file_plan": "7b12efa1588e2b65c7e41e5bc78b3c200384841d6113b6867c1b5aed3627ce40"
+    "@file_plan": "7b12efa1588e2b65c7e41e5bc78b3c200384841d6113b6867c1b5aed3627ce40",
+    "@timeline_launcher": "f65c006e928653b71b7d7fd186e25cc213e815e77ab0421f6d4221b21517d188",
+    "@timeline_plan": "0642c45072271ab243b54084f61f8f11efd0cde5165db8ad29b2e454664f899b",
+    "@timeline_cases": "3a45a3f9479eade411f09d05901d2d2eb7fe78c9b0f135068178fdd17a40af6e",
+    "@reference:E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "@reference:E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "@reference:E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
+    "@reference:E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\processing_qwen3_vl.py": "e5abbaf1d035fe49cd8354f1e92fd3f92ab1103a39173c147471f30ff1908b6a",
+    "@reference:E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\video_processing_qwen3_vl.py": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10"
   }
 }

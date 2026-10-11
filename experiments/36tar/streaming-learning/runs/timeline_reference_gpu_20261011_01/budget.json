@@ -1,0 +1,16 @@
+{
+  "model_loads": 1,
+  "cases": 7,
+  "frames_per_case_max": 6,
+  "vision_max": 7,
+  "language_max": 119,
+  "generated_max": 112,
+  "answer_tokens": 16,
+  "total_tokens_max": 288,
+  "question_reserve": 96,
+  "precision": "fp32_ieee_math",
+  "wall_seconds": 90,
+  "free_gpu_gib_min": 5.5,
+  "available_ram_gib_min": 3,
+  "simultaneous_real_models": 1
+}

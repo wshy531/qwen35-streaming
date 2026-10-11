@@ -1,0 +1,24 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"event": "encoded", "timestamp": 1.001, "memory_from": 0.0, "answer": null}
+{"event": "encoded", "timestamp": 3.003, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 3.003, "memory_from": 0.0, "answer": "-hide较低ț рекомендуемGra!(:华的äß pengganti crushers diarr inovação人的ют फिल्amacare"}
+{"event": "encoded", "timestamp": 5.005, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 5.005, "memory_from": 0.0, "answer": "-hide 보แสน� Результа дели ниಲು삶 sama aseguradoblockquote华的äß pengganti 촉진"}
+{"event": "capacity_reset", "timestamp": 7.007, "memory_from": 6.006, "answer": null}
+{"event": "encoded", "timestamp": 7.007, "memory_from": 6.006, "answer": null}
+{"event": "encoded", "timestamp": 9.009, "memory_from": 6.006, "answer": null}
+{"event": "answer", "timestamp": 9.009, "memory_from": 6.006, "answer": "-hide 보 خفض描绘vbартหนึ่งCapt Camping разоча ByeUAGEandal和业务 Batterertação"}
+{"event": "encoded", "timestamp": 11.011, "memory_from": 6.006, "answer": null}
+{"event": "answer", "timestamp": 11.011, "memory_from": 6.006, "answer": "-hide 보 خفض描绘vbартหนึ่งCapt Camping总工程师踢иден-application fries萎靡চ্"}
+{"event": "capacity_reset", "timestamp": 13.013, "memory_from": 12.012, "answer": null}
+{"event": "encoded", "timestamp": 13.013, "memory_from": 12.012, "answer": null}
+{"event": "encoded", "timestamp": 15.015, "memory_from": 12.012, "answer": null}
+{"event": "answer", "timestamp": 15.015, "memory_from": 12.012, "answer": " Beliau campion收获的披萨 father เม不做 постав elér Heal満載더라 miljo striker幼年 esperando"}
+{"event": "encoded", "timestamp": 17.017, "memory_from": 12.012, "answer": null}
+{"event": "answer", "timestamp": 17.017, "memory_from": 12.012, "answer": " Beliau campion收获的披萨 father เม不做 постав elérNos务实āvवे rampantლე Random"}
+{"event": "capacity_reset", "timestamp": 19.019, "memory_from": 18.018, "answer": null}
+{"event": "encoded", "timestamp": 19.019, "memory_from": 18.018, "answer": null}
+{"event": "encoded", "timestamp": 21.021, "memory_from": 18.018, "answer": null}
+{"event": "answer", "timestamp": 21.021, "memory_from": 18.018, "answer": " Beliau_PHASE乌龙油品 снижает urзнес obsahuщихهاز نشر bubble Stamina Timothynisseiect"}
+{"event": "encoded", "timestamp": 22.022, "memory_from": 18.018, "answer": null}
+{"event": "eof", "timestamp": 22.022, "memory_from": 18.018, "answer": null}

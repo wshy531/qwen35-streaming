@@ -1,0 +1,7 @@
+{
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "video": "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm",
+  "stream_preflight": "E:\\VIT Model\\runs\\timeline_stream_preflight_20261011_01",
+  "wall_seconds": 90,
+  "allow_branch": []
+}

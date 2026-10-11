@@ -1,0 +1,529 @@
+{
+  "cases": [
+    {
+      "context": {
+        "frames": [
+          {
+            "frame_id": 0,
+            "timestamp": 0.0
+          },
+          {
+            "frame_id": 30,
+            "timestamp": 1.001
+          },
+          {
+            "frame_id": 60,
+            "timestamp": 2.002
+          },
+          {
+            "frame_id": 90,
+            "timestamp": 3.003
+          }
+        ],
+        "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+        "timestamp": 3.003,
+        "memory_from_pts": 0.0
+      },
+      "frames": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8"
+        },
+        {
+          "frame_id": 30,
+          "timestamp": 1.001,
+          "rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741"
+        },
+        {
+          "frame_id": 60,
+          "timestamp": 2.002,
+          "rgb_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632"
+        },
+        {
+          "frame_id": 90,
+          "timestamp": 3.003,
+          "rgb_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "beed8ec20bfcbe4922dd43efce5c581d57c2d85420549a5002d4529183c03a67",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "expected": "WASHING",
+      "tiny_fresh_prefill_bitwise_equal": true
+    },
+    {
+      "context": {
+        "frames": [
+          {
+            "frame_id": 0,
+            "timestamp": 0.0
+          },
+          {
+            "frame_id": 30,
+            "timestamp": 1.001
+          },
+          {
+            "frame_id": 60,
+            "timestamp": 2.002
+          },
+          {
+            "frame_id": 90,
+            "timestamp": 3.003
+          },
+          {
+            "frame_id": 120,
+            "timestamp": 4.004
+          },
+          {
+            "frame_id": 150,
+            "timestamp": 5.005
+          }
+        ],
+        "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+        "timestamp": 5.005,
+        "memory_from_pts": 0.0
+      },
+      "frames": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8"
+        },
+        {
+          "frame_id": 30,
+          "timestamp": 1.001,
+          "rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741"
+        },
+        {
+          "frame_id": 60,
+          "timestamp": 2.002,
+          "rgb_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632"
+        },
+        {
+          "frame_id": 90,
+          "timestamp": 3.003,
+          "rgb_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+        },
+        {
+          "frame_id": 120,
+          "timestamp": 4.004,
+          "rgb_sha256": "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5"
+        },
+        {
+          "frame_id": 150,
+          "timestamp": 5.005,
+          "rgb_sha256": "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "200ddf98279a33d8a5f0cb4998e997f2f2ffe195cdbb53ab53f3ea6f4f0bedbc",
+      "input_tokens": 205,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "expected": "WASHING",
+      "tiny_fresh_prefill_bitwise_equal": true
+    },
+    {
+      "context": {
+        "frames": [
+          {
+            "frame_id": 180,
+            "timestamp": 6.006
+          },
+          {
+            "frame_id": 210,
+            "timestamp": 7.007
+          },
+          {
+            "frame_id": 240,
+            "timestamp": 8.008
+          },
+          {
+            "frame_id": 270,
+            "timestamp": 9.009
+          }
+        ],
+        "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+        "timestamp": 9.009,
+        "memory_from_pts": 6.006
+      },
+      "frames": [
+        {
+          "frame_id": 180,
+          "timestamp": 6.006,
+          "rgb_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15"
+        },
+        {
+          "frame_id": 210,
+          "timestamp": 7.007,
+          "rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+        },
+        {
+          "frame_id": 240,
+          "timestamp": 8.008,
+          "rgb_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063"
+        },
+        {
+          "frame_id": 270,
+          "timestamp": 9.009,
+          "rgb_sha256": "20c5e692310b97e4f092d05907d29db592993456fec0d68b0f9c06b5e7fd7eaa"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "a05be1f6335287f66de29e8f10e78a6e4f6c8a91a76ec2051628c7a019afd7a8",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "expected": "WASHING",
+      "tiny_fresh_prefill_bitwise_equal": true
+    },
+    {
+      "context": {
+        "frames": [
+          {
+            "frame_id": 180,
+            "timestamp": 6.006
+          },
+          {
+            "frame_id": 210,
+            "timestamp": 7.007
+          },
+          {
+            "frame_id": 240,
+            "timestamp": 8.008
+          },
+          {
+            "frame_id": 270,
+            "timestamp": 9.009
+          },
+          {
+            "frame_id": 300,
+            "timestamp": 10.01
+          },
+          {
+            "frame_id": 330,
+            "timestamp": 11.011
+          }
+        ],
+        "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+        "timestamp": 11.011,
+        "memory_from_pts": 6.006
+      },
+      "frames": [
+        {
+          "frame_id": 180,
+          "timestamp": 6.006,
+          "rgb_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15"
+        },
+        {
+          "frame_id": 210,
+          "timestamp": 7.007,
+          "rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+        },
+        {
+          "frame_id": 240,
+          "timestamp": 8.008,
+          "rgb_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063"
+        },
+        {
+          "frame_id": 270,
+          "timestamp": 9.009,
+          "rgb_sha256": "20c5e692310b97e4f092d05907d29db592993456fec0d68b0f9c06b5e7fd7eaa"
+        },
+        {
+          "frame_id": 300,
+          "timestamp": 10.01,
+          "rgb_sha256": "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496"
+        },
+        {
+          "frame_id": 330,
+          "timestamp": 11.011,
+          "rgb_sha256": "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "8b407c8d836a48567aab30fcf12c78ca03f426d42ba8c980e1de0669acda9684",
+      "input_tokens": 206,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "expected": "WASHING",
+      "tiny_fresh_prefill_bitwise_equal": true
+    },
+    {
+      "context": {
+        "frames": [
+          {
+            "frame_id": 360,
+            "timestamp": 12.012
+          },
+          {
+            "frame_id": 390,
+            "timestamp": 13.013
+          },
+          {
+            "frame_id": 420,
+            "timestamp": 14.014
+          },
+          {
+            "frame_id": 450,
+            "timestamp": 15.015
+          }
+        ],
+        "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+        "timestamp": 15.015,
+        "memory_from_pts": 12.012
+      },
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        },
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "011ace5de2df79495d44300c7e44036051eff1bc57b7a5b95ca1c725981e6d30",
+      "input_tokens": 151,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "tiny_fresh_prefill_bitwise_equal": true
+    },
+    {
+      "context": {
+        "frames": [
+          {
+            "frame_id": 360,
+            "timestamp": 12.012
+          },
+          {
+            "frame_id": 390,
+            "timestamp": 13.013
+          },
+          {
+            "frame_id": 420,
+            "timestamp": 14.014
+          },
+          {
+            "frame_id": 450,
+            "timestamp": 15.015
+          },
+          {
+            "frame_id": 480,
+            "timestamp": 16.016
+          },
+          {
+            "frame_id": 510,
+            "timestamp": 17.017
+          }
+        ],
+        "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+        "timestamp": 17.017,
+        "memory_from_pts": 12.012
+      },
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        },
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        },
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "7d8511067109603a119423e375cf99b76ffb0c7f8613e7b1457440cb81fc8ea5",
+      "input_tokens": 208,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "tiny_fresh_prefill_bitwise_equal": true
+    },
+    {
+      "context": {
+        "frames": [
+          {
+            "frame_id": 540,
+            "timestamp": 18.018
+          },
+          {
+            "frame_id": 570,
+            "timestamp": 19.019
+          },
+          {
+            "frame_id": 600,
+            "timestamp": 20.02
+          },
+          {
+            "frame_id": 630,
+            "timestamp": 21.021
+          }
+        ],
+        "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+        "timestamp": 21.021,
+        "memory_from_pts": 18.018
+      },
+      "frames": [
+        {
+          "frame_id": 540,
+          "timestamp": 18.018,
+          "rgb_sha256": "2331e28fba920a75511adca756a0861f0deebc9282a9d1b6044ecc718bd77089"
+        },
+        {
+          "frame_id": 570,
+          "timestamp": 19.019,
+          "rgb_sha256": "f32486eeee3dfee0be2db07c28bb3808fdb3c2c34280f1ea4fa924cdb307e8b0"
+        },
+        {
+          "frame_id": 600,
+          "timestamp": 20.02,
+          "rgb_sha256": "fa39c3ddccb1fc1de87a8f781812207505408fb99b3caa8feb1b4e11217fe4b4"
+        },
+        {
+          "frame_id": 630,
+          "timestamp": 21.021,
+          "rgb_sha256": "f0fcd3c1c6cac921a63ccec718725420c021c55016cd51fe622a1affb16f330b"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "5300812e77ad912bddb78e1e001e900a87f2afbed8aa8779477afb9bd806a865",
+      "input_tokens": 151,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "tiny_fresh_prefill_bitwise_equal": true
+    }
+  ],
+  "passed": true,
+  "scope": "Random CPU input and fresh prefill contracts; not semantic accuracy"
+}
