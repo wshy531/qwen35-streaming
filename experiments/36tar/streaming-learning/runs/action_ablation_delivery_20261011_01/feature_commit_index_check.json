@@ -1,0 +1,235 @@
+{
+  "passed": true,
+  "files": {
+    "experiments/36tar/streaming-learning/CURRENT_SOURCE_MANIFEST.json": {
+      "bytes": 8072,
+      "sha256": "ec67eefd48fbb5de1f67f4388b121479ae88afc390b6fa39e8a84d3f3d8f9da8"
+    },
+    "experiments/36tar/streaming-learning/README.md": {
+      "bytes": 16498,
+      "sha256": "5d2ae120ead8646da72e6d55444d47a18966444e2748e3e9bdd53b14f5268614"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/scripts/action_ablation.py": {
+      "bytes": 13652,
+      "sha256": "c6d88d92fda2163fa88ddaf9d1828550b312e17fd4e1c47bebdb02f0c90a6f6f"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/streaming/action_inputs.py": {
+      "bytes": 4196,
+      "sha256": "1235ae932233446c63fdf422fdcda26b7c83556c037e638dc3577d9fad8e53e0"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/tests/test_action_inputs.py": {
+      "bytes": 2954,
+      "sha256": "48e40fee55382c8af5301fd29c3e302f2d843b0cf597977b290ce468dac55d1f"
+    },
+    "experiments/36tar/streaming-learning/configs/action_ablation_cases.json": {
+      "bytes": 1919,
+      "sha256": "d52fec9f0eae00b71baca7d39c369e122cbac41f17bf301f77094fc1f3ff84ee"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_cpu_20261011_01/source_hashes.json": {
+      "bytes": 6370,
+      "sha256": "88c36443c614890c745d0c0a36090582d4cc11db9a488f580df2ab9ab3dea216"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_cpu_20261011_01/summary.json": {
+      "bytes": 183,
+      "sha256": "3a3355ae50262c1a314059e63a9d8cdd5cf3ae453d7a070ad09b140127fe1741"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_cpu_20261011_01/unittest.log": {
+      "bytes": 16920,
+      "sha256": "8c4885bf4ae848ed7f52de36744bdc0ca2984dc8aa04c3a6ff1f0b8feef865ef"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_delivery_20261011_01/active_source_hashes.json": {
+      "bytes": 7566,
+      "sha256": "5b3eb744f9d2c66380f468fd2a529b7dc8b0aafb11e1220051b6229be1316523"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_delivery_20261011_01/cleanup.json": {
+      "bytes": 872,
+      "sha256": "7ca64183d887cfe03d0c74262212665ca06bab1100091eda0fb2351061cb6aca"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_delivery_20261011_01/comparison.json": {
+      "bytes": 21180,
+      "sha256": "65980a9b65b3fed3eedc5f7a5a35c639b2b3ee86954f814b79ed4ef226895644"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_delivery_20261011_01/cpu_input_changes.json": {
+      "bytes": 5614,
+      "sha256": "ccba94840a9e4c3b2877461d96428dc435294c5e8a7bc7fdd50aa5e46fc4052f"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_delivery_20261011_01/verification.json": {
+      "bytes": 625,
+      "sha256": "1e88cb029251ebe8982c1a50a6616e2e489fff0bde5321bf03adb7556d8ce326"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/arguments.json": {
+      "bytes": 557,
+      "sha256": "b7210e92f8b6eeb3ed2801b9e821491d786dc365483f87ac8c7dfdf619aa5076"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/budget.json": {
+      "bytes": 469,
+      "sha256": "aa4cbd56534ab1a0719fa92e486094a69308e1c3b272305a42a520c928d2b8b7"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/checked_branch.json": {
+      "bytes": 44,
+      "sha256": "0fb415f42c8dc179ec2d73be96c7dd6b7762270c36e1051782d1060850b79d25"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/console.log": {
+      "bytes": 970,
+      "sha256": "28be1303d3944ed7710c3cc3bbbfcdb9d3590c8c6abf771b9b420a9d0f803976"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/resource_precheck.json": {
+      "bytes": 108,
+      "sha256": "7456506d8713e791132882629c20a45b244d17e9c85f056a0db58114fccba9aa"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/source_hashes.json": {
+      "bytes": 7637,
+      "sha256": "028d5ae9ca65ef71fe4955104de3dd6765e0f57bf580c37448a47c3b11bae3eb"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/status.json": {
+      "bytes": 67,
+      "sha256": "e3110859536c9b85667a3b241dda642a64a4458bb39c81bc68b74ddefc28ae45"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/traceback.txt": {
+      "bytes": 691,
+      "sha256": "f29518fa3306de523cc58bd3e8992ee12bce46ac88a0d642f1162611899f906e"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_01/watchdog_status.json": {
+      "bytes": 88,
+      "sha256": "a79d05f074f8468eca5b12d24882b998cd261e9e925d8dbbb23cd8f52e8e1fd3"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/arguments.json": {
+      "bytes": 557,
+      "sha256": "b7210e92f8b6eeb3ed2801b9e821491d786dc365483f87ac8c7dfdf619aa5076"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/budget.json": {
+      "bytes": 469,
+      "sha256": "aa4cbd56534ab1a0719fa92e486094a69308e1c3b272305a42a520c928d2b8b7"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/checked_branch.json": {
+      "bytes": 44,
+      "sha256": "0fb415f42c8dc179ec2d73be96c7dd6b7762270c36e1051782d1060850b79d25"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/console.log": {
+      "bytes": 1753,
+      "sha256": "63c653605e1e9c9c340c7e80188c77045f5e5a0e68b9d5db596dea76610832d3"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/resource_precheck.json": {
+      "bytes": 108,
+      "sha256": "956aef23ec181349fba5a7b2ddc7fbeb45d72cb13cf90e5fa24b1f6197faaa03"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/source_hashes.json": {
+      "bytes": 7637,
+      "sha256": "028d5ae9ca65ef71fe4955104de3dd6765e0f57bf580c37448a47c3b11bae3eb"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/status.json": {
+      "bytes": 70,
+      "sha256": "32abdbb8f5892cf606f3894c9caa0ac72f2fa48598e4a8667f0b3b6bf35ff1be"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/summary.json": {
+      "bytes": 42383,
+      "sha256": "20e9df92f8b0c80355a343b2c0cfac939f7574875f06f2a0002fe7c99c4c90ae"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_original_gpu_20261011_02/watchdog_status.json": {
+      "bytes": 88,
+      "sha256": "4ebd0fcc2b6361fb87527cb46e69bf98bab92c7dd11f0dbbeb77b8263c0deaa7"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/arguments.json": {
+      "bytes": 559,
+      "sha256": "a100c62a634c93d52c6c4e3ad8b89bf60d21c1eb2d0fb2f8f4286306c1207977"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/budget.json": {
+      "bytes": 469,
+      "sha256": "aa4cbd56534ab1a0719fa92e486094a69308e1c3b272305a42a520c928d2b8b7"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/console.log": {
+      "bytes": 563,
+      "sha256": "1b05437d5a77fb8a59f92cd4447322c6586187de42d4eefb450327b63f0f56fe"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/cpu_tests.json": {
+      "bytes": 71,
+      "sha256": "f52a5f1f4f26f24df3dbc9057f1068b7c01bda3f3424a56aef4fa4202b368b8a"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/preflight_summary.json": {
+      "bytes": 38495,
+      "sha256": "b2f87a5618ecbc2e0399b175ce5dd6f25079b36d634688fd3b5eeae5b3a052f2"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/proof.json": {
+      "bytes": 48015,
+      "sha256": "2e5a990b468f098e1de1ded10c145669363d91a64285cd51a48bfb88570b0487"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/source_hashes.json": {
+      "bytes": 7637,
+      "sha256": "028d5ae9ca65ef71fe4955104de3dd6765e0f57bf580c37448a47c3b11bae3eb"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/status.json": {
+      "bytes": 72,
+      "sha256": "52bc7c2b631f986f5c28193466a6375734442a588002aac111c72dd80b665338"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/unittest.log": {
+      "bytes": 1075,
+      "sha256": "08a49517a74ac6350397eb4dae8d4c3e1531f85c48766f3e000d0c6a33032eaf"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_preflight_20261011_01/watchdog_status.json": {
+      "bytes": 88,
+      "sha256": "4ebd0fcc2b6361fb87527cb46e69bf98bab92c7dd11f0dbbeb77b8263c0deaa7"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/arguments.json": {
+      "bytes": 558,
+      "sha256": "fe559bf60a79262c58ab1dd5aae146d0ae10e166b9fe6d45e0cb3bef1f966862"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/budget.json": {
+      "bytes": 469,
+      "sha256": "aa4cbd56534ab1a0719fa92e486094a69308e1c3b272305a42a520c928d2b8b7"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/checked_branch.json": {
+      "bytes": 44,
+      "sha256": "0fb415f42c8dc179ec2d73be96c7dd6b7762270c36e1051782d1060850b79d25"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/console.log": {
+      "bytes": 1765,
+      "sha256": "8830ad7d90e197dd3e2a73a8ed99b4641f6971580557ce0404d0434475d3a05f"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/resource_precheck.json": {
+      "bytes": 108,
+      "sha256": "fc726e1082e1d6a25f4ed9d74d06db4b81bacab6149851ef20adc9a1b004a689"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/source_hashes.json": {
+      "bytes": 7637,
+      "sha256": "028d5ae9ca65ef71fe4955104de3dd6765e0f57bf580c37448a47c3b11bae3eb"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/status.json": {
+      "bytes": 71,
+      "sha256": "a7e7c05924d16a34556871ed2ae0eb3f247e20d9bf675ac0be8d04d99bffcec1"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/summary.json": {
+      "bytes": 45655,
+      "sha256": "9977f7d7c00e90a8afbc0a1aa2244c476dc571ea739bf01aa16e5f724afa36be"
+    },
+    "experiments/36tar/streaming-learning/runs/action_ablation_streaming_gpu_20261011_01/watchdog_status.json": {
+      "bytes": 88,
+      "sha256": "4ebd0fcc2b6361fb87527cb46e69bf98bab92c7dd11f0dbbeb77b8263c0deaa7"
+    },
+    "experiments/36tar/streaming-learning/scripts/run_action_ablation.py": {
+      "bytes": 1712,
+      "sha256": "8b8ab6f1fd7b37be71b16a6b0e3c8d726dfbfa8335b76c34a410e7b9b025a7b6"
+    },
+    "experiments/36tar/streaming-learning/实验总纲.md": {
+      "bytes": 156111,
+      "sha256": "90cd601eb0f84be4d3a9010dadc8d26fa858e1d741d81a08a8627f5dcce04787"
+    },
+    "experiments/36tar/streaming-learning/架构设计.md": {
+      "bytes": 22496,
+      "sha256": "81cdd8956c9ea413101ebc59d6591c2699c15a1d76d81df4ba86a61cca9c62e8"
+    },
+    "experiments/36tar/streaming-learning/洗脸误答单因素定位方案.md": {
+      "bytes": 3642,
+      "sha256": "c4e1dfa53e145412a7ec0004182d07f1ce1f5ab8e500efebfae972e11fd9c4df"
+    },
+    "experiments/36tar/streaming-learning/洗脸误答单因素定位结果.md": {
+      "bytes": 7888,
+      "sha256": "cf4c3936c04b6b1348270211d21b28eb216993b1fba508326c3ede40726802b8"
+    }
+  },
+  "changed_files": 56,
+  "changed_bytes": 515649,
+  "capsule_bytes": 10365291,
+  "scope_personal_only": true,
+  "source_matches_cpu_gpu_proof": true,
+  "raw_git_bytes_match": true
+}
