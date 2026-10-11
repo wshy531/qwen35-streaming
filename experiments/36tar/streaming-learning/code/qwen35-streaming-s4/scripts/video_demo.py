@@ -21,6 +21,7 @@ from streaming.online import OnlinePairSession
 from streaming.viewer import Viewer
 from streaming.window import read_packets
 from streaming.playback import ClockPlayback,SourceDigest
+from streaming.repeat_source import repeat_packets, provenance
 
 
 def source_hashes():
@@ -47,6 +48,7 @@ def budget(args):
             "precision":"fp32_ieee_math","resize":"letterbox","video_logits":"none","qa_logits":"last",
             "playback":getattr(args,"playback","fast"),"queue_capacity":1,
             "consumer_delay_seconds":getattr(args,"consumer_delay_seconds",0.),
+            "repeat_count":getattr(args,"repeat_count",1),"repeat_period_seconds":getattr(args,"repeat_period",None),
             "first_qa_frames":getattr(args,"first_qa_frames",4)}
 
 
@@ -60,6 +62,8 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
         scope = "CPU 微型随机权重：全输入接口预检，回答没有语义意义；不模拟GPU耗时"
     if args.consumer_delay_seconds:
         scope += f" · 人工消费者延迟{args.consumer_delay_seconds}秒（调度压力）"
+    if getattr(args,"repeat_count",1) > 1:
+        scope += f" · 明确循环{args.repeat_count}次 / 合成会话时间；不是自然长视频"
     viewer = Viewer(scope)
     session = OnlinePairSession(model,processor,max_tokens=args.max_tokens,max_question_tokens=96,
                                 max_answer_tokens=args.answer_tokens,resize_mode="letterbox",video_logits="none")
@@ -74,7 +78,9 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
     hooks = [model.model.visual.register_forward_pre_hook(guard("vision",limits["vision_forwards_max"])),
              model.model.language_model.register_forward_pre_hook(guard("language",limits["language_forwards_max"])),
              model.lm_head.register_forward_pre_hook(guard("lm_head_rows",limits["language_forwards_max"]))]
-    reader = read_packets(args.video,args.fps)
+    repeated = getattr(args,"repeat_count",1) > 1
+    reader = (repeat_packets(args.video,args.fps,args.repeat_period,args.repeat_count)
+              if repeated else read_packets(args.video,args.fps))
     fingerprint = SourceDigest()
     playback = None
     event_lock = threading.RLock()
@@ -84,6 +90,8 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
     peak_rss = 0
     answer_lags = []  # Scalars only, bounded by registered question budget.
     max_pair_gap = 0.
+    resources = []  # Bounded scalar observations after GPU synchronization.
+    current_provenance = None
     with (args.out/"events.jsonl").open("x",encoding="utf-8") as stream:
         def sink(event):
             nonlocal peak_rss,max_pair_gap
@@ -91,6 +99,18 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
                 torch.cuda.synchronize()
             peak_rss = max(peak_rss,psutil.Process().memory_info().rss)
             event["available_wall_seconds"] = time.monotonic()-begin
+            if repeated:
+                event["source_provenance"] = current_provenance
+            if event["kind"] in ("encoded","answer","capacity_reset"):
+                state = event["status"]
+                sample = {"kind":event["kind"],"wall_seconds":event["available_wall_seconds"],
+                    "epoch":state["epoch"],"seen_tokens":state["session"]["seen_tokens"],
+                    "session_pts":state["last_received_pts"],"memory_from_pts":state["memory_from_pts"],
+                    "rss_bytes":psutil.Process().memory_info().rss,
+                    "ram_available_bytes":psutil.virtual_memory().available}
+                if model.device.type == "cuda":
+                    sample.update(allocated_bytes=torch.cuda.memory_allocated(),reserved_bytes=torch.cuda.memory_reserved())
+                resources.append(sample)
             if event["kind"] == "answer":
                 lag = max(0.,event["available_wall_seconds"]-event["answer"]["timestamp"])
                 event["answer"]["answer_lag_seconds"] = lag if effective_playback == "clock" else None
@@ -118,22 +138,26 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
             reason = "source_eof"
             if effective_playback == "clock":
                 def source_frame(packet, timing):
+                    if repeated:
+                        timing = {**timing,"source_provenance":provenance(packet)}
                     with event_lock:
                         viewer.frame(packet.rgb,packet.timestamp,timing)
                         stream.write(json.dumps({"kind":"source_frame","frame_id":packet.frame_id,
-                            "timestamp":packet.timestamp,"playback":timing},ensure_ascii=False)+"\n")
+                            "timestamp":packet.timestamp,"source_provenance":provenance(packet),
+                            "playback":timing},ensure_ascii=False)+"\n")
                         stream.flush()
                 playback = ClockPlayback(reader,args.duration,args.max_frames,source_frame).start()
                 # All timestamps/lag are measured from the source playback origin.
                 begin = playback.origin
             source = playback if playback is not None else reader
             for packet in source:
+                current_provenance = provenance(packet)
                 if playback is None:
                     if packet.timestamp >= args.duration:
                         reason = "video_duration_limit"
                         break
                     fingerprint.add(packet)
-                    viewer.frame(packet.rgb,packet.timestamp)
+                    viewer.frame(packet.rgb,packet.timestamp,{"source_provenance":current_provenance} if repeated else None)
                 if time.monotonic()-begin >= args.wall_seconds:
                     raise TimeoutError("Registered inference wall budget exceeded")
                 start = time.perf_counter()
@@ -168,6 +192,9 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None)
                       "requested_playback":args.playback,"effective_playback":effective_playback,
                       "source_fingerprint":source_fingerprint,"max_encoded_pair_gap_seconds":max_pair_gap,
                       "answer_lags_seconds":answer_lags,
+                      "resource_samples":resources,"synthetic_repeat":repeated,
+                      "repeat_count":getattr(args,"repeat_count",1),
+                      "repeat_period_seconds":getattr(args,"repeat_period",None),
                       "playback":None if playback is None else playback.status()}
             if model.device.type == "cuda":
                 report.update(peak_allocated_gib=torch.cuda.max_memory_allocated()/2**30,
@@ -191,8 +218,9 @@ def preflight(args):
     from tests.test_online import small_model
     from tests.test_video_demo import VideoDemoTests
     from tests.test_playback import PlaybackTests
+    from tests.test_repeat_source import RepeatSourceTests
     with (args.out/"unittest.log").open("w",encoding="utf-8") as stream:
-        suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(c) for c in (VideoDemoTests,PlaybackTests)])
+        suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(c) for c in (VideoDemoTests,PlaybackTests,RepeatSourceTests)])
         result = unittest.TextTestRunner(stream=stream,verbosity=2).run(suite)
     write_json(args.out/"cpu_tests.json",{"tests":result.testsRun,"passed":result.wasSuccessful(),
                                         "errors":len(result.errors),"failures":len(result.failures)})
@@ -269,6 +297,8 @@ def main(argv=None):
     parser.add_argument("--qa-every",type=int,default=4)
     parser.add_argument("--first-qa-frames",type=int,default=4,help="Real encoded frames per new memory epoch before first QA")
     parser.add_argument("--playback",choices=("fast","clock"),default="fast")
+    parser.add_argument("--repeat-count",type=int,default=1,help="Explicit bounded file-repeat stress input, not natural long video")
+    parser.add_argument("--repeat-period",type=float,help="Declared loop period strictly longer than source PTS; session time is synthetic")
     parser.add_argument("--consumer-delay-seconds",type=float,default=0.,help="Explicit clock-mode overload injection, not a performance setting")
     parser.add_argument("--max-tokens",type=int,default=320)
     parser.add_argument("--wall-seconds",type=int,default=600)
@@ -284,6 +314,10 @@ def main(argv=None):
         (args.consumer_delay_seconds > 0 and args.playback != "clock") or not 200 <= args.max_tokens <= 512 or
         not 1 <= args.wall_seconds <= 600 or not -1 <= args.ui_port <= 65535):
         parser.error("Arguments exceed bounded demo limits; FPS<=10, duration/frames/wall<=600, answer<=48, tokens200..512")
+    if (not 1 <= args.repeat_count <= 30 or
+        (args.repeat_count > 1 and (args.repeat_period is None or not math.isfinite(args.repeat_period) or not 0 < args.repeat_period <= 600)) or
+        (args.repeat_count == 1 and args.repeat_period is not None)):
+        parser.error("Repeat count 2..30 requires finite positive --repeat-period <=600; one-shot mode has no repeat period")
     args.video,args.model_dir,args.out = args.video.resolve(),args.model_dir.resolve(),args.out.resolve()
     args.out.mkdir(parents=True,exist_ok=False)
     (args.out/"tmp").mkdir()

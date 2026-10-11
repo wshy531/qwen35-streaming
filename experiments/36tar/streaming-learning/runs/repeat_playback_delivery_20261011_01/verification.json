@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "frozen_original_files_unchanged": 61,
+  "model_and_state_core_unchanged": true,
+  "cpu_tests": 132,
+  "preflight_contracts": 29,
+  "actual_source_samples": 112,
+  "gpu_runs": 1,
+  "gpu_total_records": 45,
+  "questions": 36,
+  "resets": 19,
+  "qa_bitwise_unchanged": true,
+  "reset_memory_boundaries_verified": true,
+  "syntax_files": 240,
+  "readme_links": 39,
+  "capsule_files": 1362,
+  "capsule_bytes": 11814989,
+  "only_personal_directory": true,
+  "no_new_media_weights_environment_credentials": true,
+  "initial_cpu_sandbox_failure_preserved": true
+}

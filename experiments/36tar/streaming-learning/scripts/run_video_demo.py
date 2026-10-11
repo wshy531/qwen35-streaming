@@ -20,7 +20,7 @@ def main():
     out.parent.mkdir(parents=True,exist_ok=True)
     log = out.with_name(out.name+".console.log")
     root = Path(__file__).resolve().parents[1]
-    env = dict(os.environ,PYTHONIOENCODING="utf-8",HF_HUB_OFFLINE="1",TRANSFORMERS_OFFLINE="1")
+    env = dict(os.environ,PYTHONIOENCODING="utf-8",PYTHONDONTWRITEBYTECODE="1",HF_HUB_OFFLINE="1",TRANSFORMERS_OFFLINE="1")
     command = [sys.executable,"-m","scripts.video_demo",*sys.argv[1:]]
     with log.open("x",encoding="utf-8") as stream:
         try:

@@ -1,0 +1,1275 @@
+{
+  "scope": "Explicit repeated short clip, not natural long video or cross-reset event memory",
+  "source_samples": 112,
+  "delivered_frames": 112,
+  "dropped_samples": 0,
+  "questions": 36,
+  "resets": 19,
+  "source_fingerprint": {
+    "samples": 112,
+    "sha256": "09816c19520ca5dca37f1fb9a649fb42ee41535c2faf3563745430d5ea8cc49b"
+  },
+  "replay_wall_seconds": 119.76599999999962,
+  "wall_seconds_including_load": 122.44462769999882,
+  "peak_allocated_gib": 3.2699475288391113,
+  "peak_reserved_gib": 3.60546875,
+  "peak_rss_gib": 1.4756126403808594,
+  "matched_resource_comparisons_after_epoch_2": [
+    {
+      "kind": "answer",
+      "seen_tokens": 117,
+      "samples": 13,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 2682880
+    },
+    {
+      "kind": "answer",
+      "seen_tokens": 119,
+      "samples": 4,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 2166784
+    },
+    {
+      "kind": "answer",
+      "seen_tokens": 174,
+      "samples": 13,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 5275648
+    },
+    {
+      "kind": "capacity_reset",
+      "seen_tokens": 0,
+      "samples": 18,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 3575808
+    },
+    {
+      "kind": "encoded",
+      "seen_tokens": 60,
+      "samples": 14,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 2846720
+    },
+    {
+      "kind": "encoded",
+      "seen_tokens": 61,
+      "samples": 4,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 872448
+    },
+    {
+      "kind": "encoded",
+      "seen_tokens": 117,
+      "samples": 13,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 2682880
+    },
+    {
+      "kind": "encoded",
+      "seen_tokens": 119,
+      "samples": 4,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 2166784
+    },
+    {
+      "kind": "encoded",
+      "seen_tokens": 174,
+      "samples": 13,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "rss_bytes": 2797568
+    }
+  ],
+  "matched_allocated_span_bytes": 0,
+  "matched_rss_span_bytes": 5275648,
+  "allocated_within_registered_32mib": true,
+  "rss_within_registered_128mib": true,
+  "answer_lag_thirds": [
+    {
+      "session_interval": [
+        0,
+        40
+      ],
+      "answers": 12,
+      "min_lag": 0.5630000000013382,
+      "median_lag": 0.6690000000021104,
+      "max_lag": 0.8909999999996217
+    },
+    {
+      "session_interval": [
+        40,
+        80
+      ],
+      "answers": 12,
+      "min_lag": 0.5940000000005838,
+      "median_lag": 0.706499999999334,
+      "max_lag": 0.8600000000005821
+    },
+    {
+      "session_interval": [
+        80,
+        120
+      ],
+      "answers": 12,
+      "min_lag": 0.5990000000005864,
+      "median_lag": 0.7325000000002859,
+      "max_lag": 0.8849999999996214
+    }
+  ],
+  "reset_memory_boundaries_verified": true,
+  "qa_main_state_unchanged": true,
+  "reset_rows": [
+    {
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "retained_frame_ids": [
+        180,
+        210
+      ]
+    },
+    {
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "retained_frame_ids": [
+        360,
+        390
+      ]
+    },
+    {
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "retained_frame_ids": [
+        540,
+        570
+      ]
+    },
+    {
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "retained_frame_ids": [
+        719,
+        749
+      ]
+    },
+    {
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "retained_frame_ids": [
+        899,
+        929
+      ]
+    },
+    {
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "retained_frame_ids": [
+        1079,
+        1109
+      ]
+    },
+    {
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "retained_frame_ids": [
+        1259,
+        1289
+      ]
+    },
+    {
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "retained_frame_ids": [
+        1438,
+        1468
+      ]
+    },
+    {
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "retained_frame_ids": [
+        1618,
+        1648
+      ]
+    },
+    {
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "retained_frame_ids": [
+        1798,
+        1828
+      ]
+    },
+    {
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "retained_frame_ids": [
+        1978,
+        2008
+      ]
+    },
+    {
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "retained_frame_ids": [
+        2157,
+        2187
+      ]
+    },
+    {
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "retained_frame_ids": [
+        2337,
+        2367
+      ]
+    },
+    {
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "retained_frame_ids": [
+        2517,
+        2547
+      ]
+    },
+    {
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "retained_frame_ids": [
+        2697,
+        2727
+      ]
+    },
+    {
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "retained_frame_ids": [
+        2876,
+        2906
+      ]
+    },
+    {
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "retained_frame_ids": [
+        2996,
+        3026
+      ]
+    },
+    {
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "retained_frame_ids": [
+        3116,
+        3146
+      ]
+    },
+    {
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "retained_frame_ids": [
+        3236,
+        3266
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 90,
+      "timestamp": 3.003,
+      "wall_seconds": 0.5123483000024862,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7160000000009603,
+      "available_wall_seconds": 3.7190000000009604
+    },
+    {
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 150,
+      "timestamp": 5.005,
+      "wall_seconds": 0.4754401999998663,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.683000000001921,
+      "available_wall_seconds": 5.688000000001921
+    },
+    {
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 270,
+      "timestamp": 9.009,
+      "wall_seconds": 0.4346249000009266,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.6159999999999997,
+      "available_wall_seconds": 9.625
+    },
+    {
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 330,
+      "timestamp": 11.011,
+      "wall_seconds": 0.43382560000100057,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.5830000000009612,
+      "available_wall_seconds": 11.59400000000096
+    },
+    {
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands under a running faucet.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        1172,
+        264,
+        4162,
+        69029,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 450,
+      "timestamp": 15.015,
+      "wall_seconds": 0.42539789999864297,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.5630000000013382,
+      "available_wall_seconds": 15.578000000001339
+    },
+    {
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands under a running faucet.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        1172,
+        264,
+        4162,
+        69029,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 510,
+      "timestamp": 17.017,
+      "wall_seconds": 0.4847537999994529,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.6550000000022997,
+      "available_wall_seconds": 17.6720000000023
+    },
+    {
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "question": "What are the hands doing?",
+      "answer": "The hands are holding a roll of paper towels and placing it into the dispenser.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        9668,
+        264,
+        6299,
+        314,
+        5392,
+        51106,
+        321,
+        23294,
+        424,
+        1083,
+        279,
+        95696,
+        13
+      ],
+      "stop_reason": "budget",
+      "frame_id": 630,
+      "timestamp": 21.021,
+      "wall_seconds": 0.5946683999973175,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7599999999990388,
+      "available_wall_seconds": 21.78099999999904
+    },
+    {
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "question": "What are the hands doing?",
+      "answer": "The hands are holding a roll of paper towels and placing it into a dispenser.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        9668,
+        264,
+        6299,
+        314,
+        5392,
+        51106,
+        321,
+        23294,
+        424,
+        1083,
+        264,
+        95696,
+        13
+      ],
+      "stop_reason": "budget",
+      "frame_id": 689,
+      "timestamp": 25.0,
+      "wall_seconds": 0.639417999998841,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.8909999999996217,
+      "available_wall_seconds": 25.89099999999962
+    },
+    {
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 809,
+      "timestamp": 29.003999999999998,
+      "wall_seconds": 0.4294322000023385,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.5900000000009626,
+      "available_wall_seconds": 29.59400000000096
+    },
+    {
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 869,
+      "timestamp": 31.006,
+      "wall_seconds": 0.5831560999977228,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7439999999999998,
+      "available_wall_seconds": 31.75
+    },
+    {
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands under a faucet.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        1172,
+        264,
+        69029,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 989,
+      "timestamp": 35.01,
+      "wall_seconds": 0.47251759999926435,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.615000000000002,
+      "available_wall_seconds": 35.625
+    },
+    {
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands under a running tap in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        1172,
+        264,
+        4162,
+        14795,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 1049,
+      "timestamp": 37.012,
+      "wall_seconds": 0.5801559000028647,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7689999999990391,
+      "available_wall_seconds": 37.78099999999904
+    },
+    {
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands under a faucet.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        1172,
+        264,
+        69029,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 1169,
+      "timestamp": 41.016,
+      "wall_seconds": 0.43306180000217864,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.5940000000005838,
+      "available_wall_seconds": 41.61000000000058
+    },
+    {
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands under a faucet.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        1172,
+        264,
+        69029,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 1229,
+      "timestamp": 43.018,
+      "wall_seconds": 0.4640929999986838,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.622999999999621,
+      "available_wall_seconds": 43.64099999999962
+    },
+    {
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "question": "What are the hands doing?",
+      "answer": "The hands are holding a roll of paper towels and are in the process of taking",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        9668,
+        264,
+        6299,
+        314,
+        5392,
+        51106,
+        321,
+        513,
+        303,
+        279,
+        1817,
+        314,
+        4483
+      ],
+      "stop_reason": "budget",
+      "frame_id": 1349,
+      "timestamp": 47.022,
+      "wall_seconds": 0.5955766000006406,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7750000000023007,
+      "available_wall_seconds": 47.7970000000023
+    },
+    {
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "question": "What are the hands doing?",
+      "answer": "The hands are holding a roll of paper towels and wiping their hands with them.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        9668,
+        264,
+        6299,
+        314,
+        5392,
+        51106,
+        321,
+        80269,
+        836,
+        5888,
+        440,
+        1070,
+        13
+      ],
+      "stop_reason": "budget",
+      "frame_id": 1408,
+      "timestamp": 51.001,
+      "wall_seconds": 0.5940456999996968,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.8590000000005844,
+      "available_wall_seconds": 51.86000000000058
+    },
+    {
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "question": "What are the hands doing?",
+      "answer": "The hands are being washed with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        1602,
+        36251,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 1528,
+      "timestamp": 55.005,
+      "wall_seconds": 0.4609130999997433,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.6199999999999974,
+      "available_wall_seconds": 55.625
+    },
+    {
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 1588,
+      "timestamp": 57.007,
+      "wall_seconds": 0.543844399999216,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7589999999996238,
+      "available_wall_seconds": 57.76599999999962
+    },
+    {
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 1708,
+      "timestamp": 61.010999999999996,
+      "wall_seconds": 0.4698289999978442,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.629999999999626,
+      "available_wall_seconds": 61.64099999999962
+    },
+    {
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands under running water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        1172,
+        4162,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 1768,
+      "timestamp": 63.013,
+      "wall_seconds": 0.4283335000000079,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.6120000000000019,
+      "available_wall_seconds": 63.625
+    },
+    {
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "question": "What are the hands doing?",
+      "answer": "The hands are peeling off a piece of paper from a dispenser.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        1016,
+        19447,
+        974,
+        264,
+        6365,
+        314,
+        5392,
+        494,
+        264,
+        95696,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 1888,
+      "timestamp": 67.017,
+      "wall_seconds": 0.6424168000012287,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.8580000000000041,
+      "available_wall_seconds": 67.875
+    },
+    {
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "question": "What are the hands doing?",
+      "answer": "The hands are holding a piece of paper and placing it into a paper towel dispenser",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        9668,
+        264,
+        6365,
+        314,
+        5392,
+        321,
+        23294,
+        424,
+        1083,
+        264,
+        5392,
+        41198,
+        95696
+      ],
+      "stop_reason": "budget",
+      "frame_id": 1948,
+      "timestamp": 69.019,
+      "wall_seconds": 0.6541595000016969,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.825000000000955,
+      "available_wall_seconds": 69.84400000000096
+    },
+    {
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "question": "What are the hands doing?",
+      "answer": "The hands are holding a small object, possibly a piece of paper or a small",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        9668,
+        264,
+        2526,
+        1576,
+        11,
+        10451,
+        264,
+        6365,
+        314,
+        5392,
+        466,
+        264,
+        2526
+      ],
+      "stop_reason": "budget",
+      "frame_id": 2067,
+      "timestamp": 75.0,
+      "wall_seconds": 0.5705377000012959,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.8600000000005821,
+      "available_wall_seconds": 75.86000000000058
+    },
+    {
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "question": "What are the hands doing?",
+      "answer": "The hands are wiping a toilet paper dispenser.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        80269,
+        264,
+        25378,
+        5392,
+        95696,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2127,
+      "timestamp": 77.002,
+      "wall_seconds": 0.47336259999792674,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.6539999999990442,
+      "available_wall_seconds": 77.65599999999904
+    },
+    {
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "question": "What are the hands doing?",
+      "answer": "The hands are rubbing soap into their palms and then washing their hands.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        54060,
+        25929,
+        1083,
+        836,
+        72176,
+        321,
+        1179,
+        26789,
+        836,
+        5888,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2247,
+      "timestamp": 81.006,
+      "wall_seconds": 0.6412917000016023,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.8849999999996214,
+      "available_wall_seconds": 81.89099999999962
+    },
+    {
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "question": "What are the hands doing?",
+      "answer": "The hands are being washed with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        1602,
+        36251,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2307,
+      "timestamp": 83.008,
+      "wall_seconds": 0.628668800000014,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.8360000000009649,
+      "available_wall_seconds": 83.84400000000096
+    },
+    {
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2427,
+      "timestamp": 87.012,
+      "wall_seconds": 0.5511912999972992,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.70700000000096,
+      "available_wall_seconds": 87.71900000000096
+    },
+    {
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2487,
+      "timestamp": 89.014,
+      "wall_seconds": 0.5755754999991041,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.8610000000000042,
+      "available_wall_seconds": 89.875
+    },
+    {
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "question": "What are the hands doing?",
+      "answer": "The hands are wiping a paper towel dispenser.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        80269,
+        264,
+        5392,
+        41198,
+        95696,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2607,
+      "timestamp": 93.018,
+      "wall_seconds": 0.5316642000034335,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.747999999999621,
+      "available_wall_seconds": 93.76599999999962
+    },
+    {
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "question": "What are the hands doing?",
+      "answer": "The hands are wiping a paper towel dispenser.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        80269,
+        264,
+        5392,
+        41198,
+        95696,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2667,
+      "timestamp": 95.02,
+      "wall_seconds": 0.41093139999793493,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.605000000000004,
+      "available_wall_seconds": 95.625
+    },
+    {
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "question": "What are the hands doing?",
+      "answer": "The hands are pouring coffee into a cup.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        48716,
+        10482,
+        1083,
+        264,
+        10212,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2786,
+      "timestamp": 101.001,
+      "wall_seconds": 0.40426429999934044,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7180000000009557,
+      "available_wall_seconds": 101.71900000000096
+    },
+    {
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2846,
+      "timestamp": 103.003,
+      "wall_seconds": 0.4871932000023662,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.6379999999996215,
+      "available_wall_seconds": 103.64099999999962
+    },
+    {
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 2966,
+      "timestamp": 107.007,
+      "wall_seconds": 0.4776276000011421,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.6650000000022942,
+      "available_wall_seconds": 107.6720000000023
+    },
+    {
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 3086,
+      "timestamp": 111.011,
+      "wall_seconds": 0.42012270000122953,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.5990000000005864,
+      "available_wall_seconds": 111.61000000000058
+    },
+    {
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands under a running faucet.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        1172,
+        264,
+        4162,
+        69029,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 3206,
+      "timestamp": 115.015,
+      "wall_seconds": 0.5178211999991618,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7509999999996211,
+      "available_wall_seconds": 115.76599999999962
+    },
+    {
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "question": "What are the hands doing?",
+      "answer": "The hands are holding a roll of paper towels and placing it into a dispenser.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        9668,
+        264,
+        6299,
+        314,
+        5392,
+        51106,
+        321,
+        23294,
+        424,
+        1083,
+        264,
+        95696,
+        13
+      ],
+      "stop_reason": "budget",
+      "frame_id": 3326,
+      "timestamp": 119.019,
+      "wall_seconds": 0.5429198000019824,
+      "reference_mode": "fp32_ieee_math",
+      "answer_lag_seconds": 0.7469999999996162,
+      "available_wall_seconds": 119.76599999999962
+    }
+  ],
+  "accuracy_scored": false,
+  "unlimited_stability_proven": false,
+  "camera_tested": false
+}

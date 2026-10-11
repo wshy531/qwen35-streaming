@@ -1,0 +1,114 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 13496.51it/s]
+{"event": "encoded", "timestamp": 1.001, "memory_from": 0.0, "answer": null}
+{"event": "encoded", "timestamp": 3.003, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 3.003, "memory_from": 0.0, "answer": "The hands are washing their hands with soap and water."}
+{"event": "encoded", "timestamp": 5.005, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 5.005, "memory_from": 0.0, "answer": "The hands are washing their hands with soap and water."}
+{"event": "capacity_reset", "timestamp": 7.007, "memory_from": 6.006, "answer": null}
+{"event": "encoded", "timestamp": 7.007, "memory_from": 6.006, "answer": null}
+{"event": "encoded", "timestamp": 9.009, "memory_from": 6.006, "answer": null}
+{"event": "answer", "timestamp": 9.009, "memory_from": 6.006, "answer": "The hands are washing their hands in a sink."}
+{"event": "encoded", "timestamp": 11.011, "memory_from": 6.006, "answer": null}
+{"event": "answer", "timestamp": 11.011, "memory_from": 6.006, "answer": "The hands are washing their hands in a sink."}
+{"event": "capacity_reset", "timestamp": 13.013, "memory_from": 12.012, "answer": null}
+{"event": "encoded", "timestamp": 13.013, "memory_from": 12.012, "answer": null}
+{"event": "encoded", "timestamp": 15.015, "memory_from": 12.012, "answer": null}
+{"event": "answer", "timestamp": 15.015, "memory_from": 12.012, "answer": "The hands are washing their hands under a running faucet."}
+{"event": "encoded", "timestamp": 17.017, "memory_from": 12.012, "answer": null}
+{"event": "answer", "timestamp": 17.017, "memory_from": 12.012, "answer": "The hands are washing their hands under a running faucet."}
+{"event": "capacity_reset", "timestamp": 19.019, "memory_from": 18.018, "answer": null}
+{"event": "encoded", "timestamp": 19.019, "memory_from": 18.018, "answer": null}
+{"event": "encoded", "timestamp": 21.021, "memory_from": 18.018, "answer": null}
+{"event": "answer", "timestamp": 21.021, "memory_from": 18.018, "answer": "The hands are holding a roll of paper towels and placing it into the dispenser."}
+{"event": "encoded", "timestamp": 25.0, "memory_from": 18.018, "answer": null}
+{"event": "answer", "timestamp": 25.0, "memory_from": 18.018, "answer": "The hands are holding a roll of paper towels and placing it into a dispenser."}
+{"event": "capacity_reset", "timestamp": 27.002, "memory_from": 26.001, "answer": null}
+{"event": "encoded", "timestamp": 27.002, "memory_from": 26.001, "answer": null}
+{"event": "encoded", "timestamp": 29.003999999999998, "memory_from": 26.001, "answer": null}
+{"event": "answer", "timestamp": 29.003999999999998, "memory_from": 26.001, "answer": "The hands are washing their hands in a sink."}
+{"event": "encoded", "timestamp": 31.006, "memory_from": 26.001, "answer": null}
+{"event": "answer", "timestamp": 31.006, "memory_from": 26.001, "answer": "The hands are washing their hands with soap and water."}
+{"event": "capacity_reset", "timestamp": 33.007999999999996, "memory_from": 32.007, "answer": null}
+{"event": "encoded", "timestamp": 33.007999999999996, "memory_from": 32.007, "answer": null}
+{"event": "encoded", "timestamp": 35.01, "memory_from": 32.007, "answer": null}
+{"event": "answer", "timestamp": 35.01, "memory_from": 32.007, "answer": "The hands are washing their hands under a faucet."}
+{"event": "encoded", "timestamp": 37.012, "memory_from": 32.007, "answer": null}
+{"event": "answer", "timestamp": 37.012, "memory_from": 32.007, "answer": "The hands are washing their hands under a running tap in a sink."}
+{"event": "capacity_reset", "timestamp": 39.013999999999996, "memory_from": 38.013, "answer": null}
+{"event": "encoded", "timestamp": 39.013999999999996, "memory_from": 38.013, "answer": null}
+{"event": "encoded", "timestamp": 41.016, "memory_from": 38.013, "answer": null}
+{"event": "answer", "timestamp": 41.016, "memory_from": 38.013, "answer": "The hands are washing their hands under a faucet."}
+{"event": "encoded", "timestamp": 43.018, "memory_from": 38.013, "answer": null}
+{"event": "answer", "timestamp": 43.018, "memory_from": 38.013, "answer": "The hands are washing their hands under a faucet."}
+{"event": "capacity_reset", "timestamp": 45.019999999999996, "memory_from": 44.019, "answer": null}
+{"event": "encoded", "timestamp": 45.019999999999996, "memory_from": 44.019, "answer": null}
+{"event": "encoded", "timestamp": 47.022, "memory_from": 44.019, "answer": null}
+{"event": "answer", "timestamp": 47.022, "memory_from": 44.019, "answer": "The hands are holding a roll of paper towels and are in the process of taking"}
+{"event": "encoded", "timestamp": 51.001, "memory_from": 44.019, "answer": null}
+{"event": "answer", "timestamp": 51.001, "memory_from": 44.019, "answer": "The hands are holding a roll of paper towels and wiping their hands with them."}
+{"event": "capacity_reset", "timestamp": 53.003, "memory_from": 52.002, "answer": null}
+{"event": "encoded", "timestamp": 53.003, "memory_from": 52.002, "answer": null}
+{"event": "encoded", "timestamp": 55.005, "memory_from": 52.002, "answer": null}
+{"event": "answer", "timestamp": 55.005, "memory_from": 52.002, "answer": "The hands are being washed with soap and water."}
+{"event": "encoded", "timestamp": 57.007, "memory_from": 52.002, "answer": null}
+{"event": "answer", "timestamp": 57.007, "memory_from": 52.002, "answer": "The hands are washing their hands with soap and water."}
+{"event": "capacity_reset", "timestamp": 59.009, "memory_from": 58.007999999999996, "answer": null}
+{"event": "encoded", "timestamp": 59.009, "memory_from": 58.007999999999996, "answer": null}
+{"event": "encoded", "timestamp": 61.010999999999996, "memory_from": 58.007999999999996, "answer": null}
+{"event": "answer", "timestamp": 61.010999999999996, "memory_from": 58.007999999999996, "answer": "The hands are washing their hands in a sink."}
+{"event": "encoded", "timestamp": 63.013, "memory_from": 58.007999999999996, "answer": null}
+{"event": "answer", "timestamp": 63.013, "memory_from": 58.007999999999996, "answer": "The hands are washing their hands under running water."}
+{"event": "capacity_reset", "timestamp": 65.015, "memory_from": 64.014, "answer": null}
+{"event": "encoded", "timestamp": 65.015, "memory_from": 64.014, "answer": null}
+{"event": "encoded", "timestamp": 67.017, "memory_from": 64.014, "answer": null}
+{"event": "answer", "timestamp": 67.017, "memory_from": 64.014, "answer": "The hands are peeling off a piece of paper from a dispenser."}
+{"event": "encoded", "timestamp": 69.019, "memory_from": 64.014, "answer": null}
+{"event": "answer", "timestamp": 69.019, "memory_from": 64.014, "answer": "The hands are holding a piece of paper and placing it into a paper towel dispenser"}
+{"event": "capacity_reset", "timestamp": 71.021, "memory_from": 70.02, "answer": null}
+{"event": "encoded", "timestamp": 71.021, "memory_from": 70.02, "answer": null}
+{"event": "encoded", "timestamp": 75.0, "memory_from": 70.02, "answer": null}
+{"event": "answer", "timestamp": 75.0, "memory_from": 70.02, "answer": "The hands are holding a small object, possibly a piece of paper or a small"}
+{"event": "encoded", "timestamp": 77.002, "memory_from": 70.02, "answer": null}
+{"event": "answer", "timestamp": 77.002, "memory_from": 70.02, "answer": "The hands are wiping a toilet paper dispenser."}
+{"event": "capacity_reset", "timestamp": 79.004, "memory_from": 78.003, "answer": null}
+{"event": "encoded", "timestamp": 79.004, "memory_from": 78.003, "answer": null}
+{"event": "encoded", "timestamp": 81.006, "memory_from": 78.003, "answer": null}
+{"event": "answer", "timestamp": 81.006, "memory_from": 78.003, "answer": "The hands are rubbing soap into their palms and then washing their hands."}
+{"event": "encoded", "timestamp": 83.008, "memory_from": 78.003, "answer": null}
+{"event": "answer", "timestamp": 83.008, "memory_from": 78.003, "answer": "The hands are being washed with soap and water."}
+{"event": "capacity_reset", "timestamp": 85.01, "memory_from": 84.009, "answer": null}
+{"event": "encoded", "timestamp": 85.01, "memory_from": 84.009, "answer": null}
+{"event": "encoded", "timestamp": 87.012, "memory_from": 84.009, "answer": null}
+{"event": "answer", "timestamp": 87.012, "memory_from": 84.009, "answer": "The hands are washing their hands in a sink."}
+{"event": "encoded", "timestamp": 89.014, "memory_from": 84.009, "answer": null}
+{"event": "answer", "timestamp": 89.014, "memory_from": 84.009, "answer": "The hands are washing their hands in a sink."}
+{"event": "capacity_reset", "timestamp": 91.01599999999999, "memory_from": 90.015, "answer": null}
+{"event": "encoded", "timestamp": 91.01599999999999, "memory_from": 90.015, "answer": null}
+{"event": "encoded", "timestamp": 93.018, "memory_from": 90.015, "answer": null}
+{"event": "answer", "timestamp": 93.018, "memory_from": 90.015, "answer": "The hands are wiping a paper towel dispenser."}
+{"event": "encoded", "timestamp": 95.02, "memory_from": 90.015, "answer": null}
+{"event": "answer", "timestamp": 95.02, "memory_from": 90.015, "answer": "The hands are wiping a paper towel dispenser."}
+{"event": "capacity_reset", "timestamp": 97.02199999999999, "memory_from": 96.021, "answer": null}
+{"event": "encoded", "timestamp": 97.02199999999999, "memory_from": 96.021, "answer": null}
+{"event": "encoded", "timestamp": 101.001, "memory_from": 96.021, "answer": null}
+{"event": "answer", "timestamp": 101.001, "memory_from": 96.021, "answer": "The hands are pouring coffee into a cup."}
+{"event": "encoded", "timestamp": 103.003, "memory_from": 96.021, "answer": null}
+{"event": "answer", "timestamp": 103.003, "memory_from": 96.021, "answer": "The hands are washing their hands with soap and water."}
+{"event": "capacity_reset", "timestamp": 105.005, "memory_from": 104.004, "answer": null}
+{"event": "encoded", "timestamp": 105.005, "memory_from": 104.004, "answer": null}
+{"event": "encoded", "timestamp": 107.007, "memory_from": 104.004, "answer": null}
+{"event": "answer", "timestamp": 107.007, "memory_from": 104.004, "answer": "The hands are washing their hands in a sink."}
+{"event": "capacity_reset", "timestamp": 109.009, "memory_from": 108.008, "answer": null}
+{"event": "encoded", "timestamp": 109.009, "memory_from": 108.008, "answer": null}
+{"event": "encoded", "timestamp": 111.011, "memory_from": 108.008, "answer": null}
+{"event": "answer", "timestamp": 111.011, "memory_from": 108.008, "answer": "The hands are washing their hands in a sink."}
+{"event": "capacity_reset", "timestamp": 113.013, "memory_from": 112.012, "answer": null}
+{"event": "encoded", "timestamp": 113.013, "memory_from": 112.012, "answer": null}
+{"event": "encoded", "timestamp": 115.015, "memory_from": 112.012, "answer": null}
+{"event": "answer", "timestamp": 115.015, "memory_from": 112.012, "answer": "The hands are washing their hands under a running faucet."}
+{"event": "capacity_reset", "timestamp": 117.017, "memory_from": 116.01599999999999, "answer": null}
+{"event": "encoded", "timestamp": 117.017, "memory_from": 116.01599999999999, "answer": null}
+{"event": "encoded", "timestamp": 119.019, "memory_from": 116.01599999999999, "answer": null}
+{"event": "answer", "timestamp": 119.019, "memory_from": 116.01599999999999, "answer": "The hands are holding a roll of paper towels and placing it into a dispenser."}
+{"event": "eof", "timestamp": 119.019, "memory_from": 116.01599999999999, "answer": null}

@@ -21,7 +21,9 @@ img{width:100%;height:340px;object-fit:contain;background:#080d13;border-radius:
 <script>function render(s){document.getElementById('scope').textContent=s.scope||'';
 document.getElementById('frame').src=s.image||'';
 let t=s.status||{},p=s.source||{};let sec=x=>x==null?'暂无':x.toFixed(2)+' 秒';
+let repeat=p.source_provenance;let origin=repeat?`明确循环第 ${repeat.loop_index+1} 次 / 来源时间 ${sec(repeat.source_pts)} / 会话时间 ${sec(repeat.session_pts)}\n`:'';
 document.getElementById('status').textContent=`正在播放：${sec(p.timestamp)}\n最近接入模型：${sec(t.video_seconds)}\n当前记忆从：${sec(t.memory_from_seconds)}\n重置：${t.reset_count||0} 次\n丢帧：${p.dropped_samples||0} / 已采样 ${p.produced_samples||0}\n模型已收到：${t.received_frames||0} 帧\n${t.finished?'本次运行已结束':''}`;
+document.getElementById('status').textContent=origin+document.getElementById('status').textContent;
 let a=document.getElementById('answers');a.replaceChildren();for(let x of s.answers||[]){let li=document.createElement('li');
 li.textContent=`依据视频 ${x.timestamp.toFixed(2)} 秒 / 记忆从 ${x.memory_from_pts.toFixed(2)} 秒开始${x.answer_lag_seconds==null?'':` / 回答滞后 ${x.answer_lag_seconds.toFixed(2)} 秒`}\n${x.question}\n${x.answer}`;a.append(li)}}
 if(window.RECORDED){render(window.RECORDED)}else{setInterval(async()=>{try{render(await(await fetch('/state',{cache:'no-store'})).json())}catch(e){}},500)}

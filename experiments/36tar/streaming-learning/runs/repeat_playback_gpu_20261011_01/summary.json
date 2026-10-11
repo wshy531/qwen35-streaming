@@ -1,0 +1,2265 @@
+{
+  "scope": "真实权重 GPU · 按PTS墙钟播放 / 最新帧替换 · 明确循环5次 / 合成会话时间；不是自然长视频",
+  "budget": {
+    "model_loads": 1,
+    "frames_max": 120,
+    "vision_forwards_max": 60,
+    "questions_max": 60,
+    "language_forwards_max": 1140,
+    "generated_tokens_max": 960,
+    "history_tokens_max": 176,
+    "wall_seconds": 240,
+    "free_gpu_gib_min": 5.5,
+    "available_ram_gib_min": 3,
+    "precision": "fp32_ieee_math",
+    "resize": "letterbox",
+    "video_logits": "none",
+    "qa_logits": "last",
+    "playback": "clock",
+    "queue_capacity": 1,
+    "consumer_delay_seconds": 0.0,
+    "repeat_count": 5,
+    "repeat_period_seconds": 25.0,
+    "first_qa_frames": 4
+  },
+  "counts": {
+    "vision": 56,
+    "language": 559,
+    "lm_head_rows": 483
+  },
+  "final": {
+    "received_real_frames": 112,
+    "encoded_real_frames": 112,
+    "pairs": 56,
+    "questions": 36,
+    "resets": 19,
+    "epoch": 19,
+    "generated_tokens": 447,
+    "memory_from_pts": 116.01599999999999,
+    "history_across_reset": false,
+    "last_received_id": 3326,
+    "last_received_pts": 119.019,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "max_buffered_rgb_bytes": 294912,
+    "finished": true,
+    "closed": false,
+    "invalid": false,
+    "session": {
+      "accepted_frames": 4,
+      "encoded_real_frames": 4,
+      "pending_frame_id": null,
+      "last_received_id": 3326,
+      "last_encoded_id": 3326,
+      "last_encoded_pts": 119.019,
+      "seen_tokens": 119,
+      "next_rope_position": 39,
+      "vision_encodings": 2,
+      "pending_rgb_bytes": 0,
+      "finished": true,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    }
+  },
+  "schedule": [
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 6,
+      "seen_tokens": 171
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 6,
+      "seen_tokens": 171
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 6,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 8,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 10,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 10,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 12,
+      "seen_tokens": 172
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 12,
+      "seen_tokens": 172
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 12,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 14,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 16,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 16,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 18,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 18,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 18,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 20,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 22,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 22,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 24,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 24,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 24,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 26,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 28,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 28,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 30,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 30,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 30,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 32,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 34,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 34,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 36,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 36,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 36,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 38,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 40,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 40,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 42,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 42,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 42,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 44,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 46,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 46,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 48,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 48,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 48,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 50,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 52,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 52,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 54,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 54,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 54,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 56,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 58,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 58,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 60,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 60,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 60,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 62,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 64,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 64,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 66,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 66,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 66,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 68,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 70,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 70,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 72,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 72,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 72,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 74,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 76,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 76,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 78,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 78,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 78,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 80,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 82,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 82,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 84,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 84,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 84,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 86,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 88,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 88,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 90,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 90,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 90,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 92,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 94,
+      "seen_tokens": 118
+    },
+    {
+      "kind": "answer",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 94,
+      "seen_tokens": 118
+    },
+    {
+      "kind": "encoded",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 96,
+      "seen_tokens": 176
+    },
+    {
+      "kind": "answer",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 96,
+      "seen_tokens": 176
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "encoded_frames": 96,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "encoded_frames": 98,
+      "seen_tokens": 61
+    },
+    {
+      "kind": "encoded",
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "encoded_frames": 100,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "answer",
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "encoded_frames": 100,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "encoded_frames": 100,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "encoded_frames": 102,
+      "seen_tokens": 61
+    },
+    {
+      "kind": "encoded",
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "encoded_frames": 104,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "answer",
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "encoded_frames": 104,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "encoded_frames": 104,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "encoded_frames": 106,
+      "seen_tokens": 61
+    },
+    {
+      "kind": "encoded",
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "encoded_frames": 108,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "answer",
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "encoded_frames": 108,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 108,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 110,
+      "seen_tokens": 61
+    },
+    {
+      "kind": "encoded",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 112,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "answer",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 112,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "eof",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 112,
+      "seen_tokens": 119
+    }
+  ],
+  "append_including_qa_and_decode_latency": {
+    "count": 112,
+    "sum_seconds": 34.55968549994577,
+    "max_seconds": 0.9494061999939731
+  },
+  "replay_wall_seconds": 119.76599999999962,
+  "peak_process_rss_bytes": 1584427008,
+  "cross_reset_memory": false,
+  "end_to_end_speedup_proven": false,
+  "realtime": false,
+  "requested_playback": "clock",
+  "effective_playback": "clock",
+  "source_fingerprint": {
+    "samples": 112,
+    "sha256": "09816c19520ca5dca37f1fb9a649fb42ee41535c2faf3563745430d5ea8cc49b"
+  },
+  "max_encoded_pair_gap_seconds": 2.9780000000000086,
+  "answer_lags_seconds": [
+    0.7160000000009603,
+    0.683000000001921,
+    0.6159999999999997,
+    0.5830000000009612,
+    0.5630000000013382,
+    0.6550000000022997,
+    0.7599999999990388,
+    0.8909999999996217,
+    0.5900000000009626,
+    0.7439999999999998,
+    0.615000000000002,
+    0.7689999999990391,
+    0.5940000000005838,
+    0.622999999999621,
+    0.7750000000023007,
+    0.8590000000005844,
+    0.6199999999999974,
+    0.7589999999996238,
+    0.629999999999626,
+    0.6120000000000019,
+    0.8580000000000041,
+    0.825000000000955,
+    0.8600000000005821,
+    0.6539999999990442,
+    0.8849999999996214,
+    0.8360000000009649,
+    0.70700000000096,
+    0.8610000000000042,
+    0.747999999999621,
+    0.605000000000004,
+    0.7180000000009557,
+    0.6379999999996215,
+    0.6650000000022942,
+    0.5990000000005864,
+    0.7509999999996211,
+    0.7469999999996162
+  ],
+  "resource_samples": [
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.9380000000019209,
+      "epoch": 0,
+      "seen_tokens": 59,
+      "session_pts": 1.001,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 1557860352,
+      "ram_available_bytes": 2796699648,
+      "allocated_bytes": 3448079872,
+      "reserved_bytes": 3816816640
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.188000000001921,
+      "epoch": 0,
+      "seen_tokens": 115,
+      "session_pts": 3.003,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 1559011328,
+      "ram_available_bytes": 2780553216,
+      "allocated_bytes": 3449456128,
+      "reserved_bytes": 3818913792
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.7190000000009604,
+      "epoch": 0,
+      "seen_tokens": 115,
+      "session_pts": 3.003,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 1578434560,
+      "ram_available_bytes": 2770399232,
+      "allocated_bytes": 3468330496,
+      "reserved_bytes": 3865051136
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 5.203000000001339,
+      "epoch": 0,
+      "seen_tokens": 171,
+      "session_pts": 5.005,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 1580204032,
+      "ram_available_bytes": 2753208320,
+      "allocated_bytes": 3450832384,
+      "reserved_bytes": 3865051136
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 5.688000000001921,
+      "epoch": 0,
+      "seen_tokens": 171,
+      "session_pts": 5.005,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 1580204032,
+      "ram_available_bytes": 2767835136,
+      "allocated_bytes": 3469706752,
+      "reserved_bytes": 3869245440
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 7.015999999999622,
+      "epoch": 1,
+      "seen_tokens": 0,
+      "session_pts": 7.007,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 1580654592,
+      "ram_available_bytes": 2764820480,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3869245440
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 7.390999999999622,
+      "epoch": 1,
+      "seen_tokens": 59,
+      "session_pts": 7.007,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 1581191168,
+      "ram_available_bytes": 2769731584,
+      "allocated_bytes": 3448079872,
+      "reserved_bytes": 3869245440
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 9.18800000000192,
+      "epoch": 1,
+      "seen_tokens": 115,
+      "session_pts": 9.009,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 1581232128,
+      "ram_available_bytes": 2749169664,
+      "allocated_bytes": 3449456128,
+      "reserved_bytes": 3869245440
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 9.625,
+      "epoch": 1,
+      "seen_tokens": 115,
+      "session_pts": 9.009,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 1581232128,
+      "ram_available_bytes": 2768703488,
+      "allocated_bytes": 3468330496,
+      "reserved_bytes": 3869245440
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 11.15599999999904,
+      "epoch": 1,
+      "seen_tokens": 172,
+      "session_pts": 11.011,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 1580834816,
+      "ram_available_bytes": 2748694528,
+      "allocated_bytes": 3450856960,
+      "reserved_bytes": 3869245440
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 11.59400000000096,
+      "epoch": 1,
+      "seen_tokens": 172,
+      "session_pts": 11.011,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 1580834816,
+      "ram_available_bytes": 2771001344,
+      "allocated_bytes": 3469731328,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 13.015999999999622,
+      "epoch": 2,
+      "seen_tokens": 0,
+      "session_pts": 13.013,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 1580851200,
+      "ram_available_bytes": 2758144000,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 13.265999999999622,
+      "epoch": 2,
+      "seen_tokens": 60,
+      "session_pts": 13.013,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 1581391872,
+      "ram_available_bytes": 2746793984,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 15.140999999999622,
+      "epoch": 2,
+      "seen_tokens": 117,
+      "session_pts": 15.015,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 1581445120,
+      "ram_available_bytes": 2663952384,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 15.578000000001339,
+      "epoch": 2,
+      "seen_tokens": 117,
+      "session_pts": 15.015,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 1581445120,
+      "ram_available_bytes": 2725941248,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 17.1720000000023,
+      "epoch": 2,
+      "seen_tokens": 174,
+      "session_pts": 17.017,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 1581453312,
+      "ram_available_bytes": 2737987584,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 17.6720000000023,
+      "epoch": 2,
+      "seen_tokens": 174,
+      "session_pts": 17.017,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 1581453312,
+      "ram_available_bytes": 2751991808,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 19.03099999999904,
+      "epoch": 3,
+      "seen_tokens": 0,
+      "session_pts": 19.019,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 1580941312,
+      "ram_available_bytes": 2761838592,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 19.28099999999904,
+      "epoch": 3,
+      "seen_tokens": 60,
+      "session_pts": 19.019,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 1581457408,
+      "ram_available_bytes": 2744504320,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 21.1720000000023,
+      "epoch": 3,
+      "seen_tokens": 117,
+      "session_pts": 21.021,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 1581461504,
+      "ram_available_bytes": 2751451136,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 21.78099999999904,
+      "epoch": 3,
+      "seen_tokens": 117,
+      "session_pts": 21.021,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 1581461504,
+      "ram_available_bytes": 2767228928,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 25.235000000000582,
+      "epoch": 3,
+      "seen_tokens": 174,
+      "session_pts": 25.0,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 1581862912,
+      "ram_available_bytes": 2767867904,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 25.89099999999962,
+      "epoch": 3,
+      "seen_tokens": 174,
+      "session_pts": 25.0,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 1581862912,
+      "ram_available_bytes": 2785181696,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 27.03099999999904,
+      "epoch": 4,
+      "seen_tokens": 0,
+      "session_pts": 27.002,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 1582256128,
+      "ram_available_bytes": 2786623488,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 27.31300000000192,
+      "epoch": 4,
+      "seen_tokens": 60,
+      "session_pts": 27.002,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 1582256128,
+      "ram_available_bytes": 2775044096,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 29.15599999999904,
+      "epoch": 4,
+      "seen_tokens": 117,
+      "session_pts": 29.003999999999998,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 1581703168,
+      "ram_available_bytes": 2778136576,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 29.59400000000096,
+      "epoch": 4,
+      "seen_tokens": 117,
+      "session_pts": 29.003999999999998,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 1581703168,
+      "ram_available_bytes": 2788020224,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 31.15599999999904,
+      "epoch": 4,
+      "seen_tokens": 174,
+      "session_pts": 31.006,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 1581703168,
+      "ram_available_bytes": 2783023104,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 31.75,
+      "epoch": 4,
+      "seen_tokens": 174,
+      "session_pts": 31.006,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 1581703168,
+      "ram_available_bytes": 2790813696,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 33.01599999999962,
+      "epoch": 5,
+      "seen_tokens": 0,
+      "session_pts": 33.007999999999996,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 1582256128,
+      "ram_available_bytes": 2799783936,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 33.28099999999904,
+      "epoch": 5,
+      "seen_tokens": 60,
+      "session_pts": 33.007999999999996,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 1582321664,
+      "ram_available_bytes": 2786643968,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 35.14099999999962,
+      "epoch": 5,
+      "seen_tokens": 117,
+      "session_pts": 35.01,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 1582387200,
+      "ram_available_bytes": 2790498304,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 35.625,
+      "epoch": 5,
+      "seen_tokens": 117,
+      "session_pts": 35.01,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 1582387200,
+      "ram_available_bytes": 2796273664,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 37.18800000000192,
+      "epoch": 5,
+      "seen_tokens": 174,
+      "session_pts": 37.012,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 1582399488,
+      "ram_available_bytes": 2790023168,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 37.78099999999904,
+      "epoch": 5,
+      "seen_tokens": 174,
+      "session_pts": 37.012,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 1582399488,
+      "ram_available_bytes": 2801348608,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 39.01599999999962,
+      "epoch": 6,
+      "seen_tokens": 0,
+      "session_pts": 39.013999999999996,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 1582428160,
+      "ram_available_bytes": 2806734848,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 39.28099999999904,
+      "epoch": 6,
+      "seen_tokens": 60,
+      "session_pts": 39.013999999999996,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 1582497792,
+      "ram_available_bytes": 2797109248,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 41.1720000000023,
+      "epoch": 6,
+      "seen_tokens": 117,
+      "session_pts": 41.016,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 1581998080,
+      "ram_available_bytes": 2799345664,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 41.61000000000058,
+      "epoch": 6,
+      "seen_tokens": 117,
+      "session_pts": 41.016,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 1581998080,
+      "ram_available_bytes": 2807894016,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 43.1720000000023,
+      "epoch": 6,
+      "seen_tokens": 174,
+      "session_pts": 43.018,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 1582465024,
+      "ram_available_bytes": 2802925568,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 43.64099999999962,
+      "epoch": 6,
+      "seen_tokens": 174,
+      "session_pts": 43.018,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 1582465024,
+      "ram_available_bytes": 2810462208,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 45.03099999999904,
+      "epoch": 7,
+      "seen_tokens": 0,
+      "session_pts": 45.019999999999996,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 1582469120,
+      "ram_available_bytes": 2798178304,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 45.28099999999904,
+      "epoch": 7,
+      "seen_tokens": 60,
+      "session_pts": 45.019999999999996,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 1581932544,
+      "ram_available_bytes": 2806226944,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 47.18800000000192,
+      "epoch": 7,
+      "seen_tokens": 117,
+      "session_pts": 47.022,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 1581600768,
+      "ram_available_bytes": 2820030464,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 47.7970000000023,
+      "epoch": 7,
+      "seen_tokens": 117,
+      "session_pts": 47.022,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 1581600768,
+      "ram_available_bytes": 2834272256,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 51.25,
+      "epoch": 7,
+      "seen_tokens": 174,
+      "session_pts": 51.001,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 1582473216,
+      "ram_available_bytes": 2822725632,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 51.86000000000058,
+      "epoch": 7,
+      "seen_tokens": 174,
+      "session_pts": 51.001,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 1582473216,
+      "ram_available_bytes": 2835906560,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 53.01599999999962,
+      "epoch": 8,
+      "seen_tokens": 0,
+      "session_pts": 53.003,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 1582477312,
+      "ram_available_bytes": 2833072128,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 53.26599999999962,
+      "epoch": 8,
+      "seen_tokens": 60,
+      "session_pts": 53.003,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 1583001600,
+      "ram_available_bytes": 2830344192,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 55.15599999999904,
+      "epoch": 8,
+      "seen_tokens": 117,
+      "session_pts": 55.005,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 1582616576,
+      "ram_available_bytes": 2821328896,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 55.625,
+      "epoch": 8,
+      "seen_tokens": 117,
+      "session_pts": 55.005,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 1582616576,
+      "ram_available_bytes": 2837901312,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 57.21900000000096,
+      "epoch": 8,
+      "seen_tokens": 174,
+      "session_pts": 57.007,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 1583157248,
+      "ram_available_bytes": 2816638976,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 57.76599999999962,
+      "epoch": 8,
+      "seen_tokens": 174,
+      "session_pts": 57.007,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 1583157248,
+      "ram_available_bytes": 2827558912,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 59.01599999999962,
+      "epoch": 9,
+      "seen_tokens": 0,
+      "session_pts": 59.009,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 1582616576,
+      "ram_available_bytes": 2835070976,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 59.32800000000134,
+      "epoch": 9,
+      "seen_tokens": 60,
+      "session_pts": 59.009,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 1583169536,
+      "ram_available_bytes": 2832801792,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 61.15599999999904,
+      "epoch": 9,
+      "seen_tokens": 117,
+      "session_pts": 61.010999999999996,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 1583702016,
+      "ram_available_bytes": 2817785856,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 61.64099999999962,
+      "epoch": 9,
+      "seen_tokens": 117,
+      "session_pts": 61.010999999999996,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 1583702016,
+      "ram_available_bytes": 2835832832,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 63.18800000000192,
+      "epoch": 9,
+      "seen_tokens": 174,
+      "session_pts": 63.013,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 1582837760,
+      "ram_available_bytes": 2819215360,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 63.625,
+      "epoch": 9,
+      "seen_tokens": 174,
+      "session_pts": 63.013,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 1582837760,
+      "ram_available_bytes": 2836168704,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 65.01599999999962,
+      "epoch": 10,
+      "seen_tokens": 0,
+      "session_pts": 65.015,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 1583382528,
+      "ram_available_bytes": 2837463040,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 65.36000000000058,
+      "epoch": 10,
+      "seen_tokens": 60,
+      "session_pts": 65.015,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 1582845952,
+      "ram_available_bytes": 2913681408,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 67.21900000000096,
+      "epoch": 10,
+      "seen_tokens": 117,
+      "session_pts": 67.017,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 1583427584,
+      "ram_available_bytes": 2914148352,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 67.875,
+      "epoch": 10,
+      "seen_tokens": 117,
+      "session_pts": 67.017,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 1583427584,
+      "ram_available_bytes": 2929852416,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 69.18800000000192,
+      "epoch": 10,
+      "seen_tokens": 174,
+      "session_pts": 69.019,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 1583456256,
+      "ram_available_bytes": 2910892032,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 69.84400000000096,
+      "epoch": 10,
+      "seen_tokens": 174,
+      "session_pts": 69.019,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 1583456256,
+      "ram_available_bytes": 2908692480,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 71.03099999999904,
+      "epoch": 11,
+      "seen_tokens": 0,
+      "session_pts": 71.021,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 1583476736,
+      "ram_available_bytes": 2828701696,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 71.28099999999904,
+      "epoch": 11,
+      "seen_tokens": 60,
+      "session_pts": 71.021,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 1583484928,
+      "ram_available_bytes": 2816012288,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 75.28099999999904,
+      "epoch": 11,
+      "seen_tokens": 117,
+      "session_pts": 75.0,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 1583439872,
+      "ram_available_bytes": 2853711872,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 75.86000000000058,
+      "epoch": 11,
+      "seen_tokens": 117,
+      "session_pts": 75.0,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 1583439872,
+      "ram_available_bytes": 2867027968,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 77.1720000000023,
+      "epoch": 11,
+      "seen_tokens": 174,
+      "session_pts": 77.002,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 1584242688,
+      "ram_available_bytes": 2856636416,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 77.65599999999904,
+      "epoch": 11,
+      "seen_tokens": 174,
+      "session_pts": 77.002,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 1584242688,
+      "ram_available_bytes": 2860437504,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 79.01599999999962,
+      "epoch": 12,
+      "seen_tokens": 0,
+      "session_pts": 79.004,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 1584254976,
+      "ram_available_bytes": 2892115968,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 79.28099999999904,
+      "epoch": 12,
+      "seen_tokens": 60,
+      "session_pts": 79.004,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 1584050176,
+      "ram_available_bytes": 2889703424,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 81.23500000000058,
+      "epoch": 12,
+      "seen_tokens": 117,
+      "session_pts": 81.006,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 1584128000,
+      "ram_available_bytes": 2889953280,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 81.89099999999962,
+      "epoch": 12,
+      "seen_tokens": 117,
+      "session_pts": 81.006,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 1584128000,
+      "ram_available_bytes": 2890182656,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 83.20300000000134,
+      "epoch": 12,
+      "seen_tokens": 174,
+      "session_pts": 83.008,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 1584107520,
+      "ram_available_bytes": 2887815168,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 83.84400000000096,
+      "epoch": 12,
+      "seen_tokens": 174,
+      "session_pts": 83.008,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 1584107520,
+      "ram_available_bytes": 2887221248,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 85.01599999999962,
+      "epoch": 13,
+      "seen_tokens": 0,
+      "session_pts": 85.01,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 1584119808,
+      "ram_available_bytes": 2877792256,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 85.40599999999904,
+      "epoch": 13,
+      "seen_tokens": 60,
+      "session_pts": 85.01,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 1584132096,
+      "ram_available_bytes": 2885820416,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 87.15599999999904,
+      "epoch": 13,
+      "seen_tokens": 117,
+      "session_pts": 87.012,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 1583456256,
+      "ram_available_bytes": 2867245056,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 87.71900000000096,
+      "epoch": 13,
+      "seen_tokens": 117,
+      "session_pts": 87.012,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 1583460352,
+      "ram_available_bytes": 2870648832,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 89.28099999999904,
+      "epoch": 13,
+      "seen_tokens": 174,
+      "session_pts": 89.014,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 1583603712,
+      "ram_available_bytes": 2861965312,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 89.875,
+      "epoch": 13,
+      "seen_tokens": 174,
+      "session_pts": 89.014,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 1583603712,
+      "ram_available_bytes": 2860728320,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 91.03099999999904,
+      "epoch": 14,
+      "seen_tokens": 0,
+      "session_pts": 91.01599999999999,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 1584214016,
+      "ram_available_bytes": 2870702080,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 91.32800000000134,
+      "epoch": 14,
+      "seen_tokens": 60,
+      "session_pts": 91.01599999999999,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 1584238592,
+      "ram_available_bytes": 2862784512,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 93.21900000000096,
+      "epoch": 14,
+      "seen_tokens": 117,
+      "session_pts": 93.018,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 1583702016,
+      "ram_available_bytes": 2852339712,
+      "allocated_bytes": 3449505280,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 93.76599999999962,
+      "epoch": 14,
+      "seen_tokens": 117,
+      "session_pts": 93.018,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 1583702016,
+      "ram_available_bytes": 2866077696,
+      "allocated_bytes": 3468379648,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 95.20300000000134,
+      "epoch": 14,
+      "seen_tokens": 174,
+      "session_pts": 95.02,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 1584250880,
+      "ram_available_bytes": 2848755712,
+      "allocated_bytes": 3450906112,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 95.625,
+      "epoch": 14,
+      "seen_tokens": 174,
+      "session_pts": 95.02,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 1578967040,
+      "ram_available_bytes": 2866733056,
+      "allocated_bytes": 3469780480,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 97.03099999999904,
+      "epoch": 15,
+      "seen_tokens": 0,
+      "session_pts": 97.02199999999999,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 1582858240,
+      "ram_available_bytes": 2851958784,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 97.2970000000023,
+      "epoch": 15,
+      "seen_tokens": 60,
+      "session_pts": 97.02199999999999,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 1582542848,
+      "ram_available_bytes": 2849280000,
+      "allocated_bytes": 3448104448,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 101.2970000000023,
+      "epoch": 15,
+      "seen_tokens": 118,
+      "session_pts": 101.001,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 1584308224,
+      "ram_available_bytes": 2842464256,
+      "allocated_bytes": 3449529856,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 101.71900000000096,
+      "epoch": 15,
+      "seen_tokens": 118,
+      "session_pts": 101.001,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 1584308224,
+      "ram_available_bytes": 2862952448,
+      "allocated_bytes": 3468404224,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 103.14099999999962,
+      "epoch": 15,
+      "seen_tokens": 176,
+      "session_pts": 103.003,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 1584160768,
+      "ram_available_bytes": 2858582016,
+      "allocated_bytes": 3450955264,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 103.64099999999962,
+      "epoch": 15,
+      "seen_tokens": 176,
+      "session_pts": 103.003,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 1584160768,
+      "ram_available_bytes": 2863353856,
+      "allocated_bytes": 3469829632,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 105.01599999999962,
+      "epoch": 16,
+      "seen_tokens": 0,
+      "session_pts": 105.005,
+      "memory_from_pts": 104.004,
+      "rss_bytes": 1583595520,
+      "ram_available_bytes": 2870685696,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 105.2970000000023,
+      "epoch": 16,
+      "seen_tokens": 61,
+      "session_pts": 105.005,
+      "memory_from_pts": 104.004,
+      "rss_bytes": 1584193536,
+      "ram_available_bytes": 2858934272,
+      "allocated_bytes": 3448129024,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 107.18800000000192,
+      "epoch": 16,
+      "seen_tokens": 119,
+      "session_pts": 107.007,
+      "memory_from_pts": 104.004,
+      "rss_bytes": 1584099328,
+      "ram_available_bytes": 2855464960,
+      "allocated_bytes": 3449554432,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 107.6720000000023,
+      "epoch": 16,
+      "seen_tokens": 119,
+      "session_pts": 107.007,
+      "memory_from_pts": 104.004,
+      "rss_bytes": 1584103424,
+      "ram_available_bytes": 2863194112,
+      "allocated_bytes": 3468428800,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 109.01599999999962,
+      "epoch": 17,
+      "seen_tokens": 0,
+      "session_pts": 109.009,
+      "memory_from_pts": 108.008,
+      "rss_bytes": 1584111616,
+      "ram_available_bytes": 2861105152,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 109.28099999999904,
+      "epoch": 17,
+      "seen_tokens": 61,
+      "session_pts": 109.009,
+      "memory_from_pts": 108.008,
+      "rss_bytes": 1583538176,
+      "ram_available_bytes": 2856390656,
+      "allocated_bytes": 3448129024,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 111.1720000000023,
+      "epoch": 17,
+      "seen_tokens": 119,
+      "session_pts": 111.011,
+      "memory_from_pts": 108.008,
+      "rss_bytes": 1584222208,
+      "ram_available_bytes": 2851065856,
+      "allocated_bytes": 3449554432,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 111.61000000000058,
+      "epoch": 17,
+      "seen_tokens": 119,
+      "session_pts": 111.011,
+      "memory_from_pts": 108.008,
+      "rss_bytes": 1584222208,
+      "ram_available_bytes": 2857852928,
+      "allocated_bytes": 3468428800,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 113.01599999999962,
+      "epoch": 18,
+      "seen_tokens": 0,
+      "session_pts": 113.013,
+      "memory_from_pts": 112.012,
+      "rss_bytes": 1583738880,
+      "ram_available_bytes": 2859253760,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 113.40599999999904,
+      "epoch": 18,
+      "seen_tokens": 61,
+      "session_pts": 113.013,
+      "memory_from_pts": 112.012,
+      "rss_bytes": 1584263168,
+      "ram_available_bytes": 2856488960,
+      "allocated_bytes": 3448129024,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 115.23500000000058,
+      "epoch": 18,
+      "seen_tokens": 119,
+      "session_pts": 115.015,
+      "memory_from_pts": 112.012,
+      "rss_bytes": 1583890432,
+      "ram_available_bytes": 2843115520,
+      "allocated_bytes": 3449554432,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 115.76599999999962,
+      "epoch": 18,
+      "seen_tokens": 119,
+      "session_pts": 115.015,
+      "memory_from_pts": 112.012,
+      "rss_bytes": 1583890432,
+      "ram_available_bytes": 2859388928,
+      "allocated_bytes": 3468428800,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 117.03099999999904,
+      "epoch": 19,
+      "seen_tokens": 0,
+      "session_pts": 117.017,
+      "memory_from_pts": 116.01599999999999,
+      "rss_bytes": 1584427008,
+      "ram_available_bytes": 2858168320,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 117.31300000000192,
+      "epoch": 19,
+      "seen_tokens": 61,
+      "session_pts": 117.017,
+      "memory_from_pts": 116.01599999999999,
+      "rss_bytes": 1584410624,
+      "ram_available_bytes": 2849374208,
+      "allocated_bytes": 3448129024,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 119.20300000000134,
+      "epoch": 19,
+      "seen_tokens": 119,
+      "session_pts": 119.019,
+      "memory_from_pts": 116.01599999999999,
+      "rss_bytes": 1582055424,
+      "ram_available_bytes": 2844569600,
+      "allocated_bytes": 3449554432,
+      "reserved_bytes": 3871342592
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 119.76599999999962,
+      "epoch": 19,
+      "seen_tokens": 119,
+      "session_pts": 119.019,
+      "memory_from_pts": 116.01599999999999,
+      "rss_bytes": 1582055424,
+      "ram_available_bytes": 2858385408,
+      "allocated_bytes": 3468428800,
+      "reserved_bytes": 3871342592
+    }
+  ],
+  "synthetic_repeat": true,
+  "repeat_count": 5,
+  "repeat_period_seconds": 25.0,
+  "playback": {
+    "produced_samples": 112,
+    "delivered_samples": 112,
+    "dropped_samples": 0,
+    "cancelled_samples": 0,
+    "buffered_samples": 0,
+    "max_buffered_samples": 1,
+    "buffered_rgb_bytes": 0,
+    "peak_buffered_rgb_bytes": 147456,
+    "finished": true,
+    "source_fingerprint": {
+      "samples": 112,
+      "sha256": "09816c19520ca5dca37f1fb9a649fb42ee41535c2faf3563745430d5ea8cc49b"
+    },
+    "end_reason": "video_duration_limit",
+    "max_source_lateness_seconds": 0.01599999999962165,
+    "producer_alive": false,
+    "queue_capacity": 1
+  },
+  "peak_allocated_gib": 3.2699475288391113,
+  "peak_reserved_gib": 3.60546875,
+  "wall_seconds_including_load": 122.44462769999882
+}

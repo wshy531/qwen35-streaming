@@ -3,7 +3,7 @@
 这是36tar的独立实验工程，本轮开发分支为 `36tar/general-video-demo`。外层仓库原有文件保持原样；本目录保留 `code/`、`scripts/`、`runs/` 布局，方便双方阅读、复现与决定下一项改造。权重、真实视频、虚拟环境和凭据不入库。
 
 [原PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已由协作方合并；本轮修改通过新的个人分支和PR审阅，main不直推。
-[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新124项CPU通过；第五段12例真实采样起点对照已完成，洗手方向稳定、猫细节谨慎复核；新增12例洗脸误答图像/时间诊断两臂生成一致，单图变化有影响、所试时间处理未修复原错误。此前14例咖啡/洗脸及先后错误继续保留。未合并。
+[本轮草稿PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 包含通用入口、按PTS墙钟播放和同输入原模型公平对照。最新132项CPU/29接口通过；第六段显式短片循环播放约120秒、112帧/36回答/19reset、无丢帧，allocated峰值3.270GiB；此前第五段12例真实采样起点对照已完成，洗手方向稳定、猫细节谨慎复核；新增12例洗脸误答图像/时间诊断两臂生成一致，单图变化有影响、所试时间处理未修复原错误。此前14例咖啡/洗脸及先后错误继续保留。未合并。
 
 先读 [实验总纲](实验总纲.md)，再读 [架构设计入口](架构设计.md)。总纲是唯一进度主记录；其余方案、报告和历史快照不替代最新状态。旧记录中的本机绝对路径是实验来源，不是新机器上的运行路径。
 
@@ -16,6 +16,7 @@
 | 墙钟播放、单槽丢帧与时间观测 | [预登记预算](墙钟播放与丢帧验收方案.md) / [正常和过载结果](墙钟播放与丢帧结果.md) / [播放实现](code/qwen35-streaming-s4/streaming/playback.py) |
 | 两素材14例同输入原/流式诊断 | [方案与预算](多视频同输入公平对照方案.md) / [逐例真实答案](多视频同输入公平对照结果.md) / [独立输入核验](code/qwen35-streaming-s4/streaming/fair_inputs.py) |
 | 四帧洗脸误答：图片与时间文字诊断 | [方案](洗脸误答单因素定位方案.md) / [全部真实答案](洗脸误答单因素定位结果.md) / [固定12例](configs/action_ablation_cases.json) |
+| 两分钟显式循环播放与资源/reset | [预算](两分钟循环播放验收方案.md) / [全部回答及边界](两分钟循环播放结果.md) / [资源分组比较](runs/repeat_playback_delivery_20261011_01/comparison.json) |
 | 两素材整秒/半秒真实采样对照 | [预登记](多视频采样稳定性方案.md) / [全部真实答案](多视频采样稳定性结果.md) / [12例配置](configs/sampling_stability_cases.json) |
 | 合作仓库结构与计划解释 | [架构解读](合作仓库架构与计划解读.md) |
 | 机制与未解决问题 | [通俗复盘](流式视频架构学习复盘与未解决问题.md) |
@@ -72,6 +73,25 @@ $clock = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
 页面分别显示源画面位置、接入模型流程的位置、回答实际依据的时间、答案出现的墙钟时间和滞后，以及记忆起点和reset。接入流程的单帧可能尚在等待配对，不能当作已完成视觉编码。CPU预检仍快速遍历全部样本，不按随机微型模型速度模拟GPU丢帧；真实运行核对完整源指纹、参数、源码和资产，实际接入/丢帧日程保存在 `events.jsonl`。
 
 正常实测12个样本全部接入，3次回答滞后0.551–0.633秒。另加 `--consumer-delay-seconds 1.5` 可独立预检和运行显式过载条件：本轮12样本中8接入、4丢弃，2次回答滞后2.370–3.568秒。这个参数是压力注入，不能据此估算正常速度；过载末答错误地说成洗脸。两轮allocated峰值均约3.266GiB，槽内待处理画面最多144KiB；后者不是进程总内存。见 [完整结果及边界](墙钟播放与丢帧结果.md)。
+
+## 两分钟显式重复压力输入
+
+这是已有短片的重复工程测试，来源PTS与合成会话时间分开记录，不当自然长片或跨reset记忆。循环期间不主动重置，容量策略仍自动清空历史；空隙不复制补帧。单次播放默认参数保持。重新预检后可显式启用：
+
+```powershell
+$repeat = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B',
+            '--video', 'E:/VIT Model/datasets/natural_commons_v1/clean_hands.webm',
+            '--question', 'What are the hands doing?', '--playback', 'clock',
+            '--fps', '1', '--duration', '120', '--max-frames', '120',
+            '--repeat-count', '5', '--repeat-period', '25', '--answer-tokens', '16',
+            '--first-qa-frames', '4', '--qa-every', '2', '--max-tokens', '288', '--wall-seconds', '240')
+.venv/Scripts/python.exe scripts/run_video_demo.py --stage preflight @repeat --out runs/my_repeat_cpu_01
+.venv/Scripts/python.exe scripts/run_video_demo.py --stage gpu @repeat --preflight runs/my_repeat_cpu_01 --ui-port 8765 --out runs/my_repeat_gpu_01
+```
+
+本机112源样本全部接入，36问答/19reset、无丢帧。实际播放119.766秒，含载入122.445秒。主缓存每问逐位不变，19个新记忆起点均与保留成对帧一致。峰值allocated3.270GiB/reserved3.605GiB；去掉前两epoch、按事件种类与同Token长度比较，allocated极差0、RSS最大极差5.03MiB。前/中/后40秒回答滞后中位0.669/0.7065/0.7325秒，没有排队累积到多秒；这不证明无限期稳定。
+
+GPU summary.json包含同步后allocated/reserved/RSS标量曲线；events.jsonl保留来源循环/实际PTS、会话时间和全部答案。网页显示这些时间和当前记忆起点，最近回答只保留8条。循环衔接附近仍有倒咖啡等误答，理解能力未因资源通过而修复，摄像头/真实长视频未测。首次完整CPU沙箱HTTP拒绝保留；02的132CPU及29接口通过，新GPU只有一次。此轮改过入口源码，所有历史proof仅为历史证据，另机/改变参数必须重新预检。
 
 ## 两素材采样起点稳定性
 

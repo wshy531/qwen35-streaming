@@ -1,0 +1,30 @@
+{
+  "model_data_environment_untouched": true,
+  "old_runs_and_sources_preserved": true,
+  "removed": [
+    {
+      "bytes": 0,
+      "no_reparse_point": true,
+      "absolute_path_checked": true,
+      "path": "E:\\VIT Model\\runs\\repeat_playback_cpu_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "no_reparse_point": true,
+      "absolute_path_checked": true,
+      "path": "E:\\VIT Model\\runs\\repeat_playback_cpu_20261011_02\\tmp"
+    },
+    {
+      "bytes": 0,
+      "no_reparse_point": true,
+      "absolute_path_checked": true,
+      "path": "E:\\VIT Model\\runs\\repeat_playback_preflight_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "no_reparse_point": true,
+      "absolute_path_checked": true,
+      "path": "E:\\VIT Model\\runs\\repeat_playback_gpu_20261011_01\\tmp"
+    }
+  ]
+}

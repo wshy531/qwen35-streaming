@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scripts": 2,
+  "status": "明确循环第 5 次 / 来源时间 19.02 秒 / 会话时间 119.02 秒\n正在播放：119.02 秒\n最近接入模型：119.02 秒\n当前记忆从：116.02 秒\n重置：19 次\n丢帧：0 / 已采样 112\n模型已收到：112 帧\n本次运行已结束",
+  "answers": 8,
+  "scope": "Actual snapshot JS with DOM simulation; not browser visual acceptance"
+}
