@@ -312,8 +312,16 @@ python diagnostics/streaming_benefit_chunk32_v1/run_candidate.py --stage gpu --a
 
 [架构通俗解释](流式架构改动通俗讲解.md)与[本段状态轨迹/真实结果/误答复盘](流式架构状态轨迹与有限记忆接入复盘.md)。本段以架构学习为主，性能不是初期验收门槛；下文旧阶段“未集成”指当时快照。本段将时间帧记忆接为**显式可选功能，默认关闭**，不改变FP32/64模型核心或权重。
 
-通用`run_video_demo.py`可增加`--remember-history --memory-every-pairs 1 --history-time 0.5 --history-question "Name the main visible animal."`。最多8个预设历史目标，当前CLI在文件结束后查询。CPU先运行、同参数fresh proof后GPU；源码/参数/视频改变须重做CPU证明。帧库最多3对/864KiB持久RGB（不含模型/解码/查询临时空间），采样/FIFO覆盖明确；未保存/未来时间不调用模型。程序运行中查询并继续接收有微型CPU契约，尚非实时交互聊天。
+通用`run_video_demo.py`可增加`--remember-history --memory-every-pairs 1 --history-time 0.5 --history-question "Name the main visible animal."`。最多8个预设历史目标；默认文件结束后查询，新增--history-query-after按实际已编码时间中途触发。CPU先运行、同参数fresh proof后GPU；源码/参数/视频改变须重做CPU证明。帧库最多3对/864KiB持久RGB（不含模型/解码/查询临时空间），采样/FIFO覆盖明确；未保存/未来时间不调用模型。程序运行中查询并继续接收有微型CPU契约，尚非实时交互聊天。
 
 受控犬→鸽→猫各2帧/2reset，最后主状态从4秒开始，历史0.5秒仍取回犬并回答狗，四类主状态逐位不变；鸽误犬在未改模型同3输入也出现，保留失败。只有3独立输入，3当前+2历史生成记录不能当5个独立能力样例，不宣称通用准确率提升。1.5秒间隙和99秒未来均无证据拒答。完整167CPU与运行中查询后继续4帧/2reset通过；真实两GPU顺序，集群/训练/摄像头0。
 
 六帧状态轨迹见[runs/architecture_trace_cpu_20261012_01/trace.html](runs/architecture_trace_cpu_20261012_01/trace.html)，仅随机微型CPU模型，不证明语义。真实GPU记录见runs/history_integration_gpu_20261012_01与runs/history_original_gpu_20261012_01；受控媒体只存本机，[来源映射](datasets/history_integration_v1/provenance.json)明确合成时间，不称自然事件。预检失败、片头误选和沙箱HTTP拒绝均保留。
+
+## 持续输入中的预设历史查询
+
+[本段通俗复盘与实际事件顺序](流式历史查询中途触发复盘.md)。通用入口新增`--history-query-after 3`，实际已编码PTS首次达到3秒时执行预设历史请求一次，之后继续接收；收到但等待配对的单帧不触发。没到阈值就结束会在summary保留pending，不静默EOF补问。默认仍文件后查询，物理摄像头未打开，CLI预设目标不是实时交互聊天。
+
+同受控六帧在第3秒查0.5/2.5秒，犬正确/鸽误犬；1.5间隙及4.5尚未接入均不调用模型；随后猫帧继续进入并回答cat。历史生成主四状态不变，3当前与2历史生成和上一相同输入记录同一，只有3独立输入，不称一般准确率提升。新47CPU预检/完整171CPU及额外中途查询续接通过；真实GPU73完成，72 RAM载入前拒绝保留，无门槛降低。默认FP32/64和模型核心/权重/帧库规则不改。
+
+复现仍先fresh CPU后GPU，加入`--remember-history --memory-every-pairs 1 --history-query-after 3 --history-time 0.5 --history-time 2.5 --history-time 1.5 --history-time 4.5`，其余完整视频/模型/问题/预算参数见复盘。每个out须新目录，改变源码/参数/视频须重做CPU。此段fast因果回放，不宣布墙钟过载、自然长时或摄像头新通过。

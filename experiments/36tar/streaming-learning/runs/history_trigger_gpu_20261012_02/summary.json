@@ -1,0 +1,460 @@
+{
+  "scope": "真实权重 GPU · 顺序文件重放 · 可选有限真实帧记忆 / 明确时间检索，非无限或语义记忆",
+  "budget": {
+    "model_loads": 1,
+    "frames_max": 6,
+    "vision_forwards_max": 7,
+    "questions_max": 7,
+    "language_forwards_max": 137,
+    "generated_tokens_max": 112,
+    "history_tokens_max": 88,
+    "wall_seconds": 600,
+    "free_gpu_gib_min": 5.5,
+    "available_ram_gib_min": 3,
+    "precision": "fp32_ieee_math",
+    "resize": "letterbox",
+    "video_logits": "none",
+    "qa_logits": "last",
+    "playback": "fast",
+    "queue_capacity": 1,
+    "consumer_delay_seconds": 0.0,
+    "repeat_count": 1,
+    "repeat_period_seconds": null,
+    "first_qa_frames": 2,
+    "external_history_enabled": true,
+    "external_history_queries_max": 4,
+    "external_history_rgb_max_bytes": 884736,
+    "external_history_max_pairs": 3,
+    "external_history_every_pairs": 1,
+    "external_history_query_after": 3.0
+  },
+  "counts": {
+    "vision": 5,
+    "language": 45,
+    "lm_head_rows": 35
+  },
+  "final": {
+    "received_real_frames": 6,
+    "encoded_real_frames": 6,
+    "pairs": 3,
+    "questions": 3,
+    "resets": 2,
+    "epoch": 2,
+    "generated_tokens": 17,
+    "memory_from_pts": 4.0,
+    "history_across_reset": false,
+    "last_received_id": 5,
+    "last_received_pts": 5.0,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "max_buffered_rgb_bytes": 294912,
+    "finished": true,
+    "closed": false,
+    "invalid": false,
+    "session": {
+      "accepted_frames": 2,
+      "encoded_real_frames": 2,
+      "pending_frame_id": null,
+      "last_received_id": 5,
+      "last_encoded_id": 5,
+      "last_encoded_pts": 5.0,
+      "seen_tokens": 59,
+      "next_rope_position": 19,
+      "vision_encodings": 1,
+      "pending_rgb_bytes": 0,
+      "finished": true,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    },
+    "external_frame_memory": {
+      "policy": "every_nth_complete_real_pair_fifo",
+      "max_pairs": 3,
+      "every_pairs": 1,
+      "max_bytes": 884736,
+      "persistent_rgb_bytes": 884736,
+      "peak_persistent_rgb_bytes": 884736,
+      "observed_pairs": 3,
+      "evicted_pairs": 0,
+      "intervals": [
+        {
+          "frame_ids": [
+            0,
+            1
+          ],
+          "timestamps": [
+            0.0,
+            1.0
+          ],
+          "rgb_sha256": [
+            "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+            "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+          ]
+        },
+        {
+          "frame_ids": [
+            2,
+            3
+          ],
+          "timestamps": [
+            2.0,
+            3.0
+          ],
+          "rgb_sha256": [
+            "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+            "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+          ]
+        },
+        {
+          "frame_ids": [
+            4,
+            5
+          ],
+          "timestamps": [
+            4.0,
+            5.0
+          ],
+          "rgb_sha256": [
+            "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+            "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+          ]
+        }
+      ]
+    },
+    "history_queries": 4,
+    "history_model_calls": 2
+  },
+  "schedule": [
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 1,
+      "memory_from_pts": 2.0,
+      "encoded_frames": 2,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 2.0,
+      "encoded_frames": 4,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 2.0,
+      "encoded_frames": 4,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "history_answer",
+      "epoch": 1,
+      "memory_from_pts": 2.0,
+      "encoded_frames": 4,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "history_answer",
+      "epoch": 1,
+      "memory_from_pts": 2.0,
+      "encoded_frames": 4,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "history_answer",
+      "epoch": 1,
+      "memory_from_pts": 2.0,
+      "encoded_frames": 4,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "history_answer",
+      "epoch": 1,
+      "memory_from_pts": 2.0,
+      "encoded_frames": 4,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 2,
+      "memory_from_pts": 4.0,
+      "encoded_frames": 4,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 2,
+      "memory_from_pts": 4.0,
+      "encoded_frames": 6,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "answer",
+      "epoch": 2,
+      "memory_from_pts": 4.0,
+      "encoded_frames": 6,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "eof",
+      "epoch": 2,
+      "memory_from_pts": 4.0,
+      "encoded_frames": 6,
+      "seen_tokens": 59
+    }
+  ],
+  "append_including_qa_and_decode_latency": {
+    "count": 6,
+    "sum_seconds": 3.425909400000819,
+    "max_seconds": 1.480349400000705
+  },
+  "replay_wall_seconds": 3.4539999999979045,
+  "peak_process_rss_bytes": 1574928384,
+  "cross_reset_memory": false,
+  "end_to_end_speedup_proven": false,
+  "realtime": false,
+  "requested_playback": "fast",
+  "effective_playback": "fast",
+  "source_fingerprint": {
+    "samples": 6,
+    "sha256": "16738f7ee5209b42fdfcd416f397efbb99fb9b2fba75a37dd94d56e34069eb04"
+  },
+  "max_encoded_pair_gap_seconds": 1.0,
+  "answer_lags_seconds": [],
+  "resource_samples": [
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.110000000000582,
+      "epoch": 0,
+      "seen_tokens": 59,
+      "session_pts": 1.0,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 1551126528,
+      "ram_available_bytes": 6208253952,
+      "allocated_bytes": 3448079872,
+      "reserved_bytes": 3816816640
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.5,
+      "epoch": 0,
+      "seen_tokens": 59,
+      "session_pts": 1.0,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 1571991552,
+      "ram_available_bytes": 6183907328,
+      "allocated_bytes": 3466954240,
+      "reserved_bytes": 3860856832
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 1.5,
+      "epoch": 1,
+      "seen_tokens": 0,
+      "session_pts": 3.0,
+      "memory_from_pts": 2.0,
+      "rss_bytes": 1574043648,
+      "ram_available_bytes": 6183895040,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3860856832
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.75,
+      "epoch": 1,
+      "seen_tokens": 59,
+      "session_pts": 3.0,
+      "memory_from_pts": 2.0,
+      "rss_bytes": 1574277120,
+      "ram_available_bytes": 6164086784,
+      "allocated_bytes": 3448079872,
+      "reserved_bytes": 3860856832
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.9689999999973224,
+      "epoch": 1,
+      "seen_tokens": 59,
+      "session_pts": 3.0,
+      "memory_from_pts": 2.0,
+      "rss_bytes": 1574277120,
+      "ram_available_bytes": 6149021696,
+      "allocated_bytes": 3466954240,
+      "reserved_bytes": 3860856832
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 3.0,
+      "epoch": 2,
+      "seen_tokens": 0,
+      "session_pts": 5.0,
+      "memory_from_pts": 4.0,
+      "rss_bytes": 1574928384,
+      "ram_available_bytes": 6147932160,
+      "allocated_bytes": 3425986048,
+      "reserved_bytes": 3883925504
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.2189999999973224,
+      "epoch": 2,
+      "seen_tokens": 59,
+      "session_pts": 5.0,
+      "memory_from_pts": 4.0,
+      "rss_bytes": 1574928384,
+      "ram_available_bytes": 6148358144,
+      "allocated_bytes": 3448079872,
+      "reserved_bytes": 3883925504
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.4539999999979045,
+      "epoch": 2,
+      "seen_tokens": 59,
+      "session_pts": 5.0,
+      "memory_from_pts": 4.0,
+      "rss_bytes": 1574928384,
+      "ram_available_bytes": 6161080320,
+      "allocated_bytes": 3466954240,
+      "reserved_bytes": 3883925504
+    }
+  ],
+  "synthetic_repeat": false,
+  "repeat_count": 1,
+  "repeat_period_seconds": null,
+  "playback": null,
+  "external_history_enabled": true,
+  "historical_answers": [
+    {
+      "question": "Name the main visible animal.",
+      "target_time": 0.5,
+      "route": "external_frame_memory",
+      "retrieval_reason": "retained_interval",
+      "model_called": true,
+      "generated_ids": [
+        760,
+        1822,
+        9155,
+        9572,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "timestamp": 1.0,
+      "evidence_interval": [
+        0.0,
+        1.0
+      ],
+      "evidence_frame_ids": [
+        0,
+        1
+      ],
+      "answer": "The main visible animal is a dog.",
+      "main_counters_unchanged": true,
+      "main_unchanged_bitwise": true,
+      "frame_id": 1,
+      "wall_seconds": 0.33857080000598216,
+      "reference_mode": "fp32_ieee_math",
+      "trigger_encoded_pts": 3.0,
+      "trigger_received_pts": 3.0,
+      "trigger_finished": false,
+      "available_wall_seconds": 2.5469999999986612
+    },
+    {
+      "question": "Name the main visible animal.",
+      "target_time": 2.5,
+      "route": "external_frame_memory",
+      "retrieval_reason": "retained_interval",
+      "model_called": true,
+      "generated_ids": [
+        32,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "timestamp": 3.0,
+      "evidence_interval": [
+        2.0,
+        3.0
+      ],
+      "evidence_frame_ids": [
+        2,
+        3
+      ],
+      "answer": "A dog.",
+      "main_counters_unchanged": true,
+      "main_unchanged_bitwise": true,
+      "frame_id": 3,
+      "wall_seconds": 0.21168849999958184,
+      "reference_mode": "fp32_ieee_math",
+      "trigger_encoded_pts": 3.0,
+      "trigger_received_pts": 3.0,
+      "trigger_finished": false,
+      "available_wall_seconds": 2.985000000000582
+    },
+    {
+      "question": "Name the main visible animal.",
+      "target_time": 1.5,
+      "route": "external_frame_memory",
+      "retrieval_reason": "not_retained",
+      "model_called": false,
+      "generated_ids": [],
+      "stop_reason": "no_evidence",
+      "timestamp": 1.5,
+      "evidence_interval": null,
+      "evidence_frame_ids": [],
+      "answer": "没有保留该时间的画面证据，无法据此回答。",
+      "main_counters_unchanged": true,
+      "main_unchanged_bitwise": null,
+      "trigger_encoded_pts": 3.0,
+      "trigger_received_pts": 3.0,
+      "trigger_finished": false,
+      "available_wall_seconds": 2.985000000000582
+    },
+    {
+      "question": "Name the main visible animal.",
+      "target_time": 4.5,
+      "route": "external_frame_memory",
+      "retrieval_reason": "not_observed",
+      "model_called": false,
+      "generated_ids": [],
+      "stop_reason": "no_evidence",
+      "timestamp": 4.5,
+      "evidence_interval": null,
+      "evidence_frame_ids": [],
+      "answer": "没有保留该时间的画面证据，无法据此回答。",
+      "main_counters_unchanged": true,
+      "main_unchanged_bitwise": null,
+      "trigger_encoded_pts": 3.0,
+      "trigger_received_pts": 3.0,
+      "trigger_finished": false,
+      "available_wall_seconds": 2.985000000000582
+    }
+  ],
+  "history_query_schedule": "once after actual encoded PTS reaches threshold",
+  "history_query_triggered": true,
+  "pending_history_times": [],
+  "history_query_after": 3.0,
+  "main_history_across_reset": false,
+  "peak_allocated_gib": 3.2824883460998535,
+  "peak_reserved_gib": 3.6171875,
+  "wall_seconds_including_load": 6.089136900001904
+}

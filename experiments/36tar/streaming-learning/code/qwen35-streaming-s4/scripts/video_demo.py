@@ -55,7 +55,8 @@ def budget(args):
             "external_history_queries_max":history_queries,
             "external_history_rgb_max_bytes":884736 if getattr(args,"remember_history",False) else 0,
             "external_history_max_pairs":3 if getattr(args,"remember_history",False) else 0,
-            "external_history_every_pairs":getattr(args,"memory_every_pairs",4)}
+            "external_history_every_pairs":getattr(args,"memory_every_pairs",4),
+            "external_history_query_after":getattr(args,"history_query_after",None)}
 
 
 @torch.inference_mode()
@@ -128,6 +129,11 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
                 event["answer"]["available_wall_seconds"] = event["available_wall_seconds"]
                 if effective_playback in ("clock","live"):
                     answer_lags.append(lag)
+            if event["kind"] == "history_answer":
+                event["answer"]["trigger_encoded_pts"] = event["status"]["session"]["last_encoded_pts"]
+                event["answer"]["trigger_received_pts"] = event["status"]["last_received_pts"]
+                event["answer"]["trigger_finished"] = event["status"]["finished"]
+                event["answer"]["available_wall_seconds"] = event["available_wall_seconds"]
             if event["kind"] == "encoded":
                 pts = event["record"]["timestamps"]
                 max_pair_gap = max(max_pair_gap,pts[1]-pts[0])
@@ -135,7 +141,7 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
                 viewer.event(event)
                 stream.write(json.dumps(event,ensure_ascii=False)+"\n")
                 stream.flush()
-            if event["kind"] in ("encoded","capacity_reset","answer","eof"):
+            if event["kind"] in ("encoded","capacity_reset","answer","history_answer","eof"):
                 s = event["status"]
                 schedule.append({"kind":event["kind"],"epoch":s["epoch"],"memory_from_pts":s["memory_from_pts"],
                                  "encoded_frames":s["encoded_real_frames"],"seen_tokens":s["session"]["seen_tokens"]})
@@ -149,6 +155,24 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
             memory_options["memory_every_pairs"] = args.memory_every_pairs
         demo = demo_type(session,args.question,args.answer_tokens,sink,audit=True,
                          first_qa_frames=args.first_qa_frames,qa_every_frames=args.qa_every,**memory_options)
+        historical_answers = []
+        history_triggered = False
+        def maybe_query_history(at_finish=False):
+            nonlocal history_triggered
+            targets = getattr(args,"history_time",[])
+            if history_triggered or not targets:
+                return
+            threshold = getattr(args,"history_query_after",None)
+            if threshold is None:
+                if not at_finish:
+                    return
+            elif session.last_encoded_pts is None or session.last_encoded_pts < threshold:
+                return
+            for target in targets:
+                if time.monotonic()-begin >= args.wall_seconds:
+                    raise TimeoutError("Registered history query wall budget exceeded")
+                historical_answers.append(demo.ask_at(target,args.history_question,args.answer_tokens))
+            history_triggered = True
         try:
             if args.ui_port >= 0:
                 print("VIEWER "+viewer.start(args.ui_port),flush=True)
@@ -182,6 +206,9 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
                 if effective_playback in ("clock","live") and args.consumer_delay_seconds:
                     time.sleep(args.consumer_delay_seconds)
                 demo.append(packet)
+                # Query only after actual completed encoding, never a pending
+                # received frame or a producer timestamp. Same model consumer.
+                maybe_query_history()
                 if model.device.type == "cuda":
                     torch.cuda.synchronize()
                 elapsed = time.perf_counter()-start
@@ -197,11 +224,7 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
             demo.finish(reason)
             if demo.received == 0:
                 raise ValueError("No video frames delivered in the requested duration")
-            historical_answers = []
-            for target in getattr(args,"history_time",[]):
-                if time.monotonic()-begin >= args.wall_seconds:
-                    raise TimeoutError("Registered history query wall budget exceeded")
-                historical_answers.append(demo.ask_at(target,args.history_question,args.answer_tokens))
+            maybe_query_history(at_finish=True)
             source_fingerprint = playback.digest.snapshot() if playback is not None else fingerprint.snapshot()
             if expected_source is not None and source_fingerprint != expected_source:
                 raise AssertionError("Complete CPU/GPU selected source fingerprints differ")
@@ -220,7 +243,10 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
                       "playback":None if playback is None else playback.status()}
             report.update(external_history_enabled=getattr(args,"remember_history",False),
                           historical_answers=historical_answers,
-                          history_query_schedule="after source finish; explicit requested session timestamps",
+                          history_query_schedule="after source finish" if getattr(args,"history_query_after",None) is None else "once after actual encoded PTS reaches threshold",
+                          history_query_triggered=history_triggered,
+                          pending_history_times=[] if history_triggered else list(getattr(args,"history_time",[])),
+                          history_query_after=getattr(args,"history_query_after",None),
                           main_history_across_reset=False)
             if model.device.type == "cuda":
                 report.update(peak_allocated_gib=torch.cuda.max_memory_allocated()/2**30,
@@ -247,9 +273,10 @@ def preflight(args):
     from tests.test_repeat_source import RepeatSourceTests
     from tests.test_frame_memory import FrameMemoryTests,RememberingTests
     from tests.test_history_demo import HistoryDemoTests
+    from tests.test_history_trigger import HistoryTriggerTests
     RememberingTests.model_dir = args.model_dir
     with (args.out/"unittest.log").open("w",encoding="utf-8") as stream:
-        suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(c) for c in (VideoDemoTests,PlaybackTests,RepeatSourceTests,FrameMemoryTests,RememberingTests,HistoryDemoTests)])
+        suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(c) for c in (VideoDemoTests,PlaybackTests,RepeatSourceTests,FrameMemoryTests,RememberingTests,HistoryDemoTests,HistoryTriggerTests)])
         result = unittest.TextTestRunner(stream=stream,verbosity=2).run(suite)
     write_json(args.out/"cpu_tests.json",{"tests":result.testsRun,"passed":result.wasSuccessful(),
                                         "errors":len(result.errors),"failures":len(result.failures)})
@@ -339,11 +366,16 @@ def main(argv=None):
     parser.add_argument("--memory-every-pairs",type=int,default=4,help="Store every Nth completed real pair, max 3 pairs / 864KiB persistent RGB")
     parser.add_argument("--history-time",type=float,action="append",default=[],help="Explicit session timestamp queried after file finish; at most 8")
     parser.add_argument("--history-question",default="Describe the visible subject and action in these retained historical frames.")
+    parser.add_argument("--history-query-after",type=float,help="Run all preset history queries once after encoded PTS reaches this time; default is after EOF")
     args = parser.parse_args(argv)
     if (not 1 <= args.memory_every_pairs <= 64 or len(args.history_time) > 8 or
         any(not math.isfinite(t) or t < 0 for t in args.history_time) or
         (args.history_time and not args.remember_history)):
         parser.error("History queries require --remember-history, <=8 finite nonnegative times, sampling interval 1..64")
+    if args.history_query_after is not None and (
+        not math.isfinite(args.history_query_after) or not 0 <= args.history_query_after <= 600 or
+        not args.remember_history or not args.history_time):
+        parser.error("--history-query-after requires history targets and enabled memory, finite 0..600 seconds")
     if (not math.isfinite(args.fps) or not 0 < args.fps <= 10 or not math.isfinite(args.duration) or
         not 0 < args.duration <= 600 or not 1 <= args.max_frames <= 600 or not 1 <= args.answer_tokens <= 48 or
         not 1 <= args.qa_every <= 600 or not 1 <= args.first_qa_frames <= 600 or

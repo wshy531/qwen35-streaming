@@ -26,7 +26,7 @@ document.getElementById('status').textContent=`正在播放：${sec(p.timestamp)
 document.getElementById('status').textContent=origin+document.getElementById('status').textContent;
 let m=t.external_frame_memory;if(m){document.getElementById('status').textContent+=`\n外部画面记忆：${(m.persistent_rgb_bytes/1024).toFixed(1)} KiB / ${(m.max_bytes/1024).toFixed(0)} KiB\n已淘汰 ${m.evicted_pairs} 对；保留时间：`+(m.intervals.map(i=>i.timestamps.map(sec).join(' — ')).join('；')||'暂无')}
 let a=document.getElementById('answers');a.replaceChildren();for(let x of s.answers||[]){let li=document.createElement('li');
-let basis=x.route==='external_frame_memory'?`历史请求 ${sec(x.target_time)} / ${x.model_called?'保留证据 '+x.evidence_interval.map(sec).join(' — '):'无证据，不调用模型'}`:`依据视频 ${sec(x.timestamp)} / 主记忆从 ${sec(x.memory_from_pts)} 开始${x.answer_lag_seconds==null?'':` / 回答滞后 ${sec(x.answer_lag_seconds)}`}`;
+let basis=x.route==='external_frame_memory'?`历史请求 ${sec(x.target_time)} / 执行时已编码至 ${sec(x.trigger_encoded_pts)}${x.trigger_finished?'（输入已结束）':''} / ${x.model_called?'保留证据 '+x.evidence_interval.map(sec).join(' — '):'无证据，不调用模型'}`:`依据视频 ${sec(x.timestamp)} / 主记忆从 ${sec(x.memory_from_pts)} 开始${x.answer_lag_seconds==null?'':` / 回答滞后 ${sec(x.answer_lag_seconds)}`}`;
 li.textContent=`${basis}\n${x.question}\n${x.answer}`;a.append(li)}}
 if(window.RECORDED){render(window.RECORDED)}else{setInterval(async()=>{try{render(await(await fetch('/state',{cache:'no-store'})).json())}catch(e){}},500)}
 </script></html>'''

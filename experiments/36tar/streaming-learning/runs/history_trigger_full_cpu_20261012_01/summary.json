@@ -1,0 +1,17 @@
+{
+  "tests": 171,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "source_unchanged_during_tests": true,
+  "midstream_contract": {
+    "passed": true,
+    "scope": "tiny random CPU model, not semantics",
+    "query_before_eof": true,
+    "continued_real_frames": 4,
+    "resets_after_query": 2,
+    "main_unchanged_bitwise": true,
+    "history_model_calls": 1
+  },
+  "scope": "Full tiny CPU/software contracts, no camera/real pretrained inference"
+}
