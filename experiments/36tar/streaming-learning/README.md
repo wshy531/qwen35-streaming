@@ -325,3 +325,11 @@ python diagnostics/streaming_benefit_chunk32_v1/run_candidate.py --stage gpu --a
 同受控六帧在第3秒查0.5/2.5秒，犬正确/鸽误犬；1.5间隙及4.5尚未接入均不调用模型；随后猫帧继续进入并回答cat。历史生成主四状态不变，3当前与2历史生成和上一相同输入记录同一，只有3独立输入，不称一般准确率提升。新47CPU预检/完整171CPU及额外中途查询续接通过；真实GPU73完成，72 RAM载入前拒绝保留，无门槛降低。默认FP32/64和模型核心/权重/帧库规则不改。
 
 复现仍先fresh CPU后GPU，加入`--remember-history --memory-every-pairs 1 --history-query-after 3 --history-time 0.5 --history-time 2.5 --history-time 1.5 --history-time 4.5`，其余完整视频/模型/问题/预算参数见复盘。每个out须新目录，改变源码/参数/视频须重做CPU。此段fast因果回放，不宣布墙钟过载、自然长时或摄像头新通过。
+
+## 同预算记忆保留策略候选
+
+[本段通俗取舍复盘](同预算记忆保留策略通俗复盘.md)。独立`diagnostics/memory_retention_v1`比较默认FIFO保最近3对与首采样锚点+最近2对：相同3对/864KiB，各犬24/鸽16/猫8共48真实源帧，两者总留存相同；候选保开头但少一对近期覆盖。不是全面更强、语义筛选、事件树或记忆森林，没有接默认通用入口。
+
+5存储契约及2串行微型CPU会话取回/主状态隔离/查询后续接通过，默认核心与既有171CPU源SHA不变，本段没有重跑旧171或真实GPU/语义评分。字节不足时锚点可丢，仍保护最新画面；不宣称无限历史。已有鸽误答与性能负收益继续保留。
+
+先将`general_stream_v1/cases.json`素材路径设为自己的绝对路径并核SHA，然后`python diagnostics/memory_retention_v1/experiment.py --model-dir <本地模型目录> --out <新目录>`。模型目录只读处理器、微型随机模型，无真实权重载入；输出是标量/哈希/覆盖，无像素或Tensor。该命令不修改默认策略。
