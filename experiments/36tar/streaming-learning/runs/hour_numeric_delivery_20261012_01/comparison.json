@@ -1,0 +1,159 @@
+{
+  "scope": "Known continuous clip plus new-source negative probes; subsequent questions adaptive, not held-out/general performance",
+  "scores": {
+    "timeline_correct": 6,
+    "timeline_cases": 7,
+    "timeline_original_stream_ids_equal": 7,
+    "new_source_numeric_correct": 0,
+    "new_source_numeric_cases": 3,
+    "new_source_original_stream_ids_equal": 3,
+    "water_strict_correct": 0,
+    "water_semantic_reading": 6,
+    "water_cases": 6,
+    "neutral_correct": 1,
+    "neutral_cases": 6,
+    "paper_strict_correct": 6,
+    "paper_normalized_correct": 6,
+    "paper_cases": 6,
+    "derived_correct": 6,
+    "derived_cases": 6
+  },
+  "derived_rules": [
+    {
+      "case": "water_wash",
+      "water_raw": "Yes",
+      "paper_raw": "NO",
+      "water_normalized": "yes",
+      "paper_normalized": "no",
+      "derived": "1",
+      "expected": "1",
+      "correct": true
+    },
+    {
+      "case": "paper_take",
+      "water_raw": "No",
+      "paper_raw": "YES",
+      "water_normalized": "no",
+      "paper_normalized": "yes",
+      "derived": "2",
+      "expected": "2",
+      "correct": true
+    },
+    {
+      "case": "paper_use",
+      "water_raw": "No",
+      "paper_raw": "YES",
+      "water_normalized": "no",
+      "paper_normalized": "yes",
+      "derived": "2",
+      "expected": "2",
+      "correct": true
+    },
+    {
+      "case": "standing",
+      "water_raw": "No",
+      "paper_raw": "NO",
+      "water_normalized": "no",
+      "paper_normalized": "no",
+      "derived": "3",
+      "expected": "3",
+      "correct": true
+    },
+    {
+      "case": "dispensing",
+      "water_raw": "No",
+      "paper_raw": "NO",
+      "water_normalized": "no",
+      "paper_normalized": "no",
+      "derived": "3",
+      "expected": "3",
+      "correct": true
+    },
+    {
+      "case": "rubbing",
+      "water_raw": "No",
+      "paper_raw": "NO",
+      "water_normalized": "no",
+      "paper_normalized": "no",
+      "derived": "3",
+      "expected": "3",
+      "correct": true
+    }
+  ],
+  "metrics": {
+    "timeline_original": {
+      "actual_forwards": {
+        "vision": 7,
+        "language": 21
+      },
+      "generated_tokens": 14,
+      "peak_allocated_gib": 3.2522754669189453,
+      "peak_reserved_gib": 3.55859375,
+      "wall_seconds_including_load": 7.473548899999969
+    },
+    "new_original": {
+      "actual_forwards": {
+        "vision": 6,
+        "language": 44
+      },
+      "generated_tokens": 38,
+      "peak_allocated_gib": 3.2320075035095215,
+      "peak_reserved_gib": 3.5625,
+      "wall_seconds_including_load": 6.856889799999863
+    },
+    "new_stream": {
+      "actual_forwards": {
+        "vision": 3,
+        "language": 15
+      },
+      "generated_tokens": 6,
+      "peak_allocated_gib": 3.265463352203369,
+      "peak_reserved_gib": 3.59765625,
+      "wall_seconds_including_load": 6.0627346000001126
+    },
+    "water_neutral": {
+      "actual_forwards": {
+        "vision": 12,
+        "language": 36
+      },
+      "generated_tokens": 24,
+      "peak_allocated_gib": 3.2320685386657715,
+      "peak_reserved_gib": 3.5625,
+      "wall_seconds_including_load": 9.597505199999432
+    },
+    "paper_fact": {
+      "actual_forwards": {
+        "vision": 6,
+        "language": 18
+      },
+      "generated_tokens": 12,
+      "peak_allocated_gib": 3.2300305366516113,
+      "peak_reserved_gib": 3.560546875,
+      "wall_seconds_including_load": 6.5624934999996185
+    },
+    "timeline_stream": {
+      "counts": {
+        "vision": 12,
+        "language": 37,
+        "lm_head_rows": 21
+      },
+      "generated_tokens": 14,
+      "peak_allocated_gib": 3.273298740386963,
+      "peak_reserved_gib": 3.60546875,
+      "wall_seconds_including_load": 26.576041799999985,
+      "answer_lags_seconds": [
+        0.6219999999999999,
+        0.46400000000005104,
+        0.5689999999999742,
+        0.48900000000000077,
+        0.562999999999974,
+        0.46800000000012787,
+        0.5260000000000247
+      ]
+    }
+  },
+  "gpu_records": 59,
+  "hour_submissions": 6,
+  "hour_model_loads": 6,
+  "deadline_local": "2026-10-12 11:23:24"
+}

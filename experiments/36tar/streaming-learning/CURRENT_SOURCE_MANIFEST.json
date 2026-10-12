@@ -1,5 +1,5 @@
 {
-  "scope": "Unchanged active FP32 core retains stage8 CPU153 proof; independent paper diagnostics have separate stage9/10 proofs; historical evidence preserved",
+  "scope": "Unchanged active core retains stage8 CPU153; independent numeric timeline and adaptive fact probes have separate frozen proofs",
   "files": {
     "qwen35_local/__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
     "qwen35_local/configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
@@ -90,12 +90,31 @@
     "@reference:E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\video_processing_qwen3_vl.py": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10"
   },
   "diagnostics": {
+    "diagnostics/new_hygiene_stream_v1/confirm.py": "5fcb287b1c7c8c08f3e659dff7f845b6663a883762ebd0c3b88942727818d81e",
+    "diagnostics/new_hygiene_stream_v1/run_confirm.py": "942ebd2b50dd473866e2ed9e95226f42cf17423dc974a377316f96c6d8ff12c7",
+    "diagnostics/new_hygiene_stream_v1/方案.md": "162b2c162036109877f85220d97a444b580ace8544687d52c73bd93dd4ebffa9",
+    "diagnostics/new_hygiene_v1/cases.json": "dd9bd5b3a68831c5f12e097c8e80f1b2b56e1a23a4be2637262a051965171324",
+    "diagnostics/new_hygiene_v1/probe.py": "051d7668ea947f292db3a2eecba211a75531df89039652c302a563f4dbf0778d",
+    "diagnostics/new_hygiene_v1/run_probe.py": "704d577da123be268a42130e081d4e3a961544ce9c723ddbdefbf3c27d7fa287",
+    "diagnostics/new_hygiene_v1/方案.md": "e31bc80b9ea49911583be6ba250feabb49e997d87cc509580f8ac5bd4d6f69d2",
+    "diagnostics/numeric_timeline_v1/cases.json": "b3bed13421e91975823e5bffde9db2e53aa57ff3e75908f0a9dbb228eff28f29",
+    "diagnostics/numeric_timeline_v1/reference.py": "2f01030ae380284f48274ee7a1eb1f3e5e67f7418d1aab9edf969b64021d25e9",
+    "diagnostics/numeric_timeline_v1/run_reference.py": "4a91a71adc52bcd87d1097df5ba94d9c71a0ff9cee2f242130a99499dab4bfd0",
+    "diagnostics/numeric_timeline_v1/方案.md": "b822d6f075b9c6bf8fafde7c748bd8e6823ec53ba803616f691778ffd51edc4c",
     "diagnostics/paper_choice_v1/cases.json": "51850b33fac886a94a4763827bdd054f9278241a3b1a43e9bd58f66f4ccf9278",
     "diagnostics/paper_choice_v1/probe.py": "0c369eb7ab020c9b9c0a085b30cd0e546f075151f460aa9bf22d77768107bc13",
     "diagnostics/paper_choice_v1/run_probe.py": "704d577da123be268a42130e081d4e3a961544ce9c723ddbdefbf3c27d7fa287",
     "diagnostics/paper_choice_v1/方案.md": "39c0d4f0297667eca323d63df5f92040613f44013d37e4ac1de034ebf90cf742",
+    "diagnostics/paper_fact_v1/cases.json": "826fa3bce535dfc0add465908c890e6b7404857b49f957f78b0f6bd1487e2c79",
+    "diagnostics/paper_fact_v1/probe.py": "1033c90c9927fda5e4ea7408a7b289e6f1710882bfd32f070590579acd74d9e8",
+    "diagnostics/paper_fact_v1/run_probe.py": "704d577da123be268a42130e081d4e3a961544ce9c723ddbdefbf3c27d7fa287",
+    "diagnostics/paper_fact_v1/方案.md": "d55c790d4c4cf3ec39c8501f525528c2966a740434ba2afb3fd191d8a2d46b3f",
     "diagnostics/paper_stream_confirm_v1/confirm.py": "af83289659ab783adaac703573300c2507cfbb9f327c3e70120ff6d2bf1ff67a",
     "diagnostics/paper_stream_confirm_v1/run_confirm.py": "942ebd2b50dd473866e2ed9e95226f42cf17423dc974a377316f96c6d8ff12c7",
-    "diagnostics/paper_stream_confirm_v1/方案.md": "4c181210d91f12ec89d1c6363b84398114e3d90e3c6264c1cfdcc1fa7882e36c"
+    "diagnostics/paper_stream_confirm_v1/方案.md": "4c181210d91f12ec89d1c6363b84398114e3d90e3c6264c1cfdcc1fa7882e36c",
+    "diagnostics/visible_action_v1/cases.json": "51ca24b591a7581facdd85553e049a7f1e3f89b7de577bed538055b3b143699e",
+    "diagnostics/visible_action_v1/probe.py": "75b922aa2625725bb2ecb5a71cfa951224f4bf015eb565f8b154e520ab2898ac",
+    "diagnostics/visible_action_v1/run_probe.py": "704d577da123be268a42130e081d4e3a961544ce9c723ddbdefbf3c27d7fa287",
+    "diagnostics/visible_action_v1/方案.md": "a540c4d55e7cf9d820ca79e184b78c78d88fef3ab630ddda6988e8255d6ed136"
   }
 }

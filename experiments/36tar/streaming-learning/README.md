@@ -254,3 +254,11 @@ python diagnostics/paper_stream_confirm_v1/run_confirm.py --stage gpu --model-di
 ```
 
 实际当前CPU原4契约+12输入、流式4契约+3输入、发布目录便携入口4契约+3输入通过；既有153完整CPU对应的活动实现未改，未声称本轮重复跑153。历史绝对路径proof是当次来源证据，不能直接用来授权你机器上的GPU。原实际12视觉50语言38生成、流式3视觉15语言6生成，各1载入；不同预算计时不比较提速。
+
+## 一小时连续视频与视觉事实探索
+
+[完整复盘与原始失败](一小时探索复盘_数字问法与视觉事实.md)。连续numeric23帧/7QA/3reset/0drop，原/流式均6/7且生成同一；新CDC手部卫生源三numeric均误判1、原/流式0/3且生成同一。后续适应性事实检查水流语义6/6但大小写strict0/6、纸巾strict6/6，预登记互斥规则派生六已知组正确；没有接入持续流式事实判定，也没有留出/端到端加速证明，默认问题/模型不改。
+
+便携入口：`diagnostics/numeric_timeline_v1/run_reference.py`配合已有`scripts/run_live_demo.py`复现连续原对照；`diagnostics/new_hygiene_v1/run_probe.py`和相邻`new_hygiene_stream_v1/run_confirm.py`复现新源；`diagnostics/visible_action_v1/run_probe.py`、`paper_fact_v1/run_probe.py`复现两素材适应性事实。所有CPU后才GPU，各stage新out/90秒、同参数与分支规则；主模型核心仍唯一code/qwen35-streaming-s4。模型与视频需自行准备，本机绝对路径proof只是历史来源证据。
+
+新输入的来源/作者/许可/原URL/SHA见[datasets/numeric_hand_hygiene_v1/ATTRIBUTION.md](datasets/numeric_hand_hygiene_v1/ATTRIBUTION.md)，文件874340B，仅本机，仓库不含媒体/派生图。新source约24FPS，预登记实际ID/PTS，不套用旧30FPS。单源入口使用`--video`，事实多源入口使用`--video-dir`指向包含natural_commons_v1与numeric_hand_hygiene_v1的目录。新GPU需完成自己的fresh CPUproof；同学分支可一致指定`--allow-branch`，main/master/HEAD禁止。

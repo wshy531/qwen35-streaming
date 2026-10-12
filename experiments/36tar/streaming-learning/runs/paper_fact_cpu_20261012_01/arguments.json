@@ -1,0 +1,6 @@
+{
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "video_dir": "E:\\VIT Model\\datasets",
+  "wall_seconds": 90,
+  "allow_branch": []
+}

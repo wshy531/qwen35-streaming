@@ -1,0 +1,5 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 8458.49it/s]
+{"id": "standing_numeric", "answer": "1", "original": "1", "ids_equal": true}
+{"id": "dispensing_numeric", "answer": "1", "original": "1", "ids_equal": true}
+{"id": "rubbing_numeric", "answer": "1", "original": "1", "ids_equal": true}

@@ -1,0 +1,8 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 10288.05it/s]
+{"id": "standing_numeric", "answer": "1", "stop": "eos"}
+{"id": "standing_action", "answer": "The person is standing still.", "stop": "eos"}
+{"id": "dispensing_numeric", "answer": "1", "stop": "eos"}
+{"id": "dispensing_action", "answer": "The person is holding a small white object, possibly a pen or a small tool", "stop": "budget"}
+{"id": "rubbing_numeric", "answer": "1", "stop": "eos"}
+{"id": "rubbing_action", "answer": "The person is rubbing their hands together.", "stop": "eos"}

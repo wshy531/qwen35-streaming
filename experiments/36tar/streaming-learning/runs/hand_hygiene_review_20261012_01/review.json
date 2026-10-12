@@ -1,0 +1,127 @@
+{
+  "source": "E:\\VIT Model\\datasets\\numeric_hand_hygiene_v1\\hand_hygiene.webm",
+  "sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9",
+  "samples": [
+    {
+      "sample_index": 0,
+      "frame_id": 0,
+      "timestamp": 0.0,
+      "rgb_sha256": "3a4d658e1af7a8c6c2ee12589cc4b94463f300cc611b4cdc35d3f470e30ff302"
+    },
+    {
+      "sample_index": 1,
+      "frame_id": 24,
+      "timestamp": 1.001,
+      "rgb_sha256": "84694066b514e749ba956f60328377fd03e44ed3871cce9ea5735a21b71cb2a5"
+    },
+    {
+      "sample_index": 2,
+      "frame_id": 48,
+      "timestamp": 2.002,
+      "rgb_sha256": "ebeeffc18e35804b87034bec56f5a2bacf8664349f0dc45a417dec7cb5d552bf"
+    },
+    {
+      "sample_index": 3,
+      "frame_id": 72,
+      "timestamp": 3.003,
+      "rgb_sha256": "4a803c6a961ebb6e197d9e56ae288a523c6726a96dbff7086b448fd82d8473c9"
+    },
+    {
+      "sample_index": 4,
+      "frame_id": 96,
+      "timestamp": 4.004,
+      "rgb_sha256": "cc202d24706f47da1cba4d35f48318bc71f0ec18407a3c82e1303262f89b0cb6"
+    },
+    {
+      "sample_index": 5,
+      "frame_id": 120,
+      "timestamp": 5.005,
+      "rgb_sha256": "635c6d986f53dbba084d30fda94805361a94c9c1503134db720552e1788f866d"
+    },
+    {
+      "sample_index": 6,
+      "frame_id": 144,
+      "timestamp": 6.006,
+      "rgb_sha256": "e886a848dda0a029cb62bc62259b540350c2a25883b0146f84c25e050b2a439f"
+    },
+    {
+      "sample_index": 7,
+      "frame_id": 168,
+      "timestamp": 7.007,
+      "rgb_sha256": "04fbd91a178314fc3733cd0f2d40843974e97524b28402d962ca2b3fe2d982d8"
+    },
+    {
+      "sample_index": 8,
+      "frame_id": 192,
+      "timestamp": 8.008,
+      "rgb_sha256": "d332125dd84f07672d21da69c540b02cf6b576deaf8e3ad2b92ce459df912587"
+    },
+    {
+      "sample_index": 9,
+      "frame_id": 216,
+      "timestamp": 9.009,
+      "rgb_sha256": "f8b3684d39e44c5111bb9583fcf2a79e041a6afae3857a380ff9b1b7a206fb02"
+    },
+    {
+      "sample_index": 10,
+      "frame_id": 240,
+      "timestamp": 10.01,
+      "rgb_sha256": "0e6e8a179f03dba491fe89c8dced9dccb0b623dfb435659d3da0f0b88fd1a2eb"
+    },
+    {
+      "sample_index": 11,
+      "frame_id": 264,
+      "timestamp": 11.011,
+      "rgb_sha256": "5e38d10bc69b01574ac7c50753d19da7584bea745ecf6d6747f074f2aa8cae45"
+    },
+    {
+      "sample_index": 12,
+      "frame_id": 288,
+      "timestamp": 12.012,
+      "rgb_sha256": "c2c2d3a3fe571daf73e8b54c496b8ac5e644e9c05b0121daef2c8015c6f06208"
+    },
+    {
+      "sample_index": 13,
+      "frame_id": 312,
+      "timestamp": 13.013,
+      "rgb_sha256": "2ede58f77310fc4d069ccfa357c7726c3a48b0f56a5c456beba80ac69284b63f"
+    },
+    {
+      "sample_index": 14,
+      "frame_id": 336,
+      "timestamp": 14.014,
+      "rgb_sha256": "0e2af5d3cff85cdc395a7f9fec87b8ae66195735fe35b39296032258645ae8b4"
+    },
+    {
+      "sample_index": 15,
+      "frame_id": 360,
+      "timestamp": 15.015,
+      "rgb_sha256": "5988032a0c56f8bdfc1f3e4d44586389e49533a8a68cdd930f4c2ce79e002946"
+    },
+    {
+      "sample_index": 16,
+      "frame_id": 384,
+      "timestamp": 16.016,
+      "rgb_sha256": "661a76f80ad924160a9a7866ca853ced204c61e6ebc8aebfb5734432032936d6"
+    },
+    {
+      "sample_index": 17,
+      "frame_id": 408,
+      "timestamp": 17.017,
+      "rgb_sha256": "2d1fb20bcdb7ea2f54aeb9779598277a2effc95c9a80ccddce693de6a867a71b"
+    },
+    {
+      "sample_index": 18,
+      "frame_id": 432,
+      "timestamp": 18.018,
+      "rgb_sha256": "f6f6af46c9231ca2c67c5d48d8e18cf06609d7857951a7dde976faf8987e88b6"
+    },
+    {
+      "sample_index": 19,
+      "frame_id": 456,
+      "timestamp": 19.019,
+      "rgb_sha256": "0f7c94f86857262ca4373f74130161da04d0c6e129013b0f9803fdf5b82004ab"
+    }
+  ],
+  "scope": "Manual review before new source model answers; no camera/model"
+}

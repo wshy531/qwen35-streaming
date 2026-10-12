@@ -1,0 +1,14 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 8133.49it/s]
+{"id": "water_wash_water", "answer": "Yes", "stop": "eos"}
+{"id": "water_wash_neutral", "answer": "1", "stop": "eos"}
+{"id": "paper_take_water", "answer": "No", "stop": "eos"}
+{"id": "paper_take_neutral", "answer": "1", "stop": "eos"}
+{"id": "paper_use_water", "answer": "No", "stop": "eos"}
+{"id": "paper_use_neutral", "answer": "1", "stop": "eos"}
+{"id": "standing_water", "answer": "No", "stop": "eos"}
+{"id": "standing_neutral", "answer": "1", "stop": "eos"}
+{"id": "dispensing_water", "answer": "No", "stop": "eos"}
+{"id": "dispensing_neutral", "answer": "1", "stop": "eos"}
+{"id": "rubbing_water", "answer": "No", "stop": "eos"}
+{"id": "rubbing_neutral", "answer": "1", "stop": "eos"}
