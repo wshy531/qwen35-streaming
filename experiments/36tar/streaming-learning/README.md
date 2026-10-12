@@ -262,3 +262,26 @@ python diagnostics/paper_stream_confirm_v1/run_confirm.py --stage gpu --model-di
 便携入口：`diagnostics/numeric_timeline_v1/run_reference.py`配合已有`scripts/run_live_demo.py`复现连续原对照；`diagnostics/new_hygiene_v1/run_probe.py`和相邻`new_hygiene_stream_v1/run_confirm.py`复现新源；`diagnostics/visible_action_v1/run_probe.py`、`paper_fact_v1/run_probe.py`复现两素材适应性事实。所有CPU后才GPU，各stage新out/90秒、同参数与分支规则；主模型核心仍唯一code/qwen35-streaming-s4。模型与视频需自行准备，本机绝对路径proof只是历史来源证据。
 
 新输入的来源/作者/许可/原URL/SHA见[datasets/numeric_hand_hygiene_v1/ATTRIBUTION.md](datasets/numeric_hand_hygiene_v1/ATTRIBUTION.md)，文件874340B，仅本机，仓库不含媒体/派生图。新source约24FPS，预登记实际ID/PTS，不套用旧30FPS。单源入口使用`--video`，事实多源入口使用`--video-dir`指向包含natural_commons_v1与numeric_hand_hygiene_v1的目录。新GPU需完成自己的fresh CPUproof；同学分支可一致指定`--allow-branch`，main/master/HEAD禁止。
+
+## 通用跨视频与时间索引记忆候选
+
+[本段通俗复盘与失败](通用流式纠偏与时间记忆探索复盘.md)；[文献取舍](通用流式纠偏与文献选择.md)。统一开放问题在三个自然短片连续处理70帧/21问答/10reset，原模型同实际当前epoch21生成全部一致；人工主体单项15/21，不代表动作细节/完整答案准确率，15次16Token预算截断与所有误认保留。墙钟回答滞后中位0.648秒/最大0.807秒，本入口为顺序播放，不能当单槽过载或端到端提速证据。
+
+`diagnostics/general_stream_v1`是固定诊断队列，`diagnostics/temporal_frame_memory_v1`是显式候选，均导入唯一活动核心。原通用演示仍使用前文入口，默认模型/问题不改。记忆候选每4对帧存1对、最多3对864KiB持久CPU像素；源真实PTS与受控拼接会话时间分开，按精确时间取回，缺失/未来拒绝。三主体排列取回开头2/3，鸽误人保留；原同9输入生成一致。不是语义事件检索、KV压缩、记忆森林、训练或无限历史。
+
+复现先编辑`general_stream_v1/cases.json`三素材path为自己的绝对路径、核对来源SHA；`temporal_frame_memory_v1`使用同一来源配置和已登记三排列。素材[署名/原URL/许可/SHA](datasets/general_stream_v1/ATTRIBUTION.md)，仓库不含视频；犬/鸽本段新源、猫既有控制。修改配置/源码/机器时必须生成自己的fresh CPUproof，历史proof仅为当次证据。以下从个人目录执行，每个out必须不存在：
+
+```powershell
+# 通用队列先CPU，再流式GPU，再原同输入GPU；每次前一进程退出后运行。
+python diagnostics/general_stream_v1/run_suite.py --stage preflight --arm both --model-dir <model-dir> --out <fresh-cpu-out>
+python diagnostics/general_stream_v1/run_suite.py --stage gpu --arm stream --model-dir <model-dir> --preflight <fresh-cpu-out> --out <fresh-stream-out>
+python diagnostics/general_stream_v1/run_suite.py --stage gpu --arm original --model-dir <model-dir> --preflight <fresh-cpu-out> --stream-run <fresh-stream-out> --out <fresh-original-out>
+# 记忆候选同样单独CPU和两个GPU臂。
+python diagnostics/temporal_frame_memory_v1/run_memory.py --stage preflight --arm both --model-dir <model-dir> --out <fresh-memory-cpu>
+python diagnostics/temporal_frame_memory_v1/run_memory.py --stage gpu --arm stream --model-dir <model-dir> --preflight <fresh-memory-cpu> --out <fresh-memory-stream>
+python diagnostics/temporal_frame_memory_v1/run_memory.py --stage gpu --arm original --model-dir <model-dir> --preflight <fresh-memory-cpu> --stream-run <fresh-memory-stream> --out <fresh-memory-original>
+```
+
+`<...>`为须替换的路径占位符，不是可直接粘贴执行的字面值。其他个人分支在CPU和GPU命令一致增加`--allow-branch your-branch`，main/master/HEAD禁止。每臂240秒watchdog、RAM≥3GiB、显存空闲≥5.5GiB/转换≥2GiB、单模型顺序，预算与7记忆契约见各自方案。本段未重跑历史153完整CPU，活动源码仍同一；本次4epoch/21输入及7记忆契约/9输入通过。
+
+查询计时旧字段`query_seconds_including_input_checks`实际不包含之前的identity检查，完整耗时边界见复盘，不用它声称端到端速度。候选未集成默认页面；下一步优先通用输出预算、记忆覆盖/拒绝显示和完整查询成本，再固定条件跨新来源检验。

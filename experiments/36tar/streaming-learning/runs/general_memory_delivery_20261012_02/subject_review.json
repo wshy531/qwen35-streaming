@@ -1,0 +1,173 @@
+{
+  "scope": "Manual main-subject review only, not full-answer accuracy or held-out benchmark",
+  "cases": [
+    {
+      "case_id": "dog_0",
+      "pts": 3.0,
+      "answer": "The main visible subject is a red and white sign that reads \"PABLO",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_1",
+      "pts": 5.0,
+      "answer": "The main visible subject is Pablo Mix, who is standing in front of a white",
+      "stop_reason": "budget",
+      "main_subject_correct": false,
+      "note": "Title graphic incorrectly described as a standing person."
+    },
+    {
+      "case_id": "dog_2",
+      "pts": 9.0,
+      "answer": "The main visible subject is a man standing in a room. He is wearing a",
+      "stop_reason": "budget",
+      "main_subject_correct": false,
+      "note": "Title graphic incorrectly described as a man in a room."
+    },
+    {
+      "case_id": "dog_3",
+      "pts": 11.0,
+      "answer": "The main visible subject is a man standing in front of a white wall. He",
+      "stop_reason": "budget",
+      "main_subject_correct": false,
+      "note": "Title graphic incorrectly described as a man at a white wall."
+    },
+    {
+      "case_id": "dog_4",
+      "pts": 15.0,
+      "answer": "A fluffy white dog is lying on the grass, and it is looking around.",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_5",
+      "pts": 17.0,
+      "answer": "The main visible subject is a fluffy white dog, which is currently running towards the",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_6",
+      "pts": 21.0,
+      "answer": "A small white dog is sniffing around in a grassy area with the Eiff",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_7",
+      "pts": 23.0,
+      "answer": "The main visible subject is a small white dog with long fur, sniffing around",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_8",
+      "pts": 27.0,
+      "answer": "A white dog is walking on the grass near the Eiffel Tower.",
+      "stop_reason": "eos",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_9",
+      "pts": 29.0,
+      "answer": "A small white dog is running across a grassy field, with a large Eiff",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_10",
+      "pts": 33.0,
+      "answer": "A fluffy white dog is running on a grassy field, with its tail wag",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_11",
+      "pts": 35.0,
+      "answer": "A white dog is running on a grassy field.",
+      "stop_reason": "eos",
+      "main_subject_correct": false,
+      "note": "Most recent two frames are outro text, but answer still names a dog; older epoch frames include dog."
+    },
+    {
+      "case_id": "dog_12",
+      "pts": 39.0,
+      "answer": "The video shows a black screen with text in red and yellow. The text includes",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "dog_13",
+      "pts": 41.0,
+      "answer": "The video shows a black screen with text in red and yellow. The text includes",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "pigeon_0",
+      "pts": 3.003,
+      "answer": "A pigeon is flying from left to right in the sky.",
+      "stop_reason": "eos",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "pigeon_1",
+      "pts": 5.005000000000001,
+      "answer": "A pigeon is flying from the left side of the image towards the right.",
+      "stop_reason": "eos",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "pigeon_2",
+      "pts": 9.009,
+      "answer": "A pigeon is flying over a rooftop.",
+      "stop_reason": "eos",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "pigeon_3",
+      "pts": 11.011000000000001,
+      "answer": "The main visible subject is a pigeon. It is currently flying from right to left",
+      "stop_reason": "budget",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "pigeon_4",
+      "pts": 15.015,
+      "answer": "The main visible subject is a person wearing a black hoodie and jeans, who is",
+      "stop_reason": "budget",
+      "main_subject_correct": false,
+      "note": "Flying bird incorrectly described as a person."
+    },
+    {
+      "case_id": "cat_0",
+      "pts": 3.0,
+      "answer": "A black and white cat is lying on its back on the ground.",
+      "stop_reason": "eos",
+      "main_subject_correct": true,
+      "note": "Main subject identifiable; this does not certify every action/detail in the sentence."
+    },
+    {
+      "case_id": "cat_1",
+      "pts": 5.0,
+      "answer": "A black and white dog is lying on the ground, rolling around in a circle",
+      "stop_reason": "budget",
+      "main_subject_correct": false,
+      "note": "Cat incorrectly described as a dog."
+    }
+  ]
+}

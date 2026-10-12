@@ -1,0 +1,21 @@
+{
+  "model_loads": 1,
+  "stream_vision_max": 72,
+  "stream_language_max": 1000,
+  "original_vision_max": 48,
+  "original_language_max": 816,
+  "generated_max": 768,
+  "answers_max": 48,
+  "source_frames_max": 144,
+  "source_frames_each_max": 48,
+  "history_frames_max": 6,
+  "answer_tokens": 16,
+  "tokens_max": 288,
+  "question_reserve": 96,
+  "precision": "fp32_ieee_math",
+  "wall_seconds": 240,
+  "ram_min_gib": 3,
+  "gpu_free_min_gib": 5.5,
+  "fp32_conversion_free_min_gib": 2,
+  "concurrent_models": 1
+}

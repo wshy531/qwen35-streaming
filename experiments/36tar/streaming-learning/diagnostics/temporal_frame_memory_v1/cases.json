@@ -1,0 +1,15 @@
+{
+  "orders": [["dog", "pigeon", "cat"], ["pigeon", "cat", "dog"], ["cat", "dog", "pigeon"]],
+  "sample_starts": {"dog": 12, "pigeon": 0, "cat": 0},
+  "frames_each": 8,
+  "archive_max_pairs": 3,
+  "archive_every_pairs": 4,
+  "archive_max_bytes": 884736,
+  "current_question": "Briefly identify the main subject visible now.",
+  "historical_question": "What main subject was visible in the first two frames of this session? Answer briefly.",
+  "query_time": 0,
+  "missing_query_time": 4.5,
+  "future_query_time": 100,
+  "rubric": "Manually judge main subject: dog, bird/pigeon or cat; no accuracy inferred from matching original generated IDs.",
+  "scope": "Controlled source concatenations, not natural event chronology or held-out generalization. Retrieval has additional saved evidence."
+}

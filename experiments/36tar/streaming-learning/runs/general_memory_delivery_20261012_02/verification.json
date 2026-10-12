@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "source_proofs_verified": 2,
+  "cpu_tests": {
+    "epoch": 4,
+    "memory": 7
+  },
+  "input_queries": {
+    "generic": 21,
+    "memory": 9
+  },
+  "gpu_submissions_this_window": 4,
+  "gpu_loads_this_window": 4,
+  "cumulative_gpu": 63,
+  "active_core_and_original_unchanged": true,
+  "old_frozen_source_unchanged": true,
+  "syntax_files": 271,
+  "copied_bounded_text_files": 57,
+  "raw_failures_preserved": true,
+  "no_training_camera_cluster": true
+}

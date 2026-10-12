@@ -1,0 +1,71 @@
+{
+  "scope": "Three short-source generic QA plus controlled memory permutations; not a benchmark or infinite-memory proof",
+  "general": {
+    "frames": 70,
+    "answers": 21,
+    "resets": 10,
+    "original_stream_generated_ids_equal": 21,
+    "manual_main_subject_correct": 15,
+    "budget_stops": 15,
+    "lag_seconds_median": 0.6481232000005548,
+    "lag_seconds_max": 0.8066751000005752,
+    "current_question": "Briefly describe the main visible subject and what it is doing now."
+  },
+  "memory": {
+    "controlled_sessions": 3,
+    "frames": 72,
+    "main_resets": 9,
+    "original_stream_generated_ids_equal": 9,
+    "current_main_subject_correct": 2,
+    "history_main_surface_matches": 1,
+    "history_main_has_old_evidence": false,
+    "retrieved_history_subject_correct": 2,
+    "retained_history_cases": 3,
+    "refusals_without_model_call": 6,
+    "persistent_rgb_bytes": 884736,
+    "note": "Retrieval sees additional saved old evidence; main lucky surface match is not grounded recall. Bird retrieval remains wrong."
+  },
+  "resources": {
+    "general_stream": {
+      "actual_forwards": {
+        "vision": 36,
+        "language": 390
+      },
+      "generated_tokens": 320,
+      "peak_allocated_gib": 3.2703065872192383,
+      "peak_reserved_gib": 3.60546875,
+      "wall_seconds_including_load": 70.12638209999932
+    },
+    "general_original": {
+      "actual_forwards": {
+        "vision": 21,
+        "language": 341
+      },
+      "generated_tokens": 320,
+      "peak_allocated_gib": 3.2500486373901367,
+      "peak_reserved_gib": 3.556640625,
+      "wall_seconds_including_load": 31.53172859999904
+    },
+    "memory_stream": {
+      "actual_forwards": {
+        "vision": 39,
+        "language": 116
+      },
+      "generated_tokens": 53,
+      "peak_allocated_gib": 3.3090105056762695,
+      "peak_reserved_gib": 3.64453125,
+      "wall_seconds_including_load": 17.732599400002073
+    },
+    "memory_original": {
+      "actual_forwards": {
+        "vision": 9,
+        "language": 62
+      },
+      "generated_tokens": 53,
+      "peak_allocated_gib": 3.250141143798828,
+      "peak_reserved_gib": 3.560546875,
+      "wall_seconds_including_load": 17.232829899996432
+    }
+  },
+  "timing_limitations": "General replay includes paced source waiting and audit/report work; original is unpaced. Memory query_seconds_including_input_checks is misnamed in frozen run: timer begins after identity checks; it includes branch processing but excludes earlier oracle input checks. No end-to-end speed comparison."
+}

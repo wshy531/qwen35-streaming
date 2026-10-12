@@ -1,0 +1,30 @@
+{
+  "scope": "Local-only inference inputs, not a benchmark or pretraining-unseen claim",
+  "videos": [
+    {
+      "id": "dog",
+      "file": "dog.webm",
+      "page": "https://commons.wikimedia.org/wiki/File:Dog_seen_from_a_GoPro.webm",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Dog_seen_from_a_GoPro.webm",
+      "author": "Pablo Fuentes",
+      "license": "CC BY 3.0",
+      "sha1_expected": "269b9c9641927a8b5ad5396627e0c68e98ddaf16",
+      "bytes": 9706876,
+      "sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "sha1": "269b9c9641927a8b5ad5396627e0c68e98ddaf16",
+      "original_unchanged": true
+    },
+    {
+      "id": "pigeon",
+      "file": "pigeon.webm",
+      "page": "https://commons.wikimedia.org/wiki/File:Pigeon_take_off.webm",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Pigeon_take_off.webm",
+      "author": "Karthik Easvur",
+      "license": "CC BY-SA 3.0",
+      "bytes": 9195809,
+      "sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "sha1": "513bd186fd770466035983e9fc1053294f943ed1",
+      "original_unchanged": true
+    }
+  ]
+}

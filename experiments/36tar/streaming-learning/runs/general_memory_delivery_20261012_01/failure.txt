@@ -1,0 +1,4 @@
+First delivery audit stopped before copying runs or changing published manifest.
+FileNotFoundError: audit treated source marker @launcher as ACTIVE/@launcher.
+Fix only the auditor's explicit marker resolution; preserve frozen experiment sources and actual answers.
+Independent retry uses general_memory_delivery_20261012_02. No additional model inference.

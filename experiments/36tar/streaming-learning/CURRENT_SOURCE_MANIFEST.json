@@ -1,5 +1,5 @@
 {
-  "scope": "Unchanged active core retains stage8 CPU153; independent numeric timeline and adaptive fact probes have separate frozen proofs",
+  "scope": "Active core unchanged with historical CPU153; independent generic continuous and bounded time-indexed frame-memory candidates have fresh proofs.",
   "files": {
     "qwen35_local/__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
     "qwen35_local/configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
@@ -115,6 +115,16 @@
     "diagnostics/visible_action_v1/cases.json": "51ca24b591a7581facdd85553e049a7f1e3f89b7de577bed538055b3b143699e",
     "diagnostics/visible_action_v1/probe.py": "75b922aa2625725bb2ecb5a71cfa951224f4bf015eb565f8b154e520ab2898ac",
     "diagnostics/visible_action_v1/run_probe.py": "704d577da123be268a42130e081d4e3a961544ce9c723ddbdefbf3c27d7fa287",
-    "diagnostics/visible_action_v1/方案.md": "a540c4d55e7cf9d820ca79e184b78c78d88fef3ab630ddda6988e8255d6ed136"
+    "diagnostics/visible_action_v1/方案.md": "a540c4d55e7cf9d820ca79e184b78c78d88fef3ab630ddda6988e8255d6ed136",
+    "diagnostics/general_stream_v1/cases.json": "64efb755845cf7be3c3e92f1bfa23cf28452d5d40dfa5677cd4401519e7c60a1",
+    "diagnostics/general_stream_v1/run_suite.py": "71957de1c7fb33671e8ae3ae265b0b751c970aecd6e4539f45a012f6607766e2",
+    "diagnostics/general_stream_v1/suite.py": "e36b6b2d8b557382f8af4987ce915b2298574f5b7f0efd64ae0e0b645eda532f",
+    "diagnostics/general_stream_v1/方案.md": "9233617ea00581de10654d95137ba422d4fe7f6a979c1da254b68eba768b0735",
+    "diagnostics/temporal_frame_memory_v1/cases.json": "dc00314f96141fc90dbba03f47f46feb71d7e1f3286b7e13e0d9aa079452f7e1",
+    "diagnostics/temporal_frame_memory_v1/experiment.py": "b6d625c104b44ed9e8686869fdf499f09893bce01d2b5ee7ccbf1d2f94ca47cd",
+    "diagnostics/temporal_frame_memory_v1/memory.py": "e301f9260388bc26fb6502dbe7188a1d3458991469d3f65a792b890d9e103630",
+    "diagnostics/temporal_frame_memory_v1/run_memory.py": "35b4466ab856b5eec3a6661ce862742e6bdd2871571ed5acacae0a40d422d921",
+    "diagnostics/temporal_frame_memory_v1/test_memory.py": "ded9c9ea86e915f10b84758a8b1b67dd6b51663e316c181a7dcee43785204d2d",
+    "diagnostics/temporal_frame_memory_v1/方案.md": "e53dc5f97e70a0cb1801732ea0a932f25bcb4075fc0f2da6daf0b0dfcbd9058e"
   }
 }
