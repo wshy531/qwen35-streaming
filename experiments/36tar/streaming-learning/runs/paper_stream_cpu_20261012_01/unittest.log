@@ -1,0 +1,9 @@
+test_excessive_or_unordered_selection_refused_before_decode (tests.test_timeline_inputs.TimelineInputTests.test_excessive_or_unordered_selection_refused_before_decode) ... ok
+test_mismatched_memory_or_unbacked_answer_refused (tests.test_timeline_inputs.TimelineInputTests.test_mismatched_memory_or_unbacked_answer_refused) ... ok
+test_padding_counts_one_real_frame (tests.test_timeline_inputs.TimelineInputTests.test_padding_counts_one_real_frame) ... ok
+test_reset_excludes_discarded_history_and_future (tests.test_timeline_inputs.TimelineInputTests.test_reset_excludes_discarded_history_and_future) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.045s
+
+OK

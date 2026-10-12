@@ -1,0 +1,452 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case_id": "washing_legacy",
+      "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+      "question_id": "legacy",
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "1fb33ea63f284cd3bb1473bb5d3f32a174dee86b2ef673c525d1db51bf591dd9",
+      "input_tokens": 94,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "WASHING",
+      "rubric": "Hands rinsing/washing at sink; object answer may be hands/water/soap."
+    },
+    {
+      "case_id": "washing_reversed",
+      "question": "What are the hands doing in the most recent two frames? Answer only OTHER, USING_PAPER, or WASHING.",
+      "question_id": "reversed",
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "ae7f555f47589eb94e8b82b3fdda50ccb35155bae5431d2b801de1274411c8e0",
+      "input_tokens": 94,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "WASHING",
+      "rubric": "Hands rinsing/washing at sink; object answer may be hands/water/soap."
+    },
+    {
+      "case_id": "washing_defined",
+      "question": "What are the hands doing in the most recent two frames? WASHING means washing or rinsing hands with water. USING_PAPER means taking or using a paper towel. OTHER means another action. Answer only WASHING, USING_PAPER, or OTHER.",
+      "question_id": "defined",
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "f5114f754fe23d93980c3f86c0a279b680eedcac70c7c848bc57afd16ba6ef5d",
+      "input_tokens": 122,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "WASHING",
+      "rubric": "Hands rinsing/washing at sink; object answer may be hands/water/soap."
+    },
+    {
+      "case_id": "washing_numeric",
+      "question": "What are the hands doing in the most recent two frames? Choose one: 1 = washing or rinsing hands with water; 2 = taking or using a paper towel; 3 = another action. Reply only 1, 2, or 3.",
+      "question_id": "numeric",
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "8fad6e7e76d990cd8f390b6b6c3b8c20a7b2f481f1e1f0e32910440b48871698",
+      "input_tokens": 123,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "1",
+      "rubric": "Hands rinsing/washing at sink; object answer may be hands/water/soap."
+    },
+    {
+      "case_id": "take_paper_legacy",
+      "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+      "question_id": "legacy",
+      "frames": [
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "cd18d981a5918d6f18d9e0f75d78bb423c61d982c8d209eb8d7a4ce6497c7507",
+      "input_tokens": 94,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "rubric": "Hands obtaining/holding paper towel from dispenser."
+    },
+    {
+      "case_id": "take_paper_reversed",
+      "question": "What are the hands doing in the most recent two frames? Answer only OTHER, USING_PAPER, or WASHING.",
+      "question_id": "reversed",
+      "frames": [
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "f131ee583b07a2f5574ccc872ce58f0f5611e1c286cccced80536edeaadbe9db",
+      "input_tokens": 94,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "rubric": "Hands obtaining/holding paper towel from dispenser."
+    },
+    {
+      "case_id": "take_paper_defined",
+      "question": "What are the hands doing in the most recent two frames? WASHING means washing or rinsing hands with water. USING_PAPER means taking or using a paper towel. OTHER means another action. Answer only WASHING, USING_PAPER, or OTHER.",
+      "question_id": "defined",
+      "frames": [
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "5b4d524c6bab5e0b18c2c28e3ff678afa084b4d7f65221151ba0518cef8ce21e",
+      "input_tokens": 122,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "rubric": "Hands obtaining/holding paper towel from dispenser."
+    },
+    {
+      "case_id": "take_paper_numeric",
+      "question": "What are the hands doing in the most recent two frames? Choose one: 1 = washing or rinsing hands with water; 2 = taking or using a paper towel; 3 = another action. Reply only 1, 2, or 3.",
+      "question_id": "numeric",
+      "frames": [
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "112a2d8c27e6b7a0b3400192a71da90ca0d877107a832a4bcdecdac73151377b",
+      "input_tokens": 123,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "2",
+      "rubric": "Hands obtaining/holding paper towel from dispenser."
+    },
+    {
+      "case_id": "use_paper_legacy",
+      "question": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+      "question_id": "legacy",
+      "frames": [
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "8456809179ecc963cfe94bb26fb4641bb976ec9ecc9ab0fbb7c7e10cc775937b",
+      "input_tokens": 94,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "rubric": "Hands holding/using paper towel, rubbing/drying hands."
+    },
+    {
+      "case_id": "use_paper_reversed",
+      "question": "What are the hands doing in the most recent two frames? Answer only OTHER, USING_PAPER, or WASHING.",
+      "question_id": "reversed",
+      "frames": [
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "041fb5eddc3d4b37ed3ce25c973f30e8c2cf927260765db2a93eb00901e96798",
+      "input_tokens": 94,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "rubric": "Hands holding/using paper towel, rubbing/drying hands."
+    },
+    {
+      "case_id": "use_paper_defined",
+      "question": "What are the hands doing in the most recent two frames? WASHING means washing or rinsing hands with water. USING_PAPER means taking or using a paper towel. OTHER means another action. Answer only WASHING, USING_PAPER, or OTHER.",
+      "question_id": "defined",
+      "frames": [
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "43747adec04ea797c7d0528dd70a4bc990df70979f26cad2dd439445eeb07875",
+      "input_tokens": 122,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "USING_PAPER",
+      "rubric": "Hands holding/using paper towel, rubbing/drying hands."
+    },
+    {
+      "case_id": "use_paper_numeric",
+      "question": "What are the hands doing in the most recent two frames? Choose one: 1 = washing or rinsing hands with water; 2 = taking or using a paper towel; 3 = another action. Reply only 1, 2, or 3.",
+      "question_id": "numeric",
+      "frames": [
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "f6ee8276a27991145fc5409aed5300ecf7b6f033149daf672f40077c5bc89eee",
+      "input_tokens": 123,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "2",
+      "rubric": "Hands holding/using paper towel, rubbing/drying hands."
+    }
+  ],
+  "same_group_pixels_equal": true,
+  "tiny_fresh_prefill_bitwise_equal": true,
+  "scope": "CPU random models, not semantic evidence"
+}

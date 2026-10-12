@@ -1,5 +1,5 @@
 {
-  "scope": "Stage eight CPU153, source17, epoch4, seven same-input pretrained controls; original and streaming share paper errors, camera unopened; historical source snapshots preserved",
+  "scope": "Unchanged active FP32 core retains stage8 CPU153 proof; independent paper diagnostics have separate stage9/10 proofs; historical evidence preserved",
   "files": {
     "qwen35_local/__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
     "qwen35_local/configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
@@ -88,5 +88,14 @@
     "@reference:E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
     "@reference:E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\processing_qwen3_vl.py": "e5abbaf1d035fe49cd8354f1e92fd3f92ab1103a39173c147471f30ff1908b6a",
     "@reference:E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\video_processing_qwen3_vl.py": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10"
+  },
+  "diagnostics": {
+    "diagnostics/paper_choice_v1/cases.json": "51850b33fac886a94a4763827bdd054f9278241a3b1a43e9bd58f66f4ccf9278",
+    "diagnostics/paper_choice_v1/probe.py": "0c369eb7ab020c9b9c0a085b30cd0e546f075151f460aa9bf22d77768107bc13",
+    "diagnostics/paper_choice_v1/run_probe.py": "704d577da123be268a42130e081d4e3a961544ce9c723ddbdefbf3c27d7fa287",
+    "diagnostics/paper_choice_v1/方案.md": "39c0d4f0297667eca323d63df5f92040613f44013d37e4ac1de034ebf90cf742",
+    "diagnostics/paper_stream_confirm_v1/confirm.py": "af83289659ab783adaac703573300c2507cfbb9f327c3e70120ff6d2bf1ff67a",
+    "diagnostics/paper_stream_confirm_v1/run_confirm.py": "942ebd2b50dd473866e2ed9e95226f42cf17423dc974a377316f96c6d8ff12c7",
+    "diagnostics/paper_stream_confirm_v1/方案.md": "4c181210d91f12ec89d1c6363b84398114e3d90e3c6264c1cfdcc1fa7882e36c"
   }
 }

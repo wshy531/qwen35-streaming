@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "cpu_epoch_contracts": 4,
+  "independent_input_cases": 9,
+  "same_question_group_pixels_equal": true,
+  "original_gpu_cases": 9,
+  "choice_correct": 1,
+  "choice_cases": 3,
+  "all_eos": true,
+  "source_assets_inputs_verified": true,
+  "active_and_original_unchanged": true,
+  "old_frozen_files": 61,
+  "git_clean": true,
+  "head": "296bcb8a2a6173becd38915bfe8771c9aa5ac415",
+  "gpu_records": 51,
+  "stage_submissions": 1,
+  "stage_loads": 1,
+  "actual_forwards": {
+    "vision": 9,
+    "language": 66
+  },
+  "generated_tokens": 57,
+  "camera": 0,
+  "cluster": 0,
+  "training": 0,
+  "not_uploaded": true
+}

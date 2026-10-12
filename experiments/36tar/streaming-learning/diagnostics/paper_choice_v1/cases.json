@@ -1,0 +1,72 @@
+{
+  "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+  "pairs": [
+    {
+      "id": "washing",
+      "indices": [
+        12,
+        13
+      ],
+      "expected": "WASHING",
+      "rubric": "Hands rinsing/washing at sink; object answer may be hands/water/soap.",
+      "expected_by_question": {
+        "legacy": "WASHING",
+        "reversed": "WASHING",
+        "defined": "WASHING",
+        "numeric": "1"
+      }
+    },
+    {
+      "id": "take_paper",
+      "indices": [
+        14,
+        15
+      ],
+      "expected": "USING_PAPER",
+      "rubric": "Hands obtaining/holding paper towel from dispenser.",
+      "expected_by_question": {
+        "legacy": "USING_PAPER",
+        "reversed": "USING_PAPER",
+        "defined": "USING_PAPER",
+        "numeric": "2"
+      }
+    },
+    {
+      "id": "use_paper",
+      "indices": [
+        16,
+        17
+      ],
+      "expected": "USING_PAPER",
+      "rubric": "Hands holding/using paper towel, rubbing/drying hands.",
+      "expected_by_question": {
+        "legacy": "USING_PAPER",
+        "reversed": "USING_PAPER",
+        "defined": "USING_PAPER",
+        "numeric": "2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "legacy",
+      "text": "What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER.",
+      "change": "Existing wording repeated as reference."
+    },
+    {
+      "id": "reversed",
+      "text": "What are the hands doing in the most recent two frames? Answer only OTHER, USING_PAPER, or WASHING.",
+      "change": "Same category names, reversed option order."
+    },
+    {
+      "id": "defined",
+      "text": "What are the hands doing in the most recent two frames? WASHING means washing or rinsing hands with water. USING_PAPER means taking or using a paper towel. OTHER means another action. Answer only WASHING, USING_PAPER, or OTHER.",
+      "change": "Same output labels/order, add natural language category definitions."
+    },
+    {
+      "id": "numeric",
+      "text": "What are the hands doing in the most recent two frames? Choose one: 1 = washing or rinsing hands with water; 2 = taking or using a paper towel; 3 = another action. Reply only 1, 2, or 3.",
+      "change": "Natural definitions and numeric output; changes multiple text factors, not isolated token-label test."
+    }
+  ]
+}

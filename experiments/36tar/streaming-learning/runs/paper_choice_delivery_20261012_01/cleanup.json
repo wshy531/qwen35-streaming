@@ -1,0 +1,36 @@
+{
+  "models_data_environment_untouched": true,
+  "old_runs_and_sources_preserved": true,
+  "removed": [
+    {
+      "path": "E:\\VIT Model\\runs\\paper_choice_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\paper_choice_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\paper_stream_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\paper_stream_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\paper_portable_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    }
+  ]
+}

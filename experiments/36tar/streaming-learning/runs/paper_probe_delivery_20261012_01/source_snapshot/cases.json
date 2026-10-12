@@ -1,0 +1,13 @@
+{
+  "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+  "pairs": [
+    {"id":"washing","indices":[12,13],"expected":"WASHING","rubric":"Hands rinsing/washing at sink; object answer may be hands/water/soap."},
+    {"id":"take_paper","indices":[14,15],"expected":"USING_PAPER","rubric":"Hands obtaining/holding paper towel from dispenser."},
+    {"id":"use_paper","indices":[16,17],"expected":"USING_PAPER","rubric":"Hands holding/using paper towel, rubbing/drying hands."}
+  ],
+  "questions": [
+    {"id":"choice","text":"What are the hands doing in the most recent two frames? Answer only WASHING, USING_PAPER, or OTHER."},
+    {"id":"action","text":"Describe what the hands are doing in the most recent two frames."},
+    {"id":"object","text":"What object are the hands handling in the most recent two frames?"}
+  ]
+}

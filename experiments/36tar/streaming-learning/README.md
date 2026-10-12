@@ -216,7 +216,7 @@ Set-Location code/qwen35-streaming-s4
 
 归档的proof中含旧资产路径、代码SHA和输入指纹，**不能直接用作新机器/新源码的GPU预检**。先产生新的CPU证明，保留成功和失败输出；Git或不同操作系统若改变换行字节，也应重新冻结源码证明。`UPLOAD_SOURCE_MANIFEST.json`记录此次导出内容的原始SHA；历史source_tree/provenance表示各次运行时的版本。
 
-接续优先级由最新总纲决定：先诊断纸巾动作与提问/输入条件，再选择新连续素材和更长文件验收；用户暂不启用摄像头。BF16、32/64和长期状态后置。墙钟与单槽丢帧已有有限证据，模型能力错误仍需定位。合并通过PR审阅，不直接推送main。
+接续优先级由最新总纲决定：纸巾局部问法诊断已完成，下一先数字定义问法的连续视频/原模型公平对照，再不同来源留出和更长文件验收；用户暂不启用摄像头。BF16、32/64和长期状态后置。墙钟与单槽丢帧已有有限证据，模型能力错误仍需定位。合并通过PR审阅，不直接推送main。
 
 ## 连续自然动作：同输入原模型对照
 
@@ -235,3 +235,22 @@ python scripts/run_timeline_reference.py --stage gpu --model-dir $model --video 
 ```
 
 完整CPU回归仍使用前文的`unittest discover`入口（现153项）。若实际丢帧或问答日程偏离预登记七例，原对照在载入前拒绝；不能把不同输入当公平对照。上面的`timeline_action_cases.json`固定诊断配置仅用于复现，通用演示入口仍可换视频/问题。跨reset历史不保留；七例共享一个短片，不作为随机测试集准确率。原参考三源码、默认状态核心、旧四帧公平入口均未改。
+
+## 纸巾动作问题的有限诊断
+
+[第九段原始开放题与误答](纸巾局部画面诊断结果.md)、[第十段方案](纸巾动作选择条件对照方案.md)、[独立流式确认方案](数字动作流式确认方案.md)、[全部结果与限制](纸巾动作选择条件对照结果.md)。三组固定两帧×四问法：旧标签、反转标签顺序、标签加动作定义各严格1/3，自然定义+数字回答3/3；后续三numeric原/流式生成完全相同、主状态不变。不是留出准确率，也没有用此问法完成持续23秒视频，原来纸巾错误仍保留。当前默认模型核心和通用问题不改。
+
+主流式代码仍唯一`code/qwen35-streaming-s4`。新增`diagnostics/paper_choice_v1`与相邻`paper_stream_confirm_v1`是便携独立诊断入口，导入同一核心；第九段源码只读快照在`runs/paper_probe_delivery_20261012_01/source_snapshot`，不要直接从快照目录当主入口运行。此诊断固定CDC短片和采样画面，通用演示入口仍可换视频/问题。
+
+在个人目录运行，模型/素材路径自备且需固定资产SHA一致；各`--out`必须不存在。原GPU完成并退出后再启动流式GPU，每次单模型/90秒，RAM≥3GiB、显存空闲≥5.5GiB、FP32转换额外≥2GiB。其他个人分支可在每条命令一致增加`--allow-branch your-branch`，main/master/HEAD始终禁止。换源码/方案/配置/参数/新机或安装版本时必须新CPUproof。
+
+```powershell
+$model = 'E:\VIT Model\models\Qwen3.5-0.8B'
+$video = 'E:\VIT Model\datasets\natural_commons_v1\clean_hands.webm'
+python diagnostics/paper_choice_v1/run_probe.py --stage preflight --model-dir $model --video $video --out runs/my_paper_choice_cpu
+python diagnostics/paper_choice_v1/run_probe.py --stage gpu --model-dir $model --video $video --preflight runs/my_paper_choice_cpu --out runs/my_paper_choice_gpu
+python diagnostics/paper_stream_confirm_v1/run_confirm.py --stage preflight --model-dir $model --video $video --original-run runs/my_paper_choice_gpu --out runs/my_paper_stream_cpu
+python diagnostics/paper_stream_confirm_v1/run_confirm.py --stage gpu --model-dir $model --video $video --original-run runs/my_paper_choice_gpu --preflight runs/my_paper_stream_cpu --out runs/my_paper_stream_gpu
+```
+
+实际当前CPU原4契约+12输入、流式4契约+3输入、发布目录便携入口4契约+3输入通过；既有153完整CPU对应的活动实现未改，未声称本轮重复跑153。历史绝对路径proof是当次来源证据，不能直接用来授权你机器上的GPU。原实际12视觉50语言38生成、流式3视觉15语言6生成，各1载入；不同预算计时不比较提速。
