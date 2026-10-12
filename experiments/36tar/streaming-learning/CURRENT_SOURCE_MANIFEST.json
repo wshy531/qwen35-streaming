@@ -1,5 +1,5 @@
 {
-  "scope": "Active core unchanged with historical CPU153; independent generic continuous and bounded time-indexed frame-memory candidates have fresh proofs.",
+  "scope": "Active core unchanged; independent growing-prefix streaming-benefit64 and symmetric torch32 benchmarks bind fresh proofs, preserving negative cumulative timing.",
   "files": {
     "qwen35_local/__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
     "qwen35_local/configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
@@ -125,6 +125,13 @@
     "diagnostics/temporal_frame_memory_v1/memory.py": "e301f9260388bc26fb6502dbe7188a1d3458991469d3f65a792b890d9e103630",
     "diagnostics/temporal_frame_memory_v1/run_memory.py": "35b4466ab856b5eec3a6661ce862742e6bdd2871571ed5acacae0a40d422d921",
     "diagnostics/temporal_frame_memory_v1/test_memory.py": "ded9c9ea86e915f10b84758a8b1b67dd6b51663e316c181a7dcee43785204d2d",
-    "diagnostics/temporal_frame_memory_v1/方案.md": "e53dc5f97e70a0cb1801732ea0a932f25bcb4075fc0f2da6daf0b0dfcbd9058e"
+    "diagnostics/temporal_frame_memory_v1/方案.md": "e53dc5f97e70a0cb1801732ea0a932f25bcb4075fc0f2da6daf0b0dfcbd9058e",
+    "diagnostics/streaming_benefit_chunk32_v1/candidate.py": "e3f0833c2243e23dfcf900eab11d898dbb7c10423bdfdf709923ca968e398a71",
+    "diagnostics/streaming_benefit_chunk32_v1/run_candidate.py": "a435c2d606670896233dda917feefc544d4bdf764ae54acfd24067c6bf490cf3",
+    "diagnostics/streaming_benefit_chunk32_v1/方案.md": "52e007da42cc7a32e3da5281976575ea5f933a2a90df321e227190db5484b5db",
+    "diagnostics/streaming_benefit_v1/benchmark.py": "878a13be775e4033490aa40809e8c0ffb9fddfb7fb5eee2df36bc243c07342c8",
+    "diagnostics/streaming_benefit_v1/cases.json": "d461ce3dbcfe7aee650f056b315444779c603b7f169c164f8722f9439d472edc",
+    "diagnostics/streaming_benefit_v1/run_benchmark.py": "3ce508d41cc7c6902c1737fa6a6c9ac01323d033776ddea52a76477e96af32ba",
+    "diagnostics/streaming_benefit_v1/方案.md": "bb0f26db8745b7b0a66fad8e5d6277cf08ed46c4c2dea0278916adffcf089821"
   }
 }

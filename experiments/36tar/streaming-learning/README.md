@@ -285,3 +285,25 @@ python diagnostics/temporal_frame_memory_v1/run_memory.py --stage gpu --arm orig
 `<...>`为须替换的路径占位符，不是可直接粘贴执行的字面值。其他个人分支在CPU和GPU命令一致增加`--allow-branch your-branch`，main/master/HEAD禁止。每臂240秒watchdog、RAM≥3GiB、显存空闲≥5.5GiB/转换≥2GiB、单模型顺序，预算与7记忆契约见各自方案。本段未重跑历史153完整CPU，活动源码仍同一；本次4epoch/21输入及7记忆契约/9输入通过。
 
 查询计时旧字段`query_seconds_including_input_checks`实际不包含之前的identity检查，完整耗时边界见复盘，不用它声称端到端速度。候选未集成默认页面；下一步优先通用输出预算、记忆覆盖/拒绝显示和完整查询成本，再固定条件跨新来源检验。
+
+## 流式执行收益的公平对照
+
+[本段完整计时/负收益复盘](流式执行收益对照复盘.md)。同增长前缀2/4/6/8/10/12帧、无reset、FP32/512总Token/96问题/32答案，原每次完整prefill与流式增量各看同一画面。默认64原→流→流→原四进程，预热后3正式轮；96配对生成同一，但流累计处理约慢20%–30%。实际视觉帧42→12、prefill约少65%，allocated峰值仅约少27MiB、reserved几乎同一，不能泛称完整视频更快或显存大幅节省。
+
+`diagnostics/streaming_benefit_v1`是默认64收益基准；`diagnostics/streaming_benefit_chunk32_v1`复用它，临时对称将原/流torch GDN块都改32，退出恢复，不改源文件/权重/单Token递归。对称32一对3轮/素材，原/流48配对与跨设置各48同一；累计近持平/流约慢2%–5%，流32比流64的处理时间中位约少18%–24%。有限12帧末次update+QA有小幅候选收益，不冒累计胜出/生产实时/所有输入性能拐点，默认仍64。
+
+沿用`datasets/general_stream_v1`犬/鸽原片和来源SHA。复现先将`streaming_benefit_v1/cases.json`的path改成自己的素材绝对路径，其余固定配置如改变须另登记；源已知与选题有关，不是预训练未见/独立榜单。每个out必须新目录、同参数、CPU后GPU、个人分支。`<...>`只是要替换的路径占位符：
+
+```powershell
+python diagnostics/streaming_benefit_v1/run_benchmark.py --stage preflight --arm both --model-dir <model> --out <new-cpu>
+python diagnostics/streaming_benefit_v1/run_benchmark.py --stage gpu --arm original --model-dir <model> --preflight <new-cpu> --out <new-original-a>
+python diagnostics/streaming_benefit_v1/run_benchmark.py --stage gpu --arm stream --model-dir <model> --preflight <new-cpu> --out <new-stream-a>
+# 前一进程退出后，再执行stream-b、original-b，使用两个新out。
+python diagnostics/streaming_benefit_chunk32_v1/run_candidate.py --stage preflight --arm both --model-dir <model> --out <new32-cpu>
+python diagnostics/streaming_benefit_chunk32_v1/run_candidate.py --stage gpu --arm original --model-dir <model> --preflight <new32-cpu> --out <new32-original>
+python diagnostics/streaming_benefit_chunk32_v1/run_candidate.py --stage gpu --arm stream --model-dir <model> --preflight <new32-cpu> --out <new32-stream>
+```
+
+其他个人分支可在CPU和GPU命令一致加`--allow-branch your-branch`，main/master/HEAD禁止。每GPU300秒/1载入/48答/最多1536生成，原RAM3GiB/GPU空闲5.5GiB/转换2GiB门禁，32最多4096块调用；必须自己的fresh CPUproof，不能借用归档绝对路径证明。本轮2契约/12增长输入、另12个32数值控制，6实际GPU/288生成观测、275Python语法审计通过；12独立画面前缀不是288独立能力样本，鸽2帧误人原样保留。
+
+处理计时包含预处理、视觉、语言、fork、生成与文本解码，排除oracle/主状态审计与权重载入/播放等待。另报一次实际解码+处理之和和含审计的序列wall；这是离线预录基准，不是摄像头延迟。视频已更新后的纯QA等待不得当update+QA总成本。阶段[收益验收快照](runs/streaming_benefit_delivery_20261012_02/benefit_gate.json)明确默认64/对称32累计加速均未通过；持续进度仅本机总纲。

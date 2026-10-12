@@ -1,0 +1,4 @@
+Initial delivery audit stopped before copying evidence or modifying published manifest.
+Assertion compared CPU streaming main_unchanged_bitwise=True with original GPU main_unchanged_bitwise=None.
+Original repeated-prefill arm has no persistent video main state, so this flag is not applicable; input fields must still match exactly.
+Only the auditor is corrected; streaming GPU main-state digest assertions remain mandatory. New audit uses delivery_02.

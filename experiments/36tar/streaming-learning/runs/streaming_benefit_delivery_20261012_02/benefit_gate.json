@@ -1,0 +1,13 @@
+{
+  "scope": "Frozen stage snapshot for this two-source growing-prefix benchmark; not ongoing project progress",
+  "default64_answer_parity_passed": true,
+  "default64_cumulative_speed_gain_passed": false,
+  "symmetric32_answer_parity_passed": true,
+  "symmetric32_cumulative_speed_gain_passed": false,
+  "less_repeated_visual_and_prefill_work_verified": true,
+  "allocated_peak_reduction_mib_about": 27,
+  "reserved_peak_meaningful_reduction_verified": false,
+  "candidate32_last_12_frame_point_signal_only": true,
+  "default_source_or_weights_changed": false,
+  "camera_long_video_generalization_claimed": false
+}
