@@ -1,0 +1,27 @@
+{
+  "video": "E:\\VIT Model\\datasets\\history_integration_v1\\controlled_six_frames.mkv",
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "question": "Name the main visible animal.",
+  "fps": 1,
+  "duration": 10.0,
+  "max_frames": 6,
+  "answer_tokens": 16,
+  "qa_every": 2,
+  "first_qa_frames": 2,
+  "playback": "fast",
+  "repeat_count": 1,
+  "repeat_period": null,
+  "consumer_delay_seconds": 0.0,
+  "max_tokens": 200,
+  "wall_seconds": 600,
+  "allow_branch": [],
+  "remember_history": true,
+  "memory_every_pairs": 1,
+  "history_time": [
+    0.5,
+    2.5,
+    1.5,
+    99.0
+  ],
+  "history_question": "Name the main visible animal."
+}

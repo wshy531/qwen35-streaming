@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\video_demo.py", line 368, in main
+    (preflight if args.stage == "preflight" else gpu)(args)
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\video_demo.py", line 257, in preflight
+    raise AssertionError("CPU interface controls failed")
+AssertionError: CPU interface controls failed

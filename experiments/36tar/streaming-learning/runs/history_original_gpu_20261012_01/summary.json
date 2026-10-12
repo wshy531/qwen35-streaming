@@ -1,0 +1,153 @@
+{
+  "cases": [
+    {
+      "frames": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "rgb_sha256": "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525"
+        },
+        {
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "rgb_sha256": "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "981e7c31d21ce5911032e145607352b1b86d70ca35611f2f88591e81d05d73a1",
+      "input_tokens": 74,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "tiny_fresh_prefill_bitwise_equal": true,
+      "generated_ids": [
+        760,
+        1822,
+        9155,
+        9572,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "answer": "The main visible animal is a dog.",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "same_current_ids": true,
+      "same_history_ids": [
+        true
+      ]
+    },
+    {
+      "frames": [
+        {
+          "frame_id": 2,
+          "timestamp": 2.0,
+          "rgb_sha256": "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188"
+        },
+        {
+          "frame_id": 3,
+          "timestamp": 3.0,
+          "rgb_sha256": "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "1102d08049eba10f2ee958b5e7aa52cf5a8a19fcb197af97768fb714e75e2920",
+      "input_tokens": 74,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "tiny_fresh_prefill_bitwise_equal": true,
+      "generated_ids": [
+        32,
+        5388,
+        13,
+        248046
+      ],
+      "answer": "A dog.",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "same_current_ids": true,
+      "same_history_ids": [
+        true
+      ]
+    },
+    {
+      "frames": [
+        {
+          "frame_id": 4,
+          "timestamp": 4.0,
+          "rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a"
+        },
+        {
+          "frame_id": 5,
+          "timestamp": 5.0,
+          "rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "0e1a74feb3dd67ef56e500cf6d4de3b3072135b8cd3c981ae175680ea604683e",
+      "input_tokens": 74,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "tiny_fresh_prefill_bitwise_equal": true,
+      "generated_ids": [
+        32,
+        7993,
+        13,
+        248046
+      ],
+      "answer": "A cat.",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "same_current_ids": true,
+      "same_history_ids": []
+    }
+  ],
+  "counts": {
+    "vision": 3,
+    "language": 20
+  },
+  "scope": "Three exact pair original controls; not general accuracy",
+  "peak_allocated_gib": 3.2292394638061523,
+  "peak_reserved_gib": 3.560546875,
+  "wall_seconds_including_load": 5.566576099998201
+}

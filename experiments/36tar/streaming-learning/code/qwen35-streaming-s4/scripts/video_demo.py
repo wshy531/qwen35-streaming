@@ -41,15 +41,21 @@ def request(args):
 
 def budget(args):
     pairs = math.ceil(args.max_frames / 2)
-    return {"model_loads":1,"frames_max":args.max_frames,"vision_forwards_max":pairs,
-            "questions_max":pairs,"language_forwards_max":pairs * (2 + args.answer_tokens + 1),
-            "generated_tokens_max":pairs * args.answer_tokens,"history_tokens_max":args.max_tokens-96-args.answer_tokens,
+    history_queries = len(getattr(args,"history_time",[]))
+    return {"model_loads":1,"frames_max":args.max_frames,"vision_forwards_max":pairs+history_queries,
+            "questions_max":pairs+history_queries,"language_forwards_max":pairs * (2 + args.answer_tokens + 1)+history_queries*(args.answer_tokens+4),
+            "generated_tokens_max":(pairs+history_queries) * args.answer_tokens,"history_tokens_max":args.max_tokens-96-args.answer_tokens,
             "wall_seconds":args.wall_seconds,"free_gpu_gib_min":5.5,"available_ram_gib_min":3,
             "precision":"fp32_ieee_math","resize":"letterbox","video_logits":"none","qa_logits":"last",
             "playback":getattr(args,"playback","fast"),"queue_capacity":1,
             "consumer_delay_seconds":getattr(args,"consumer_delay_seconds",0.),
             "repeat_count":getattr(args,"repeat_count",1),"repeat_period_seconds":getattr(args,"repeat_period",None),
-            "first_qa_frames":getattr(args,"first_qa_frames",4)}
+            "first_qa_frames":getattr(args,"first_qa_frames",4),
+            "external_history_enabled":getattr(args,"remember_history",False),
+            "external_history_queries_max":history_queries,
+            "external_history_rgb_max_bytes":884736 if getattr(args,"remember_history",False) else 0,
+            "external_history_max_pairs":3 if getattr(args,"remember_history",False) else 0,
+            "external_history_every_pairs":getattr(args,"memory_every_pairs",4)}
 
 
 @torch.inference_mode()
@@ -67,6 +73,8 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
         scope += f" · 人工消费者延迟{args.consumer_delay_seconds}秒（调度压力）"
     if getattr(args,"repeat_count",1) > 1:
         scope += f" · 明确循环{args.repeat_count}次 / 合成会话时间；不是自然长视频"
+    if getattr(args,"remember_history",False):
+        scope += " · 可选有限真实帧记忆 / 明确时间检索，非无限或语义记忆"
     viewer = Viewer(scope)
     session = OnlinePairSession(model,processor,max_tokens=args.max_tokens,max_question_tokens=96,
                                 max_answer_tokens=args.answer_tokens,resize_mode="letterbox",video_logits="none")
@@ -133,8 +141,14 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
                                  "encoded_frames":s["encoded_real_frames"],"seen_tokens":s["session"]["seen_tokens"]})
                 print(json.dumps({"event":event["kind"],"timestamp":s["last_received_pts"],"memory_from":s["memory_from_pts"],
                                   "answer":event.get("answer",{}).get("answer")},ensure_ascii=False),flush=True)
-        demo = PairDemo(session,args.question,args.answer_tokens,sink,audit=True,
-                        first_qa_frames=args.first_qa_frames,qa_every_frames=args.qa_every)
+        demo_type = PairDemo
+        memory_options = {}
+        if getattr(args,"remember_history",False):
+            from streaming.remembering import RememberingPairDemo
+            demo_type = RememberingPairDemo
+            memory_options["memory_every_pairs"] = args.memory_every_pairs
+        demo = demo_type(session,args.question,args.answer_tokens,sink,audit=True,
+                         first_qa_frames=args.first_qa_frames,qa_every_frames=args.qa_every,**memory_options)
         try:
             if args.ui_port >= 0:
                 print("VIEWER "+viewer.start(args.ui_port),flush=True)
@@ -183,6 +197,11 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
             demo.finish(reason)
             if demo.received == 0:
                 raise ValueError("No video frames delivered in the requested duration")
+            historical_answers = []
+            for target in getattr(args,"history_time",[]):
+                if time.monotonic()-begin >= args.wall_seconds:
+                    raise TimeoutError("Registered history query wall budget exceeded")
+                historical_answers.append(demo.ask_at(target,args.history_question,args.answer_tokens))
             source_fingerprint = playback.digest.snapshot() if playback is not None else fingerprint.snapshot()
             if expected_source is not None and source_fingerprint != expected_source:
                 raise AssertionError("Complete CPU/GPU selected source fingerprints differ")
@@ -199,6 +218,10 @@ def replay(model, processor, args, expected_schedule=None, expected_source=None,
                       "repeat_count":getattr(args,"repeat_count",1),
                       "repeat_period_seconds":getattr(args,"repeat_period",None),
                       "playback":None if playback is None else playback.status()}
+            report.update(external_history_enabled=getattr(args,"remember_history",False),
+                          historical_answers=historical_answers,
+                          history_query_schedule="after source finish; explicit requested session timestamps",
+                          main_history_across_reset=False)
             if model.device.type == "cuda":
                 report.update(peak_allocated_gib=torch.cuda.max_memory_allocated()/2**30,
                               peak_reserved_gib=torch.cuda.max_memory_reserved()/2**30)
@@ -222,8 +245,11 @@ def preflight(args):
     from tests.test_video_demo import VideoDemoTests
     from tests.test_playback import PlaybackTests
     from tests.test_repeat_source import RepeatSourceTests
+    from tests.test_frame_memory import FrameMemoryTests,RememberingTests
+    from tests.test_history_demo import HistoryDemoTests
+    RememberingTests.model_dir = args.model_dir
     with (args.out/"unittest.log").open("w",encoding="utf-8") as stream:
-        suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(c) for c in (VideoDemoTests,PlaybackTests,RepeatSourceTests)])
+        suite = unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromTestCase(c) for c in (VideoDemoTests,PlaybackTests,RepeatSourceTests,FrameMemoryTests,RememberingTests,HistoryDemoTests)])
         result = unittest.TextTestRunner(stream=stream,verbosity=2).run(suite)
     write_json(args.out/"cpu_tests.json",{"tests":result.testsRun,"passed":result.wasSuccessful(),
                                         "errors":len(result.errors),"failures":len(result.failures)})
@@ -309,7 +335,15 @@ def main(argv=None):
     parser.add_argument("--ui-port",type=int,default=-1,help="-1 disables live view, 0 uses a free loopback port")
     parser.add_argument("--out",type=Path,required=True)
     parser.add_argument("--preflight",type=Path)
+    parser.add_argument("--remember-history",action="store_true",help="Optional bounded CPU real-frame bank; main reset still forgets")
+    parser.add_argument("--memory-every-pairs",type=int,default=4,help="Store every Nth completed real pair, max 3 pairs / 864KiB persistent RGB")
+    parser.add_argument("--history-time",type=float,action="append",default=[],help="Explicit session timestamp queried after file finish; at most 8")
+    parser.add_argument("--history-question",default="Describe the visible subject and action in these retained historical frames.")
     args = parser.parse_args(argv)
+    if (not 1 <= args.memory_every_pairs <= 64 or len(args.history_time) > 8 or
+        any(not math.isfinite(t) or t < 0 for t in args.history_time) or
+        (args.history_time and not args.remember_history)):
+        parser.error("History queries require --remember-history, <=8 finite nonnegative times, sampling interval 1..64")
     if (not math.isfinite(args.fps) or not 0 < args.fps <= 10 or not math.isfinite(args.duration) or
         not 0 < args.duration <= 600 or not 1 <= args.max_frames <= 600 or not 1 <= args.answer_tokens <= 48 or
         not 1 <= args.qa_every <= 600 or not 1 <= args.first_qa_frames <= 600 or
