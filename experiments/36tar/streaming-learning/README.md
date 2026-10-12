@@ -333,3 +333,11 @@ python diagnostics/streaming_benefit_chunk32_v1/run_candidate.py --stage gpu --a
 5存储契约及2串行微型CPU会话取回/主状态隔离/查询后续接通过，默认核心与既有171CPU源SHA不变，本段没有重跑旧171或真实GPU/语义评分。字节不足时锚点可丢，仍保护最新画面；不宣称无限历史。已有鸽误答与性能负收益继续保留。
 
 先将`general_stream_v1/cases.json`素材路径设为自己的绝对路径并核SHA，然后`python diagnostics/memory_retention_v1/experiment.py --model-dir <本地模型目录> --out <新目录>`。模型目录只读处理器、微型随机模型，无真实权重载入；输出是标量/哈希/覆盖，无像素或Tensor。该命令不修改默认策略。
+
+## StreamForest启发的独立CPU事件合并
+
+[本段通俗复盘与边界](StreamForest事件合并原型通俗复盘.md)。`diagnostics/event_forest_v1`只接收合成事件特征，按相似度/累加次数/时间挑相邻片段作ToMe式合并；每次写入限额、只留压缩根、保跨层质量权重，不保存全部子Tensor。固定官方manager与Apache许可原样随附，来源/SHA清单包括本机参考快照5文件，其中仓库只附manager和许可。
+
+最终02的8CPU契约、3单层数值控制、4权重×24事件、512压力与同64Token/4352B FIFO4及首锚点+近期3对照通过；相反向量抵消反例证明不是信息无损。根区间仅为压缩来源，不能当精确帧证据或真实QA能力，4.25KiB只算根特征+质量，不是整个进程内存。默认核心未改、没有近期窗口/事件识别/真实视觉位置适配或权重加载，本段GPU0。
+
+在torch环境执行`python diagnostics/event_forest_v1/experiment.py --out <不存在的新目录>`，无需模型或视频；仅写标量/元数据/代码SHA/短trace。旧CPU01对应补对照前源码，最终02绑定当前源码；两轮证据独立保存，不改旧结果。

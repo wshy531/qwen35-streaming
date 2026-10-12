@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "cpu_tests": 8,
+  "single_level_tome_controls": 3,
+  "stress_events": 512,
+  "same_feature_budget_controls": 2,
+  "root_tokens_max": 64,
+  "root_tensor_bytes_max": 4352,
+  "gpu_loads": 0,
+  "real_model_loads": 0,
+  "core_unchanged": true,
+  "core_files_verified": 80,
+  "default_unchanged": true,
+  "loss_counterexample_reported": true,
+  "semantic_accuracy_evaluated": false,
+  "official_source_unmodified": true,
+  "capsule_bytes_before_receipt": 20704717,
+  "copied_text_evidence": [
+    "runs/event_forest_cpu_20261013_01/summary.json",
+    "runs/event_forest_cpu_20261013_01/trace.jsonl",
+    "runs/event_forest_cpu_20261013_01/unittest.log",
+    "runs/event_forest_cpu_20261013_02/summary.json",
+    "runs/event_forest_cpu_20261013_02/trace.jsonl",
+    "runs/event_forest_cpu_20261013_02/unittest.log"
+  ],
+  "media_or_tensor_copied": false
+}
