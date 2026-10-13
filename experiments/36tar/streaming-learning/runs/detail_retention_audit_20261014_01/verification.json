@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "source_hashes": 119,
+  "cpu_tests": 1,
+  "real_counts": {
+    "vision": 16,
+    "language": 338
+  },
+  "questions": 82,
+  "generated_tokens": 232,
+  "same_source_and_features_as_gpu89": true,
+  "same_input_layout": true,
+  "candidate_predefined_trigger_verified": true,
+  "same_token_mass_span_and_recent_control_verified": true,
+  "conservative_feature_bytes": 12150784,
+  "default_core_unchanged": true,
+  "gpu_summary_sha256": "e14dc324bcf750c053f7b60808c275400836b62399a991a446d6d28dd1cef935",
+  "cpu_proof_sha256": "5d704ce7fd2518d14ba4710d94ced0259f30a7eec986ab5cc6a9dda083fceafe"
+}

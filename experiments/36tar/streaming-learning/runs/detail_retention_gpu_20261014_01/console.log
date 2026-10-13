@@ -1,0 +1,84 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 10651.61it/s]
+{"case": "dog", "condition": "early_raw", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "auto_all", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "selected_early_root", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "recent_only", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "n2_raw", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "n2_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "n4_raw", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "n4_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "n6_raw", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "n6_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "n7_raw", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "n7_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "early_raw", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "auto_all", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "selected_early_root", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "recent_only", "topic": "surface", "answer": "pavement"}
+{"case": "dog", "condition": "n2_raw", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "n2_merged", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "n4_raw", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "n4_merged", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "n6_raw", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "n6_merged", "topic": "surface", "answer": "pavement"}
+{"case": "dog", "condition": "n7_raw", "topic": "surface", "answer": "grass"}
+{"case": "dog", "condition": "n7_merged", "topic": "surface", "answer": "pavement"}
+{"case": "dog", "condition": "early_raw", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "auto_all", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "selected_early_root", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "recent_only", "topic": "people", "answer": "no"}
+{"case": "dog", "condition": "n2_raw", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "n2_merged", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "n4_raw", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "n4_merged", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "n6_raw", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "n6_merged", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "n7_raw", "topic": "people", "answer": "yes"}
+{"case": "dog", "condition": "n7_merged", "topic": "people", "answer": "no"}
+{"case": "dog", "condition": "coarse_raw", "topic": "coarse", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "dog", "condition": "coarse_merged", "topic": "coarse", "answer": "A dog"}
+{"case": "cat", "condition": "early_raw", "topic": "coat", "answer": "dark-colored"}
+{"case": "cat", "condition": "auto_all", "topic": "coat", "answer": "light-colored"}
+{"case": "cat", "condition": "selected_early_root", "topic": "coat", "answer": "light-colored"}
+{"case": "cat", "condition": "recent_only", "topic": "coat", "answer": "light-colored"}
+{"case": "cat", "condition": "n2_raw", "topic": "coat", "answer": "dark-colored"}
+{"case": "cat", "condition": "n2_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "cat", "condition": "n4_raw", "topic": "coat", "answer": "dark-colored"}
+{"case": "cat", "condition": "n4_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "cat", "condition": "n6_raw", "topic": "coat", "answer": "dark-colored"}
+{"case": "cat", "condition": "n6_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "cat", "condition": "n7_raw", "topic": "coat", "answer": "dark-colored"}
+{"case": "cat", "condition": "n7_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "cat", "condition": "early_raw", "topic": "surface", "answer": "grass"}
+{"case": "cat", "condition": "auto_all", "topic": "surface", "answer": "grass"}
+{"case": "cat", "condition": "selected_early_root", "topic": "surface", "answer": "grass"}
+{"case": "cat", "condition": "recent_only", "topic": "surface", "answer": "pavement"}
+{"case": "cat", "condition": "n2_raw", "topic": "surface", "answer": "grass"}
+{"case": "cat", "condition": "n2_merged", "topic": "surface", "answer": "grass"}
+{"case": "cat", "condition": "n4_raw", "topic": "surface", "answer": "grass"}
+{"case": "cat", "condition": "n4_merged", "topic": "surface", "answer": "pavement"}
+{"case": "cat", "condition": "n6_raw", "topic": "surface", "answer": "grass"}
+{"case": "cat", "condition": "n6_merged", "topic": "surface", "answer": "pavement"}
+{"case": "cat", "condition": "n7_raw", "topic": "surface", "answer": "grass"}
+{"case": "cat", "condition": "n7_merged", "topic": "surface", "answer": "pavement"}
+{"case": "cat", "condition": "early_raw", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "auto_all", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "selected_early_root", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "recent_only", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "n2_raw", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "n2_merged", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "n4_raw", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "n4_merged", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "n6_raw", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "n6_merged", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "n7_raw", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "n7_merged", "topic": "people", "answer": "no"}
+{"case": "cat", "condition": "coarse_raw", "topic": "coarse", "answer": "A cat is visible at the beginning of the video."}
+{"case": "cat", "condition": "coarse_merged", "topic": "coarse", "answer": "A cat"}
+{"case": "dog", "condition": "balanced", "topic": "coat", "answer": "light-colored"}
+{"case": "dog", "condition": "balanced", "topic": "surface", "answer": "pavement"}
+{"case": "dog", "condition": "balanced", "topic": "people", "answer": "yes"}
+{"case": "cat", "condition": "balanced", "topic": "coat", "answer": "light-colored"}
+{"case": "cat", "condition": "balanced", "topic": "surface", "answer": "pavement"}
+{"case": "cat", "condition": "balanced", "topic": "people", "answer": "no"}

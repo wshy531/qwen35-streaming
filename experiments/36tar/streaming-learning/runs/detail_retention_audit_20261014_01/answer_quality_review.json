@@ -1,0 +1,1120 @@
+{
+  "all_original_answers_reviewed": true,
+  "rows": [
+    {
+      "case": "dog",
+      "condition": "early_raw",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "auto_all",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "selected_early_root",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "recent_only",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": true
+    },
+    {
+      "case": "dog",
+      "condition": "n2_raw",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n2_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_raw",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_raw",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_raw",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "early_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "auto_all",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "selected_early_root",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "recent_only",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "grass",
+      "correct": false,
+      "no_retained_early_evidence": true
+    },
+    {
+      "case": "dog",
+      "condition": "n2_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n2_merged",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_merged",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_merged",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "grass",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "grass",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_merged",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "grass",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "early_raw",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "auto_all",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "selected_early_root",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "recent_only",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "yes",
+      "correct": false,
+      "no_retained_early_evidence": true
+    },
+    {
+      "case": "dog",
+      "condition": "n2_raw",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n2_merged",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_raw",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_merged",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_raw",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_merged",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_raw",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_merged",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "yes",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "coarse_raw",
+      "topic": "coarse",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "manual_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "coarse_merged",
+      "topic": "coarse",
+      "raw_answer": "A dog",
+      "manual_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "early_raw",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "auto_all",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "selected_early_root",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "recent_only",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "no_retained_early_evidence": true
+    },
+    {
+      "case": "cat",
+      "condition": "n2_raw",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n2_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_raw",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_raw",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_raw",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "early_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "pavement",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "auto_all",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "pavement",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "selected_early_root",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "pavement",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "recent_only",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "pavement",
+      "correct": true,
+      "no_retained_early_evidence": true
+    },
+    {
+      "case": "cat",
+      "condition": "n2_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "pavement",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n2_merged",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "pavement",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "pavement",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_merged",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "pavement",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "pavement",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_merged",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "pavement",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_raw",
+      "topic": "surface",
+      "raw_answer": "grass",
+      "manual_interpretation": "grass",
+      "expected": "pavement",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_merged",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "pavement",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "early_raw",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "auto_all",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "selected_early_root",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "recent_only",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": true
+    },
+    {
+      "case": "cat",
+      "condition": "n2_raw",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n2_merged",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_raw",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_merged",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_raw",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_merged",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_raw",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_merged",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "coarse_raw",
+      "topic": "coarse",
+      "raw_answer": "A cat is visible at the beginning of the video.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "coarse_merged",
+      "topic": "coarse",
+      "raw_answer": "A cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "balanced",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "balanced",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "grass",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "dog",
+      "condition": "balanced",
+      "topic": "people",
+      "raw_answer": "yes",
+      "manual_interpretation": "yes",
+      "expected": "yes",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "balanced",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "balanced",
+      "topic": "surface",
+      "raw_answer": "pavement",
+      "manual_interpretation": "pavement",
+      "expected": "pavement",
+      "correct": true,
+      "no_retained_early_evidence": false
+    },
+    {
+      "case": "cat",
+      "condition": "balanced",
+      "topic": "people",
+      "raw_answer": "no",
+      "manual_interpretation": "no",
+      "expected": "no",
+      "correct": true,
+      "no_retained_early_evidence": false
+    }
+  ],
+  "metrics": {
+    "auto_all": {
+      "correct": 4,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "balanced": {
+      "correct": 4,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "coarse_merged": {
+      "correct": 2,
+      "questions": 2,
+      "strict_pair_correct": true
+    },
+    "coarse_raw": {
+      "correct": 2,
+      "questions": 2,
+      "strict_pair_correct": true
+    },
+    "early_raw": {
+      "correct": 5,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "n2_merged": {
+      "correct": 4,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "n2_raw": {
+      "correct": 5,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "n4_merged": {
+      "correct": 5,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "n4_raw": {
+      "correct": 5,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "n6_merged": {
+      "correct": 4,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "n6_raw": {
+      "correct": 5,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "n7_merged": {
+      "correct": 3,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "n7_raw": {
+      "correct": 5,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "recent_only": {
+      "correct": 3,
+      "questions": 6,
+      "strict_pair_correct": false
+    },
+    "selected_early_root": {
+      "correct": 4,
+      "questions": 6,
+      "strict_pair_correct": false
+    }
+  },
+  "ladder": [
+    {
+      "source_pairs": 2,
+      "old_root_tokens": 48,
+      "topics": {
+        "coat": {
+          "raw": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "merged": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "baseline_pair_answerable": true
+        },
+        "surface": {
+          "raw": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "merged": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "baseline_pair_answerable": false
+        },
+        "people": {
+          "raw": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "merged": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "baseline_pair_answerable": true
+        }
+      }
+    },
+    {
+      "source_pairs": 4,
+      "old_root_tokens": 48,
+      "topics": {
+        "coat": {
+          "raw": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "merged": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "baseline_pair_answerable": true
+        },
+        "surface": {
+          "raw": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "merged": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "baseline_pair_answerable": false
+        },
+        "people": {
+          "raw": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "merged": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "baseline_pair_answerable": true
+        }
+      }
+    },
+    {
+      "source_pairs": 6,
+      "old_root_tokens": 48,
+      "topics": {
+        "coat": {
+          "raw": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "merged": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "baseline_pair_answerable": true
+        },
+        "surface": {
+          "raw": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "merged": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "baseline_pair_answerable": false
+        },
+        "people": {
+          "raw": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "merged": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "baseline_pair_answerable": true
+        }
+      }
+    },
+    {
+      "source_pairs": 7,
+      "old_root_tokens": 48,
+      "topics": {
+        "coat": {
+          "raw": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "merged": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "baseline_pair_answerable": true
+        },
+        "surface": {
+          "raw": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "merged": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "baseline_pair_answerable": false
+        },
+        "people": {
+          "raw": {
+            "correct": 2,
+            "questions": 2,
+            "strict_pair_correct": true
+          },
+          "merged": {
+            "correct": 1,
+            "questions": 2,
+            "strict_pair_correct": false
+          },
+          "baseline_pair_answerable": true
+        }
+      }
+    }
+  ],
+  "candidate_trigger": [
+    {
+      "topic": "coat",
+      "pairs": 2
+    },
+    {
+      "topic": "coat",
+      "pairs": 4
+    },
+    {
+      "topic": "coat",
+      "pairs": 6
+    },
+    {
+      "topic": "coat",
+      "pairs": 7
+    },
+    {
+      "topic": "people",
+      "pairs": 7
+    }
+  ],
+  "candidate_real_gpu_executed": true,
+  "observations": [
+    "Cat dark coat read correctly uncompressed but light after first96-to48 merge.",
+    "Dog people-behind retained in raw, lost at7-pair left fold, recovered by balanced schedule.",
+    "Cat pavement misread grass in all raw baseline windows; not a clean compression-loss control.",
+    "Final coarse dog/cat identities remain correct in both raw and deeply merged paths."
+  ],
+  "limits": [
+    "One repeated known pair; binary answers can be guessed and properties correlate with species.",
+    "Balanced recovered one binary fact on one case; coat and dog surface failures remain.",
+    "Tree schedule changes merged features and survivor positions together; not pure tree-depth causality.",
+    "Balanced evaluated at deepest7-pair scope, not repairs claimed for every triggered shallow level.",
+    "No training, default upgrade, general accuracy or lossless memory claim."
+  ]
+}
