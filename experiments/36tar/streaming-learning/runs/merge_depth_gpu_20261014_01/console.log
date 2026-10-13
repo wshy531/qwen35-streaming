@@ -1,0 +1,48 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 18352.00it/s]
+{"case": "dog", "condition": "single_0", "answer": "A dog"}
+{"case": "dog", "condition": "single_1", "answer": "A dog."}
+{"case": "dog", "condition": "full_native", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "dog", "condition": "auto_native", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "dog", "condition": "auto_packed", "answer": "A dog"}
+{"case": "dog", "condition": "control_segments_native", "answer": "A dog is visible at the beginning of the video."}
+{"case": "dog", "condition": "recent_only", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "dog", "condition": "n2_raw_alone", "answer": "A dog"}
+{"case": "dog", "condition": "n2_merged_alone", "answer": "A dog"}
+{"case": "dog", "condition": "n2_raw_with_recent", "answer": "A dog"}
+{"case": "dog", "condition": "n2_merged_with_recent", "answer": "dog"}
+{"case": "dog", "condition": "n4_raw_alone", "answer": "dog"}
+{"case": "dog", "condition": "n4_merged_alone", "answer": "dog"}
+{"case": "dog", "condition": "n4_raw_with_recent", "answer": "dog"}
+{"case": "dog", "condition": "n4_merged_with_recent", "answer": "dog"}
+{"case": "dog", "condition": "n6_raw_alone", "answer": "dog"}
+{"case": "dog", "condition": "n6_merged_alone", "answer": "A dog"}
+{"case": "dog", "condition": "n6_raw_with_recent", "answer": "dog"}
+{"case": "dog", "condition": "n6_merged_with_recent", "answer": "A dog"}
+{"case": "dog", "condition": "n7_raw_alone", "answer": "dog"}
+{"case": "dog", "condition": "n7_merged_alone", "answer": "A dog"}
+{"case": "dog", "condition": "n7_raw_with_recent", "answer": "dog"}
+{"case": "dog", "condition": "n7_merged_with_recent", "answer": "A dog"}
+{"case": "cat", "condition": "single_0", "answer": "A cat"}
+{"case": "cat", "condition": "single_1", "answer": "A dog"}
+{"case": "cat", "condition": "full_native", "answer": "A cat is visible at the beginning of the video."}
+{"case": "cat", "condition": "auto_native", "answer": "A cat is visible at the beginning of the video."}
+{"case": "cat", "condition": "auto_packed", "answer": "A cat"}
+{"case": "cat", "condition": "control_segments_native", "answer": "A cat."}
+{"case": "cat", "condition": "recent_only", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "cat", "condition": "n2_raw_alone", "answer": "A cat"}
+{"case": "cat", "condition": "n2_merged_alone", "answer": "A cat"}
+{"case": "cat", "condition": "n2_raw_with_recent", "answer": "A cat"}
+{"case": "cat", "condition": "n2_merged_with_recent", "answer": "cat"}
+{"case": "cat", "condition": "n4_raw_alone", "answer": "cat"}
+{"case": "cat", "condition": "n4_merged_alone", "answer": "cat"}
+{"case": "cat", "condition": "n4_raw_with_recent", "answer": "A cat"}
+{"case": "cat", "condition": "n4_merged_with_recent", "answer": "cat"}
+{"case": "cat", "condition": "n6_raw_alone", "answer": "cat"}
+{"case": "cat", "condition": "n6_merged_alone", "answer": "cat"}
+{"case": "cat", "condition": "n6_raw_with_recent", "answer": "cat"}
+{"case": "cat", "condition": "n6_merged_with_recent", "answer": "A cat"}
+{"case": "cat", "condition": "n7_raw_alone", "answer": "cat"}
+{"case": "cat", "condition": "n7_merged_alone", "answer": "cat"}
+{"case": "cat", "condition": "n7_raw_with_recent", "answer": "cat"}
+{"case": "cat", "condition": "n7_merged_with_recent", "answer": "cat"}

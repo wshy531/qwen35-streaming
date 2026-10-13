@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "source_hashes": 114,
+  "cpu_tests": 2,
+  "real_counts": {
+    "vision": 16,
+    "language": 261
+  },
+  "model_questions": 46,
+  "generated_tokens": 191,
+  "source_features_equal_previous_gpu88": true,
+  "cpu_gpu_input_layout_equal": true,
+  "model_gate_and_watchdog_passed": true,
+  "conservative_feature_bytes": 12150784,
+  "candidate_gpu_not_triggered": true,
+  "candidate_cpu_covered": true,
+  "default_core_unchanged": true,
+  "gpu_summary_sha256": "992c634bcf1f933ec0010c2b380e7dbda99ae9593ef0763db30265aa5ed80e52",
+  "cpu_proof_sha256": "6be2efa220943aba37e807965c5aa6394af6752630f3d91581fb24e732124625"
+}
