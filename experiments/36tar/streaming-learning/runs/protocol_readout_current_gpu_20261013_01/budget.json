@@ -1,0 +1,36 @@
+{
+  "original": {
+    "model_loads": 1,
+    "questions_max": 8,
+    "vision_max": 8,
+    "language_max": 280,
+    "generated_max": 256,
+    "wall_seconds": 360,
+    "answer_tokens": 32,
+    "max_tokens": 512,
+    "ram_min_gib": 3,
+    "gpu_free_min_gib": 5.5,
+    "conversion_free_min_gib": 2,
+    "input_rgb_max_bytes": 8388608,
+    "comparison_cpu_max_bytes": 16777216,
+    "precision": "fp32_ieee_math",
+    "concurrent_models": 1
+  },
+  "current": {
+    "model_loads": 1,
+    "questions_max": 16,
+    "vision_max": 16,
+    "language_max": 560,
+    "generated_max": 512,
+    "wall_seconds": 360,
+    "answer_tokens": 32,
+    "max_tokens": 512,
+    "ram_min_gib": 3,
+    "gpu_free_min_gib": 5.5,
+    "conversion_free_min_gib": 2,
+    "input_rgb_max_bytes": 8388608,
+    "comparison_cpu_max_bytes": 16777216,
+    "precision": "fp32_ieee_math",
+    "concurrent_models": 1
+  }
+}

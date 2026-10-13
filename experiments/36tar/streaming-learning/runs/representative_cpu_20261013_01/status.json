@@ -1,0 +1,15 @@
+{
+  "status": "failed",
+  "stage": "preflight",
+  "phase": "bootstrap_import",
+  "error": "ModuleNotFoundError",
+  "message": "No module named memory",
+  "model_loads": 0,
+  "snapshot_captured_after_failure_before_any_source_change": true,
+  "source_hashes": {
+    "bank.py": "EDF0B510E9490A99C848EB51C5CF84D0275F4DC63195C0B8D9C528FE1306CD4F",
+    "probe.py": "8F2992D77387E1349CBA8A411A94D9179CE2156B052852612429FEFD80CF9FD9",
+    "run_probe.py": "24834CBC9BE8144CCA3C3108864027B8BF3A9412094B28B19B20F59F6221A28A",
+    "方案.md": "2FB48FA5C0DA8E41323B3B7EFFE1FC32F83DD6C2FA19B7DCCCD98389547F43C5"
+  }
+}

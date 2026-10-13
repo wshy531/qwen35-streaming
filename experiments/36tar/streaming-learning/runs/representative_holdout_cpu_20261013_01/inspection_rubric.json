@@ -1,0 +1,55 @@
+{
+  "created_before_gpu_at": "2026-10-13T21:17:56.892620+08:00",
+  "visible_animals_by_pair": {
+    "dog_prefix": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      []
+    ],
+    "dog_late": [
+      [
+        "dog"
+      ],
+      [
+        "dog"
+      ],
+      [
+        "dog"
+      ],
+      [
+        "dog"
+      ],
+      [
+        "dog"
+      ],
+      [],
+      [],
+      []
+    ],
+    "pigeon_middle": [
+      [
+        "bird"
+      ],
+      [
+        "bird"
+      ]
+    ]
+  },
+  "natural_qualitative_notes": {
+    "clean_prefix": "soap dispenser / handwashing with foam",
+    "hygiene_prefix": "instruction title cards then woman portrait; no demonstrated handwashing in these samples"
+  },
+  "fixed_samples_not_removed": true,
+  "labels_never_used_by_bank_or_model": true,
+  "clip_subject_field_is_not_frame_ground_truth": true,
+  "contact_sha256": {
+    "clean_prefix_contact.jpg": "fdd6fa9b112793efecc11ee6140caa83064ded85fc50a5d9a3ff475ef2ee2a9c",
+    "dog_late_contact.jpg": "b7e7237650f94c1f406b4854c3039cfe37c2a1239c1c60513c181426ca132db7",
+    "dog_prefix_contact.jpg": "5faf75e1036e8cb2f5b2241a50dc13d4d6c95dd78f8e2519a12c3f73a4dfffe7",
+    "hygiene_prefix_contact.jpg": "22b584fe292dd784ee1d55778e66c36988419dea6efc32b472ec0a99f7c68dcf",
+    "pigeon_middle_contact.jpg": "900ddf665e980d78d309115a95bbaee013fbb0abb0cce446076f97f7d1f70e08"
+  }
+}

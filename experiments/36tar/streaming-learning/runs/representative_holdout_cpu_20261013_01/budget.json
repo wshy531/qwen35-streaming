@@ -1,0 +1,17 @@
+{
+  "model_loads": 1,
+  "vision_max": 22,
+  "questions_max": 72,
+  "generated_max": 2304,
+  "language_max": 2448,
+  "answer_tokens": 32,
+  "main_max_tokens": 256,
+  "qa_max_tokens": 512,
+  "wall_seconds": 360,
+  "ram_min_gib": 3,
+  "gpu_free_min_gib": 5.5,
+  "conversion_free_min_gib": 2,
+  "input_rgb_max_bytes": 8388608,
+  "external_feature_controls_max_bytes": 8388608,
+  "main_cache_and_fingerprint_temporaries_accounted_separately": true
+}

@@ -1,0 +1,28 @@
+{
+  "source": "E:\\VIT Model\\datasets\\numeric_hand_hygiene_v1\\hand_hygiene.webm",
+  "records": [
+    {
+      "session_frame_id": 8,
+      "session_pts": 14.014,
+      "source_id": "hand_hygiene",
+      "source_frame_id": 336,
+      "source_pts": 14.014,
+      "source_sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9",
+      "source_rgb_sha256": "b192c9510d532e670c331d58e6cd0e1c255cf7d17574d9d32193fcba04f65569",
+      "canvas_rgb_sha256": "0e2af5d3cff85cdc395a7f9fec87b8ae66195735fe35b39296032258645ae8b4",
+      "session_time_is_source_time": true
+    },
+    {
+      "session_frame_id": 9,
+      "session_pts": 15.015,
+      "source_id": "hand_hygiene",
+      "source_frame_id": 360,
+      "source_pts": 15.015,
+      "source_sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9",
+      "source_rgb_sha256": "94572a4860b3d5c2cadb354bb5c0857275723c36ac9b155a25782e799de32ed4",
+      "canvas_rgb_sha256": "5988032a0c56f8bdfc1f3e4d44586389e49533a8a68cdd930f4c2ce79e002946",
+      "session_time_is_source_time": true
+    }
+  ],
+  "model_loads": 0
+}

@@ -1,0 +1,1686 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "id": "dog_pair_0",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "source_id": "dog",
+          "source_frame_id": 500,
+          "source_pts": 20.0,
+          "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+          "source_rgb_sha256": "2752b16ffe89521806e40ff1815056374e38c73df9774986aa60e95317365c29",
+          "canvas_rgb_sha256": "47ce2acfabb870b6602ab2b23eb51f35d51e6e45f8283c82e0d5c19c838af077",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 1,
+          "session_pts": 1.0,
+          "source_id": "dog",
+          "source_frame_id": 525,
+          "source_pts": 21.0,
+          "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+          "source_rgb_sha256": "abe332ad2d3aaa8554590524e2d3538071c1c310978f187f4026775dc4cd3cc0",
+          "canvas_rgb_sha256": "17dac4005c63169f995eaea8bca2b58f782b8b5d35509802c38ffe27d272bf2a",
+          "session_time_is_source_time": false
+        }
+      ],
+      "raw_frames": [
+        {
+          "source_frame_id": 500,
+          "source_pts": 20.0,
+          "raw_shape": [
+            1080,
+            1920,
+            3
+          ],
+          "raw_rgb_bytes": 6220800,
+          "raw_rgb_sha256": "323813eaed0cbc7d37da30a0816339660497a36764de8286fdfd7dd908fbad66",
+          "old_thumbnail_sha256": "2752b16ffe89521806e40ff1815056374e38c73df9774986aa60e95317365c29",
+          "old_canvas_sha256": "47ce2acfabb870b6602ab2b23eb51f35d51e6e45f8283c82e0d5c19c838af077"
+        },
+        {
+          "source_frame_id": 525,
+          "source_pts": 21.0,
+          "raw_shape": [
+            1080,
+            1920,
+            3
+          ],
+          "raw_rgb_bytes": 6220800,
+          "raw_rgb_sha256": "67b27a03324aafbcaeae46333a20dd917f00501b66ecdd284c39c8a03e1640e1",
+          "old_thumbnail_sha256": "abe332ad2d3aaa8554590524e2d3538071c1c310978f187f4026775dc4cd3cc0",
+          "old_canvas_sha256": "17dac4005c63169f995eaea8bca2b58f782b8b5d35509802c38ffe27d272bf2a"
+        }
+      ],
+      "layouts": {
+        "old_two_stage": {
+          "profile": "old_two_stage",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "35b0017422ba29595ea2c4d709edfa5f6d491cee6282ae0702d76f6c744ace52",
+          "pixel_sha256": "293fc1cd5dabe81554c2f4481231039121b4e09e012caf7596a928ddb92bc885",
+          "ids_sha256": "25f00dee7c937120f7e05a270a4750e434d990838f294886ab253572e73bdd95",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "47ce2acfabb870b6602ab2b23eb51f35d51e6e45f8283c82e0d5c19c838af077",
+            "17dac4005c63169f995eaea8bca2b58f782b8b5d35509802c38ffe27d272bf2a"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_small": {
+          "profile": "direct_small",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "bdaa2a63efdcbcae816f12760ad4f4f3ff48d94ae5084d7ebda66cdaee9f2e9b",
+          "pixel_sha256": "f9b39a463b2e2f6c0a91e2f130c78fdccd366a174e3ca628c7da9d15afbb5610",
+          "ids_sha256": "25f00dee7c937120f7e05a270a4750e434d990838f294886ab253572e73bdd95",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "e39281ad063bc6aca8e2464c5b33ca3023949a9a6c6b26cbcae7085ff0fc52e4",
+            "9e50019f2580da13adee40b35ad5cb46fcdf149ecf858de8f4d3f5bc68680979"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_large": {
+          "profile": "direct_large",
+          "canvas": [
+            384,
+            512
+          ],
+          "visual_tokens": 192,
+          "vision_patch_rows": 768,
+          "grid": [
+            [
+              1,
+              24,
+              32
+            ]
+          ],
+          "input_tokens": 221,
+          "input_fingerprint": "1df136d63f45b756fe9937d7ab37384caeb2de87a04ad678c008d42d28fbea6f",
+          "pixel_sha256": "adbcee9c8c989d44850baedd5737dd6285689080ebb051f5566e09bc108d1669",
+          "ids_sha256": "92aeed264042a773d2fcaae9dc6ad3b60a8bfe7648fda3da01f4edfa6e77c8fd",
+          "position_sha256": "c996235b4b9bd84c4e602bfdf2f14b2045d3a3d1427e792859a74937c9548d24",
+          "frame_rgb_sha256": [
+            "b6cbe1cb30036df2346ffb169ae0880a45be28d70c8c80444a896646f2d1b5ca",
+            "d5cfe77d850206665b45694ba666dba610413786eb1b0752e15fabb7f240ecef"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        }
+      },
+      "tiny_checks": {
+        "old_two_stage": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "b24f7349669fd8586af599999d3bd09c2520b4d51a1a1f7079f76d5442bdc23d",
+          "right_sha256": "b24f7349669fd8586af599999d3bd09c2520b4d51a1a1f7079f76d5442bdc23d"
+        },
+        "direct_small": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "a011056a5b97ae0611a519aa8d0f6a476c2a2529b451bcd74b1e04fca8902ace",
+          "right_sha256": "a011056a5b97ae0611a519aa8d0f6a476c2a2529b451bcd74b1e04fca8902ace"
+        },
+        "direct_large": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "b1f0169b0dc998972fdcc4bef817f4dcc24813a0069b0e59038487cc99ca63c5",
+          "right_sha256": "b1f0169b0dc998972fdcc4bef817f4dcc24813a0069b0e59038487cc99ca63c5"
+        }
+      },
+      "decode_seconds": 0.9917528999976639
+    },
+    {
+      "id": "pigeon_pair_0",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "source_id": "pigeon",
+          "source_frame_id": 240,
+          "source_pts": 8.008000000000001,
+          "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+          "source_rgb_sha256": "f55bfc3a0affca6e4574e8220474b0b025ed214accf9c63bd550a8157c69f103",
+          "canvas_rgb_sha256": "38ec7e74c99cbb088207fcc4a0eaf1a9eaf6c471da43a6bef640dfa86d5389d7",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 1,
+          "session_pts": 1.0,
+          "source_id": "pigeon",
+          "source_frame_id": 270,
+          "source_pts": 9.009,
+          "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+          "source_rgb_sha256": "ac311b5ad1075e681d7775dbd3bd41b3d87cd99d768ba6d61b8154e30fef2867",
+          "canvas_rgb_sha256": "f8c98e8ca083219d162d85a16e247f0bd872faae67ec4bc2e9ba572725a6e8ae",
+          "session_time_is_source_time": false
+        }
+      ],
+      "raw_frames": [
+        {
+          "source_frame_id": 240,
+          "source_pts": 8.008000000000001,
+          "raw_shape": [
+            1080,
+            1920,
+            3
+          ],
+          "raw_rgb_bytes": 6220800,
+          "raw_rgb_sha256": "a4dbf502209951e8230ce8965664c430947d86a2091717e92763946f258c9b25",
+          "old_thumbnail_sha256": "f55bfc3a0affca6e4574e8220474b0b025ed214accf9c63bd550a8157c69f103",
+          "old_canvas_sha256": "38ec7e74c99cbb088207fcc4a0eaf1a9eaf6c471da43a6bef640dfa86d5389d7"
+        },
+        {
+          "source_frame_id": 270,
+          "source_pts": 9.009,
+          "raw_shape": [
+            1080,
+            1920,
+            3
+          ],
+          "raw_rgb_bytes": 6220800,
+          "raw_rgb_sha256": "00f5cf5605ceb1bd1560c29c707f2b3ea5a8ad9b6e6c948e4cfe9a68a9cffeac",
+          "old_thumbnail_sha256": "ac311b5ad1075e681d7775dbd3bd41b3d87cd99d768ba6d61b8154e30fef2867",
+          "old_canvas_sha256": "f8c98e8ca083219d162d85a16e247f0bd872faae67ec4bc2e9ba572725a6e8ae"
+        }
+      ],
+      "layouts": {
+        "old_two_stage": {
+          "profile": "old_two_stage",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "89c3a7cbf7cc90b3e3686de6a7a088a165ae5e44afc85a81f1630d69ca067157",
+          "pixel_sha256": "738c4078590c29b731ddba3631ca195c370068699c32426af852b4570732f944",
+          "ids_sha256": "25f00dee7c937120f7e05a270a4750e434d990838f294886ab253572e73bdd95",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "38ec7e74c99cbb088207fcc4a0eaf1a9eaf6c471da43a6bef640dfa86d5389d7",
+            "f8c98e8ca083219d162d85a16e247f0bd872faae67ec4bc2e9ba572725a6e8ae"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_small": {
+          "profile": "direct_small",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "829a48fc2d89e4335b98215758c9e0dbef53a29cabfe13f5ae742b82c956b3f8",
+          "pixel_sha256": "02c0651f072da65dc19683f63ff1e2cbbabc7b48212b97aa96940e63c4fe77ff",
+          "ids_sha256": "25f00dee7c937120f7e05a270a4750e434d990838f294886ab253572e73bdd95",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "72f771cecc07979dd13dbeff74ea7486893f3926fa030603856a7dd731aee230",
+            "4a716f3d989048af80cd5e07d64d7fa3817ebef267f32f70bd74918d8664ddc2"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_large": {
+          "profile": "direct_large",
+          "canvas": [
+            384,
+            512
+          ],
+          "visual_tokens": 192,
+          "vision_patch_rows": 768,
+          "grid": [
+            [
+              1,
+              24,
+              32
+            ]
+          ],
+          "input_tokens": 221,
+          "input_fingerprint": "225e91421c0f4184fe1de435f86e9b41667ad0135602c70460d906355e4875c1",
+          "pixel_sha256": "7111e4891e51ddb057d4517966ee335d06de35ada3ffb9942cbbe38c47043ac4",
+          "ids_sha256": "92aeed264042a773d2fcaae9dc6ad3b60a8bfe7648fda3da01f4edfa6e77c8fd",
+          "position_sha256": "c996235b4b9bd84c4e602bfdf2f14b2045d3a3d1427e792859a74937c9548d24",
+          "frame_rgb_sha256": [
+            "e2bbe22f486937b82110142f1c88f0310e01441cb3d26b1d68b4c288b3a0d7dc",
+            "bb5893b74468703d041d3baf9768c9a6fa007ed33b1f9ab2c2335d1ae73b7627"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        }
+      },
+      "tiny_checks": {
+        "old_two_stage": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "781de0a2f8f37f0948c017d8f12f90117cbbd296b006ca9596f68f8a066e3afb",
+          "right_sha256": "781de0a2f8f37f0948c017d8f12f90117cbbd296b006ca9596f68f8a066e3afb"
+        },
+        "direct_small": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "ad792b1c3d0aa8721f31c0586301a71e33f08a3109e2a6ce1171d637a4cca7d2",
+          "right_sha256": "ad792b1c3d0aa8721f31c0586301a71e33f08a3109e2a6ce1171d637a4cca7d2"
+        },
+        "direct_large": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "a8e889c80cfe82688a37d913da3202877f6f95359aaccc6ce769ec3f116189b9",
+          "right_sha256": "a8e889c80cfe82688a37d913da3202877f6f95359aaccc6ce769ec3f116189b9"
+        }
+      },
+      "decode_seconds": 0.9123824000016612
+    },
+    {
+      "id": "pigeon_pair_1",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 2,
+          "session_pts": 2.0,
+          "source_id": "pigeon",
+          "source_frame_id": 300,
+          "source_pts": 10.01,
+          "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+          "source_rgb_sha256": "4ddbd3139e344191d9008b72089d5cc6d23af3676abcc900bdaf8a80e7b78a7e",
+          "canvas_rgb_sha256": "57641cd6f44e3f96112a424fbb9d8b5b3eca002bd289936748c28efa68bb1868",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 3,
+          "session_pts": 3.0,
+          "source_id": "pigeon",
+          "source_frame_id": 330,
+          "source_pts": 11.011000000000001,
+          "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+          "source_rgb_sha256": "feffd3a305e8534e06d58cb0c161c4ae0b26244c562657a8b0a0d168bcb080dc",
+          "canvas_rgb_sha256": "4594b5a5da9590c7830bc2d9cb4cfaaeff5c37c2e9ac8b0ad2ee0c105d1db11e",
+          "session_time_is_source_time": false
+        }
+      ],
+      "raw_frames": [
+        {
+          "source_frame_id": 300,
+          "source_pts": 10.01,
+          "raw_shape": [
+            1080,
+            1920,
+            3
+          ],
+          "raw_rgb_bytes": 6220800,
+          "raw_rgb_sha256": "9598691ad640385801b194d094de009832e5a847954088c7e0009f58495ccd61",
+          "old_thumbnail_sha256": "4ddbd3139e344191d9008b72089d5cc6d23af3676abcc900bdaf8a80e7b78a7e",
+          "old_canvas_sha256": "57641cd6f44e3f96112a424fbb9d8b5b3eca002bd289936748c28efa68bb1868"
+        },
+        {
+          "source_frame_id": 330,
+          "source_pts": 11.011000000000001,
+          "raw_shape": [
+            1080,
+            1920,
+            3
+          ],
+          "raw_rgb_bytes": 6220800,
+          "raw_rgb_sha256": "e1408f15b4b8f9eb31e38b56ff266dea5ad35bfa4cf5f433bf9f7e0401d46d78",
+          "old_thumbnail_sha256": "feffd3a305e8534e06d58cb0c161c4ae0b26244c562657a8b0a0d168bcb080dc",
+          "old_canvas_sha256": "4594b5a5da9590c7830bc2d9cb4cfaaeff5c37c2e9ac8b0ad2ee0c105d1db11e"
+        }
+      ],
+      "layouts": {
+        "old_two_stage": {
+          "profile": "old_two_stage",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "841c298ad3cefe3da02799fb1ed5b25de73dda18c38e8d941b6c4dfbeecf9349",
+          "pixel_sha256": "98b519ec41fc2955983e2e4434f08bc4a121cc7af31d28e94892c491f7aab7ff",
+          "ids_sha256": "b1769634fd486ef2bcf9945f7a3e181e01902f040357f75cde67968a7f529d8e",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "57641cd6f44e3f96112a424fbb9d8b5b3eca002bd289936748c28efa68bb1868",
+            "4594b5a5da9590c7830bc2d9cb4cfaaeff5c37c2e9ac8b0ad2ee0c105d1db11e"
+          ],
+          "actual_pts": [
+            2.0,
+            3.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_small": {
+          "profile": "direct_small",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "acecf4c6fe7fc025d6292b2b8cb6591c274672af2008a243cefca5f5ed329284",
+          "pixel_sha256": "224a942f74637d0eb9a84d69a44b6477d1cdba7ccf432d00835e8792712d92a7",
+          "ids_sha256": "b1769634fd486ef2bcf9945f7a3e181e01902f040357f75cde67968a7f529d8e",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "bc3f5dcbcf4068ca0a0090a6051bb8d064ce206edc422eab521a4087e30e8c36",
+            "64cbcadf18f3b8d5dfbdd64317fa9324b89c197619c6ac60eea2b0011bb4add7"
+          ],
+          "actual_pts": [
+            2.0,
+            3.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_large": {
+          "profile": "direct_large",
+          "canvas": [
+            384,
+            512
+          ],
+          "visual_tokens": 192,
+          "vision_patch_rows": 768,
+          "grid": [
+            [
+              1,
+              24,
+              32
+            ]
+          ],
+          "input_tokens": 221,
+          "input_fingerprint": "e2f4195ba167c54efccce3b8fe35fd3bcbf877daf960cfe4d67c2a77f1da1f2a",
+          "pixel_sha256": "953f25e7df47216dcbc401582a1ab1837dfcfdc8291ec421a3c4fcd7cce6bcf4",
+          "ids_sha256": "92e63a697400d3453b5ce4ab61fd6edf5028865e820c5055e58cd63bc61eb8a1",
+          "position_sha256": "c996235b4b9bd84c4e602bfdf2f14b2045d3a3d1427e792859a74937c9548d24",
+          "frame_rgb_sha256": [
+            "ccf3afab95ce2383c7249eedf3fc78ab5f1cfe02bfd3f28037a9faeb6b87b6b3",
+            "937cb8407702c5ad913eed831da13a67939d0ec5aa29bef592a1d23a9673cbec"
+          ],
+          "actual_pts": [
+            2.0,
+            3.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        }
+      },
+      "tiny_checks": {
+        "old_two_stage": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "cab7e8bd9a0c282cd4d33406b36fe36b485e1bf9c9c86f4e72168ea900590626",
+          "right_sha256": "cab7e8bd9a0c282cd4d33406b36fe36b485e1bf9c9c86f4e72168ea900590626"
+        },
+        "direct_small": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "1b565a7e3842055b63e47fdb13c179285ab9b34b826c3cb416eecc77cea70509",
+          "right_sha256": "1b565a7e3842055b63e47fdb13c179285ab9b34b826c3cb416eecc77cea70509"
+        },
+        "direct_large": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "94edbf99f9388cc6b564ae24a7dcbbfcd4d13fb31df4fb374171927c1e1d48a6",
+          "right_sha256": "94edbf99f9388cc6b564ae24a7dcbbfcd4d13fb31df4fb374171927c1e1d48a6"
+        }
+      },
+      "decode_seconds": 1.1002913000011176
+    },
+    {
+      "id": "cat_pair_0",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "source_id": "cat",
+          "source_frame_id": 120,
+          "source_pts": 4.0,
+          "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+          "source_rgb_sha256": "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+          "canvas_rgb_sha256": "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 1,
+          "session_pts": 1.0,
+          "source_id": "cat",
+          "source_frame_id": 150,
+          "source_pts": 5.0,
+          "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+          "source_rgb_sha256": "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853",
+          "canvas_rgb_sha256": "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c",
+          "session_time_is_source_time": false
+        }
+      ],
+      "raw_frames": [
+        {
+          "source_frame_id": 120,
+          "source_pts": 4.0,
+          "raw_shape": [
+            1280,
+            720,
+            3
+          ],
+          "raw_rgb_bytes": 2764800,
+          "raw_rgb_sha256": "dcc4e1eea4408cc9ffd506c25420f5603e4d7622dda8cd34edfaf2f5559835ec",
+          "old_thumbnail_sha256": "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+          "old_canvas_sha256": "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91"
+        },
+        {
+          "source_frame_id": 150,
+          "source_pts": 5.0,
+          "raw_shape": [
+            1280,
+            720,
+            3
+          ],
+          "raw_rgb_bytes": 2764800,
+          "raw_rgb_sha256": "3fff144c867f892b5f1d763ddfb7b0b327d6749669afc10a20bf093c361a0261",
+          "old_thumbnail_sha256": "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853",
+          "old_canvas_sha256": "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c"
+        }
+      ],
+      "layouts": {
+        "old_two_stage": {
+          "profile": "old_two_stage",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "bf9a657ed1abeb492069b4982173c2f762ed396a51d7e82d46bac794fcf9eb56",
+          "pixel_sha256": "8de554c054135b54e18d535d579826deb3582af8cf9e7a8d33330e3e67c72c73",
+          "ids_sha256": "25f00dee7c937120f7e05a270a4750e434d990838f294886ab253572e73bdd95",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91",
+            "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_small": {
+          "profile": "direct_small",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "6381d125da24b95818cc5cea2f59e0c35cac857d9154a0ce4239675acc0f1d53",
+          "pixel_sha256": "c04010fd6c4435cc5a4eb5f08d0e52d53841365237f3194a3a3a9a208d5a4d06",
+          "ids_sha256": "25f00dee7c937120f7e05a270a4750e434d990838f294886ab253572e73bdd95",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "02c2391b7d505e7d8310b5dc23528978fb6cfca15db8b4d442167f24bad5d27e",
+            "194bc5857d967b03f61bf86a447eba7cc9032f273b9d843f6db04002bbf0cfd6"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_large": {
+          "profile": "direct_large",
+          "canvas": [
+            384,
+            512
+          ],
+          "visual_tokens": 192,
+          "vision_patch_rows": 768,
+          "grid": [
+            [
+              1,
+              24,
+              32
+            ]
+          ],
+          "input_tokens": 221,
+          "input_fingerprint": "a2a139355535cf17374f563303dd19219f6694aeb1edd2168654ac6fcc3ea5e2",
+          "pixel_sha256": "384658bcb71b3158a171105b9f83bb454a276c652cc663969c028578221db920",
+          "ids_sha256": "92aeed264042a773d2fcaae9dc6ad3b60a8bfe7648fda3da01f4edfa6e77c8fd",
+          "position_sha256": "c996235b4b9bd84c4e602bfdf2f14b2045d3a3d1427e792859a74937c9548d24",
+          "frame_rgb_sha256": [
+            "4bbb093fa176b3b4dd2876acd41244bbb48a4ec39992379bc917a5c318274b90",
+            "07cb2239dcf94eafd20d35039389189a88221d43a2951fade5c9f0d4d72efce6"
+          ],
+          "actual_pts": [
+            0.0,
+            1.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        }
+      },
+      "tiny_checks": {
+        "old_two_stage": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "55a031c649f37734e35e1e8f0359d90448aef1d770f483595df2672001993e4c",
+          "right_sha256": "55a031c649f37734e35e1e8f0359d90448aef1d770f483595df2672001993e4c"
+        },
+        "direct_small": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "6708bb12b16cfeb0593419aa49b1c406fee625f7df2e9cd559c243edc5accdf2",
+          "right_sha256": "6708bb12b16cfeb0593419aa49b1c406fee625f7df2e9cd559c243edc5accdf2"
+        },
+        "direct_large": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "6fda8bedd7cc9114890526b8f117f2d2ec0463e6c31a7f51181e07156e8fa39c",
+          "right_sha256": "6fda8bedd7cc9114890526b8f117f2d2ec0463e6c31a7f51181e07156e8fa39c"
+        }
+      },
+      "decode_seconds": 0.22512490000008256
+    },
+    {
+      "id": "cat_pair_1",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 2,
+          "session_pts": 2.0,
+          "source_id": "cat",
+          "source_frame_id": 180,
+          "source_pts": 6.0,
+          "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+          "source_rgb_sha256": "9b02285010ba71c6d9df318df0f056b7a04248ee52819ca43c7e0365f9dea9c2",
+          "canvas_rgb_sha256": "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 3,
+          "session_pts": 3.0,
+          "source_id": "cat",
+          "source_frame_id": 210,
+          "source_pts": 7.0,
+          "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+          "source_rgb_sha256": "63352334d328cac3903a4bd94929a2d809fa3d33920490f3d89782c62a161543",
+          "canvas_rgb_sha256": "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11",
+          "session_time_is_source_time": false
+        }
+      ],
+      "raw_frames": [
+        {
+          "source_frame_id": 180,
+          "source_pts": 6.0,
+          "raw_shape": [
+            1280,
+            720,
+            3
+          ],
+          "raw_rgb_bytes": 2764800,
+          "raw_rgb_sha256": "697fb3fbde1e51ccb7d0c077a54d3fcbf5ab70b963d0f24bc5a3a044d4aa24ed",
+          "old_thumbnail_sha256": "9b02285010ba71c6d9df318df0f056b7a04248ee52819ca43c7e0365f9dea9c2",
+          "old_canvas_sha256": "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57"
+        },
+        {
+          "source_frame_id": 210,
+          "source_pts": 7.0,
+          "raw_shape": [
+            1280,
+            720,
+            3
+          ],
+          "raw_rgb_bytes": 2764800,
+          "raw_rgb_sha256": "0f26ee5c6bc8d10ac11a34a6c3491da92757bd8194a0540301cf76cbf755e5bf",
+          "old_thumbnail_sha256": "63352334d328cac3903a4bd94929a2d809fa3d33920490f3d89782c62a161543",
+          "old_canvas_sha256": "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11"
+        }
+      ],
+      "layouts": {
+        "old_two_stage": {
+          "profile": "old_two_stage",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "e971c071c30c90aa09713757fd7aa27cbc61c9d171171b8f09b7568ffa06852e",
+          "pixel_sha256": "36fba15557e925476991f9e0c1fcba243f84110046cd5b12707dfbb56754fa87",
+          "ids_sha256": "b1769634fd486ef2bcf9945f7a3e181e01902f040357f75cde67968a7f529d8e",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57",
+            "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11"
+          ],
+          "actual_pts": [
+            2.0,
+            3.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_small": {
+          "profile": "direct_small",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 77,
+          "input_fingerprint": "b6e1a1caa3362c6ffd830a39cdaf0a0b1cbd521e56d824c7ec7930e856750611",
+          "pixel_sha256": "b6630ced8af486170f401022f39620210c5600dcc78a819480f5205c68fba818",
+          "ids_sha256": "b1769634fd486ef2bcf9945f7a3e181e01902f040357f75cde67968a7f529d8e",
+          "position_sha256": "437ecb8d80089456b4e850ddbf39b261eecc24488a2a41e6ab2c2873cf8b18e6",
+          "frame_rgb_sha256": [
+            "b5ba0b9e4c87203a846d80b6642a8c7e60b338f22129e4f05fe4601d89e399fc",
+            "b22c604930c1c0bc7fcf74ae6f2a4a0e37637b1003c5324b1ef7f50c2c29bc4a"
+          ],
+          "actual_pts": [
+            2.0,
+            3.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_large": {
+          "profile": "direct_large",
+          "canvas": [
+            384,
+            512
+          ],
+          "visual_tokens": 192,
+          "vision_patch_rows": 768,
+          "grid": [
+            [
+              1,
+              24,
+              32
+            ]
+          ],
+          "input_tokens": 221,
+          "input_fingerprint": "bc6c85a9d6c83604e6551556fe82a63795e127875492092aa575e24f06c90781",
+          "pixel_sha256": "8a45a4bc1e5a9168ffdb1e599047063904747c47c29b3320e943f0c726971e55",
+          "ids_sha256": "92e63a697400d3453b5ce4ab61fd6edf5028865e820c5055e58cd63bc61eb8a1",
+          "position_sha256": "c996235b4b9bd84c4e602bfdf2f14b2045d3a3d1427e792859a74937c9548d24",
+          "frame_rgb_sha256": [
+            "add62efce454e38c5cbc86f967e363fd8669ea3da0816c64315e3f034fdfda14",
+            "122799828519295234dfcaabb8d4f62d28dad639042cdf43218727564eb21bb9"
+          ],
+          "actual_pts": [
+            2.0,
+            3.0
+          ],
+          "metadata_carrier_not_source_fps": true
+        }
+      },
+      "tiny_checks": {
+        "old_two_stage": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "3433be7eda2e3ae3237378f486d8f12611c27ea58121632460d562a02e35318f",
+          "right_sha256": "3433be7eda2e3ae3237378f486d8f12611c27ea58121632460d562a02e35318f"
+        },
+        "direct_small": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "a60224b038d42d0341fcf47b61e67df7fdc31f8af41d112be0ac9d18f2324c67",
+          "right_sha256": "a60224b038d42d0341fcf47b61e67df7fdc31f8af41d112be0ac9d18f2324c67"
+        },
+        "direct_large": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "0027d73f4e156dcba7d0ccea0079265124d50bc11466bf780f7d36d735da386a",
+          "right_sha256": "0027d73f4e156dcba7d0ccea0079265124d50bc11466bf780f7d36d735da386a"
+        }
+      },
+      "decode_seconds": 0.28225170000223443
+    },
+    {
+      "id": "clean_hands_pair_0",
+      "question": "Briefly describe the visible action in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 0,
+          "session_pts": 6.006,
+          "source_id": "clean_hands",
+          "source_frame_id": 180,
+          "source_pts": 6.006,
+          "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+          "source_rgb_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+          "canvas_rgb_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+          "session_time_is_source_time": true
+        },
+        {
+          "session_frame_id": 1,
+          "session_pts": 7.007,
+          "source_id": "clean_hands",
+          "source_frame_id": 210,
+          "source_pts": 7.007,
+          "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+          "source_rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885",
+          "canvas_rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885",
+          "session_time_is_source_time": true
+        }
+      ],
+      "raw_frames": [
+        {
+          "source_frame_id": 180,
+          "source_pts": 6.006,
+          "raw_shape": [
+            360,
+            480,
+            3
+          ],
+          "raw_rgb_bytes": 518400,
+          "raw_rgb_sha256": "274e105b68ae3737f0894183b559ed33afe9c2b3c652ab92bab50f75bd9f4873",
+          "old_thumbnail_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+          "old_canvas_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15"
+        },
+        {
+          "source_frame_id": 210,
+          "source_pts": 7.007,
+          "raw_shape": [
+            360,
+            480,
+            3
+          ],
+          "raw_rgb_bytes": 518400,
+          "raw_rgb_sha256": "20b95c3055079fba13807be7f27f6702ceaeabf9a9e3696de701bc61e6e244b0",
+          "old_thumbnail_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885",
+          "old_canvas_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+        }
+      ],
+      "layouts": {
+        "old_two_stage": {
+          "profile": "old_two_stage",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 78,
+          "input_fingerprint": "b588cea971d95f00373f208cf60d1bb74e9c36f1c9a18910c3c80ea3c32d01dc",
+          "pixel_sha256": "5ad22b4b94b225e8c2d4a711eb129d3d9840a28a14c1511ff0328e1ab3bd2625",
+          "ids_sha256": "a378d5779b90ab125d2b6f88491287c4fc8c6bf60e584a3d4bd60968d2057191",
+          "position_sha256": "bd9c6ce7aa54edf720279580df1c75bf080b6927fe507306e90b64e7d7aa1f36",
+          "frame_rgb_sha256": [
+            "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+            "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+          ],
+          "actual_pts": [
+            6.006,
+            7.007
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_small": {
+          "profile": "direct_small",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 78,
+          "input_fingerprint": "b588cea971d95f00373f208cf60d1bb74e9c36f1c9a18910c3c80ea3c32d01dc",
+          "pixel_sha256": "5ad22b4b94b225e8c2d4a711eb129d3d9840a28a14c1511ff0328e1ab3bd2625",
+          "ids_sha256": "a378d5779b90ab125d2b6f88491287c4fc8c6bf60e584a3d4bd60968d2057191",
+          "position_sha256": "bd9c6ce7aa54edf720279580df1c75bf080b6927fe507306e90b64e7d7aa1f36",
+          "frame_rgb_sha256": [
+            "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+            "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+          ],
+          "actual_pts": [
+            6.006,
+            7.007
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_large": {
+          "profile": "direct_large",
+          "canvas": [
+            384,
+            512
+          ],
+          "visual_tokens": 192,
+          "vision_patch_rows": 768,
+          "grid": [
+            [
+              1,
+              24,
+              32
+            ]
+          ],
+          "input_tokens": 222,
+          "input_fingerprint": "175b615d4fff4f3992d01ca98b8b18bd764252232ade4c32660b0d1567d7d7b2",
+          "pixel_sha256": "acaba494feece4bd3622debaeb0431df35df920f9a0bef9edd223ef8ce12bc9d",
+          "ids_sha256": "446edbe5299791cab5a3e7db09ee2b6c31c4bcdd97ee8ab55edc06d85e7fc41c",
+          "position_sha256": "de8ffb831754306df7be2314d4a7d56c3eff8df5b41f2f9cb7a808ba515cb4a7",
+          "frame_rgb_sha256": [
+            "109bb892e32e82db0700714e5fc7f60d6bffa272c71d5ed34b3713f64b986afb",
+            "36a06ca9e00fc940858f3422939ddcf79b1528e1fe0dd9d8d30ce0855ff62a79"
+          ],
+          "actual_pts": [
+            6.006,
+            7.007
+          ],
+          "metadata_carrier_not_source_fps": true
+        }
+      },
+      "tiny_checks": {
+        "old_two_stage": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "5abbec9cb822bc8b1cd0644965e3561f0c4dd60462d7ec1b1ece863666877b12",
+          "right_sha256": "5abbec9cb822bc8b1cd0644965e3561f0c4dd60462d7ec1b1ece863666877b12"
+        },
+        "direct_small": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "5abbec9cb822bc8b1cd0644965e3561f0c4dd60462d7ec1b1ece863666877b12",
+          "right_sha256": "5abbec9cb822bc8b1cd0644965e3561f0c4dd60462d7ec1b1ece863666877b12"
+        },
+        "direct_large": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "933a33170f38c8a3126600b05a85406c761cccc0e8b6a387d07ef3851b53410f",
+          "right_sha256": "933a33170f38c8a3126600b05a85406c761cccc0e8b6a387d07ef3851b53410f"
+        }
+      },
+      "decode_seconds": 0.136757199998101
+    },
+    {
+      "id": "clean_hands_pair_5",
+      "question": "Briefly describe the visible action in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 10,
+          "session_pts": 16.016,
+          "source_id": "clean_hands",
+          "source_frame_id": 480,
+          "source_pts": 16.016,
+          "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+          "source_rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+          "canvas_rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+          "session_time_is_source_time": true
+        },
+        {
+          "session_frame_id": 11,
+          "session_pts": 17.017,
+          "source_id": "clean_hands",
+          "source_frame_id": 510,
+          "source_pts": 17.017,
+          "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+          "source_rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70",
+          "canvas_rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70",
+          "session_time_is_source_time": true
+        }
+      ],
+      "raw_frames": [
+        {
+          "source_frame_id": 480,
+          "source_pts": 16.016,
+          "raw_shape": [
+            360,
+            480,
+            3
+          ],
+          "raw_rgb_bytes": 518400,
+          "raw_rgb_sha256": "7f5628031779e4b025961eccb9a917c8f2fb4a1c98d32b8bc2245cd139a0d271",
+          "old_thumbnail_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+          "old_canvas_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "source_frame_id": 510,
+          "source_pts": 17.017,
+          "raw_shape": [
+            360,
+            480,
+            3
+          ],
+          "raw_rgb_bytes": 518400,
+          "raw_rgb_sha256": "d21db97b1dd4d041233f54b499dad15e8a2682a2d83433940b9ef196f4f31958",
+          "old_thumbnail_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70",
+          "old_canvas_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "layouts": {
+        "old_two_stage": {
+          "profile": "old_two_stage",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 79,
+          "input_fingerprint": "2b376a4aa6607e0fcd93d407ca5bc7eeba3387c02784ee8b7fda9cee2cf9012e",
+          "pixel_sha256": "51ff52b2409750894690e1e32f6ecdff0af23b49500afee9081de6f89dcbbd3f",
+          "ids_sha256": "5cb8472d7475994b46332fc3b7ee0e36340ba741452c65293eb1f813e77b90b3",
+          "position_sha256": "389fd0855deed3f07b9ef66985c1ad2995843cec1b1a6e1c09f3214754185a95",
+          "frame_rgb_sha256": [
+            "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+            "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+          ],
+          "actual_pts": [
+            16.016,
+            17.017
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_small": {
+          "profile": "direct_small",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 79,
+          "input_fingerprint": "2b376a4aa6607e0fcd93d407ca5bc7eeba3387c02784ee8b7fda9cee2cf9012e",
+          "pixel_sha256": "51ff52b2409750894690e1e32f6ecdff0af23b49500afee9081de6f89dcbbd3f",
+          "ids_sha256": "5cb8472d7475994b46332fc3b7ee0e36340ba741452c65293eb1f813e77b90b3",
+          "position_sha256": "389fd0855deed3f07b9ef66985c1ad2995843cec1b1a6e1c09f3214754185a95",
+          "frame_rgb_sha256": [
+            "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+            "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+          ],
+          "actual_pts": [
+            16.016,
+            17.017
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_large": {
+          "profile": "direct_large",
+          "canvas": [
+            384,
+            512
+          ],
+          "visual_tokens": 192,
+          "vision_patch_rows": 768,
+          "grid": [
+            [
+              1,
+              24,
+              32
+            ]
+          ],
+          "input_tokens": 223,
+          "input_fingerprint": "61ed713b75fd0dd3de98d159f8cbbd5b0ddeab1aab1dfb312b829b2d4e4e0449",
+          "pixel_sha256": "fff7a2bdf3495e26bf7fd556d9ca2bbb47d49c182e9ece24b08844fdfc9214bb",
+          "ids_sha256": "35807efc1c0008261b120354d45e7bdaaad2511441f835e37ace852b8c092287",
+          "position_sha256": "f662b7fa3ae347925a75f89f938f81d32058d050cea02f8b207396d08b753822",
+          "frame_rgb_sha256": [
+            "beef289e83346cd952fcb35f73a744a9f7adff0d38e5a7d06ae7163c6a54cf80",
+            "8bc1e7edfc50b76e2fbf5daffc9990827560fbb8d47f7efd67ab3c7973a40381"
+          ],
+          "actual_pts": [
+            16.016,
+            17.017
+          ],
+          "metadata_carrier_not_source_fps": true
+        }
+      },
+      "tiny_checks": {
+        "old_two_stage": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "8cd84bbdb8c0873bdd9b5fc7f8c4df1e2532acbd43f6ce168ffe610deef4bd8b",
+          "right_sha256": "8cd84bbdb8c0873bdd9b5fc7f8c4df1e2532acbd43f6ce168ffe610deef4bd8b"
+        },
+        "direct_small": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "8cd84bbdb8c0873bdd9b5fc7f8c4df1e2532acbd43f6ce168ffe610deef4bd8b",
+          "right_sha256": "8cd84bbdb8c0873bdd9b5fc7f8c4df1e2532acbd43f6ce168ffe610deef4bd8b"
+        },
+        "direct_large": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "69cc106a9824db4a15ced112863bc1713751a77305ab82b96adfc051b119a8ea",
+          "right_sha256": "69cc106a9824db4a15ced112863bc1713751a77305ab82b96adfc051b119a8ea"
+        }
+      },
+      "decode_seconds": 0.3006669000023976
+    },
+    {
+      "id": "hand_hygiene_pair_5",
+      "question": "Briefly describe the visible action in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 10,
+          "session_pts": 16.016,
+          "source_id": "hand_hygiene",
+          "source_frame_id": 384,
+          "source_pts": 16.016,
+          "source_sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9",
+          "source_rgb_sha256": "c62b2f7596c16ff4401e2c007312510120e422e39fe405ae1e7e3c20e454d65e",
+          "canvas_rgb_sha256": "661a76f80ad924160a9a7866ca853ced204c61e6ebc8aebfb5734432032936d6",
+          "session_time_is_source_time": true
+        },
+        {
+          "session_frame_id": 11,
+          "session_pts": 17.017,
+          "source_id": "hand_hygiene",
+          "source_frame_id": 408,
+          "source_pts": 17.017,
+          "source_sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9",
+          "source_rgb_sha256": "fc7551b1d3f14cede87dce097bfffc86906a93619d8e0046883e8013f2e18031",
+          "canvas_rgb_sha256": "2d1fb20bcdb7ea2f54aeb9779598277a2effc95c9a80ccddce693de6a867a71b",
+          "session_time_is_source_time": true
+        }
+      ],
+      "raw_frames": [
+        {
+          "source_frame_id": 384,
+          "source_pts": 16.016,
+          "raw_shape": [
+            360,
+            640,
+            3
+          ],
+          "raw_rgb_bytes": 691200,
+          "raw_rgb_sha256": "bcf4ef7064d0d24649d62a8d01ae7e99b3104734e5c5f2339475783f77e9b35c",
+          "old_thumbnail_sha256": "c62b2f7596c16ff4401e2c007312510120e422e39fe405ae1e7e3c20e454d65e",
+          "old_canvas_sha256": "661a76f80ad924160a9a7866ca853ced204c61e6ebc8aebfb5734432032936d6"
+        },
+        {
+          "source_frame_id": 408,
+          "source_pts": 17.017,
+          "raw_shape": [
+            360,
+            640,
+            3
+          ],
+          "raw_rgb_bytes": 691200,
+          "raw_rgb_sha256": "907ca147ba85c97b00e52c7739ebf5ea7a47495dc25a6e2b75e8103f0d0ac22e",
+          "old_thumbnail_sha256": "fc7551b1d3f14cede87dce097bfffc86906a93619d8e0046883e8013f2e18031",
+          "old_canvas_sha256": "2d1fb20bcdb7ea2f54aeb9779598277a2effc95c9a80ccddce693de6a867a71b"
+        }
+      ],
+      "layouts": {
+        "old_two_stage": {
+          "profile": "old_two_stage",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 79,
+          "input_fingerprint": "0c0e77b2dcbad1d8cc59e754dfcc06e2fcda52d62984010ece575e61df05a18a",
+          "pixel_sha256": "4255950cd72181155440eb9a3b2a5a67e3e4e940f487141f7a153a6a70911a4b",
+          "ids_sha256": "5cb8472d7475994b46332fc3b7ee0e36340ba741452c65293eb1f813e77b90b3",
+          "position_sha256": "389fd0855deed3f07b9ef66985c1ad2995843cec1b1a6e1c09f3214754185a95",
+          "frame_rgb_sha256": [
+            "661a76f80ad924160a9a7866ca853ced204c61e6ebc8aebfb5734432032936d6",
+            "2d1fb20bcdb7ea2f54aeb9779598277a2effc95c9a80ccddce693de6a867a71b"
+          ],
+          "actual_pts": [
+            16.016,
+            17.017
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_small": {
+          "profile": "direct_small",
+          "canvas": [
+            192,
+            256
+          ],
+          "visual_tokens": 48,
+          "vision_patch_rows": 192,
+          "grid": [
+            [
+              1,
+              12,
+              16
+            ]
+          ],
+          "input_tokens": 79,
+          "input_fingerprint": "0c0e77b2dcbad1d8cc59e754dfcc06e2fcda52d62984010ece575e61df05a18a",
+          "pixel_sha256": "4255950cd72181155440eb9a3b2a5a67e3e4e940f487141f7a153a6a70911a4b",
+          "ids_sha256": "5cb8472d7475994b46332fc3b7ee0e36340ba741452c65293eb1f813e77b90b3",
+          "position_sha256": "389fd0855deed3f07b9ef66985c1ad2995843cec1b1a6e1c09f3214754185a95",
+          "frame_rgb_sha256": [
+            "661a76f80ad924160a9a7866ca853ced204c61e6ebc8aebfb5734432032936d6",
+            "2d1fb20bcdb7ea2f54aeb9779598277a2effc95c9a80ccddce693de6a867a71b"
+          ],
+          "actual_pts": [
+            16.016,
+            17.017
+          ],
+          "metadata_carrier_not_source_fps": true
+        },
+        "direct_large": {
+          "profile": "direct_large",
+          "canvas": [
+            384,
+            512
+          ],
+          "visual_tokens": 192,
+          "vision_patch_rows": 768,
+          "grid": [
+            [
+              1,
+              24,
+              32
+            ]
+          ],
+          "input_tokens": 223,
+          "input_fingerprint": "5d63d5eeb1b7fa6ea425fec7c5ea8e71792d8563453a5484c57236ae304b26ef",
+          "pixel_sha256": "6142d6a7cff4d71dde3c4c0137aae419b8eafe245ed85ffa32cb43abd69d88bb",
+          "ids_sha256": "35807efc1c0008261b120354d45e7bdaaad2511441f835e37ace852b8c092287",
+          "position_sha256": "f662b7fa3ae347925a75f89f938f81d32058d050cea02f8b207396d08b753822",
+          "frame_rgb_sha256": [
+            "d009c89f4c0288922c2653166e1dd18379bb037a8943b35727cdaae7fbb5d451",
+            "2ed2d2afa8637b80e0934d60993f937ccd0d121e2a055af43a9a4b1dad239874"
+          ],
+          "actual_pts": [
+            16.016,
+            17.017
+          ],
+          "metadata_carrier_not_source_fps": true
+        }
+      },
+      "tiny_checks": {
+        "old_two_stage": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "eac5c3226ac56d18f6f12056f7c622b8e768bf2853f260e45676e2118bf2afbf",
+          "right_sha256": "eac5c3226ac56d18f6f12056f7c622b8e768bf2853f260e45676e2118bf2afbf"
+        },
+        "direct_small": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "eac5c3226ac56d18f6f12056f7c622b8e768bf2853f260e45676e2118bf2afbf",
+          "right_sha256": "eac5c3226ac56d18f6f12056f7c622b8e768bf2853f260e45676e2118bf2afbf"
+        },
+        "direct_large": {
+          "atol": 0.0001,
+          "rtol": 0.0001,
+          "allclose": true,
+          "bitwise_equal": true,
+          "max_abs": 0.0,
+          "left_sha256": "6ebcfc11dd02d3a46892b73b89de2f30c066ab6833b17d57d2f93c467340f8bb",
+          "right_sha256": "6ebcfc11dd02d3a46892b73b89de2f30c066ab6833b17d57d2f93c467340f8bb"
+        }
+      },
+      "decode_seconds": 0.10133940000014263
+    }
+  ],
+  "source_hashes": {
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\modeling_qwen3_5.py": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__init__.py": "86dfb66a6285dc8b962b9e4ede5fde54115da09f79f552083e9d53fa9fe45280",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\action_ablation.py": "c6d88d92fda2163fa88ddaf9d1828550b312e17fd4e1c47bebdb02f0c90a6f6f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\baseline.py": "6675b088761705a9f98c349fbdbf02e52344a595fa7f500b4274d0594cf019c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\capture_worker.py": "9b18ec6b211d6c097be9396c288b11b781e1168aa5873bd41e79d5db92588783",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_experiment.py": "b90d12682b6f07e995dd7611e34e0dc2f95047b88085bcb8a47a8ec685ea13fa",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_interleaved.py": "66ced70ccb9543a38fc76b1308a313bc305dbfa813e81cbbaec72559a11ff92d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_size_probe.py": "60a1d6522f2524dbc3a161609b595cfd315e04fe530e507fcacb48e94cbb036d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_weight_check.py": "8b59e8486930d669a9ffe0969856718904e317a2e3ad778b887d921a7a130150",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\equal_tail_control.py": "3efa096f560f0ab8cf34de400c5478c70ac2563fbf0aaa5ce2cc5f3f9b1c1b03",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\fair_video.py": "0ef56870d606b5a4609ba49d1a9486d89c2a30a1c0dd2f25ec3926941e63cd2f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\four_frame_online.py": "d7fdc2683150ffddf26a2d3d872897f304b0c3065106fc50f05cd028f110d29e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\fp32_regression.py": "9e51af60930ee768e03d9640a69d62bf988811f6f9ecc8c6fbcb63a2869fa800",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\live_demo.py": "156acd9282fe3cfcae73ef2f10c4db972134c4855e145b78d2c3870a67b858a2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\natural_experiment.py": "1798ee86298933b61b676e08f231743339ccedc35a10ad71e9b182cb6ca6a10d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\online_experiment.py": "73bb944e4b2f3ed4e4574d6ccba454be0e897d31ee08b9af55f4438e22d498dd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\original_first_control.py": "6330d36b79e6a617aee40060fc03e4943b61c8afe2f7b012571b47927a5bcb8e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\pair_demo.py": "e0f91a107dcd48914e6685695c603da1509ab8e71050e403ddf52488feea5c91",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_diagnostic_cpu.py": "88e24629aaf7f9e421b0a4017119053e24c16b114810bf124fbc22e2ed260499",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_fullmodel.py": "c0b1071e841d1e1c827b31bbb67c2626d05c1bd77fd96df960f31a157dbaa0c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_layers.py": "7565f280d28d170b51ff45696b390004642cddf9d106b64840c12bdeedae0d7b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_recurrence_cpu.py": "8ab627f4846f935d71d6ad86831777a0054eefd757c38043077958942f864694",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\prefix_first_control.py": "1c891a0a0f500707c61c1f27ecde374cba9ade45d17a39bda7c3640bae95404b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\protocol_capability_control.py": "0e3fa348e385224bde781c9f40fd409d3b28c9c3c1b64f315b6b97db92320f3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\qkv_replay.py": "1a9338dbcfd2423674b22e4493fa5cbc0e4041072227df55a4160accde184f77",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\sampling_stability.py": "20cc2e20cc13b9ab1909c2d4acf3d3a5f9e73c80d151c39f5abf3de6e074cc23",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\scene_pair_control.py": "b6ded03977ffeca4d3e1478d265411e7ca492fa9f2076b66c6f79b7fc8d56037",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\shared_features_control.py": "e15759d9d927b7384e9a09cd79a05a47a550a692d06519a4b65beb1e7e68c26e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\smoke_test.py": "d5cc3173daf4cd1fafb5cd881968b8de11cb4c98075dbdb171c49cf3c4624b3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\stability_experiment.py": "620e59416873b5f894dc4e15b9002fe9fb644a0f56f8c2e1321c18cac53a1afd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\stage_timing.py": "6b04038281fe56e6c661ec5f0456892b7a1c579e0ea7ed951584040c0ded2eaf",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\timeline_reference.py": "b97ef089a60f32155b79c27b6e13373d5ff3e65dcdc75efe7f62a17878a9b217",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\timestamp_diagnostic.py": "f0070d3d52a03e2d40499db69f96b205a19894d715422879d2b24f6a9807ec6f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\video_demo.py": "c2ac712da201a1624c843188002f4e454c8e6e0bc93b06e22ea571a011b0601e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_expand.py": "4d703213a1680da0bc746123a41b3595ad04ea77f4ac98294452658d8d44c561",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_control.py": "d5639c805f91002a8c533ad9962da9a3011aacc5721e5fd0fb37fd83ca396a4f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_online.py": "99a212591ab8c19e18498368b8561a4ad5c7c52befb880729c5f5c0bacda9474",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_units.py": "367dfad3699e064fd844d68304191067b447f8a66063879ce56208dcf842d205",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_trace.py": "e5ce68b266a2de0806293f68d29a7ff0d822f5ea7eaeaf83411ebbbb6a82478e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\window_experiment.py": "589e95f20eb3fb947aef33d0ab78624d69fa96d67bb05e28066f3b3c3ec72c62",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__init__.py": "16795d71ce6a13c2d34275576d369c83e7ae791940b898dd42eaa3e47a38db23",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\action_inputs.py": "1235ae932233446c63fdf422fdcda26b7c83556c037e638dc3577d9fad8e53e0",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\demo.py": "c1f1367be18698be06cbb7f4d316b08595880b4a67c399299a7813aeccb909a7",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\fair_inputs.py": "eb5a0bc03bcef1f12ec3ce3328bc0a2c9fc7baf1f9ceef9fb2b8ff66f3317814",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\frame_memory.py": "d0712c3304763ef199dc92e4bebafef6d389bcfb0d55139e2495f54475314767",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\hybrid.py": "86bb4855fa4af51e3f35ccb529684c6cfe4bc6e092f64a9c8b9777f73d69460a",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\inference.py": "e5335712202fc13432bcc574d919f2387fc814cde28ae80abbc5e1f0a5621d24",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\inputs.py": "aaa98fcb49801c6e09df2bb9743cbd20992bae25110c8325bd3f69a112e54c45",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\live_source.py": "7bc13a3f270ae82762dd846ffdd2dd3cb037c1da8eccefdd95fc34625fa125c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\online.py": "90732e09495eee295175f9861cbd5030c659432588669472a2a7ef44e3ea47a9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\playback.py": "90952c39450f764df64dafdf5962c3c02fb4ff0c047d32e0e7868fdec28ee32c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\preprocessing.py": "361bfd6aafcf8b1a8b84f823dba9e358a9dc526f848df9005011bb039ca60343",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\remembering.py": "ea89926e6da2cdd7106e690dfa17838b7b6c9254c063dea328a1b38b84a8b5b3",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\repeat_source.py": "7be2ae0aa593ffc03c914748378778871eadfd6f1dbf4f865413109142868e6d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\sampling_inputs.py": "b2fe76308f4e8da0bc46f06df7cf67636813fa647bc31692fe76aa8d8b4d056f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\session.py": "12e06e161593d94ce9c9422df8627c8bfb440a0c255216f526b8e1b9ad7bb8f9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\timeline_inputs.py": "6f181d29dda85f5913dddd80b966a208a2f12e8a9bcac6049acd7ed40b10a978",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\viewer.py": "5ba3e6c21fcbe4b103dfaf6bbbab107b1d106e8387e16f6abfc3b5fcbc0ee8d1",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\window.py": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_action_inputs.py": "48e40fee55382c8af5301fd29c3e302f2d843b0cf597977b290ce468dac55d1f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_fair_inputs.py": "bc8d1fb3d8d11c1b7d4b14dd25c4323b75bf1915fbeaa455179d3b1909635d87",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_frame_memory.py": "67a9097928aabf4909100faa21505165d61f1500e6bd3f0611f91ecf2e1fb8dd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_history_demo.py": "3975e044182a3b6d2b39aac7c272d42b752846ab9e3ebed858f397ee8809a7d2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_history_trigger.py": "a7af0e4c2adf5a7724bac1f8cefc5491c94500572f2e5da3bb8acfe58de4fc15",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_live_source.py": "a82f5378880463429413924a8e991ab10ab62721f86264a4f3ca10ab786c7fd2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_local_model.py": "1deeb001e7bca335fe0b786c0f548543b4386079b6d29926525f5d110e64c24d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_mixed_state.py": "b63e6a5609ea497fe4f47fd8bf2cb037837d6da1997560d7f87254558575d7e8",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_online.py": "51843548f47f1d3251da06006f8f18a8dc66d7ffc5d2765f8bbec5c99020e4f9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_pair_demo.py": "49d16e208b464d342508672ea8f91ec794b7fa2c6399c172793f3b947222d0cc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_playback.py": "1e2d68ce6ec15005a1651f9014212846d088e3e04921b2aa5dfd003b2094a8c1",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_recurrent_reference.py": "bab4cb398797ecd80a4d1b9e050afb44f4f55238baa19648521887c6ee4ed51c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_repeat_source.py": "880d224c0d7957d03e3088c70742e95a83fdef68fdc217a1581a0bf1c6dfa115",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_sampling_inputs.py": "74b34be15fea7acdbbb3d08b7defe83f21e22cb70ac8e299c4b14bca1325e09c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_stream_session.py": "8f0af36ce5a81ddca526d44fd0772d52b205abde68fa0d4022d1fe902b7be792",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_stream_window.py": "94de80f03e6413a386be82cc84b0716474fdb535d7c8af209b3b1b6132a5e0a4",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_timeline_inputs.py": "0dfbd40dceead971120a1109fdb26ac989f0bd11dccd488ce803f2cdca8ed451",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_video_demo.py": "d24cb9085a550a19bfd9ef3fd37e69a1b8fa490ea81f0414850c0a0fdb89006b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\event_memory_v1\\cases.json": "4fbabd84daf0ebafc77a5a53be9cc92bc8fbb7cd8724140945de650968441f52",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\event_memory_v1\\memory.py": "8fcddaa056c8de1b710d9d9897c19a1898c618861b9ca12c4d8facb7c4117116",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\event_memory_v1\\probe.py": "a28dd95fab99f3b0f6bdbd82d9a9ec6199d47588e2df91a97f7a4f73bf801694",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\event_memory_v1\\run_probe.py": "586b21cec2f3893ac310e6fc368dde74dd06a664c5e07fcd0defc81ec0686af5",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\general_stream_v1\\cases.json": "64efb755845cf7be3c3e92f1bfa23cf28452d5d40dfa5677cd4401519e7c60a1",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\protocol_readout_v1\\probe.py": "53363cd0f3e5143a8e687f1f330ab262d4ed7fa6ee2a17d260e8d25c2bcd0571",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\protocol_readout_v1\\run_probe.py": "e79e01dc6d80b9f9daa2222ba8d72eb4fbc234d3d2bc820dfb6821d05146c76d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\protocol_readout_v1\\方案.md": "ae9a6478b873a4e6819261499c5cf3001ff5223789049bbf1fa11d4a45090698",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\experiment.py": "b3af6684eed663f8f4727fc5c51969d4837df37bf4bc82202d994b394926869f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\features.py": "de649c69a8275986027b8acb33a011021cf7fbbfad805c70323dc3ce593a6a97",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\run_experiment.py": "3f1dde6b3f388499c3e9660229b9f1b4b40bc6bfe767dacc5702cc959ea93b3b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
+    "E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\processing_qwen3_vl.py": "e5abbaf1d035fe49cd8354f1e92fd3f92ab1103a39173c147471f30ff1908b6a",
+    "E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\video_processing_qwen3_vl.py": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_detail_v1\\probe.py": "b386b3e383999ea123cd3bae940f336c0cdfd69bc3629782350473ad4b4a6025",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_detail_v1\\run_probe.py": "6180312d852d2de2df330a115c6949b44e4d7a3f79cae75278b9216a1278ebc9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_detail_v1\\方案.md": "dbf6c846f0a0151d142682474348441b90b50e065d8d02818aa3a1141bf08448"
+  },
+  "request": {
+    "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+    "branch": "36tar/general-video-demo",
+    "reference_cpu": "E:\\VIT Model\\runs\\protocol_readout_cpu_20261013_01",
+    "reference_gpu": "E:\\VIT Model\\runs\\protocol_readout_original_gpu_20261013_02",
+    "profiles": {
+      "old_two_stage": [
+        192,
+        256
+      ],
+      "direct_small": [
+        192,
+        256
+      ],
+      "direct_large": [
+        384,
+        512
+      ]
+    },
+    "cases": [
+      [
+        "animal_holdout",
+        "dog",
+        0
+      ],
+      [
+        "animal_holdout",
+        "pigeon",
+        0
+      ],
+      [
+        "animal_holdout",
+        "pigeon",
+        1
+      ],
+      [
+        "animal_holdout",
+        "cat",
+        0
+      ],
+      [
+        "animal_holdout",
+        "cat",
+        1
+      ],
+      [
+        "natural",
+        "clean_hands",
+        0
+      ],
+      [
+        "natural",
+        "clean_hands",
+        5
+      ],
+      [
+        "natural",
+        "hand_hygiene",
+        5
+      ]
+    ],
+    "question_policy": "unchanged_from_readout"
+  },
+  "budget": {
+    "model_loads": 1,
+    "vision_max": 24,
+    "questions_max": 24,
+    "generated_max": 768,
+    "language_max": 792,
+    "answer_tokens": 32,
+    "max_tokens": 512,
+    "wall_seconds": 360,
+    "ram_min_gib": 3,
+    "gpu_free_min_gib": 5.5,
+    "conversion_free_min_gib": 2,
+    "single_case_raw_rgb_max_bytes": 33554432,
+    "small_input_pool_max_bytes": 8388608,
+    "concurrent_models": 1,
+    "precision": "fp32_ieee_math"
+  },
+  "identity": {
+    "reference_cpu_sha256": "5f8b51902b168a5bba378a3b544f9f9094c4414d28ef3388106f78701c1760fc",
+    "reference_gpu_sha256": "e89b94168d388cb9e88b033d0cf49641fad6f7dca200218418c8a11b2bf942b2",
+    "model_assets": [
+      {
+        "name": "chat_template.jinja",
+        "bytes": 7755,
+        "sha256": "273D8E0E683B885071FB17E08D71E5F2A5DDFB5309756181681DE4F5A1822D80",
+        "expected_lfs_sha256": null
+      },
+      {
+        "name": "config.json",
+        "bytes": 2907,
+        "sha256": "B90B86F35C8E6925EF74EE04D0E758F0A845C83A42089AD82BBAA948DE9B4204",
+        "expected_lfs_sha256": null
+      },
+      {
+        "name": "merges.txt",
+        "bytes": 3353259,
+        "sha256": "A9D356D7BDF1EF4949E3E748E95B8E10AD9D4E2E838EDDC38A0A7B6B94D1DB8D",
+        "expected_lfs_sha256": null
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 50900,
+        "sha256": "D8A08838A613B025EB7952ED9DB11696213E57E76A375661EF5C12F9DD5DCF4E",
+        "expected_lfs_sha256": null
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 390,
+        "sha256": "27225450AC9C6529872EE1924FCB0962FF5634834F817040F444118116F4E516",
+        "expected_lfs_sha256": null
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 16709,
+        "sha256": "49E2B6E395F959F077F1E992B338919C0D4A9732FC6E613995E06557F843500C",
+        "expected_lfs_sha256": null
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 12807982,
+        "sha256": "5F9E4D4901A92B997E463C1F46055088B6CCA5CA61A6522D1B9F64C4BB81CB42",
+        "expected_lfs_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+      },
+      {
+        "name": "video_preprocessor_config.json",
+        "bytes": 385,
+        "sha256": "7768AF27C1FAFA9CC9011C1DC20067E03F8915E03B63504550E11D5066986D13",
+        "expected_lfs_sha256": null
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 6722759,
+        "sha256": "CE99B4CB2983D118806CE0A8B777A35B093E2000A503EBDE25853284C9DFA003",
+        "expected_lfs_sha256": null
+      },
+      {
+        "name": "model.safetensors-00001-of-00001.safetensors",
+        "bytes": 1746942600,
+        "sha256": "04B1C301231DD422B8860DB31311AB2721511346A32CB1E079C4C4E5F1FE4696",
+        "expected_lfs_sha256": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696"
+      }
+    ],
+    "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02"
+  },
+  "input_assets": {
+    "E:\\VIT Model\\datasets\\general_stream_v1\\dog.webm": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+    "E:\\VIT Model\\datasets\\general_stream_v1\\pigeon.webm": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+    "E:\\VIT Model\\datasets\\numeric_hand_hygiene_v1\\hand_hygiene.webm": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9"
+  },
+  "small_input_rgb_bytes": 7077888,
+  "scope": "24 real-input layouts and same-weight tiny fresh prefills, not recognition evidence"
+}

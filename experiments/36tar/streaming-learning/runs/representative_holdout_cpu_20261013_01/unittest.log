@@ -1,0 +1,8 @@
+test_capacity_reset_keeps_candidate_evidence_before_update (__main__.Contracts.test_capacity_reset_keeps_candidate_evidence_before_update) ... ok
+test_disjoint_and_bounded_real_inputs (__main__.Contracts.test_disjoint_and_bounded_real_inputs) ... ok
+test_pending_future_reject_and_mid_query_then_continue (__main__.Contracts.test_pending_future_reject_and_mid_query_then_continue) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.181s
+
+OK

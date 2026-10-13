@@ -1,0 +1,502 @@
+{
+  "passed": true,
+  "cpu_contracts": 3,
+  "cpu_replay_qa": 70,
+  "gpu_loads": 1,
+  "gpu_questions": 58,
+  "counts": {
+    "vision": 22,
+    "language": 502
+  },
+  "generated": 410,
+  "eos": 58,
+  "budget_stops": 0,
+  "disjoint_source_frames": 44,
+  "once_encoded_pairs": 22,
+  "mid_checkpoints": 12,
+  "capacity_resets": 7,
+  "paired_queries": 29,
+  "same_generation_pairs": 27,
+  "different_selected_pairs": 5,
+  "current_equal_checkpoints": 12,
+  "no_animal_evidence_queries": [
+    {
+      "case": "dog_prefix",
+      "at": 2,
+      "policy": "first",
+      "mode": "open",
+      "selected": 0,
+      "answer": "A dog"
+    },
+    {
+      "case": "dog_prefix",
+      "at": 2,
+      "policy": "first",
+      "mode": "current",
+      "selected": 1,
+      "answer": "The main visible animal in these frames is a dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 2,
+      "policy": "centroid",
+      "mode": "open",
+      "selected": 0,
+      "answer": "A dog"
+    },
+    {
+      "case": "dog_prefix",
+      "at": 2,
+      "policy": "centroid",
+      "mode": "current",
+      "selected": 1,
+      "answer": "The main visible animal in these frames is a dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 4,
+      "policy": "first",
+      "mode": "open",
+      "selected": 0,
+      "answer": "A dog"
+    },
+    {
+      "case": "dog_prefix",
+      "at": 4,
+      "policy": "first",
+      "mode": "current",
+      "selected": 3,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 4,
+      "policy": "centroid",
+      "mode": "open",
+      "selected": 3,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 4,
+      "policy": "centroid",
+      "mode": "current",
+      "selected": 3,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 6,
+      "policy": "first",
+      "mode": "open",
+      "selected": 4,
+      "answer": "The main visible animal in these frames is a dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 6,
+      "policy": "first",
+      "mode": "current",
+      "selected": 5,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 6,
+      "policy": "first",
+      "mode": "group",
+      "selected": 0,
+      "answer": "A dog"
+    },
+    {
+      "case": "dog_prefix",
+      "at": 6,
+      "policy": "centroid",
+      "mode": "open",
+      "selected": 4,
+      "answer": "The main visible animal in these frames is a dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 6,
+      "policy": "centroid",
+      "mode": "current",
+      "selected": 5,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_prefix",
+      "at": 6,
+      "policy": "centroid",
+      "mode": "group",
+      "selected": 3,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_late",
+      "at": 6,
+      "policy": "first",
+      "mode": "open",
+      "selected": 5,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_late",
+      "at": 6,
+      "policy": "first",
+      "mode": "current",
+      "selected": 5,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_late",
+      "at": 6,
+      "policy": "centroid",
+      "mode": "open",
+      "selected": 5,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_late",
+      "at": 6,
+      "policy": "centroid",
+      "mode": "current",
+      "selected": 5,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_late",
+      "at": 8,
+      "policy": "first",
+      "mode": "open",
+      "selected": 5,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_late",
+      "at": 8,
+      "policy": "first",
+      "mode": "current",
+      "selected": 7,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_late",
+      "at": 8,
+      "policy": "centroid",
+      "mode": "open",
+      "selected": 7,
+      "answer": "A dog."
+    },
+    {
+      "case": "dog_late",
+      "at": 8,
+      "policy": "centroid",
+      "mode": "current",
+      "selected": 7,
+      "answer": "A dog."
+    }
+  ],
+  "comparisons": [
+    {
+      "case": "dog_prefix",
+      "after_pairs": 2,
+      "mode": "open",
+      "first_pair": 0,
+      "centroid_pair": 0,
+      "first_answer": "A dog",
+      "centroid_answer": "A dog",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_prefix",
+      "after_pairs": 2,
+      "mode": "current",
+      "first_pair": 1,
+      "centroid_pair": 1,
+      "first_answer": "The main visible animal in these frames is a dog.",
+      "centroid_answer": "The main visible animal in these frames is a dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_prefix",
+      "after_pairs": 4,
+      "mode": "open",
+      "first_pair": 0,
+      "centroid_pair": 3,
+      "first_answer": "A dog",
+      "centroid_answer": "A dog.",
+      "generated_equal": false
+    },
+    {
+      "case": "dog_prefix",
+      "after_pairs": 4,
+      "mode": "current",
+      "first_pair": 3,
+      "centroid_pair": 3,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_prefix",
+      "after_pairs": 6,
+      "mode": "open",
+      "first_pair": 4,
+      "centroid_pair": 4,
+      "first_answer": "The main visible animal in these frames is a dog.",
+      "centroid_answer": "The main visible animal in these frames is a dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_prefix",
+      "after_pairs": 6,
+      "mode": "current",
+      "first_pair": 5,
+      "centroid_pair": 5,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_prefix",
+      "after_pairs": 6,
+      "mode": "group",
+      "first_pair": 0,
+      "centroid_pair": 3,
+      "first_answer": "A dog",
+      "centroid_answer": "A dog.",
+      "generated_equal": false
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 2,
+      "mode": "open",
+      "first_pair": 0,
+      "centroid_pair": 0,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 2,
+      "mode": "current",
+      "first_pair": 1,
+      "centroid_pair": 1,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 4,
+      "mode": "open",
+      "first_pair": 0,
+      "centroid_pair": 0,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 4,
+      "mode": "current",
+      "first_pair": 3,
+      "centroid_pair": 3,
+      "first_answer": "A horse.",
+      "centroid_answer": "A horse.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 6,
+      "mode": "open",
+      "first_pair": 5,
+      "centroid_pair": 5,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 6,
+      "mode": "current",
+      "first_pair": 5,
+      "centroid_pair": 5,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 6,
+      "mode": "group",
+      "first_pair": 0,
+      "centroid_pair": 4,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 8,
+      "mode": "open",
+      "first_pair": 5,
+      "centroid_pair": 7,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 8,
+      "mode": "current",
+      "first_pair": 7,
+      "centroid_pair": 7,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "dog_late",
+      "after_pairs": 8,
+      "mode": "group",
+      "first_pair": 0,
+      "centroid_pair": 4,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "pigeon_middle",
+      "after_pairs": 2,
+      "mode": "open",
+      "first_pair": 0,
+      "centroid_pair": 0,
+      "first_answer": "A bird",
+      "centroid_answer": "A bird",
+      "generated_equal": true
+    },
+    {
+      "case": "pigeon_middle",
+      "after_pairs": 2,
+      "mode": "current",
+      "first_pair": 1,
+      "centroid_pair": 1,
+      "first_answer": "A dog.",
+      "centroid_answer": "A dog.",
+      "generated_equal": true
+    },
+    {
+      "case": "clean_prefix",
+      "after_pairs": 2,
+      "mode": "open",
+      "first_pair": 1,
+      "centroid_pair": 1,
+      "first_answer": "A person is washing their hands with soap.",
+      "centroid_answer": "A person is washing their hands with soap.",
+      "generated_equal": true
+    },
+    {
+      "case": "clean_prefix",
+      "after_pairs": 2,
+      "mode": "current",
+      "first_pair": 1,
+      "centroid_pair": 1,
+      "first_answer": "A person is washing their hands with soap.",
+      "centroid_answer": "A person is washing their hands with soap.",
+      "generated_equal": true
+    },
+    {
+      "case": "clean_prefix",
+      "after_pairs": 2,
+      "mode": "group",
+      "first_pair": 0,
+      "centroid_pair": 0,
+      "first_answer": "A person is pouring coffee from a black carafe into a metal cup.",
+      "centroid_answer": "A person is pouring coffee from a black carafe into a metal cup.",
+      "generated_equal": true
+    },
+    {
+      "case": "clean_prefix",
+      "after_pairs": 3,
+      "mode": "open",
+      "first_pair": 1,
+      "centroid_pair": 1,
+      "first_answer": "A person is washing their hands with soap.",
+      "centroid_answer": "A person is washing their hands with soap.",
+      "generated_equal": true
+    },
+    {
+      "case": "clean_prefix",
+      "after_pairs": 3,
+      "mode": "current",
+      "first_pair": 2,
+      "centroid_pair": 2,
+      "first_answer": "A person is washing their hands in a sink.",
+      "centroid_answer": "A person is washing their hands in a sink.",
+      "generated_equal": true
+    },
+    {
+      "case": "clean_prefix",
+      "after_pairs": 3,
+      "mode": "group",
+      "first_pair": 0,
+      "centroid_pair": 0,
+      "first_answer": "A person is pouring coffee from a black carafe into a metal cup.",
+      "centroid_answer": "A person is pouring coffee from a black carafe into a metal cup.",
+      "generated_equal": true
+    },
+    {
+      "case": "hygiene_prefix",
+      "after_pairs": 2,
+      "mode": "open",
+      "first_pair": 0,
+      "centroid_pair": 0,
+      "first_answer": "The video shows a slide with text and logos.",
+      "centroid_answer": "The video shows a slide with text and logos.",
+      "generated_equal": true
+    },
+    {
+      "case": "hygiene_prefix",
+      "after_pairs": 2,
+      "mode": "current",
+      "first_pair": 1,
+      "centroid_pair": 1,
+      "first_answer": "A person is standing in front of a white wall.",
+      "centroid_answer": "A person is standing in front of a white wall.",
+      "generated_equal": true
+    },
+    {
+      "case": "hygiene_prefix",
+      "after_pairs": 3,
+      "mode": "open",
+      "first_pair": 0,
+      "centroid_pair": 0,
+      "first_answer": "The video shows a slide with text and logos.",
+      "centroid_answer": "The video shows a slide with text and logos.",
+      "generated_equal": true
+    },
+    {
+      "case": "hygiene_prefix",
+      "after_pairs": 3,
+      "mode": "current",
+      "first_pair": 2,
+      "centroid_pair": 2,
+      "first_answer": "A person is shown performing hand hygiene.",
+      "centroid_answer": "A person is shown performing hand hygiene.",
+      "generated_equal": true
+    }
+  ],
+  "source_files_verified": 99,
+  "summary_sha256": "c046132ab2867ed38fba1f569d578eb68056f0c20717a47ba60169c0d3218a24",
+  "cpu_proof_sha256": "646bb6303e09c3a934e73d2bb6201b0a59befbdc0a111f104c36a86a13d4124b",
+  "rubric_sha256": "3dca201433a9fb66962241332f1cebf2e3e543eeb5b973d1d42ba3c350bea034",
+  "peak_allocated_gib": 3.2492804527282715,
+  "peak_main_cache_tensor_bytes": 23519232,
+  "peak_fingerprint_cpu_temporary_bytes": 2097152,
+  "peak_external_bank_tensor_bytes": 1588736,
+  "external_working_conservative_bytes": 2984000,
+  "scope": "Same-source disjoint frames, weak clip-name score field is not frame accuracy; no center advantage shown"
+}

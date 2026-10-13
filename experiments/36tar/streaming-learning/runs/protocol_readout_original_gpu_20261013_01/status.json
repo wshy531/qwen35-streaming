@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "stage": "gpu",
+  "arm": "original",
+  "error": "RuntimeError",
+  "message": "Resource gate refused load"
+}
