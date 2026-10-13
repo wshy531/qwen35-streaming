@@ -1,0 +1,14 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\forest_runtime_v1\probe.py", line 432, in <module>
+    if __name__ == '__main__': main()
+                               ^^^^^^
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\forest_runtime_v1\probe.py", line 424, in main
+    (preflight if args.stage == 'preflight' else gpu)(args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\forest_runtime_v1\probe.py", line 360, in preflight
+    if not tests.wasSuccessful(): raise AssertionError('Forest adapter contracts failed')
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Forest adapter contracts failed

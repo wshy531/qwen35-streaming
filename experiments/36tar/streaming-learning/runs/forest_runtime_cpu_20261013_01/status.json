@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "preflight",
+  "error": "AssertionError",
+  "message": "Forest adapter contracts failed"
+}
