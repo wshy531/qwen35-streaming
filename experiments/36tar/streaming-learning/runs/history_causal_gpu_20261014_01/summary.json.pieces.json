@@ -1,0 +1,29 @@
+{
+  "original": "summary.json",
+  "original_bytes": 1562831,
+  "original_sha256": "ff1371e321fe524223e2f9e945efea66ab03530c44539fc31704b7a13c0f2e39",
+  "encoding": "utf-8",
+  "reassemble": "concatenate exact UTF-8 piece bytes in listed order",
+  "pieces": [
+    {
+      "name": "summary.json.part001.txt",
+      "bytes": 500000,
+      "sha256": "33e08712abc29feaebcdea66ebfe9fe7f5e794aa58532ba9d824fae99b3a37b7"
+    },
+    {
+      "name": "summary.json.part002.txt",
+      "bytes": 500000,
+      "sha256": "90cb2ad262733a04d879ccb66f0b634eddc907737fc3ab5fc127a4c0adf48f70"
+    },
+    {
+      "name": "summary.json.part003.txt",
+      "bytes": 500000,
+      "sha256": "bffe95459bf9340a6d27f6d503a8ac26e3eb36e8b4c5c1c976543bbd4043e2a1"
+    },
+    {
+      "name": "summary.json.part004.txt",
+      "bytes": 62831,
+      "sha256": "3b467f92f22fa166a77260344496041e344674f8a80ab3cba963336446609b55"
+    }
+  ]
+}

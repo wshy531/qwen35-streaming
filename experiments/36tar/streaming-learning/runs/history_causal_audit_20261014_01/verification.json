@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "source_hashes": 110,
+  "cpu_tests": 2,
+  "fresh_gpu_loads": 1,
+  "counts": {
+    "vision": 32,
+    "language": 438
+  },
+  "answers_checked": 60,
+  "input_and_source_proof_verified": true,
+  "pair_checks": [
+    {
+      "match": "development",
+      "suffix_pixels_and_times_identical": true,
+      "forest_prompt_positions_and_later_features_identical": true,
+      "only_early_visual_features_differ_at_language_input": true,
+      "recent_inputs_and_outputs_identical": true,
+      "swaps_match_opposite_input_and_answer": true
+    },
+    {
+      "match": "confirmation",
+      "suffix_pixels_and_times_identical": true,
+      "forest_prompt_positions_and_later_features_identical": true,
+      "only_early_visual_features_differ_at_language_input": true,
+      "recent_inputs_and_outputs_identical": true,
+      "swaps_match_opposite_input_and_answer": true
+    }
+  ],
+  "conservative_feature_working_bytes": 12947968,
+  "frozen_default_core_unchanged": true,
+  "gpu_summary_sha256": "ff1371e321fe524223e2f9e945efea66ab03530c44539fc31704b7a13c0f2e39",
+  "cpu_proof_sha256": "5eca9089e981d733eaafde772f74e44e9a06493d101dc8f60e1408663992b4f4"
+}

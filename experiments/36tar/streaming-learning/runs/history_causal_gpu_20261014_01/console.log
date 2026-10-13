@@ -1,0 +1,58 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 32361.24it/s]
+{"case": "development_dog", "condition": "single_0", "answer": "A dog"}
+{"case": "development_dog", "condition": "single_1", "answer": "A dog."}
+{"case": "development_dog", "condition": "full_native", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "development_dog", "condition": "full_packed", "answer": "A dog"}
+{"case": "development_dog", "condition": "forest_native", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "development_dog", "condition": "forest_packed", "answer": "A dog"}
+{"case": "development_dog", "condition": "recent_only", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "development_dog", "condition": "root_raw_alone", "answer": "A dog"}
+{"case": "development_dog", "condition": "root_compressed_alone", "answer": "A dog"}
+{"case": "development_dog", "condition": "root_raw_with_recent", "answer": "A dog"}
+{"case": "development_dog", "condition": "root_compressed_with_recent", "answer": "dog"}
+{"case": "development_dog", "condition": "prefix_compressed_alone", "answer": "A dog"}
+{"case": "development_dog", "condition": "prefix_compressed_with_recent", "answer": "dog"}
+{"case": "development_dog", "condition": "forest_native_after_reset", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "development_cat", "condition": "single_0", "answer": "A cat"}
+{"case": "development_cat", "condition": "single_1", "answer": "A dog"}
+{"case": "development_cat", "condition": "full_native", "answer": "A cat is visible at the beginning of the video."}
+{"case": "development_cat", "condition": "full_packed", "answer": "A cat"}
+{"case": "development_cat", "condition": "forest_native", "answer": "A cat is visible at the beginning of the video."}
+{"case": "development_cat", "condition": "forest_packed", "answer": "A cat"}
+{"case": "development_cat", "condition": "recent_only", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "development_cat", "condition": "root_raw_alone", "answer": "A cat"}
+{"case": "development_cat", "condition": "root_compressed_alone", "answer": "A cat"}
+{"case": "development_cat", "condition": "root_raw_with_recent", "answer": "A cat"}
+{"case": "development_cat", "condition": "root_compressed_with_recent", "answer": "cat"}
+{"case": "development_cat", "condition": "prefix_compressed_alone", "answer": "A cat"}
+{"case": "development_cat", "condition": "prefix_compressed_with_recent", "answer": "cat"}
+{"case": "development_cat", "condition": "forest_native_after_reset", "answer": "A cat is visible at the beginning of the video."}
+{"case": "confirmation_dog", "condition": "single_0", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "single_1", "answer": "A dog."}
+{"case": "confirmation_dog", "condition": "full_native", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "confirmation_dog", "condition": "full_packed", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "forest_native", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "forest_packed", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "recent_only", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "confirmation_dog", "condition": "root_raw_alone", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "root_compressed_alone", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "root_raw_with_recent", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "root_compressed_with_recent", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "prefix_compressed_alone", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "prefix_compressed_with_recent", "answer": "A dog"}
+{"case": "confirmation_dog", "condition": "forest_native_after_reset", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "single_0", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "single_1", "answer": "A dog."}
+{"case": "confirmation_cat", "condition": "full_native", "answer": "A black and white dog is visible at the beginning of the video."}
+{"case": "confirmation_cat", "condition": "full_packed", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "forest_native", "answer": "A black and white dog is visible at the beginning of the video."}
+{"case": "confirmation_cat", "condition": "forest_packed", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "recent_only", "answer": "The animal visible at the beginning of the video is a dog."}
+{"case": "confirmation_cat", "condition": "root_raw_alone", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "root_compressed_alone", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "root_raw_with_recent", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "root_compressed_with_recent", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "prefix_compressed_alone", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "prefix_compressed_with_recent", "answer": "A dog"}
+{"case": "confirmation_cat", "condition": "forest_native_after_reset", "answer": "A black and white dog is visible at the beginning of the video."}

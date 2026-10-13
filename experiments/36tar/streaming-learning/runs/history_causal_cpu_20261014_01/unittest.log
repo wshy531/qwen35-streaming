@@ -1,0 +1,7 @@
+test_inputs_are_paired_and_not_labelled_in_model_prompt (__main__.Contracts.test_inputs_are_paired_and_not_labelled_in_model_prompt) ... ok
+test_native_reference_and_packed_position_control (__main__.Contracts.test_native_reference_and_packed_position_control) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.978s
+
+OK

@@ -1,0 +1,859 @@
+{
+  "rubric_saved_before_gpu": true,
+  "all_answers_manually_reviewed": true,
+  "metrics": {
+    "forest_native": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "forest_native_after_reset": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "forest_packed": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "full_native": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "full_packed": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "prefix_compressed_alone": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "prefix_compressed_with_recent": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "recent_only": {
+      "correct": 2,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": false
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 0
+    },
+    "root_compressed_alone": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "root_compressed_with_recent": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "root_raw_alone": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "root_raw_with_recent": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "single_0": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    },
+    "single_1": {
+      "correct": 2,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": false
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 0
+    },
+    "swapped_old_root": {
+      "correct": 3,
+      "questions": 4,
+      "strict_pairs": [
+        {
+          "match": "development",
+          "both_correct": true
+        },
+        {
+          "match": "confirmation",
+          "both_correct": false
+        }
+      ],
+      "strict_pairs_correct": 1
+    }
+  },
+  "rows": [
+    {
+      "case": "development_dog",
+      "condition": "single_0",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "single_1",
+      "raw_answer": "A dog.",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "full_native",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "full_packed",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "forest_native",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "forest_packed",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "recent_only",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": true
+    },
+    {
+      "case": "development_dog",
+      "condition": "root_raw_alone",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "root_compressed_alone",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "root_raw_with_recent",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "root_compressed_with_recent",
+      "raw_answer": "dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "prefix_compressed_alone",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "prefix_compressed_with_recent",
+      "raw_answer": "dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "forest_native_after_reset",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "single_0",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "single_1",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "full_native",
+      "raw_answer": "A cat is visible at the beginning of the video.",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "full_packed",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "forest_native",
+      "raw_answer": "A cat is visible at the beginning of the video.",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "forest_packed",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "recent_only",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": true
+    },
+    {
+      "case": "development_cat",
+      "condition": "root_raw_alone",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "root_compressed_alone",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "root_raw_with_recent",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "root_compressed_with_recent",
+      "raw_answer": "cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "prefix_compressed_alone",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "prefix_compressed_with_recent",
+      "raw_answer": "cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "forest_native_after_reset",
+      "raw_answer": "A cat is visible at the beginning of the video.",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "single_0",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "single_1",
+      "raw_answer": "A dog.",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "full_native",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "full_packed",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "forest_native",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "forest_packed",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "recent_only",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": true
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "root_raw_alone",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "root_compressed_alone",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "root_raw_with_recent",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "root_compressed_with_recent",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "prefix_compressed_alone",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "prefix_compressed_with_recent",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "forest_native_after_reset",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "single_0",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "single_1",
+      "raw_answer": "A dog.",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "full_native",
+      "raw_answer": "A black and white dog is visible at the beginning of the video.",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "full_packed",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "forest_native",
+      "raw_answer": "A black and white dog is visible at the beginning of the video.",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "forest_packed",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "recent_only",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": true
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "root_raw_alone",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "root_compressed_alone",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "root_raw_with_recent",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "root_compressed_with_recent",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "prefix_compressed_alone",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "prefix_compressed_with_recent",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "forest_native_after_reset",
+      "raw_answer": "A black and white dog is visible at the beginning of the video.",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_dog",
+      "condition": "swapped_old_root",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manual_subject_interpretation": "cat",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "development_cat",
+      "condition": "swapped_old_root",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_dog",
+      "condition": "swapped_old_root",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "manual_subject_interpretation": "dog",
+      "correct": false,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    },
+    {
+      "case": "confirmation_cat",
+      "condition": "swapped_old_root",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manual_subject_interpretation": "dog",
+      "correct": true,
+      "scoring_scope": "fixed known-source animal identity, no general accuracy",
+      "no_retained_animal_evidence": false
+    }
+  ],
+  "pair_checks": [
+    {
+      "match": "development",
+      "suffix_pixels_and_times_identical": true,
+      "forest_prompt_positions_and_later_features_identical": true,
+      "only_early_visual_features_differ_at_language_input": true,
+      "recent_inputs_and_outputs_identical": true,
+      "swaps_match_opposite_input_and_answer": true
+    },
+    {
+      "match": "confirmation",
+      "suffix_pixels_and_times_identical": true,
+      "forest_prompt_positions_and_later_features_identical": true,
+      "only_early_visual_features_differ_at_language_input": true,
+      "recent_inputs_and_outputs_identical": true,
+      "swaps_match_opposite_input_and_answer": true
+    }
+  ],
+  "limits": [
+    "Two correlated matched pairs from existing sources; shared natural suffix.",
+    "Confirmation cat reference fails; retain failure and do not claim second pair memory gain.",
+    "This run exercises within-event roots only, no long-forest merge.",
+    "Packed matches temporal text and suffix three-axis positions; language length still changes.",
+    "Recent correct dog is unsupported by retained animal evidence.",
+    "No accuracy gain of packed over native; no default upgrade."
+  ]
+}
