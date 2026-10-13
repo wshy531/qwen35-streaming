@@ -1,0 +1,11 @@
+test_100_frame_bounded_resets_and_query_then_continue (__main__.Contracts.test_100_frame_bounded_resets_and_query_then_continue) ... ok
+test_explicit_reset_preserves_history_and_refuses_stale_current (__main__.Contracts.test_explicit_reset_preserves_history_and_refuses_stale_current) ... ok
+test_global_horizon_and_invalid_parameter_rejection (__main__.Contracts.test_global_horizon_and_invalid_parameter_rejection) ... ok
+test_main_failure_does_not_commit_bank_and_hook_removed (__main__.Contracts.test_main_failure_does_not_commit_bank_and_hook_removed) ... ok
+test_pending_and_odd_eof_are_not_synthetic_frames (__main__.Contracts.test_pending_and_odd_eof_are_not_synthetic_frames) ... ok
+test_pending_is_owned_and_source_aspect_changes_are_normalized (__main__.Contracts.test_pending_is_owned_and_source_aspect_changes_are_normalized) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.618s
+
+OK

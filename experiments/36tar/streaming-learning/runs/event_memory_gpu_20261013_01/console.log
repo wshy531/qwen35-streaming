@@ -1,0 +1,63 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 17011.27it/s]
+{"calibration_frozen": {"threshold": 0.047536224126815796, "adjacent_distances": [0.016390323638916016, 0.07363754510879517, 0.012543678283691406, 0.08287376165390015, 0.021434903144836426], "rule": "largest_sorted_gap_midpoint_no_labels", "fallback_used": false}, "evaluation_answers_seen": 0}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "fifo", "question": "current", "answer": "The dog is the animal visible most recently."}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "fifo", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "fifo", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "mean", "question": "current", "answer": "dog"}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "mean", "question": "early", "answer": "A dog"}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "mean", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "event", "question": "current", "answer": "The dog"}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "event", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "event", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "oracle_diagnostic", "question": "current", "answer": "The dog"}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "oracle_diagnostic", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_dog_pigeon_cat", "phase": "final", "method": "oracle_diagnostic", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "fifo", "question": "current", "answer": "The dog"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "fifo", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "fifo", "question": "order", "answer": "1. Dog\n2. Bird"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "mean", "question": "current", "answer": "dog"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "mean", "question": "early", "answer": "A dog"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "mean", "question": "order", "answer": "1. Dog"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "event", "question": "current", "answer": "The dog"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "event", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "event", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "oracle_diagnostic", "question": "current", "answer": "The dog"}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "oracle_diagnostic", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_cat_dog_pigeon", "phase": "final", "method": "oracle_diagnostic", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "fifo", "question": "current", "answer": "The dog is the animal visible most recently."}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "fifo", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "fifo", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "mean", "question": "current", "answer": "A dog"}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "mean", "question": "early", "answer": "A dog"}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "mean", "question": "order", "answer": "1. Dog"}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "event", "question": "current", "answer": "The dog is the animal visible most recently."}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "event", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "event", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "oracle_diagnostic", "question": "current", "answer": "The dog is the animal visible most recently."}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "oracle_diagnostic", "question": "early", "answer": "The animal visible at the beginning is a dog."}
+{"case": "controlled_pigeon_cat_dog", "phase": "final", "method": "oracle_diagnostic", "question": "order", "answer": "1. Dog\n2. Cat"}
+{"case": "clean_hands", "phase": "mid_after_four_pairs", "method": "fifo", "question": "current", "answer": "The person is washing their hands with soap and water."}
+{"case": "clean_hands", "phase": "mid_after_four_pairs", "method": "mean", "question": "current", "answer": "A person is washing their hands under running water."}
+{"case": "clean_hands", "phase": "mid_after_four_pairs", "method": "event", "question": "current", "answer": "A person is washing their hands under running water."}
+{"case": "clean_hands", "phase": "final", "method": "fifo", "question": "current", "answer": "A person is seen putting a paper towel in the sink."}
+{"case": "clean_hands", "phase": "final", "method": "fifo", "question": "early", "answer": "A person is seen washing their hands under a running faucet."}
+{"case": "clean_hands", "phase": "final", "method": "fifo", "question": "order", "answer": "1. A person is washing their hands under running water.\n2. The person puts their hands into a sink.\n3. The person puts their hands"}
+{"case": "clean_hands", "phase": "final", "method": "mean", "question": "current", "answer": "A person is washing their hands in a sink."}
+{"case": "clean_hands", "phase": "final", "method": "mean", "question": "early", "answer": "A person is washing their hands in a sink."}
+{"case": "clean_hands", "phase": "final", "method": "mean", "question": "order", "answer": "1. A person is washing their hands in a sink.\n2. The person rubs their hands together and then dries them with a towel.\n"}
+{"case": "clean_hands", "phase": "final", "method": "event", "question": "current", "answer": "A person is seen washing their hands under a faucet."}
+{"case": "clean_hands", "phase": "final", "method": "event", "question": "early", "answer": "A person is washing their hands under running water."}
+{"case": "clean_hands", "phase": "final", "method": "event", "question": "order", "answer": "<think>\n\n</think>\n\nA person is seen washing their hands under running water. They then proceed to wipe their hands with a paper towel."}
+{"case": "hand_hygiene", "phase": "mid_after_four_pairs", "method": "fifo", "question": "current", "answer": "A woman is seen holding a bottle of hand sanitizer and pouring it into a dispenser."}
+{"case": "hand_hygiene", "phase": "mid_after_four_pairs", "method": "mean", "question": "current", "answer": "A woman is shown holding a roll of paper towels and placing it on a dispenser."}
+{"case": "hand_hygiene", "phase": "mid_after_four_pairs", "method": "event", "question": "current", "answer": "A woman in a blue shirt is holding a white bottle with a silver cap."}
+{"case": "hand_hygiene", "phase": "final", "method": "fifo", "question": "current", "answer": "The woman is holding a bottle of hand sanitizer and pouring it onto her hand."}
+{"case": "hand_hygiene", "phase": "final", "method": "fifo", "question": "early", "answer": "A woman in scrubs is holding a bottle of hand sanitizer and pouring it onto her hands."}
+{"case": "hand_hygiene", "phase": "final", "method": "fifo", "question": "order", "answer": "<think>\n\n</think>\n\nA woman in blue scrubs is standing in front of a white dispenser labeled \"Kleenex.\" She holds a small, silver-colored object"}
+{"case": "hand_hygiene", "phase": "final", "method": "mean", "question": "current", "answer": "The woman is seen holding a roll of toilet paper and then placing it on the dispenser."}
+{"case": "hand_hygiene", "phase": "final", "method": "mean", "question": "early", "answer": "A woman in scrubs is standing in front of a hand sanitizer dispenser. She is holding a roll of hand sanitizer and begins to dispense it onto her hand"}
+{"case": "hand_hygiene", "phase": "final", "method": "mean", "question": "order", "answer": "1. A woman in blue scrubs is standing in front of a white dispenser. She is holding a roll of toilet paper.\n2. She places the"}
+{"case": "hand_hygiene", "phase": "final", "method": "event", "question": "current", "answer": "A woman in blue scrubs is standing in front of a white dispenser, holding a small white box in her hand. She appears to be preparing to dispense"}
+{"case": "hand_hygiene", "phase": "final", "method": "event", "question": "early", "answer": "A woman in blue scrubs is shown washing her hands with a hand sanitizer dispenser."}
+{"case": "hand_hygiene", "phase": "final", "method": "event", "question": "order", "answer": "A woman in blue scrubs is standing in front of a white dispenser. She is holding a small white bottle in her right hand and is pouring liquid from it"}

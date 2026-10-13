@@ -1,0 +1,6 @@
+{
+  "status": "failed",
+  "stage": "preflight",
+  "error": "AssertionError",
+  "message": "Event memory CPU contracts failed"
+}

@@ -349,3 +349,9 @@ python diagnostics/streaming_benefit_chunk32_v1/run_candidate.py --stage gpu --a
 本轮14CPU（9/3/2）、3真实GPU、20vision/39EOS模型QA通过执行/预算/隔离；源SHA与完整171CPU对应的80核心保持，旧171不重跑。当前猫单对误dog、近期2/3对cat只在本有限控制点成立，混合根漏鸟/顺序错保留；Token288→144不能当提速或泛化准确率。三银行实验单臂144Token/约0.565MiB含质量/坐标，不是全进程/显存；GPU峰allocated≤3.29GiB，仅有限运行。
 
 本轮12帧受控拼接与4帧明确源重用不是自然长片；文件metadata标源实际PTS和合成会话时间。只上传文本证据，检查帧图仅本机，视频/权重/环境/密钥不上传。完整复现参数/原门禁和分支限制见各《方案.md》及复盘；依序先新CPU再GPU，后两段`--reference-run`指第一段GPU。冻结GPU诊断绑定本段个人分支，协作通用入口须将规则配置化并重新预检，默认通用启动器逻辑保持。
+
+## 可选事件记忆文件入口
+
+[本阶段结果与复现](事件组织与证据选择阶段结果.md)包含同预算保留、显式证据读取、真实失败回答和源版本边界。单一可选入口为`diagnostics/event_runtime_v1/run_file.py`，支持视频/问题/采样/有限长度/个人分支参数，先preflight再gpu；默认通用CLI保持原路径。组区间与真实代表时间分别显示，主容量reset保外部银行，odd EOF不补帧。当前画布仍固定192×256/48Token，不是完整StreamForest或语义检索。
+
+4真实GPU/97模型QA、17独立CPU契约及28成功测试执行；动物候选保三主体但四臂各2/9，阈值跨域/鸽猫单片识别/自然动作误答与9截断保留。固定current题clean全事件误洗手、选当前符合纸巾擦手，仅为具体有限证据。审计见`runs/event_stage_delivery_20261013_02`，GPU79旧入口冻结于其run/source_snapshot，当前修订由原文件CPU02/两帧CPU与GPU80补验。媒体、权重、环境、凭据不入库。

@@ -1,0 +1,16 @@
+{
+  "recursive_delete": false,
+  "verified_owned_empty_tmp_removed": [
+    "E:\\VIT Model\\runs\\event_memory_cpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\event_memory_cpu_20261013_02\\tmp",
+    "E:\\VIT Model\\runs\\event_memory_gpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\event_retrieval_cpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\event_retrieval_gpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\event_runtime_cpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\event_runtime_gpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\event_runtime_cpu_20261013_02\\tmp",
+    "E:\\VIT Model\\runs\\event_runtime_short_cpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\event_runtime_short_gpu_20261013_01\\tmp"
+  ],
+  "old_runs_or_sources_removed": false
+}

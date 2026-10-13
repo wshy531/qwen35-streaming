@@ -1,0 +1,2722 @@
+{
+  "passed": true,
+  "counts": {
+    "vision": 11,
+    "language": 73
+  },
+  "model_called_queries": 4,
+  "generated_tokens": 52,
+  "answers": [
+    {
+      "kind": "answer",
+      "trigger": "periodic",
+      "result": {
+        "model_called": true,
+        "selection": {
+          "reason": "selected",
+          "evidence_scope": "latest_real_pair",
+          "actual_visual_interval": [
+            6.006,
+            7.007
+          ],
+          "representative_pair_id": 3,
+          "visual_tokens": 48
+        },
+        "result": {
+          "question": "Briefly describe what is happening most recently.",
+          "answer": "A person is washing their hands with soap and water.",
+          "generated_ids": [
+            32,
+            1637,
+            369,
+            26789,
+            836,
+            5888,
+            440,
+            25929,
+            321,
+            2919,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "input_tokens": 77,
+          "visual_tokens": 48,
+          "blocks": [
+            {
+              "first": 3,
+              "last": 3,
+              "begin": 6.006,
+              "end": 7.007,
+              "center": 6.5065,
+              "leaves": 1,
+              "depth": 0,
+              "grid": [
+                6,
+                8
+              ],
+              "tokens": 48,
+              "tensor_bytes": 197568,
+              "exact_pair": true
+            }
+          ],
+          "positions_use_survivor_coordinates": true,
+          "grid_span_preserved": true,
+          "sequence_axis_contiguous": true,
+          "projected_mass_not_used_in_attention": true
+        },
+        "epoch": 1,
+        "received_horizon": 7.007,
+        "encoded_horizon": 7.007,
+        "eof_unencoded_frame": null
+      },
+      "status": {
+        "received_frames": 8,
+        "encoded_pairs": 4,
+        "last_received_id": 210,
+        "last_received_pts": 7.007,
+        "encoded_horizon": 7.007,
+        "pending_frame_id": null,
+        "pending_rgb_bytes": 0,
+        "capacity_resets": 1,
+        "explicit_resets": 0,
+        "epoch": 1,
+        "current_in_epoch": true,
+        "finished": false,
+        "dropped_odd_eof_frame": null,
+        "bank": {
+          "tokens": 96,
+          "tensor_bytes": 395136,
+          "visual_tensor_bytes": 395136,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 3,
+            "last": 3,
+            "begin": 6.006,
+            "end": 7.007,
+            "center": 6.5065,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 1,
+          "open_group_begin": 2.002,
+          "events_received": 4,
+          "groups_started": 1,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 326,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        },
+        "main": {
+          "accepted_frames": 4,
+          "encoded_real_frames": 4,
+          "pending_frame_id": null,
+          "last_received_id": 210,
+          "last_encoded_id": 210,
+          "last_encoded_pts": 7.007,
+          "seen_tokens": 115,
+          "next_rope_position": 35,
+          "vision_encodings": 2,
+          "pending_rgb_bytes": 0,
+          "finished": false,
+          "invalid": false,
+          "closed": false,
+          "reference_mode": "fp32_ieee_math"
+        }
+      },
+      "main_and_bank_unchanged": true
+    },
+    {
+      "kind": "answer",
+      "trigger": "periodic",
+      "result": {
+        "model_called": true,
+        "selection": {
+          "reason": "selected",
+          "evidence_scope": "latest_real_pair",
+          "actual_visual_interval": [
+            14.014,
+            15.015
+          ],
+          "representative_pair_id": 7,
+          "visual_tokens": 48
+        },
+        "result": {
+          "question": "Briefly describe what is happening most recently.",
+          "answer": "A person is peeling off the backing of a paper towel.",
+          "generated_ids": [
+            32,
+            1637,
+            369,
+            1016,
+            19447,
+            974,
+            279,
+            23891,
+            314,
+            264,
+            5392,
+            41198,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "input_tokens": 78,
+          "visual_tokens": 48,
+          "blocks": [
+            {
+              "first": 7,
+              "last": 7,
+              "begin": 14.014,
+              "end": 15.015,
+              "center": 14.5145,
+              "leaves": 1,
+              "depth": 0,
+              "grid": [
+                6,
+                8
+              ],
+              "tokens": 48,
+              "tensor_bytes": 197568,
+              "exact_pair": true
+            }
+          ],
+          "positions_use_survivor_coordinates": true,
+          "grid_span_preserved": true,
+          "sequence_axis_contiguous": true,
+          "projected_mass_not_used_in_attention": true
+        },
+        "epoch": 3,
+        "received_horizon": 15.015,
+        "encoded_horizon": 15.015,
+        "eof_unencoded_frame": null
+      },
+      "status": {
+        "received_frames": 16,
+        "encoded_pairs": 8,
+        "last_received_id": 450,
+        "last_received_pts": 15.015,
+        "encoded_horizon": 15.015,
+        "pending_frame_id": null,
+        "pending_rgb_bytes": 0,
+        "capacity_resets": 3,
+        "explicit_resets": 0,
+        "epoch": 3,
+        "current_in_epoch": true,
+        "finished": false,
+        "dropped_odd_eof_frame": null,
+        "bank": {
+          "tokens": 144,
+          "tensor_bytes": 592704,
+          "visual_tensor_bytes": 592704,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            },
+            {
+              "group_first": 1,
+              "group_last": 6,
+              "group_begin": 2.002,
+              "group_end": 13.013,
+              "representative": {
+                "first": 6,
+                "last": 6,
+                "begin": 12.012,
+                "end": 13.013,
+                "center": 12.5125,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 7,
+            "last": 7,
+            "begin": 14.014,
+            "end": 15.015,
+            "center": 14.5145,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 7,
+          "open_group_begin": 14.014,
+          "events_received": 8,
+          "groups_started": 2,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 660,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        },
+        "main": {
+          "accepted_frames": 4,
+          "encoded_real_frames": 4,
+          "pending_frame_id": null,
+          "last_received_id": 450,
+          "last_encoded_id": 450,
+          "last_encoded_pts": 15.015,
+          "seen_tokens": 117,
+          "next_rope_position": 37,
+          "vision_encodings": 2,
+          "pending_rgb_bytes": 0,
+          "finished": false,
+          "invalid": false,
+          "closed": false,
+          "reference_mode": "fp32_ieee_math"
+        }
+      },
+      "main_and_bank_unchanged": true
+    },
+    {
+      "kind": "answer",
+      "trigger": "final",
+      "result": {
+        "model_called": true,
+        "selection": {
+          "reason": "selected",
+          "evidence_scope": "latest_real_pair",
+          "actual_visual_interval": [
+            20.02,
+            21.021
+          ],
+          "representative_pair_id": 10,
+          "visual_tokens": 48
+        },
+        "result": {
+          "question": "Briefly describe what is happening most recently.",
+          "answer": "A hand is seen wiping down a mirror.",
+          "generated_ids": [
+            32,
+            1375,
+            369,
+            3753,
+            80269,
+            1441,
+            264,
+            17312,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "input_tokens": 78,
+          "visual_tokens": 48,
+          "blocks": [
+            {
+              "first": 10,
+              "last": 10,
+              "begin": 20.02,
+              "end": 21.021,
+              "center": 20.5205,
+              "leaves": 1,
+              "depth": 0,
+              "grid": [
+                6,
+                8
+              ],
+              "tokens": 48,
+              "tensor_bytes": 197568,
+              "exact_pair": true
+            }
+          ],
+          "positions_use_survivor_coordinates": true,
+          "grid_span_preserved": true,
+          "sequence_axis_contiguous": true,
+          "projected_mass_not_used_in_attention": true
+        },
+        "epoch": 5,
+        "received_horizon": 22.022,
+        "encoded_horizon": 21.021,
+        "eof_unencoded_frame": {
+          "frame_id": 660,
+          "timestamp": 22.022,
+          "reason": "odd_sample_no_synthetic_pair"
+        }
+      },
+      "status": {
+        "received_frames": 23,
+        "encoded_pairs": 11,
+        "last_received_id": 660,
+        "last_received_pts": 22.022,
+        "encoded_horizon": 21.021,
+        "pending_frame_id": null,
+        "pending_rgb_bytes": 0,
+        "capacity_resets": 5,
+        "explicit_resets": 0,
+        "epoch": 5,
+        "current_in_epoch": true,
+        "finished": true,
+        "dropped_odd_eof_frame": {
+          "frame_id": 660,
+          "timestamp": 22.022,
+          "reason": "odd_sample_no_synthetic_pair"
+        },
+        "bank": {
+          "tokens": 144,
+          "tensor_bytes": 592704,
+          "visual_tensor_bytes": 592704,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            },
+            {
+              "group_first": 1,
+              "group_last": 6,
+              "group_begin": 2.002,
+              "group_end": 13.013,
+              "representative": {
+                "first": 6,
+                "last": 6,
+                "begin": 12.012,
+                "end": 13.013,
+                "center": 12.5125,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 10,
+            "last": 10,
+            "begin": 20.02,
+            "end": 21.021,
+            "center": 20.5205,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 7,
+          "open_group_begin": 14.014,
+          "events_received": 11,
+          "groups_started": 2,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 660,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        },
+        "main": {
+          "accepted_frames": 2,
+          "encoded_real_frames": 2,
+          "pending_frame_id": null,
+          "last_received_id": 630,
+          "last_encoded_id": 630,
+          "last_encoded_pts": 21.021,
+          "seen_tokens": 60,
+          "next_rope_position": 20,
+          "vision_encodings": 1,
+          "pending_rgb_bytes": 0,
+          "finished": false,
+          "invalid": false,
+          "closed": false,
+          "reference_mode": "fp32_ieee_math"
+        }
+      },
+      "main_and_bank_unchanged": true
+    },
+    {
+      "kind": "answer",
+      "trigger": "first_closed_group",
+      "result": {
+        "model_called": true,
+        "selection": {
+          "reason": "selected",
+          "evidence_scope": "representative_of_closed_group",
+          "actual_visual_interval": [
+            0.0,
+            1.001
+          ],
+          "representative_pair_id": 0,
+          "visual_tokens": 48,
+          "group_interval": [
+            0.0,
+            1.001
+          ],
+          "whole_group_content_not_guaranteed": true
+        },
+        "result": {
+          "question": "Briefly describe the visible action in these frames.",
+          "answer": "A person is pouring coffee from a black carafe into a metal cup.",
+          "generated_ids": [
+            32,
+            1637,
+            369,
+            48716,
+            10482,
+            494,
+            264,
+            3565,
+            1740,
+            5468,
+            1083,
+            264,
+            9041,
+            10212,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "input_tokens": 78,
+          "visual_tokens": 48,
+          "blocks": [
+            {
+              "first": 0,
+              "last": 0,
+              "begin": 0.0,
+              "end": 1.001,
+              "center": 0.5005,
+              "leaves": 1,
+              "depth": 0,
+              "grid": [
+                6,
+                8
+              ],
+              "tokens": 48,
+              "tensor_bytes": 197568,
+              "exact_pair": true
+            }
+          ],
+          "positions_use_survivor_coordinates": true,
+          "grid_span_preserved": true,
+          "sequence_axis_contiguous": true,
+          "projected_mass_not_used_in_attention": true
+        },
+        "epoch": 5,
+        "received_horizon": 22.022,
+        "encoded_horizon": 21.021,
+        "eof_unencoded_frame": {
+          "frame_id": 660,
+          "timestamp": 22.022,
+          "reason": "odd_sample_no_synthetic_pair"
+        }
+      },
+      "status": {
+        "received_frames": 23,
+        "encoded_pairs": 11,
+        "last_received_id": 660,
+        "last_received_pts": 22.022,
+        "encoded_horizon": 21.021,
+        "pending_frame_id": null,
+        "pending_rgb_bytes": 0,
+        "capacity_resets": 5,
+        "explicit_resets": 0,
+        "epoch": 5,
+        "current_in_epoch": true,
+        "finished": true,
+        "dropped_odd_eof_frame": {
+          "frame_id": 660,
+          "timestamp": 22.022,
+          "reason": "odd_sample_no_synthetic_pair"
+        },
+        "bank": {
+          "tokens": 144,
+          "tensor_bytes": 592704,
+          "visual_tensor_bytes": 592704,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            },
+            {
+              "group_first": 1,
+              "group_last": 6,
+              "group_begin": 2.002,
+              "group_end": 13.013,
+              "representative": {
+                "first": 6,
+                "last": 6,
+                "begin": 12.012,
+                "end": 13.013,
+                "center": 12.5125,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 10,
+            "last": 10,
+            "begin": 20.02,
+            "end": 21.021,
+            "center": 20.5205,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 7,
+          "open_group_begin": 14.014,
+          "events_received": 11,
+          "groups_started": 2,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 660,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        },
+        "main": {
+          "accepted_frames": 2,
+          "encoded_real_frames": 2,
+          "pending_frame_id": null,
+          "last_received_id": 630,
+          "last_encoded_id": 630,
+          "last_encoded_pts": 21.021,
+          "seen_tokens": 60,
+          "next_rope_position": 20,
+          "vision_encodings": 1,
+          "pending_rgb_bytes": 0,
+          "finished": false,
+          "invalid": false,
+          "closed": false,
+          "reference_mode": "fp32_ieee_math"
+        }
+      },
+      "main_and_bank_unchanged": true
+    }
+  ],
+  "checks": [
+    {
+      "target": 0.5,
+      "selection": {
+        "reason": "selected",
+        "evidence_scope": "retained_real_pair_at_target",
+        "actual_visual_interval": [
+          0.0,
+          1.001
+        ],
+        "representative_pair_id": 0,
+        "visual_tokens": 48
+      },
+      "model_called": false
+    },
+    {
+      "target": 121.021,
+      "selection": {
+        "model_called": false,
+        "reason": "beyond_encoded_horizon"
+      },
+      "model_called": false
+    }
+  ],
+  "input_identity": {
+    "frames": [
+      {
+        "source_frame_id": 0,
+        "source_pts": 0.0,
+        "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+        "canvas_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8"
+      },
+      {
+        "source_frame_id": 30,
+        "source_pts": 1.001,
+        "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+        "canvas_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741"
+      },
+      {
+        "source_frame_id": 60,
+        "source_pts": 2.002,
+        "source_rgb_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+        "canvas_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632"
+      },
+      {
+        "source_frame_id": 90,
+        "source_pts": 3.003,
+        "source_rgb_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+        "canvas_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47"
+      },
+      {
+        "source_frame_id": 120,
+        "source_pts": 4.004,
+        "source_rgb_sha256": "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5",
+        "canvas_sha256": "b8c72712d1b7199b18c6155e8fa6441326875042518c1e0b9801b8bb4a2fbfe5"
+      },
+      {
+        "source_frame_id": 150,
+        "source_pts": 5.005,
+        "source_rgb_sha256": "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3",
+        "canvas_sha256": "0484d706b60c78e32d38ae5065afa9ac9aa0aebbce963ef9f0ffc4c63c5286e3"
+      },
+      {
+        "source_frame_id": 180,
+        "source_pts": 6.006,
+        "source_rgb_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+        "canvas_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15"
+      },
+      {
+        "source_frame_id": 210,
+        "source_pts": 7.007,
+        "source_rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885",
+        "canvas_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+      },
+      {
+        "source_frame_id": 240,
+        "source_pts": 8.008,
+        "source_rgb_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063",
+        "canvas_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063"
+      },
+      {
+        "source_frame_id": 270,
+        "source_pts": 9.009,
+        "source_rgb_sha256": "20c5e692310b97e4f092d05907d29db592993456fec0d68b0f9c06b5e7fd7eaa",
+        "canvas_sha256": "20c5e692310b97e4f092d05907d29db592993456fec0d68b0f9c06b5e7fd7eaa"
+      },
+      {
+        "source_frame_id": 300,
+        "source_pts": 10.01,
+        "source_rgb_sha256": "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496",
+        "canvas_sha256": "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496"
+      },
+      {
+        "source_frame_id": 330,
+        "source_pts": 11.011,
+        "source_rgb_sha256": "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505",
+        "canvas_sha256": "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505"
+      },
+      {
+        "source_frame_id": 360,
+        "source_pts": 12.012,
+        "source_rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962",
+        "canvas_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+      },
+      {
+        "source_frame_id": 390,
+        "source_pts": 13.013,
+        "source_rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9",
+        "canvas_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+      },
+      {
+        "source_frame_id": 420,
+        "source_pts": 14.014,
+        "source_rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371",
+        "canvas_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+      },
+      {
+        "source_frame_id": 450,
+        "source_pts": 15.015,
+        "source_rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244",
+        "canvas_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+      },
+      {
+        "source_frame_id": 480,
+        "source_pts": 16.016,
+        "source_rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+        "canvas_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+      },
+      {
+        "source_frame_id": 510,
+        "source_pts": 17.017,
+        "source_rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70",
+        "canvas_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+      },
+      {
+        "source_frame_id": 540,
+        "source_pts": 18.018,
+        "source_rgb_sha256": "2331e28fba920a75511adca756a0861f0deebc9282a9d1b6044ecc718bd77089",
+        "canvas_sha256": "2331e28fba920a75511adca756a0861f0deebc9282a9d1b6044ecc718bd77089"
+      },
+      {
+        "source_frame_id": 570,
+        "source_pts": 19.019,
+        "source_rgb_sha256": "f32486eeee3dfee0be2db07c28bb3808fdb3c2c34280f1ea4fa924cdb307e8b0",
+        "canvas_sha256": "f32486eeee3dfee0be2db07c28bb3808fdb3c2c34280f1ea4fa924cdb307e8b0"
+      },
+      {
+        "source_frame_id": 600,
+        "source_pts": 20.02,
+        "source_rgb_sha256": "fa39c3ddccb1fc1de87a8f781812207505408fb99b3caa8feb1b4e11217fe4b4",
+        "canvas_sha256": "fa39c3ddccb1fc1de87a8f781812207505408fb99b3caa8feb1b4e11217fe4b4"
+      },
+      {
+        "source_frame_id": 630,
+        "source_pts": 21.021,
+        "source_rgb_sha256": "f0fcd3c1c6cac921a63ccec718725420c021c55016cd51fe622a1affb16f330b",
+        "canvas_sha256": "f0fcd3c1c6cac921a63ccec718725420c021c55016cd51fe622a1affb16f330b"
+      },
+      {
+        "source_frame_id": 660,
+        "source_pts": 22.022,
+        "source_rgb_sha256": "2538f2d023fdf93144d2895c769ab5bb7c95eb340cca610f5de0e97ede7cadb5",
+        "canvas_sha256": "2538f2d023fdf93144d2895c769ab5bb7c95eb340cca610f5de0e97ede7cadb5"
+      }
+    ],
+    "pair_ledgers": [
+      {
+        "frame_ids": [
+          0,
+          30
+        ],
+        "timestamps": [
+          0.0,
+          1.001
+        ],
+        "temporal_mean": 0.5005,
+        "rendered_timestamp": "0.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          15,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          60,
+          90
+        ],
+        "timestamps": [
+          2.002,
+          3.003
+        ],
+        "temporal_mean": 2.5025,
+        "rendered_timestamp": "2.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          17,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          120,
+          150
+        ],
+        "timestamps": [
+          4.004,
+          5.005
+        ],
+        "temporal_mean": 4.5045,
+        "rendered_timestamp": "4.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          19,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          180,
+          210
+        ],
+        "timestamps": [
+          6.006,
+          7.007
+        ],
+        "temporal_mean": 6.5065,
+        "rendered_timestamp": "6.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          21,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<6.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          240,
+          270
+        ],
+        "timestamps": [
+          8.008,
+          9.009
+        ],
+        "temporal_mean": 8.5085,
+        "rendered_timestamp": "8.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          23,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<8.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          300,
+          330
+        ],
+        "timestamps": [
+          10.01,
+          11.011
+        ],
+        "temporal_mean": 10.5105,
+        "rendered_timestamp": "10.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          16,
+          15,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<10.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          360,
+          390
+        ],
+        "timestamps": [
+          12.012,
+          13.013
+        ],
+        "temporal_mean": 12.5125,
+        "rendered_timestamp": "12.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          16,
+          17,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<12.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          420,
+          450
+        ],
+        "timestamps": [
+          14.014,
+          15.015
+        ],
+        "temporal_mean": 14.5145,
+        "rendered_timestamp": "14.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          16,
+          19,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<14.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          480,
+          510
+        ],
+        "timestamps": [
+          16.016,
+          17.017
+        ],
+        "temporal_mean": 16.5165,
+        "rendered_timestamp": "16.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          16,
+          21,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<16.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          540,
+          570
+        ],
+        "timestamps": [
+          18.018,
+          19.019
+        ],
+        "temporal_mean": 18.5185,
+        "rendered_timestamp": "18.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          16,
+          23,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<18.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      },
+      {
+        "frame_ids": [
+          600,
+          630
+        ],
+        "timestamps": [
+          20.02,
+          21.021
+        ],
+        "temporal_mean": 20.5205,
+        "rendered_timestamp": "20.5",
+        "synthetic_padding": false,
+        "grid": [
+          [
+            1,
+            12,
+            16
+          ]
+        ],
+        "token_ids": [
+          27,
+          17,
+          15,
+          13,
+          20,
+          6283,
+          29,
+          248053,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248057,
+          248054
+        ],
+        "block_text": "<20.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+      }
+    ],
+    "capacity_reset_pair_ids": [
+      3,
+      5,
+      7,
+      9,
+      11
+    ],
+    "odd_eof_frame": {
+      "frame_id": 660,
+      "timestamp": 22.022,
+      "reason": "odd_sample_no_synthetic_pair"
+    }
+  },
+  "updates": [
+    {
+      "encoded_pairs": 1,
+      "source_pts": 1.001,
+      "feature_sha256": "d2d0de334cc58c9461edabeb25539d6395745db3d2d01ef261d286d7c96bc110",
+      "group_update": {
+        "processed_pair": 0,
+        "adjacent_pair_distance": null,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "visual_tensor_bytes": 197568,
+          "detector_tensor_bytes": 0,
+          "groups": [],
+          "current": {
+            "first": 0,
+            "last": 0,
+            "begin": 0.0,
+            "end": 1.001,
+            "center": 0.5005,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 0,
+          "open_group_begin": 0.0,
+          "events_received": 1,
+          "groups_started": 0,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 2,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": null
+    },
+    {
+      "encoded_pairs": 2,
+      "source_pts": 3.003,
+      "feature_sha256": "4b2e401e2c2796f482cab1d988a0d59e79a85efa0cdcfd5b56126dac6ef91b18",
+      "group_update": {
+        "processed_pair": 1,
+        "adjacent_pair_distance": 0.07662361860275269,
+        "closed_old_group": true,
+        "status": {
+          "tokens": 96,
+          "tensor_bytes": 395136,
+          "visual_tensor_bytes": 395136,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 1,
+            "last": 1,
+            "begin": 2.002,
+            "end": 3.003,
+            "center": 2.5025,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 1,
+          "open_group_begin": 2.002,
+          "events_received": 2,
+          "groups_started": 1,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 326,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": null
+    },
+    {
+      "encoded_pairs": 3,
+      "source_pts": 5.005,
+      "feature_sha256": "9186fc0b82008d1a05c21c58514a08e9f6a33ffde9e83d40b364e325ed5d9111",
+      "group_update": {
+        "processed_pair": 2,
+        "adjacent_pair_distance": 0.010600626468658447,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 96,
+          "tensor_bytes": 395136,
+          "visual_tensor_bytes": 395136,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 2,
+            "last": 2,
+            "begin": 4.004,
+            "end": 5.005,
+            "center": 4.5045,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 1,
+          "open_group_begin": 2.002,
+          "events_received": 3,
+          "groups_started": 1,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 326,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": {
+        "reason": "capacity",
+        "epoch": 1,
+        "bank_unchanged": true,
+        "main_seen_tokens": 0
+      }
+    },
+    {
+      "encoded_pairs": 4,
+      "source_pts": 7.007,
+      "feature_sha256": "f5e54ce16266666e2eef02b3ef9985177356050fa2ff399144de71a972a9de71",
+      "group_update": {
+        "processed_pair": 3,
+        "adjacent_pair_distance": 0.015258431434631348,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 96,
+          "tensor_bytes": 395136,
+          "visual_tensor_bytes": 395136,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 3,
+            "last": 3,
+            "begin": 6.006,
+            "end": 7.007,
+            "center": 6.5065,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 1,
+          "open_group_begin": 2.002,
+          "events_received": 4,
+          "groups_started": 1,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 326,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": null
+    },
+    {
+      "encoded_pairs": 5,
+      "source_pts": 9.009,
+      "feature_sha256": "4c112642b4cc3e6a8947dbaf78692e5662902d9fa65b073e695a785070ac8984",
+      "group_update": {
+        "processed_pair": 4,
+        "adjacent_pair_distance": 0.012409090995788574,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 96,
+          "tensor_bytes": 395136,
+          "visual_tensor_bytes": 395136,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 4,
+            "last": 4,
+            "begin": 8.008,
+            "end": 9.009,
+            "center": 8.5085,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 1,
+          "open_group_begin": 2.002,
+          "events_received": 5,
+          "groups_started": 1,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 326,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": {
+        "reason": "capacity",
+        "epoch": 2,
+        "bank_unchanged": true,
+        "main_seen_tokens": 0
+      }
+    },
+    {
+      "encoded_pairs": 6,
+      "source_pts": 11.011,
+      "feature_sha256": "7b76b541324d59373fc50cd3e3c4c33359e37c918d87826467f08878986f9348",
+      "group_update": {
+        "processed_pair": 5,
+        "adjacent_pair_distance": 0.010481834411621094,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 96,
+          "tensor_bytes": 395136,
+          "visual_tensor_bytes": 395136,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 5,
+            "last": 5,
+            "begin": 10.01,
+            "end": 11.011,
+            "center": 10.5105,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 1,
+          "open_group_begin": 2.002,
+          "events_received": 6,
+          "groups_started": 1,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 326,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": null
+    },
+    {
+      "encoded_pairs": 7,
+      "source_pts": 13.013,
+      "feature_sha256": "d6634cddb8009758b09d4f987f9de260f890cd5432b8c1c453168b924f2ba1ac",
+      "group_update": {
+        "processed_pair": 6,
+        "adjacent_pair_distance": 0.02707195281982422,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 96,
+          "tensor_bytes": 395136,
+          "visual_tensor_bytes": 395136,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 6,
+            "last": 6,
+            "begin": 12.012,
+            "end": 13.013,
+            "center": 12.5125,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 1,
+          "open_group_begin": 2.002,
+          "events_received": 7,
+          "groups_started": 1,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 326,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": {
+        "reason": "capacity",
+        "epoch": 3,
+        "bank_unchanged": true,
+        "main_seen_tokens": 0
+      }
+    },
+    {
+      "encoded_pairs": 8,
+      "source_pts": 15.015,
+      "feature_sha256": "91daee32d90877c7f4e060fc8d16ae63518193dc28cd96abda34d35f8dec3eea",
+      "group_update": {
+        "processed_pair": 7,
+        "adjacent_pair_distance": 0.09134548902511597,
+        "closed_old_group": true,
+        "status": {
+          "tokens": 144,
+          "tensor_bytes": 592704,
+          "visual_tensor_bytes": 592704,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            },
+            {
+              "group_first": 1,
+              "group_last": 6,
+              "group_begin": 2.002,
+              "group_end": 13.013,
+              "representative": {
+                "first": 6,
+                "last": 6,
+                "begin": 12.012,
+                "end": 13.013,
+                "center": 12.5125,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 7,
+            "last": 7,
+            "begin": 14.014,
+            "end": 15.015,
+            "center": 14.5145,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 7,
+          "open_group_begin": 14.014,
+          "events_received": 8,
+          "groups_started": 2,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 660,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": null
+    },
+    {
+      "encoded_pairs": 9,
+      "source_pts": 17.017,
+      "feature_sha256": "71cf94a9f004bdf528bf4ebdba5427b5691a69b101ea11cac8f9d7a821c42f64",
+      "group_update": {
+        "processed_pair": 8,
+        "adjacent_pair_distance": 0.02003568410873413,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 144,
+          "tensor_bytes": 592704,
+          "visual_tensor_bytes": 592704,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            },
+            {
+              "group_first": 1,
+              "group_last": 6,
+              "group_begin": 2.002,
+              "group_end": 13.013,
+              "representative": {
+                "first": 6,
+                "last": 6,
+                "begin": 12.012,
+                "end": 13.013,
+                "center": 12.5125,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 8,
+            "last": 8,
+            "begin": 16.016,
+            "end": 17.017,
+            "center": 16.5165,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 7,
+          "open_group_begin": 14.014,
+          "events_received": 9,
+          "groups_started": 2,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 660,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": {
+        "reason": "capacity",
+        "epoch": 4,
+        "bank_unchanged": true,
+        "main_seen_tokens": 0
+      }
+    },
+    {
+      "encoded_pairs": 10,
+      "source_pts": 19.019,
+      "feature_sha256": "2a7238f303a0e14669b03609ef885cd35839f2c5b0231276ca4832ae93294848",
+      "group_update": {
+        "processed_pair": 9,
+        "adjacent_pair_distance": 0.009523570537567139,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 144,
+          "tensor_bytes": 592704,
+          "visual_tensor_bytes": 592704,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            },
+            {
+              "group_first": 1,
+              "group_last": 6,
+              "group_begin": 2.002,
+              "group_end": 13.013,
+              "representative": {
+                "first": 6,
+                "last": 6,
+                "begin": 12.012,
+                "end": 13.013,
+                "center": 12.5125,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 9,
+            "last": 9,
+            "begin": 18.018,
+            "end": 19.019,
+            "center": 18.5185,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 7,
+          "open_group_begin": 14.014,
+          "events_received": 10,
+          "groups_started": 2,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 660,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": null
+    },
+    {
+      "encoded_pairs": 11,
+      "source_pts": 21.021,
+      "feature_sha256": "5065b2aa59ca82d8da976ab64c2132aa110d54768c52440aa90f2f473651005a",
+      "group_update": {
+        "processed_pair": 10,
+        "adjacent_pair_distance": 0.014940619468688965,
+        "closed_old_group": false,
+        "status": {
+          "tokens": 144,
+          "tensor_bytes": 592704,
+          "visual_tensor_bytes": 592704,
+          "detector_tensor_bytes": 0,
+          "groups": [
+            {
+              "group_first": 0,
+              "group_last": 0,
+              "group_begin": 0.0,
+              "group_end": 1.001,
+              "representative": {
+                "first": 0,
+                "last": 0,
+                "begin": 0.0,
+                "end": 1.001,
+                "center": 0.5005,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            },
+            {
+              "group_first": 1,
+              "group_last": 6,
+              "group_begin": 2.002,
+              "group_end": 13.013,
+              "representative": {
+                "first": 6,
+                "last": 6,
+                "begin": 12.012,
+                "end": 13.013,
+                "center": 12.5125,
+                "leaves": 1,
+                "depth": 0,
+                "grid": [
+                  6,
+                  8
+                ],
+                "tokens": 48,
+                "tensor_bytes": 197568,
+                "exact_pair": true
+              },
+              "scope": "one_real_pair_sample_not_complete_group_evidence"
+            }
+          ],
+          "current": {
+            "first": 10,
+            "last": 10,
+            "begin": 20.02,
+            "end": 21.021,
+            "center": 20.5205,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "open_group_first": 7,
+          "open_group_begin": 14.014,
+          "events_received": 11,
+          "groups_started": 2,
+          "evicted_groups": 0,
+          "evicted_pairs": 0,
+          "metadata_json_bytes": 660,
+          "group_span_does_not_imply_exact_evidence": true,
+          "oracle_diagnostic": false
+        }
+      },
+      "reset": {
+        "reason": "capacity",
+        "epoch": 5,
+        "bank_unchanged": true,
+        "main_seen_tokens": 0
+      }
+    }
+  ],
+  "final": {
+    "received_frames": 23,
+    "encoded_pairs": 11,
+    "last_received_id": 660,
+    "last_received_pts": 22.022,
+    "encoded_horizon": 21.021,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "capacity_resets": 5,
+    "explicit_resets": 0,
+    "epoch": 5,
+    "current_in_epoch": true,
+    "finished": true,
+    "dropped_odd_eof_frame": {
+      "frame_id": 660,
+      "timestamp": 22.022,
+      "reason": "odd_sample_no_synthetic_pair"
+    },
+    "bank": {
+      "tokens": 144,
+      "tensor_bytes": 592704,
+      "visual_tensor_bytes": 592704,
+      "detector_tensor_bytes": 0,
+      "groups": [
+        {
+          "group_first": 0,
+          "group_last": 0,
+          "group_begin": 0.0,
+          "group_end": 1.001,
+          "representative": {
+            "first": 0,
+            "last": 0,
+            "begin": 0.0,
+            "end": 1.001,
+            "center": 0.5005,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "scope": "one_real_pair_sample_not_complete_group_evidence"
+        },
+        {
+          "group_first": 1,
+          "group_last": 6,
+          "group_begin": 2.002,
+          "group_end": 13.013,
+          "representative": {
+            "first": 6,
+            "last": 6,
+            "begin": 12.012,
+            "end": 13.013,
+            "center": 12.5125,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          "scope": "one_real_pair_sample_not_complete_group_evidence"
+        }
+      ],
+      "current": {
+        "first": 10,
+        "last": 10,
+        "begin": 20.02,
+        "end": 21.021,
+        "center": 20.5205,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": true
+      },
+      "open_group_first": 7,
+      "open_group_begin": 14.014,
+      "events_received": 11,
+      "groups_started": 2,
+      "evicted_groups": 0,
+      "evicted_pairs": 0,
+      "metadata_json_bytes": 660,
+      "group_span_does_not_imply_exact_evidence": true,
+      "oracle_diagnostic": false
+    },
+    "main": {
+      "accepted_frames": 2,
+      "encoded_real_frames": 2,
+      "pending_frame_id": null,
+      "last_received_id": 630,
+      "last_encoded_id": 630,
+      "last_encoded_pts": 21.021,
+      "seen_tokens": 60,
+      "next_rope_position": 20,
+      "vision_encodings": 1,
+      "pending_rgb_bytes": 0,
+      "finished": false,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    }
+  },
+  "cpu_feature_temporary_estimate_peak_bytes": 2181440,
+  "rgb_working_estimate_peak_bytes": 737280,
+  "no_qa_visual_reencoding": true,
+  "default_integration": false,
+  "scope": "Finite sequential natural file entry, not wall-clock realtime or unlimited-history accuracy",
+  "peak_allocated_gib": 3.2492804527282715,
+  "peak_reserved_gib": 3.58203125,
+  "wall_seconds_including_load": 7.597719899998992
+}
