@@ -1,0 +1,21 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"kind": "current_window_1", "encoded_pts": 3.0, "answer": " Beliau campion收获的披萨 father Purch Noti北京市海淀区 мастер.paint每一件的美国urersWS在世 زمان", "model_called": true, "reason": null, "evidence_interval": [2.0, 3.0]}
+{"kind": "current_window_2", "encoded_pts": 3.0, "answer": " Beliau_PHASE乌龙油品(Field土建非常に人格_corneruristic Schwester schnellen tutor₩ bertambahเป็นเวลา", "model_called": true, "reason": null, "evidence_interval": [0.0, 3.0]}
+{"kind": "current_window_3", "encoded_pts": 3.0, "answer": " Beliau_PHASE乌龙油品(Field土建非常に人格_corneruristic Schwester schnellen tutor₩ bertambahเป็นเวลา", "model_called": true, "reason": null, "evidence_interval": [0.0, 3.0]}
+{"kind": "current_window_1", "encoded_pts": 7.0, "answer": " Beliau campion收获的披萨 father เม_rreyes可以是 постав elér西安iels\tac브리 الفلسطينية", "model_called": true, "reason": null, "evidence_interval": [6.0, 7.0]}
+{"kind": "current_window_2", "encoded_pts": 7.0, "answer": " Beliau campion收获的披萨 lapseOppโค้ช созн的所有FASTgröße\tdraw разработке गर् Octobre.getBounds", "model_called": true, "reason": null, "evidence_interval": [4.0, 7.0]}
+{"kind": "current_window_3", "encoded_pts": 7.0, "answer": " Beliau campion收获的披萨 father เม不做 постав elér西安iels\tac브리 الفلسطينيةjan shovel", "model_called": true, "reason": null, "evidence_interval": [2.0, 7.0]}
+{"kind": "current_window_1", "encoded_pts": 11.0, "answer": " Beliau_PHASE乌龙油品_crypto的种子 pasal找工作 نشر bubble Stamina Timothy 논문 보辱骂স্য", "model_called": true, "reason": null, "evidence_interval": [10.0, 11.0]}
+{"kind": "current_window_2", "encoded_pts": 11.0, "answer": " Beliau_PHASE乌龙油品(Field土建非常に人格anciaperturaсіб르 besluit raff/company Rooney", "model_called": true, "reason": null, "evidence_interval": [8.0, 11.0]}
+{"kind": "current_window_3", "encoded_pts": 11.0, "answer": " Beliau campion收获的披萨 father เม不做 постав elérNos务实āvवे rampantლე Random", "model_called": true, "reason": null, "evidence_interval": [6.0, 11.0]}
+{"kind": "coarse_short1_long2", "encoded_pts": 11.0, "answer": " Beliau campion收获的披萨 father Purch Noti北京市海淀区 мастер.paint每一件的美国urersWS在世 زمان", "model_called": true, "reason": null, "evidence_interval": [0.0, 7.0]}
+{"kind": "coarse_short2_long1", "encoded_pts": 11.0, "answer": " Beliau campion收获的披萨 father Purch Noti北京市海淀区 мастер.paint每一件的美国urersWS在世 زمان", "model_called": true, "reason": null, "evidence_interval": [0.0, 7.0]}
+{"kind": "exact_old_0.5", "encoded_pts": 11.0, "answer": null, "model_called": false, "reason": "compressed_only_no_exact_pair", "evidence_interval": null}
+{"kind": "future_99", "encoded_pts": 11.0, "answer": null, "model_called": false, "reason": "beyond_encoded_horizon", "evidence_interval": null}
+{"kind": "current_after_reset", "encoded_pts": null, "answer": null, "model_called": false, "reason": "no_current_pair_in_epoch", "evidence_interval": null}
+{"kind": "coarse_after_reset", "encoded_pts": null, "answer": " Beliau campion收获的披萨 father Purch Noti北京市海淀区 мастер.paint每一件的美国urersWS在世 زمان", "model_called": true, "reason": null, "evidence_interval": [0.0, 7.0]}
+{"kind": "unencoded_time_12.0", "encoded_pts": null, "answer": null, "model_called": false, "reason": "beyond_encoded_horizon", "evidence_interval": null}
+{"kind": "unencoded_time_14.0", "encoded_pts": 13.0, "answer": null, "model_called": false, "reason": "beyond_encoded_horizon", "evidence_interval": null}
+{"kind": "current_after_resume", "encoded_pts": 15.0, "answer": " Beliau campion收获的披萨 lapseOppโค้ช созн的所有FASTgröße\tdraw разработке गर् Защ Hình", "model_called": true, "reason": null, "evidence_interval": [12.0, 15.0]}
+{"kind": "coarse_after_resume", "encoded_pts": 15.0, "answer": " Beliau campion收获的披萨 father เม_rreyes可以是對方的 widely дороже폴 BOOLEAN韶华 undercut", "model_called": true, "reason": null, "evidence_interval": [0.0, 11.0]}
+{"passed": true, "cpu_tests": 2, "vision": 8, "queries": 14, "resumed_to": 15.0, "gpu_loads": 0}

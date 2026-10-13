@@ -1,0 +1,14 @@
+test_compressed_coordinates_and_suffix_positions (__main__.Contracts.test_compressed_coordinates_and_suffix_positions) ... ok
+test_full_context_native_rope (__main__.Contracts.test_full_context_native_rope) ... ok
+test_full_prefill_matches_online_session_and_all_queries_are_isolated (__main__.Contracts.test_full_prefill_matches_online_session_and_all_queries_are_isolated) ... ok
+test_future_duplicate_invalid_inputs_are_rejected (__main__.Contracts.test_future_duplicate_invalid_inputs_are_rejected) ... ok
+test_long_short_budget_and_weighted_mean (__main__.Contracts.test_long_short_budget_and_weighted_mean) ... ok
+test_ownership_and_removed_tensor_release (__main__.Contracts.test_ownership_and_removed_tensor_release) ... ok
+test_single_spatial_merge_against_pinned_reference (__main__.Contracts.test_single_spatial_merge_against_pinned_reference) ... ok
+test_temporal_pooling_is_lossy (__main__.Contracts.test_temporal_pooling_is_lossy) ... ok
+test_zero_vectors_are_finite (__main__.Contracts.test_zero_vectors_are_finite) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.716s
+
+OK
