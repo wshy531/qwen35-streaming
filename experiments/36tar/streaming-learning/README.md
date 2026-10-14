@@ -121,6 +121,8 @@ $live = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B', '--device', 'Integr
 
 完整日志见 [修复回归](runs/live_sampling_fix_cpu_20261014_02/unittest.log) 与 [结果摘要](runs/live_sampling_fix_cpu_20261014_02/summary.json)。首次24项运行有一项缺失文件测试触发启动阶段超时，原失败日志保留在`runs/live_sampling_fix_cpu_20261014_01`；单项复测约0.5秒正常返回文件错误，最终完整复测也通过。未确定首次超时的确切原因，不据此声称消除了所有启动超时。
 
+合并目标分支最新提交后，持久CUDA环境再验45项全部通过，0失败/0错误/0跳过；见[发布前摘要](runs/live_sampling_delivery_20261014_01/summary.json)和[完整日志](runs/live_sampling_delivery_20261014_01/unittest.log)。可在`code/qwen35-streaming-s4`目录，用自己的Python环境运行`python -m unittest tests.test_live_source tests.test_capture_progress tests.test_playback tests.test_repeat_source -v`复现（含真实文件测试，需要PyAV）。
+
 另用UCF101三个真实原视频做修改前后对照，0.2/1FPS共六组配对符合预期：旧版剃须0.2FPS组首帧后误超时，新版收到5秒处后续帧；其他控制组帧/PTS/像素一致。见[独立验收方案及结果](diagnostics/capture_dataset_v1/方案.md)与[完整数据报告](runs/ucf101_capture_20261014_02/summary.json)。该验证只覆盖采集输入稳定性，未运行模型问答。
 
 ## 两分钟显式重复压力输入
