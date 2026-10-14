@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\AI_project\qwen35-streaming-fix-live-sampling-timeout\experiments\36tar\streaming-learning\diagnostics\ucf101_quality_v1\evaluate.py", line 291, in main
+    (preflight if args.stage=='preflight' else gpu)(args)
+  File "D:\AI_project\qwen35-streaming\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI_project\qwen35-streaming-fix-live-sampling-timeout\experiments\36tar\streaming-learning\diagnostics\ucf101_quality_v1\evaluate.py", line 226, in gpu
+    if free<5.5*2**30 or ram<1.5*2**30:raise RuntimeError('Direct-GPU-load resource guard refused load')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Direct-GPU-load resource guard refused load

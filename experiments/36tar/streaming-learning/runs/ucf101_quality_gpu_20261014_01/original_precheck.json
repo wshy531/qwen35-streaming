@@ -1,0 +1,6 @@
+{
+  "arm": "original",
+  "gpu_free_gib": 6.9326171875,
+  "ram_available_gib": 2.532642364501953,
+  "branch": "wshy/fix-live-sampling-timeout"
+}

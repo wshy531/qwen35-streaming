@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\AI_project\qwen35-streaming-fix-live-sampling-timeout\experiments\36tar\streaming-learning\diagnostics\ucf101_quality_v1\evaluate.py", line 24, in <module>
+    from scripts.fair_inputs import joined_pair_inputs
+ModuleNotFoundError: No module named 'scripts.fair_inputs'

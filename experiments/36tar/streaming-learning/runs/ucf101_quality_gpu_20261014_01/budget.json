@@ -1,0 +1,18 @@
+{
+  "model_loads": 2,
+  "questions_per_arm": 6,
+  "generated_per_arm": 144,
+  "answer_tokens": 24,
+  "original_vision_max": 6,
+  "original_language_max": 160,
+  "streaming_vision_max": 8,
+  "streaming_language_max": 180,
+  "max_tokens": 512,
+  "max_frames_per_video": 8,
+  "gpu_free_min_gib": 5.5,
+  "ram_available_after_import_min_gib": 1.5,
+  "conversion_free_min_gib": 2,
+  "wall_seconds": 600,
+  "precision": "fp32_ieee_math",
+  "load_policy": "direct GPU device_map; only one real model resident"
+}

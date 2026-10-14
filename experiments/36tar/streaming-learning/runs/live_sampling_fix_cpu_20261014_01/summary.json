@@ -1,0 +1,9 @@
+{
+  "tests": 24,
+  "failures": 1,
+  "errors": 0,
+  "passed": false,
+  "failed_test": "test_missing_file_worker_reports_error_and_closes",
+  "observed": "source_idle_timeout instead of source_error",
+  "followup": "isolated test and final 45-test suite passed; exact initial timeout cause not established"
+}
