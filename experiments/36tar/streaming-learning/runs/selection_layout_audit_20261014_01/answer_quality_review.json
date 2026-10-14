@@ -1,0 +1,1142 @@
+{
+  "all_original_answers_reviewed": true,
+  "rows": [
+    {
+      "case": "video_cat",
+      "condition": "raw96",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "raw96",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "first_actual",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "first_actual",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "first_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "first_source",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "first_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "first_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "last_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "last_source",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "manual_interpretation": "dog",
+      "expected": "cat",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "last_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "last_grid",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "manual_interpretation": "dog",
+      "expected": "cat",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "odd_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "odd_source",
+      "topic": "subject",
+      "raw_answer": "A cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "odd_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "odd_grid",
+      "topic": "subject",
+      "raw_answer": "A cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "even_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "even_source",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "even_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "even_grid",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "checker_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "checker_source",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "checker_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "checker_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "merged_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "merged_source",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "merged_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "merged_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "legacy_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "legacy_merged",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "legacy_odd",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "legacy_odd",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "black_photo",
+      "condition": "raw96",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "raw96",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "first_actual",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "first_actual",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "first_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "first_source",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "first_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "first_grid",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "last_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "last_source",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "last_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "last_grid",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "odd_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "odd_source",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "odd_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "odd_grid",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "even_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "even_source",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "even_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "even_grid",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "checker_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "checker_source",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "checker_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "checker_grid",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "merged_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "merged_source",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "merged_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "merged_grid",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "legacy_merged",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "legacy_merged",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "legacy_odd",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "legacy_odd",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "raw96",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "raw96",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "first_actual",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "first_actual",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "first_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "first_source",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "first_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "first_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "last_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "last_source",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "last_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "last_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "odd_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "odd_source",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "odd_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "odd_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "even_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "even_source",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "even_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "even_grid",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "checker_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "checker_source",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "checker_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "checker_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "merged_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "merged_source",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "merged_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "merged_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "legacy_merged",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "legacy_merged",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "legacy_odd",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "legacy_odd",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    }
+  ],
+  "metrics": {
+    "raw96": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "first_actual": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "first_source": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "first_grid": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "last_source": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 2,
+        "questions": 3
+      }
+    },
+    "last_grid": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 2,
+        "questions": 3
+      }
+    },
+    "odd_source": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "odd_grid": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "even_source": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "even_grid": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "checker_source": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "checker_grid": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "merged_source": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "merged_grid": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "legacy_merged": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "legacy_odd": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    }
+  },
+  "observations": [
+    "Old cat: raw96, complete first48, even-column48 and checker48 read dark and cat.",
+    "Old cat: odd-column48 and merged48 read light under both tested position modes and both sequence layouts.",
+    "First48 remains dark/cat when only one time-label token changes from actual0..1 to diagnostic0..3.",
+    "Last complete48 remains dark/dog; coarse subject failure is retained.",
+    "Both known repeated-still cat controls are correct in all16 arms."
+  ],
+  "limits": [
+    "Three known cases, no held-out or natural-motion generalization estimate.",
+    "Even columns and checker differ in selected feature values and temporal sampling, not proof that spatial coverage alone causes the change.",
+    "Reordering permutes feature values and positions together; it is a sequence-layout intervention, not a pure RoPE test.",
+    "Two applied-position schemes and one label-token intervention cannot eliminate all position or prompt effects.",
+    "No saliency map or object-localization proof; patch features contain contextual information.",
+    "Binary answers allow guessing; no long-horizon end-to-end memory benefit proved here."
+  ]
+}

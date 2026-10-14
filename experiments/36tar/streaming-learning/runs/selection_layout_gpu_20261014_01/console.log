@@ -1,0 +1,98 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 23929.00it/s]
+{"case": "video_cat", "condition": "raw96", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "raw96", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "first_actual", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "first_actual", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "first_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "first_source", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "first_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "first_grid", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "last_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "last_source", "topic": "subject", "answer": "A dog"}
+{"case": "video_cat", "condition": "last_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "last_grid", "topic": "subject", "answer": "A dog"}
+{"case": "video_cat", "condition": "odd_source", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "odd_source", "topic": "subject", "answer": "A cat"}
+{"case": "video_cat", "condition": "odd_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "odd_grid", "topic": "subject", "answer": "A cat"}
+{"case": "video_cat", "condition": "even_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "even_source", "topic": "subject", "answer": "A cat."}
+{"case": "video_cat", "condition": "even_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "even_grid", "topic": "subject", "answer": "A cat."}
+{"case": "video_cat", "condition": "checker_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "checker_source", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "checker_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "checker_grid", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "merged_source", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "merged_source", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "merged_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "merged_grid", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "legacy_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "legacy_merged", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "legacy_odd", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "legacy_odd", "topic": "subject", "answer": "Cat"}
+{"case": "black_photo", "condition": "raw96", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "raw96", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "first_actual", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "first_actual", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "first_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "first_source", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "first_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "first_grid", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "last_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "last_source", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "last_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "last_grid", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "odd_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "odd_source", "topic": "subject", "answer": "A cat."}
+{"case": "black_photo", "condition": "odd_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "odd_grid", "topic": "subject", "answer": "A cat."}
+{"case": "black_photo", "condition": "even_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "even_source", "topic": "subject", "answer": "A cat."}
+{"case": "black_photo", "condition": "even_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "even_grid", "topic": "subject", "answer": "A cat."}
+{"case": "black_photo", "condition": "checker_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "checker_source", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "checker_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "checker_grid", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "merged_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "merged_source", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "merged_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "merged_grid", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "legacy_merged", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "legacy_merged", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "legacy_odd", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "legacy_odd", "topic": "subject", "answer": "A cat."}
+{"case": "light_photo", "condition": "raw96", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "raw96", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "first_actual", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "first_actual", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "first_source", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "first_source", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "first_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "first_grid", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "last_source", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "last_source", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "last_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "last_grid", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "odd_source", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "odd_source", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "odd_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "odd_grid", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "even_source", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "even_source", "topic": "subject", "answer": "A cat."}
+{"case": "light_photo", "condition": "even_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "even_grid", "topic": "subject", "answer": "A cat."}
+{"case": "light_photo", "condition": "checker_source", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "checker_source", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "checker_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "checker_grid", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "merged_source", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "merged_source", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "merged_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "merged_grid", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "legacy_merged", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "legacy_merged", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "legacy_odd", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "legacy_odd", "topic": "subject", "answer": "Cat"}
