@@ -3,3 +3,4 @@
 # Windows-generated evidence retains CRLF bytes; treat CR as a line ending.
 runs/live_sampling_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 runs/ucf101_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/ucf101_*.console.log whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

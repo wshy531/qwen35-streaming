@@ -1,0 +1,21 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights:   0%|          | 1/473 [00:00<01:03,  7.39it/s]Loading weights:  24%|██▍       | 115/473 [00:00<00:00, 588.31it/s]Loading weights:  47%|████▋     | 223/473 [00:00<00:00, 796.02it/s]Loading weights:  71%|███████   | 337/473 [00:00<00:00, 921.70it/s]Loading weights:  95%|█████████▍| 448/473 [00:00<00:00, 902.76it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 817.51it/s]
+{"file": "v_BasketballDunk_g04_c03.avi", "arm": "original", "question": "What is the main action shown in the video? Answer in one short sentence.", "checkpoint": "early", "real_frames": 2, "answer": "A basketball player dribbles down the court.", "generated_ids": [32, 18659, 2693, 75857, 37481, 1441, 279, 5300, 13, 248046], "stop_reason": "eos", "wall_seconds": 1.0476831000123639}
+{"file": "v_BasketballDunk_g04_c03.avi", "arm": "original", "question": "What is the main action shown in the video? Answer in one short sentence.", "checkpoint": "full", "real_frames": 3, "answer": "A basketball player dribbles down the court while a defender jumps to block him.", "generated_ids": [32, 18659, 2693, 75857, 37481, 1441, 279, 5300, 1345, 264, 27298, 33075, 310, 2424, 1384, 13, 248046], "stop_reason": "eos", "wall_seconds": 0.6366051000077277}
+{"file": "v_PushUps_g03_c01.avi", "arm": "original", "question": "What is the main action shown in the video? Answer in one short sentence.", "checkpoint": "early", "real_frames": 2, "answer": "A man is doing pushups in a gym.", "generated_ids": [32, 855, 369, 3604, 4336, 8339, 303, 264, 18244, 13, 248046], "stop_reason": "eos", "wall_seconds": 0.43929179999395274}
+{"file": "v_PushUps_g03_c01.avi", "arm": "original", "question": "What is the main action shown in the video? Answer in one short sentence.", "checkpoint": "full", "real_frames": 3, "answer": "A man is doing pushups in a gym.", "generated_ids": [32, 855, 369, 3604, 4336, 8339, 303, 264, 18244, 13, 248046], "stop_reason": "eos", "wall_seconds": 0.44831870001507923}
+{"file": "v_ShavingBeard_g02_c05.avi", "arm": "original", "question": "What is the main action shown in the video? Answer in one short sentence.", "checkpoint": "early", "real_frames": 2, "answer": "A man is shaving his face.", "generated_ids": [32, 855, 369, 77251, 780, 3460, 13, 248046], "stop_reason": "eos", "wall_seconds": 0.36206859999219887}
+{"file": "v_ShavingBeard_g02_c05.avi", "arm": "original", "question": "What is the main action shown in the video? Answer in one short sentence.", "checkpoint": "full", "real_frames": 8, "answer": "A man is shaving his face.", "generated_ids": [32, 855, 369, 77251, 780, 3460, 13, 248046], "stop_reason": "eos", "wall_seconds": 0.39896910000243224}
+Traceback (most recent call last):
+  File "D:\AI_project\qwen35-streaming-fix-live-sampling-timeout\experiments\36tar\streaming-learning\diagnostics\ucf101_quality_v1\evaluate.py", line 298, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\AI_project\qwen35-streaming-fix-live-sampling-timeout\experiments\36tar\streaming-learning\diagnostics\ucf101_quality_v1\evaluate.py", line 291, in main
+    (preflight if args.stage=='preflight' else gpu)(args)
+  File "D:\AI_project\qwen35-streaming\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI_project\qwen35-streaming-fix-live-sampling-timeout\experiments\36tar\streaming-learning\diagnostics\ucf101_quality_v1\evaluate.py", line 226, in gpu
+    if free<5.5*2**30 or ram<1.5*2**30:raise RuntimeError('Direct-GPU-load resource guard refused load')
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Direct-GPU-load resource guard refused load
