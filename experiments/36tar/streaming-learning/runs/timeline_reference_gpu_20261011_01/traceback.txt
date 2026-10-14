@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\timeline_reference.py", line 191, in main
+    (preflight if args.stage=='preflight' else gpu)(args);write_json(args.out/'status.json',{'status':'completed','stage':args.stage})
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\scripts\timeline_reference.py", line 134, in gpu
+    if free<5.5*2**30 or ram<3*2**30:raise RuntimeError('Resource guard refused original model load')
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Resource guard refused original model load

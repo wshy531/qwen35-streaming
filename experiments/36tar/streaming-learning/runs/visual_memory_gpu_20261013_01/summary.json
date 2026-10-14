@@ -1,0 +1,2130 @@
+{
+  "passed": true,
+  "answers": [
+    {
+      "method": "full_all",
+      "question": "Name the animal visible at the beginning.",
+      "answer": "The animal visible at the beginning is a dog.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        506,
+        279,
+        6941,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 357,
+      "visual_tokens": 288,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.5695143000000371,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "full_all",
+      "question": "Name the animal visible most recently.",
+      "answer": "The animal visible most recently is a dog.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        1379,
+        5742,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 356,
+      "visual_tokens": 288,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.4021293999999216,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "full_all",
+      "question": "List the animals in order of first appearance.",
+      "answer": "1. Dog\n2. Cat",
+      "generated_ids": [
+        16,
+        13,
+        13846,
+        198,
+        17,
+        13,
+        16847,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 358,
+      "visual_tokens": 288,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.3451094000001831,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "odd_all",
+      "question": "Name the animal visible at the beginning.",
+      "answer": "The animal visible at the beginning is a dog.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        506,
+        279,
+        6941,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 213,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.4056192000000465,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "odd_all",
+      "question": "Name the animal visible most recently.",
+      "answer": "The animal visible most recently is a dog.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        1379,
+        5742,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 212,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.38200849999998354,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "odd_all",
+      "question": "List the animals in order of first appearance.",
+      "answer": "1. Dog\n2. Cat",
+      "generated_ids": [
+        16,
+        13,
+        13846,
+        198,
+        17,
+        13,
+        16847,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 214,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.3309592000000521,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "tome_all",
+      "question": "Name the animal visible at the beginning.",
+      "answer": "The animal visible at the beginning is a dog.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        506,
+        279,
+        6941,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 213,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.4121230000000651,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "tome_all",
+      "question": "Name the animal visible most recently.",
+      "answer": "The animal visible most recently is a dog.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        1379,
+        5742,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 212,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.3819065000000137,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "tome_all",
+      "question": "List the animals in order of first appearance.",
+      "answer": "1. Dog\n2. Cat",
+      "generated_ids": [
+        16,
+        13,
+        13846,
+        198,
+        17,
+        13,
+        16847,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 214,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 24,
+          "tensor_bytes": 98784,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.3349713999998585,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "recent_three",
+      "question": "Name the animal visible at the beginning.",
+      "answer": "The animal visible at the beginning is a bird.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        506,
+        279,
+        6941,
+        369,
+        264,
+        11619,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 189,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.4022959000001265,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "recent_three",
+      "question": "Name the animal visible most recently.",
+      "answer": "The animal visible most recently is a cat.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        1379,
+        5742,
+        369,
+        264,
+        7993,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 188,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.3743912999998429,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "recent_three",
+      "question": "List the animals in order of first appearance.",
+      "answer": "1. Cat\n2. Bird",
+      "generated_ids": [
+        16,
+        13,
+        16847,
+        198,
+        17,
+        13,
+        22606,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 190,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.32664219999992383,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "first_recent_two",
+      "question": "Name the animal visible at the beginning.",
+      "answer": "The animal visible at the beginning is a dog.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        506,
+        279,
+        6941,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 189,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.48871140000005653,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "first_recent_two",
+      "question": "Name the animal visible most recently.",
+      "answer": "The animal visible most recently is a dog.",
+      "generated_ids": [
+        760,
+        9572,
+        9155,
+        1379,
+        5742,
+        369,
+        264,
+        5388,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 188,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.47148660000016207,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "first_recent_two",
+      "question": "List the animals in order of first appearance.",
+      "answer": "1. Dog\n2. Cat",
+      "generated_ids": [
+        16,
+        13,
+        13846,
+        198,
+        17,
+        13,
+        16847,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 190,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.414404500000046,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "short_long_aligned",
+      "question": "Name the animal visible at the beginning.",
+      "answer": "A dog",
+      "generated_ids": [
+        32,
+        5388,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 203,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 0.0,
+          "end": 3.0,
+          "center": 1.5,
+          "leaves": 2,
+          "depth": 1,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": false
+        },
+        {
+          "first": 2,
+          "last": 4,
+          "begin": 4.0,
+          "end": 9.0,
+          "center": 6.5,
+          "leaves": 3,
+          "depth": 2,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": false
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.26200569999991785,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "short_long_aligned",
+      "question": "Name the animal visible most recently.",
+      "answer": "A dog",
+      "generated_ids": [
+        32,
+        5388,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 202,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 0.0,
+          "end": 3.0,
+          "center": 1.5,
+          "leaves": 2,
+          "depth": 1,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": false
+        },
+        {
+          "first": 2,
+          "last": 4,
+          "begin": 4.0,
+          "end": 9.0,
+          "center": 6.5,
+          "leaves": 3,
+          "depth": 2,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": false
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.2178151999999045,
+      "protected_main_unchanged": true
+    },
+    {
+      "method": "short_long_aligned",
+      "question": "List the animals in order of first appearance.",
+      "answer": "1. Dog\n2. Cat",
+      "generated_ids": [
+        16,
+        13,
+        13846,
+        198,
+        17,
+        13,
+        16847,
+        248046
+      ],
+      "stop_reason": "eos",
+      "input_tokens": 204,
+      "visual_tokens": 144,
+      "blocks": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 0.0,
+          "end": 3.0,
+          "center": 1.5,
+          "leaves": 2,
+          "depth": 1,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": false
+        },
+        {
+          "first": 2,
+          "last": 4,
+          "begin": 4.0,
+          "end": 9.0,
+          "center": 6.5,
+          "leaves": 3,
+          "depth": 2,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": false
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "leaves": 1,
+          "depth": 0,
+          "grid": [
+            6,
+            8
+          ],
+          "tokens": 48,
+          "tensor_bytes": 197568,
+          "exact_pair": true
+        }
+      ],
+      "positions_use_survivor_coordinates": true,
+      "grid_span_preserved": true,
+      "sequence_axis_contiguous": true,
+      "projected_mass_not_used_in_attention": true,
+      "query_seconds": 0.3315818000000945,
+      "protected_main_unchanged": true
+    }
+  ],
+  "questions": 18,
+  "counts": {
+    "vision": 6,
+    "language": 178
+  },
+  "generated_tokens": 159,
+  "feature_blocks": [
+    {
+      "first": 0,
+      "last": 0,
+      "begin": 0.0,
+      "end": 1.0,
+      "center": 0.5,
+      "leaves": 1,
+      "depth": 0,
+      "grid": [
+        6,
+        8
+      ],
+      "tokens": 48,
+      "tensor_bytes": 197568,
+      "exact_pair": true,
+      "feature_sha256": "c074845085d66f0d43b55cd4ca07d65cc38f8eebd584b1d7d845062abc57fcab"
+    },
+    {
+      "first": 1,
+      "last": 1,
+      "begin": 2.0,
+      "end": 3.0,
+      "center": 2.5,
+      "leaves": 1,
+      "depth": 0,
+      "grid": [
+        6,
+        8
+      ],
+      "tokens": 48,
+      "tensor_bytes": 197568,
+      "exact_pair": true,
+      "feature_sha256": "a649d3ebc2c4603aa78caf2d8438c5cbbfe1a7b30b515f2fcb40ae1927969f64"
+    },
+    {
+      "first": 2,
+      "last": 2,
+      "begin": 4.0,
+      "end": 5.0,
+      "center": 4.5,
+      "leaves": 1,
+      "depth": 0,
+      "grid": [
+        6,
+        8
+      ],
+      "tokens": 48,
+      "tensor_bytes": 197568,
+      "exact_pair": true,
+      "feature_sha256": "478ecb73d9fd3bab36c6e31726f8dc1eda80dba6053acab17926e973722e17c6"
+    },
+    {
+      "first": 3,
+      "last": 3,
+      "begin": 6.0,
+      "end": 7.0,
+      "center": 6.5,
+      "leaves": 1,
+      "depth": 0,
+      "grid": [
+        6,
+        8
+      ],
+      "tokens": 48,
+      "tensor_bytes": 197568,
+      "exact_pair": true,
+      "feature_sha256": "0fc1daf64ea01b71d365b9c65daf5bb51c3b5dcff4ab96701c5e326a966df044"
+    },
+    {
+      "first": 4,
+      "last": 4,
+      "begin": 8.0,
+      "end": 9.0,
+      "center": 8.5,
+      "leaves": 1,
+      "depth": 0,
+      "grid": [
+        6,
+        8
+      ],
+      "tokens": 48,
+      "tensor_bytes": 197568,
+      "exact_pair": true,
+      "feature_sha256": "7d904d5977ab4c60ebd989ef7adc0df3547584111141f1be2af8901fb4a9b783"
+    },
+    {
+      "first": 5,
+      "last": 5,
+      "begin": 10.0,
+      "end": 11.0,
+      "center": 10.5,
+      "leaves": 1,
+      "depth": 0,
+      "grid": [
+        6,
+        8
+      ],
+      "tokens": 48,
+      "tensor_bytes": 197568,
+      "exact_pair": true,
+      "feature_sha256": "c7f12e0dfb74cc4a833201d2e19db28fce55e7e7a6f29163b697559c0399ca12"
+    }
+  ],
+  "memory": {
+    "events": 6,
+    "blocks": [
+      {
+        "first": 0,
+        "last": 1,
+        "begin": 0.0,
+        "end": 3.0,
+        "center": 1.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": false
+      },
+      {
+        "first": 2,
+        "last": 4,
+        "begin": 4.0,
+        "end": 9.0,
+        "center": 6.5,
+        "leaves": 3,
+        "depth": 2,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": false
+      },
+      {
+        "first": 5,
+        "last": 5,
+        "begin": 10.0,
+        "end": 11.0,
+        "center": 10.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": true
+      }
+    ],
+    "long_roots": 2,
+    "recent_pairs": 1,
+    "tokens": 144,
+    "tensor_bytes": 592704,
+    "merges": 3,
+    "peak_tensor_bytes": 592704,
+    "provenance_is_not_exact_frame": true
+  },
+  "merges": [
+    {
+      "left": {
+        "first": 0,
+        "last": 0,
+        "begin": 0.0,
+        "end": 1.0,
+        "center": 0.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": true
+      },
+      "right": {
+        "first": 1,
+        "last": 1,
+        "begin": 2.0,
+        "end": 3.0,
+        "center": 2.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": true
+      },
+      "parent": {
+        "first": 0,
+        "last": 1,
+        "begin": 0.0,
+        "end": 3.0,
+        "center": 1.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": false
+      },
+      "penalty": {
+        "similarity_penalty": 0.016390323638916016,
+        "count_penalty": 1.000001,
+        "time_penalty": 0.21428571428571427,
+        "total": 0.44941367231270923
+      }
+    },
+    {
+      "left": {
+        "first": 2,
+        "last": 2,
+        "begin": 4.0,
+        "end": 5.0,
+        "center": 4.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": true
+      },
+      "right": {
+        "first": 3,
+        "last": 3,
+        "begin": 6.0,
+        "end": 7.0,
+        "center": 6.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": true
+      },
+      "parent": {
+        "first": 2,
+        "last": 3,
+        "begin": 4.0,
+        "end": 7.0,
+        "center": 5.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": false
+      },
+      "penalty": {
+        "similarity_penalty": 0.012543678283691406,
+        "count_penalty": 0.6666676666666667,
+        "time_penalty": 0.6111111111111112,
+        "total": 0.3939067602023655
+      }
+    },
+    {
+      "left": {
+        "first": 2,
+        "last": 3,
+        "begin": 4.0,
+        "end": 7.0,
+        "center": 5.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": false
+      },
+      "right": {
+        "first": 4,
+        "last": 4,
+        "begin": 8.0,
+        "end": 9.0,
+        "center": 8.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": true
+      },
+      "parent": {
+        "first": 2,
+        "last": 4,
+        "begin": 4.0,
+        "end": 9.0,
+        "center": 6.5,
+        "leaves": 3,
+        "depth": 2,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": false
+      },
+      "penalty": {
+        "similarity_penalty": 0.08685719966888428,
+        "count_penalty": 0.750001,
+        "time_penalty": 0.6363636363636364,
+        "total": 0.462016007140281
+      }
+    }
+  ],
+  "owned_cpu_feature_tensor_bytes": 5334336,
+  "peak_allocated_gib": 3.2892041206359863,
+  "peak_reserved_gib": 3.603515625,
+  "wall_seconds_including_load": 10.618572399999948,
+  "qa_accuracy_evaluated": false,
+  "scope": "Six shared projected pairs and independent QA; not official full-video baseline or end-to-end acceleration"
+}

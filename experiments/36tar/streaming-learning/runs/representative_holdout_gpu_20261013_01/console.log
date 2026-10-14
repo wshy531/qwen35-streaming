@@ -1,0 +1,60 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 16606.45it/s]
+{"case": "dog_prefix", "pairs": 2, "policy": "first", "mode": "open", "selected": 0, "answer": "A dog"}
+{"case": "dog_prefix", "pairs": 2, "policy": "first", "mode": "current", "selected": 1, "answer": "The main visible animal in these frames is a dog."}
+{"case": "dog_prefix", "pairs": 2, "policy": "centroid", "mode": "open", "selected": 0, "answer": "A dog"}
+{"case": "dog_prefix", "pairs": 2, "policy": "centroid", "mode": "current", "selected": 1, "answer": "The main visible animal in these frames is a dog."}
+{"case": "dog_prefix", "pairs": 4, "policy": "first", "mode": "open", "selected": 0, "answer": "A dog"}
+{"case": "dog_prefix", "pairs": 4, "policy": "first", "mode": "current", "selected": 3, "answer": "A dog."}
+{"case": "dog_prefix", "pairs": 4, "policy": "centroid", "mode": "open", "selected": 3, "answer": "A dog."}
+{"case": "dog_prefix", "pairs": 4, "policy": "centroid", "mode": "current", "selected": 3, "answer": "A dog."}
+{"case": "dog_prefix", "pairs": 6, "policy": "first", "mode": "open", "selected": 4, "answer": "The main visible animal in these frames is a dog."}
+{"case": "dog_prefix", "pairs": 6, "policy": "first", "mode": "current", "selected": 5, "answer": "A dog."}
+{"case": "dog_prefix", "pairs": 6, "policy": "first", "mode": "group", "selected": 0, "answer": "A dog"}
+{"case": "dog_prefix", "pairs": 6, "policy": "centroid", "mode": "open", "selected": 4, "answer": "The main visible animal in these frames is a dog."}
+{"case": "dog_prefix", "pairs": 6, "policy": "centroid", "mode": "current", "selected": 5, "answer": "A dog."}
+{"case": "dog_prefix", "pairs": 6, "policy": "centroid", "mode": "group", "selected": 3, "answer": "A dog."}
+{"case": "dog_late", "pairs": 2, "policy": "first", "mode": "open", "selected": 0, "answer": "A dog."}
+{"case": "dog_late", "pairs": 2, "policy": "first", "mode": "current", "selected": 1, "answer": "A dog."}
+{"case": "dog_late", "pairs": 2, "policy": "centroid", "mode": "open", "selected": 0, "answer": "A dog."}
+{"case": "dog_late", "pairs": 2, "policy": "centroid", "mode": "current", "selected": 1, "answer": "A dog."}
+{"case": "dog_late", "pairs": 4, "policy": "first", "mode": "open", "selected": 0, "answer": "A dog."}
+{"case": "dog_late", "pairs": 4, "policy": "first", "mode": "current", "selected": 3, "answer": "A horse."}
+{"case": "dog_late", "pairs": 4, "policy": "centroid", "mode": "open", "selected": 0, "answer": "A dog."}
+{"case": "dog_late", "pairs": 4, "policy": "centroid", "mode": "current", "selected": 3, "answer": "A horse."}
+{"case": "dog_late", "pairs": 6, "policy": "first", "mode": "open", "selected": 5, "answer": "A dog."}
+{"case": "dog_late", "pairs": 6, "policy": "first", "mode": "current", "selected": 5, "answer": "A dog."}
+{"case": "dog_late", "pairs": 6, "policy": "first", "mode": "group", "selected": 0, "answer": "A dog."}
+{"case": "dog_late", "pairs": 6, "policy": "centroid", "mode": "open", "selected": 5, "answer": "A dog."}
+{"case": "dog_late", "pairs": 6, "policy": "centroid", "mode": "current", "selected": 5, "answer": "A dog."}
+{"case": "dog_late", "pairs": 6, "policy": "centroid", "mode": "group", "selected": 4, "answer": "A dog."}
+{"case": "dog_late", "pairs": 8, "policy": "first", "mode": "open", "selected": 5, "answer": "A dog."}
+{"case": "dog_late", "pairs": 8, "policy": "first", "mode": "current", "selected": 7, "answer": "A dog."}
+{"case": "dog_late", "pairs": 8, "policy": "first", "mode": "group", "selected": 0, "answer": "A dog."}
+{"case": "dog_late", "pairs": 8, "policy": "centroid", "mode": "open", "selected": 7, "answer": "A dog."}
+{"case": "dog_late", "pairs": 8, "policy": "centroid", "mode": "current", "selected": 7, "answer": "A dog."}
+{"case": "dog_late", "pairs": 8, "policy": "centroid", "mode": "group", "selected": 4, "answer": "A dog."}
+{"case": "pigeon_middle", "pairs": 2, "policy": "first", "mode": "open", "selected": 0, "answer": "A bird"}
+{"case": "pigeon_middle", "pairs": 2, "policy": "first", "mode": "current", "selected": 1, "answer": "A dog."}
+{"case": "pigeon_middle", "pairs": 2, "policy": "centroid", "mode": "open", "selected": 0, "answer": "A bird"}
+{"case": "pigeon_middle", "pairs": 2, "policy": "centroid", "mode": "current", "selected": 1, "answer": "A dog."}
+{"case": "clean_prefix", "pairs": 2, "policy": "first", "mode": "open", "selected": 1, "answer": "A person is washing their hands with soap."}
+{"case": "clean_prefix", "pairs": 2, "policy": "first", "mode": "current", "selected": 1, "answer": "A person is washing their hands with soap."}
+{"case": "clean_prefix", "pairs": 2, "policy": "first", "mode": "group", "selected": 0, "answer": "A person is pouring coffee from a black carafe into a metal cup."}
+{"case": "clean_prefix", "pairs": 2, "policy": "centroid", "mode": "open", "selected": 1, "answer": "A person is washing their hands with soap."}
+{"case": "clean_prefix", "pairs": 2, "policy": "centroid", "mode": "current", "selected": 1, "answer": "A person is washing their hands with soap."}
+{"case": "clean_prefix", "pairs": 2, "policy": "centroid", "mode": "group", "selected": 0, "answer": "A person is pouring coffee from a black carafe into a metal cup."}
+{"case": "clean_prefix", "pairs": 3, "policy": "first", "mode": "open", "selected": 1, "answer": "A person is washing their hands with soap."}
+{"case": "clean_prefix", "pairs": 3, "policy": "first", "mode": "current", "selected": 2, "answer": "A person is washing their hands in a sink."}
+{"case": "clean_prefix", "pairs": 3, "policy": "first", "mode": "group", "selected": 0, "answer": "A person is pouring coffee from a black carafe into a metal cup."}
+{"case": "clean_prefix", "pairs": 3, "policy": "centroid", "mode": "open", "selected": 1, "answer": "A person is washing their hands with soap."}
+{"case": "clean_prefix", "pairs": 3, "policy": "centroid", "mode": "current", "selected": 2, "answer": "A person is washing their hands in a sink."}
+{"case": "clean_prefix", "pairs": 3, "policy": "centroid", "mode": "group", "selected": 0, "answer": "A person is pouring coffee from a black carafe into a metal cup."}
+{"case": "hygiene_prefix", "pairs": 2, "policy": "first", "mode": "open", "selected": 0, "answer": "The video shows a slide with text and logos."}
+{"case": "hygiene_prefix", "pairs": 2, "policy": "first", "mode": "current", "selected": 1, "answer": "A person is standing in front of a white wall."}
+{"case": "hygiene_prefix", "pairs": 2, "policy": "centroid", "mode": "open", "selected": 0, "answer": "The video shows a slide with text and logos."}
+{"case": "hygiene_prefix", "pairs": 2, "policy": "centroid", "mode": "current", "selected": 1, "answer": "A person is standing in front of a white wall."}
+{"case": "hygiene_prefix", "pairs": 3, "policy": "first", "mode": "open", "selected": 0, "answer": "The video shows a slide with text and logos."}
+{"case": "hygiene_prefix", "pairs": 3, "policy": "first", "mode": "current", "selected": 2, "answer": "A person is shown performing hand hygiene."}
+{"case": "hygiene_prefix", "pairs": 3, "policy": "centroid", "mode": "open", "selected": 0, "answer": "The video shows a slide with text and logos."}
+{"case": "hygiene_prefix", "pairs": 3, "policy": "centroid", "mode": "current", "selected": 2, "answer": "A person is shown performing hand hygiene."}

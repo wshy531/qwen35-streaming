@@ -1,0 +1,10 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"case": "dog_pair_0", "cpu_same_inputs_positions_and_logits": true}
+{"case": "pigeon_pair_0", "cpu_same_inputs_positions_and_logits": true}
+{"case": "pigeon_pair_1", "cpu_same_inputs_positions_and_logits": true}
+{"case": "cat_pair_0", "cpu_same_inputs_positions_and_logits": true}
+{"case": "cat_pair_1", "cpu_same_inputs_positions_and_logits": true}
+{"case": "clean_hands_pair_0", "cpu_same_inputs_positions_and_logits": true}
+{"case": "clean_hands_pair_5", "cpu_same_inputs_positions_and_logits": true}
+{"case": "hand_hygiene_pair_5", "cpu_same_inputs_positions_and_logits": true}

@@ -1,0 +1,196 @@
+{
+  "scope": "Fixed seven probes on one continuous CDC clip; not a benchmark or full long-term equivalence",
+  "completed_original": true,
+  "gpu_records": 50,
+  "stream_gpu_run": "timeline_stream_gpu_20261011_01",
+  "original_gpu_run": "timeline_reference_gpu_20261011_02",
+  "cases": [
+    {
+      "timestamp": 3.003,
+      "memory_from_pts": 0.0,
+      "context_real_frames": 4,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90
+      ],
+      "latest_two_ids": [
+        60,
+        90
+      ],
+      "expected": "WASHING",
+      "streaming_answer": "WASHING",
+      "streaming_correct": true,
+      "original_answer": "WASHING",
+      "original_correct": true,
+      "generated_ids_equal": true
+    },
+    {
+      "timestamp": 5.005,
+      "memory_from_pts": 0.0,
+      "context_real_frames": 6,
+      "frame_ids": [
+        0,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "latest_two_ids": [
+        120,
+        150
+      ],
+      "expected": "WASHING",
+      "streaming_answer": "WASHING",
+      "streaming_correct": true,
+      "original_answer": "WASHING",
+      "original_correct": true,
+      "generated_ids_equal": true
+    },
+    {
+      "timestamp": 9.009,
+      "memory_from_pts": 6.006,
+      "context_real_frames": 4,
+      "frame_ids": [
+        180,
+        210,
+        240,
+        270
+      ],
+      "latest_two_ids": [
+        240,
+        270
+      ],
+      "expected": "WASHING",
+      "streaming_answer": "WASHING",
+      "streaming_correct": true,
+      "original_answer": "WASHING",
+      "original_correct": true,
+      "generated_ids_equal": true
+    },
+    {
+      "timestamp": 11.011,
+      "memory_from_pts": 6.006,
+      "context_real_frames": 6,
+      "frame_ids": [
+        180,
+        210,
+        240,
+        270,
+        300,
+        330
+      ],
+      "latest_two_ids": [
+        300,
+        330
+      ],
+      "expected": "WASHING",
+      "streaming_answer": "WASHING",
+      "streaming_correct": true,
+      "original_answer": "WASHING",
+      "original_correct": true,
+      "generated_ids_equal": true
+    },
+    {
+      "timestamp": 15.015,
+      "memory_from_pts": 12.012,
+      "context_real_frames": 4,
+      "frame_ids": [
+        360,
+        390,
+        420,
+        450
+      ],
+      "latest_two_ids": [
+        420,
+        450
+      ],
+      "expected": "USING_PAPER",
+      "streaming_answer": "WASHING",
+      "streaming_correct": false,
+      "original_answer": "WASHING",
+      "original_correct": false,
+      "generated_ids_equal": true
+    },
+    {
+      "timestamp": 17.017,
+      "memory_from_pts": 12.012,
+      "context_real_frames": 6,
+      "frame_ids": [
+        360,
+        390,
+        420,
+        450,
+        480,
+        510
+      ],
+      "latest_two_ids": [
+        480,
+        510
+      ],
+      "expected": "USING_PAPER",
+      "streaming_answer": "WASHING",
+      "streaming_correct": false,
+      "original_answer": "WASHING",
+      "original_correct": false,
+      "generated_ids_equal": true
+    },
+    {
+      "timestamp": 21.021,
+      "memory_from_pts": 18.018,
+      "context_real_frames": 4,
+      "frame_ids": [
+        540,
+        570,
+        600,
+        630
+      ],
+      "latest_two_ids": [
+        600,
+        630
+      ],
+      "expected": "USING_PAPER",
+      "streaming_answer": "WASHING",
+      "streaming_correct": false,
+      "original_answer": "WASHING",
+      "original_correct": false,
+      "generated_ids_equal": true
+    }
+  ],
+  "streaming_strict_correct": 4,
+  "original_strict_correct": 4,
+  "generated_equal_cases": 7,
+  "streaming": {
+    "frames": 23,
+    "qa": 7,
+    "resets": 3,
+    "dropped": 0,
+    "counts": {
+      "vision": 12,
+      "language": 51,
+      "lm_head_rows": 35
+    },
+    "generated_tokens": 28,
+    "allocated_gib": 3.270989418029785,
+    "reserved_gib": 3.60546875,
+    "playback_seconds": 22.18699999999808,
+    "including_load_seconds": 24.87979600000108,
+    "answer_lag_median_seconds": 0.4279999999980788,
+    "answer_lag_max_seconds": 0.49799999999941846
+  },
+  "original": {
+    "actual_forwards": {
+      "vision": 7,
+      "language": 35
+    },
+    "generated_tokens": 28,
+    "peak_allocated_gib": 3.2503910064697266,
+    "peak_reserved_gib": 3.55859375,
+    "wall_seconds_including_load": 7.719170200005465
+  },
+  "no_camera": true,
+  "cluster": 0,
+  "training": 0
+}

@@ -1,0 +1,16 @@
+{
+  "cases": [
+    {"id": "dog_prefix", "source_id": "dog", "start": 0, "frames": 12, "checkpoints": [2, 4, 6], "question_kind": "animal"},
+    {"id": "dog_late", "source_id": "dog", "start": 24, "frames": 16, "checkpoints": [2, 4, 6, 8], "question_kind": "animal"},
+    {"id": "pigeon_middle", "source_id": "pigeon", "start": 4, "frames": 4, "checkpoints": [2], "question_kind": "animal"},
+    {"id": "clean_prefix", "source_id": "clean_hands", "start": 0, "frames": 6, "checkpoints": [2, 3], "question_kind": "action"},
+    {"id": "hygiene_prefix", "source_id": "hand_hygiene", "start": 0, "frames": 6, "checkpoints": [2, 3], "question_kind": "action"}
+  ],
+  "policies": ["first", "centroid"],
+  "threshold": 0.047536224126815796,
+  "canvas": [192, 256],
+  "max_main_tokens": 256,
+  "question_reserve": 64,
+  "answer_tokens": 32,
+  "scope": "Disjoint sampled frames relative to GPU77 calibration and GPU85 selection evaluation. Same old source videos, not new-source generalization. All source PTS remain real; no constructed animal order."
+}

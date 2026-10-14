@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "cpu_contracts": 6,
+  "cpu_replay_qa": 60,
+  "gpu_loads": 1,
+  "gpu_questions": 51,
+  "counts": {
+    "vision": 18,
+    "language": 414
+  },
+  "generated": 363,
+  "eos": 51,
+  "budget_stops": 0,
+  "scores": {
+    "first": {
+      "animal_subject_correct": 7,
+      "animal_queries": 12,
+      "closed_correct": 4,
+      "closed_queries": 6,
+      "actual_peak_tensor_bytes": 794368
+    },
+    "last": {
+      "animal_subject_correct": 4,
+      "animal_queries": 12,
+      "closed_correct": 2,
+      "closed_queries": 6,
+      "actual_peak_tensor_bytes": 596800
+    },
+    "centroid": {
+      "animal_subject_correct": 7,
+      "animal_queries": 12,
+      "closed_correct": 4,
+      "closed_queries": 6,
+      "actual_peak_tensor_bytes": 794368
+    }
+  },
+  "current_same_cases": 5,
+  "bank_unchanged_queries": 51,
+  "source_files_verified": 93,
+  "projection_shas_match_gpu77": true,
+  "source_head": "d26a5167bd3977b585f3aeff73264f77de47f1bc",
+  "summary_sha256": "240a16e786e878ebb84a63fa4b417c36ce010ceb7228b6e8f3a1c9c42ecc4059",
+  "cpu_proof_sha256": "76504a6df510e6d228ab3059b0a0b85c3b212c9b303a8a933786ec2702ac3f85",
+  "peak_allocated_gib": 3.2274155616760254,
+  "conservative_feature_bytes": 7290329,
+  "scope": "Familiar repeated animal orders; policy changes selected real pair and timestamp, same upper cap not actual resident use"
+}

@@ -1,0 +1,324 @@
+{
+  "all_13_attempts": [
+    {
+      "plan_index": 0,
+      "question": "Name the animal visible at 0.5 seconds.",
+      "trigger": 0,
+      "model_called": false,
+      "answer": null,
+      "refusal_reason": "future_or_empty",
+      "reason_text": "该时间尚未成功编码，或还没有完整帧对。",
+      "selected_interval": null,
+      "retained_intervals": [],
+      "language_calls": 0,
+      "main_epoch": 0
+    },
+    {
+      "plan_index": 1,
+      "question": "Name the animal visible at 0.5 seconds.",
+      "trigger": 1,
+      "model_called": true,
+      "answer": "A cat.",
+      "refusal_reason": null,
+      "reason_text": null,
+      "selected_interval": [
+        0.0,
+        0.9999999999999999
+      ],
+      "retained_intervals": [
+        [
+          0.0,
+          0.9999999999999999
+        ]
+      ],
+      "language_calls": 5,
+      "main_epoch": 1
+    },
+    {
+      "plan_index": 2,
+      "question": "Name the animal visible at 2.5 seconds.",
+      "trigger": 1,
+      "model_called": false,
+      "answer": null,
+      "refusal_reason": "future_or_empty",
+      "reason_text": "该时间尚未成功编码，或还没有完整帧对。",
+      "selected_interval": null,
+      "retained_intervals": [
+        [
+          0.0,
+          0.9999999999999999
+        ]
+      ],
+      "language_calls": 0,
+      "main_epoch": 1
+    },
+    {
+      "plan_index": 3,
+      "question": "Name the animal visible at 2.5 seconds.",
+      "trigger": 2,
+      "model_called": true,
+      "answer": "A dog",
+      "refusal_reason": null,
+      "reason_text": null,
+      "selected_interval": [
+        2.0,
+        3.0
+      ],
+      "retained_intervals": [
+        [
+          0.0,
+          0.9999999999999999
+        ],
+        [
+          2.0,
+          3.0
+        ]
+      ],
+      "language_calls": 4,
+      "main_epoch": 1
+    },
+    {
+      "plan_index": 4,
+      "question": "Is the animal's coat mostly light-colored or mostly dark-colored at 0.5 seconds? Answer light or dark.",
+      "trigger": 2,
+      "model_called": true,
+      "answer": "dark-colored",
+      "refusal_reason": null,
+      "reason_text": null,
+      "selected_interval": [
+        0.0,
+        0.9999999999999999
+      ],
+      "retained_intervals": [
+        [
+          0.0,
+          0.9999999999999999
+        ],
+        [
+          2.0,
+          3.0
+        ]
+      ],
+      "language_calls": 4,
+      "main_epoch": 1
+    },
+    {
+      "plan_index": 5,
+      "question": "Name the animal visible at 0.5 seconds.",
+      "trigger": 3,
+      "model_called": true,
+      "answer": "A cat.",
+      "refusal_reason": null,
+      "reason_text": null,
+      "selected_interval": [
+        0.0,
+        0.9999999999999999
+      ],
+      "retained_intervals": [
+        [
+          0.0,
+          0.9999999999999999
+        ],
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ]
+      ],
+      "language_calls": 5,
+      "main_epoch": 2
+    },
+    {
+      "plan_index": 6,
+      "question": "Name the animal visible at 0.5 seconds.",
+      "trigger": 4,
+      "model_called": false,
+      "answer": null,
+      "refusal_reason": "no_retained_exact_pair",
+      "reason_text": "该时间早于当前保留范围，无法取回旧帧对。",
+      "selected_interval": null,
+      "retained_intervals": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "language_calls": 0,
+      "main_epoch": 2
+    },
+    {
+      "plan_index": 7,
+      "question": "Name the animal visible at 4.5 seconds.",
+      "trigger": 4,
+      "model_called": true,
+      "answer": "A dog.",
+      "refusal_reason": null,
+      "reason_text": null,
+      "selected_interval": [
+        4.0,
+        5.0
+      ],
+      "retained_intervals": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "language_calls": 5,
+      "main_epoch": 2
+    },
+    {
+      "plan_index": 8,
+      "question": "Name the animal visible at 5.5 seconds.",
+      "trigger": 4,
+      "model_called": false,
+      "answer": null,
+      "refusal_reason": "no_retained_exact_pair",
+      "reason_text": "该时间位于已保留帧对之间的空隙，没有对应的完整采样帧对。",
+      "selected_interval": null,
+      "retained_intervals": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "language_calls": 0,
+      "main_epoch": 2
+    },
+    {
+      "plan_index": 9,
+      "question": "Name the animal visible at 9.5 seconds.",
+      "trigger": 4,
+      "model_called": false,
+      "answer": null,
+      "refusal_reason": "future_or_empty",
+      "reason_text": "该时间尚未成功编码，或还没有完整帧对。",
+      "selected_interval": null,
+      "retained_intervals": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "language_calls": 0,
+      "main_epoch": 2
+    },
+    {
+      "plan_index": 10,
+      "question": "Name the animal visible at 6.5 seconds.",
+      "trigger": "eof",
+      "model_called": true,
+      "answer": "A dog.",
+      "refusal_reason": null,
+      "reason_text": null,
+      "selected_interval": [
+        6.0,
+        7.0
+      ],
+      "retained_intervals": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "language_calls": 5,
+      "main_epoch": 2
+    },
+    {
+      "plan_index": 11,
+      "question": "Name the animal visible at 8.5 seconds.",
+      "trigger": "eof",
+      "model_called": false,
+      "answer": null,
+      "refusal_reason": "future_or_empty",
+      "reason_text": "该时间尚未成功编码，或还没有完整帧对。",
+      "selected_interval": null,
+      "retained_intervals": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "language_calls": 0,
+      "main_epoch": 2
+    },
+    {
+      "plan_index": 12,
+      "question": "What happened?",
+      "trigger": "eof",
+      "model_called": false,
+      "answer": null,
+      "refusal_reason": "unsupported_or_ambiguous_question",
+      "reason_text": "问题不属于支持的时间问句，或含歧义。",
+      "selected_interval": null,
+      "retained_intervals": [
+        [
+          2.0,
+          3.0
+        ],
+        [
+          4.0,
+          5.0
+        ],
+        [
+          6.0,
+          7.0
+        ]
+      ],
+      "language_calls": 0,
+      "main_epoch": 2
+    }
+  ],
+  "scope": "Same known file; selection/refusal mechanisms and semantic answers separated."
+}

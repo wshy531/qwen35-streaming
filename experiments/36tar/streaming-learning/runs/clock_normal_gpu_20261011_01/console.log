@@ -1,0 +1,15 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 16630.81it/s]
+VIEWER http://127.0.0.1:8765/
+{"event": "encoded", "timestamp": 1.001, "memory_from": 0.0, "answer": null}
+{"event": "encoded", "timestamp": 3.003, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 3.003, "memory_from": 0.0, "answer": "The hands are washing their hands with soap and water."}
+{"event": "capacity_reset", "timestamp": 5.005, "memory_from": 4.004, "answer": null}
+{"event": "encoded", "timestamp": 5.005, "memory_from": 4.004, "answer": null}
+{"event": "encoded", "timestamp": 7.007, "memory_from": 4.004, "answer": null}
+{"event": "answer", "timestamp": 7.007, "memory_from": 4.004, "answer": "The hands are washing their hands in a sink."}
+{"event": "capacity_reset", "timestamp": 9.009, "memory_from": 8.008, "answer": null}
+{"event": "encoded", "timestamp": 9.009, "memory_from": 8.008, "answer": null}
+{"event": "encoded", "timestamp": 11.011, "memory_from": 8.008, "answer": null}
+{"event": "answer", "timestamp": 11.011, "memory_from": 8.008, "answer": "The hands are washing their hands in a sink."}
+{"event": "eof", "timestamp": 11.011, "memory_from": 8.008, "answer": null}

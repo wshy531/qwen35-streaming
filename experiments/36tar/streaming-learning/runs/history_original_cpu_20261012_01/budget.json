@@ -1,0 +1,14 @@
+{
+  "model_loads": 1,
+  "unique_pairs": 3,
+  "frames": 6,
+  "vision_max": 3,
+  "language_max": 51,
+  "generated_max": 48,
+  "answer_tokens": 16,
+  "tokens_max": 200,
+  "wall_seconds": 240,
+  "ram_min_gib": 3,
+  "gpu_free_min_gib": 5.5,
+  "fp32_conversion_free_min_gib": 2
+}

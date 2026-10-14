@@ -1,0 +1,14 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 16174.82it/s]
+{'arm': 'original', 'id': 'sparse_actual', 'answer': 'The hands are washing their faces with soap and water.'}
+{'arm': 'original', 'id': 'dense_actual', 'answer': 'The hands are washing their hands in a sink.'}
+{'arm': 'original', 'id': 'pixel_first_to8', 'answer': 'The hands are washing their hands in a sink.'}
+{'arm': 'original', 'id': 'pixel_second_to9', 'answer': 'The hands are rubbing soap into their palms.'}
+{'arm': 'original', 'id': 'dense_pixels_sparse_times', 'answer': 'The hands are washing their hands in a sink.'}
+{'arm': 'original', 'id': 'sparse_pixels_dense_times', 'answer': 'The hands are washing their faces with soap and water.'}
+{'arm': 'original', 'id': 'time_second_to9', 'answer': 'The hands are washing their faces with soap and water.'}
+{'arm': 'original', 'id': 'time_first_plus_half', 'answer': 'The hands are washing their faces with soap and water.'}
+{'arm': 'original', 'id': 'sparse_origin_zero', 'answer': 'The hands are washing their faces under the running water.'}
+{'arm': 'original', 'id': 'sparse_offset_plus10', 'answer': 'The hands are washing their faces with soap and water.'}
+{'arm': 'original', 'id': 'sparse_uniform_zero', 'answer': 'The hands are washing their faces under a faucet.'}
+{'arm': 'original', 'id': 'dense_origin_zero', 'answer': 'The hands are washing their hands in a sink.'}

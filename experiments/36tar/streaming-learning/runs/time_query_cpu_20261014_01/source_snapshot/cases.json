@@ -1,0 +1,170 @@
+{
+  "threshold": 0.047536224126815796,
+  "arms": [
+    "single_old",
+    "old_plus_recent",
+    "all_history",
+    "routed",
+    "swap_values",
+    "recent_only"
+  ],
+  "cases": [
+    {
+      "id": "development_dog_cat",
+      "parts": [
+        [
+          "dog",
+          12
+        ],
+        [
+          "cat",
+          0
+        ],
+        [
+          "clean_hands",
+          8
+        ]
+      ],
+      "questions": [
+        {
+          "id": "early_animal",
+          "target": 0,
+          "text": "Name the animal visible at 0.5 seconds."
+        },
+        {
+          "id": "middle_animal",
+          "target": 1,
+          "text": "Name the animal visible at 2.5 seconds."
+        },
+        {
+          "id": "early_coat",
+          "target": 0,
+          "text": "Is the animal's coat mostly light-colored or mostly dark-colored at 0.5 seconds? Answer light or dark."
+        }
+      ]
+    },
+    {
+      "id": "development_cat_dog",
+      "parts": [
+        [
+          "cat",
+          0
+        ],
+        [
+          "dog",
+          12
+        ],
+        [
+          "clean_hands",
+          8
+        ]
+      ],
+      "questions": [
+        {
+          "id": "early_animal",
+          "target": 0,
+          "text": "Name the animal visible at 0.5 seconds."
+        },
+        {
+          "id": "middle_animal",
+          "target": 1,
+          "text": "Name the animal visible at 2.5 seconds."
+        },
+        {
+          "id": "early_coat",
+          "target": 0,
+          "text": "Is the animal's coat mostly light-colored or mostly dark-colored at 0.5 seconds? Answer light or dark."
+        }
+      ]
+    },
+    {
+      "id": "confirmation_dog_cat",
+      "parts": [
+        [
+          "dog",
+          16
+        ],
+        [
+          "cat",
+          2
+        ],
+        [
+          "clean_hands",
+          10
+        ]
+      ],
+      "questions": [
+        {
+          "id": "early_animal",
+          "target": 0,
+          "text": "Name the animal visible at 0.5 seconds."
+        },
+        {
+          "id": "middle_animal",
+          "target": 1,
+          "text": "Name the animal visible at 2.5 seconds."
+        },
+        {
+          "id": "early_coat",
+          "target": 0,
+          "text": "Is the animal's coat mostly light-colored or mostly dark-colored at 0.5 seconds? Answer light or dark."
+        }
+      ]
+    },
+    {
+      "id": "confirmation_cat_dog",
+      "parts": [
+        [
+          "cat",
+          2
+        ],
+        [
+          "dog",
+          16
+        ],
+        [
+          "clean_hands",
+          10
+        ]
+      ],
+      "questions": [
+        {
+          "id": "early_animal",
+          "target": 0,
+          "text": "Name the animal visible at 0.5 seconds."
+        },
+        {
+          "id": "middle_animal",
+          "target": 1,
+          "text": "Name the animal visible at 2.5 seconds."
+        },
+        {
+          "id": "early_coat",
+          "target": 0,
+          "text": "Is the animal's coat mostly light-colored or mostly dark-colored at 0.5 seconds? Answer light or dark."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "early_animal",
+      "target": 0,
+      "text": "Name the animal visible at 0.5 seconds."
+    },
+    {
+      "id": "middle_animal",
+      "target": 1,
+      "text": "Name the animal visible at 2.5 seconds."
+    },
+    {
+      "id": "early_coat",
+      "target": 0,
+      "text": "Is the animal's coat mostly light-colored or mostly dark-colored at 0.5 seconds? Answer light or dark."
+    }
+  ],
+  "scope": "Known source videos and familiar windows; controlled route/interference diagnosis, not held-out generalization.",
+  "session_pts_are_synthetic": true,
+  "max_pairs": 3,
+  "query_grammar": "exact supported animal/coat templates with one finite at-T-seconds clause"
+}

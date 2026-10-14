@@ -1,0 +1,13 @@
+test_declared_targets (tests.test_sampling_inputs.SamplingInputTests.test_declared_targets) ... ok
+test_does_not_read_after_fourth (tests.test_sampling_inputs.SamplingInputTests.test_does_not_read_after_fourth) ... ok
+test_first_real_pts_after_target (tests.test_sampling_inputs.SamplingInputTests.test_first_real_pts_after_target) ... ok
+test_invalid_delivered_pts (tests.test_sampling_inputs.SamplingInputTests.test_invalid_delivered_pts) ... ok
+test_invalid_start (tests.test_sampling_inputs.SamplingInputTests.test_invalid_start) ... ok
+test_missing_slot_not_duplicated (tests.test_sampling_inputs.SamplingInputTests.test_missing_slot_not_duplicated) ... ok
+test_short_source_rejected (tests.test_sampling_inputs.SamplingInputTests.test_short_source_rejected) ... ok
+test_unregistered_phase (tests.test_sampling_inputs.SamplingInputTests.test_unregistered_phase) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK

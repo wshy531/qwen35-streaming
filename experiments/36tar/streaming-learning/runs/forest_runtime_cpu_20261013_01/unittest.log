@@ -1,0 +1,18 @@
+test_loss_and_zero_are_explicit (__main__.Contracts.test_loss_and_zero_are_explicit) ... FAIL
+test_merge_and_penalties_against_frozen_forest (__main__.Contracts.test_merge_and_penalties_against_frozen_forest) ... ok
+test_multi_level_mass_positions_pressure_and_release (__main__.Contracts.test_multi_level_mass_positions_pressure_and_release) ... ok
+test_raw_adapter_matches_existing_context (__main__.Contracts.test_raw_adapter_matches_existing_context) ... ok
+test_real_composition_queries_reset_continue (__main__.Contracts.test_real_composition_queries_reset_continue) ... ok
+
+======================================================================
+FAIL: test_loss_and_zero_are_explicit (__main__.Contracts.test_loss_and_zero_are_explicit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\forest_runtime_v1\probe.py", line 188, in test_loss_and_zero_are_explicit
+    self.assertTrue(bool(torch.any(merged.features.abs() < .5)))
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.994s
+
+FAILED (failures=1)

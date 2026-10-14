@@ -1,0 +1,54 @@
+{
+  "removed": [
+    {
+      "path": "E:\\VIT Model\\runs\\fair_video_cpu_20261011_01\\tmp",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\fair_video_cpu_20261011_02\\tmp",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\fair_video_preflight_20261011_01\\tmp",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\fair_video_preflight_20261011_02\\tmp",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\fair_video_original_gpu_20261011_01\\tmp",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\fair_video_original_gpu_20261011_02\\tmp",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\fair_video_streaming_gpu_20261011_01\\tmp",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__pycache__",
+      "bytes": 137082
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__",
+      "bytes": 257102
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__",
+      "bytes": 99791
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\__pycache__",
+      "bytes": 136570
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\__pycache__",
+      "bytes": 135559
+    }
+  ],
+  "completed": true,
+  "scope": "Only this stage tmp and generated Python caches; media review local only"
+}

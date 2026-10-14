@@ -1,0 +1,90 @@
+{
+  "old_runs_and_sources_preserved": true,
+  "models_data_environment_untouched": true,
+  "removed": [
+    {
+      "path": "E:\\VIT Model\\runs\\new_hygiene_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\new_hygiene_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\new_hygiene_stream_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\new_hygiene_stream_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\numeric_timeline_port_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\numeric_timeline_reference_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\numeric_timeline_reference_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\numeric_timeline_stream_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\numeric_timeline_stream_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\paper_fact_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\paper_fact_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\paper_fact_port_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\visible_action_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\visible_action_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    }
+  ]
+}

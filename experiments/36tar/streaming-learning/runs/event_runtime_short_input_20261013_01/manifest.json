@@ -1,0 +1,26 @@
+{
+  "source": "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm",
+  "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+  "author": "Centers for Disease Control and Prevention",
+  "license": "Public domain US federal work",
+  "page": "https://commons.wikimedia.org/wiki/File:Clean_hands_short.webm",
+  "changes": "Two original 1FPS selected RGB samples, FFV1 lossless; derived time explicitly 0 and 1, audio omitted",
+  "frames": [
+    {
+      "derived_pts": 0.0,
+      "original_frame_id": 0,
+      "original_pts": 0.0,
+      "original_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8"
+    },
+    {
+      "derived_pts": 1.0,
+      "original_frame_id": 30,
+      "original_pts": 1.001,
+      "original_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741"
+    }
+  ],
+  "derived_video": "E:\\VIT Model\\runs\\event_runtime_short_input_20261013_01\\two_sample_frames.mkv",
+  "derived_sha256": "9ed0ebf56a0aa1361e5276a29607ca78c5c34fcf2350acac53b10c5b792fdd3a",
+  "bytes": 82401,
+  "scope": "Length-edge input only, not new natural independent video"
+}

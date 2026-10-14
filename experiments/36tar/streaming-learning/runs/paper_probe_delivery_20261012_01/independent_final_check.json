@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "archive_files": 208,
+  "archive_sha256": "49681d8a1c1b3dc63dc637e70e8e9b7fd759a6ed8c19fcfa89e7145ea50195de",
+  "frozen_cpu_gpu_sources_unchanged": true,
+  "git_clean": true,
+  "gpu_records": 51,
+  "stage_loads": 1,
+  "not_uploaded": true,
+  "no_background_job": true
+}

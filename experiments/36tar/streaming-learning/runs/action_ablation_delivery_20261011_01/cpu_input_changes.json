@@ -1,0 +1,299 @@
+{
+  "scope": "CPU input construction only; no pretrained capability results yet",
+  "tensor_kinds_compared": [
+    "input_ids",
+    "attention_mask",
+    "pixel_values_videos",
+    "video_grid_thw",
+    "mm_token_type_ids",
+    "position_ids"
+  ],
+  "relations": [
+    {
+      "id": "pixel_first_to8",
+      "parent": "sparse_actual",
+      "factor": "one_pixel_slot",
+      "changed_image_slots": [
+        0
+      ],
+      "changed_time_slots": [],
+      "changed_tensor_kinds": [
+        "pixel_values_videos"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "7.5",
+          "10.5"
+        ]
+      ]
+    },
+    {
+      "id": "pixel_second_to9",
+      "parent": "sparse_actual",
+      "factor": "one_pixel_slot",
+      "changed_image_slots": [
+        1
+      ],
+      "changed_time_slots": [],
+      "changed_tensor_kinds": [
+        "pixel_values_videos"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "7.5",
+          "10.5"
+        ]
+      ]
+    },
+    {
+      "id": "dense_pixels_sparse_times",
+      "parent": "sparse_actual",
+      "factor": "pixel_combination",
+      "changed_image_slots": [
+        0,
+        1
+      ],
+      "changed_time_slots": [],
+      "changed_tensor_kinds": [
+        "pixel_values_videos"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "7.5",
+          "10.5"
+        ]
+      ]
+    },
+    {
+      "id": "sparse_pixels_dense_times",
+      "parent": "sparse_actual",
+      "factor": "time_combination",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1
+      ],
+      "changed_tensor_kinds": [
+        "input_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "8.5",
+          "10.5"
+        ]
+      ]
+    },
+    {
+      "id": "time_second_to9",
+      "parent": "sparse_actual",
+      "factor": "one_time_slot",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        1
+      ],
+      "changed_tensor_kinds": [
+        "input_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "8.0",
+          "10.5"
+        ]
+      ]
+    },
+    {
+      "id": "time_first_plus_half",
+      "parent": "sparse_actual",
+      "factor": "one_time_slot",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0
+      ],
+      "changed_tensor_kinds": [
+        "input_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        131
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "7.8",
+          "10.5"
+        ]
+      ]
+    },
+    {
+      "id": "sparse_origin_zero",
+      "parent": "sparse_actual",
+      "factor": "time_shift",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_tensor_kinds": [
+        "input_ids",
+        "attention_mask",
+        "mm_token_type_ids",
+        "position_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        130
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "0.5",
+          "3.5"
+        ]
+      ]
+    },
+    {
+      "id": "sparse_offset_plus10",
+      "parent": "sparse_actual",
+      "factor": "time_shift",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_tensor_kinds": [
+        "input_ids",
+        "attention_mask",
+        "mm_token_type_ids",
+        "position_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        132
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "17.5",
+          "20.5"
+        ]
+      ]
+    },
+    {
+      "id": "sparse_uniform_zero",
+      "parent": "sparse_actual",
+      "factor": "time_origin_and_gaps",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_tensor_kinds": [
+        "input_ids",
+        "attention_mask",
+        "mm_token_type_ids",
+        "position_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        130
+      ],
+      "rendered_times_before_after": [
+        [
+          "7.5",
+          "10.5"
+        ],
+        [
+          "0.5",
+          "2.5"
+        ]
+      ]
+    },
+    {
+      "id": "dense_origin_zero",
+      "parent": "dense_actual",
+      "factor": "time_shift",
+      "changed_image_slots": [],
+      "changed_time_slots": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "changed_tensor_kinds": [
+        "input_ids",
+        "attention_mask",
+        "mm_token_type_ids",
+        "position_ids"
+      ],
+      "input_tokens_before_after": [
+        131,
+        130
+      ],
+      "rendered_times_before_after": [
+        [
+          "8.5",
+          "10.5"
+        ],
+        [
+          "0.5",
+          "2.5"
+        ]
+      ]
+    }
+  ]
+}

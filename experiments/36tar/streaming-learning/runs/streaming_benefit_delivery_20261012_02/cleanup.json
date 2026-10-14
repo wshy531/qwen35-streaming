@@ -1,0 +1,54 @@
+{
+  "old_runs_and_sources_preserved": true,
+  "removed": [
+    {
+      "path": "E:\\VIT Model\\runs\\streaming_benefit_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\benefit_chunk32_cpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\benefit_original_a_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\benefit_stream_a_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\benefit_stream_b_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\benefit_original_b_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\benefit_chunk32_original_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\benefit_chunk32_stream_gpu_20261012_01\\tmp",
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "no_reparse_point": true
+    }
+  ],
+  "models_data_environment_untouched": true
+}

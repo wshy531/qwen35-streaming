@@ -1,0 +1,8 @@
+test_current_and_compressed_history_query_preserve_main_then_continue (__main__.Contracts.test_current_and_compressed_history_query_preserve_main_then_continue) ... ok
+test_failed_main_write_does_not_create_memory_and_hook_is_removed (__main__.Contracts.test_failed_main_write_does_not_create_memory_and_hook_is_removed) ... ok
+test_pending_future_queries_do_not_call_language (__main__.Contracts.test_pending_future_queries_do_not_call_language) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.203s
+
+OK

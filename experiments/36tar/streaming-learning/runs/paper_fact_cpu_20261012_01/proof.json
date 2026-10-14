@@ -1,0 +1,407 @@
+{
+  "request": {
+    "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+    "video_dir": "E:\\VIT Model\\datasets",
+    "wall_seconds": 90,
+    "allow_branch": []
+  },
+  "budget": {
+    "model_loads": 1,
+    "cases": 6,
+    "vision_max": 6,
+    "language_max": 102,
+    "generated_max": 96,
+    "answer_tokens": 16,
+    "input_with_answer_max": 288,
+    "frames_per_case": 2,
+    "precision": "fp32_ieee_math",
+    "wall_seconds": 90,
+    "available_ram_gib_min": 3,
+    "free_gpu_gib_min": 5.5
+  },
+  "source_hashes": {
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\modeling_qwen3_5.py": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__init__.py": "86dfb66a6285dc8b962b9e4ede5fde54115da09f79f552083e9d53fa9fe45280",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\action_ablation.py": "c6d88d92fda2163fa88ddaf9d1828550b312e17fd4e1c47bebdb02f0c90a6f6f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\baseline.py": "6675b088761705a9f98c349fbdbf02e52344a595fa7f500b4274d0594cf019c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\capture_worker.py": "9b18ec6b211d6c097be9396c288b11b781e1168aa5873bd41e79d5db92588783",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_experiment.py": "b90d12682b6f07e995dd7611e34e0dc2f95047b88085bcb8a47a8ec685ea13fa",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_interleaved.py": "66ced70ccb9543a38fc76b1308a313bc305dbfa813e81cbbaec72559a11ff92d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_size_probe.py": "60a1d6522f2524dbc3a161609b595cfd315e04fe530e507fcacb48e94cbb036d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_weight_check.py": "8b59e8486930d669a9ffe0969856718904e317a2e3ad778b887d921a7a130150",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\equal_tail_control.py": "3efa096f560f0ab8cf34de400c5478c70ac2563fbf0aaa5ce2cc5f3f9b1c1b03",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\fair_video.py": "0ef56870d606b5a4609ba49d1a9486d89c2a30a1c0dd2f25ec3926941e63cd2f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\four_frame_online.py": "d7fdc2683150ffddf26a2d3d872897f304b0c3065106fc50f05cd028f110d29e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\fp32_regression.py": "9e51af60930ee768e03d9640a69d62bf988811f6f9ecc8c6fbcb63a2869fa800",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\live_demo.py": "156acd9282fe3cfcae73ef2f10c4db972134c4855e145b78d2c3870a67b858a2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\natural_experiment.py": "1798ee86298933b61b676e08f231743339ccedc35a10ad71e9b182cb6ca6a10d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\online_experiment.py": "73bb944e4b2f3ed4e4574d6ccba454be0e897d31ee08b9af55f4438e22d498dd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\original_first_control.py": "6330d36b79e6a617aee40060fc03e4943b61c8afe2f7b012571b47927a5bcb8e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\pair_demo.py": "e0f91a107dcd48914e6685695c603da1509ab8e71050e403ddf52488feea5c91",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_diagnostic_cpu.py": "88e24629aaf7f9e421b0a4017119053e24c16b114810bf124fbc22e2ed260499",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_fullmodel.py": "c0b1071e841d1e1c827b31bbb67c2626d05c1bd77fd96df960f31a157dbaa0c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_layers.py": "7565f280d28d170b51ff45696b390004642cddf9d106b64840c12bdeedae0d7b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_recurrence_cpu.py": "8ab627f4846f935d71d6ad86831777a0054eefd757c38043077958942f864694",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\prefix_first_control.py": "1c891a0a0f500707c61c1f27ecde374cba9ade45d17a39bda7c3640bae95404b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\protocol_capability_control.py": "0e3fa348e385224bde781c9f40fd409d3b28c9c3c1b64f315b6b97db92320f3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\qkv_replay.py": "1a9338dbcfd2423674b22e4493fa5cbc0e4041072227df55a4160accde184f77",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\sampling_stability.py": "20cc2e20cc13b9ab1909c2d4acf3d3a5f9e73c80d151c39f5abf3de6e074cc23",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\scene_pair_control.py": "b6ded03977ffeca4d3e1478d265411e7ca492fa9f2076b66c6f79b7fc8d56037",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\shared_features_control.py": "e15759d9d927b7384e9a09cd79a05a47a550a692d06519a4b65beb1e7e68c26e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\smoke_test.py": "d5cc3173daf4cd1fafb5cd881968b8de11cb4c98075dbdb171c49cf3c4624b3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\stability_experiment.py": "620e59416873b5f894dc4e15b9002fe9fb644a0f56f8c2e1321c18cac53a1afd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\stage_timing.py": "6b04038281fe56e6c661ec5f0456892b7a1c579e0ea7ed951584040c0ded2eaf",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\timeline_reference.py": "b97ef089a60f32155b79c27b6e13373d5ff3e65dcdc75efe7f62a17878a9b217",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\timestamp_diagnostic.py": "f0070d3d52a03e2d40499db69f96b205a19894d715422879d2b24f6a9807ec6f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\video_demo.py": "aeddaeee797e1e4fb310b37e00cee8d05ce71a839e2876974064e89ae130b9ab",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_expand.py": "4d703213a1680da0bc746123a41b3595ad04ea77f4ac98294452658d8d44c561",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_control.py": "d5639c805f91002a8c533ad9962da9a3011aacc5721e5fd0fb37fd83ca396a4f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_online.py": "99a212591ab8c19e18498368b8561a4ad5c7c52befb880729c5f5c0bacda9474",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_units.py": "367dfad3699e064fd844d68304191067b447f8a66063879ce56208dcf842d205",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_trace.py": "e5ce68b266a2de0806293f68d29a7ff0d822f5ea7eaeaf83411ebbbb6a82478e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\window_experiment.py": "589e95f20eb3fb947aef33d0ab78624d69fa96d67bb05e28066f3b3c3ec72c62",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__init__.py": "16795d71ce6a13c2d34275576d369c83e7ae791940b898dd42eaa3e47a38db23",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\action_inputs.py": "1235ae932233446c63fdf422fdcda26b7c83556c037e638dc3577d9fad8e53e0",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\demo.py": "c1f1367be18698be06cbb7f4d316b08595880b4a67c399299a7813aeccb909a7",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\fair_inputs.py": "eb5a0bc03bcef1f12ec3ce3328bc0a2c9fc7baf1f9ceef9fb2b8ff66f3317814",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\hybrid.py": "86bb4855fa4af51e3f35ccb529684c6cfe4bc6e092f64a9c8b9777f73d69460a",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\inference.py": "e5335712202fc13432bcc574d919f2387fc814cde28ae80abbc5e1f0a5621d24",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\inputs.py": "aaa98fcb49801c6e09df2bb9743cbd20992bae25110c8325bd3f69a112e54c45",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\live_source.py": "7bc13a3f270ae82762dd846ffdd2dd3cb037c1da8eccefdd95fc34625fa125c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\online.py": "90732e09495eee295175f9861cbd5030c659432588669472a2a7ef44e3ea47a9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\playback.py": "90952c39450f764df64dafdf5962c3c02fb4ff0c047d32e0e7868fdec28ee32c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\preprocessing.py": "361bfd6aafcf8b1a8b84f823dba9e358a9dc526f848df9005011bb039ca60343",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\repeat_source.py": "7be2ae0aa593ffc03c914748378778871eadfd6f1dbf4f865413109142868e6d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\sampling_inputs.py": "b2fe76308f4e8da0bc46f06df7cf67636813fa647bc31692fe76aa8d8b4d056f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\session.py": "12e06e161593d94ce9c9422df8627c8bfb440a0c255216f526b8e1b9ad7bb8f9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\timeline_inputs.py": "6f181d29dda85f5913dddd80b966a208a2f12e8a9bcac6049acd7ed40b10a978",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\viewer.py": "d537fa57ed0269705ec95afd474617e87e4327e58c37deec13f24e40f362f21c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\window.py": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_action_inputs.py": "48e40fee55382c8af5301fd29c3e302f2d843b0cf597977b290ce468dac55d1f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_fair_inputs.py": "bc8d1fb3d8d11c1b7d4b14dd25c4323b75bf1915fbeaa455179d3b1909635d87",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_live_source.py": "a82f5378880463429413924a8e991ab10ab62721f86264a4f3ca10ab786c7fd2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_local_model.py": "1deeb001e7bca335fe0b786c0f548543b4386079b6d29926525f5d110e64c24d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_mixed_state.py": "b63e6a5609ea497fe4f47fd8bf2cb037837d6da1997560d7f87254558575d7e8",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_online.py": "51843548f47f1d3251da06006f8f18a8dc66d7ffc5d2765f8bbec5c99020e4f9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_pair_demo.py": "49d16e208b464d342508672ea8f91ec794b7fa2c6399c172793f3b947222d0cc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_playback.py": "1e2d68ce6ec15005a1651f9014212846d088e3e04921b2aa5dfd003b2094a8c1",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_recurrent_reference.py": "bab4cb398797ecd80a4d1b9e050afb44f4f55238baa19648521887c6ee4ed51c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_repeat_source.py": "880d224c0d7957d03e3088c70742e95a83fdef68fdc217a1581a0bf1c6dfa115",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_sampling_inputs.py": "74b34be15fea7acdbbb3d08b7defe83f21e22cb70ac8e299c4b14bca1325e09c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_stream_session.py": "8f0af36ce5a81ddca526d44fd0772d52b205abde68fa0d4022d1fe902b7be792",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_stream_window.py": "94de80f03e6413a386be82cc84b0716474fdb535d7c8af209b3b1b6132a5e0a4",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_timeline_inputs.py": "0dfbd40dceead971120a1109fdb26ac989f0bd11dccd488ce803f2cdca8ed451",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_video_demo.py": "d24cb9085a550a19bfd9ef3fd37e69a1b8fa490ea81f0414850c0a0fdb89006b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
+    "E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\processing_qwen3_vl.py": "e5abbaf1d035fe49cd8354f1e92fd3f92ab1103a39173c147471f30ff1908b6a",
+    "E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\video_processing_qwen3_vl.py": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10",
+    "E:\\VIT Model\\experiments\\paper_fact_v1\\probe.py": "1033c90c9927fda5e4ea7408a7b289e6f1710882bfd32f070590579acd74d9e8",
+    "E:\\VIT Model\\experiments\\paper_fact_v1\\run_probe.py": "704d577da123be268a42130e081d4e3a961544ce9c723ddbdefbf3c27d7fa287",
+    "E:\\VIT Model\\experiments\\paper_fact_v1\\方案.md": "d55c790d4c4cf3ec39c8501f525528c2966a740434ba2afb3fd191d8a2d46b3f",
+    "E:\\VIT Model\\experiments\\paper_fact_v1\\cases.json": "826fa3bce535dfc0add465908c890e6b7404857b49f957f78b0f6bd1487e2c79"
+  },
+  "assets": [
+    {
+      "name": "chat_template.jinja",
+      "bytes": 7755,
+      "sha256": "273D8E0E683B885071FB17E08D71E5F2A5DDFB5309756181681DE4F5A1822D80",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "config.json",
+      "bytes": 2907,
+      "sha256": "B90B86F35C8E6925EF74EE04D0E758F0A845C83A42089AD82BBAA948DE9B4204",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 3353259,
+      "sha256": "A9D356D7BDF1EF4949E3E748E95B8E10AD9D4E2E838EDDC38A0A7B6B94D1DB8D",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 50900,
+      "sha256": "D8A08838A613B025EB7952ED9DB11696213E57E76A375661EF5C12F9DD5DCF4E",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450AC9C6529872EE1924FCB0962FF5634834F817040F444118116F4E516",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 16709,
+      "sha256": "49E2B6E395F959F077F1E992B338919C0D4A9732FC6E613995E06557F843500C",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 12807982,
+      "sha256": "5F9E4D4901A92B997E463C1F46055088B6CCA5CA61A6522D1B9F64C4BB81CB42",
+      "expected_lfs_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "sha256": "7768AF27C1FAFA9CC9011C1DC20067E03F8915E03B63504550E11D5066986D13",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "sha256": "CE99B4CB2983D118806CE0A8B777A35B093E2000A503EBDE25853284C9DFA003",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "model.safetensors-00001-of-00001.safetensors",
+      "bytes": 1746942600,
+      "sha256": "04B1C301231DD422B8860DB31311AB2721511346A32CB1E079C4C4E5F1FE4696",
+      "expected_lfs_sha256": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696"
+    }
+  ],
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "video_assets": {
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+    "E:\\VIT Model\\datasets\\numeric_hand_hygiene_v1\\hand_hygiene.webm": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9"
+  },
+  "cases": [
+    {
+      "source": "clean",
+      "case_id": "water_wash_paper",
+      "question": "Are the hands taking or using a paper towel in the most recent two frames? Answer only YES or NO.",
+      "question_id": "paper",
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "8e73c9686e799222ae3772dc7ffef9edd842d620aedacef26c6646797dea3005",
+      "input_tokens": 91,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Running water visibly at hands."
+    },
+    {
+      "source": "clean",
+      "case_id": "paper_take_paper",
+      "question": "Are the hands taking or using a paper towel in the most recent two frames? Answer only YES or NO.",
+      "question_id": "paper",
+      "frames": [
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "631225c0c14e15d961b6050fc3b57da3691e139f988b1ad8a3c4cf6494551311",
+      "input_tokens": 91,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "YES",
+      "rubric": "Taking paper towel."
+    },
+    {
+      "source": "clean",
+      "case_id": "paper_use_paper",
+      "question": "Are the hands taking or using a paper towel in the most recent two frames? Answer only YES or NO.",
+      "question_id": "paper",
+      "frames": [
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "9584ba979d852c25865f10f74784820c29f22eeebd3a47010809c826c5093dc8",
+      "input_tokens": 91,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "YES",
+      "rubric": "Using paper towel."
+    },
+    {
+      "source": "new",
+      "case_id": "standing_paper",
+      "question": "Are the hands taking or using a paper towel in the most recent two frames? Answer only YES or NO.",
+      "question_id": "paper",
+      "frames": [
+        {
+          "frame_id": 144,
+          "timestamp": 6.006,
+          "rgb_sha256": "e886a848dda0a029cb62bc62259b540350c2a25883b0146f84c25e050b2a439f"
+        },
+        {
+          "frame_id": 168,
+          "timestamp": 7.007,
+          "rgb_sha256": "04fbd91a178314fc3733cd0f2d40843974e97524b28402d962ca2b3fe2d982d8"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "baedb8ecee4feaa115f86fca3098221daa8cd83c5be71492a7bbfa4a00601cdd",
+      "input_tokens": 90,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Standing near dispenser, no visible water/paper."
+    },
+    {
+      "source": "new",
+      "case_id": "dispensing_paper",
+      "question": "Are the hands taking or using a paper towel in the most recent two frames? Answer only YES or NO.",
+      "question_id": "paper",
+      "frames": [
+        {
+          "frame_id": 240,
+          "timestamp": 10.01,
+          "rgb_sha256": "0e6e8a179f03dba491fe89c8dced9dccb0b623dfb435659d3da0f0b88fd1a2eb"
+        },
+        {
+          "frame_id": 264,
+          "timestamp": 11.011,
+          "rgb_sha256": "5e38d10bc69b01574ac7c50753d19da7584bea745ecf6d6747f074f2aa8cae45"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "2132d62997605c11aebe6a2b456d58f409a83127a5bf670abde351fcf2947003",
+      "input_tokens": 91,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Pressing liquid dispenser, no visible running water/paper."
+    },
+    {
+      "source": "new",
+      "case_id": "rubbing_paper",
+      "question": "Are the hands taking or using a paper towel in the most recent two frames? Answer only YES or NO.",
+      "question_id": "paper",
+      "frames": [
+        {
+          "frame_id": 336,
+          "timestamp": 14.014,
+          "rgb_sha256": "0e2af5d3cff85cdc395a7f9fec87b8ae66195735fe35b39296032258645ae8b4"
+        },
+        {
+          "frame_id": 360,
+          "timestamp": 15.015,
+          "rgb_sha256": "5988032a0c56f8bdfc1f3e4d44586389e49533a8a68cdd930f4c2ce79e002946"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "a5d519836bd74649a1cca36a1f2b85222d8f7a3b41c72c24222efa0f4577ea41",
+      "input_tokens": 91,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Rubbing hands, no visible running water/paper; colloquial hygiene may be called washing."
+    }
+  ],
+  "summary_sha256": "c868a2cfc36c4268f0a83d33a5000bb84fccf3742d38a82a8910986b2e975c5f",
+  "cpu_tests_sha256": "1b6d609e5a210cfa56e32a144de1737a6449c7d1a3c682818cc3221b6fa622e2"
+}

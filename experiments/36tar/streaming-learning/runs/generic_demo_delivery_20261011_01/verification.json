@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "frozen_original_files_unchanged": 61,
+  "active_proof_matches": true,
+  "cpu_tests_passed": 85,
+  "gpu_runs_this_round": 1,
+  "syntax_files": 224,
+  "readme_links": 18,
+  "capsule_files": 1090,
+  "capsule_bytes": 9226206,
+  "no_large_assets_or_credentials": true,
+  "changes_only_in_personal_capsule": true,
+  "cleanup": [
+    {
+      "path": "E:\\VIT Model\\runs\\generic_demo_cpu_20261011_01\\tmp",
+      "bytes": null,
+      "removed": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\generic_demo_cpu_20261011_02\\tmp",
+      "bytes": null,
+      "removed": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\generic_demo_preflight_20261011_01\\tmp",
+      "bytes": null,
+      "removed": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\generic_demo_other_input_cpu_20261011_01\\tmp",
+      "bytes": null,
+      "removed": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\generic_demo_gpu_20261011_01\\tmp",
+      "bytes": null,
+      "removed": true
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__pycache__",
+      "bytes": 137082.0,
+      "removed": true
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__",
+      "bytes": 203317.0,
+      "removed": true
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__",
+      "bytes": 71960.0,
+      "removed": true
+    },
+    {
+      "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\__pycache__",
+      "bytes": 109195.0,
+      "removed": true
+    }
+  ]
+}

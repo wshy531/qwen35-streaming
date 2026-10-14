@@ -1,0 +1,279 @@
+{
+  "request": {
+    "video": "E:\\VIT Model\\datasets\\history_integration_v1_02\\controlled_six_frames.mkv",
+    "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+    "stream_run": "E:\\VIT Model\\runs\\history_integration_gpu_20261012_01",
+    "question": "Name the main visible animal."
+  },
+  "budget": {
+    "model_loads": 1,
+    "unique_pairs": 3,
+    "frames": 6,
+    "vision_max": 3,
+    "language_max": 51,
+    "generated_max": 48,
+    "answer_tokens": 16,
+    "tokens_max": 200,
+    "wall_seconds": 240,
+    "ram_min_gib": 3,
+    "gpu_free_min_gib": 5.5,
+    "fp32_conversion_free_min_gib": 2
+  },
+  "sources": {
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\modeling_qwen3_5.py": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__init__.py": "86dfb66a6285dc8b962b9e4ede5fde54115da09f79f552083e9d53fa9fe45280",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\action_ablation.py": "c6d88d92fda2163fa88ddaf9d1828550b312e17fd4e1c47bebdb02f0c90a6f6f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\baseline.py": "6675b088761705a9f98c349fbdbf02e52344a595fa7f500b4274d0594cf019c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\capture_worker.py": "9b18ec6b211d6c097be9396c288b11b781e1168aa5873bd41e79d5db92588783",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_experiment.py": "b90d12682b6f07e995dd7611e34e0dc2f95047b88085bcb8a47a8ec685ea13fa",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_interleaved.py": "66ced70ccb9543a38fc76b1308a313bc305dbfa813e81cbbaec72559a11ff92d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_size_probe.py": "60a1d6522f2524dbc3a161609b595cfd315e04fe530e507fcacb48e94cbb036d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_weight_check.py": "8b59e8486930d669a9ffe0969856718904e317a2e3ad778b887d921a7a130150",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\equal_tail_control.py": "3efa096f560f0ab8cf34de400c5478c70ac2563fbf0aaa5ce2cc5f3f9b1c1b03",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\fair_video.py": "0ef56870d606b5a4609ba49d1a9486d89c2a30a1c0dd2f25ec3926941e63cd2f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\four_frame_online.py": "d7fdc2683150ffddf26a2d3d872897f304b0c3065106fc50f05cd028f110d29e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\fp32_regression.py": "9e51af60930ee768e03d9640a69d62bf988811f6f9ecc8c6fbcb63a2869fa800",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\live_demo.py": "156acd9282fe3cfcae73ef2f10c4db972134c4855e145b78d2c3870a67b858a2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\natural_experiment.py": "1798ee86298933b61b676e08f231743339ccedc35a10ad71e9b182cb6ca6a10d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\online_experiment.py": "73bb944e4b2f3ed4e4574d6ccba454be0e897d31ee08b9af55f4438e22d498dd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\original_first_control.py": "6330d36b79e6a617aee40060fc03e4943b61c8afe2f7b012571b47927a5bcb8e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\pair_demo.py": "e0f91a107dcd48914e6685695c603da1509ab8e71050e403ddf52488feea5c91",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_diagnostic_cpu.py": "88e24629aaf7f9e421b0a4017119053e24c16b114810bf124fbc22e2ed260499",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_fullmodel.py": "c0b1071e841d1e1c827b31bbb67c2626d05c1bd77fd96df960f31a157dbaa0c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_layers.py": "7565f280d28d170b51ff45696b390004642cddf9d106b64840c12bdeedae0d7b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_recurrence_cpu.py": "8ab627f4846f935d71d6ad86831777a0054eefd757c38043077958942f864694",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\prefix_first_control.py": "1c891a0a0f500707c61c1f27ecde374cba9ade45d17a39bda7c3640bae95404b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\protocol_capability_control.py": "0e3fa348e385224bde781c9f40fd409d3b28c9c3c1b64f315b6b97db92320f3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\qkv_replay.py": "1a9338dbcfd2423674b22e4493fa5cbc0e4041072227df55a4160accde184f77",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\sampling_stability.py": "20cc2e20cc13b9ab1909c2d4acf3d3a5f9e73c80d151c39f5abf3de6e074cc23",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\scene_pair_control.py": "b6ded03977ffeca4d3e1478d265411e7ca492fa9f2076b66c6f79b7fc8d56037",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\shared_features_control.py": "e15759d9d927b7384e9a09cd79a05a47a550a692d06519a4b65beb1e7e68c26e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\smoke_test.py": "d5cc3173daf4cd1fafb5cd881968b8de11cb4c98075dbdb171c49cf3c4624b3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\stability_experiment.py": "620e59416873b5f894dc4e15b9002fe9fb644a0f56f8c2e1321c18cac53a1afd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\stage_timing.py": "6b04038281fe56e6c661ec5f0456892b7a1c579e0ea7ed951584040c0ded2eaf",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\timeline_reference.py": "b97ef089a60f32155b79c27b6e13373d5ff3e65dcdc75efe7f62a17878a9b217",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\timestamp_diagnostic.py": "f0070d3d52a03e2d40499db69f96b205a19894d715422879d2b24f6a9807ec6f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\video_demo.py": "889bb1c5d6f710c2399888189d3c98469867cff4200e341b5935379b67087a3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_expand.py": "4d703213a1680da0bc746123a41b3595ad04ea77f4ac98294452658d8d44c561",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_control.py": "d5639c805f91002a8c533ad9962da9a3011aacc5721e5fd0fb37fd83ca396a4f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_online.py": "99a212591ab8c19e18498368b8561a4ad5c7c52befb880729c5f5c0bacda9474",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_units.py": "367dfad3699e064fd844d68304191067b447f8a66063879ce56208dcf842d205",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_trace.py": "e5ce68b266a2de0806293f68d29a7ff0d822f5ea7eaeaf83411ebbbb6a82478e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\window_experiment.py": "589e95f20eb3fb947aef33d0ab78624d69fa96d67bb05e28066f3b3c3ec72c62",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__init__.py": "16795d71ce6a13c2d34275576d369c83e7ae791940b898dd42eaa3e47a38db23",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\action_inputs.py": "1235ae932233446c63fdf422fdcda26b7c83556c037e638dc3577d9fad8e53e0",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\demo.py": "c1f1367be18698be06cbb7f4d316b08595880b4a67c399299a7813aeccb909a7",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\fair_inputs.py": "eb5a0bc03bcef1f12ec3ce3328bc0a2c9fc7baf1f9ceef9fb2b8ff66f3317814",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\frame_memory.py": "d0712c3304763ef199dc92e4bebafef6d389bcfb0d55139e2495f54475314767",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\hybrid.py": "86bb4855fa4af51e3f35ccb529684c6cfe4bc6e092f64a9c8b9777f73d69460a",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\inference.py": "e5335712202fc13432bcc574d919f2387fc814cde28ae80abbc5e1f0a5621d24",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\inputs.py": "aaa98fcb49801c6e09df2bb9743cbd20992bae25110c8325bd3f69a112e54c45",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\live_source.py": "7bc13a3f270ae82762dd846ffdd2dd3cb037c1da8eccefdd95fc34625fa125c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\online.py": "90732e09495eee295175f9861cbd5030c659432588669472a2a7ef44e3ea47a9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\playback.py": "90952c39450f764df64dafdf5962c3c02fb4ff0c047d32e0e7868fdec28ee32c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\preprocessing.py": "361bfd6aafcf8b1a8b84f823dba9e358a9dc526f848df9005011bb039ca60343",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\remembering.py": "ea89926e6da2cdd7106e690dfa17838b7b6c9254c063dea328a1b38b84a8b5b3",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\repeat_source.py": "7be2ae0aa593ffc03c914748378778871eadfd6f1dbf4f865413109142868e6d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\sampling_inputs.py": "b2fe76308f4e8da0bc46f06df7cf67636813fa647bc31692fe76aa8d8b4d056f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\session.py": "12e06e161593d94ce9c9422df8627c8bfb440a0c255216f526b8e1b9ad7bb8f9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\timeline_inputs.py": "6f181d29dda85f5913dddd80b966a208a2f12e8a9bcac6049acd7ed40b10a978",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\viewer.py": "48415cef23ea51226e476b5ad16bc4e14c892e9cb840d0019e4c929e0bd0d8e4",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\window.py": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_action_inputs.py": "48e40fee55382c8af5301fd29c3e302f2d843b0cf597977b290ce468dac55d1f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_fair_inputs.py": "bc8d1fb3d8d11c1b7d4b14dd25c4323b75bf1915fbeaa455179d3b1909635d87",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_frame_memory.py": "67a9097928aabf4909100faa21505165d61f1500e6bd3f0611f91ecf2e1fb8dd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_history_demo.py": "3975e044182a3b6d2b39aac7c272d42b752846ab9e3ebed858f397ee8809a7d2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_live_source.py": "a82f5378880463429413924a8e991ab10ab62721f86264a4f3ca10ab786c7fd2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_local_model.py": "1deeb001e7bca335fe0b786c0f548543b4386079b6d29926525f5d110e64c24d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_mixed_state.py": "b63e6a5609ea497fe4f47fd8bf2cb037837d6da1997560d7f87254558575d7e8",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_online.py": "51843548f47f1d3251da06006f8f18a8dc66d7ffc5d2765f8bbec5c99020e4f9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_pair_demo.py": "49d16e208b464d342508672ea8f91ec794b7fa2c6399c172793f3b947222d0cc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_playback.py": "1e2d68ce6ec15005a1651f9014212846d088e3e04921b2aa5dfd003b2094a8c1",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_recurrent_reference.py": "bab4cb398797ecd80a4d1b9e050afb44f4f55238baa19648521887c6ee4ed51c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_repeat_source.py": "880d224c0d7957d03e3088c70742e95a83fdef68fdc217a1581a0bf1c6dfa115",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_sampling_inputs.py": "74b34be15fea7acdbbb3d08b7defe83f21e22cb70ac8e299c4b14bca1325e09c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_stream_session.py": "8f0af36ce5a81ddca526d44fd0772d52b205abde68fa0d4022d1fe902b7be792",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_stream_window.py": "94de80f03e6413a386be82cc84b0716474fdb535d7c8af209b3b1b6132a5e0a4",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_timeline_inputs.py": "0dfbd40dceead971120a1109fdb26ac989f0bd11dccd488ce803f2cdca8ed451",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_video_demo.py": "d24cb9085a550a19bfd9ef3fd37e69a1b8fa490ea81f0414850c0a0fdb89006b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
+    "E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\processing_qwen3_vl.py": "e5abbaf1d035fe49cd8354f1e92fd3f92ab1103a39173c147471f30ff1908b6a",
+    "E:\\VIT Model\\.venv\\Lib\\site-packages\\transformers\\models\\qwen3_vl\\video_processing_qwen3_vl.py": "a32f21d59a4f363dcf24516a5b5fc3b6763c8ff93b03afce435faea558623e10",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\history_integration_v1\\original_check.py": "12047ac1cd20e289fafdbe7bc126ca959a50e3c621942c5d21bbff2fcbabc5b6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\history_integration_v1\\prepare.py": "e3d3c664f4e9cc60599695fcba6b8c5a95629b6bb5f6afb34b444ba672df9f74",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\history_integration_v1\\run_original_check.py": "aef0dc0d26461d8d7c09fc2f4777973bd5aa470450a61df3261cc0dd3e2c0db6",
+    "@plan": "7ab93bda881854ac494ff7546154f49da8c51535c3f04ee61fc58a59ef757ac3"
+  },
+  "video_sha256": "d7687677253bcdc250d4f28c6e89d0b2aa88e503e1390d671a5492f05d1fba6f",
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "assets": [
+    {
+      "name": "chat_template.jinja",
+      "bytes": 7755,
+      "sha256": "273D8E0E683B885071FB17E08D71E5F2A5DDFB5309756181681DE4F5A1822D80",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "config.json",
+      "bytes": 2907,
+      "sha256": "B90B86F35C8E6925EF74EE04D0E758F0A845C83A42089AD82BBAA948DE9B4204",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 3353259,
+      "sha256": "A9D356D7BDF1EF4949E3E748E95B8E10AD9D4E2E838EDDC38A0A7B6B94D1DB8D",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 50900,
+      "sha256": "D8A08838A613B025EB7952ED9DB11696213E57E76A375661EF5C12F9DD5DCF4E",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450AC9C6529872EE1924FCB0962FF5634834F817040F444118116F4E516",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 16709,
+      "sha256": "49E2B6E395F959F077F1E992B338919C0D4A9732FC6E613995E06557F843500C",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 12807982,
+      "sha256": "5F9E4D4901A92B997E463C1F46055088B6CCA5CA61A6522D1B9F64C4BB81CB42",
+      "expected_lfs_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "sha256": "7768AF27C1FAFA9CC9011C1DC20067E03F8915E03B63504550E11D5066986D13",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "sha256": "CE99B4CB2983D118806CE0A8B777A35B093E2000A503EBDE25853284C9DFA003",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "model.safetensors-00001-of-00001.safetensors",
+      "bytes": 1746942600,
+      "sha256": "04B1C301231DD422B8860DB31311AB2721511346A32CB1E079C4C4E5F1FE4696",
+      "expected_lfs_sha256": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696"
+    }
+  ],
+  "cases": [
+    {
+      "frames": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "rgb_sha256": "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525"
+        },
+        {
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "rgb_sha256": "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "981e7c31d21ce5911032e145607352b1b86d70ca35611f2f88591e81d05d73a1",
+      "input_tokens": 74,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "tiny_fresh_prefill_bitwise_equal": true
+    },
+    {
+      "frames": [
+        {
+          "frame_id": 2,
+          "timestamp": 2.0,
+          "rgb_sha256": "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188"
+        },
+        {
+          "frame_id": 3,
+          "timestamp": 3.0,
+          "rgb_sha256": "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "1102d08049eba10f2ee958b5e7aa52cf5a8a19fcb197af97768fb714e75e2920",
+      "input_tokens": 74,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "tiny_fresh_prefill_bitwise_equal": true
+    },
+    {
+      "frames": [
+        {
+          "frame_id": 4,
+          "timestamp": 4.0,
+          "rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a"
+        },
+        {
+          "frame_id": 5,
+          "timestamp": 5.0,
+          "rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "0e1a74feb3dd67ef56e500cf6d4de3b3072135b8cd3c981ae175680ea604683e",
+      "input_tokens": 74,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "tiny_fresh_prefill_bitwise_equal": true
+    }
+  ],
+  "stream_summary_sha256": "9e74e136b94ff576c1e9dbe0d4992b9deee0edf2e492c239a5a4b11f466a614a",
+  "stream_events_sha256": "559176f1e86079ef3f8200fd3ba853a1f9d59a13cad2f348d0ab4f6c82a693c3"
+}

@@ -1,0 +1,8 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 12554.86it/s]
+{"id": "water_wash_paper", "answer": "NO", "stop": "eos"}
+{"id": "paper_take_paper", "answer": "YES", "stop": "eos"}
+{"id": "paper_use_paper", "answer": "YES", "stop": "eos"}
+{"id": "standing_paper", "answer": "NO", "stop": "eos"}
+{"id": "dispensing_paper", "answer": "NO", "stop": "eos"}
+{"id": "rubbing_paper", "answer": "NO", "stop": "eos"}

@@ -1,0 +1,4 @@
+# Frozen evidence
+Large text/JSONL/HTML is losslessly stored in gzip+base64 JSON envelopes with original byte length and SHA256; restore any to a fresh file with tools/restore_evidence.py.
+All42 historical source snapshots are deduplicated by SHA in runs/time_file_source_snapshots_20261014_01.json.gz-base64.json. Restore them with: python tools/restore_time_file_sources.py runs/time_file_source_snapshots_20261014_01.json.gz-base64.json --out NEW_DIRECTORY. It only writes verified bytes and never executes source files. Active entry source stays readable under diagnostics/time_file_v1.
+Preview JPEGs/media/weights/environment/credentials are excluded. Regenerate the entry for images; restored HTML otherwise references local previews. The final audit attempt_review.json lists all13 real answers/refusals in readable form.

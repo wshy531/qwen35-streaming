@@ -1,0 +1,18 @@
+{
+  "models_data_environment_untouched": true,
+  "old_runs_and_sources_preserved": true,
+  "removed": [
+    {
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "path": "E:\\VIT Model\\runs\\paper_probe_cpu_20261012_01\\tmp",
+      "no_reparse_point": true
+    },
+    {
+      "bytes": 0,
+      "checked_absolute_path": true,
+      "path": "E:\\VIT Model\\runs\\paper_probe_gpu_20261012_01\\tmp",
+      "no_reparse_point": true
+    }
+  ]
+}

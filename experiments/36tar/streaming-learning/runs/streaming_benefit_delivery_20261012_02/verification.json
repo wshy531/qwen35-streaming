@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "cpu_proofs": 2,
+  "growing_inputs_each": 12,
+  "candidate_numeric_cases": 12,
+  "gpu_submissions": 6,
+  "gpu_loads": 6,
+  "cumulative_gpu": 69,
+  "real_answers": 288,
+  "default64_pair_comparisons": 96,
+  "symmetric32_pair_comparisons": 48,
+  "all_same_ids": true,
+  "original_active_and_old_sources_unchanged": true,
+  "default64_negative_and32_near_parity_preserved": true,
+  "syntax_files": 275,
+  "copied_text_files": 73,
+  "no_weights_media_env_credentials": true,
+  "no_camera_cluster_training": true
+}

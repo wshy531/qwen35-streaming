@@ -1,0 +1,20 @@
+{
+  "model_loads": 1,
+  "vision_max": 12,
+  "questions_max": 72,
+  "generated_max": 1728,
+  "language_max": 2200,
+  "answer_tokens": 24,
+  "wall_seconds": 360,
+  "main_max_tokens": 256,
+  "qa_max_tokens": 768,
+  "reference_visual_tokens_max": 144,
+  "bank_visual_tokens_max": 144,
+  "candidate_visual_tokens": 48,
+  "retained_rgb_max_bytes": 4194304,
+  "external_working_conservative_max_bytes": 16777216,
+  "ram_min_gib": 3,
+  "gpu_free_min_gib": 5.5,
+  "conversion_free_min_gib": 2,
+  "precision": "fp32_ieee_math"
+}

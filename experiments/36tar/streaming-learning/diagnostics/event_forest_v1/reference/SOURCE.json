@@ -1,0 +1,39 @@
+{
+  "repo": "MCG-NJU/StreamForest",
+  "commit": "f9d14670ff451ff5865638e17c9958e99bf2fec5",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/MCG-NJU/StreamForest/f9d14670ff451ff5865638e17c9958e99bf2fec5/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/MCG-NJU/StreamForest/f9d14670ff451ff5865638e17c9958e99bf2fec5/README.md",
+      "bytes": 10078,
+      "sha256": "1dc0acf3b3f8ed070c1b031f20d812d4e0f4c677926a90d2c98cafe0a0a0813d"
+    },
+    {
+      "path": "llava/model/multimodal_projector/builder.py",
+      "url": "https://raw.githubusercontent.com/MCG-NJU/StreamForest/f9d14670ff451ff5865638e17c9958e99bf2fec5/llava/model/multimodal_projector/builder.py",
+      "bytes": 2399,
+      "sha256": "63a05fe44d7b9298b207a244e9597284a0950a840ff32cdd40f2edeefa042c40"
+    },
+    {
+      "path": "llava/model/multimodal_projector/projector_FSTW_PEMF.py",
+      "url": "https://raw.githubusercontent.com/MCG-NJU/StreamForest/f9d14670ff451ff5865638e17c9958e99bf2fec5/llava/model/multimodal_projector/projector_FSTW_PEMF.py",
+      "bytes": 12171,
+      "sha256": "9403a12928732ed1cfab2840dc7e6648221848e153ffe5c93797509801d4a44d"
+    },
+    {
+      "path": "llava/model/multimodal_projector/memory_manager.py",
+      "url": "https://raw.githubusercontent.com/MCG-NJU/StreamForest/f9d14670ff451ff5865638e17c9958e99bf2fec5/llava/model/multimodal_projector/memory_manager.py",
+      "bytes": 13604,
+      "sha256": "de35e0119e9ff76052030aefceba2afb8e8483184eb555a857d72d2fc75be58f"
+    }
+  ],
+  "fetched_bytes": 53927,
+  "wall_seconds": 3.8589999999967404,
+  "scope": "Public source read-only snapshot, no weights/data/environment/import"
+}

@@ -1,0 +1,14 @@
+{
+  "question": "Briefly identify the main subject visible in these frames.",
+  "prefix_frames": [2, 4, 6, 8, 10, 12],
+  "answer_tokens": 32,
+  "max_tokens": 512,
+  "question_reserve": 96,
+  "warmup_rounds": 1,
+  "timed_rounds": 3,
+  "videos": [
+    {"id": "dog", "path": "E:/VIT Model/datasets/general_stream_v1/dog.webm", "sample_start": 12, "sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a"},
+    {"id": "pigeon", "path": "E:/VIT Model/datasets/general_stream_v1/pigeon.webm", "sample_start": 0, "sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853"}
+  ],
+  "scope": "Finite prerecorded growing-prefix work benchmark; no model weight/kernel changes or claim of real-time camera performance."
+}

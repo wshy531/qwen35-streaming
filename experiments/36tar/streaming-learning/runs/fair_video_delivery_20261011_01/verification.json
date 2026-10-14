@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "frozen_original_files_unchanged": 61,
+  "cpu_tests_passed": 108,
+  "fair_interface_tests_passed": 11,
+  "cpu_cases": 14,
+  "real_gpu_arms_complete": 2,
+  "failed_gpu_attempt_retained": true,
+  "gpu_records_this_stage": 3,
+  "gpu_records_total": 39,
+  "same_input_generated_sequences": 14,
+  "streaming_main_state_unchanged": true,
+  "syntax_files": 230,
+  "readme_links": 26,
+  "capsule_files": 1223,
+  "capsule_bytes": 10041215,
+  "no_new_media_large_assets_credentials": true,
+  "scope_personal_only": true
+}

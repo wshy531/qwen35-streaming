@@ -1,0 +1,10 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 9311.36it/s]
+{"arm": "current", "case": "dog_pair_0", "native": "A dog", "feature": "A dog", "matched": true}
+{"arm": "current", "case": "pigeon_pair_0", "native": "A bird", "feature": "A bird", "matched": true}
+{"arm": "current", "case": "pigeon_pair_1", "native": "The main visible animal in these frames is a dog.", "feature": "The main visible animal in these frames is a dog.", "matched": true}
+{"arm": "current", "case": "cat_pair_0", "native": "A dog", "feature": "A dog", "matched": true}
+{"arm": "current", "case": "cat_pair_1", "native": "A dog.", "feature": "A dog.", "matched": true}
+{"arm": "current", "case": "clean_hands_pair_0", "native": "A person is washing their hands with soap.", "feature": "A person is washing their hands with soap.", "matched": true}
+{"arm": "current", "case": "clean_hands_pair_5", "native": "A person is wiping a bathroom mirror with a paper towel.", "feature": "A person is wiping a bathroom mirror with a paper towel.", "matched": true}
+{"arm": "current", "case": "hand_hygiene_pair_5", "native": "A woman in scrubs is washing her hands.", "feature": "A woman in scrubs is washing her hands.", "matched": true}

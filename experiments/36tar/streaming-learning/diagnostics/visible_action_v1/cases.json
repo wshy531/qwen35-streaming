@@ -1,0 +1,138 @@
+{
+  "sources": {
+    "clean": {
+      "relative_path": "natural_commons_v1/clean_hands.webm",
+      "sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3"
+    },
+    "new": {
+      "relative_path": "numeric_hand_hygiene_v1/hand_hygiene.webm",
+      "sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9"
+    }
+  },
+  "pairs": [
+    {
+      "id": "water_wash",
+      "source": "clean",
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013
+        }
+      ],
+      "expected_by_question": {
+        "water": "YES",
+        "neutral": "1"
+      },
+      "rubric": "Running water visibly at hands."
+    },
+    {
+      "id": "paper_take",
+      "source": "clean",
+      "frames": [
+        {
+          "frame_id": 420,
+          "timestamp": 14.014
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015
+        }
+      ],
+      "expected_by_question": {
+        "water": "NO",
+        "neutral": "2"
+      },
+      "rubric": "Taking paper towel."
+    },
+    {
+      "id": "paper_use",
+      "source": "clean",
+      "frames": [
+        {
+          "frame_id": 480,
+          "timestamp": 16.016
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017
+        }
+      ],
+      "expected_by_question": {
+        "water": "NO",
+        "neutral": "2"
+      },
+      "rubric": "Using paper towel."
+    },
+    {
+      "id": "standing",
+      "source": "new",
+      "frames": [
+        {
+          "frame_id": 144,
+          "timestamp": 6.006
+        },
+        {
+          "frame_id": 168,
+          "timestamp": 7.007
+        }
+      ],
+      "expected_by_question": {
+        "water": "NO",
+        "neutral": "3"
+      },
+      "rubric": "Standing near dispenser, no visible water/paper."
+    },
+    {
+      "id": "dispensing",
+      "source": "new",
+      "frames": [
+        {
+          "frame_id": 240,
+          "timestamp": 10.01
+        },
+        {
+          "frame_id": 264,
+          "timestamp": 11.011
+        }
+      ],
+      "expected_by_question": {
+        "water": "NO",
+        "neutral": "3"
+      },
+      "rubric": "Pressing liquid dispenser, no visible running water/paper."
+    },
+    {
+      "id": "rubbing",
+      "source": "new",
+      "frames": [
+        {
+          "frame_id": 336,
+          "timestamp": 14.014
+        },
+        {
+          "frame_id": 360,
+          "timestamp": 15.015
+        }
+      ],
+      "expected_by_question": {
+        "water": "NO",
+        "neutral": "3"
+      },
+      "rubric": "Rubbing hands, no visible running water/paper; colloquial hygiene may be called washing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "water",
+      "text": "Is running water visibly touching the hands in the most recent two frames? Answer only YES or NO."
+    },
+    {
+      "id": "neutral",
+      "text": "Which visible action occurs in the most recent two frames? Choose 1 for washing or rinsing hands under running water, 2 for taking or using a paper towel, or 3 for neither of those actions. Reply only 1, 2, or 3."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"event": "encoded", "timestamp": 1.6, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 1.6, "memory_from": 0.0, "answer": " Beliau campion"}
+{"event": "encoded", "timestamp": 3.1999999999999997, "memory_from": 0.0, "answer": null}
+{"event": "eof", "timestamp": 3.1999999999999997, "memory_from": 0.0, "answer": null}

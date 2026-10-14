@@ -1,0 +1,42 @@
+{
+  "models_data_environment_untouched": true,
+  "removed": [
+    {
+      "path": "E:\\VIT Model\\runs\\general_stream_cpu_20261012_01\\tmp",
+      "no_reparse_point": true,
+      "bytes": 0,
+      "checked_absolute_path": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\general_stream_gpu_20261012_01\\tmp",
+      "no_reparse_point": true,
+      "bytes": 0,
+      "checked_absolute_path": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\general_reference_gpu_20261012_01\\tmp",
+      "no_reparse_point": true,
+      "bytes": 0,
+      "checked_absolute_path": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\temporal_memory_cpu_20261012_01\\tmp",
+      "no_reparse_point": true,
+      "bytes": 0,
+      "checked_absolute_path": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\temporal_memory_gpu_20261012_01\\tmp",
+      "no_reparse_point": true,
+      "bytes": 0,
+      "checked_absolute_path": true
+    },
+    {
+      "path": "E:\\VIT Model\\runs\\temporal_reference_gpu_20261012_01\\tmp",
+      "no_reparse_point": true,
+      "bytes": 0,
+      "checked_absolute_path": true
+    }
+  ],
+  "old_runs_and_sources_preserved": true
+}

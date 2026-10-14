@@ -1,0 +1,195 @@
+{
+  "passed": true,
+  "files": {
+    "experiments/36tar/streaming-learning/CURRENT_SOURCE_MANIFEST.json": {
+      "bytes": 8386,
+      "sha256": "188fa8be1cb7f7c1489986a6d06e4739aee5f91f597b46f3a917868ebaaae396"
+    },
+    "experiments/36tar/streaming-learning/README.md": {
+      "bytes": 18452,
+      "sha256": "54f562e9435991601122675ddc8d388315357aee9a3527ff662e98c44d5fc2ea"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/scripts/sampling_stability.py": {
+      "bytes": 12775,
+      "sha256": "20cc2e20cc13b9ab1909c2d4acf3d3a5f9e73c80d151c39f5abf3de6e074cc23"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/streaming/sampling_inputs.py": {
+      "bytes": 3477,
+      "sha256": "b2fe76308f4e8da0bc46f06df7cf67636813fa647bc31692fe76aa8d8b4d056f"
+    },
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/tests/test_sampling_inputs.py": {
+      "bytes": 1750,
+      "sha256": "74b34be15fea7acdbbb3d08b7defe83f21e22cb70ac8e299c4b14bca1325e09c"
+    },
+    "experiments/36tar/streaming-learning/configs/sampling_stability_cases.json": {
+      "bytes": 1285,
+      "sha256": "2eb054b4d0814a489e7252e00b24d104e9da3ee46e6407469d60afac20243b9c"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_cpu_20261011_01/source_hashes.json": {
+      "bytes": 6678,
+      "sha256": "e6a6fd3f97159567e195531f45c71029ca9f3d65d0ebb86069aed126c5714bb3"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_cpu_20261011_01/summary.json": {
+      "bytes": 183,
+      "sha256": "cffcc67d24b31516d4fd4291ef4c55e0954c64cd3e3abc2c63b03adb18e8a0e1"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_cpu_20261011_01/unittest.log": {
+      "bytes": 17802,
+      "sha256": "dcf42cb92848027c3274451a54cbaed5999a3d6df56f4843ca0fd1fbabdb9630"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_delivery_20261011_01/active_source_hashes.json": {
+      "bytes": 7874,
+      "sha256": "8a800af76fdf22a57b71b29d8a40e0e9b7647d6b0460ab2fb6fffca9a2dbf215"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_delivery_20261011_01/cleanup.json": {
+      "bytes": 778,
+      "sha256": "22b4b2a5d3c5742f1a5d008963c5898a7ab84104d43bf09fc0d4421b673e201b"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_delivery_20261011_01/comparison.json": {
+      "bytes": 11525,
+      "sha256": "e5cdcbc417bab9287a9b2dc4a6e904ee3cffb33c92e2c915dbbab67ded0f58eb"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_delivery_20261011_01/verification.json": {
+      "bytes": 577,
+      "sha256": "4bdfbc1aebd9344bc69978fb6823eb67c25eae680308b408973a76e1ab1379b7"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/arguments.json": {
+      "bytes": 209,
+      "sha256": "5d6be51d500f60e3bfe4e12b2398caf129b693fd58e2915211c56c3a250f160e"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/budget.json": {
+      "bytes": 469,
+      "sha256": "aa4cbd56534ab1a0719fa92e486094a69308e1c3b272305a42a520c928d2b8b7"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/checked_branch.json": {
+      "bytes": 44,
+      "sha256": "0fb415f42c8dc179ec2d73be96c7dd6b7762270c36e1051782d1060850b79d25"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/console.log": {
+      "bytes": 1589,
+      "sha256": "720551d8e4dc2ce14b54e54de218cabab122e27a5fbf7655aa54528d14da240b"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/resource_precheck.json": {
+      "bytes": 108,
+      "sha256": "8376db2ef9f6349b8673849a350a25c26a4750e65b19456b26e86164df69e434"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/source_hashes.json": {
+      "bytes": 7948,
+      "sha256": "943fc4c2261d5ccef45ff1b0e87ffd7f7a0a57b730d1d6fb854d7a4a9684daac"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/status.json": {
+      "bytes": 70,
+      "sha256": "32abdbb8f5892cf606f3894c9caa0ac72f2fa48598e4a8667f0b3b6bf35ff1be"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/summary.json": {
+      "bytes": 36046,
+      "sha256": "0df7394db474582a20676b683f66302a417d6840f058001ac1e3c3e04e21d4fd"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_original_gpu_20261011_01/watchdog_status.json": {
+      "bytes": 88,
+      "sha256": "4ebd0fcc2b6361fb87527cb46e69bf98bab92c7dd11f0dbbeb77b8263c0deaa7"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/arguments.json": {
+      "bytes": 211,
+      "sha256": "c205b8a099ecfa975d4aa7d7748836fe8b0de71143f6c2a8d09301ddbcea8959"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/budget.json": {
+      "bytes": 469,
+      "sha256": "aa4cbd56534ab1a0719fa92e486094a69308e1c3b272305a42a520c928d2b8b7"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/console.log": {
+      "bytes": 581,
+      "sha256": "457a8a8289bd597cc13246c6e951fe8170800ec2ff08552029aec9c5a4a37c04"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/cpu_tests.json": {
+      "bytes": 71,
+      "sha256": "f52a5f1f4f26f24df3dbc9057f1068b7c01bda3f3424a56aef4fa4202b368b8a"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/preflight_summary.json": {
+      "bytes": 30209,
+      "sha256": "0c0e0b288670fb2feee701cab8c65cc679710097d754110de68d4c0b71f6c230"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/proof.json": {
+      "bytes": 41453,
+      "sha256": "a6dcace2d49a13415e505c839b7cb5d02b9c5fd077c91432e1e957ed894d112e"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/source_hashes.json": {
+      "bytes": 7948,
+      "sha256": "943fc4c2261d5ccef45ff1b0e87ffd7f7a0a57b730d1d6fb854d7a4a9684daac"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/status.json": {
+      "bytes": 72,
+      "sha256": "52bc7c2b631f986f5c28193466a6375734442a588002aac111c72dd80b665338"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/unittest.log": {
+      "bytes": 985,
+      "sha256": "c1e518d444f49083aa935c07795ffbc39fd2009f7fa0868362dbe526eaceeb08"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_preflight_20261011_01/watchdog_status.json": {
+      "bytes": 88,
+      "sha256": "4ebd0fcc2b6361fb87527cb46e69bf98bab92c7dd11f0dbbeb77b8263c0deaa7"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/arguments.json": {
+      "bytes": 210,
+      "sha256": "a5cda3abc9902a0595dbe21d15cfcba1ee61f1202f3e371e7e2a881fc889c1f7"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/budget.json": {
+      "bytes": 469,
+      "sha256": "aa4cbd56534ab1a0719fa92e486094a69308e1c3b272305a42a520c928d2b8b7"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/checked_branch.json": {
+      "bytes": 44,
+      "sha256": "0fb415f42c8dc179ec2d73be96c7dd6b7762270c36e1051782d1060850b79d25"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/console.log": {
+      "bytes": 1601,
+      "sha256": "359ed13f74b30d4826e83c8d574ee1cfd9a7a511dca9ad4fe27e55ad5bbef081"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/resource_precheck.json": {
+      "bytes": 108,
+      "sha256": "2502774b5e2515d1b0ff10cb61712fc321f20ba818d18506a29113872bf411c9"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/source_hashes.json": {
+      "bytes": 7948,
+      "sha256": "943fc4c2261d5ccef45ff1b0e87ffd7f7a0a57b730d1d6fb854d7a4a9684daac"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/status.json": {
+      "bytes": 71,
+      "sha256": "a7e7c05924d16a34556871ed2ae0eb3f247e20d9bf675ac0be8d04d99bffcec1"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/summary.json": {
+      "bytes": 38745,
+      "sha256": "ecd26e791ff6d80411e43d109ac59b6f5ba72442fd7f7e46f7a4099436c3b470"
+    },
+    "experiments/36tar/streaming-learning/runs/sampling_stability_streaming_gpu_20261011_01/watchdog_status.json": {
+      "bytes": 88,
+      "sha256": "4ebd0fcc2b6361fb87527cb46e69bf98bab92c7dd11f0dbbeb77b8263c0deaa7"
+    },
+    "experiments/36tar/streaming-learning/scripts/run_sampling_stability.py": {
+      "bytes": 1716,
+      "sha256": "2807b36cf78e1f5dfc9cbc8dbf098187dff36ca114d0ee5a9b658c9183fe2860"
+    },
+    "experiments/36tar/streaming-learning/多视频采样稳定性方案.md": {
+      "bytes": 3141,
+      "sha256": "5beca8e299773e6c16fcec201422479ea86e18fde6f64ee7133322cb0b99ecce"
+    },
+    "experiments/36tar/streaming-learning/多视频采样稳定性结果.md": {
+      "bytes": 6148,
+      "sha256": "cdc8a1c4663064ae1c932dbf25319e2912b0bae9a28620886490176f47d302f9"
+    },
+    "experiments/36tar/streaming-learning/实验总纲.md": {
+      "bytes": 162672,
+      "sha256": "6988349fb036cb1674a6df9f866d88814b44673871d83c6643e395dd91f90153"
+    },
+    "experiments/36tar/streaming-learning/架构设计.md": {
+      "bytes": 22909,
+      "sha256": "61278204f76e663b4d639757934eb84b7d8b19f231ec1e517513122ade72318f"
+    }
+  },
+  "changed_files": 46,
+  "changed_bytes": 466070,
+  "capsule_bytes": 10640960,
+  "scope_personal_only": true,
+  "source_matches_cpu_gpu_proof": true,
+  "raw_git_bytes_match": true
+}

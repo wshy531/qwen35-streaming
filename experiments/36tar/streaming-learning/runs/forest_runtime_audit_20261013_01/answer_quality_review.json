@@ -1,0 +1,3835 @@
+{
+  "source_summary_sha256": "81b16b95ccacbd65c31044bfd491a42eea90eba8da5daa75851190de242f2dca",
+  "reviewed_at": "2026-10-13T23:51:31.211032+08:00",
+  "no_new_model_runs": true,
+  "truth_source": "E:\\VIT Model\\runs\\forest_runtime_cpu_20261013_02\\inspection_rubric.json",
+  "grading": "Post-run manual semantic review against pre-GPU truth. Ordered list requires dog,bird,cat including bird; natural broad action only, water/soap details unscored. Repeated checkpoints are not independent videos. Reset repeats and adapter duplicate controls excluded.",
+  "totals": {
+    "recent4": {
+      "early": {
+        "correct": 2,
+        "questions": 3
+      },
+      "current": {
+        "correct": 2,
+        "questions": 3
+      },
+      "short_bird": {
+        "correct": 0,
+        "questions": 3
+      },
+      "complete_first_appearance_order": {
+        "correct": 0,
+        "questions": 3
+      },
+      "natural_early_broad": {
+        "correct": 2,
+        "questions": 2
+      },
+      "natural_current_broad": {
+        "correct": 1,
+        "questions": 2
+      },
+      "animal_fixed_checks": {
+        "correct": 4,
+        "questions": 12
+      },
+      "natural_broad_checks": {
+        "correct": 3,
+        "questions": 4
+      }
+    },
+    "event_first": {
+      "early": {
+        "correct": 1,
+        "questions": 3
+      },
+      "current": {
+        "correct": 2,
+        "questions": 3
+      },
+      "short_bird": {
+        "correct": 0,
+        "questions": 3
+      },
+      "complete_first_appearance_order": {
+        "correct": 0,
+        "questions": 3
+      },
+      "natural_early_broad": {
+        "correct": 2,
+        "questions": 2
+      },
+      "natural_current_broad": {
+        "correct": 1,
+        "questions": 2
+      },
+      "animal_fixed_checks": {
+        "correct": 3,
+        "questions": 12
+      },
+      "natural_broad_checks": {
+        "correct": 3,
+        "questions": 4
+      }
+    },
+    "forest": {
+      "early": {
+        "correct": 2,
+        "questions": 3
+      },
+      "current": {
+        "correct": 2,
+        "questions": 3
+      },
+      "short_bird": {
+        "correct": 0,
+        "questions": 3
+      },
+      "complete_first_appearance_order": {
+        "correct": 0,
+        "questions": 3
+      },
+      "natural_early_broad": {
+        "correct": 2,
+        "questions": 2
+      },
+      "natural_current_broad": {
+        "correct": 1,
+        "questions": 2
+      },
+      "animal_fixed_checks": {
+        "correct": 4,
+        "questions": 12
+      },
+      "natural_broad_checks": {
+        "correct": 3,
+        "questions": 4
+      }
+    }
+  },
+  "rows": [
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "recent4",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manually_interpreted": "dog",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "recent4",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "cat",
+      "expected": "cat",
+      "manually_interpreted": "cat",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "recent4",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "recent4",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Dog\n2. Cat",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "dog",
+        "cat"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 2.0,
+          "end": 3.0,
+          "center": 2.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "event_first",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manually_interpreted": "dog",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "event_first",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "The animal visible most recently is a cat.",
+      "expected": "cat",
+      "manually_interpreted": "cat",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "event_first",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "event_first",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Dog\n2. Cat",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "dog",
+        "cat"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 0.0,
+          "end": 1.0,
+          "center": 0.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "forest",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "manually_interpreted": "dog",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 0.0,
+          "end": 3.0,
+          "center": 1.5,
+          "groups": 1,
+          "depth": 1,
+          "tokens": 48,
+          "original_pairs": 2,
+          "mass": 96.0,
+          "surviving_source_pair_ids": [
+            0,
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "forest",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "A cat",
+      "expected": "cat",
+      "manually_interpreted": "cat",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 0.0,
+          "end": 3.0,
+          "center": 1.5,
+          "groups": 1,
+          "depth": 1,
+          "tokens": 48,
+          "original_pairs": 2,
+          "mass": 96.0,
+          "surviving_source_pair_ids": [
+            0,
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "forest",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 0.0,
+          "end": 3.0,
+          "center": 1.5,
+          "groups": 1,
+          "depth": 1,
+          "tokens": 48,
+          "original_pairs": 2,
+          "mass": 96.0,
+          "surviving_source_pair_ids": [
+            0,
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 4,
+      "policy": "forest",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Dog\n2. Cat",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "dog",
+        "cat"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 0.0,
+          "end": 3.0,
+          "center": 1.5,
+          "groups": 1,
+          "depth": 1,
+          "tokens": 48,
+          "original_pairs": 2,
+          "mass": 96.0,
+          "surviving_source_pair_ids": [
+            0,
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 4.0,
+          "end": 5.0,
+          "center": 4.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "recent4",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "expected": "dog",
+      "manually_interpreted": "dog",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "begin": 12.0,
+          "end": 13.0,
+          "center": 12.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "recent4",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "The dog",
+      "expected": "bird",
+      "manually_interpreted": "dog",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "begin": 12.0,
+          "end": 13.0,
+          "center": 12.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "recent4",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "begin": 12.0,
+          "end": 13.0,
+          "center": 12.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "recent4",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Dog\n2. Cat",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "dog",
+        "cat"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 8.0,
+          "end": 9.0,
+          "center": 8.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "begin": 12.0,
+          "end": 13.0,
+          "center": 12.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "event_first",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "The animal visible at the beginning of the video is a cat.",
+      "expected": "dog",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "event_first",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "The dog is the animal visible most recently.",
+      "expected": "bird",
+      "manually_interpreted": "dog",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "event_first",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "event_first",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Cat\n2. Dog",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "cat",
+        "dog"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 6.0,
+          "end": 7.0,
+          "center": 6.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 10.0,
+          "end": 11.0,
+          "center": 10.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "forest",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "A cat is visible at the beginning of the video.",
+      "expected": "dog",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 2,
+          "begin": 0.0,
+          "end": 5.0,
+          "center": 2.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 3,
+          "mass": 144.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 6,
+          "begin": 6.0,
+          "end": 13.0,
+          "center": 9.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 4,
+          "mass": 192.0,
+          "surviving_source_pair_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "forest",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "The animal visible most recently is a dog.",
+      "expected": "bird",
+      "manually_interpreted": "dog",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 2,
+          "begin": 0.0,
+          "end": 5.0,
+          "center": 2.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 3,
+          "mass": 144.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 6,
+          "begin": 6.0,
+          "end": 13.0,
+          "center": 9.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 4,
+          "mass": 192.0,
+          "surviving_source_pair_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "forest",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 2,
+          "begin": 0.0,
+          "end": 5.0,
+          "center": 2.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 3,
+          "mass": 144.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 6,
+          "begin": 6.0,
+          "end": 13.0,
+          "center": 9.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 4,
+          "mass": 192.0,
+          "surviving_source_pair_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 8,
+      "policy": "forest",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Cat\n2. Dog",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "cat",
+        "dog"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 2,
+          "begin": 0.0,
+          "end": 5.0,
+          "center": 2.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 3,
+          "mass": 144.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 6,
+          "begin": 6.0,
+          "end": 13.0,
+          "center": 9.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 4,
+          "mass": 192.0,
+          "surviving_source_pair_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "recent4",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "The animal visible at the beginning of the video is a cat.",
+      "expected": "dog",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 8,
+          "last": 8,
+          "begin": 16.0,
+          "end": 17.0,
+          "center": 16.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            8
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 9,
+          "last": 9,
+          "begin": 18.0,
+          "end": 19.0,
+          "center": 18.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            9
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "recent4",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "The dog",
+      "expected": "dog",
+      "manually_interpreted": "dog",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 8,
+          "last": 8,
+          "begin": 16.0,
+          "end": 17.0,
+          "center": 16.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            8
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 9,
+          "last": 9,
+          "begin": 18.0,
+          "end": 19.0,
+          "center": 18.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            9
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "recent4",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 8,
+          "last": 8,
+          "begin": 16.0,
+          "end": 17.0,
+          "center": 16.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            8
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 9,
+          "last": 9,
+          "begin": 18.0,
+          "end": 19.0,
+          "center": 18.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            9
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "recent4",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Cat\n2. Dog",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "cat",
+        "dog"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 8,
+          "last": 8,
+          "begin": 16.0,
+          "end": 17.0,
+          "center": 16.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            8
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 9,
+          "last": 9,
+          "begin": 18.0,
+          "end": 19.0,
+          "center": 18.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            9
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "event_first",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "The animal visible at the beginning of the video is a cat.",
+      "expected": "dog",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 8,
+          "last": 8,
+          "begin": 16.0,
+          "end": 17.0,
+          "center": 16.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            8
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "event_first",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "The dog is the animal visible most recently.",
+      "expected": "dog",
+      "manually_interpreted": "dog",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 8,
+          "last": 8,
+          "begin": 16.0,
+          "end": 17.0,
+          "center": 16.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            8
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "event_first",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 8,
+          "last": 8,
+          "begin": 16.0,
+          "end": 17.0,
+          "center": 16.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            8
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "event_first",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Cat\n2. Dog",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "cat",
+        "dog"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 8,
+          "last": 8,
+          "begin": 16.0,
+          "end": 17.0,
+          "center": 16.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            8
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "forest",
+      "category": "early",
+      "question": "Name the animal visible at the beginning of the video.",
+      "raw_answer": "A dog is visible at the beginning of the video.",
+      "expected": "dog",
+      "manually_interpreted": "dog",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 2,
+          "begin": 0.0,
+          "end": 5.0,
+          "center": 2.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 3,
+          "mass": 144.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 9,
+          "begin": 6.0,
+          "end": 19.0,
+          "center": 12.5,
+          "groups": 4,
+          "depth": 4,
+          "tokens": 48,
+          "original_pairs": 7,
+          "mass": 336.0,
+          "surviving_source_pair_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "forest",
+      "category": "current",
+      "question": "Name the animal visible most recently.",
+      "raw_answer": "The dog is the most recently visible animal.",
+      "expected": "dog",
+      "manually_interpreted": "dog",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 2,
+          "begin": 0.0,
+          "end": 5.0,
+          "center": 2.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 3,
+          "mass": 144.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 9,
+          "begin": 6.0,
+          "end": 19.0,
+          "center": 12.5,
+          "groups": 4,
+          "depth": 4,
+          "tokens": 48,
+          "original_pairs": 7,
+          "mass": 336.0,
+          "surviving_source_pair_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "forest",
+      "category": "short_bird",
+      "question": "Which animal appeared between the first dog scene and the first cat scene?",
+      "raw_answer": "A cat appeared between the first dog scene and the first cat scene.",
+      "expected": "bird",
+      "manually_interpreted": "cat",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 2,
+          "begin": 0.0,
+          "end": 5.0,
+          "center": 2.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 3,
+          "mass": 144.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 9,
+          "begin": 6.0,
+          "end": 19.0,
+          "center": 12.5,
+          "groups": 4,
+          "depth": 4,
+          "tokens": 48,
+          "original_pairs": 7,
+          "mass": 336.0,
+          "surviving_source_pair_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "controlled_repeated",
+      "after_pairs": 12,
+      "policy": "forest",
+      "category": "complete_first_appearance_order",
+      "question": "List the animals in order of first appearance.",
+      "raw_answer": "1. Dog\n2. Cat",
+      "expected": [
+        "dog",
+        "bird",
+        "cat"
+      ],
+      "manually_interpreted": [
+        "dog",
+        "cat"
+      ],
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 2,
+          "begin": 0.0,
+          "end": 5.0,
+          "center": 2.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 3,
+          "mass": 144.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 9,
+          "begin": 6.0,
+          "end": 19.0,
+          "center": 12.5,
+          "groups": 4,
+          "depth": 4,
+          "tokens": 48,
+          "original_pairs": 7,
+          "mass": 336.0,
+          "surviving_source_pair_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 10,
+          "last": 10,
+          "begin": 20.0,
+          "end": 21.0,
+          "center": 20.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            10
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 11,
+          "last": 11,
+          "begin": 22.0,
+          "end": 23.0,
+          "center": 22.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            11
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 3,
+      "policy": "recent4",
+      "category": "natural_early_broad",
+      "question": "Briefly describe the action visible at the beginning.",
+      "raw_answer": "A person is washing their hands in a sink.",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 6.006,
+          "end": 7.007,
+          "center": 6.5065,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 8.008,
+          "end": 9.009,
+          "center": 8.5085,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 10.01,
+          "end": 11.011,
+          "center": 10.5105,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 3,
+      "policy": "recent4",
+      "category": "natural_current_broad",
+      "question": "Briefly describe the action visible most recently.",
+      "raw_answer": "washing hands",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 6.006,
+          "end": 7.007,
+          "center": 6.5065,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 1,
+          "last": 1,
+          "begin": 8.008,
+          "end": 9.009,
+          "center": 8.5085,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 10.01,
+          "end": 11.011,
+          "center": 10.5105,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 3,
+      "policy": "event_first",
+      "category": "natural_early_broad",
+      "question": "Briefly describe the action visible at the beginning.",
+      "raw_answer": "A person is washing their hands in a sink.",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 6.006,
+          "end": 7.007,
+          "center": 6.5065,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 10.01,
+          "end": 11.011,
+          "center": 10.5105,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 3,
+      "policy": "event_first",
+      "category": "natural_current_broad",
+      "question": "Briefly describe the action visible most recently.",
+      "raw_answer": "washing hands",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 6.006,
+          "end": 7.007,
+          "center": 6.5065,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 10.01,
+          "end": 11.011,
+          "center": 10.5105,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 3,
+      "policy": "forest",
+      "category": "natural_early_broad",
+      "question": "Briefly describe the action visible at the beginning.",
+      "raw_answer": "A person is washing their hands in a sink.",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 6.006,
+          "end": 9.009,
+          "center": 7.5075,
+          "groups": 1,
+          "depth": 1,
+          "tokens": 48,
+          "original_pairs": 2,
+          "mass": 96.0,
+          "surviving_source_pair_ids": [
+            0,
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 10.01,
+          "end": 11.011,
+          "center": 10.5105,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 3,
+      "policy": "forest",
+      "category": "natural_current_broad",
+      "question": "Briefly describe the action visible most recently.",
+      "raw_answer": "washing hands",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 1,
+          "begin": 6.006,
+          "end": 9.009,
+          "center": 7.5075,
+          "groups": 1,
+          "depth": 1,
+          "tokens": 48,
+          "original_pairs": 2,
+          "mass": 96.0,
+          "surviving_source_pair_ids": [
+            0,
+            1
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 10.01,
+          "end": 11.011,
+          "center": 10.5105,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 6,
+      "policy": "recent4",
+      "category": "natural_early_broad",
+      "question": "Briefly describe the action visible at the beginning.",
+      "raw_answer": "A person is washing their hands under running water.",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 10.01,
+          "end": 11.011,
+          "center": 10.5105,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 12.012,
+          "end": 13.013,
+          "center": 12.5125,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 14.014,
+          "end": 15.015,
+          "center": 14.5145,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 16.016,
+          "end": 17.017,
+          "center": 16.5165,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 6,
+      "policy": "recent4",
+      "category": "natural_current_broad",
+      "question": "Briefly describe the action visible most recently.",
+      "raw_answer": "a person puts a paper towel in the sink",
+      "expected": "drying hands with paper towel",
+      "manually_interpreted": "putting paper towel in sink",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 2,
+          "last": 2,
+          "begin": 10.01,
+          "end": 11.011,
+          "center": 10.5105,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            2
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 3,
+          "last": 3,
+          "begin": 12.012,
+          "end": 13.013,
+          "center": 12.5125,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 14.014,
+          "end": 15.015,
+          "center": 14.5145,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 16.016,
+          "end": 17.017,
+          "center": 16.5165,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": false
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 6,
+      "policy": "event_first",
+      "category": "natural_early_broad",
+      "question": "Briefly describe the action visible at the beginning.",
+      "raw_answer": "A person is washing their hands with soap and water.",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 6.006,
+          "end": 7.007,
+          "center": 6.5065,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 14.014,
+          "end": 15.015,
+          "center": 14.5145,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 16.016,
+          "end": 17.017,
+          "center": 16.5165,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 6,
+      "policy": "event_first",
+      "category": "natural_current_broad",
+      "question": "Briefly describe the action visible most recently.",
+      "raw_answer": "a person is wiping a sink with a paper towel",
+      "expected": "drying hands with paper towel",
+      "manually_interpreted": "wiping sink",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 0,
+          "begin": 6.006,
+          "end": 7.007,
+          "center": 6.5065,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            0
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 14.014,
+          "end": 15.015,
+          "center": 14.5145,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 16.016,
+          "end": 17.017,
+          "center": 16.5165,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 6,
+      "policy": "forest",
+      "category": "natural_early_broad",
+      "question": "Briefly describe the action visible at the beginning.",
+      "raw_answer": "A person is washing their hands in a sink.",
+      "expected": "washing hands",
+      "manually_interpreted": "washing hands",
+      "correct_under_rule": true,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 3,
+          "begin": 6.006,
+          "end": 13.013,
+          "center": 9.5095,
+          "groups": 1,
+          "depth": 3,
+          "tokens": 48,
+          "original_pairs": 4,
+          "mass": 192.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 14.014,
+          "end": 15.015,
+          "center": 14.5145,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 16.016,
+          "end": 17.017,
+          "center": 16.5165,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    },
+    {
+      "case": "natural_clean",
+      "after_pairs": 6,
+      "policy": "forest",
+      "category": "natural_current_broad",
+      "question": "Briefly describe the action visible most recently.",
+      "raw_answer": "a person is putting a paper towel in the sink",
+      "expected": "drying hands with paper towel",
+      "manually_interpreted": "putting paper towel in sink",
+      "correct_under_rule": false,
+      "nodes": [
+        {
+          "first": 0,
+          "last": 3,
+          "begin": 6.006,
+          "end": 13.013,
+          "center": 9.5095,
+          "groups": 1,
+          "depth": 3,
+          "tokens": 48,
+          "original_pairs": 4,
+          "mass": 192.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 4,
+          "last": 4,
+          "begin": 14.014,
+          "end": 15.015,
+          "center": 14.5145,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            4
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 5,
+          "last": 5,
+          "begin": 16.016,
+          "end": 17.017,
+          "center": 16.5165,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ],
+      "original_start_in_retained_scope": true
+    }
+  ],
+  "cautions": [
+    "Raw bird already misrecognized",
+    "At checkpoint4 bird remains a full unmerged node, including uncompressed recent4",
+    "Final dog repeats first dog; oldest-evidence causal benefit unproven",
+    "No overall improvement vs recent4 under this narrow rubric"
+  ],
+  "additional_caution": "recent4 at checkpoint8 answers the original dog correctly despite not retaining its earliest pair; a correct answer alone does not prove using early evidence."
+}

@@ -1,0 +1,130 @@
+{
+  "scope": "真实权重 GPU 顺序文件重放",
+  "budget": {
+    "model_loads": 1,
+    "frames_max": 8,
+    "vision_forwards_max": 4,
+    "questions_max": 4,
+    "language_forwards_max": 76,
+    "generated_tokens_max": 64,
+    "history_tokens_max": 144,
+    "wall_seconds": 180,
+    "free_gpu_gib_min": 5.5,
+    "available_ram_gib_min": 3,
+    "precision": "fp32_ieee_math",
+    "resize": "letterbox",
+    "video_logits": "none",
+    "qa_logits": "last"
+  },
+  "counts": {
+    "vision": 4,
+    "language": 29,
+    "lm_head_rows": 23
+  },
+  "final": {
+    "received_real_frames": 8,
+    "encoded_real_frames": 8,
+    "pairs": 4,
+    "questions": 2,
+    "resets": 1,
+    "epoch": 1,
+    "generated_tokens": 21,
+    "memory_from_pts": 4.004,
+    "history_across_reset": false,
+    "last_received_id": 210,
+    "last_received_pts": 7.007,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "max_buffered_rgb_bytes": 294912,
+    "finished": true,
+    "closed": false,
+    "invalid": false,
+    "session": {
+      "accepted_frames": 4,
+      "encoded_real_frames": 4,
+      "pending_frame_id": null,
+      "last_received_id": 210,
+      "last_encoded_id": 210,
+      "last_encoded_pts": 7.007,
+      "seen_tokens": 115,
+      "next_rope_position": 35,
+      "vision_encodings": 2,
+      "pending_rgb_bytes": 0,
+      "finished": true,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    }
+  },
+  "schedule": [
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 1,
+      "memory_from_pts": 4.004,
+      "encoded_frames": 4,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 4.004,
+      "encoded_frames": 6,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 4.004,
+      "encoded_frames": 6,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 4.004,
+      "encoded_frames": 8,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "eof",
+      "epoch": 1,
+      "memory_from_pts": 4.004,
+      "encoded_frames": 8,
+      "seen_tokens": 115
+    }
+  ],
+  "append_including_qa_and_decode_latency": {
+    "count": 8,
+    "sum_seconds": 2.7177142999967145,
+    "max_seconds": 1.6298900999995567
+  },
+  "replay_wall_seconds": 2.750104100000044,
+  "peak_process_rss_bytes": 1567809536,
+  "cross_reset_memory": false,
+  "end_to_end_speedup_proven": false,
+  "realtime": false,
+  "peak_allocated_gib": 3.2619118690490723,
+  "peak_reserved_gib": 3.595703125,
+  "wall_seconds_including_load": 5.9601432999998
+}

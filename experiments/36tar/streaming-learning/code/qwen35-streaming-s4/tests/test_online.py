@@ -60,6 +60,18 @@ class OnlineTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,"Waiting"):
                 self.session.ask("Name the subject.",2)
 
+    def test_state_only_video_writes_and_last_only_qa(self):
+        session = OnlinePairSession(self.model,self.processor,canvas=(32,32),max_answer_tokens=2,
+                                    resize_mode="letterbox",video_logits="none")
+        with mock.patch.object(self.model.lm_head,"forward",side_effect=AssertionError("Video should not project logits")):
+            session.append(self.frames[0])
+            self.assertIsNone(session.append(self.frames[1])["logits"])
+        before = session.main.cache.clone()
+        with mock.patch.object(self.model.lm_head,"forward",wraps=self.model.lm_head.forward) as head:
+            session.ask("Name the subject.",2)
+            self.assertTrue(all(call.args[0].shape[1] == 1 for call in head.call_args_list))
+        self.assertTrue(exact(before,session.main.cache))
+
     @torch.inference_mode()
     def test_each_pair_matches_independent_whole_processor_rope_and_cache(self):
         from scripts.online_experiment import reference_inputs

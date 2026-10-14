@@ -1,0 +1,8 @@
+{
+  "scope": "Incident summary of tool-observed CPU failures; not fabricated raw console output",
+  "attempts": [
+    {"tests_run": 5, "passed": 5, "setup_error": "PROJECT/models resolved to published capsule without processor assets", "fix": "Explicit model path override and QWEN35_MODEL_DIR fallback"},
+    {"tests_run": 20, "passed": 18, "errors": 2, "error": "PermissionError writing events.jsonl inside sandbox system temporary directory", "duplicate_tests": 6, "fix": "Run-scoped tmp directory; module import instead of exported TestCase"}
+  ],
+  "gpu_model_loads": 0
+}

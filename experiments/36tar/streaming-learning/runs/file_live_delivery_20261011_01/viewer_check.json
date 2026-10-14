@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "status": "正在播放：8.00 秒\n最近接入模型：8.00 秒\n当前记忆从：6.00 秒\n重置：1 次\n丢帧：0 / 已采样 9\n模型已收到：9 帧\n本次运行已结束",
+  "scope": "CPU 微型随机权重：全输入接口预检，回答没有语义意义；不模拟GPU耗时 · 独立文件读帧进程 / 原视频PTS墙钟播放",
+  "answers": 2,
+  "method": "Actual snapshot JS/DOM simulation; no camera or browser visual claim"
+}

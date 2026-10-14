@@ -1,0 +1,8 @@
+test_future_missing_and_span_only_never_select (__main__.Contracts.test_future_missing_and_span_only_never_select) ... ok
+test_selected_pair_time_differs_from_group_span (__main__.Contracts.test_selected_pair_time_differs_from_group_span) ... ok
+test_selection_returns_owned_features_and_does_not_rewrite_bank (__main__.Contracts.test_selection_returns_owned_features_and_does_not_rewrite_bank) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.009s
+
+OK

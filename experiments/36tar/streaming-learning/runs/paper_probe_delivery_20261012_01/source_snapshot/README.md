@@ -1,0 +1,5 @@
+# 第九段源码证据快照
+
+这四文件保留原运行字节，受当次CPU/GPUproof绑定，不是新的主实现。原始位置为本机项目根experiments/paper_probe_v1；若要重跑需恢复该目录布局（仓库在项目根publish/qwen35-streaming），或另做可移植适配并新建CPU预检。模型/视频不在仓库，环境和固定资产另准备。不要直接在source_snapshot目录运行后声称复现成功。
+
+当前选择条件与流式确认的便携入口在个人目录diagnostics/paper_choice_v1及paper_stream_confirm_v1；唯一流式模型核心仍code/qwen35-streaming-s4。第九段结果保留所有开放题和错误，不以第十段问法覆盖历史。

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "question": "What are the hands doing?",
+  "answer_tokens": 16,
+  "cases": [
+    {"id": "sparse_actual", "indices": [7,8,10,11], "labels": [7.007,8.008,10.01,11.011], "factor": "actual_anchor"},
+    {"id": "dense_actual", "indices": [8,9,10,11], "labels": [8.008,9.009,10.01,11.011], "factor": "actual_anchor"},
+    {"id": "pixel_first_to8", "indices": [8,8,10,11], "labels": [7.007,8.008,10.01,11.011], "factor": "one_pixel_slot", "parent": "sparse_actual", "slot": 0},
+    {"id": "pixel_second_to9", "indices": [7,9,10,11], "labels": [7.007,8.008,10.01,11.011], "factor": "one_pixel_slot", "parent": "sparse_actual", "slot": 1},
+    {"id": "dense_pixels_sparse_times", "indices": [8,9,10,11], "labels": [7.007,8.008,10.01,11.011], "factor": "pixel_combination", "parent": "sparse_actual"},
+    {"id": "sparse_pixels_dense_times", "indices": [7,8,10,11], "labels": [8.008,9.009,10.01,11.011], "factor": "time_combination", "parent": "sparse_actual"},
+    {"id": "time_second_to9", "indices": [7,8,10,11], "labels": [7.007,9.009,10.01,11.011], "factor": "one_time_slot", "parent": "sparse_actual", "slot": 1},
+    {"id": "time_first_plus_half", "indices": [7,8,10,11], "labels": [7.507,8.008,10.01,11.011], "factor": "one_time_slot", "parent": "sparse_actual", "slot": 0},
+    {"id": "sparse_origin_zero", "indices": [7,8,10,11], "labels": [0,1.001,3.003,4.004], "factor": "time_shift", "parent": "sparse_actual", "shift": -7.007},
+    {"id": "sparse_offset_plus10", "indices": [7,8,10,11], "labels": [17.007,18.008,20.01,21.011], "factor": "time_shift", "parent": "sparse_actual", "shift": 10},
+    {"id": "sparse_uniform_zero", "indices": [7,8,10,11], "labels": [0,1,2,3], "factor": "time_origin_and_gaps", "parent": "sparse_actual"},
+    {"id": "dense_origin_zero", "indices": [8,9,10,11], "labels": [0,1.001,2.002,3.003], "factor": "time_shift", "parent": "dense_actual", "shift": -8.008}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "max_tokens": 288,
+  "answer_tokens": 16,
+  "max_frames": 48,
+  "reserve": 96,
+  "fps": 1,
+  "videos": [
+    {
+      "path": "E:\\VIT Model\\datasets\\general_stream_v1\\dog.webm",
+      "expected_source_frames": 44,
+      "id": "dog",
+      "sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a"
+    },
+    {
+      "path": "E:\\VIT Model\\datasets\\general_stream_v1\\pigeon.webm",
+      "expected_source_frames": 17,
+      "id": "pigeon",
+      "sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853"
+    },
+    {
+      "path": "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm",
+      "expected_source_frames": 9,
+      "id": "cat",
+      "sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32"
+    }
+  ],
+  "question": "Briefly describe the main visible subject and what it is doing now.",
+  "duration": 60
+}

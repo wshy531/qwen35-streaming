@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "canvas": [192, 256],
+  "fps": 1.0,
+  "animal_calibration": {"dog": 12, "pigeon": 0, "cat": 0},
+  "animal_holdout": {"dog": 20, "pigeon": 8, "cat": 4},
+  "animal_orders": [["dog", "pigeon", "cat"], ["cat", "dog", "pigeon"], ["pigeon", "cat", "dog"]],
+  "animal_questions": [
+    {"id": "current", "text": "Name the animal visible most recently."},
+    {"id": "early", "text": "Name the animal visible at the beginning."},
+    {"id": "order", "text": "List the animals in order of first appearance."}
+  ],
+  "natural_sources": [
+    {"id": "clean_hands", "path": "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm", "sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3", "start_sample": 6, "frames": 12},
+    {"id": "hand_hygiene", "path": "E:\\VIT Model\\datasets\\numeric_hand_hygiene_v1\\hand_hygiene.webm", "sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9", "start_sample": 6, "frames": 12}
+  ],
+  "natural_questions": [
+    {"id": "current", "text": "Briefly describe what is happening most recently."},
+    {"id": "early", "text": "Briefly describe what is happening at the beginning."},
+    {"id": "order", "text": "Briefly describe the visible actions in chronological order."}
+  ],
+  "natural_mid_query_after_pairs": 4,
+  "answer_tokens": 32,
+  "interpretation": "Animal holdout uses nonoverlapping clips of existing three sources and controlled orderings, not independent new videos. Two natural action files are independent source files previously seen by the project but excluded from threshold calibration. No natural-video accuracy labels are provided to memory."
+}

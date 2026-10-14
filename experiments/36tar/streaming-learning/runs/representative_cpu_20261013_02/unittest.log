@@ -1,0 +1,11 @@
+test_512_pairs_resident_budget_and_group_eviction (__main__.Contracts.test_512_pairs_resident_budget_and_group_eviction) ... ok
+test_expired_latest_and_cleared_storage_release (__main__.Contracts.test_expired_latest_and_cleared_storage_release) ... ok
+test_first_last_centroid_and_causal_tie (__main__.Contracts.test_first_last_centroid_and_causal_tie) ... ok
+test_rejected_append_is_atomic (__main__.Contracts.test_rejected_append_is_atomic) ... ok
+test_scope_exact_time_and_no_future (__main__.Contracts.test_scope_exact_time_and_no_future) ... ok
+test_shared_storage_and_owned_input_and_selection (__main__.Contracts.test_shared_storage_and_owned_input_and_selection) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.954s
+
+OK

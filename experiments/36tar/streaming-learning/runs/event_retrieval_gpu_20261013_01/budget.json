@@ -1,0 +1,17 @@
+{
+  "model_loads": 1,
+  "vision_max": 18,
+  "questions_max": 32,
+  "generated_max": 1024,
+  "language_max": 1200,
+  "answer_tokens": 32,
+  "max_tokens": 512,
+  "wall_seconds": 360,
+  "ram_min_gib": 3,
+  "gpu_free_min_gib": 5.5,
+  "conversion_free_min_gib": 2,
+  "feature_controls_bytes_max": 16777216,
+  "animal_question": "Name the main visible animal in these frames.",
+  "action_question": "Briefly describe the visible action in these frames.",
+  "threshold_source": "frozen_gpu77_calibration_only"
+}

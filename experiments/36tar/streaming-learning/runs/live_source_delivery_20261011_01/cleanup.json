@@ -1,0 +1,18 @@
+{
+  "removed": [
+    {
+      "no_reparse_point": true,
+      "bytes": 0,
+      "path": "E:\\VIT Model\\runs\\live_source_cpu_20261011_01\\tmp",
+      "absolute_path_checked": true
+    },
+    {
+      "no_reparse_point": true,
+      "bytes": 0,
+      "path": "E:\\VIT Model\\runs\\live_source_preflight_20261011_01\\tmp",
+      "absolute_path_checked": true
+    }
+  ],
+  "old_runs_and_sources_preserved": true,
+  "model_data_environment_untouched": true
+}

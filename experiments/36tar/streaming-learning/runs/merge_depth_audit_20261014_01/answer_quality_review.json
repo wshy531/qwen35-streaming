@@ -1,0 +1,714 @@
+{
+  "all_raw_answers_reviewed": true,
+  "rubric_saved_before_gpu": true,
+  "rows": [
+    {
+      "case": "dog",
+      "condition": "single_0",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "single_1",
+      "raw_answer": "A dog.",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "full_native",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "auto_native",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "auto_packed",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "control_segments_native",
+      "raw_answer": "A dog is visible at the beginning of the video.",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "recent_only",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": true
+    },
+    {
+      "case": "dog",
+      "condition": "n2_raw_alone",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n2_merged_alone",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n2_raw_with_recent",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n2_merged_with_recent",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_raw_alone",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_merged_alone",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_raw_with_recent",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n4_merged_with_recent",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_raw_alone",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_merged_alone",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_raw_with_recent",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n6_merged_with_recent",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_raw_alone",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_merged_alone",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_raw_with_recent",
+      "raw_answer": "dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "dog",
+      "condition": "n7_merged_with_recent",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "dog",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "single_0",
+      "raw_answer": "A cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "single_1",
+      "raw_answer": "A dog",
+      "manual_animal_interpretation": "dog",
+      "expected": "cat",
+      "correct": false,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "full_native",
+      "raw_answer": "A cat is visible at the beginning of the video.",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "auto_native",
+      "raw_answer": "A cat is visible at the beginning of the video.",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "auto_packed",
+      "raw_answer": "A cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "control_segments_native",
+      "raw_answer": "A cat.",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "recent_only",
+      "raw_answer": "The animal visible at the beginning of the video is a dog.",
+      "manual_animal_interpretation": "dog",
+      "expected": "cat",
+      "correct": false,
+      "recent_only_no_retained_animal": true
+    },
+    {
+      "case": "cat",
+      "condition": "n2_raw_alone",
+      "raw_answer": "A cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n2_merged_alone",
+      "raw_answer": "A cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n2_raw_with_recent",
+      "raw_answer": "A cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n2_merged_with_recent",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_raw_alone",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_merged_alone",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_raw_with_recent",
+      "raw_answer": "A cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n4_merged_with_recent",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_raw_alone",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_merged_alone",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_raw_with_recent",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n6_merged_with_recent",
+      "raw_answer": "A cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_raw_alone",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_merged_alone",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_raw_with_recent",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    },
+    {
+      "case": "cat",
+      "condition": "n7_merged_with_recent",
+      "raw_answer": "cat",
+      "manual_animal_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "recent_only_no_retained_animal": false
+    }
+  ],
+  "ladder": [
+    {
+      "source_pairs": 2,
+      "original_visual_tokens": 96,
+      "merged_visual_tokens": 48,
+      "depth": 1,
+      "four_cell_scores": {
+        "raw_alone": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "merged_alone": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "raw_with_recent": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "merged_with_recent": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        }
+      }
+    },
+    {
+      "source_pairs": 4,
+      "original_visual_tokens": 192,
+      "merged_visual_tokens": 48,
+      "depth": 2,
+      "four_cell_scores": {
+        "raw_alone": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "merged_alone": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "raw_with_recent": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "merged_with_recent": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        }
+      }
+    },
+    {
+      "source_pairs": 6,
+      "original_visual_tokens": 288,
+      "merged_visual_tokens": 48,
+      "depth": 3,
+      "four_cell_scores": {
+        "raw_alone": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "merged_alone": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "raw_with_recent": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "merged_with_recent": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        }
+      }
+    },
+    {
+      "source_pairs": 7,
+      "original_visual_tokens": 336,
+      "merged_visual_tokens": 48,
+      "depth": 4,
+      "four_cell_scores": {
+        "raw_alone": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "merged_alone": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "raw_with_recent": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        },
+        "merged_with_recent": {
+          "correct": 2,
+          "questions": 2,
+          "strict_pair_correct": true
+        }
+      }
+    }
+  ],
+  "online": {
+    "dog": {
+      "auto_long_merges": 0,
+      "control_long_merges": 1,
+      "actual_cross_subject_merge": "animal pairs0-1 + washing pairs2-3",
+      "control_final_roots": [
+        {
+          "first": 0,
+          "last": 3,
+          "begin": 0.0,
+          "end": 7.0,
+          "center": 3.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 4,
+          "mass": 192.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 4,
+          "last": 5,
+          "begin": 8.0,
+          "end": 11.0,
+          "center": 9.5,
+          "groups": 1,
+          "depth": 1,
+          "tokens": 48,
+          "original_pairs": 2,
+          "mass": 96.0,
+          "surviving_source_pair_ids": [
+            4,
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "begin": 12.0,
+          "end": 13.0,
+          "center": 12.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ]
+    },
+    "cat": {
+      "auto_long_merges": 0,
+      "control_long_merges": 1,
+      "actual_cross_subject_merge": "animal pairs0-1 + washing pairs2-3",
+      "control_final_roots": [
+        {
+          "first": 0,
+          "last": 3,
+          "begin": 0.0,
+          "end": 7.0,
+          "center": 3.5,
+          "groups": 2,
+          "depth": 2,
+          "tokens": 48,
+          "original_pairs": 4,
+          "mass": 192.0,
+          "surviving_source_pair_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 4,
+          "last": 5,
+          "begin": 8.0,
+          "end": 11.0,
+          "center": 9.5,
+          "groups": 1,
+          "depth": 1,
+          "tokens": 48,
+          "original_pairs": 2,
+          "mass": 96.0,
+          "surviving_source_pair_ids": [
+            4,
+            5
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": false,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 6,
+          "last": 6,
+          "begin": 12.0,
+          "end": 13.0,
+          "center": 12.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            6
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        },
+        {
+          "first": 7,
+          "last": 7,
+          "begin": 14.0,
+          "end": 15.0,
+          "center": 14.5,
+          "groups": 1,
+          "depth": 0,
+          "tokens": 48,
+          "original_pairs": 1,
+          "mass": 48.0,
+          "surviving_source_pair_ids": [
+            7
+          ],
+          "tensor_bytes": 197952,
+          "exact_pair": true,
+          "span_is_provenance_not_full_detail": true
+        }
+      ]
+    }
+  },
+  "compression_quartet_correct": 32,
+  "compression_quartet_questions": 32,
+  "candidate_trigger": [],
+  "candidate_gpu_executed": false,
+  "limits": [
+    "One known previously answerable dog/cat pair; repeated input across arms, not32 independent samples.",
+    "No degradation observed at2/4/6/7 source pairs; not an unlimited-lossless guarantee.",
+    "Forced2-pair segment boundaries are a diagnostic control, not natural automatic events.",
+    "Balanced schedule has CPU validation only because the predefined real failure trigger was absent.",
+    "Mass weighting and destination positions change with matching; coordinate heuristics remain.",
+    "Recent dog answer without animal evidence remains an unsupported guess."
+  ]
+}

@@ -1,0 +1,1865 @@
+{
+  "cases": [
+    {
+      "case_id": "0_current",
+      "order": [
+        "dog",
+        "pigeon",
+        "cat"
+      ],
+      "route": "current",
+      "frames": [
+        {
+          "frame_id": 18,
+          "timestamp": 18.0,
+          "rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50"
+        },
+        {
+          "frame_id": 19,
+          "timestamp": 19.0,
+          "rgb_sha256": "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7"
+        },
+        {
+          "frame_id": 20,
+          "timestamp": 20.0,
+          "rgb_sha256": "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91"
+        },
+        {
+          "frame_id": 21,
+          "timestamp": 21.0,
+          "rgb_sha256": "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c"
+        },
+        {
+          "frame_id": 22,
+          "timestamp": 22.0,
+          "rgb_sha256": "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57"
+        },
+        {
+          "frame_id": 23,
+          "timestamp": 23.0,
+          "rgb_sha256": "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "cat",
+          "source_frame_id": 60,
+          "source_pts": 2.0,
+          "session_frame_id": 18,
+          "session_pts": 18.0,
+          "rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 90,
+          "source_pts": 3.0,
+          "session_frame_id": 19,
+          "session_pts": 19.0,
+          "rgb_sha256": "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 120,
+          "source_pts": 4.0,
+          "session_frame_id": 20,
+          "session_pts": 20.0,
+          "rgb_sha256": "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 150,
+          "source_pts": 5.0,
+          "session_frame_id": 21,
+          "session_pts": 21.0,
+          "rgb_sha256": "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 180,
+          "source_pts": 6.0,
+          "session_frame_id": 22,
+          "session_pts": 22.0,
+          "rgb_sha256": "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 210,
+          "source_pts": 7.0,
+          "session_frame_id": 23,
+          "session_pts": 23.0,
+          "rgb_sha256": "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11"
+        }
+      ],
+      "question": "Briefly identify the main subject visible now.",
+      "expected_subject": "cat",
+      "memory_from_pts": 18.0,
+      "target_time": null,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "0719f9340f0513cb0127d406794d277d6c1bf53c6762cd64e416600231d5bb2f",
+      "input_tokens": 192,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "answer": " Beliau campion收获的披萨 father เม不做 постав elérकु conseguirbeh互补ethnic )->帝豪",
+      "generated_ids": [
+        222301,
+        221361,
+        144572,
+        135735,
+        6764,
+        151431,
+        111337,
+        156292,
+        205652,
+        226489,
+        74231,
+        28921,
+        106006,
+        77645,
+        34363,
+        144870
+      ],
+      "stop_reason": "budget",
+      "frame_id": 23,
+      "timestamp": 23.0,
+      "wall_seconds": 0.04483970000001136,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.04573549999986426,
+      "evidence_for_target_present": true,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              1.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.0
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "0_history_main",
+      "order": [
+        "dog",
+        "pigeon",
+        "cat"
+      ],
+      "route": "history_main",
+      "frames": [
+        {
+          "frame_id": 18,
+          "timestamp": 18.0,
+          "rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50"
+        },
+        {
+          "frame_id": 19,
+          "timestamp": 19.0,
+          "rgb_sha256": "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7"
+        },
+        {
+          "frame_id": 20,
+          "timestamp": 20.0,
+          "rgb_sha256": "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91"
+        },
+        {
+          "frame_id": 21,
+          "timestamp": 21.0,
+          "rgb_sha256": "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c"
+        },
+        {
+          "frame_id": 22,
+          "timestamp": 22.0,
+          "rgb_sha256": "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57"
+        },
+        {
+          "frame_id": 23,
+          "timestamp": 23.0,
+          "rgb_sha256": "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "cat",
+          "source_frame_id": 60,
+          "source_pts": 2.0,
+          "session_frame_id": 18,
+          "session_pts": 18.0,
+          "rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 90,
+          "source_pts": 3.0,
+          "session_frame_id": 19,
+          "session_pts": 19.0,
+          "rgb_sha256": "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 120,
+          "source_pts": 4.0,
+          "session_frame_id": 20,
+          "session_pts": 20.0,
+          "rgb_sha256": "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 150,
+          "source_pts": 5.0,
+          "session_frame_id": 21,
+          "session_pts": 21.0,
+          "rgb_sha256": "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 180,
+          "source_pts": 6.0,
+          "session_frame_id": 22,
+          "session_pts": 22.0,
+          "rgb_sha256": "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 210,
+          "source_pts": 7.0,
+          "session_frame_id": 23,
+          "session_pts": 23.0,
+          "rgb_sha256": "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11"
+        }
+      ],
+      "question": "What main subject was visible in the first two frames of this session? Answer briefly.",
+      "expected_subject": "dog",
+      "memory_from_pts": 18.0,
+      "target_time": 0,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "11e25f0cd9f4b9b2a067647d28ec495943577f1e12c6ac39fb9ddce2082315b1",
+      "input_tokens": 200,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "answer": " Beliau campion收获的披萨 father เม车主uyến Möglichkeit勤俭 préparer$criteria成功后 snapshotHCMtimm",
+      "generated_ids": [
+        222301,
+        221361,
+        144572,
+        135735,
+        6764,
+        151431,
+        109355,
+        151567,
+        87692,
+        107035,
+        190551,
+        48182,
+        99696,
+        15816,
+        171453,
+        155199
+      ],
+      "stop_reason": "budget",
+      "frame_id": 23,
+      "timestamp": 23.0,
+      "wall_seconds": 0.044299500001216074,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.04519570000047679,
+      "evidence_for_target_present": false,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              1.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.0
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "0_history_retrieved",
+      "order": [
+        "dog",
+        "pigeon",
+        "cat"
+      ],
+      "route": "history_retrieved",
+      "frames": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "rgb_sha256": "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525"
+        },
+        {
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "rgb_sha256": "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "dog",
+          "source_frame_id": 300,
+          "source_pts": 12.0,
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "rgb_sha256": "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 325,
+          "source_pts": 13.0,
+          "session_frame_id": 1,
+          "session_pts": 1.0,
+          "rgb_sha256": "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+        }
+      ],
+      "question": "What main subject was visible in the first two frames of this session? Answer briefly.",
+      "expected_subject": "dog",
+      "memory_from_pts": 0.0,
+      "target_time": 0,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "407c89864c6b1c7c23f682269343abcef7a840b96c0ba1940b97ba61ddb18113",
+      "input_tokens": 85,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "answer": " Beliau campion收获的披萨 father เม不做 постав elér Heal満載더라 miljo striker幼年 esperando",
+      "generated_ids": [
+        222301,
+        221361,
+        144572,
+        135735,
+        6764,
+        151431,
+        111337,
+        156292,
+        205652,
+        78237,
+        247917,
+        152991,
+        166031,
+        42486,
+        146874,
+        194962
+      ],
+      "stop_reason": "budget",
+      "frame_id": 1,
+      "timestamp": 1.0,
+      "wall_seconds": 0.04355760000180453,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "resets": 0,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.054352600000129314,
+      "evidence_for_target_present": true,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              1.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.0
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "1_current",
+      "order": [
+        "pigeon",
+        "cat",
+        "dog"
+      ],
+      "route": "current",
+      "frames": [
+        {
+          "frame_id": 18,
+          "timestamp": 18.0,
+          "rgb_sha256": "203595cc17c04a4b016956d42e944eb9d67fa66d5a19b52f9035c9273944681e"
+        },
+        {
+          "frame_id": 19,
+          "timestamp": 19.0,
+          "rgb_sha256": "077365cddfe7974942c03b6e7751996b1083b620b83a774904bdf1cf3797f903"
+        },
+        {
+          "frame_id": 20,
+          "timestamp": 20.0,
+          "rgb_sha256": "06e3dd946f7515f8f2fa406061873ea8759869a5bf3cc4f55936ff1d006bb464"
+        },
+        {
+          "frame_id": 21,
+          "timestamp": 21.0,
+          "rgb_sha256": "59edc4ebe14b4c0e1c07d4b436e4f9d4fed3d7f0f8fd7547276949c8ee02633e"
+        },
+        {
+          "frame_id": 22,
+          "timestamp": 22.0,
+          "rgb_sha256": "493113052522931673f9749703df769f9651a1ad0c003033f588dcd4742566d8"
+        },
+        {
+          "frame_id": 23,
+          "timestamp": 23.0,
+          "rgb_sha256": "cda76a06c84a72ae1daf39b0d62ef4562e0ba3e5192feddf8f6a9cb1a59be92a"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "dog",
+          "source_frame_id": 350,
+          "source_pts": 14.0,
+          "session_frame_id": 18,
+          "session_pts": 18.0,
+          "rgb_sha256": "203595cc17c04a4b016956d42e944eb9d67fa66d5a19b52f9035c9273944681e"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 375,
+          "source_pts": 15.0,
+          "session_frame_id": 19,
+          "session_pts": 19.0,
+          "rgb_sha256": "077365cddfe7974942c03b6e7751996b1083b620b83a774904bdf1cf3797f903"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 400,
+          "source_pts": 16.0,
+          "session_frame_id": 20,
+          "session_pts": 20.0,
+          "rgb_sha256": "06e3dd946f7515f8f2fa406061873ea8759869a5bf3cc4f55936ff1d006bb464"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 425,
+          "source_pts": 17.0,
+          "session_frame_id": 21,
+          "session_pts": 21.0,
+          "rgb_sha256": "59edc4ebe14b4c0e1c07d4b436e4f9d4fed3d7f0f8fd7547276949c8ee02633e"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 450,
+          "source_pts": 18.0,
+          "session_frame_id": 22,
+          "session_pts": 22.0,
+          "rgb_sha256": "493113052522931673f9749703df769f9651a1ad0c003033f588dcd4742566d8"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 475,
+          "source_pts": 19.0,
+          "session_frame_id": 23,
+          "session_pts": 23.0,
+          "rgb_sha256": "cda76a06c84a72ae1daf39b0d62ef4562e0ba3e5192feddf8f6a9cb1a59be92a"
+        }
+      ],
+      "question": "Briefly identify the main subject visible now.",
+      "expected_subject": "dog",
+      "memory_from_pts": 18.0,
+      "target_time": null,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "926ecc916be3eaa4f67bb4bfdbd2b0ce9cc447f4a502996fe7bbd4a3cedf7d4a",
+      "input_tokens": 192,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "answer": " Beliau campion收获的披萨 father เม不做 постав elér Heal満載더라 miljoEventually สัปดาห์ Moderna",
+      "generated_ids": [
+        222301,
+        221361,
+        144572,
+        135735,
+        6764,
+        151431,
+        111337,
+        156292,
+        205652,
+        78237,
+        247917,
+        152991,
+        166031,
+        65687,
+        214728,
+        227233
+      ],
+      "stop_reason": "budget",
+      "frame_id": 23,
+      "timestamp": 23.0,
+      "wall_seconds": 0.049673499997879844,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.050570600000355626,
+      "evidence_for_target_present": true,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              1.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.0
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "1_history_main",
+      "order": [
+        "pigeon",
+        "cat",
+        "dog"
+      ],
+      "route": "history_main",
+      "frames": [
+        {
+          "frame_id": 18,
+          "timestamp": 18.0,
+          "rgb_sha256": "203595cc17c04a4b016956d42e944eb9d67fa66d5a19b52f9035c9273944681e"
+        },
+        {
+          "frame_id": 19,
+          "timestamp": 19.0,
+          "rgb_sha256": "077365cddfe7974942c03b6e7751996b1083b620b83a774904bdf1cf3797f903"
+        },
+        {
+          "frame_id": 20,
+          "timestamp": 20.0,
+          "rgb_sha256": "06e3dd946f7515f8f2fa406061873ea8759869a5bf3cc4f55936ff1d006bb464"
+        },
+        {
+          "frame_id": 21,
+          "timestamp": 21.0,
+          "rgb_sha256": "59edc4ebe14b4c0e1c07d4b436e4f9d4fed3d7f0f8fd7547276949c8ee02633e"
+        },
+        {
+          "frame_id": 22,
+          "timestamp": 22.0,
+          "rgb_sha256": "493113052522931673f9749703df769f9651a1ad0c003033f588dcd4742566d8"
+        },
+        {
+          "frame_id": 23,
+          "timestamp": 23.0,
+          "rgb_sha256": "cda76a06c84a72ae1daf39b0d62ef4562e0ba3e5192feddf8f6a9cb1a59be92a"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "dog",
+          "source_frame_id": 350,
+          "source_pts": 14.0,
+          "session_frame_id": 18,
+          "session_pts": 18.0,
+          "rgb_sha256": "203595cc17c04a4b016956d42e944eb9d67fa66d5a19b52f9035c9273944681e"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 375,
+          "source_pts": 15.0,
+          "session_frame_id": 19,
+          "session_pts": 19.0,
+          "rgb_sha256": "077365cddfe7974942c03b6e7751996b1083b620b83a774904bdf1cf3797f903"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 400,
+          "source_pts": 16.0,
+          "session_frame_id": 20,
+          "session_pts": 20.0,
+          "rgb_sha256": "06e3dd946f7515f8f2fa406061873ea8759869a5bf3cc4f55936ff1d006bb464"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 425,
+          "source_pts": 17.0,
+          "session_frame_id": 21,
+          "session_pts": 21.0,
+          "rgb_sha256": "59edc4ebe14b4c0e1c07d4b436e4f9d4fed3d7f0f8fd7547276949c8ee02633e"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 450,
+          "source_pts": 18.0,
+          "session_frame_id": 22,
+          "session_pts": 22.0,
+          "rgb_sha256": "493113052522931673f9749703df769f9651a1ad0c003033f588dcd4742566d8"
+        },
+        {
+          "source_id": "dog",
+          "source_frame_id": 475,
+          "source_pts": 19.0,
+          "session_frame_id": 23,
+          "session_pts": 23.0,
+          "rgb_sha256": "cda76a06c84a72ae1daf39b0d62ef4562e0ba3e5192feddf8f6a9cb1a59be92a"
+        }
+      ],
+      "question": "What main subject was visible in the first two frames of this session? Answer briefly.",
+      "expected_subject": "pigeon",
+      "memory_from_pts": 18.0,
+      "target_time": 0,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "6c1df1e2761b0a4688c2ae5fee8ddb3e14b4c9a306090de5c706c30b6de59a41",
+      "input_tokens": 200,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "answer": " Beliau campion收获的披萨 father เม车主 estremamente tard разнообра。\\Š fearing-squareทำให้เกิด compresi",
+      "generated_ids": [
+        222301,
+        221361,
+        144572,
+        135735,
+        6764,
+        151431,
+        109355,
+        201568,
+        59039,
+        242321,
+        64638,
+        168979,
+        77748,
+        31855,
+        207708,
+        232294
+      ],
+      "stop_reason": "budget",
+      "frame_id": 23,
+      "timestamp": 23.0,
+      "wall_seconds": 0.050703900000371505,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.05163370000082068,
+      "evidence_for_target_present": false,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              1.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.0
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "1_history_retrieved",
+      "order": [
+        "pigeon",
+        "cat",
+        "dog"
+      ],
+      "route": "history_retrieved",
+      "frames": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "rgb_sha256": "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188"
+        },
+        {
+          "frame_id": 1,
+          "timestamp": 1.001,
+          "rgb_sha256": "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "rgb_sha256": "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "session_frame_id": 1,
+          "session_pts": 1.001,
+          "rgb_sha256": "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+        }
+      ],
+      "question": "What main subject was visible in the first two frames of this session? Answer briefly.",
+      "expected_subject": "pigeon",
+      "memory_from_pts": 0.0,
+      "target_time": 0,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "e6cc71e7fa9c1cb830ff7fc2081afc1dc2a7040eabf1cbc0e852f254206bdd2e",
+      "input_tokens": 85,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "answer": "--)研制 Jury>+ SS piècesッケージ patologie-Am工控stream enjoyment умер\tCon lapseOpp",
+      "generated_ids": [
+        20550,
+        111194,
+        91982,
+        92034,
+        17639,
+        174450,
+        166155,
+        216769,
+        95392,
+        132193,
+        3892,
+        42709,
+        186806,
+        89866,
+        86243,
+        53881
+      ],
+      "stop_reason": "budget",
+      "frame_id": 1,
+      "timestamp": 1.001,
+      "wall_seconds": 0.045489500000257976,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "resets": 0,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.05663739999727113,
+      "evidence_for_target_present": true,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              1.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.0
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "2_current",
+      "order": [
+        "cat",
+        "dog",
+        "pigeon"
+      ],
+      "route": "current",
+      "frames": [
+        {
+          "frame_id": 18,
+          "timestamp": 18.002,
+          "rgb_sha256": "99b19c65386da04e8ff5461be63f41547667ced361e8d51757596b105e28d081"
+        },
+        {
+          "frame_id": 19,
+          "timestamp": 19.003,
+          "rgb_sha256": "26bf6b700ec8540b675f38b56288e282c119f4dc45ed28294f2f38fe5d273eab"
+        },
+        {
+          "frame_id": 20,
+          "timestamp": 20.004,
+          "rgb_sha256": "e4a855372ea65bb39739ef1dcedb90735bf8ffd808bb8d32e15ba94250ada484"
+        },
+        {
+          "frame_id": 21,
+          "timestamp": 21.005000000000003,
+          "rgb_sha256": "87f5276df3dc3098b22ad6aa3784cbd530cf6baccdd82ecc1b4a15ff7e1a2930"
+        },
+        {
+          "frame_id": 22,
+          "timestamp": 22.006,
+          "rgb_sha256": "5e315eb9dd13eccb2294a26cbf11f3fef1ffd3437bf58c5592efa4befe975798"
+        },
+        {
+          "frame_id": 23,
+          "timestamp": 23.007,
+          "rgb_sha256": "1771fe8acc2cbbde2dc3683ebaffe7412b57ad2dae8c5693bd1fe4b5166e0790"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 60,
+          "source_pts": 2.002,
+          "session_frame_id": 18,
+          "session_pts": 18.002,
+          "rgb_sha256": "99b19c65386da04e8ff5461be63f41547667ced361e8d51757596b105e28d081"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 90,
+          "source_pts": 3.003,
+          "session_frame_id": 19,
+          "session_pts": 19.003,
+          "rgb_sha256": "26bf6b700ec8540b675f38b56288e282c119f4dc45ed28294f2f38fe5d273eab"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 120,
+          "source_pts": 4.0040000000000004,
+          "session_frame_id": 20,
+          "session_pts": 20.004,
+          "rgb_sha256": "e4a855372ea65bb39739ef1dcedb90735bf8ffd808bb8d32e15ba94250ada484"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 150,
+          "source_pts": 5.005000000000001,
+          "session_frame_id": 21,
+          "session_pts": 21.005000000000003,
+          "rgb_sha256": "87f5276df3dc3098b22ad6aa3784cbd530cf6baccdd82ecc1b4a15ff7e1a2930"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 180,
+          "source_pts": 6.006,
+          "session_frame_id": 22,
+          "session_pts": 22.006,
+          "rgb_sha256": "5e315eb9dd13eccb2294a26cbf11f3fef1ffd3437bf58c5592efa4befe975798"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 210,
+          "source_pts": 7.007000000000001,
+          "session_frame_id": 23,
+          "session_pts": 23.007,
+          "rgb_sha256": "1771fe8acc2cbbde2dc3683ebaffe7412b57ad2dae8c5693bd1fe4b5166e0790"
+        }
+      ],
+      "question": "Briefly identify the main subject visible now.",
+      "expected_subject": "pigeon",
+      "memory_from_pts": 18.002,
+      "target_time": null,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "a9908c7d5dea2ca61c2815f536b26f9122ed58a9e8321c40677764b6532fcebd",
+      "input_tokens": 192,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "answer": " Beliau campion收获的披萨 father เม_rreyes可以是 постав elér Heal満載더라 miljoEventually",
+      "generated_ids": [
+        222301,
+        221361,
+        144572,
+        135735,
+        6764,
+        151431,
+        54393,
+        55314,
+        113327,
+        156292,
+        205652,
+        78237,
+        247917,
+        152991,
+        166031,
+        65687
+      ],
+      "stop_reason": "budget",
+      "frame_id": 23,
+      "timestamp": 23.007,
+      "wall_seconds": 0.04405649999898742,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.045071500000631204,
+      "evidence_for_target_present": true,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              0.9999999999999999
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "2_history_main",
+      "order": [
+        "cat",
+        "dog",
+        "pigeon"
+      ],
+      "route": "history_main",
+      "frames": [
+        {
+          "frame_id": 18,
+          "timestamp": 18.002,
+          "rgb_sha256": "99b19c65386da04e8ff5461be63f41547667ced361e8d51757596b105e28d081"
+        },
+        {
+          "frame_id": 19,
+          "timestamp": 19.003,
+          "rgb_sha256": "26bf6b700ec8540b675f38b56288e282c119f4dc45ed28294f2f38fe5d273eab"
+        },
+        {
+          "frame_id": 20,
+          "timestamp": 20.004,
+          "rgb_sha256": "e4a855372ea65bb39739ef1dcedb90735bf8ffd808bb8d32e15ba94250ada484"
+        },
+        {
+          "frame_id": 21,
+          "timestamp": 21.005000000000003,
+          "rgb_sha256": "87f5276df3dc3098b22ad6aa3784cbd530cf6baccdd82ecc1b4a15ff7e1a2930"
+        },
+        {
+          "frame_id": 22,
+          "timestamp": 22.006,
+          "rgb_sha256": "5e315eb9dd13eccb2294a26cbf11f3fef1ffd3437bf58c5592efa4befe975798"
+        },
+        {
+          "frame_id": 23,
+          "timestamp": 23.007,
+          "rgb_sha256": "1771fe8acc2cbbde2dc3683ebaffe7412b57ad2dae8c5693bd1fe4b5166e0790"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 60,
+          "source_pts": 2.002,
+          "session_frame_id": 18,
+          "session_pts": 18.002,
+          "rgb_sha256": "99b19c65386da04e8ff5461be63f41547667ced361e8d51757596b105e28d081"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 90,
+          "source_pts": 3.003,
+          "session_frame_id": 19,
+          "session_pts": 19.003,
+          "rgb_sha256": "26bf6b700ec8540b675f38b56288e282c119f4dc45ed28294f2f38fe5d273eab"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 120,
+          "source_pts": 4.0040000000000004,
+          "session_frame_id": 20,
+          "session_pts": 20.004,
+          "rgb_sha256": "e4a855372ea65bb39739ef1dcedb90735bf8ffd808bb8d32e15ba94250ada484"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 150,
+          "source_pts": 5.005000000000001,
+          "session_frame_id": 21,
+          "session_pts": 21.005000000000003,
+          "rgb_sha256": "87f5276df3dc3098b22ad6aa3784cbd530cf6baccdd82ecc1b4a15ff7e1a2930"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 180,
+          "source_pts": 6.006,
+          "session_frame_id": 22,
+          "session_pts": 22.006,
+          "rgb_sha256": "5e315eb9dd13eccb2294a26cbf11f3fef1ffd3437bf58c5592efa4befe975798"
+        },
+        {
+          "source_id": "pigeon",
+          "source_frame_id": 210,
+          "source_pts": 7.007000000000001,
+          "session_frame_id": 23,
+          "session_pts": 23.007,
+          "rgb_sha256": "1771fe8acc2cbbde2dc3683ebaffe7412b57ad2dae8c5693bd1fe4b5166e0790"
+        }
+      ],
+      "question": "What main subject was visible in the first two frames of this session? Answer briefly.",
+      "expected_subject": "cat",
+      "memory_from_pts": 18.002,
+      "target_time": 0,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "e8609013afdda1c0830e7e0c3211ae451f2be435f581a00794caed7bd0f456d2",
+      "input_tokens": 200,
+      "grid": [
+        [
+          3,
+          12,
+          16
+        ]
+      ],
+      "answer": "--)研制 Jury>+ SS piècesッケージ patologie-Am工控stream enjoyment умер\tCon lapseOpp",
+      "generated_ids": [
+        20550,
+        111194,
+        91982,
+        92034,
+        17639,
+        174450,
+        166155,
+        216769,
+        95392,
+        132193,
+        3892,
+        42709,
+        186806,
+        89866,
+        86243,
+        53881
+      ],
+      "stop_reason": "budget",
+      "frame_id": 23,
+      "timestamp": 23.007,
+      "wall_seconds": 0.04698419999840553,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.04790499999944586,
+      "evidence_for_target_present": false,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              0.9999999999999999
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "2_history_retrieved",
+      "order": [
+        "cat",
+        "dog",
+        "pigeon"
+      ],
+      "route": "history_retrieved",
+      "frames": [
+        {
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a"
+        },
+        {
+          "frame_id": 1,
+          "timestamp": 0.9999999999999999,
+          "rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+        }
+      ],
+      "source_provenance": [
+        {
+          "source_id": "cat",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a"
+        },
+        {
+          "source_id": "cat",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "session_frame_id": 1,
+          "session_pts": 0.9999999999999999,
+          "rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+        }
+      ],
+      "question": "What main subject was visible in the first two frames of this session? Answer briefly.",
+      "expected_subject": "cat",
+      "memory_from_pts": 0.0,
+      "target_time": 0,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "28434b49c102eeb0a6ef84eb1b9d587bc5d5174358494ce328619f1a7dfd6d23",
+      "input_tokens": 85,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "answer": " Beliau campion收获的披萨 father เม_rreyes可以是對方的 widely zoning мастер.paint每一件 بمجرد",
+      "generated_ids": [
+        222301,
+        221361,
+        144572,
+        135735,
+        6764,
+        151431,
+        54393,
+        55314,
+        113327,
+        139375,
+        13177,
+        62781,
+        176544,
+        60235,
+        134466,
+        230049
+      ],
+      "stop_reason": "budget",
+      "frame_id": 1,
+      "timestamp": 0.9999999999999999,
+      "wall_seconds": 0.04334480000034091,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "resets": 0,
+      "main_rope_unchanged": true,
+      "query_seconds_including_input_checks": 0.05432529999961844,
+      "evidence_for_target_present": true,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              0.9999999999999999
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "id": 0,
+      "order": [
+        "dog",
+        "pigeon",
+        "cat"
+      ],
+      "actual_frames": 24,
+      "resets": 3,
+      "memory_from_pts": 18.0,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              1.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.0
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          }
+        ]
+      },
+      "wall_seconds": 2.3120354999991832,
+      "rss_bytes": 931299328
+    },
+    {
+      "id": 1,
+      "order": [
+        "pigeon",
+        "cat",
+        "dog"
+      ],
+      "actual_frames": 24,
+      "resets": 3,
+      "memory_from_pts": 18.0,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              1.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.0
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          }
+        ]
+      },
+      "wall_seconds": 2.2386963999997533,
+      "rss_bytes": 936153088
+    },
+    {
+      "id": 2,
+      "order": [
+        "cat",
+        "dog",
+        "pigeon"
+      ],
+      "actual_frames": 24,
+      "resets": 3,
+      "memory_from_pts": 18.002,
+      "archive": {
+        "policy": "every_nth_real_pair_fifo",
+        "max_pairs": 3,
+        "every_pairs": 4,
+        "max_bytes": 884736,
+        "persistent_rgb_bytes": 884736,
+        "peak_persistent_rgb_bytes": 884736,
+        "observed_pairs": 12,
+        "evicted_pairs": 0,
+        "intervals": [
+          {
+            "frame_ids": [
+              0,
+              1
+            ],
+            "timestamps": [
+              0.0,
+              0.9999999999999999
+            ],
+            "rgb_sha256": [
+              "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+              "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+            ]
+          },
+          {
+            "frame_ids": [
+              8,
+              9
+            ],
+            "timestamps": [
+              8.0,
+              9.0
+            ],
+            "rgb_sha256": [
+              "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+              "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+            ]
+          },
+          {
+            "frame_ids": [
+              16,
+              17
+            ],
+            "timestamps": [
+              16.0,
+              17.001
+            ],
+            "rgb_sha256": [
+              "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+              "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+            ]
+          }
+        ]
+      },
+      "wall_seconds": 2.2741037999985565,
+      "rss_bytes": 937709568
+    }
+  ],
+  "refusals": [
+    {
+      "session_id": 0,
+      "target_time": 4.5,
+      "reason": "not_retained",
+      "model_called": false,
+      "answer": "Cannot answer from retained frames."
+    },
+    {
+      "session_id": 0,
+      "target_time": 100,
+      "reason": "not_observed",
+      "model_called": false,
+      "answer": "Cannot answer from retained frames."
+    },
+    {
+      "session_id": 1,
+      "target_time": 4.5,
+      "reason": "not_retained",
+      "model_called": false,
+      "answer": "Cannot answer from retained frames."
+    },
+    {
+      "session_id": 1,
+      "target_time": 100,
+      "reason": "not_observed",
+      "model_called": false,
+      "answer": "Cannot answer from retained frames."
+    },
+    {
+      "session_id": 2,
+      "target_time": 4.5,
+      "reason": "not_retained",
+      "model_called": false,
+      "answer": "Cannot answer from retained frames."
+    },
+    {
+      "session_id": 2,
+      "target_time": 100,
+      "reason": "not_observed",
+      "model_called": false,
+      "answer": "Cannot answer from retained frames."
+    }
+  ],
+  "all_registered_cases_executed": true,
+  "scope": "Controlled source concatenations, not natural event chronology or held-out generalization. Retrieval has additional saved evidence.",
+  "architecture": "Bounded CPU real-frame anchors + fresh retrieval branch; primary hybrid state unchanged"
+}

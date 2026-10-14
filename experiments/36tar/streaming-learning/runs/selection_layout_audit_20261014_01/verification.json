@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "source_hashes": 131,
+  "cpu_tests": 2,
+  "counts": {
+    "vision": 6,
+    "language": 367
+  },
+  "questions": 96,
+  "generated_tokens": 262,
+  "matched_controls": [
+    {
+      "case": "video_cat",
+      "topic": "coat",
+      "single_label_token_changed": true,
+      "grid_value_comparison_matched": true,
+      "frozen_arms_exact_generated_ids": true
+    },
+    {
+      "case": "video_cat",
+      "topic": "subject",
+      "single_label_token_changed": true,
+      "grid_value_comparison_matched": true,
+      "frozen_arms_exact_generated_ids": true
+    },
+    {
+      "case": "black_photo",
+      "topic": "coat",
+      "single_label_token_changed": true,
+      "grid_value_comparison_matched": true,
+      "frozen_arms_exact_generated_ids": true
+    },
+    {
+      "case": "black_photo",
+      "topic": "subject",
+      "single_label_token_changed": true,
+      "grid_value_comparison_matched": true,
+      "frozen_arms_exact_generated_ids": true
+    },
+    {
+      "case": "light_photo",
+      "topic": "coat",
+      "single_label_token_changed": true,
+      "grid_value_comparison_matched": true,
+      "frozen_arms_exact_generated_ids": true
+    },
+    {
+      "case": "light_photo",
+      "topic": "subject",
+      "single_label_token_changed": true,
+      "grid_value_comparison_matched": true,
+      "frozen_arms_exact_generated_ids": true
+    }
+  ],
+  "same_inputs_and_features_as_gpu91": true,
+  "default_core_unchanged": true,
+  "conservative_feature_bytes": 10594048,
+  "gpu_summary_sha256": "aa45d040922658a75b2793dd4150f5760e727522f38920fa2318549fdcbfac45",
+  "cpu_proof_sha256": "581adb94cf42b544714bf2716b851baaa2e46aa8573fff5be876fb3d818dac91"
+}

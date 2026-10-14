@@ -1,0 +1,13 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"kind": "main_current", "encoded_pts": 7.0, "answer": " Beliau campion收获的披萨 father เม不做 постав elér Heal満載더라 miljo striker幼年 esperando", "model_called": true, "reason": null, "evidence_interval": null}
+{"kind": "window_current", "encoded_pts": 7.0, "answer": " Beliau campion收获的披萨 father เม_rreyes可以是 постав elér西安iels\tac브리 الفلسطينية", "model_called": true, "reason": null, "evidence_interval": [6.0, 7.0]}
+{"kind": "coarse_first_interval", "encoded_pts": 7.0, "answer": " Beliau campion收获的披萨 father Purch Noti北京市海淀区 мастер.paint每一件的美国urersWS在世 زمان", "model_called": true, "reason": null, "evidence_interval": [0.0, 3.0]}
+{"kind": "exact_pair_0.5", "encoded_pts": 7.0, "answer": null, "model_called": false, "reason": "compressed_only_no_exact_pair", "evidence_interval": null}
+{"kind": "future_99", "encoded_pts": 7.0, "answer": null, "model_called": false, "reason": "beyond_encoded_horizon", "evidence_interval": null}
+{"kind": "main_current", "encoded_pts": 11.0, "answer": " Beliau campion收获的披萨 father เม不做 постав elérNos务实āvवे rampantლე Random", "model_called": true, "reason": null, "evidence_interval": null}
+{"kind": "window_current", "encoded_pts": 11.0, "answer": " Beliau_PHASE乌龙油品_crypto的种子 pasal找工作 نشر bubble Stamina Timothy 논문 보辱骂স্য", "model_called": true, "reason": null, "evidence_interval": [10.0, 11.0]}
+{"kind": "coarse_first_interval", "encoded_pts": 11.0, "answer": " Beliau campion收获的披萨 father Purch Noti北京市海淀区 мастер.paint每一件的美国urersWS在世 زمان", "model_called": true, "reason": null, "evidence_interval": [0.0, 7.0]}
+{"kind": "exact_pair_0.5", "encoded_pts": 11.0, "answer": null, "model_called": false, "reason": "compressed_only_no_exact_pair", "evidence_interval": null}
+{"kind": "future_99", "encoded_pts": 11.0, "answer": null, "model_called": false, "reason": "beyond_encoded_horizon", "evidence_interval": null}
+{"kind": "coarse_middle_interval", "encoded_pts": 11.0, "answer": " Beliau campion收获的披萨 father เม_rreyes可以是對方的 widely дороже폴 BOOLEAN韶华 undercut", "model_called": true, "reason": null, "evidence_interval": [8.0, 9.0]}
+{"passed": true, "cpu_tests": 3, "vision": 6, "queries": 7, "continued_to": 11.0, "gpu_loads": 0}

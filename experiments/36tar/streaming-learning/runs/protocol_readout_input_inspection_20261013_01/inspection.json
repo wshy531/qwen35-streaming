@@ -1,0 +1,241 @@
+{
+  "cases": [
+    {
+      "case": "dog_pair_0",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "source_id": "dog",
+          "source_frame_id": 500,
+          "source_pts": 20.0,
+          "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+          "source_rgb_sha256": "2752b16ffe89521806e40ff1815056374e38c73df9774986aa60e95317365c29",
+          "canvas_rgb_sha256": "47ce2acfabb870b6602ab2b23eb51f35d51e6e45f8283c82e0d5c19c838af077",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 1,
+          "session_pts": 1.0,
+          "source_id": "dog",
+          "source_frame_id": 525,
+          "source_pts": 21.0,
+          "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+          "source_rgb_sha256": "abe332ad2d3aaa8554590524e2d3538071c1c310978f187f4026775dc4cd3cc0",
+          "canvas_rgb_sha256": "17dac4005c63169f995eaea8bca2b58f782b8b5d35509802c38ffe27d272bf2a",
+          "session_time_is_source_time": false
+        }
+      ]
+    },
+    {
+      "case": "pigeon_pair_0",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "source_id": "pigeon",
+          "source_frame_id": 240,
+          "source_pts": 8.008000000000001,
+          "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+          "source_rgb_sha256": "f55bfc3a0affca6e4574e8220474b0b025ed214accf9c63bd550a8157c69f103",
+          "canvas_rgb_sha256": "38ec7e74c99cbb088207fcc4a0eaf1a9eaf6c471da43a6bef640dfa86d5389d7",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 1,
+          "session_pts": 1.0,
+          "source_id": "pigeon",
+          "source_frame_id": 270,
+          "source_pts": 9.009,
+          "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+          "source_rgb_sha256": "ac311b5ad1075e681d7775dbd3bd41b3d87cd99d768ba6d61b8154e30fef2867",
+          "canvas_rgb_sha256": "f8c98e8ca083219d162d85a16e247f0bd872faae67ec4bc2e9ba572725a6e8ae",
+          "session_time_is_source_time": false
+        }
+      ]
+    },
+    {
+      "case": "pigeon_pair_1",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 2,
+          "session_pts": 2.0,
+          "source_id": "pigeon",
+          "source_frame_id": 300,
+          "source_pts": 10.01,
+          "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+          "source_rgb_sha256": "4ddbd3139e344191d9008b72089d5cc6d23af3676abcc900bdaf8a80e7b78a7e",
+          "canvas_rgb_sha256": "57641cd6f44e3f96112a424fbb9d8b5b3eca002bd289936748c28efa68bb1868",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 3,
+          "session_pts": 3.0,
+          "source_id": "pigeon",
+          "source_frame_id": 330,
+          "source_pts": 11.011000000000001,
+          "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+          "source_rgb_sha256": "feffd3a305e8534e06d58cb0c161c4ae0b26244c562657a8b0a0d168bcb080dc",
+          "canvas_rgb_sha256": "4594b5a5da9590c7830bc2d9cb4cfaaeff5c37c2e9ac8b0ad2ee0c105d1db11e",
+          "session_time_is_source_time": false
+        }
+      ]
+    },
+    {
+      "case": "cat_pair_0",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 0,
+          "session_pts": 0.0,
+          "source_id": "cat",
+          "source_frame_id": 120,
+          "source_pts": 4.0,
+          "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+          "source_rgb_sha256": "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+          "canvas_rgb_sha256": "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 1,
+          "session_pts": 1.0,
+          "source_id": "cat",
+          "source_frame_id": 150,
+          "source_pts": 5.0,
+          "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+          "source_rgb_sha256": "8191fbce6e119904d34d6008f141d9b7dedae049a20b649cf458ecc0d3462853",
+          "canvas_rgb_sha256": "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c",
+          "session_time_is_source_time": false
+        }
+      ]
+    },
+    {
+      "case": "cat_pair_1",
+      "question": "Name the main visible animal in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 2,
+          "session_pts": 2.0,
+          "source_id": "cat",
+          "source_frame_id": 180,
+          "source_pts": 6.0,
+          "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+          "source_rgb_sha256": "9b02285010ba71c6d9df318df0f056b7a04248ee52819ca43c7e0365f9dea9c2",
+          "canvas_rgb_sha256": "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57",
+          "session_time_is_source_time": false
+        },
+        {
+          "session_frame_id": 3,
+          "session_pts": 3.0,
+          "source_id": "cat",
+          "source_frame_id": 210,
+          "source_pts": 7.0,
+          "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+          "source_rgb_sha256": "63352334d328cac3903a4bd94929a2d809fa3d33920490f3d89782c62a161543",
+          "canvas_rgb_sha256": "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11",
+          "session_time_is_source_time": false
+        }
+      ]
+    },
+    {
+      "case": "clean_hands_pair_0",
+      "question": "Briefly describe the visible action in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 0,
+          "session_pts": 6.006,
+          "source_id": "clean_hands",
+          "source_frame_id": 180,
+          "source_pts": 6.006,
+          "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+          "source_rgb_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+          "canvas_rgb_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15",
+          "session_time_is_source_time": true
+        },
+        {
+          "session_frame_id": 1,
+          "session_pts": 7.007,
+          "source_id": "clean_hands",
+          "source_frame_id": 210,
+          "source_pts": 7.007,
+          "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+          "source_rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885",
+          "canvas_rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885",
+          "session_time_is_source_time": true
+        }
+      ]
+    },
+    {
+      "case": "clean_hands_pair_5",
+      "question": "Briefly describe the visible action in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 10,
+          "session_pts": 16.016,
+          "source_id": "clean_hands",
+          "source_frame_id": 480,
+          "source_pts": 16.016,
+          "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+          "source_rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+          "canvas_rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae",
+          "session_time_is_source_time": true
+        },
+        {
+          "session_frame_id": 11,
+          "session_pts": 17.017,
+          "source_id": "clean_hands",
+          "source_frame_id": 510,
+          "source_pts": 17.017,
+          "source_sha256": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+          "source_rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70",
+          "canvas_rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70",
+          "session_time_is_source_time": true
+        }
+      ]
+    },
+    {
+      "case": "hand_hygiene_pair_5",
+      "question": "Briefly describe the visible action in these frames.",
+      "identity": [
+        {
+          "session_frame_id": 10,
+          "session_pts": 16.016,
+          "source_id": "hand_hygiene",
+          "source_frame_id": 384,
+          "source_pts": 16.016,
+          "source_sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9",
+          "source_rgb_sha256": "c62b2f7596c16ff4401e2c007312510120e422e39fe405ae1e7e3c20e454d65e",
+          "canvas_rgb_sha256": "661a76f80ad924160a9a7866ca853ced204c61e6ebc8aebfb5734432032936d6",
+          "session_time_is_source_time": true
+        },
+        {
+          "session_frame_id": 11,
+          "session_pts": 17.017,
+          "source_id": "hand_hygiene",
+          "source_frame_id": 408,
+          "source_pts": 17.017,
+          "source_sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9",
+          "source_rgb_sha256": "fc7551b1d3f14cede87dce097bfffc86906a93619d8e0046883e8013f2e18031",
+          "canvas_rgb_sha256": "2d1fb20bcdb7ea2f54aeb9779598277a2effc95c9a80ccddce693de6a867a71b",
+          "session_time_is_source_time": true
+        }
+      ]
+    }
+  ],
+  "source_assets": {
+    "E:\\VIT Model\\datasets\\general_stream_v1\\dog.webm": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+    "E:\\VIT Model\\datasets\\general_stream_v1\\pigeon.webm": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+    "E:\\VIT Model\\datasets\\numeric_hand_hygiene_v1\\hand_hygiene.webm": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9"
+  },
+  "rgb_bytes": 7077888,
+  "ram_available_bytes": 6869397504,
+  "gpu_free_bytes": 7443841024,
+  "gpu_total_bytes": 8585216000,
+  "gpu_model_loads": 0,
+  "scope": "Human input inspection and resource snapshot only"
+}

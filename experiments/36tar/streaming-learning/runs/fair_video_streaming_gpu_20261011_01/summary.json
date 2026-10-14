@@ -1,0 +1,1613 @@
+{
+  "arm": "streaming",
+  "budget": {
+    "model_loads_per_arm": 1,
+    "cases": 14,
+    "real_frames_total_max": 56,
+    "real_frames_per_case_max": 4,
+    "answer_tokens_per_case": 16,
+    "generated_tokens_per_arm_max": 224,
+    "original_vision_max": 14,
+    "original_language_max": 238,
+    "streaming_vision_max": 27,
+    "streaming_language_max": 280,
+    "tokens_max": 256,
+    "question_reserve": 96,
+    "precision": "fp32_ieee_math",
+    "wall_seconds": 240,
+    "gpu_free_gib_min": 5.5,
+    "ram_available_gib_min": 3,
+    "rgb_per_case_max_bytes": 589824,
+    "simultaneous_real_models": 1
+  },
+  "model_source": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\modeling_qwen3_5.py",
+  "cases": [
+    {
+      "id": "hands_two_action",
+      "question": "What are the hands doing?",
+      "kind": "action",
+      "frames": [
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 30,
+          "timestamp": 1.001,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": false,
+      "historical_context": {
+        "frames": [
+          [
+            0,
+            0.0
+          ],
+          [
+            30,
+            1.001
+          ]
+        ],
+        "question": "What are the hands doing?",
+        "historical_answer": "The hands are pouring coffee into a mug.",
+        "generated_ids": [
+          760,
+          5888,
+          513,
+          48716,
+          10482,
+          1083,
+          264,
+          49755,
+          13,
+          248046
+        ],
+        "memory_from_pts": 0.0
+      },
+      "retained_rgb_bytes": 294912,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "2967b8063abcd9eca07e3ea107496fb1a9d16b85c83e61537a7271a2793589c8",
+      "input_tokens": 74,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "answer": "The hands are pouring coffee into a mug.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        48716,
+        10482,
+        1083,
+        264,
+        49755,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 30,
+      "timestamp": 1.001,
+      "wall_seconds": 0.36913079999976617,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": null,
+      "rubric": "Hands at faucet/sink; coffee and face claims unsupported",
+      "strict_choice_correct": null,
+      "model_seconds": 0.9080031000003146,
+      "forward_counts": {
+        "vision": 1,
+        "language": 13
+      }
+    },
+    {
+      "id": "hands_four_action",
+      "question": "What are the hands doing?",
+      "kind": "action",
+      "frames": [
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 30,
+          "timestamp": 1.001,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 60,
+          "source_pts": 2.002,
+          "source_rgb_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+          "frame_id": 60,
+          "timestamp": 2.002,
+          "canonical_rgb_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 90,
+          "source_pts": 3.003,
+          "source_rgb_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+          "frame_id": 90,
+          "timestamp": 3.003,
+          "canonical_rgb_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": false,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "cd70ce8c903699355d7ea6ddac0cf0ebfe1e8ab734984e7514fb27513b539286",
+      "input_tokens": 130,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "The hands are washing their hands with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 90,
+      "timestamp": 3.003,
+      "wall_seconds": 0.40868310000041674,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": null,
+      "rubric": "Hands at sink/washing; do not require visible soap in early frames",
+      "strict_choice_correct": null,
+      "model_seconds": 0.7542696999998952,
+      "forward_counts": {
+        "vision": 2,
+        "language": 16
+      }
+    },
+    {
+      "id": "hands_sparse_late_action",
+      "question": "What are the hands doing?",
+      "kind": "action",
+      "frames": [
+        {
+          "video": "clean_hands",
+          "source_frame_id": 210,
+          "source_pts": 7.007,
+          "source_rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885",
+          "frame_id": 210,
+          "timestamp": 7.007,
+          "canonical_rgb_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 240,
+          "source_pts": 8.008,
+          "source_rgb_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063",
+          "frame_id": 240,
+          "timestamp": 8.008,
+          "canonical_rgb_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 300,
+          "source_pts": 10.01,
+          "source_rgb_sha256": "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496",
+          "frame_id": 300,
+          "timestamp": 10.01,
+          "canonical_rgb_sha256": "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 330,
+          "source_pts": 11.011,
+          "source_rgb_sha256": "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505",
+          "frame_id": 330,
+          "timestamp": 11.011,
+          "canonical_rgb_sha256": "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": false,
+      "historical_context": {
+        "frames": [
+          [
+            210,
+            7.007
+          ],
+          [
+            240,
+            8.008
+          ],
+          [
+            300,
+            10.01
+          ],
+          [
+            330,
+            11.011
+          ]
+        ],
+        "question": "What are the hands doing?",
+        "historical_answer": "The hands are washing their faces with soap and water.",
+        "generated_ids": [
+          760,
+          5888,
+          513,
+          26789,
+          836,
+          11947,
+          440,
+          25929,
+          321,
+          2919,
+          13,
+          248046
+        ],
+        "memory_from_pts": 7.007
+      },
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "79369ab32cbaeca708c2e811cad28c83cf33cef66b9c6834fd02412f09160a4c",
+      "input_tokens": 131,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "The hands are washing their faces with soap and water.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        11947,
+        440,
+        25929,
+        321,
+        2919,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 330,
+      "timestamp": 11.011,
+      "wall_seconds": 0.4077633999995669,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 7.007,
+      "resets": 0,
+      "expected": null,
+      "rubric": "Hands washing at sink; faces unsupported",
+      "strict_choice_correct": null,
+      "model_seconds": 0.7724567000004754,
+      "forward_counts": {
+        "vision": 2,
+        "language": 16
+      }
+    },
+    {
+      "id": "hands_dense_late_action",
+      "question": "What are the hands doing?",
+      "kind": "action",
+      "frames": [
+        {
+          "video": "clean_hands",
+          "source_frame_id": 240,
+          "source_pts": 8.008,
+          "source_rgb_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063",
+          "frame_id": 240,
+          "timestamp": 8.008,
+          "canonical_rgb_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 270,
+          "source_pts": 9.009,
+          "source_rgb_sha256": "20c5e692310b97e4f092d05907d29db592993456fec0d68b0f9c06b5e7fd7eaa",
+          "frame_id": 270,
+          "timestamp": 9.009,
+          "canonical_rgb_sha256": "20c5e692310b97e4f092d05907d29db592993456fec0d68b0f9c06b5e7fd7eaa",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 300,
+          "source_pts": 10.01,
+          "source_rgb_sha256": "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496",
+          "frame_id": 300,
+          "timestamp": 10.01,
+          "canonical_rgb_sha256": "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 330,
+          "source_pts": 11.011,
+          "source_rgb_sha256": "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505",
+          "frame_id": 330,
+          "timestamp": 11.011,
+          "canonical_rgb_sha256": "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": false,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "1c8d97b6f98b154e1536fcf6a7aa887985de989cc4f106d32fcece2089566df0",
+      "input_tokens": 131,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids": [
+        760,
+        5888,
+        513,
+        26789,
+        836,
+        5888,
+        303,
+        264,
+        18725,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 330,
+      "timestamp": 11.011,
+      "wall_seconds": 0.3843062000005375,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 8.008,
+      "resets": 0,
+      "expected": null,
+      "rubric": "Hands washing at sink",
+      "strict_choice_correct": null,
+      "model_seconds": 0.7382754000000205,
+      "forward_counts": {
+        "vision": 2,
+        "language": 15
+      }
+    },
+    {
+      "id": "cat_dense_action",
+      "question": "What is the cat doing?",
+      "kind": "action",
+      "frames": [
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "frame_id": 30,
+          "timestamp": 0.9999999999999999,
+          "canonical_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 60,
+          "source_pts": 2.0,
+          "source_rgb_sha256": "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+          "frame_id": 60,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 90,
+          "source_pts": 3.0,
+          "source_rgb_sha256": "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+          "frame_id": 90,
+          "timestamp": 3.0,
+          "canonical_rgb_sha256": "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": false,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "45f08cb2ee823df186b60da6d6af6329cb3024a424677ccb4b2148f4e8dd2a0c",
+      "input_tokens": 130,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "The cat is lying on its back on the ground.",
+      "generated_ids": [
+        760,
+        7993,
+        369,
+        19823,
+        383,
+        1141,
+        1142,
+        383,
+        279,
+        4751,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 90,
+      "timestamp": 3.0,
+      "wall_seconds": 0.5101662999995824,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": null,
+      "rubric": "Cat lying/rolling on the ground; no exact wording required",
+      "strict_choice_correct": null,
+      "model_seconds": 0.9821124999998574,
+      "forward_counts": {
+        "vision": 2,
+        "language": 16
+      }
+    },
+    {
+      "id": "cat_sparse_action",
+      "question": "What is the cat doing?",
+      "kind": "action",
+      "frames": [
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 60,
+          "source_pts": 2.0,
+          "source_rgb_sha256": "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+          "frame_id": 60,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 120,
+          "source_pts": 4.0,
+          "source_rgb_sha256": "e7a9290b3fe80a2b111936b2511b60995643e56b6646e254bf4eabc85a639c05",
+          "frame_id": 120,
+          "timestamp": 4.0,
+          "canonical_rgb_sha256": "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 180,
+          "source_pts": 6.0,
+          "source_rgb_sha256": "9b02285010ba71c6d9df318df0f056b7a04248ee52819ca43c7e0365f9dea9c2",
+          "frame_id": 180,
+          "timestamp": 6.0,
+          "canonical_rgb_sha256": "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": false,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "c5bad200782707f8ecc36d47c429f021ca54aaf72e401bea9efa3252324ee570",
+      "input_tokens": 130,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "The cat is lying on the ground.",
+      "generated_ids": [
+        760,
+        7993,
+        369,
+        19823,
+        383,
+        279,
+        4751,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 180,
+      "timestamp": 6.0,
+      "wall_seconds": 0.33301380000011704,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": null,
+      "rubric": "Cat lying/rolling on the ground; no exact wording required",
+      "strict_choice_correct": null,
+      "model_seconds": 0.6789730000000418,
+      "forward_counts": {
+        "vision": 2,
+        "language": 13
+      }
+    },
+    {
+      "id": "hands_last_subject",
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "kind": "last_subject",
+      "frames": [
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 30,
+          "timestamp": 1.001,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 60,
+          "source_pts": 2.002,
+          "source_rgb_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+          "frame_id": 60,
+          "timestamp": 2.002,
+          "canonical_rgb_sha256": "dedc4f8b6d1fa9264e3f9382ddb375b475f3fef594668a29fe40d41c296dc632",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 90,
+          "source_pts": 3.003,
+          "source_rgb_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+          "frame_id": 90,
+          "timestamp": 3.003,
+          "canonical_rgb_sha256": "a55da124c9e101d19b9e1d1369e40be577204abe47c911bbbe8c478cb4cbbc47",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": false,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "7d2898a2752ad0474bf39c0e51226a4765f1755787675b458c776eaf4864b931",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "HANDS",
+      "generated_ids": [
+        72141,
+        50,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 90,
+      "timestamp": 3.003,
+      "wall_seconds": 0.1773972999999387,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": "HANDS",
+      "rubric": null,
+      "strict_choice_correct": true,
+      "model_seconds": 0.5190155000000232,
+      "forward_counts": {
+        "vision": 2,
+        "language": 7
+      }
+    },
+    {
+      "id": "cat_last_subject",
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "kind": "last_subject",
+      "frames": [
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "frame_id": 30,
+          "timestamp": 0.9999999999999999,
+          "canonical_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 60,
+          "source_pts": 2.0,
+          "source_rgb_sha256": "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+          "frame_id": 60,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 90,
+          "source_pts": 3.0,
+          "source_rgb_sha256": "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+          "frame_id": 90,
+          "timestamp": 3.0,
+          "canonical_rgb_sha256": "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": false,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "b80fbd7b7b6d771a3fb0bd4a272ce2daf42c4d09afb061e2161edecce322513e",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "CAT",
+      "generated_ids": [
+        27280,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 90,
+      "timestamp": 3.0,
+      "wall_seconds": 0.15244720000009693,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": "CAT",
+      "rubric": null,
+      "strict_choice_correct": true,
+      "model_seconds": 0.6225082999999358,
+      "forward_counts": {
+        "vision": 2,
+        "language": 6
+      }
+    },
+    {
+      "id": "hands_cat_first",
+      "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "kind": "first_subject",
+      "frames": [
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 2,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "frame_id": 3,
+          "timestamp": 3.0,
+          "canonical_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": true,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "6dbf9efcc6f1fc81e2b541f83ccb8729ad502c9dcfa20b252d46e9d4e02669d6",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "CAT",
+      "generated_ids": [
+        27280,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 3,
+      "timestamp": 3.0,
+      "wall_seconds": 0.1597940000001472,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": "HANDS",
+      "rubric": null,
+      "strict_choice_correct": false,
+      "model_seconds": 0.5210688999995909,
+      "forward_counts": {
+        "vision": 2,
+        "language": 6
+      }
+    },
+    {
+      "id": "hands_cat_last",
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "kind": "last_subject",
+      "frames": [
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 2,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "frame_id": 3,
+          "timestamp": 3.0,
+          "canonical_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": true,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "cfbaff51c03fb21b9220f957a77e512e1445aa479ac168e1a1022ddfb0b51488",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "CAT",
+      "generated_ids": [
+        27280,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 3,
+      "timestamp": 3.0,
+      "wall_seconds": 0.1539402999997037,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": "CAT",
+      "rubric": null,
+      "strict_choice_correct": true,
+      "model_seconds": 0.49706090000017866,
+      "forward_counts": {
+        "vision": 2,
+        "language": 6
+      }
+    },
+    {
+      "id": "hands_cat_order",
+      "question": "Which appears earlier in the clip, the hands or the cat? Answer only HANDS_FIRST or CAT_FIRST.",
+      "kind": "order",
+      "frames": [
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 2,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "frame_id": 3,
+          "timestamp": 3.0,
+          "canonical_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": true,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "8990a27f1bac7ccee894ce55f11b3f15b7fa529ab3877965c14076542ccdecae",
+      "input_tokens": 146,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "HANDS_FIRST",
+      "generated_ids": [
+        72141,
+        50,
+        35073,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 3,
+      "timestamp": 3.0,
+      "wall_seconds": 0.20806550000088464,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": "HANDS_FIRST",
+      "rubric": null,
+      "strict_choice_correct": true,
+      "model_seconds": 0.5671417000003203,
+      "forward_counts": {
+        "vision": 2,
+        "language": 8
+      }
+    },
+    {
+      "id": "cat_hands_first",
+      "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "kind": "first_subject",
+      "frames": [
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "canonical_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 2,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 3,
+          "timestamp": 3.0,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": true,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "526fd28c1b3be929b4ebe02045043d4545f450533cf75a92e4c0d465266ded2f",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "CAT",
+      "generated_ids": [
+        27280,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 3,
+      "timestamp": 3.0,
+      "wall_seconds": 0.15786219999972673,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": "CAT",
+      "rubric": null,
+      "strict_choice_correct": true,
+      "model_seconds": 0.5064294999992853,
+      "forward_counts": {
+        "vision": 2,
+        "language": 6
+      }
+    },
+    {
+      "id": "cat_hands_last",
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "kind": "last_subject",
+      "frames": [
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "canonical_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 2,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 3,
+          "timestamp": 3.0,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": true,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "15806eaefa2989777f136b686e2b481b33536484a294480299aba1dc9d893eed",
+      "input_tokens": 149,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "CAT",
+      "generated_ids": [
+        27280,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 3,
+      "timestamp": 3.0,
+      "wall_seconds": 0.1545562000001155,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": "HANDS",
+      "rubric": null,
+      "strict_choice_correct": false,
+      "model_seconds": 0.4994810000007419,
+      "forward_counts": {
+        "vision": 2,
+        "language": 6
+      }
+    },
+    {
+      "id": "cat_hands_order",
+      "question": "Which appears earlier in the clip, the hands or the cat? Answer only HANDS_FIRST or CAT_FIRST.",
+      "kind": "order",
+      "frames": [
+        {
+          "video": "cat_play",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+          "frame_id": 0,
+          "timestamp": 0.0,
+          "canonical_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "cat_play",
+          "source_frame_id": 30,
+          "source_pts": 0.9999999999999999,
+          "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+          "frame_id": 1,
+          "timestamp": 1.0,
+          "canonical_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 0,
+          "source_pts": 0.0,
+          "source_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "frame_id": 2,
+          "timestamp": 2.0,
+          "canonical_rgb_sha256": "67d36e403a35580d2238b1cfc9e13a202a2890fdc51f33b575364273a6aa25d8",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        },
+        {
+          "video": "clean_hands",
+          "source_frame_id": 30,
+          "source_pts": 1.001,
+          "source_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "frame_id": 3,
+          "timestamp": 3.0,
+          "canonical_rgb_sha256": "204b024e62155cdd7a17d67ede839d07ac7a5c0e75ad54036c8c39ea77b8f741",
+          "canonical_shape": [
+            192,
+            256,
+            3
+          ]
+        }
+      ],
+      "controlled_splice": true,
+      "historical_context": null,
+      "retained_rgb_bytes": 589824,
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "61588f6fdd9a0061dc9138fbd2df1d4e4179088046b0d3fe08f933265cca4ee6",
+      "input_tokens": 146,
+      "grid": [
+        [
+          2,
+          12,
+          16
+        ]
+      ],
+      "answer": "HANDS_FIRST",
+      "generated_ids": [
+        72141,
+        50,
+        35073,
+        248046
+      ],
+      "stop_reason": "eos",
+      "frame_id": 3,
+      "timestamp": 3.0,
+      "wall_seconds": 0.20733730000029027,
+      "reference_mode": "fp32_ieee_math",
+      "main_unchanged_bitwise": true,
+      "main_counters_unchanged": true,
+      "memory_from_pts": 0.0,
+      "resets": 0,
+      "expected": "CAT_FIRST",
+      "rubric": null,
+      "strict_choice_correct": false,
+      "model_seconds": 0.5582988999994996,
+      "forward_counts": {
+        "vision": 2,
+        "language": 8
+      }
+    }
+  ],
+  "scope": "Fixed two-video and labelled splice capability diagnosis; no training/speed claim",
+  "actual_forwards": {
+    "vision": 27,
+    "language": 142
+  },
+  "generated_tokens": 87,
+  "all_registered_cases_executed": true,
+  "peak_allocated_gib": 3.2669358253479004,
+  "peak_reserved_gib": 3.6015625,
+  "wall_seconds_including_load": 13.440843800000039
+}

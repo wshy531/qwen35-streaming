@@ -1,0 +1,134 @@
+{
+  "cases": [
+    {
+      "id": "hands_two_action",
+      "question": "What are the hands doing?",
+      "answer": "The hands are pouring coffee into a mug.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": null,
+      "controlled_splice": false
+    },
+    {
+      "id": "hands_four_action",
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands with soap and water.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": null,
+      "controlled_splice": false
+    },
+    {
+      "id": "hands_sparse_late_action",
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their faces with soap and water.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": null,
+      "controlled_splice": false
+    },
+    {
+      "id": "hands_dense_late_action",
+      "question": "What are the hands doing?",
+      "answer": "The hands are washing their hands in a sink.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": null,
+      "controlled_splice": false
+    },
+    {
+      "id": "cat_dense_action",
+      "question": "What is the cat doing?",
+      "answer": "The cat is lying on its back on the ground.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": null,
+      "controlled_splice": false
+    },
+    {
+      "id": "cat_sparse_action",
+      "question": "What is the cat doing?",
+      "answer": "The cat is lying on the ground.",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": null,
+      "controlled_splice": false
+    },
+    {
+      "id": "hands_last_subject",
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "answer": "HANDS",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": true,
+      "controlled_splice": false
+    },
+    {
+      "id": "cat_last_subject",
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "answer": "CAT",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": true,
+      "controlled_splice": false
+    },
+    {
+      "id": "hands_cat_first",
+      "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "answer": "CAT",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": false,
+      "controlled_splice": true
+    },
+    {
+      "id": "hands_cat_last",
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "answer": "CAT",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": true,
+      "controlled_splice": true
+    },
+    {
+      "id": "hands_cat_order",
+      "question": "Which appears earlier in the clip, the hands or the cat? Answer only HANDS_FIRST or CAT_FIRST.",
+      "answer": "HANDS_FIRST",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": true,
+      "controlled_splice": true
+    },
+    {
+      "id": "cat_hands_first",
+      "question": "What is the main visible subject in the FIRST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "answer": "CAT",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": true,
+      "controlled_splice": true
+    },
+    {
+      "id": "cat_hands_last",
+      "question": "What is the main visible subject in the LAST frame of this video window? Answer only CAT, HANDS, or OTHER.",
+      "answer": "CAT",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": false,
+      "controlled_splice": true
+    },
+    {
+      "id": "cat_hands_order",
+      "question": "Which appears earlier in the clip, the hands or the cat? Answer only HANDS_FIRST or CAT_FIRST.",
+      "answer": "HANDS_FIRST",
+      "generated_ids_equal": true,
+      "input_fingerprint_equal": true,
+      "strict_choice_correct": false,
+      "controlled_splice": true
+    }
+  ],
+  "same_generated_sequences": 14,
+  "fixed_choices_correct": 5,
+  "fixed_choices_total": 8,
+  "scope": "Fixed cases, not general accuracy or numerical equivalence"
+}

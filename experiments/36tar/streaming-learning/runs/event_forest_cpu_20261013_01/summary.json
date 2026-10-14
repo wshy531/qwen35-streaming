@@ -1,0 +1,365 @@
+{
+  "passed": true,
+  "tests": 8,
+  "one_level_tome_controls": 3,
+  "scenarios": [
+    {
+      "scenario": "combined",
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "final": {
+        "events": 24,
+        "roots": [
+          {
+            "begin_id": 0,
+            "end_id": 6,
+            "begin_time": 0.0,
+            "end_time": 6.5,
+            "centroid": 3.25,
+            "leaves": 7,
+            "merge_steps": 6,
+            "depth": 4,
+            "tokens": 16
+          },
+          {
+            "begin_id": 7,
+            "end_id": 12,
+            "begin_time": 7.0,
+            "end_time": 12.5,
+            "centroid": 9.75,
+            "leaves": 6,
+            "merge_steps": 5,
+            "depth": 3,
+            "tokens": 16
+          },
+          {
+            "begin_id": 13,
+            "end_id": 17,
+            "begin_time": 13.0,
+            "end_time": 17.5,
+            "centroid": 15.25,
+            "leaves": 5,
+            "merge_steps": 4,
+            "depth": 4,
+            "tokens": 16
+          },
+          {
+            "begin_id": 18,
+            "end_id": 23,
+            "begin_time": 18.0,
+            "end_time": 23.5,
+            "centroid": 20.75,
+            "leaves": 6,
+            "merge_steps": 5,
+            "depth": 5,
+            "tokens": 16
+          }
+        ],
+        "tokens": 64,
+        "tensor_bytes": 4352,
+        "metadata_serialized_bytes": 505,
+        "merges": 20,
+        "peak_tokens_after_append": 64,
+        "peak_tensor_bytes_after_append": 4352,
+        "peak_pair_matrix_bytes": 1024,
+        "span_means_compressed_provenance_not_exact_frame": true
+      },
+      "total_original_token_mass": 384.0,
+      "all_event_spans_represented": true,
+      "exact_frames_preserved": false
+    },
+    {
+      "scenario": "similarity_only",
+      "weights": [
+        1,
+        0,
+        0
+      ],
+      "final": {
+        "events": 24,
+        "roots": [
+          {
+            "begin_id": 0,
+            "end_id": 20,
+            "begin_time": 0.0,
+            "end_time": 20.5,
+            "centroid": 10.25,
+            "leaves": 21,
+            "merge_steps": 20,
+            "depth": 16,
+            "tokens": 16
+          },
+          {
+            "begin_id": 21,
+            "end_id": 21,
+            "begin_time": 21.0,
+            "end_time": 21.5,
+            "centroid": 21.25,
+            "leaves": 1,
+            "merge_steps": 0,
+            "depth": 0,
+            "tokens": 16
+          },
+          {
+            "begin_id": 22,
+            "end_id": 22,
+            "begin_time": 22.0,
+            "end_time": 22.5,
+            "centroid": 22.25,
+            "leaves": 1,
+            "merge_steps": 0,
+            "depth": 0,
+            "tokens": 16
+          },
+          {
+            "begin_id": 23,
+            "end_id": 23,
+            "begin_time": 23.0,
+            "end_time": 23.5,
+            "centroid": 23.25,
+            "leaves": 1,
+            "merge_steps": 0,
+            "depth": 0,
+            "tokens": 16
+          }
+        ],
+        "tokens": 64,
+        "tensor_bytes": 4352,
+        "metadata_serialized_bytes": 514,
+        "merges": 20,
+        "peak_tokens_after_append": 64,
+        "peak_tensor_bytes_after_append": 4352,
+        "peak_pair_matrix_bytes": 1024,
+        "span_means_compressed_provenance_not_exact_frame": true
+      },
+      "total_original_token_mass": 384.0,
+      "all_event_spans_represented": true,
+      "exact_frames_preserved": false
+    },
+    {
+      "scenario": "count_only",
+      "weights": [
+        0,
+        1,
+        0
+      ],
+      "final": {
+        "events": 24,
+        "roots": [
+          {
+            "begin_id": 0,
+            "end_id": 8,
+            "begin_time": 0.0,
+            "end_time": 8.5,
+            "centroid": 4.25,
+            "leaves": 9,
+            "merge_steps": 8,
+            "depth": 4,
+            "tokens": 16
+          },
+          {
+            "begin_id": 9,
+            "end_id": 12,
+            "begin_time": 9.0,
+            "end_time": 12.5,
+            "centroid": 10.75,
+            "leaves": 4,
+            "merge_steps": 3,
+            "depth": 3,
+            "tokens": 16
+          },
+          {
+            "begin_id": 13,
+            "end_id": 20,
+            "begin_time": 13.0,
+            "end_time": 20.5,
+            "centroid": 16.75,
+            "leaves": 8,
+            "merge_steps": 7,
+            "depth": 7,
+            "tokens": 16
+          },
+          {
+            "begin_id": 21,
+            "end_id": 23,
+            "begin_time": 21.0,
+            "end_time": 23.5,
+            "centroid": 22.25,
+            "leaves": 3,
+            "merge_steps": 2,
+            "depth": 2,
+            "tokens": 16
+          }
+        ],
+        "tokens": 64,
+        "tensor_bytes": 4352,
+        "metadata_serialized_bytes": 506,
+        "merges": 20,
+        "peak_tokens_after_append": 64,
+        "peak_tensor_bytes_after_append": 4352,
+        "peak_pair_matrix_bytes": 1024,
+        "span_means_compressed_provenance_not_exact_frame": true
+      },
+      "total_original_token_mass": 384.0,
+      "all_event_spans_represented": true,
+      "exact_frames_preserved": false
+    },
+    {
+      "scenario": "time_only",
+      "weights": [
+        0,
+        0,
+        1
+      ],
+      "final": {
+        "events": 24,
+        "roots": [
+          {
+            "begin_id": 0,
+            "end_id": 20,
+            "begin_time": 0.0,
+            "end_time": 20.5,
+            "centroid": 10.25,
+            "leaves": 21,
+            "merge_steps": 20,
+            "depth": 20,
+            "tokens": 16
+          },
+          {
+            "begin_id": 21,
+            "end_id": 21,
+            "begin_time": 21.0,
+            "end_time": 21.5,
+            "centroid": 21.25,
+            "leaves": 1,
+            "merge_steps": 0,
+            "depth": 0,
+            "tokens": 16
+          },
+          {
+            "begin_id": 22,
+            "end_id": 22,
+            "begin_time": 22.0,
+            "end_time": 22.5,
+            "centroid": 22.25,
+            "leaves": 1,
+            "merge_steps": 0,
+            "depth": 0,
+            "tokens": 16
+          },
+          {
+            "begin_id": 23,
+            "end_id": 23,
+            "begin_time": 23.0,
+            "end_time": 23.5,
+            "centroid": 23.25,
+            "leaves": 1,
+            "merge_steps": 0,
+            "depth": 0,
+            "tokens": 16
+          }
+        ],
+        "tokens": 64,
+        "tensor_bytes": 4352,
+        "metadata_serialized_bytes": 514,
+        "merges": 20,
+        "peak_tokens_after_append": 64,
+        "peak_tensor_bytes_after_append": 4352,
+        "peak_pair_matrix_bytes": 1024,
+        "span_means_compressed_provenance_not_exact_frame": true
+      },
+      "total_original_token_mass": 384.0,
+      "all_event_spans_represented": true,
+      "exact_frames_preserved": false
+    }
+  ],
+  "stress": {
+    "events": 512,
+    "roots": [
+      {
+        "begin_id": 0,
+        "end_id": 165,
+        "begin_time": 0.0,
+        "end_time": 165.5,
+        "centroid": 82.75,
+        "leaves": 166,
+        "merge_steps": 165,
+        "depth": 45,
+        "tokens": 16
+      },
+      {
+        "begin_id": 166,
+        "end_id": 337,
+        "begin_time": 166.0,
+        "end_time": 337.5,
+        "centroid": 251.75,
+        "leaves": 172,
+        "merge_steps": 171,
+        "depth": 100,
+        "tokens": 16
+      },
+      {
+        "begin_id": 338,
+        "end_id": 466,
+        "begin_time": 338.0,
+        "end_time": 466.5,
+        "centroid": 402.25,
+        "leaves": 129,
+        "merge_steps": 128,
+        "depth": 128,
+        "tokens": 16
+      },
+      {
+        "begin_id": 467,
+        "end_id": 511,
+        "begin_time": 467.0,
+        "end_time": 511.5,
+        "centroid": 489.25,
+        "leaves": 45,
+        "merge_steps": 44,
+        "depth": 44,
+        "tokens": 16
+      }
+    ],
+    "tokens": 64,
+    "tensor_bytes": 4352,
+    "metadata_serialized_bytes": 548,
+    "merges": 508,
+    "peak_tokens_after_append": 64,
+    "peak_tensor_bytes_after_append": 4352,
+    "peak_pair_matrix_bytes": 1024,
+    "span_means_compressed_provenance_not_exact_frame": true
+  },
+  "reference_update_probe": {
+    "scope": "Only pinned helper update\u2192get path, not every official demo path",
+    "updates_without_get": 16,
+    "current_buffer_frames_before_get": 16,
+    "current_buffer_bytes_before_get": 16384,
+    "output_tokens_after_get": 48,
+    "long_tokens_after_get": 16
+  },
+  "budget": {
+    "gpu_loads": 0,
+    "real_model_loads": 0,
+    "feature_dim": 16,
+    "heads": 4,
+    "root_token_budget": 64,
+    "event_tokens_max": 16,
+    "root_feature_and_mass_bytes_max": 4352,
+    "metadata_serialized_bytes_max": 16384,
+    "stress_events": 512
+  },
+  "wall_seconds": 0.5251062000024831,
+  "source_hashes": {
+    "experiment.py": "359b8500eecc7a330c572f46f7ffc27b19c6d092af681915eb8a2625d2efbb32",
+    "prototype.py": "c299ae323dee570ffa35f72de99ee8b6fd031964fbed42ef2f974471218c8a4a",
+    "reference/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "reference/memory_manager.py": "de35e0119e9ff76052030aefceba2afb8e8483184eb555a857d72d2fc75be58f",
+    "reference/SOURCE.json": "2186b3e32258ebaf73b90f2923ad0848c6fe377e9709f21175217cf233de138a",
+    "\u65b9\u6848.md": "2dbb0a970ea23f0611f8f7902e0c913096721f887b893211a9302d3f22e0b9b1"
+  },
+  "scope": "CPU synthetic event-token scheduler, not Qwen visual compression or QA ability"
+}

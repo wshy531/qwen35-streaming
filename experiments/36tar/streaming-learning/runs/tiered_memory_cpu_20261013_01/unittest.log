@@ -1,0 +1,7 @@
+test_reset_preserves_banks_and_no_stale_current_or_future (__main__.Contracts.test_reset_preserves_banks_and_no_stale_current_or_future) ... ok
+test_same_three_slot_budget_and_long_mass (__main__.Contracts.test_same_three_slot_budget_and_long_mass) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.273s
+
+OK

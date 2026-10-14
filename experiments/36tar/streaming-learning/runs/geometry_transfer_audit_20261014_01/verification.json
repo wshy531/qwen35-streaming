@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "source_hashes": 135,
+  "cpu_tests": 2,
+  "counts": {
+    "vision": 12,
+    "language": 587
+  },
+  "questions": 72,
+  "generated_tokens": 497,
+  "rule_selection_frames_disjoint": true,
+  "reversed_visual_features_exact": true,
+  "default_core_unchanged": true,
+  "conservative_feature_bytes": 6238336,
+  "gpu_summary_sha256": "56f2578c8a8cc99a4de6d544280e1f4d748c0e7487e4a84367ed8d1db01ad78c",
+  "cpu_proof_sha256": "a758d020752438830762ca7836784760116c9846c63e39254dc42def9b39d053"
+}

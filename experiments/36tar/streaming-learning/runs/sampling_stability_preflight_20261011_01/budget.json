@@ -1,0 +1,18 @@
+{
+  "model_loads_per_arm": 1,
+  "cases": 12,
+  "input_slots_max": 48,
+  "generated_tokens_per_arm_max": 192,
+  "answer_tokens": 16,
+  "original_vision_max": 12,
+  "original_language_max": 204,
+  "streaming_vision_max": 24,
+  "streaming_language_max": 240,
+  "wall_seconds": 240,
+  "gpu_free_gib_min": 5.5,
+  "ram_available_gib_min": 3,
+  "precision": "fp32_ieee_math",
+  "tokens_max": 256,
+  "question_reserve": 96,
+  "rgb_per_case_max_bytes": 589824
+}

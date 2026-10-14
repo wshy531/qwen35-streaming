@@ -1,0 +1,782 @@
+{
+  "passed": true,
+  "policy_tests": 5,
+  "sources": [
+    {
+      "source_id": "dog",
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "real_frames": 24,
+      "pairs": 12,
+      "controls": [
+        {
+          "memory": {
+            "policy": "every_nth_complete_real_pair_fifo",
+            "max_pairs": 3,
+            "every_pairs": 1,
+            "max_bytes": 884736,
+            "persistent_rgb_bytes": 884736,
+            "peak_persistent_rgb_bytes": 884736,
+            "observed_pairs": 12,
+            "evicted_pairs": 9,
+            "intervals": [
+              {
+                "frame_ids": [
+                  750,
+                  775
+                ],
+                "timestamps": [
+                  30.0,
+                  31.0
+                ],
+                "rgb_sha256": [
+                  "dc7258abb55ceabb39ab40c299d3eadfb6a6c3a13ad45a603758d8acd234bc14",
+                  "ba830d7b820cbead366de050f954658f9dd285d3aa364a50c5644fd8bff6e673"
+                ]
+              },
+              {
+                "frame_ids": [
+                  800,
+                  825
+                ],
+                "timestamps": [
+                  32.0,
+                  33.0
+                ],
+                "rgb_sha256": [
+                  "e31db92a00610fd864309265f7702ac562d8e26abc31a17a916f876f875db2bc",
+                  "333cb83e2db2cee727bde5f87a5e747e52dbef92949ff334429cfb53b0b3b674"
+                ]
+              },
+              {
+                "frame_ids": [
+                  850,
+                  875
+                ],
+                "timestamps": [
+                  34.0,
+                  35.0
+                ],
+                "rgb_sha256": [
+                  "1b77d69102d6be23ea1efa73896badabd71b91dd995f836583073e8b584a58a2",
+                  "1b77d69102d6be23ea1efa73896badabd71b91dd995f836583073e8b584a58a2"
+                ]
+              }
+            ]
+          },
+          "queries": [
+            {
+              "time": 12.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 14.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 16.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 18.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 20.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 22.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 24.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 26.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 28.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 30.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                750,
+                775
+              ]
+            },
+            {
+              "time": 32.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                800,
+                825
+              ]
+            },
+            {
+              "time": 34.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                850,
+                875
+              ]
+            }
+          ],
+          "all_targets_retained": 3,
+          "earliest_retained": false,
+          "latest_three_retained": 3
+        },
+        {
+          "memory": {
+            "policy": "first_sampled_anchor_plus_recent_pairs",
+            "max_pairs": 3,
+            "every_pairs": 1,
+            "max_bytes": 884736,
+            "persistent_rgb_bytes": 884736,
+            "peak_persistent_rgb_bytes": 884736,
+            "observed_pairs": 12,
+            "evicted_pairs": 9,
+            "intervals": [
+              {
+                "frame_ids": [
+                  300,
+                  325
+                ],
+                "timestamps": [
+                  12.0,
+                  13.0
+                ],
+                "rgb_sha256": [
+                  "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525",
+                  "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+                ]
+              },
+              {
+                "frame_ids": [
+                  800,
+                  825
+                ],
+                "timestamps": [
+                  32.0,
+                  33.0
+                ],
+                "rgb_sha256": [
+                  "e31db92a00610fd864309265f7702ac562d8e26abc31a17a916f876f875db2bc",
+                  "333cb83e2db2cee727bde5f87a5e747e52dbef92949ff334429cfb53b0b3b674"
+                ]
+              },
+              {
+                "frame_ids": [
+                  850,
+                  875
+                ],
+                "timestamps": [
+                  34.0,
+                  35.0
+                ],
+                "rgb_sha256": [
+                  "1b77d69102d6be23ea1efa73896badabd71b91dd995f836583073e8b584a58a2",
+                  "1b77d69102d6be23ea1efa73896badabd71b91dd995f836583073e8b584a58a2"
+                ]
+              }
+            ],
+            "anchor_seed_id": 300,
+            "anchor_retained": true,
+            "anchor_released": 0
+          },
+          "queries": [
+            {
+              "time": 12.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                300,
+                325
+              ]
+            },
+            {
+              "time": 14.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 16.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 18.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 20.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 22.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 24.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 26.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 28.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 30.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 32.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                800,
+                825
+              ]
+            },
+            {
+              "time": 34.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                850,
+                875
+              ]
+            }
+          ],
+          "all_targets_retained": 3,
+          "earliest_retained": true,
+          "latest_three_retained": 2
+        }
+      ],
+      "scope": "Retained pixel/time coverage only, no animal recognition"
+    },
+    {
+      "source_id": "pigeon",
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "real_frames": 16,
+      "pairs": 8,
+      "controls": [
+        {
+          "memory": {
+            "policy": "every_nth_complete_real_pair_fifo",
+            "max_pairs": 3,
+            "every_pairs": 1,
+            "max_bytes": 884736,
+            "persistent_rgb_bytes": 884736,
+            "peak_persistent_rgb_bytes": 884736,
+            "observed_pairs": 8,
+            "evicted_pairs": 5,
+            "intervals": [
+              {
+                "frame_ids": [
+                  300,
+                  330
+                ],
+                "timestamps": [
+                  10.01,
+                  11.011000000000001
+                ],
+                "rgb_sha256": [
+                  "57641cd6f44e3f96112a424fbb9d8b5b3eca002bd289936748c28efa68bb1868",
+                  "4594b5a5da9590c7830bc2d9cb4cfaaeff5c37c2e9ac8b0ad2ee0c105d1db11e"
+                ]
+              },
+              {
+                "frame_ids": [
+                  360,
+                  390
+                ],
+                "timestamps": [
+                  12.012,
+                  13.013
+                ],
+                "rgb_sha256": [
+                  "71ad3f97a79aac3745fe9800f77e06c02e5c66706651063ba68b4d6a8f57a0bd",
+                  "f3f4020b3d84e0bacc263c561d11aead4972a6e68a3b23c4fdff6ec2115e6484"
+                ]
+              },
+              {
+                "frame_ids": [
+                  420,
+                  450
+                ],
+                "timestamps": [
+                  14.014000000000001,
+                  15.015
+                ],
+                "rgb_sha256": [
+                  "7d1264a66a8fdf59c5bc685f04cc6a898ee688682671d552af6c850b454a3a78",
+                  "0c017e7d0ac946bedee01c99cb4575ff47bab0cd6ea78993b3558f023594db69"
+                ]
+              }
+            ]
+          },
+          "queries": [
+            {
+              "time": 0.5005,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 2.5025,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 4.5045,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 6.506500000000001,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 8.508500000000002,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 10.5105,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                300,
+                330
+              ]
+            },
+            {
+              "time": 12.5125,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                360,
+                390
+              ]
+            },
+            {
+              "time": 14.514500000000002,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                420,
+                450
+              ]
+            }
+          ],
+          "all_targets_retained": 3,
+          "earliest_retained": false,
+          "latest_three_retained": 3
+        },
+        {
+          "memory": {
+            "policy": "first_sampled_anchor_plus_recent_pairs",
+            "max_pairs": 3,
+            "every_pairs": 1,
+            "max_bytes": 884736,
+            "persistent_rgb_bytes": 884736,
+            "peak_persistent_rgb_bytes": 884736,
+            "observed_pairs": 8,
+            "evicted_pairs": 5,
+            "intervals": [
+              {
+                "frame_ids": [
+                  0,
+                  30
+                ],
+                "timestamps": [
+                  0.0,
+                  1.001
+                ],
+                "rgb_sha256": [
+                  "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188",
+                  "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+                ]
+              },
+              {
+                "frame_ids": [
+                  360,
+                  390
+                ],
+                "timestamps": [
+                  12.012,
+                  13.013
+                ],
+                "rgb_sha256": [
+                  "71ad3f97a79aac3745fe9800f77e06c02e5c66706651063ba68b4d6a8f57a0bd",
+                  "f3f4020b3d84e0bacc263c561d11aead4972a6e68a3b23c4fdff6ec2115e6484"
+                ]
+              },
+              {
+                "frame_ids": [
+                  420,
+                  450
+                ],
+                "timestamps": [
+                  14.014000000000001,
+                  15.015
+                ],
+                "rgb_sha256": [
+                  "7d1264a66a8fdf59c5bc685f04cc6a898ee688682671d552af6c850b454a3a78",
+                  "0c017e7d0ac946bedee01c99cb4575ff47bab0cd6ea78993b3558f023594db69"
+                ]
+              }
+            ],
+            "anchor_seed_id": 0,
+            "anchor_retained": true,
+            "anchor_released": 0
+          },
+          "queries": [
+            {
+              "time": 0.5005,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                0,
+                30
+              ]
+            },
+            {
+              "time": 2.5025,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 4.5045,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 6.506500000000001,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 8.508500000000002,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 10.5105,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 12.5125,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                360,
+                390
+              ]
+            },
+            {
+              "time": 14.514500000000002,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                420,
+                450
+              ]
+            }
+          ],
+          "all_targets_retained": 3,
+          "earliest_retained": true,
+          "latest_three_retained": 2
+        }
+      ],
+      "scope": "Retained pixel/time coverage only, no animal recognition"
+    },
+    {
+      "source_id": "cat",
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "real_frames": 8,
+      "pairs": 4,
+      "controls": [
+        {
+          "memory": {
+            "policy": "every_nth_complete_real_pair_fifo",
+            "max_pairs": 3,
+            "every_pairs": 1,
+            "max_bytes": 884736,
+            "persistent_rgb_bytes": 884736,
+            "peak_persistent_rgb_bytes": 884736,
+            "observed_pairs": 4,
+            "evicted_pairs": 1,
+            "intervals": [
+              {
+                "frame_ids": [
+                  60,
+                  90
+                ],
+                "timestamps": [
+                  2.0,
+                  3.0
+                ],
+                "rgb_sha256": [
+                  "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50",
+                  "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7"
+                ]
+              },
+              {
+                "frame_ids": [
+                  120,
+                  150
+                ],
+                "timestamps": [
+                  4.0,
+                  5.0
+                ],
+                "rgb_sha256": [
+                  "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91",
+                  "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c"
+                ]
+              },
+              {
+                "frame_ids": [
+                  180,
+                  210
+                ],
+                "timestamps": [
+                  6.0,
+                  7.0
+                ],
+                "rgb_sha256": [
+                  "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57",
+                  "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11"
+                ]
+              }
+            ]
+          },
+          "queries": [
+            {
+              "time": 0.49999999999999994,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 2.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                60,
+                90
+              ]
+            },
+            {
+              "time": 4.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                120,
+                150
+              ]
+            },
+            {
+              "time": 6.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                180,
+                210
+              ]
+            }
+          ],
+          "all_targets_retained": 3,
+          "earliest_retained": false,
+          "latest_three_retained": 3
+        },
+        {
+          "memory": {
+            "policy": "first_sampled_anchor_plus_recent_pairs",
+            "max_pairs": 3,
+            "every_pairs": 1,
+            "max_bytes": 884736,
+            "persistent_rgb_bytes": 884736,
+            "peak_persistent_rgb_bytes": 884736,
+            "observed_pairs": 4,
+            "evicted_pairs": 1,
+            "intervals": [
+              {
+                "frame_ids": [
+                  0,
+                  30
+                ],
+                "timestamps": [
+                  0.0,
+                  0.9999999999999999
+                ],
+                "rgb_sha256": [
+                  "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a",
+                  "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+                ]
+              },
+              {
+                "frame_ids": [
+                  120,
+                  150
+                ],
+                "timestamps": [
+                  4.0,
+                  5.0
+                ],
+                "rgb_sha256": [
+                  "75ae802c204278ecf8d6d2d58667c7e8d81423b2999dc0b0f9c8a7b00be3ea91",
+                  "77fabeaefd04e2eb736a0a1e35055a9a41a9bc8631b14ba3308e3adefa94307c"
+                ]
+              },
+              {
+                "frame_ids": [
+                  180,
+                  210
+                ],
+                "timestamps": [
+                  6.0,
+                  7.0
+                ],
+                "rgb_sha256": [
+                  "e704f5154c798a486bc91c77417a8b1d60f3073aab6b9daf5058ac20b14e8b57",
+                  "b3c78038c880a4745cd4076f5cdd1e9eaf5705664293ba47b334735baf4e3a11"
+                ]
+              }
+            ],
+            "anchor_seed_id": 0,
+            "anchor_retained": true,
+            "anchor_released": 0
+          },
+          "queries": [
+            {
+              "time": 0.49999999999999994,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                0,
+                30
+              ]
+            },
+            {
+              "time": 2.5,
+              "retained": false,
+              "reason": "not_retained",
+              "frame_ids": []
+            },
+            {
+              "time": 4.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                120,
+                150
+              ]
+            },
+            {
+              "time": 6.5,
+              "retained": true,
+              "reason": "retained_interval",
+              "frame_ids": [
+                180,
+                210
+              ]
+            }
+          ],
+          "all_targets_retained": 3,
+          "earliest_retained": true,
+          "latest_three_retained": 2
+        }
+      ],
+      "scope": "Retained pixel/time coverage only, no animal recognition"
+    }
+  ],
+  "tiny_controls": [
+    {
+      "policy": "every_nth_complete_real_pair_fifo",
+      "early_model_called": false,
+      "early_reason": "not_retained",
+      "main_unchanged_bitwise": null,
+      "continued_after_query": true,
+      "resets": 4
+    },
+    {
+      "policy": "first_sampled_anchor_plus_recent_pairs",
+      "early_model_called": true,
+      "early_reason": "retained_interval",
+      "main_unchanged_bitwise": true,
+      "continued_after_query": true,
+      "resets": 4
+    }
+  ],
+  "budget": {
+    "real_gpu_loads": 0,
+    "persistent_bytes_per_policy": 884736,
+    "max_pairs": 3,
+    "source_frames_total": 48,
+    "simultaneous_banks": 2,
+    "semantic_accuracy_evaluated": false
+  },
+  "source_hashes": {
+    "experiment.py": "c57766d20640cea638e2e93c5ba3d78ef8f58b734190e84465370c1d9d5feaa3",
+    "policy.py": "12e9a837a43a0226bf4b72ad34c28a2222fe1929c76f0c76b3b1f48d64c33e55",
+    "方案.md": "63ca73f4b66a72b92fe94f4497a54a907c77b868eb6e93205f6a0fd0fd15fe1c"
+  },
+  "scope": "Independent CPU candidate; default core untouched; tradeoff, not a universal improvement"
+}

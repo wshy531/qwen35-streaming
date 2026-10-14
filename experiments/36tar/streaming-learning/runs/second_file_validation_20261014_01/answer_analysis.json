@@ -1,0 +1,29 @@
+{
+  "passed_mechanism_audit": true,
+  "totals_related_runs_not_independent_samples": {
+    "frames": 41,
+    "pairs": 19,
+    "calls": 23,
+    "attempts": 48,
+    "pending": 12,
+    "refusals": 25,
+    "generated": 85,
+    "vision_forwards": 19,
+    "language_forwards": 139
+  },
+  "semantic_groups": {
+    "animal_free_frames_answered_dog": 15,
+    "coat_without_animal_answered_light": 3,
+    "actual_dog_questions_label_agrees": 4,
+    "actual_coat_question_label_agrees": 1
+  },
+  "interpretation": [
+    "All actual animal-name answers were dog, including all 15 animal-free queries.",
+    "Agreement on four dog answers and one coat answer cannot establish content discrimination or causal use of stored visual evidence.",
+    "Independent source pixels, intervals and selected-node identities passed. This localizes the observed failure beyond time selection; it does not isolate base weights versus readout/prompt adaptation.",
+    "No same-frame official original-path control or new question wording was run in this phase.",
+    "Four related configurations reuse the same familiar video; no benchmark accuracy, long-run leak test, speedup or forest benefit claimed."
+  ],
+  "stage_completion": "Second-file/configuration acceptance complete. Next investigate absent-object-aware readout with same-frame original path and controlled wording; do not add memory compression first.",
+  "pixel_verification_sha256": "676a9d784a38f2acbf5d8b4283f294471cacd8685399a84750f2e6e4813cd0ff"
+}

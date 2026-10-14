@@ -1,0 +1,20 @@
+{
+  "model_loads": 1,
+  "vision_max": 24,
+  "questions_max": 60,
+  "generated_max": 1920,
+  "language_max": 2200,
+  "answer_tokens": 32,
+  "max_tokens": 512,
+  "wall_seconds": 480,
+  "ram_min_gib": 3,
+  "gpu_free_min_gib": 5.5,
+  "conversion_free_min_gib": 2,
+  "bank_visual_tokens_max": 144,
+  "bank_tensor_bytes_max": 596800,
+  "owned_feature_controls_bytes_max": 16777216,
+  "metadata_bytes_per_bank_max": 4096,
+  "precision": "fp32_ieee_math",
+  "calibration": "six fixed pairs, unlabeled largest gap",
+  "spatial_compression": "none"
+}

@@ -1,0 +1,7 @@
+test_frozen_inputs_and_full_layout_slot_controls (__main__.Contracts.test_frozen_inputs_and_full_layout_slot_controls) ... ok
+test_ownership_and_bounded_working_evidence (__main__.Contracts.test_ownership_and_bounded_working_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.054s
+
+OK

@@ -1,0 +1,20 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 23350.23it/s]
+{"method": "full_all", "question": "Name the animal visible at the beginning.", "answer": "The animal visible at the beginning is a dog.", "visual_tokens": 288, "stop_reason": "eos"}
+{"method": "full_all", "question": "Name the animal visible most recently.", "answer": "The animal visible most recently is a dog.", "visual_tokens": 288, "stop_reason": "eos"}
+{"method": "full_all", "question": "List the animals in order of first appearance.", "answer": "1. Dog\n2. Cat", "visual_tokens": 288, "stop_reason": "eos"}
+{"method": "odd_all", "question": "Name the animal visible at the beginning.", "answer": "The animal visible at the beginning is a dog.", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "odd_all", "question": "Name the animal visible most recently.", "answer": "The animal visible most recently is a dog.", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "odd_all", "question": "List the animals in order of first appearance.", "answer": "1. Dog\n2. Cat", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "tome_all", "question": "Name the animal visible at the beginning.", "answer": "The animal visible at the beginning is a dog.", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "tome_all", "question": "Name the animal visible most recently.", "answer": "The animal visible most recently is a dog.", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "tome_all", "question": "List the animals in order of first appearance.", "answer": "1. Dog\n2. Cat", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "recent_three", "question": "Name the animal visible at the beginning.", "answer": "The animal visible at the beginning is a bird.", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "recent_three", "question": "Name the animal visible most recently.", "answer": "The animal visible most recently is a cat.", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "recent_three", "question": "List the animals in order of first appearance.", "answer": "1. Cat\n2. Bird", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "first_recent_two", "question": "Name the animal visible at the beginning.", "answer": "The animal visible at the beginning is a dog.", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "first_recent_two", "question": "Name the animal visible most recently.", "answer": "The animal visible most recently is a dog.", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "first_recent_two", "question": "List the animals in order of first appearance.", "answer": "1. Dog\n2. Cat", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "short_long_aligned", "question": "Name the animal visible at the beginning.", "answer": "A dog", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "short_long_aligned", "question": "Name the animal visible most recently.", "answer": "A dog", "visual_tokens": 144, "stop_reason": "eos"}
+{"method": "short_long_aligned", "question": "List the animals in order of first appearance.", "answer": "1. Dog\n2. Cat", "visual_tokens": 144, "stop_reason": "eos"}

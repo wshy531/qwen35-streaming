@@ -1,0 +1,43 @@
+test_512_pair_budget_and_eviction (__main__.Contracts.test_512_pair_budget_and_eviction) ... ok
+test_calibration_algorithm_cannot_use_labels (__main__.Contracts.test_calibration_algorithm_cannot_use_labels) ... ok
+test_changes_keep_real_unblended_representatives (__main__.Contracts.test_changes_keep_real_unblended_representatives) ... FAIL
+test_invalid_append_is_atomic_and_future_suffix_causal (__main__.Contracts.test_invalid_append_is_atomic_and_future_suffix_causal) ... ok
+test_layout_uses_real_representative_times_and_no_fake_span (__main__.Contracts.test_layout_uses_real_representative_times_and_no_fake_span) ... ok
+test_no_change_does_not_fake_dense_history (__main__.Contracts.test_no_change_does_not_fake_dense_history) ... ok
+test_owned_exports_and_evicted_features_release (__main__.Contracts.test_owned_exports_and_evicted_features_release) ... ok
+test_zero_vectors_finite_and_oracle_explicit (__main__.Contracts.test_zero_vectors_finite_and_oracle_explicit) ... FAIL
+
+======================================================================
+FAIL: test_changes_keep_real_unblended_representatives (__main__.Contracts.test_changes_keep_real_unblended_representatives)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\event_memory_v1\probe.py", line 217, in test_changes_keep_real_unblended_representatives
+    self.assertEqual([b.first for b in bank.export()], [0, 2, 5])
+AssertionError: Lists differ: [2, 4, 5] != [0, 2, 5]
+
+First differing element 0:
+2
+0
+
+- [2, 4, 5]
++ [0, 2, 5]
+
+======================================================================
+FAIL: test_zero_vectors_finite_and_oracle_explicit (__main__.Contracts.test_zero_vectors_finite_and_oracle_explicit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\event_memory_v1\probe.py", line 282, in test_zero_vectors_finite_and_oracle_explicit
+    self.assertEqual([b.first for b in oracle.export()], [0, 2, 5])
+AssertionError: Lists differ: [2, 4, 5] != [0, 2, 5]
+
+First differing element 0:
+2
+0
+
+- [2, 4, 5]
++ [0, 2, 5]
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.374s
+
+FAILED (failures=2)

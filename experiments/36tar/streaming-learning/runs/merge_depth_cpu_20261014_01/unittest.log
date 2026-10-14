@@ -1,0 +1,7 @@
+test_fixed_pairs_and_real_long_merge_schedule (__main__.Contracts.test_fixed_pairs_and_real_long_merge_schedule) ... ok
+test_ladder_and_balanced_mass_span_and_reading_positions (__main__.Contracts.test_ladder_and_balanced_mass_span_and_reading_positions) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 1.104s
+
+OK

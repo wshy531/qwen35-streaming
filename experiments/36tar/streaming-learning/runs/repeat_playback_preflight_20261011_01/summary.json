@@ -1,0 +1,1985 @@
+{
+  "scope": "CPU 微型随机权重：全输入接口预检，回答没有语义意义；不模拟GPU耗时 · 明确循环5次 / 合成会话时间；不是自然长视频",
+  "budget": {
+    "model_loads": 1,
+    "frames_max": 120,
+    "vision_forwards_max": 60,
+    "questions_max": 60,
+    "language_forwards_max": 1140,
+    "generated_tokens_max": 960,
+    "history_tokens_max": 176,
+    "wall_seconds": 240,
+    "free_gpu_gib_min": 5.5,
+    "available_ram_gib_min": 3,
+    "precision": "fp32_ieee_math",
+    "resize": "letterbox",
+    "video_logits": "none",
+    "qa_logits": "last",
+    "playback": "clock",
+    "queue_capacity": 1,
+    "consumer_delay_seconds": 0.0,
+    "repeat_count": 5,
+    "repeat_period_seconds": 25.0,
+    "first_qa_frames": 4
+  },
+  "counts": {
+    "vision": 56,
+    "language": 688,
+    "lm_head_rows": 612
+  },
+  "final": {
+    "received_real_frames": 112,
+    "encoded_real_frames": 112,
+    "pairs": 56,
+    "questions": 36,
+    "resets": 19,
+    "epoch": 19,
+    "generated_tokens": 576,
+    "memory_from_pts": 116.01599999999999,
+    "history_across_reset": false,
+    "last_received_id": 3326,
+    "last_received_pts": 119.019,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "max_buffered_rgb_bytes": 294912,
+    "finished": true,
+    "closed": false,
+    "invalid": false,
+    "session": {
+      "accepted_frames": 4,
+      "encoded_real_frames": 4,
+      "pending_frame_id": null,
+      "last_received_id": 3326,
+      "last_encoded_id": 3326,
+      "last_encoded_pts": 119.019,
+      "seen_tokens": 119,
+      "next_rope_position": 39,
+      "vision_encodings": 2,
+      "pending_rgb_bytes": 0,
+      "finished": true,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    }
+  },
+  "schedule": [
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 6,
+      "seen_tokens": 171
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 6,
+      "seen_tokens": 171
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 6,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 8,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 10,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 10,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 12,
+      "seen_tokens": 172
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 6.006,
+      "encoded_frames": 12,
+      "seen_tokens": 172
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 12,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 14,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 16,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 16,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 18,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 2,
+      "memory_from_pts": 12.012,
+      "encoded_frames": 18,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 18,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 20,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 22,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 22,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 24,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 3,
+      "memory_from_pts": 18.018,
+      "encoded_frames": 24,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 24,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 26,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 28,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 28,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 30,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 4,
+      "memory_from_pts": 26.001,
+      "encoded_frames": 30,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 30,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 32,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 34,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 34,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 36,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 5,
+      "memory_from_pts": 32.007,
+      "encoded_frames": 36,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 36,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 38,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 40,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 40,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 42,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 6,
+      "memory_from_pts": 38.013,
+      "encoded_frames": 42,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 42,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 44,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 46,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 46,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 48,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 7,
+      "memory_from_pts": 44.019,
+      "encoded_frames": 48,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 48,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 50,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 52,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 52,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 54,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 8,
+      "memory_from_pts": 52.002,
+      "encoded_frames": 54,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 54,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 56,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 58,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 58,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 60,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 9,
+      "memory_from_pts": 58.007999999999996,
+      "encoded_frames": 60,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 60,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 62,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 64,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 64,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 66,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 10,
+      "memory_from_pts": 64.014,
+      "encoded_frames": 66,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 66,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 68,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 70,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 70,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 72,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 11,
+      "memory_from_pts": 70.02,
+      "encoded_frames": 72,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 72,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 74,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 76,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 76,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 78,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 12,
+      "memory_from_pts": 78.003,
+      "encoded_frames": 78,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 78,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 80,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 82,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 82,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 84,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 13,
+      "memory_from_pts": 84.009,
+      "encoded_frames": 84,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 84,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 86,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 88,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "answer",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 88,
+      "seen_tokens": 117
+    },
+    {
+      "kind": "encoded",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 90,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "answer",
+      "epoch": 14,
+      "memory_from_pts": 90.015,
+      "encoded_frames": 90,
+      "seen_tokens": 174
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 90,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 92,
+      "seen_tokens": 60
+    },
+    {
+      "kind": "encoded",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 94,
+      "seen_tokens": 118
+    },
+    {
+      "kind": "answer",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 94,
+      "seen_tokens": 118
+    },
+    {
+      "kind": "encoded",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 96,
+      "seen_tokens": 176
+    },
+    {
+      "kind": "answer",
+      "epoch": 15,
+      "memory_from_pts": 96.021,
+      "encoded_frames": 96,
+      "seen_tokens": 176
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "encoded_frames": 96,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "encoded_frames": 98,
+      "seen_tokens": 61
+    },
+    {
+      "kind": "encoded",
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "encoded_frames": 100,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "answer",
+      "epoch": 16,
+      "memory_from_pts": 104.004,
+      "encoded_frames": 100,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "encoded_frames": 100,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "encoded_frames": 102,
+      "seen_tokens": 61
+    },
+    {
+      "kind": "encoded",
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "encoded_frames": 104,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "answer",
+      "epoch": 17,
+      "memory_from_pts": 108.008,
+      "encoded_frames": 104,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "encoded_frames": 104,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "encoded_frames": 106,
+      "seen_tokens": 61
+    },
+    {
+      "kind": "encoded",
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "encoded_frames": 108,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "answer",
+      "epoch": 18,
+      "memory_from_pts": 112.012,
+      "encoded_frames": 108,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 108,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 110,
+      "seen_tokens": 61
+    },
+    {
+      "kind": "encoded",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 112,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "answer",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 112,
+      "seen_tokens": 119
+    },
+    {
+      "kind": "eof",
+      "epoch": 19,
+      "memory_from_pts": 116.01599999999999,
+      "encoded_frames": 112,
+      "seen_tokens": 119
+    }
+  ],
+  "append_including_qa_and_decode_latency": {
+    "count": 112,
+    "sum_seconds": 4.222993300048984,
+    "max_seconds": 0.08129550000012387
+  },
+  "replay_wall_seconds": 4.375,
+  "peak_process_rss_bytes": 858230784,
+  "cross_reset_memory": false,
+  "end_to_end_speedup_proven": false,
+  "realtime": false,
+  "requested_playback": "clock",
+  "effective_playback": "fast",
+  "source_fingerprint": {
+    "samples": 112,
+    "sha256": "09816c19520ca5dca37f1fb9a649fb42ee41535c2faf3563745430d5ea8cc49b"
+  },
+  "max_encoded_pair_gap_seconds": 2.9780000000000086,
+  "answer_lags_seconds": [],
+  "resource_samples": [
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.09400000000096043,
+      "epoch": 0,
+      "seen_tokens": 59,
+      "session_pts": 1.001,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 846417920,
+      "ram_available_bytes": 3610865664
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.14100000000325963,
+      "epoch": 0,
+      "seen_tokens": 115,
+      "session_pts": 3.003,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 849498112,
+      "ram_available_bytes": 3608256512
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 0.18800000000192085,
+      "epoch": 0,
+      "seen_tokens": 115,
+      "session_pts": 3.003,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 849563648,
+      "ram_available_bytes": 3612139520
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.23500000000058208,
+      "epoch": 0,
+      "seen_tokens": 171,
+      "session_pts": 5.005,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 849854464,
+      "ram_available_bytes": 3613175808
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 0.2820000000028813,
+      "epoch": 0,
+      "seen_tokens": 171,
+      "session_pts": 5.005,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 849903616,
+      "ram_available_bytes": 3613192192
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 0.31300000000192085,
+      "epoch": 1,
+      "seen_tokens": 0,
+      "session_pts": 7.007,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 851496960,
+      "ram_available_bytes": 3610746880
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.3290000000015425,
+      "epoch": 1,
+      "seen_tokens": 59,
+      "session_pts": 7.007,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 851496960,
+      "ram_available_bytes": 3595259904
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.375,
+      "epoch": 1,
+      "seen_tokens": 115,
+      "session_pts": 9.009,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 851517440,
+      "ram_available_bytes": 3602132992
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 0.43800000000192085,
+      "epoch": 1,
+      "seen_tokens": 115,
+      "session_pts": 9.009,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 851517440,
+      "ram_available_bytes": 3602264064
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.4690000000009604,
+      "epoch": 1,
+      "seen_tokens": 172,
+      "session_pts": 11.011,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 851005440,
+      "ram_available_bytes": 3597434880
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 0.5160000000032596,
+      "epoch": 1,
+      "seen_tokens": 172,
+      "session_pts": 11.011,
+      "memory_from_pts": 6.006,
+      "rss_bytes": 851005440,
+      "ram_available_bytes": 3597508608
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 0.5630000000019209,
+      "epoch": 2,
+      "seen_tokens": 0,
+      "session_pts": 13.013,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 851607552,
+      "ram_available_bytes": 3597062144
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.5790000000015425,
+      "epoch": 2,
+      "seen_tokens": 60,
+      "session_pts": 13.013,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 851705856,
+      "ram_available_bytes": 3596996608
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.625,
+      "epoch": 2,
+      "seen_tokens": 117,
+      "session_pts": 15.015,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 852328448,
+      "ram_available_bytes": 3596230656
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 0.6720000000022992,
+      "epoch": 2,
+      "seen_tokens": 117,
+      "session_pts": 15.015,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 852328448,
+      "ram_available_bytes": 3596230656
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.7040000000015425,
+      "epoch": 2,
+      "seen_tokens": 174,
+      "session_pts": 17.017,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 851816448,
+      "ram_available_bytes": 3596865536
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 0.7660000000032596,
+      "epoch": 2,
+      "seen_tokens": 174,
+      "session_pts": 17.017,
+      "memory_from_pts": 12.012,
+      "rss_bytes": 851816448,
+      "ram_available_bytes": 3608694784
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 0.7970000000022992,
+      "epoch": 3,
+      "seen_tokens": 0,
+      "session_pts": 19.019,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 852365312,
+      "ram_available_bytes": 3608043520
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.7970000000022992,
+      "epoch": 3,
+      "seen_tokens": 60,
+      "session_pts": 19.019,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 852365312,
+      "ram_available_bytes": 3608043520
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.8440000000009604,
+      "epoch": 3,
+      "seen_tokens": 117,
+      "session_pts": 21.021,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 851832832,
+      "ram_available_bytes": 3608326144
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 0.8910000000032596,
+      "epoch": 3,
+      "seen_tokens": 117,
+      "session_pts": 21.021,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 852459520,
+      "ram_available_bytes": 3607941120
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 0.9380000000019209,
+      "epoch": 3,
+      "seen_tokens": 174,
+      "session_pts": 25.0,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 853643264,
+      "ram_available_bytes": 3606077440
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 0.9850000000005821,
+      "epoch": 3,
+      "seen_tokens": 174,
+      "session_pts": 25.0,
+      "memory_from_pts": 18.018,
+      "rss_bytes": 853766144,
+      "ram_available_bytes": 3605106688
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 1.0320000000028813,
+      "epoch": 4,
+      "seen_tokens": 0,
+      "session_pts": 27.002,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 854695936,
+      "ram_available_bytes": 3602518016
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.0320000000028813,
+      "epoch": 4,
+      "seen_tokens": 60,
+      "session_pts": 27.002,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 854999040,
+      "ram_available_bytes": 3601969152
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.0790000000015425,
+      "epoch": 4,
+      "seen_tokens": 117,
+      "session_pts": 29.003999999999998,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 855179264,
+      "ram_available_bytes": 3599310848
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.125,
+      "epoch": 4,
+      "seen_tokens": 117,
+      "session_pts": 29.003999999999998,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 855187456,
+      "ram_available_bytes": 3592503296
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.1720000000022992,
+      "epoch": 4,
+      "seen_tokens": 174,
+      "session_pts": 31.006,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 855220224,
+      "ram_available_bytes": 3605336064
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.2190000000009604,
+      "epoch": 4,
+      "seen_tokens": 174,
+      "session_pts": 31.006,
+      "memory_from_pts": 26.001,
+      "rss_bytes": 855228416,
+      "ram_available_bytes": 3605336064
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 1.2660000000032596,
+      "epoch": 5,
+      "seen_tokens": 0,
+      "session_pts": 33.007999999999996,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 855285760,
+      "ram_available_bytes": 3604873216
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.2660000000032596,
+      "epoch": 5,
+      "seen_tokens": 60,
+      "session_pts": 33.007999999999996,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 855285760,
+      "ram_available_bytes": 3604873216
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.3130000000019209,
+      "epoch": 5,
+      "seen_tokens": 117,
+      "session_pts": 35.01,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 854769664,
+      "ram_available_bytes": 3612446720
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.360000000000582,
+      "epoch": 5,
+      "seen_tokens": 117,
+      "session_pts": 35.01,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 854773760,
+      "ram_available_bytes": 3612459008
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.4070000000028813,
+      "epoch": 5,
+      "seen_tokens": 174,
+      "session_pts": 37.012,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 855334912,
+      "ram_available_bytes": 3611213824
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.4540000000015425,
+      "epoch": 5,
+      "seen_tokens": 174,
+      "session_pts": 37.012,
+      "memory_from_pts": 32.007,
+      "rss_bytes": 855347200,
+      "ram_available_bytes": 3611099136
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 1.5,
+      "epoch": 6,
+      "seen_tokens": 0,
+      "session_pts": 39.013999999999996,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 855339008,
+      "ram_available_bytes": 3610816512
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.5160000000032596,
+      "epoch": 6,
+      "seen_tokens": 60,
+      "session_pts": 39.013999999999996,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 855339008,
+      "ram_available_bytes": 3610816512
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.5470000000022992,
+      "epoch": 6,
+      "seen_tokens": 117,
+      "session_pts": 41.016,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 855486464,
+      "ram_available_bytes": 3599564800
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.5940000000009604,
+      "epoch": 6,
+      "seen_tokens": 117,
+      "session_pts": 41.016,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 855494656,
+      "ram_available_bytes": 3599572992
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.6410000000032596,
+      "epoch": 6,
+      "seen_tokens": 174,
+      "session_pts": 43.018,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 855519232,
+      "ram_available_bytes": 3599577088
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.6880000000019209,
+      "epoch": 6,
+      "seen_tokens": 174,
+      "session_pts": 43.018,
+      "memory_from_pts": 38.013,
+      "rss_bytes": 855527424,
+      "ram_available_bytes": 3599998976
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 1.7190000000009604,
+      "epoch": 7,
+      "seen_tokens": 0,
+      "session_pts": 45.019999999999996,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 854958080,
+      "ram_available_bytes": 3597217792
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.735000000000582,
+      "epoch": 7,
+      "seen_tokens": 60,
+      "session_pts": 45.019999999999996,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 854958080,
+      "ram_available_bytes": 3593142272
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.7660000000032596,
+      "epoch": 7,
+      "seen_tokens": 117,
+      "session_pts": 47.022,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 855490560,
+      "ram_available_bytes": 3592761344
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.8130000000019209,
+      "epoch": 7,
+      "seen_tokens": 117,
+      "session_pts": 47.022,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 855822336,
+      "ram_available_bytes": 3592630272
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.860000000000582,
+      "epoch": 7,
+      "seen_tokens": 174,
+      "session_pts": 51.001,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 855556096,
+      "ram_available_bytes": 3594235904
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 1.9070000000028813,
+      "epoch": 7,
+      "seen_tokens": 174,
+      "session_pts": 51.001,
+      "memory_from_pts": 44.019,
+      "rss_bytes": 855560192,
+      "ram_available_bytes": 3594235904
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 1.9540000000015425,
+      "epoch": 8,
+      "seen_tokens": 0,
+      "session_pts": 53.003,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 856219648,
+      "ram_available_bytes": 3592425472
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.9690000000009604,
+      "epoch": 8,
+      "seen_tokens": 60,
+      "session_pts": 53.003,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 856219648,
+      "ram_available_bytes": 3599183872
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.0160000000032596,
+      "epoch": 8,
+      "seen_tokens": 117,
+      "session_pts": 55.005,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 855818240,
+      "ram_available_bytes": 3600371712
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 2.063000000001921,
+      "epoch": 8,
+      "seen_tokens": 117,
+      "session_pts": 55.005,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 855818240,
+      "ram_available_bytes": 3600322560
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.110000000000582,
+      "epoch": 8,
+      "seen_tokens": 174,
+      "session_pts": 57.007,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 855887872,
+      "ram_available_bytes": 3592257536
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 2.1410000000032596,
+      "epoch": 8,
+      "seen_tokens": 174,
+      "session_pts": 57.007,
+      "memory_from_pts": 52.002,
+      "rss_bytes": 855887872,
+      "ram_available_bytes": 3592278016
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 2.188000000001921,
+      "epoch": 9,
+      "seen_tokens": 0,
+      "session_pts": 59.009,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 856494080,
+      "ram_available_bytes": 3591458816
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.2040000000015425,
+      "epoch": 9,
+      "seen_tokens": 60,
+      "session_pts": 59.009,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 856498176,
+      "ram_available_bytes": 3591458816
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.235000000000582,
+      "epoch": 9,
+      "seen_tokens": 117,
+      "session_pts": 61.010999999999996,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 855969792,
+      "ram_available_bytes": 3592736768
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 2.297000000002299,
+      "epoch": 9,
+      "seen_tokens": 117,
+      "session_pts": 61.010999999999996,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 855969792,
+      "ram_available_bytes": 3593134080
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.3440000000009604,
+      "epoch": 9,
+      "seen_tokens": 174,
+      "session_pts": 63.013,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 856522752,
+      "ram_available_bytes": 3597963264
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 2.3910000000032596,
+      "epoch": 9,
+      "seen_tokens": 174,
+      "session_pts": 63.013,
+      "memory_from_pts": 58.007999999999996,
+      "rss_bytes": 856522752,
+      "ram_available_bytes": 3595677696
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 2.438000000001921,
+      "epoch": 10,
+      "seen_tokens": 0,
+      "session_pts": 65.015,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 856543232,
+      "ram_available_bytes": 3595268096
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.4540000000015425,
+      "epoch": 10,
+      "seen_tokens": 60,
+      "session_pts": 65.015,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 856543232,
+      "ram_available_bytes": 3595276288
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.485000000000582,
+      "epoch": 10,
+      "seen_tokens": 117,
+      "session_pts": 67.017,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 856010752,
+      "ram_available_bytes": 3596849152
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 2.5320000000028813,
+      "epoch": 10,
+      "seen_tokens": 117,
+      "session_pts": 67.017,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 856010752,
+      "ram_available_bytes": 3596849152
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.563000000001921,
+      "epoch": 10,
+      "seen_tokens": 174,
+      "session_pts": 69.019,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 856018944,
+      "ram_available_bytes": 3597393920
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 2.610000000000582,
+      "epoch": 10,
+      "seen_tokens": 174,
+      "session_pts": 69.019,
+      "memory_from_pts": 64.014,
+      "rss_bytes": 856018944,
+      "ram_available_bytes": 3597393920
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 2.6410000000032596,
+      "epoch": 11,
+      "seen_tokens": 0,
+      "session_pts": 71.021,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 856559616,
+      "ram_available_bytes": 3596890112
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.6570000000028813,
+      "epoch": 11,
+      "seen_tokens": 60,
+      "session_pts": 71.021,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 856559616,
+      "ram_available_bytes": 3596820480
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.7040000000015425,
+      "epoch": 11,
+      "seen_tokens": 117,
+      "session_pts": 75.0,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 855261184,
+      "ram_available_bytes": 3597496320
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 2.75,
+      "epoch": 11,
+      "seen_tokens": 117,
+      "session_pts": 75.0,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 855261184,
+      "ram_available_bytes": 3591303168
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.797000000002299,
+      "epoch": 11,
+      "seen_tokens": 174,
+      "session_pts": 77.002,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 856813568,
+      "ram_available_bytes": 3594944512
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 2.860000000000582,
+      "epoch": 11,
+      "seen_tokens": 174,
+      "session_pts": 77.002,
+      "memory_from_pts": 70.02,
+      "rss_bytes": 856817664,
+      "ram_available_bytes": 3595075584
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 2.8910000000032596,
+      "epoch": 12,
+      "seen_tokens": 0,
+      "session_pts": 79.004,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 856821760,
+      "ram_available_bytes": 3594715136
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.9070000000028813,
+      "epoch": 12,
+      "seen_tokens": 60,
+      "session_pts": 79.004,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 856821760,
+      "ram_available_bytes": 3594715136
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 2.9540000000015425,
+      "epoch": 12,
+      "seen_tokens": 117,
+      "session_pts": 81.006,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 856760320,
+      "ram_available_bytes": 3595481088
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.0,
+      "epoch": 12,
+      "seen_tokens": 117,
+      "session_pts": 81.006,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 856760320,
+      "ram_available_bytes": 3595476992
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.047000000002299,
+      "epoch": 12,
+      "seen_tokens": 174,
+      "session_pts": 83.008,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 856829952,
+      "ram_available_bytes": 3595280384
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.0940000000009604,
+      "epoch": 12,
+      "seen_tokens": 174,
+      "session_pts": 83.008,
+      "memory_from_pts": 78.003,
+      "rss_bytes": 856829952,
+      "ram_available_bytes": 3588702208
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 3.125,
+      "epoch": 13,
+      "seen_tokens": 0,
+      "session_pts": 85.01,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 856834048,
+      "ram_available_bytes": 3590115328
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.1410000000032596,
+      "epoch": 13,
+      "seen_tokens": 60,
+      "session_pts": 85.01,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 856838144,
+      "ram_available_bytes": 3590115328
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.188000000001921,
+      "epoch": 13,
+      "seen_tokens": 117,
+      "session_pts": 87.012,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 856842240,
+      "ram_available_bytes": 3601125376
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.235000000000582,
+      "epoch": 13,
+      "seen_tokens": 117,
+      "session_pts": 87.012,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 856842240,
+      "ram_available_bytes": 3601121280
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.297000000002299,
+      "epoch": 13,
+      "seen_tokens": 174,
+      "session_pts": 89.014,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 856907776,
+      "ram_available_bytes": 3600678912
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.3440000000009604,
+      "epoch": 13,
+      "seen_tokens": 174,
+      "session_pts": 89.014,
+      "memory_from_pts": 84.009,
+      "rss_bytes": 856907776,
+      "ram_available_bytes": 3607187456
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 3.375,
+      "epoch": 14,
+      "seen_tokens": 0,
+      "session_pts": 91.01599999999999,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 857018368,
+      "ram_available_bytes": 3608064000
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.3910000000032596,
+      "epoch": 14,
+      "seen_tokens": 60,
+      "session_pts": 91.01599999999999,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 857018368,
+      "ram_available_bytes": 3608064000
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.422000000002299,
+      "epoch": 14,
+      "seen_tokens": 117,
+      "session_pts": 93.018,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 857018368,
+      "ram_available_bytes": 3608072192
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.4690000000009604,
+      "epoch": 14,
+      "seen_tokens": 117,
+      "session_pts": 93.018,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 857018368,
+      "ram_available_bytes": 3601846272
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.5160000000032596,
+      "epoch": 14,
+      "seen_tokens": 174,
+      "session_pts": 95.02,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 856473600,
+      "ram_available_bytes": 3593682944
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.563000000001921,
+      "epoch": 14,
+      "seen_tokens": 174,
+      "session_pts": 95.02,
+      "memory_from_pts": 90.015,
+      "rss_bytes": 856473600,
+      "ram_available_bytes": 3593195520
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 3.5940000000009604,
+      "epoch": 15,
+      "seen_tokens": 0,
+      "session_pts": 97.02199999999999,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 857075712,
+      "ram_available_bytes": 3595509760
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.5940000000009604,
+      "epoch": 15,
+      "seen_tokens": 60,
+      "session_pts": 97.02199999999999,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 857079808,
+      "ram_available_bytes": 3596439552
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.6570000000028813,
+      "epoch": 15,
+      "seen_tokens": 118,
+      "session_pts": 101.001,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 857309184,
+      "ram_available_bytes": 3596288000
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.7040000000015425,
+      "epoch": 15,
+      "seen_tokens": 118,
+      "session_pts": 101.001,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 857309184,
+      "ram_available_bytes": 3596333056
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.75,
+      "epoch": 15,
+      "seen_tokens": 176,
+      "session_pts": 103.003,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 858087424,
+      "ram_available_bytes": 3594235904
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.797000000002299,
+      "epoch": 15,
+      "seen_tokens": 176,
+      "session_pts": 103.003,
+      "memory_from_pts": 96.021,
+      "rss_bytes": 858087424,
+      "ram_available_bytes": 3594235904
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 3.8440000000009604,
+      "epoch": 16,
+      "seen_tokens": 0,
+      "session_pts": 105.005,
+      "memory_from_pts": 104.004,
+      "rss_bytes": 857952256,
+      "ram_available_bytes": 3595169792
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.8440000000009604,
+      "epoch": 16,
+      "seen_tokens": 61,
+      "session_pts": 105.005,
+      "memory_from_pts": 104.004,
+      "rss_bytes": 857956352,
+      "ram_available_bytes": 3595169792
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.8910000000032596,
+      "epoch": 16,
+      "seen_tokens": 119,
+      "session_pts": 107.007,
+      "memory_from_pts": 104.004,
+      "rss_bytes": 857608192,
+      "ram_available_bytes": 3594981376
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.938000000001921,
+      "epoch": 16,
+      "seen_tokens": 119,
+      "session_pts": 107.007,
+      "memory_from_pts": 104.004,
+      "rss_bytes": 857608192,
+      "ram_available_bytes": 3594928128
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 3.985000000000582,
+      "epoch": 17,
+      "seen_tokens": 0,
+      "session_pts": 109.009,
+      "memory_from_pts": 108.008,
+      "rss_bytes": 858144768,
+      "ram_available_bytes": 3595444224
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 4.0,
+      "epoch": 17,
+      "seen_tokens": 61,
+      "session_pts": 109.009,
+      "memory_from_pts": 108.008,
+      "rss_bytes": 858144768,
+      "ram_available_bytes": 3596947456
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 4.032000000002881,
+      "epoch": 17,
+      "seen_tokens": 119,
+      "session_pts": 111.011,
+      "memory_from_pts": 108.008,
+      "rss_bytes": 857636864,
+      "ram_available_bytes": 3598209024
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 4.0790000000015425,
+      "epoch": 17,
+      "seen_tokens": 119,
+      "session_pts": 111.011,
+      "memory_from_pts": 108.008,
+      "rss_bytes": 857636864,
+      "ram_available_bytes": 3598217216
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 4.125,
+      "epoch": 18,
+      "seen_tokens": 0,
+      "session_pts": 113.013,
+      "memory_from_pts": 112.012,
+      "rss_bytes": 858189824,
+      "ram_available_bytes": 3581538304
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 4.14100000000326,
+      "epoch": 18,
+      "seen_tokens": 61,
+      "session_pts": 113.013,
+      "memory_from_pts": 112.012,
+      "rss_bytes": 858193920,
+      "ram_available_bytes": 3581538304
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 4.188000000001921,
+      "epoch": 18,
+      "seen_tokens": 119,
+      "session_pts": 115.015,
+      "memory_from_pts": 112.012,
+      "rss_bytes": 857649152,
+      "ram_available_bytes": 3581636608
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 4.235000000000582,
+      "epoch": 18,
+      "seen_tokens": 119,
+      "session_pts": 115.015,
+      "memory_from_pts": 112.012,
+      "rss_bytes": 857649152,
+      "ram_available_bytes": 3581636608
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 4.26600000000326,
+      "epoch": 19,
+      "seen_tokens": 0,
+      "session_pts": 117.017,
+      "memory_from_pts": 116.01599999999999,
+      "rss_bytes": 858193920,
+      "ram_available_bytes": 3582234624
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 4.282000000002881,
+      "epoch": 19,
+      "seen_tokens": 61,
+      "session_pts": 117.017,
+      "memory_from_pts": 116.01599999999999,
+      "rss_bytes": 858202112,
+      "ram_available_bytes": 3582234624
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 4.313000000001921,
+      "epoch": 19,
+      "seen_tokens": 119,
+      "session_pts": 119.019,
+      "memory_from_pts": 116.01599999999999,
+      "rss_bytes": 857702400,
+      "ram_available_bytes": 3582742528
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 4.360000000000582,
+      "epoch": 19,
+      "seen_tokens": 119,
+      "session_pts": 119.019,
+      "memory_from_pts": 116.01599999999999,
+      "rss_bytes": 857702400,
+      "ram_available_bytes": 3589173248
+    }
+  ],
+  "synthetic_repeat": true,
+  "repeat_count": 5,
+  "repeat_period_seconds": 25.0,
+  "playback": null
+}

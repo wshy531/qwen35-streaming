@@ -1,0 +1,10 @@
+{
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "video_dir": "E:\\VIT Model\\datasets\\natural_commons_v1",
+  "coffee_events": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\runs\\generic_demo_gpu_20261011_01\\events.jsonl",
+  "overload_events": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\runs\\clock_overload_gpu_20261011_01\\events.jsonl",
+  "wall_seconds": 240,
+  "allow_branch": [],
+  "stage": "gpu",
+  "arm": "original"
+}

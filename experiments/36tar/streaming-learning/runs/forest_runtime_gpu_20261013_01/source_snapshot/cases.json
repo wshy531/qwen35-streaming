@@ -1,0 +1,14 @@
+{
+  "threshold": 0.047536224126815796,
+  "controlled_order": [["dog",12,4],["pigeon",0,2],["cat",0,4],["dog",12,4],["pigeon",0,2],["cat",0,4],["dog",12,4]],
+  "controlled_checkpoints": [4,8,12],
+  "controlled_reset_after": [8,12],
+  "controlled_questions": ["Name the animal visible at the beginning of the video.","Name the animal visible most recently.","Which animal appeared between the first dog scene and the first cat scene?","List the animals in order of first appearance."],
+  "natural_source": "clean_hands",
+  "natural_checkpoints": [3,6],
+  "natural_questions": ["Briefly describe the action visible at the beginning.","Briefly describe the action visible most recently."],
+  "weights": [0.4,0.4,0.2],
+  "heads": 4,
+  "visual_token_cap": 192,
+  "labels_are_not_used_for_grouping_or_selection": true
+}

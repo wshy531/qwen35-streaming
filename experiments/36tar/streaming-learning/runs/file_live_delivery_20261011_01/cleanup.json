@@ -1,0 +1,30 @@
+{
+  "old_runs_and_sources_preserved": true,
+  "removed": [
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\file_live_cpu_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\file_live_cpu_20261011_02\\tmp"
+    },
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\file_live_preflight_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\file_live_gpu_20261011_01\\tmp"
+    }
+  ],
+  "model_data_environment_untouched": true
+}

@@ -1,0 +1,511 @@
+{
+  "all_original_answers_reviewed": true,
+  "rows": [
+    {
+      "case": "video_cat",
+      "condition": "raw96",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "raw96",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "first48",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "first48",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "last48",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "last48",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "manual_interpretation": "dog",
+      "expected": "cat",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "merged_destination",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "merged_destination",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "unmixed_destination",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "unmixed_destination",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "merged_first_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "merged_first_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "unmixed_first_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "dark",
+      "correct": false,
+      "static_control": false
+    },
+    {
+      "case": "video_cat",
+      "condition": "unmixed_first_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": false
+    },
+    {
+      "case": "black_photo",
+      "condition": "raw96",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "raw96",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "first48",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "first48",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "last48",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "last48",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "merged_destination",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "merged_destination",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "unmixed_destination",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "unmixed_destination",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "merged_first_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "merged_first_grid",
+      "topic": "subject",
+      "raw_answer": "cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "unmixed_first_grid",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "manual_interpretation": "dark",
+      "expected": "dark",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "black_photo",
+      "condition": "unmixed_first_grid",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "raw96",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "raw96",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "first48",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "first48",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "last48",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "last48",
+      "topic": "subject",
+      "raw_answer": "A cat.",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "merged_destination",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "merged_destination",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "unmixed_destination",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "unmixed_destination",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "merged_first_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "merged_first_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "unmixed_first_grid",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "manual_interpretation": "light",
+      "expected": "light",
+      "correct": true,
+      "static_control": true
+    },
+    {
+      "case": "light_photo",
+      "condition": "unmixed_first_grid",
+      "topic": "subject",
+      "raw_answer": "Cat",
+      "manual_interpretation": "cat",
+      "expected": "cat",
+      "correct": true,
+      "static_control": true
+    }
+  ],
+  "metrics": {
+    "raw96": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "first48": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "last48": {
+      "coat": {
+        "correct": 3,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 2,
+        "questions": 3
+      }
+    },
+    "merged_destination": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "unmixed_destination": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "merged_first_grid": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    },
+    "unmixed_first_grid": {
+      "coat": {
+        "correct": 2,
+        "questions": 3
+      },
+      "subject": {
+        "correct": 3,
+        "questions": 3
+      }
+    }
+  },
+  "observations": [
+    "Moving old cat raw96 and complete first48 read dark; fused48 and untouched destination48 both read light.",
+    "The first-grid applied-position intervention does not fix either value set on the old moving cat.",
+    "Two new same-species still controls are correctly light/dark and cat in all seven arms.",
+    "Moving-cat last complete pair retains dark color but misidentifies animal as dog."
+  ],
+  "limits": [
+    "Only three cases and two repeated still photos; not natural-motion generalization.",
+    "Binary color answers permit guesses; poses/backgrounds differ across new photos.",
+    "First/last representatives have different real time labels and positions; not a pure feature-only comparison against fusion.",
+    "One first-grid intervention failing does not eliminate every possible position adaptation.",
+    "Untouched destination subset failing shows weighted averaging is not necessary for this failure; it does not prove averaging is harmless.",
+    "No claim that complete representative retains all event details or temporal changes."
+  ]
+}

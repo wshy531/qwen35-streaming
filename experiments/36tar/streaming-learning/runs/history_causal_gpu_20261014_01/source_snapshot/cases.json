@@ -1,0 +1,29 @@
+{
+  "threshold": 0.047536224126815796,
+  "pairs": [
+    {
+      "id": "development",
+      "prefix": {
+        "dog": 12,
+        "cat": 0
+      }
+    },
+    {
+      "id": "confirmation",
+      "prefix": {
+        "dog": 16,
+        "cat": 4
+      }
+    }
+  ],
+  "suffix": {
+    "source": "clean_hands",
+    "start": 6,
+    "frames": 12
+  },
+  "early_question": "Name the animal visible at the beginning of the video.",
+  "single_question": "Name the main visible animal in these frames.",
+  "segment_question": "Name the animal visible during the first 0.0-3.0 seconds.",
+  "labels_not_supplied_to_model": true,
+  "source_reuse_and_synthetic_session_time": true
+}

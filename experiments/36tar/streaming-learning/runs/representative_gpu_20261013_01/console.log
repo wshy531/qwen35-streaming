@@ -1,0 +1,53 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 16646.02it/s]
+{"case": "controlled_dog_pigeon_cat", "policy": "first", "mode": "group", "pair": 0, "answer": "A dog"}
+{"case": "controlled_dog_pigeon_cat", "policy": "first", "mode": "group", "pair": 2, "answer": "A bird"}
+{"case": "controlled_dog_pigeon_cat", "policy": "first", "mode": "open", "pair": 4, "answer": "A dog."}
+{"case": "controlled_dog_pigeon_cat", "policy": "first", "mode": "current", "pair": 5, "answer": "A dog."}
+{"case": "controlled_dog_pigeon_cat", "policy": "last", "mode": "group", "pair": 1, "answer": "A dog."}
+{"case": "controlled_dog_pigeon_cat", "policy": "last", "mode": "group", "pair": 3, "answer": "The main visible animal in these frames is a dog."}
+{"case": "controlled_dog_pigeon_cat", "policy": "last", "mode": "open", "pair": 5, "answer": "A dog."}
+{"case": "controlled_dog_pigeon_cat", "policy": "last", "mode": "current", "pair": 5, "answer": "A dog."}
+{"case": "controlled_dog_pigeon_cat", "policy": "centroid", "mode": "group", "pair": 0, "answer": "A dog"}
+{"case": "controlled_dog_pigeon_cat", "policy": "centroid", "mode": "group", "pair": 2, "answer": "A bird"}
+{"case": "controlled_dog_pigeon_cat", "policy": "centroid", "mode": "open", "pair": 4, "answer": "A dog."}
+{"case": "controlled_dog_pigeon_cat", "policy": "centroid", "mode": "current", "pair": 5, "answer": "A dog."}
+{"case": "controlled_cat_dog_pigeon", "policy": "first", "mode": "group", "pair": 0, "answer": "A dog"}
+{"case": "controlled_cat_dog_pigeon", "policy": "first", "mode": "group", "pair": 2, "answer": "A dog."}
+{"case": "controlled_cat_dog_pigeon", "policy": "first", "mode": "open", "pair": 4, "answer": "A bird"}
+{"case": "controlled_cat_dog_pigeon", "policy": "first", "mode": "current", "pair": 5, "answer": "The main visible animal in these frames is a dog."}
+{"case": "controlled_cat_dog_pigeon", "policy": "last", "mode": "group", "pair": 1, "answer": "A dog."}
+{"case": "controlled_cat_dog_pigeon", "policy": "last", "mode": "group", "pair": 3, "answer": "A dog"}
+{"case": "controlled_cat_dog_pigeon", "policy": "last", "mode": "open", "pair": 5, "answer": "The main visible animal in these frames is a dog."}
+{"case": "controlled_cat_dog_pigeon", "policy": "last", "mode": "current", "pair": 5, "answer": "The main visible animal in these frames is a dog."}
+{"case": "controlled_cat_dog_pigeon", "policy": "centroid", "mode": "group", "pair": 0, "answer": "A dog"}
+{"case": "controlled_cat_dog_pigeon", "policy": "centroid", "mode": "group", "pair": 2, "answer": "A dog."}
+{"case": "controlled_cat_dog_pigeon", "policy": "centroid", "mode": "open", "pair": 4, "answer": "A bird"}
+{"case": "controlled_cat_dog_pigeon", "policy": "centroid", "mode": "current", "pair": 5, "answer": "The main visible animal in these frames is a dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "first", "mode": "group", "pair": 0, "answer": "A bird"}
+{"case": "controlled_pigeon_cat_dog", "policy": "first", "mode": "group", "pair": 2, "answer": "A dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "first", "mode": "open", "pair": 4, "answer": "A dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "first", "mode": "current", "pair": 5, "answer": "A dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "last", "mode": "group", "pair": 1, "answer": "The main visible animal in these frames is a dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "last", "mode": "group", "pair": 3, "answer": "A dog"}
+{"case": "controlled_pigeon_cat_dog", "policy": "last", "mode": "open", "pair": 5, "answer": "A dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "last", "mode": "current", "pair": 5, "answer": "A dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "centroid", "mode": "group", "pair": 0, "answer": "A bird"}
+{"case": "controlled_pigeon_cat_dog", "policy": "centroid", "mode": "group", "pair": 2, "answer": "A dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "centroid", "mode": "open", "pair": 4, "answer": "A dog."}
+{"case": "controlled_pigeon_cat_dog", "policy": "centroid", "mode": "current", "pair": 5, "answer": "A dog."}
+{"case": "clean_hands", "policy": "first", "mode": "group", "pair": 0, "answer": "A person is washing their hands with soap."}
+{"case": "clean_hands", "policy": "first", "mode": "open", "pair": 4, "answer": "A person is peeling off the backing of a paper towel."}
+{"case": "clean_hands", "policy": "first", "mode": "current", "pair": 5, "answer": "A person is wiping a bathroom mirror with a paper towel."}
+{"case": "clean_hands", "policy": "last", "mode": "group", "pair": 3, "answer": "A person is washing their hands under running water."}
+{"case": "clean_hands", "policy": "last", "mode": "open", "pair": 5, "answer": "A person is wiping a bathroom mirror with a paper towel."}
+{"case": "clean_hands", "policy": "last", "mode": "current", "pair": 5, "answer": "A person is wiping a bathroom mirror with a paper towel."}
+{"case": "clean_hands", "policy": "centroid", "mode": "group", "pair": 2, "answer": "A person is washing their hands in a sink."}
+{"case": "clean_hands", "policy": "centroid", "mode": "open", "pair": 4, "answer": "A person is peeling off the backing of a paper towel."}
+{"case": "clean_hands", "policy": "centroid", "mode": "current", "pair": 5, "answer": "A person is wiping a bathroom mirror with a paper towel."}
+{"case": "hand_hygiene", "policy": "first", "mode": "open", "pair": 0, "answer": "A woman is standing in front of a white dispenser."}
+{"case": "hand_hygiene", "policy": "first", "mode": "current", "pair": 5, "answer": "A woman in scrubs is washing her hands."}
+{"case": "hand_hygiene", "policy": "last", "mode": "open", "pair": 5, "answer": "A woman in scrubs is washing her hands."}
+{"case": "hand_hygiene", "policy": "last", "mode": "current", "pair": 5, "answer": "A woman in scrubs is washing her hands."}
+{"case": "hand_hygiene", "policy": "centroid", "mode": "open", "pair": 4, "answer": "A woman in scrubs is rubbing a white substance on her hands."}
+{"case": "hand_hygiene", "policy": "centroid", "mode": "current", "pair": 5, "answer": "A woman in scrubs is washing her hands."}

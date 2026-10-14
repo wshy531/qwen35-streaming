@@ -1,0 +1,5 @@
+{
+  "fix": "Verify historical PNG bytes match HEAD; reject new or changed PNGs; preserve prior evidence",
+  "reason": "Overbroad PNG exclusion rejected three already tracked historical public-source image proofs",
+  "new_model_run": false
+}

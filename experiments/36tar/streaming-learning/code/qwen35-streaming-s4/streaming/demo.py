@@ -14,7 +14,11 @@ class PairDemo:
     Four real frames per epoch before first QA, then two more per QA. EOF
     padding never earns an extra QA. Capacity reset deliberately loses history.
     """
-    def __init__(self, session, question, max_new_tokens=8, sink=None, audit=True):
+    def __init__(self, session, question, max_new_tokens=8, sink=None, audit=True,
+                 first_qa_frames=4, qa_every_frames=2):
+        if any(not isinstance(x,int) or isinstance(x,bool) or x < 1 for x in (first_qa_frames,qa_every_frames)):
+            raise ValueError("Positive QA intervals required")
+        self.first_qa_frames, self.qa_every_frames = first_qa_frames, qa_every_frames
         session.check_ready(for_input=True)
         if session.accepted_frames or session.main.seen_tokens or session.pending is not None:
             raise ValueError("Demo requires a fresh session")
@@ -30,11 +34,14 @@ class PairDemo:
         self.last_id = self.last_pts = self.shape = None
         self.finished = self.closed = self.invalid = False
         self.event_index = self.max_buffered_bytes = 0
+        self.memory_from_pts = None
 
     def status(self):
         return {"received_real_frames": self.received, "encoded_real_frames": self.encoded,
                 "pairs": self.pairs, "questions": self.questions, "resets": self.resets,
                 "epoch": self.epoch, "generated_tokens": self.generated,
+                "memory_from_pts": self.memory_from_pts,
+                "history_across_reset": False,
                 "last_received_id": self.last_id, "last_received_pts": self.last_pts,
                 "pending_frame_id": None if self.pending is None else self.pending.frame_id,
                 "pending_rgb_bytes": 0 if self.pending is None else self.pending.rgb.nbytes,
@@ -106,10 +113,13 @@ class PairDemo:
             self.resets += 1
             self.epoch += 1
             self.last_asked_real = 0
+            self.memory_from_pts = first.timestamp
             self.emit("capacity_reset", reason="actual_new_block_exceeds_main_budget",
                       discarded_epoch=before, retained_frame_ids=record["frame_ids"],
                       synthetic_padding=padding, new_block_tokens=size)
         begin = time.perf_counter()
+        if session.accepted_frames == 0:
+            self.memory_from_pts = first.timestamp
         session.append(first)
         if padding:
             session.finish()
@@ -124,7 +134,7 @@ class PairDemo:
 
     def maybe_ask(self):
         real = self.session.encoded_frames
-        if real < 4 or (self.last_asked_real and real - self.last_asked_real < 2):
+        if real < self.first_qa_frames or (self.last_asked_real and real - self.last_asked_real < self.qa_every_frames):
             return
         before = self.session.status()
         snapshot = self.session.main.cache.clone() if self.audit else None

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "sources": 135,
+  "random_cpu_questions": 72,
+  "scored_for_capability": false,
+  "failed_gpu_attempt_before_model_load": true,
+  "all_checker_inputs_have_both_pair_sources": true,
+  "all_query_branches_isolated": true
+}

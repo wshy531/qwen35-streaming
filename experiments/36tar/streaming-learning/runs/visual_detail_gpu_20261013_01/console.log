@@ -1,0 +1,26 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 27866.19it/s]
+{"case": "dog_pair_0", "profile": "old_two_stage", "visual_tokens": 48, "answer": "A dog"}
+{"case": "dog_pair_0", "profile": "direct_small", "visual_tokens": 48, "answer": "A dog"}
+{"case": "dog_pair_0", "profile": "direct_large", "visual_tokens": 192, "answer": "A dog"}
+{"case": "pigeon_pair_0", "profile": "old_two_stage", "visual_tokens": 48, "answer": "A bird"}
+{"case": "pigeon_pair_0", "profile": "direct_small", "visual_tokens": 48, "answer": "A bird"}
+{"case": "pigeon_pair_0", "profile": "direct_large", "visual_tokens": 192, "answer": "A pigeon"}
+{"case": "pigeon_pair_1", "profile": "old_two_stage", "visual_tokens": 48, "answer": "The main visible animal in these frames is a dog."}
+{"case": "pigeon_pair_1", "profile": "direct_small", "visual_tokens": 48, "answer": "The main visible animal in these frames is a dog."}
+{"case": "pigeon_pair_1", "profile": "direct_large", "visual_tokens": 192, "answer": "The main visible animal in these frames is a dog."}
+{"case": "cat_pair_0", "profile": "old_two_stage", "visual_tokens": 48, "answer": "A dog"}
+{"case": "cat_pair_0", "profile": "direct_small", "visual_tokens": 48, "answer": "A dog"}
+{"case": "cat_pair_0", "profile": "direct_large", "visual_tokens": 192, "answer": "A dog"}
+{"case": "cat_pair_1", "profile": "old_two_stage", "visual_tokens": 48, "answer": "A dog."}
+{"case": "cat_pair_1", "profile": "direct_small", "visual_tokens": 48, "answer": "A dog."}
+{"case": "cat_pair_1", "profile": "direct_large", "visual_tokens": 192, "answer": "A dog."}
+{"case": "clean_hands_pair_0", "profile": "old_two_stage", "visual_tokens": 48, "answer": "A person is washing their hands with soap."}
+{"case": "clean_hands_pair_0", "profile": "direct_small", "visual_tokens": 48, "answer": "A person is washing their hands with soap."}
+{"case": "clean_hands_pair_0", "profile": "direct_large", "visual_tokens": 192, "answer": "A person is washing their hands in a sink."}
+{"case": "clean_hands_pair_5", "profile": "old_two_stage", "visual_tokens": 48, "answer": "A person is wiping a bathroom mirror with a paper towel."}
+{"case": "clean_hands_pair_5", "profile": "direct_small", "visual_tokens": 48, "answer": "A person is wiping a bathroom mirror with a paper towel."}
+{"case": "clean_hands_pair_5", "profile": "direct_large", "visual_tokens": 192, "answer": "A person is wiping a bathroom mirror with a white cloth."}
+{"case": "hand_hygiene_pair_5", "profile": "old_two_stage", "visual_tokens": 48, "answer": "A woman in scrubs is washing her hands."}
+{"case": "hand_hygiene_pair_5", "profile": "direct_small", "visual_tokens": 48, "answer": "A woman in scrubs is washing her hands."}
+{"case": "hand_hygiene_pair_5", "profile": "direct_large", "visual_tokens": 192, "answer": "A woman is using a hand sanitizer dispenser."}

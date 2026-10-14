@@ -1,0 +1,567 @@
+{
+  "scope": "Fixed original two-frame question controls; not streaming/long-term memory/benchmark",
+  "cases": [
+    {
+      "source": "clean",
+      "case_id": "water_wash_water",
+      "question": "Is running water visibly touching the hands in the most recent two frames? Answer only YES or NO.",
+      "question_id": "water",
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "f3d56af6b085c5d34e4c492b736080479ba8eb0a1b315e9d6edf331d283c96a4",
+      "input_tokens": 89,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "YES",
+      "rubric": "Running water visibly at hands.",
+      "generated_ids": [
+        9175,
+        248046
+      ],
+      "answer": "Yes",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "clean",
+      "case_id": "water_wash_neutral",
+      "question": "Which visible action occurs in the most recent two frames? Choose 1 for washing or rinsing hands under running water, 2 for taking or using a paper towel, or 3 for neither of those actions. Reply only 1, 2, or 3.",
+      "question_id": "neutral",
+      "frames": [
+        {
+          "frame_id": 360,
+          "timestamp": 12.012,
+          "rgb_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+        },
+        {
+          "frame_id": 390,
+          "timestamp": 13.013,
+          "rgb_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "7d2f8c876119abb6f2bb40254afac856f70346290df80264fc9f6817f1f5b114",
+      "input_tokens": 124,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "1",
+      "rubric": "Running water visibly at hands.",
+      "generated_ids": [
+        16,
+        248046
+      ],
+      "answer": "1",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": true
+    },
+    {
+      "source": "clean",
+      "case_id": "paper_take_water",
+      "question": "Is running water visibly touching the hands in the most recent two frames? Answer only YES or NO.",
+      "question_id": "water",
+      "frames": [
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "cf3b77b96cc78233cbdd757207bf233c7edfa347990cb83f23ff113a5559d4bc",
+      "input_tokens": 89,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Taking paper towel.",
+      "generated_ids": [
+        2665,
+        248046
+      ],
+      "answer": "No",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "clean",
+      "case_id": "paper_take_neutral",
+      "question": "Which visible action occurs in the most recent two frames? Choose 1 for washing or rinsing hands under running water, 2 for taking or using a paper towel, or 3 for neither of those actions. Reply only 1, 2, or 3.",
+      "question_id": "neutral",
+      "frames": [
+        {
+          "frame_id": 420,
+          "timestamp": 14.014,
+          "rgb_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+        },
+        {
+          "frame_id": 450,
+          "timestamp": 15.015,
+          "rgb_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "73f31f5392bd8b150d4ebc90b3f87ae2511bfb67be7d21279a00a9bc1ab9c2b2",
+      "input_tokens": 124,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "2",
+      "rubric": "Taking paper towel.",
+      "generated_ids": [
+        16,
+        248046
+      ],
+      "answer": "1",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "clean",
+      "case_id": "paper_use_water",
+      "question": "Is running water visibly touching the hands in the most recent two frames? Answer only YES or NO.",
+      "question_id": "water",
+      "frames": [
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "3e86278ac95f728eba78a6c64ae5ae80d35ae2515f8d78dd21cb20e7dbaf277f",
+      "input_tokens": 89,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Using paper towel.",
+      "generated_ids": [
+        2665,
+        248046
+      ],
+      "answer": "No",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "clean",
+      "case_id": "paper_use_neutral",
+      "question": "Which visible action occurs in the most recent two frames? Choose 1 for washing or rinsing hands under running water, 2 for taking or using a paper towel, or 3 for neither of those actions. Reply only 1, 2, or 3.",
+      "question_id": "neutral",
+      "frames": [
+        {
+          "frame_id": 480,
+          "timestamp": 16.016,
+          "rgb_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+        },
+        {
+          "frame_id": 510,
+          "timestamp": 17.017,
+          "rgb_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "c28e00f41d60af670a837de3a32e2273cb5aaf53678fad9fff2c3eccf05a9b1c",
+      "input_tokens": 124,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "2",
+      "rubric": "Using paper towel.",
+      "generated_ids": [
+        16,
+        248046
+      ],
+      "answer": "1",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "new",
+      "case_id": "standing_water",
+      "question": "Is running water visibly touching the hands in the most recent two frames? Answer only YES or NO.",
+      "question_id": "water",
+      "frames": [
+        {
+          "frame_id": 144,
+          "timestamp": 6.006,
+          "rgb_sha256": "e886a848dda0a029cb62bc62259b540350c2a25883b0146f84c25e050b2a439f"
+        },
+        {
+          "frame_id": 168,
+          "timestamp": 7.007,
+          "rgb_sha256": "04fbd91a178314fc3733cd0f2d40843974e97524b28402d962ca2b3fe2d982d8"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "59b3b2a1cd41305fa9c6ee79c7b827b221315e58680a9c57f1b62df9f5134346",
+      "input_tokens": 88,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Standing near dispenser, no visible water/paper.",
+      "generated_ids": [
+        2665,
+        248046
+      ],
+      "answer": "No",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "new",
+      "case_id": "standing_neutral",
+      "question": "Which visible action occurs in the most recent two frames? Choose 1 for washing or rinsing hands under running water, 2 for taking or using a paper towel, or 3 for neither of those actions. Reply only 1, 2, or 3.",
+      "question_id": "neutral",
+      "frames": [
+        {
+          "frame_id": 144,
+          "timestamp": 6.006,
+          "rgb_sha256": "e886a848dda0a029cb62bc62259b540350c2a25883b0146f84c25e050b2a439f"
+        },
+        {
+          "frame_id": 168,
+          "timestamp": 7.007,
+          "rgb_sha256": "04fbd91a178314fc3733cd0f2d40843974e97524b28402d962ca2b3fe2d982d8"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "5e8d135f06dfdc2bfa290da4e2e92b56ab42802c19850840077c6e3ae6dd9b5c",
+      "input_tokens": 123,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "3",
+      "rubric": "Standing near dispenser, no visible water/paper.",
+      "generated_ids": [
+        16,
+        248046
+      ],
+      "answer": "1",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "new",
+      "case_id": "dispensing_water",
+      "question": "Is running water visibly touching the hands in the most recent two frames? Answer only YES or NO.",
+      "question_id": "water",
+      "frames": [
+        {
+          "frame_id": 240,
+          "timestamp": 10.01,
+          "rgb_sha256": "0e6e8a179f03dba491fe89c8dced9dccb0b623dfb435659d3da0f0b88fd1a2eb"
+        },
+        {
+          "frame_id": 264,
+          "timestamp": 11.011,
+          "rgb_sha256": "5e38d10bc69b01574ac7c50753d19da7584bea745ecf6d6747f074f2aa8cae45"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "3cced2357d2b5de91bf38bff45051ec24e7e3d80e304aa590896b127436826ee",
+      "input_tokens": 89,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Pressing liquid dispenser, no visible running water/paper.",
+      "generated_ids": [
+        2665,
+        248046
+      ],
+      "answer": "No",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "new",
+      "case_id": "dispensing_neutral",
+      "question": "Which visible action occurs in the most recent two frames? Choose 1 for washing or rinsing hands under running water, 2 for taking or using a paper towel, or 3 for neither of those actions. Reply only 1, 2, or 3.",
+      "question_id": "neutral",
+      "frames": [
+        {
+          "frame_id": 240,
+          "timestamp": 10.01,
+          "rgb_sha256": "0e6e8a179f03dba491fe89c8dced9dccb0b623dfb435659d3da0f0b88fd1a2eb"
+        },
+        {
+          "frame_id": 264,
+          "timestamp": 11.011,
+          "rgb_sha256": "5e38d10bc69b01574ac7c50753d19da7584bea745ecf6d6747f074f2aa8cae45"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "c1d839d2629b6f3063b5744626e3f2506bbcf01026b1aca9ef9399ad7e0c8bd4",
+      "input_tokens": 124,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "3",
+      "rubric": "Pressing liquid dispenser, no visible running water/paper.",
+      "generated_ids": [
+        16,
+        248046
+      ],
+      "answer": "1",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "new",
+      "case_id": "rubbing_water",
+      "question": "Is running water visibly touching the hands in the most recent two frames? Answer only YES or NO.",
+      "question_id": "water",
+      "frames": [
+        {
+          "frame_id": 336,
+          "timestamp": 14.014,
+          "rgb_sha256": "0e2af5d3cff85cdc395a7f9fec87b8ae66195735fe35b39296032258645ae8b4"
+        },
+        {
+          "frame_id": 360,
+          "timestamp": 15.015,
+          "rgb_sha256": "5988032a0c56f8bdfc1f3e4d44586389e49533a8a68cdd930f4c2ce79e002946"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "d7cac77c3a6d9693cb29c63ad0e9fccd07ab8a38ff5fa175425812fbcad0e4e8",
+      "input_tokens": 89,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "NO",
+      "rubric": "Rubbing hands, no visible running water/paper; colloquial hygiene may be called washing.",
+      "generated_ids": [
+        2665,
+        248046
+      ],
+      "answer": "No",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    },
+    {
+      "source": "new",
+      "case_id": "rubbing_neutral",
+      "question": "Which visible action occurs in the most recent two frames? Choose 1 for washing or rinsing hands under running water, 2 for taking or using a paper towel, or 3 for neither of those actions. Reply only 1, 2, or 3.",
+      "question_id": "neutral",
+      "frames": [
+        {
+          "frame_id": 336,
+          "timestamp": 14.014,
+          "rgb_sha256": "0e2af5d3cff85cdc395a7f9fec87b8ae66195735fe35b39296032258645ae8b4"
+        },
+        {
+          "frame_id": 360,
+          "timestamp": 15.015,
+          "rgb_sha256": "5988032a0c56f8bdfc1f3e4d44586389e49533a8a68cdd930f4c2ce79e002946"
+        }
+      ],
+      "all_input_tensors_bitwise_equal": true,
+      "tensor_equalities": {
+        "input_ids": true,
+        "attention_mask": true,
+        "pixel_values_videos": true,
+        "video_grid_thw": true,
+        "mm_token_type_ids": true,
+        "position_ids": true
+      },
+      "input_fingerprint": "ed1ea3dbf8dfa0d80fe2ba790816ed3f1347e69e643fd78c10d5b6caaf28ad9b",
+      "input_tokens": 124,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "expected": "3",
+      "rubric": "Rubbing hands, no visible running water/paper; colloquial hygiene may be called washing.",
+      "generated_ids": [
+        16,
+        248046
+      ],
+      "answer": "1",
+      "stop_reason": "eos",
+      "reference_mode": "fp32_ieee_math",
+      "strict_choice_correct": false
+    }
+  ],
+  "model_source": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py",
+  "all_registered_cases_executed": true,
+  "actual_forwards": {
+    "vision": 12,
+    "language": 36
+  },
+  "generated_tokens": 24,
+  "peak_allocated_gib": 3.2320685386657715,
+  "peak_reserved_gib": 3.5625,
+  "wall_seconds_including_load": 9.597505199999432
+}

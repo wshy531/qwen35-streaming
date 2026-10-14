@@ -1,0 +1,23 @@
+{
+  "model_loads": 1,
+  "vision_max": 6,
+  "questions_max": 7,
+  "generated_max": 112,
+  "language_max": 160,
+  "answer_tokens": 16,
+  "max_tokens": 512,
+  "wall_seconds": 300,
+  "ram_min_gib": 3,
+  "gpu_free_min_gib": 5.5,
+  "conversion_free_min_gib": 2,
+  "root_tokens_max": 144,
+  "root_tensor_bytes_max": 592704,
+  "current_question": "Name the animal visible most recently.",
+  "history_question": "Name the main visible animal in this memory interval.",
+  "trigger_encoded_pts": [
+    7.0,
+    11.0
+  ],
+  "exact_target": 0.5,
+  "future_target": 99.0
+}

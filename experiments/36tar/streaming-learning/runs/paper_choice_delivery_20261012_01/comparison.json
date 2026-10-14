@@ -1,0 +1,39 @@
+{
+  "scope": "Three known frame pairs, not held-out accuracy or continuous action fix",
+  "choice_correct_by_variant": {
+    "legacy": 1,
+    "reversed": 1,
+    "defined": 1,
+    "numeric": 3
+  },
+  "variant_cases": 3,
+  "legacy_same_input_and_ids_as_stage9": 3,
+  "streaming_numeric_correct": 3,
+  "streaming_original_generated_ids_equal": 3,
+  "streaming_main_unchanged": true,
+  "metrics": {
+    "original": {
+      "actual_forwards": {
+        "vision": 12,
+        "language": 50
+      },
+      "generated_tokens": 38,
+      "peak_allocated_gib": 3.2320075035095215,
+      "peak_reserved_gib": 3.5625,
+      "wall_seconds_including_load": 19.424207300000035
+    },
+    "streaming": {
+      "actual_forwards": {
+        "vision": 3,
+        "language": 15
+      },
+      "generated_tokens": 6,
+      "peak_allocated_gib": 3.265463352203369,
+      "peak_reserved_gib": 3.59765625,
+      "wall_seconds_including_load": 11.789513400000033
+    }
+  },
+  "gpu_records": 53,
+  "stage_gpu_submissions": 2,
+  "stage_loads": 2
+}

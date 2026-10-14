@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "stage9_cpu_contracts": 4,
+  "stage9_inputs": 9,
+  "stage10_cpu_contracts_per_entry": 4,
+  "stage10_original_inputs": 12,
+  "streaming_inputs": 3,
+  "portable_inputs": 3,
+  "legacy_repeated_inputs_ids": 3,
+  "counts": {
+    "legacy": 1,
+    "reversed": 1,
+    "defined": 1,
+    "numeric": 3
+  },
+  "streaming_numeric_correct": 3,
+  "streaming_original_ids_equal": 3,
+  "main_state_bitwise_unchanged": true,
+  "old_frozen_sources": 61,
+  "unchanged_active_cpu153_source": true,
+  "model_assets_verified": true,
+  "gpu_records": 53,
+  "stage_gpu_submissions": 2,
+  "stage_loads": 2,
+  "syntax_files": 255,
+  "capsule_bytes": 13104479,
+  "capsule_limit_bytes": 13631488,
+  "only_personal_directory": true,
+  "no_core_or_original_changes": true,
+  "camera": 0,
+  "cluster": 0,
+  "training": 0
+}

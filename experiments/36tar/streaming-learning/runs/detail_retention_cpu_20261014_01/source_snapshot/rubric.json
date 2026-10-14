@@ -1,0 +1,21 @@
+{
+  "expected": {
+    "dog": {
+      "coat": "light",
+      "surface": "grass",
+      "people": "yes"
+    },
+    "cat": {
+      "coat": "dark",
+      "surface": "pavement",
+      "people": "no"
+    }
+  },
+  "ground_truth_source": "Actual manually inspected GPU88 prefix photos, transferred after exact new pixel/photo identity checks before GPU.",
+  "properties": "Dog pale tan/cream/white, grassy ground, seated people behind. Cat mostly black with white patches, grey paving, no people.",
+  "limits": [
+    "Binary questions permit guessing.",
+    "Species and visual properties are correlated here; correct answers do not prove direct pixel-level property retrieval.",
+    "No labels, source IDs or expectations supplied to language input."
+  ]
+}

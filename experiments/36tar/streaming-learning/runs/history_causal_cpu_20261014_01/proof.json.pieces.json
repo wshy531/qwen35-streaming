@@ -1,0 +1,29 @@
+{
+  "original": "proof.json",
+  "original_bytes": 1556979,
+  "original_sha256": "5eca9089e981d733eaafde772f74e44e9a06493d101dc8f60e1408663992b4f4",
+  "encoding": "utf-8",
+  "reassemble": "concatenate exact UTF-8 piece bytes in listed order",
+  "pieces": [
+    {
+      "name": "proof.json.part001.txt",
+      "bytes": 501253,
+      "sha256": "11d1b366cb0d0bbf724411f2cac7c34b6582933294b90d3e8d5710b3599f00e9"
+    },
+    {
+      "name": "proof.json.part002.txt",
+      "bytes": 501340,
+      "sha256": "abdbbaced7ea71558eae9f2f4daad0a508608a215d44afee28f40adb0da2110a"
+    },
+    {
+      "name": "proof.json.part003.txt",
+      "bytes": 500584,
+      "sha256": "b1c7879a78dd20e512765a7e901544797a5564d90511fa64cb792203857b2ea2"
+    },
+    {
+      "name": "proof.json.part004.txt",
+      "bytes": 53802,
+      "sha256": "d67b183cf1d44f3f22dab71e6c8a3143cbb5130c07d6a787a9a5867c5b8f1274"
+    }
+  ]
+}

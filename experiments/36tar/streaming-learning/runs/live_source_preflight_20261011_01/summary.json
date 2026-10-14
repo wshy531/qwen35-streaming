@@ -1,0 +1,322 @@
+{
+  "scope": "CPU 微型随机权重：全输入接口预检，回答没有语义意义；不模拟GPU耗时 · 实时接收接口 / 接收时刻计时，非传感器曝光延迟",
+  "budget": {
+    "model_loads": 1,
+    "frames_max": 12,
+    "vision_forwards_max": 6,
+    "questions_max": 6,
+    "language_forwards_max": 114,
+    "generated_tokens_max": 96,
+    "history_tokens_max": 176,
+    "wall_seconds": 180,
+    "free_gpu_gib_min": 5.5,
+    "available_ram_gib_min": 3,
+    "precision": "fp32_ieee_math",
+    "resize": "letterbox",
+    "video_logits": "none",
+    "qa_logits": "last",
+    "playback": "clock",
+    "queue_capacity": 1,
+    "consumer_delay_seconds": 0.0,
+    "repeat_count": 1,
+    "repeat_period_seconds": null,
+    "first_qa_frames": 4
+  },
+  "counts": {
+    "vision": 6,
+    "language": 76,
+    "lm_head_rows": 68
+  },
+  "final": {
+    "received_real_frames": 12,
+    "encoded_real_frames": 12,
+    "pairs": 6,
+    "questions": 4,
+    "resets": 1,
+    "epoch": 1,
+    "generated_tokens": 64,
+    "memory_from_pts": 6.264999999999418,
+    "history_across_reset": false,
+    "last_received_id": 11,
+    "last_received_pts": 11.264999999999418,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "max_buffered_rgb_bytes": 36864,
+    "finished": true,
+    "closed": false,
+    "invalid": false,
+    "session": {
+      "accepted_frames": 6,
+      "encoded_real_frames": 6,
+      "pending_frame_id": null,
+      "last_received_id": 11,
+      "last_encoded_id": 11,
+      "last_encoded_pts": 11.264999999999418,
+      "seen_tokens": 172,
+      "next_rope_position": 52,
+      "vision_encodings": 3,
+      "pending_rgb_bytes": 0,
+      "finished": true,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    }
+  },
+  "schedule": [
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.2649999999994179,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.2649999999994179,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.2649999999994179,
+      "encoded_frames": 4,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.2649999999994179,
+      "encoded_frames": 6,
+      "seen_tokens": 171
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.2649999999994179,
+      "encoded_frames": 6,
+      "seen_tokens": 171
+    },
+    {
+      "kind": "capacity_reset",
+      "epoch": 1,
+      "memory_from_pts": 6.264999999999418,
+      "encoded_frames": 6,
+      "seen_tokens": 0
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.264999999999418,
+      "encoded_frames": 8,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.264999999999418,
+      "encoded_frames": 10,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 6.264999999999418,
+      "encoded_frames": 10,
+      "seen_tokens": 115
+    },
+    {
+      "kind": "encoded",
+      "epoch": 1,
+      "memory_from_pts": 6.264999999999418,
+      "encoded_frames": 12,
+      "seen_tokens": 172
+    },
+    {
+      "kind": "answer",
+      "epoch": 1,
+      "memory_from_pts": 6.264999999999418,
+      "encoded_frames": 12,
+      "seen_tokens": 172
+    },
+    {
+      "kind": "eof",
+      "epoch": 1,
+      "memory_from_pts": 6.264999999999418,
+      "encoded_frames": 12,
+      "seen_tokens": 172
+    }
+  ],
+  "append_including_qa_and_decode_latency": {
+    "count": 12,
+    "sum_seconds": 0.33206820000123116,
+    "max_seconds": 0.06718130000081146
+  },
+  "replay_wall_seconds": 11.343000000000757,
+  "peak_process_rss_bytes": 828841984,
+  "cross_reset_memory": false,
+  "end_to_end_speedup_proven": false,
+  "realtime": false,
+  "requested_playback": "clock",
+  "effective_playback": "live",
+  "source_fingerprint": {
+    "samples": 12,
+    "sha256": "2c6233ad3386208e72cf54aebcbbf09fcf1b6b28ba4abb547ee7a38bff6e0f6a"
+  },
+  "max_encoded_pair_gap_seconds": 1.0,
+  "answer_lags_seconds": [
+    0.06300000000192085,
+    0.06300000000192085,
+    0.06300000000192085,
+    0.06300000000192085
+  ],
+  "resource_samples": [
+    {
+      "kind": "encoded",
+      "wall_seconds": 1.2809999999990396,
+      "epoch": 0,
+      "seen_tokens": 59,
+      "session_pts": 1.264999999999418,
+      "memory_from_pts": 0.2649999999994179,
+      "rss_bytes": 821170176,
+      "ram_available_bytes": 2874748928
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 3.2809999999990396,
+      "epoch": 0,
+      "seen_tokens": 115,
+      "session_pts": 3.264999999999418,
+      "memory_from_pts": 0.2649999999994179,
+      "rss_bytes": 826277888,
+      "ram_available_bytes": 2854400000
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 3.3280000000013388,
+      "epoch": 0,
+      "seen_tokens": 115,
+      "session_pts": 3.264999999999418,
+      "memory_from_pts": 0.2649999999994179,
+      "rss_bytes": 827654144,
+      "ram_available_bytes": 2853257216
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 5.28099999999904,
+      "epoch": 0,
+      "seen_tokens": 171,
+      "session_pts": 5.264999999999418,
+      "memory_from_pts": 0.2649999999994179,
+      "rss_bytes": 828674048,
+      "ram_available_bytes": 2846478336
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 5.328000000001339,
+      "epoch": 0,
+      "seen_tokens": 171,
+      "session_pts": 5.264999999999418,
+      "memory_from_pts": 0.2649999999994179,
+      "rss_bytes": 828735488,
+      "ram_available_bytes": 2846572544
+    },
+    {
+      "kind": "capacity_reset",
+      "wall_seconds": 7.264999999999418,
+      "epoch": 1,
+      "seen_tokens": 0,
+      "session_pts": 7.264999999999418,
+      "memory_from_pts": 6.264999999999418,
+      "rss_bytes": 828747776,
+      "ram_available_bytes": 2890391552
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 7.28099999999904,
+      "epoch": 1,
+      "seen_tokens": 59,
+      "session_pts": 7.264999999999418,
+      "memory_from_pts": 6.264999999999418,
+      "rss_bytes": 828751872,
+      "ram_available_bytes": 2890403840
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 9.28099999999904,
+      "epoch": 1,
+      "seen_tokens": 115,
+      "session_pts": 9.264999999999418,
+      "memory_from_pts": 6.264999999999418,
+      "rss_bytes": 828755968,
+      "ram_available_bytes": 2894209024
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 9.328000000001339,
+      "epoch": 1,
+      "seen_tokens": 115,
+      "session_pts": 9.264999999999418,
+      "memory_from_pts": 6.264999999999418,
+      "rss_bytes": 828764160,
+      "ram_available_bytes": 2894106624
+    },
+    {
+      "kind": "encoded",
+      "wall_seconds": 11.28099999999904,
+      "epoch": 1,
+      "seen_tokens": 172,
+      "session_pts": 11.264999999999418,
+      "memory_from_pts": 6.264999999999418,
+      "rss_bytes": 828829696,
+      "ram_available_bytes": 2893312000
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 11.328000000001339,
+      "epoch": 1,
+      "seen_tokens": 172,
+      "session_pts": 11.264999999999418,
+      "memory_from_pts": 6.264999999999418,
+      "rss_bytes": 828841984,
+      "ram_available_bytes": 2910916608
+    }
+  ],
+  "synthetic_repeat": false,
+  "repeat_count": 1,
+  "repeat_period_seconds": null,
+  "playback": {
+    "produced_samples": 12,
+    "delivered_samples": 12,
+    "dropped_samples": 0,
+    "cancelled_samples": 0,
+    "buffered_samples": 0,
+    "max_buffered_samples": 1,
+    "buffered_rgb_bytes": 0,
+    "peak_buffered_rgb_bytes": 18432,
+    "finished": true,
+    "source_fingerprint": {
+      "samples": 12,
+      "sha256": "2c6233ad3386208e72cf54aebcbbf09fcf1b6b28ba4abb547ee7a38bff6e0f6a"
+    },
+    "end_reason": "frame_budget_limit",
+    "producer_alive": false,
+    "worker_alive": false,
+    "queue_capacity": 1,
+    "max_packet_rgb_bytes": 18432,
+    "timestamp_basis": "receive_monotonic",
+    "sensor_to_answer_latency_measured": false,
+    "source_kind": "synthetic",
+    "last_metadata": {
+      "kind": "frame",
+      "frame_id": 11,
+      "decoded_count": 12,
+      "timestamp": 11.264999999999418,
+      "device_pts": null,
+      "source_kind": "synthetic",
+      "timestamp_basis": "receive_monotonic"
+    },
+    "worker_torch_loaded": false
+  }
+}

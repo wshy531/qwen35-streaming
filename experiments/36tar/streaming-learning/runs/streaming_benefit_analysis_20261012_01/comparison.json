@@ -1,0 +1,1026 @@
+{
+  "scope": "Default64 same growing prefixes, two process-order pairs, warmup excluded for timing; quality comparisons include warmup",
+  "quality": {
+    "cases": 96,
+    "generated_ids_equal": 96,
+    "raw_case_comparisons": [
+      {
+        "case_id": "dog_2",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A fluffy white dog is lying on the grass.",
+        "stream": "A fluffy white dog is lying on the grass.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_4",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "stream": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_6",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "stream": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_8",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the park, sniffing around.",
+        "stream": "A fluffy white dog is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_10",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_12",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_2",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A person is seen running on a rooftop.",
+        "stream": "A person is seen running on a rooftop.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_4",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon is flying in the air.",
+        "stream": "A pigeon is flying in the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_6",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_8",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon flying through the air.",
+        "stream": "A pigeon flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_10",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_12",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_2",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A person is seen running on a rooftop.",
+        "stream": "A person is seen running on a rooftop.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_4",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon is flying in the air.",
+        "stream": "A pigeon is flying in the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_6",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_8",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon flying through the air.",
+        "stream": "A pigeon flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_10",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_12",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_2",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A fluffy white dog is lying on the grass.",
+        "stream": "A fluffy white dog is lying on the grass.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_4",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "stream": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_6",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "stream": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_8",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the park, sniffing around.",
+        "stream": "A fluffy white dog is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_10",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_12",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_2",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A fluffy white dog is lying on the grass.",
+        "stream": "A fluffy white dog is lying on the grass.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_4",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "stream": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_6",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "stream": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_8",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the park, sniffing around.",
+        "stream": "A fluffy white dog is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_10",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_12",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_2",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A person is seen running on a rooftop.",
+        "stream": "A person is seen running on a rooftop.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_4",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon is flying in the air.",
+        "stream": "A pigeon is flying in the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_6",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_8",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon flying through the air.",
+        "stream": "A pigeon flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_10",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_12",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_2",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A person is seen running on a rooftop.",
+        "stream": "A person is seen running on a rooftop.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_4",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon is flying in the air.",
+        "stream": "A pigeon is flying in the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_6",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_8",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon flying through the air.",
+        "stream": "A pigeon flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_10",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_12",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_2",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A fluffy white dog is lying on the grass.",
+        "stream": "A fluffy white dog is lying on the grass.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_4",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "stream": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_6",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "stream": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_8",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the park, sniffing around.",
+        "stream": "A fluffy white dog is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_10",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_12",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_2",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A fluffy white dog is lying on the grass.",
+        "stream": "A fluffy white dog is lying on the grass.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_4",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "stream": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_6",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "stream": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_8",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the park, sniffing around.",
+        "stream": "A fluffy white dog is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_10",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_12",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_2",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A person is seen running on a rooftop.",
+        "stream": "A person is seen running on a rooftop.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_4",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon is flying in the air.",
+        "stream": "A pigeon is flying in the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_6",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_8",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon flying through the air.",
+        "stream": "A pigeon flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_10",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_12",
+        "round": 0,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_2",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A person is seen running on a rooftop.",
+        "stream": "A person is seen running on a rooftop.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_4",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon is flying in the air.",
+        "stream": "A pigeon is flying in the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_6",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_8",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon flying through the air.",
+        "stream": "A pigeon flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_10",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_12",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_2",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A fluffy white dog is lying on the grass.",
+        "stream": "A fluffy white dog is lying on the grass.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_4",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "stream": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_6",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "stream": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_8",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the park, sniffing around.",
+        "stream": "A fluffy white dog is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_10",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_12",
+        "round": 1,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_2",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A fluffy white dog is lying on the grass.",
+        "stream": "A fluffy white dog is lying on the grass.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_4",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "stream": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_6",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "stream": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_8",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the park, sniffing around.",
+        "stream": "A fluffy white dog is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_10",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_12",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_2",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A person is seen running on a rooftop.",
+        "stream": "A person is seen running on a rooftop.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_4",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon is flying in the air.",
+        "stream": "A pigeon is flying in the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_6",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_8",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon flying through the air.",
+        "stream": "A pigeon flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_10",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_12",
+        "round": 2,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_2",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A person is seen running on a rooftop.",
+        "stream": "A person is seen running on a rooftop.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_4",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon is flying in the air.",
+        "stream": "A pigeon is flying in the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_6",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_8",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon flying through the air.",
+        "stream": "A pigeon flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_10",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "pigeon_12",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A pigeon is flying through the air.",
+        "stream": "A pigeon is flying through the air.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_2",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A fluffy white dog is lying on the grass.",
+        "stream": "A fluffy white dog is lying on the grass.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_4",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "stream": "A fluffy white dog is seen in the foreground, with a group of people in the background.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_6",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "stream": "A fluffy white dog with long ears is the main subject visible in these frames.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_8",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A fluffy white dog is seen in the park, sniffing around.",
+        "stream": "A fluffy white dog is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_10",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      },
+      {
+        "case_id": "dog_12",
+        "round": 3,
+        "equal_ids": true,
+        "original": "A white dog with long fur is seen in the park, sniffing around.",
+        "stream": "A white dog with long fur is seen in the park, sniffing around.",
+        "original_stop": "eos",
+        "stream_stop": "eos"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "dog",
+      "original_processing_median_seconds": 3.415339600000152,
+      "stream_processing_median_seconds": 4.195768850000604,
+      "stream_over_original_paired_ratio_median": 1.2034300358099377,
+      "original_decode_plus_processing_median_seconds": 4.307425250000961,
+      "stream_decode_plus_processing_median_seconds": 5.164022200000545,
+      "original_peak_allocated_gib_max": 3.2838497161865234,
+      "stream_peak_allocated_gib_max": 3.2573046684265137,
+      "original_peak_reserved_gib_max": 3.599609375,
+      "stream_peak_reserved_gib_max": 3.59765625,
+      "original_work_per_sequence": {
+        "vision": 6,
+        "language": 103,
+        "vision_patch_rows": 4032,
+        "language_prefill_tokens": 1335,
+        "language_decode_tokens": 97
+      },
+      "stream_work_per_sequence": {
+        "vision": 6,
+        "language": 110,
+        "vision_patch_rows": 1152,
+        "language_prefill_tokens": 465,
+        "language_decode_tokens": 97
+      }
+    },
+    {
+      "source": "pigeon",
+      "original_processing_median_seconds": 2.3254236499997205,
+      "stream_processing_median_seconds": 3.071355300005962,
+      "stream_over_original_paired_ratio_median": 1.300935203599383,
+      "original_decode_plus_processing_median_seconds": 3.454709300000104,
+      "stream_decode_plus_processing_median_seconds": 4.224314100005358,
+      "original_peak_allocated_gib_max": 3.283360004425049,
+      "stream_peak_allocated_gib_max": 3.2566943168640137,
+      "original_peak_reserved_gib_max": 3.599609375,
+      "stream_peak_reserved_gib_max": 3.59765625,
+      "original_work_per_sequence": {
+        "vision": 6,
+        "language": 60,
+        "vision_patch_rows": 4032,
+        "language_prefill_tokens": 1315,
+        "language_decode_tokens": 54
+      },
+      "stream_work_per_sequence": {
+        "vision": 6,
+        "language": 67,
+        "vision_patch_rows": 1152,
+        "language_prefill_tokens": 460,
+        "language_decode_tokens": 54
+      }
+    }
+  ],
+  "prefixes": [
+    {
+      "source": "dog",
+      "prefix_frames": 2,
+      "original_processing_median": 0.4064778000010847,
+      "stream_update_plus_qa_median": 0.6627376500000537,
+      "stream_update_median": 0.2415191500003857,
+      "stream_qa_after_update_median": 0.4076893500005099
+    },
+    {
+      "source": "dog",
+      "prefix_frames": 4,
+      "original_processing_median": 0.6494276000012178,
+      "stream_update_plus_qa_median": 0.774421699998129,
+      "stream_update_median": 0.12032890000045882,
+      "stream_qa_after_update_median": 0.6556891500003985
+    },
+    {
+      "source": "dog",
+      "prefix_frames": 6,
+      "original_processing_median": 0.5860499999980675,
+      "stream_update_plus_qa_median": 0.6846016499985126,
+      "stream_update_median": 0.12345369999820832,
+      "stream_qa_after_update_median": 0.5648328999996011
+    },
+    {
+      "source": "dog",
+      "prefix_frames": 8,
+      "original_processing_median": 0.5426303500007634,
+      "stream_update_plus_qa_median": 0.6646987000003719,
+      "stream_update_median": 0.12216450000050827,
+      "stream_qa_after_update_median": 0.5425341999998636
+    },
+    {
+      "source": "dog",
+      "prefix_frames": 10,
+      "original_processing_median": 0.6106034000022191,
+      "stream_update_plus_qa_median": 0.7009829000016907,
+      "stream_update_median": 0.12112390000038431,
+      "stream_qa_after_update_median": 0.5798590000013064
+    },
+    {
+      "source": "dog",
+      "prefix_frames": 12,
+      "original_processing_median": 0.6272843499991723,
+      "stream_update_plus_qa_median": 0.6986214499993366,
+      "stream_update_median": 0.12770465000176046,
+      "stream_qa_after_update_median": 0.5592329999981303
+    },
+    {
+      "source": "pigeon",
+      "prefix_frames": 2,
+      "original_processing_median": 0.38194359999943117,
+      "stream_update_plus_qa_median": 0.6048249499999656,
+      "stream_update_median": 0.2299695999990945,
+      "stream_qa_after_update_median": 0.3751418499996362
+    },
+    {
+      "source": "pigeon",
+      "prefix_frames": 4,
+      "original_processing_median": 0.36973184999988007,
+      "stream_update_plus_qa_median": 0.48151934999987134,
+      "stream_update_median": 0.12246365000100923,
+      "stream_qa_after_update_median": 0.3490134000003309
+    },
+    {
+      "source": "pigeon",
+      "prefix_frames": 6,
+      "original_processing_median": 0.37553920000027574,
+      "stream_update_plus_qa_median": 0.4797167000015179,
+      "stream_update_median": 0.11879810000027646,
+      "stream_qa_after_update_median": 0.3577752499986673
+    },
+    {
+      "source": "pigeon",
+      "prefix_frames": 8,
+      "original_processing_median": 0.36425245000100404,
+      "stream_update_plus_qa_median": 0.4425555500001792,
+      "stream_update_median": 0.11935650000123132,
+      "stream_qa_after_update_median": 0.32259329999942565
+    },
+    {
+      "source": "pigeon",
+      "prefix_frames": 10,
+      "original_processing_median": 0.4057108999986667,
+      "stream_update_plus_qa_median": 0.46623804999762797,
+      "stream_update_median": 0.11768404999929771,
+      "stream_qa_after_update_median": 0.3497059999972407
+    },
+    {
+      "source": "pigeon",
+      "prefix_frames": 12,
+      "original_processing_median": 0.4222240500002954,
+      "stream_update_plus_qa_median": 0.4772157999977935,
+      "stream_update_median": 0.11840585000027204,
+      "stream_qa_after_update_median": 0.35801044999789156
+    }
+  ],
+  "note": "No change to default model weights/kernel. CPU future frames buffered in offline benchmark, only visible prefixes input. QA-after-update timing requires video updates already finished."
+}

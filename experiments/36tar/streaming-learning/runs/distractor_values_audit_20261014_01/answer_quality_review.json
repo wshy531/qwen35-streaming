@@ -1,0 +1,884 @@
+{
+  "all_original_answers_reviewed": true,
+  "rows": [
+    {
+      "case": "development_dog_cat",
+      "condition": "all_history",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "all_history",
+      "topic": "middle_animal",
+      "raw_answer": "cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "all_history",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "other_to_recent",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "other_to_recent",
+      "topic": "middle_animal",
+      "raw_answer": "cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "other_to_recent",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "other_to_target",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "other_to_target",
+      "topic": "middle_animal",
+      "raw_answer": "cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "other_to_target",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "recent_to_other",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "recent_to_other",
+      "topic": "middle_animal",
+      "raw_answer": "A cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "recent_to_other",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "swap_other_recent",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "swap_other_recent",
+      "topic": "middle_animal",
+      "raw_answer": "A cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "swap_other_recent",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "single_old",
+      "topic": "early_animal",
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "single_old",
+      "topic": "middle_animal",
+      "raw_answer": "A cat.",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_dog_cat",
+      "condition": "single_old",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "all_history",
+      "topic": "early_animal",
+      "raw_answer": "cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "all_history",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "all_history",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "dark",
+      "target_fact_read_correctly": false,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "other_to_recent",
+      "topic": "early_animal",
+      "raw_answer": "cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "other_to_recent",
+      "topic": "middle_animal",
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "other_to_recent",
+      "topic": "early_coat",
+      "raw_answer": "dark-colored",
+      "interpretation": "dark",
+      "target_fact": "dark",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "other_to_target",
+      "topic": "early_animal",
+      "raw_answer": "cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "other_to_target",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "other_to_target",
+      "topic": "early_coat",
+      "raw_answer": "dark-colored",
+      "interpretation": "dark",
+      "target_fact": "dark",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "recent_to_other",
+      "topic": "early_animal",
+      "raw_answer": "A cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "recent_to_other",
+      "topic": "middle_animal",
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "recent_to_other",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "dark",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "swap_other_recent",
+      "topic": "early_animal",
+      "raw_answer": "cat",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "swap_other_recent",
+      "topic": "middle_animal",
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "swap_other_recent",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "dark",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "single_old",
+      "topic": "early_animal",
+      "raw_answer": "A cat.",
+      "interpretation": "cat",
+      "target_fact": "cat",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "single_old",
+      "topic": "middle_animal",
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "development_cat_dog",
+      "condition": "single_old",
+      "topic": "early_coat",
+      "raw_answer": "dark-colored",
+      "interpretation": "dark",
+      "target_fact": "dark",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "all_history",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "all_history",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "all_history",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "other_to_recent",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "other_to_recent",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "other_to_recent",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "other_to_target",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "other_to_target",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "other_to_target",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "recent_to_other",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "recent_to_other",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "recent_to_other",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "swap_other_recent",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "swap_other_recent",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "swap_other_recent",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "single_old",
+      "topic": "early_animal",
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "single_old",
+      "topic": "middle_animal",
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "condition": "single_old",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "light",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "all_history",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "all_history",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "all_history",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "dark",
+      "target_fact_read_correctly": false,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "other_to_recent",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "other_to_recent",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "other_to_recent",
+      "topic": "early_coat",
+      "raw_answer": "dark-colored",
+      "interpretation": "dark",
+      "target_fact": "dark",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "other_to_target",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "other_to_target",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "other_to_target",
+      "topic": "early_coat",
+      "raw_answer": "dark-colored",
+      "interpretation": "dark",
+      "target_fact": "dark",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "recent_to_other",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "recent_to_other",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "recent_to_other",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "dark",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "swap_other_recent",
+      "topic": "early_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "swap_other_recent",
+      "topic": "middle_animal",
+      "raw_answer": "dog",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "swap_other_recent",
+      "topic": "early_coat",
+      "raw_answer": "light-colored",
+      "interpretation": "light",
+      "target_fact": "dark",
+      "target_fact_read_correctly": false,
+      "artificial_context": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "single_old",
+      "topic": "early_animal",
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "target_fact": "cat",
+      "target_fact_read_correctly": false,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "single_old",
+      "topic": "middle_animal",
+      "raw_answer": "A dog.",
+      "interpretation": "dog",
+      "target_fact": "dog",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "condition": "single_old",
+      "topic": "early_coat",
+      "raw_answer": "dark-colored",
+      "interpretation": "dark",
+      "target_fact": "dark",
+      "target_fact_read_correctly": true,
+      "artificial_context": false,
+      "stop_reason": "eos"
+    }
+  ],
+  "metrics": {
+    "all_history": {
+      "target_checks_correct": 8,
+      "related_checks": 12
+    },
+    "other_to_recent": {
+      "target_checks_correct": 10,
+      "related_checks": 12
+    },
+    "other_to_target": {
+      "target_checks_correct": 10,
+      "related_checks": 12
+    },
+    "recent_to_other": {
+      "target_checks_correct": 8,
+      "related_checks": 12
+    },
+    "swap_other_recent": {
+      "target_checks_correct": 8,
+      "related_checks": 12
+    },
+    "single_old": {
+      "target_checks_correct": 10,
+      "related_checks": 12
+    }
+  },
+  "semantic_changes_from_full_baseline": {
+    "all_history": [],
+    "other_to_recent": [
+      {
+        "case": "development_cat_dog",
+        "topic": "early_coat",
+        "baseline_answer": "light-colored",
+        "new_answer": "dark-colored",
+        "correct_after": true
+      },
+      {
+        "case": "confirmation_cat_dog",
+        "topic": "early_coat",
+        "baseline_answer": "light-colored",
+        "new_answer": "dark-colored",
+        "correct_after": true
+      }
+    ],
+    "other_to_target": [
+      {
+        "case": "development_cat_dog",
+        "topic": "early_coat",
+        "baseline_answer": "light-colored",
+        "new_answer": "dark-colored",
+        "correct_after": true
+      },
+      {
+        "case": "confirmation_cat_dog",
+        "topic": "early_coat",
+        "baseline_answer": "light-colored",
+        "new_answer": "dark-colored",
+        "correct_after": true
+      }
+    ],
+    "recent_to_other": [],
+    "swap_other_recent": [],
+    "single_old": [
+      {
+        "case": "development_cat_dog",
+        "topic": "early_coat",
+        "baseline_answer": "light-colored",
+        "new_answer": "dark-colored",
+        "correct_after": true
+      },
+      {
+        "case": "confirmation_cat_dog",
+        "topic": "early_coat",
+        "baseline_answer": "light-colored",
+        "new_answer": "dark-colored",
+        "correct_after": true
+      }
+    ]
+  },
+  "synthetic_context_scores_are_not_history_accuracy": true,
+  "limits": [
+    "Same known cases/questions; all intervention choices fixed before answers.",
+    "Real feature-vector replacements change multiple visual/semantic attributes, not coat color alone.",
+    "No specific layer or attention mechanism identified.",
+    "Synthetic duplicates/reordered evidence are diagnosis, not proposed storage policy.",
+    "Single48 is unmatched length reference; fixed-layout causal comparisons only use full144 arms."
+  ]
+}

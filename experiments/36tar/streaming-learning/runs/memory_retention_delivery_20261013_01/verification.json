@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "cpu_policy_tests": 5,
+  "real_source_frames": 48,
+  "sources": 3,
+  "tiny_controls": 2,
+  "gpu_loads": 0,
+  "core_unchanged": true,
+  "default_unchanged": true,
+  "total_coverage_increase": false,
+  "recent_coverage_loss_reported": true,
+  "capsule_bytes": 20339838,
+  "media_or_tensor_copied": false
+}

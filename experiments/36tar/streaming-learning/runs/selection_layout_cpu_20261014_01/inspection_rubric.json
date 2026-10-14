@@ -1,0 +1,34 @@
+{
+  "saved_before_gpu": true,
+  "truth": {
+    "video_cat": {
+      "coat": "dark",
+      "subject": "cat"
+    },
+    "black_photo": {
+      "coat": "dark",
+      "subject": "cat"
+    },
+    "light_photo": {
+      "coat": "light",
+      "subject": "cat"
+    }
+  },
+  "photo_sha256": {
+    "black_photo_contact.jpg": "f0f86ff463dac88b4accd5ebb5dc46f9b7495207ab69e7ae2912490f1f10255c",
+    "light_photo_contact.jpg": "6e6da1dc458951654084f0c218048fb87666701d5de9c371a02f9458df93ea6c",
+    "video_cat_contact.jpg": "8ea8474bda3b832492f9ecfb180af34566100b5af173530fba9faa868b516c79"
+  },
+  "source_sha256": {
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+    "E:\\VIT Model\\datasets\\coat_controls_v1\\black_cat.jpg": "c79eb65d3167fa2c1a6723bf1573fc3fc7bc9b1477dffb21c5c29641ba7d6380",
+    "E:\\VIT Model\\datasets\\coat_controls_v1\\light_cat.jpg": "bac28217d038a2b8ee14eb00cdfd964bb08af5ae5ca24253cb8ec0b4a65cf350"
+  },
+  "manual_view": "Exact input pixel identity and identical contact-sheet bytes transferred from inspected GPU91 controls; no new media.",
+  "limits": [
+    "New pair uses repeated static photos, not natural motion.",
+    "Different poses/backgrounds, not isolated recoloring.",
+    "Binary coat question allows guessing; subject checked separately.",
+    "First-grid intervention changes applied positions, not original provenance."
+  ]
+}

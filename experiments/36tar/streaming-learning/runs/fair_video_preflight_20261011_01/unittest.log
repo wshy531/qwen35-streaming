@@ -1,0 +1,15 @@
+test_answer_without_backing_pair_rejected (tests.test_fair_inputs.FairInputTests.test_answer_without_backing_pair_rejected) ... ok
+test_duplicate_or_oversized_selection_rejected (tests.test_fair_inputs.FairInputTests.test_duplicate_or_oversized_selection_rejected) ... ok
+test_empty_full_input_rejected (tests.test_fair_inputs.FairInputTests.test_empty_full_input_rejected) ... ok
+test_eof_padding_not_counted_as_real_frame (tests.test_fair_inputs.FairInputTests.test_eof_padding_not_counted_as_real_frame) ... ok
+test_first_answer_does_not_include_later_frames (tests.test_fair_inputs.FairInputTests.test_first_answer_does_not_include_later_frames) ... ok
+test_landscape_and_odd_eof_inputs_exact (tests.test_fair_inputs.FairInputTests.test_landscape_and_odd_eof_inputs_exact) ... ok
+test_no_answer_rejected (tests.test_fair_inputs.FairInputTests.test_no_answer_rejected) ... ok
+test_portrait_nonuniform_time_inputs_exact (tests.test_fair_inputs.FairInputTests.test_portrait_nonuniform_time_inputs_exact) ... ok
+test_reset_excludes_prior_epoch (tests.test_fair_inputs.FairInputTests.test_reset_excludes_prior_epoch) ... ok
+test_template_control_question_rejected (tests.test_fair_inputs.FairInputTests.test_template_control_question_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.363s
+
+OK

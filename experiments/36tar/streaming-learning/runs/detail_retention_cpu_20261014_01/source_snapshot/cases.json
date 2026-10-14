@@ -1,0 +1,44 @@
+{
+  "threshold": 0.047536224126815796,
+  "pairs": [
+    {
+      "id": "development",
+      "prefix": {
+        "dog": 12,
+        "cat": 0
+      }
+    }
+  ],
+  "suffix": {
+    "source": "clean_hands",
+    "start": 6,
+    "frames": 12
+  },
+  "early_question": "Name the animal visible at the beginning of the video.",
+  "single_question": "Name the main visible animal in these frames.",
+  "segment_question": "Name the animal visible during the first 0.0-3.0 seconds.",
+  "labels_not_supplied_to_model": true,
+  "source_reuse_and_synthetic_session_time": true,
+  "merge_prefix_pairs": [
+    2,
+    4,
+    6,
+    7
+  ],
+  "question": "Name the animal visible during the first 0.0-3.0 seconds.",
+  "candidate": "balanced adjacent merge schedule, same 48 old tokens, only if raw strict pair passes and compressed fails",
+  "detail_questions": [
+    {
+      "id": "coat",
+      "text": "Is the animal's coat mostly light-colored or mostly dark-colored during the first 0.0-3.0 seconds? Answer light or dark."
+    },
+    {
+      "id": "surface",
+      "text": "Is the ground beneath the animal grass or pavement during the first 0.0-3.0 seconds? Answer grass or pavement."
+    },
+    {
+      "id": "people",
+      "text": "Are any people visible behind the animal during the first 0.0-3.0 seconds? Answer yes or no."
+    }
+  ]
+}

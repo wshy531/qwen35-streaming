@@ -1,0 +1,25 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 8134.70it/s]
+{"event": "encoded", "timestamp": 1.001, "memory_from": 0.0, "answer": null}
+{"event": "encoded", "timestamp": 3.003, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 3.003, "memory_from": 0.0, "answer": "1"}
+{"event": "encoded", "timestamp": 5.005, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 5.005, "memory_from": 0.0, "answer": "1"}
+{"event": "capacity_reset", "timestamp": 7.007, "memory_from": 6.006, "answer": null}
+{"event": "encoded", "timestamp": 7.007, "memory_from": 6.006, "answer": null}
+{"event": "encoded", "timestamp": 9.009, "memory_from": 6.006, "answer": null}
+{"event": "answer", "timestamp": 9.009, "memory_from": 6.006, "answer": "1"}
+{"event": "encoded", "timestamp": 11.011, "memory_from": 6.006, "answer": null}
+{"event": "answer", "timestamp": 11.011, "memory_from": 6.006, "answer": "1"}
+{"event": "capacity_reset", "timestamp": 13.013, "memory_from": 12.012, "answer": null}
+{"event": "encoded", "timestamp": 13.013, "memory_from": 12.012, "answer": null}
+{"event": "encoded", "timestamp": 15.015, "memory_from": 12.012, "answer": null}
+{"event": "answer", "timestamp": 15.015, "memory_from": 12.012, "answer": "1"}
+{"event": "encoded", "timestamp": 17.017, "memory_from": 12.012, "answer": null}
+{"event": "answer", "timestamp": 17.017, "memory_from": 12.012, "answer": "2"}
+{"event": "capacity_reset", "timestamp": 19.019, "memory_from": 18.018, "answer": null}
+{"event": "encoded", "timestamp": 19.019, "memory_from": 18.018, "answer": null}
+{"event": "encoded", "timestamp": 21.021, "memory_from": 18.018, "answer": null}
+{"event": "answer", "timestamp": 21.021, "memory_from": 18.018, "answer": "2"}
+{"event": "encoded", "timestamp": 22.022, "memory_from": 18.018, "answer": null}
+{"event": "eof", "timestamp": 22.022, "memory_from": 18.018, "answer": null}

@@ -1,0 +1,40 @@
+{
+  "Passed": true,
+  "CacheFiles": [
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__pycache__\\__init__.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__pycache__\\configuration_qwen3_5.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__pycache__\\modeling_qwen3_5.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\__init__.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\baseline.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\chunk_weight_check.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\fp32_regression.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\online_experiment.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\pair_demo.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\precision_fullmodel.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__\\precision_layers.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__\\__init__.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__\\demo.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__\\hybrid.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__\\inputs.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__\\online.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__\\preprocessing.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__\\window.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\__pycache__\\experiment.cpython-312.pyc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\__pycache__\\features.cpython-312.pyc"
+  ],
+  "CacheDirectories": [
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__pycache__",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\__pycache__"
+  ],
+  "EmptyTemporaryDirectories": [
+    "E:\\VIT Model\\runs\\visual_memory_cpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\visual_memory_gpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\feature_window_cpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\feature_window_gpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\tiered_memory_cpu_20261013_01\\tmp",
+    "E:\\VIT Model\\runs\\tiered_memory_gpu_20261013_01\\tmp"
+  ],
+  "Scope": "Only this inspection-generated pyc and verified empty current-run tmp; no recursive delete or old evidence removal"
+}

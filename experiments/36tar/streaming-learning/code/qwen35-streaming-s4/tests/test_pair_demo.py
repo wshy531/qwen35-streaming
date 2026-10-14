@@ -34,6 +34,42 @@ class DemoTests(unittest.TestCase):
         session = OnlinePairSession(self.model, self.processor, canvas=(32, 32), max_tokens=max_tokens)
         return PairDemo(session, "Name the subject.", 2, self.events.append)
 
+    def test_generic_single_frame_eof_can_answer_custom_question(self):
+        self.demo.close()
+        self.events.clear()
+        session = OnlinePairSession(self.model,self.processor,canvas=(32,32),max_answer_tokens=2,
+                                    resize_mode="letterbox",video_logits="none")
+        self.demo = PairDemo(session,"What is visible?",2,self.events.append,first_qa_frames=1)
+        self.demo.append(packet(7,timestamp=2.5))
+        self.demo.finish()
+        self.assertEqual(self.demo.received,1)
+        self.assertEqual(self.demo.questions,1)
+        self.assertEqual(self.demo.memory_from_pts,2.5)
+        answer = next(e for e in self.events if e["kind"] == "answer")
+        self.assertEqual(answer["answer"]["question"],"What is visible?")
+        self.assertEqual(answer["status"]["memory_from_pts"],2.5)
+
+    def test_skipped_source_frames_preserve_actual_pts_and_qa_context(self):
+        for i in (0,5,10,15):
+            self.demo.append(packet(i))
+        self.assertEqual(self.demo.received,4)
+        self.assertEqual(self.demo.session.ledger[-1]["timestamps"],[10.,15.])
+        self.assertEqual(self.demo.status()["memory_from_pts"],0.)
+        answer = next(e for e in self.events if e["kind"] == "answer")
+        self.assertEqual(answer["answer"]["timestamp"],15.)
+        self.assertEqual(answer["answer"]["frame_id"],15)
+
+    def test_capacity_reset_exposes_new_memory_origin(self):
+        self.limited()
+        for i in range(6):
+            self.demo.append(packet(i,timestamp=float(i)+10))
+        resets = [e for e in self.events if e["kind"] == "capacity_reset"]
+        self.assertGreaterEqual(len(resets),1)
+        for event in resets:
+            self.assertEqual(event["status"]["memory_from_pts"],event["retained_frame_ids"][0]+10.)
+        self.assertEqual(self.demo.status()["memory_from_pts"],14.)
+        self.assertFalse(self.demo.status()["history_across_reset"])
+
     def limited(self):
         builder = PairInputBuilder(self.processor, (32, 32))
         sizes = [builder.pair(packet(i), packet(i + 1), 0, 0)[0].input_ids.shape[1] for i in (0, 2)]

@@ -1,0 +1,1126 @@
+{
+  "passed": true,
+  "cpu_tests": 9,
+  "input_frames": [
+    {
+      "session_frame_id": 0,
+      "session_pts": 0.0,
+      "source_id": "dog",
+      "source_frame_id": 300,
+      "source_pts": 12.0,
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "source_rgb_sha256": "35e4972ebe6142c2ff2f72290805170d8be154648bada46266de22572ff54dca",
+      "canvas_rgb_sha256": "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525"
+    },
+    {
+      "session_frame_id": 1,
+      "session_pts": 1.0,
+      "source_id": "dog",
+      "source_frame_id": 325,
+      "source_pts": 13.0,
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "source_rgb_sha256": "c3bfd710f7240c703d567bf84819060de22adb1fe3459278f20f74fb303b6995",
+      "canvas_rgb_sha256": "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+    },
+    {
+      "session_frame_id": 2,
+      "session_pts": 2.0,
+      "source_id": "dog",
+      "source_frame_id": 350,
+      "source_pts": 14.0,
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "source_rgb_sha256": "274d7fdbe62164d04968b0ca96c193aabd3a454be3a15fe2fa545c390adcc997",
+      "canvas_rgb_sha256": "203595cc17c04a4b016956d42e944eb9d67fa66d5a19b52f9035c9273944681e"
+    },
+    {
+      "session_frame_id": 3,
+      "session_pts": 3.0,
+      "source_id": "dog",
+      "source_frame_id": 375,
+      "source_pts": 15.0,
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "source_rgb_sha256": "d69324ad19a829c051ed31692085fe5e04edf4cefe3ee4b6152429135a41e91d",
+      "canvas_rgb_sha256": "077365cddfe7974942c03b6e7751996b1083b620b83a774904bdf1cf3797f903"
+    },
+    {
+      "session_frame_id": 4,
+      "session_pts": 4.0,
+      "source_id": "pigeon",
+      "source_frame_id": 0,
+      "source_pts": 0.0,
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "source_rgb_sha256": "40db920c6359ca15901463899a56698456290b46a8f55ee8c7b7f0f5e722a03d",
+      "canvas_rgb_sha256": "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188"
+    },
+    {
+      "session_frame_id": 5,
+      "session_pts": 5.0,
+      "source_id": "pigeon",
+      "source_frame_id": 30,
+      "source_pts": 1.001,
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "source_rgb_sha256": "e7f0528cd5d5212169bd0cb12c4fba4aa23d202a18fb95c54a0a6d709b38e668",
+      "canvas_rgb_sha256": "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+    },
+    {
+      "session_frame_id": 6,
+      "session_pts": 6.0,
+      "source_id": "pigeon",
+      "source_frame_id": 60,
+      "source_pts": 2.002,
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "source_rgb_sha256": "1eb78d5b9e78ee87b527c3ec6a8a307df36adaaf282701e9b1fab8837d76c255",
+      "canvas_rgb_sha256": "99b19c65386da04e8ff5461be63f41547667ced361e8d51757596b105e28d081"
+    },
+    {
+      "session_frame_id": 7,
+      "session_pts": 7.0,
+      "source_id": "pigeon",
+      "source_frame_id": 90,
+      "source_pts": 3.003,
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "source_rgb_sha256": "22b64cbaa61d6b7d48ba4aa783bd835476ae25fcd529e3eb0343a3a2add10ae6",
+      "canvas_rgb_sha256": "26bf6b700ec8540b675f38b56288e282c119f4dc45ed28294f2f38fe5d273eab"
+    },
+    {
+      "session_frame_id": 8,
+      "session_pts": 8.0,
+      "source_id": "cat",
+      "source_frame_id": 0,
+      "source_pts": 0.0,
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+      "canvas_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a"
+    },
+    {
+      "session_frame_id": 9,
+      "session_pts": 9.0,
+      "source_id": "cat",
+      "source_frame_id": 30,
+      "source_pts": 0.9999999999999999,
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+      "canvas_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+    },
+    {
+      "session_frame_id": 10,
+      "session_pts": 10.0,
+      "source_id": "cat",
+      "source_frame_id": 60,
+      "source_pts": 2.0,
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "source_rgb_sha256": "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+      "canvas_rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50"
+    },
+    {
+      "session_frame_id": 11,
+      "session_pts": 11.0,
+      "source_id": "cat",
+      "source_frame_id": 90,
+      "source_pts": 3.0,
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "source_rgb_sha256": "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+      "canvas_rgb_sha256": "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7"
+    }
+  ],
+  "layout": [
+    {
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "input_ids": [
+        27,
+        15,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "pixel_sha256": "a981672d1a46441dd1e7546464213decf806f74267d9fbc4abb31572023020d7"
+    },
+    {
+      "frame_ids": [
+        2,
+        3
+      ],
+      "timestamps": [
+        2.0,
+        3.0
+      ],
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "input_ids": [
+        27,
+        17,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "pixel_sha256": "de3cd285a3673ccbf60bd8b892b27d5d7aa7b9515d46bb5fc86a322cc78e9ba6"
+    },
+    {
+      "frame_ids": [
+        4,
+        5
+      ],
+      "timestamps": [
+        4.0,
+        5.0
+      ],
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "input_ids": [
+        27,
+        19,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "pixel_sha256": "34db8d5aaff85f4f13e21059ee9e2e988e0afdfdd19d576d4080b143dc36f3ea"
+    },
+    {
+      "frame_ids": [
+        6,
+        7
+      ],
+      "timestamps": [
+        6.0,
+        7.0
+      ],
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "input_ids": [
+        27,
+        21,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "pixel_sha256": "2918cee46769a4675bdfdd540fab2fdf14c413694f196a715c7d827663ae133e"
+    },
+    {
+      "frame_ids": [
+        8,
+        9
+      ],
+      "timestamps": [
+        8.0,
+        9.0
+      ],
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "input_ids": [
+        27,
+        23,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "pixel_sha256": "dc788ee2fb65727366161abfea071b92c7e2135ef7c7c16e13a3a99f2e78fcc1"
+    },
+    {
+      "frame_ids": [
+        10,
+        11
+      ],
+      "timestamps": [
+        10.0,
+        11.0
+      ],
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "input_ids": [
+        27,
+        16,
+        15,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "pixel_sha256": "3db0cbb256bff4210c2e756e39c7e6cbafd33aaf53918ce6859a89c619bcdd7f"
+    }
+  ],
+  "request": {
+    "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B"
+  },
+  "budget": {
+    "model_loads": 1,
+    "vision_max": 6,
+    "questions_max": 18,
+    "generated_max": 576,
+    "language_max": 610,
+    "answer_tokens": 32,
+    "max_tokens": 512,
+    "wall_seconds": 360,
+    "ram_min_gib": 3,
+    "gpu_free_min_gib": 5.5,
+    "conversion_free_min_gib": 2,
+    "owned_control_tensor_bytes_max": 8388608,
+    "short_long_tokens_max": 144,
+    "short_long_feature_bytes_max": 589824,
+    "precision": "fp32_ieee_math",
+    "questions": [
+      "Name the animal visible at the beginning.",
+      "Name the animal visible most recently.",
+      "List the animals in order of first appearance."
+    ],
+    "input": "12 controlled frames, synthetic session PTS"
+  },
+  "source_hashes": {
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\modeling_qwen3_5.py": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__init__.py": "86dfb66a6285dc8b962b9e4ede5fde54115da09f79f552083e9d53fa9fe45280",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\action_ablation.py": "c6d88d92fda2163fa88ddaf9d1828550b312e17fd4e1c47bebdb02f0c90a6f6f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\baseline.py": "6675b088761705a9f98c349fbdbf02e52344a595fa7f500b4274d0594cf019c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\capture_worker.py": "9b18ec6b211d6c097be9396c288b11b781e1168aa5873bd41e79d5db92588783",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_experiment.py": "b90d12682b6f07e995dd7611e34e0dc2f95047b88085bcb8a47a8ec685ea13fa",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_interleaved.py": "66ced70ccb9543a38fc76b1308a313bc305dbfa813e81cbbaec72559a11ff92d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_size_probe.py": "60a1d6522f2524dbc3a161609b595cfd315e04fe530e507fcacb48e94cbb036d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\chunk_weight_check.py": "8b59e8486930d669a9ffe0969856718904e317a2e3ad778b887d921a7a130150",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\equal_tail_control.py": "3efa096f560f0ab8cf34de400c5478c70ac2563fbf0aaa5ce2cc5f3f9b1c1b03",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\fair_video.py": "0ef56870d606b5a4609ba49d1a9486d89c2a30a1c0dd2f25ec3926941e63cd2f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\four_frame_online.py": "d7fdc2683150ffddf26a2d3d872897f304b0c3065106fc50f05cd028f110d29e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\fp32_regression.py": "9e51af60930ee768e03d9640a69d62bf988811f6f9ecc8c6fbcb63a2869fa800",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\live_demo.py": "156acd9282fe3cfcae73ef2f10c4db972134c4855e145b78d2c3870a67b858a2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\natural_experiment.py": "1798ee86298933b61b676e08f231743339ccedc35a10ad71e9b182cb6ca6a10d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\online_experiment.py": "73bb944e4b2f3ed4e4574d6ccba454be0e897d31ee08b9af55f4438e22d498dd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\original_first_control.py": "6330d36b79e6a617aee40060fc03e4943b61c8afe2f7b012571b47927a5bcb8e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\pair_demo.py": "e0f91a107dcd48914e6685695c603da1509ab8e71050e403ddf52488feea5c91",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_diagnostic_cpu.py": "88e24629aaf7f9e421b0a4017119053e24c16b114810bf124fbc22e2ed260499",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_fullmodel.py": "c0b1071e841d1e1c827b31bbb67c2626d05c1bd77fd96df960f31a157dbaa0c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_layers.py": "7565f280d28d170b51ff45696b390004642cddf9d106b64840c12bdeedae0d7b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\precision_recurrence_cpu.py": "8ab627f4846f935d71d6ad86831777a0054eefd757c38043077958942f864694",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\prefix_first_control.py": "1c891a0a0f500707c61c1f27ecde374cba9ade45d17a39bda7c3640bae95404b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\protocol_capability_control.py": "0e3fa348e385224bde781c9f40fd409d3b28c9c3c1b64f315b6b97db92320f3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\qkv_replay.py": "1a9338dbcfd2423674b22e4493fa5cbc0e4041072227df55a4160accde184f77",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\sampling_stability.py": "20cc2e20cc13b9ab1909c2d4acf3d3a5f9e73c80d151c39f5abf3de6e074cc23",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\scene_pair_control.py": "b6ded03977ffeca4d3e1478d265411e7ca492fa9f2076b66c6f79b7fc8d56037",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\shared_features_control.py": "e15759d9d927b7384e9a09cd79a05a47a550a692d06519a4b65beb1e7e68c26e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\smoke_test.py": "d5cc3173daf4cd1fafb5cd881968b8de11cb4c98075dbdb171c49cf3c4624b3c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\stability_experiment.py": "620e59416873b5f894dc4e15b9002fe9fb644a0f56f8c2e1321c18cac53a1afd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\stage_timing.py": "6b04038281fe56e6c661ec5f0456892b7a1c579e0ea7ed951584040c0ded2eaf",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\timeline_reference.py": "b97ef089a60f32155b79c27b6e13373d5ff3e65dcdc75efe7f62a17878a9b217",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\timestamp_diagnostic.py": "f0070d3d52a03e2d40499db69f96b205a19894d715422879d2b24f6a9807ec6f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\video_demo.py": "c2ac712da201a1624c843188002f4e454c8e6e0bc93b06e22ea571a011b0601e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_expand.py": "4d703213a1680da0bc746123a41b3595ad04ea77f4ac98294452658d8d44c561",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_control.py": "d5639c805f91002a8c533ad9962da9a3011aacc5721e5fd0fb37fd83ca396a4f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_online.py": "99a212591ab8c19e18498368b8561a4ad5c7c52befb880729c5f5c0bacda9474",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_fixed_units.py": "367dfad3699e064fd844d68304191067b447f8a66063879ce56208dcf842d205",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\vision_trace.py": "e5ce68b266a2de0806293f68d29a7ff0d822f5ea7eaeaf83411ebbbb6a82478e",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\window_experiment.py": "589e95f20eb3fb947aef33d0ab78624d69fa96d67bb05e28066f3b3c3ec72c62",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__init__.py": "16795d71ce6a13c2d34275576d369c83e7ae791940b898dd42eaa3e47a38db23",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\action_inputs.py": "1235ae932233446c63fdf422fdcda26b7c83556c037e638dc3577d9fad8e53e0",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\demo.py": "c1f1367be18698be06cbb7f4d316b08595880b4a67c399299a7813aeccb909a7",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\fair_inputs.py": "eb5a0bc03bcef1f12ec3ce3328bc0a2c9fc7baf1f9ceef9fb2b8ff66f3317814",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\frame_memory.py": "d0712c3304763ef199dc92e4bebafef6d389bcfb0d55139e2495f54475314767",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\hybrid.py": "86bb4855fa4af51e3f35ccb529684c6cfe4bc6e092f64a9c8b9777f73d69460a",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\inference.py": "e5335712202fc13432bcc574d919f2387fc814cde28ae80abbc5e1f0a5621d24",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\inputs.py": "aaa98fcb49801c6e09df2bb9743cbd20992bae25110c8325bd3f69a112e54c45",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\live_source.py": "7bc13a3f270ae82762dd846ffdd2dd3cb037c1da8eccefdd95fc34625fa125c6",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\online.py": "90732e09495eee295175f9861cbd5030c659432588669472a2a7ef44e3ea47a9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\playback.py": "90952c39450f764df64dafdf5962c3c02fb4ff0c047d32e0e7868fdec28ee32c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\preprocessing.py": "361bfd6aafcf8b1a8b84f823dba9e358a9dc526f848df9005011bb039ca60343",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\remembering.py": "ea89926e6da2cdd7106e690dfa17838b7b6c9254c063dea328a1b38b84a8b5b3",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\repeat_source.py": "7be2ae0aa593ffc03c914748378778871eadfd6f1dbf4f865413109142868e6d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\sampling_inputs.py": "b2fe76308f4e8da0bc46f06df7cf67636813fa647bc31692fe76aa8d8b4d056f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\session.py": "12e06e161593d94ce9c9422df8627c8bfb440a0c255216f526b8e1b9ad7bb8f9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\timeline_inputs.py": "6f181d29dda85f5913dddd80b966a208a2f12e8a9bcac6049acd7ed40b10a978",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\viewer.py": "5ba3e6c21fcbe4b103dfaf6bbbab107b1d106e8387e16f6abfc3b5fcbc0ee8d1",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\window.py": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_action_inputs.py": "48e40fee55382c8af5301fd29c3e302f2d843b0cf597977b290ce468dac55d1f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_fair_inputs.py": "bc8d1fb3d8d11c1b7d4b14dd25c4323b75bf1915fbeaa455179d3b1909635d87",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_frame_memory.py": "67a9097928aabf4909100faa21505165d61f1500e6bd3f0611f91ecf2e1fb8dd",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_history_demo.py": "3975e044182a3b6d2b39aac7c272d42b752846ab9e3ebed858f397ee8809a7d2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_history_trigger.py": "a7af0e4c2adf5a7724bac1f8cefc5491c94500572f2e5da3bb8acfe58de4fc15",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_live_source.py": "a82f5378880463429413924a8e991ab10ab62721f86264a4f3ca10ab786c7fd2",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_local_model.py": "1deeb001e7bca335fe0b786c0f548543b4386079b6d29926525f5d110e64c24d",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_mixed_state.py": "b63e6a5609ea497fe4f47fd8bf2cb037837d6da1997560d7f87254558575d7e8",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_online.py": "51843548f47f1d3251da06006f8f18a8dc66d7ffc5d2765f8bbec5c99020e4f9",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_pair_demo.py": "49d16e208b464d342508672ea8f91ec794b7fa2c6399c172793f3b947222d0cc",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_playback.py": "1e2d68ce6ec15005a1651f9014212846d088e3e04921b2aa5dfd003b2094a8c1",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_recurrent_reference.py": "bab4cb398797ecd80a4d1b9e050afb44f4f55238baa19648521887c6ee4ed51c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_repeat_source.py": "880d224c0d7957d03e3088c70742e95a83fdef68fdc217a1581a0bf1c6dfa115",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_sampling_inputs.py": "74b34be15fea7acdbbb3d08b7defe83f21e22cb70ac8e299c4b14bca1325e09c",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_stream_session.py": "8f0af36ce5a81ddca526d44fd0772d52b205abde68fa0d4022d1fe902b7be792",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_stream_window.py": "94de80f03e6413a386be82cc84b0716474fdb535d7c8af209b3b1b6132a5e0a4",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_timeline_inputs.py": "0dfbd40dceead971120a1109fdb26ac989f0bd11dccd488ce803f2cdca8ed451",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\test_video_demo.py": "d24cb9085a550a19bfd9ef3fd37e69a1b8fa490ea81f0414850c0a0fdb89006b",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\experiment.py": "b3af6684eed663f8f4727fc5c51969d4837df37bf4bc82202d994b394926869f",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\features.py": "de649c69a8275986027b8acb33a011021cf7fbbfad805c70323dc3ce593a6a97",
+    "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\diagnostics\\visual_memory_v1\\run_experiment.py": "3f1dde6b3f388499c3e9660229b9f1b4b40bc6bfe767dacc5702cc959ea93b3b",
+    "@plan": "b7acaa3a81fe9b783e77bf45c1a2599a8ef087236a8ca5d4e6583a4215e9a844",
+    "@cases": "64efb755845cf7be3c3e92f1bfa23cf28452d5d40dfa5677cd4401519e7c60a1",
+    "@pinned_manager": "de35e0119e9ff76052030aefceba2afb8e8483184eb555a857d72d2fc75be58f"
+  },
+  "source_assets": {
+    "E:\\VIT Model\\datasets\\general_stream_v1\\dog.webm": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+    "E:\\VIT Model\\datasets\\general_stream_v1\\pigeon.webm": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32"
+  },
+  "model_manifest_sha256": "ce253046bee623ed9a0cc4cdc0c669e9f0ea2c9e21370b4aaaa626931c86de02",
+  "assets": [
+    {
+      "name": "chat_template.jinja",
+      "bytes": 7755,
+      "sha256": "273D8E0E683B885071FB17E08D71E5F2A5DDFB5309756181681DE4F5A1822D80",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "config.json",
+      "bytes": 2907,
+      "sha256": "B90B86F35C8E6925EF74EE04D0E758F0A845C83A42089AD82BBAA948DE9B4204",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "merges.txt",
+      "bytes": 3353259,
+      "sha256": "A9D356D7BDF1EF4949E3E748E95B8E10AD9D4E2E838EDDC38A0A7B6B94D1DB8D",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "model.safetensors.index.json",
+      "bytes": 50900,
+      "sha256": "D8A08838A613B025EB7952ED9DB11696213E57E76A375661EF5C12F9DD5DCF4E",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450AC9C6529872EE1924FCB0962FF5634834F817040F444118116F4E516",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "tokenizer_config.json",
+      "bytes": 16709,
+      "sha256": "49E2B6E395F959F077F1E992B338919C0D4A9732FC6E613995E06557F843500C",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "tokenizer.json",
+      "bytes": 12807982,
+      "sha256": "5F9E4D4901A92B997E463C1F46055088B6CCA5CA61A6522D1B9F64C4BB81CB42",
+      "expected_lfs_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+    },
+    {
+      "name": "video_preprocessor_config.json",
+      "bytes": 385,
+      "sha256": "7768AF27C1FAFA9CC9011C1DC20067E03F8915E03B63504550E11D5066986D13",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "vocab.json",
+      "bytes": 6722759,
+      "sha256": "CE99B4CB2983D118806CE0A8B777A35B093E2000A503EBDE25853284C9DFA003",
+      "expected_lfs_sha256": null
+    },
+    {
+      "name": "model.safetensors-00001-of-00001.safetensors",
+      "bytes": 1746942600,
+      "sha256": "04B1C301231DD422B8860DB31311AB2721511346A32CB1E079C4C4E5F1FE4696",
+      "expected_lfs_sha256": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696"
+    }
+  ],
+  "query_layouts": [
+    {
+      "method": "full_all",
+      "question": "Name the animal visible at the beginning.",
+      "input_tokens": 357,
+      "visual_tokens": 288,
+      "positions_sha256": "38cde75d165617f6f276038497addcbcd73386e5e0491fdc79edc230d4cfaadd"
+    },
+    {
+      "method": "full_all",
+      "question": "Name the animal visible most recently.",
+      "input_tokens": 356,
+      "visual_tokens": 288,
+      "positions_sha256": "dd063dd7f1de601333423860016781e0b8111928d269fc17febc3f5139f496b4"
+    },
+    {
+      "method": "full_all",
+      "question": "List the animals in order of first appearance.",
+      "input_tokens": 358,
+      "visual_tokens": 288,
+      "positions_sha256": "60303a53d7959a0d32c59eb77d678298198cd1c15f54fff187ec4dd220463a07"
+    },
+    {
+      "method": "odd_all",
+      "question": "Name the animal visible at the beginning.",
+      "input_tokens": 213,
+      "visual_tokens": 144,
+      "positions_sha256": "3dcb6830bca081040d85f472892af627ab2ad71cf474f4b6498bf3269460793e"
+    },
+    {
+      "method": "odd_all",
+      "question": "Name the animal visible most recently.",
+      "input_tokens": 212,
+      "visual_tokens": 144,
+      "positions_sha256": "81803c4128af8467a4624b3dc0d156a66c8c6ae35728a01c1061afbe74d5318b"
+    },
+    {
+      "method": "odd_all",
+      "question": "List the animals in order of first appearance.",
+      "input_tokens": 214,
+      "visual_tokens": 144,
+      "positions_sha256": "92550ce9f4731cf825f0954687e2ecb4c3138164271c77c7b1bcd5f8b0d43d75"
+    },
+    {
+      "method": "tome_all",
+      "question": "Name the animal visible at the beginning.",
+      "input_tokens": 213,
+      "visual_tokens": 144,
+      "positions_sha256": "3dcb6830bca081040d85f472892af627ab2ad71cf474f4b6498bf3269460793e"
+    },
+    {
+      "method": "tome_all",
+      "question": "Name the animal visible most recently.",
+      "input_tokens": 212,
+      "visual_tokens": 144,
+      "positions_sha256": "81803c4128af8467a4624b3dc0d156a66c8c6ae35728a01c1061afbe74d5318b"
+    },
+    {
+      "method": "tome_all",
+      "question": "List the animals in order of first appearance.",
+      "input_tokens": 214,
+      "visual_tokens": 144,
+      "positions_sha256": "92550ce9f4731cf825f0954687e2ecb4c3138164271c77c7b1bcd5f8b0d43d75"
+    },
+    {
+      "method": "recent_three",
+      "question": "Name the animal visible at the beginning.",
+      "input_tokens": 189,
+      "visual_tokens": 144,
+      "positions_sha256": "eb4291de2791d00ed04fda98dd4c4649359e7ddf10b3bea5a1fc11eb92be4e87"
+    },
+    {
+      "method": "recent_three",
+      "question": "Name the animal visible most recently.",
+      "input_tokens": 188,
+      "visual_tokens": 144,
+      "positions_sha256": "f439fe0d2da3be3f4f2200ecc6749333d862319681c35c15981dd223ce81cddd"
+    },
+    {
+      "method": "recent_three",
+      "question": "List the animals in order of first appearance.",
+      "input_tokens": 190,
+      "visual_tokens": 144,
+      "positions_sha256": "9d11497009b3fbd26d515806f05145764bb76e7e7ff55a2d4ad1634c820b953e"
+    },
+    {
+      "method": "first_recent_two",
+      "question": "Name the animal visible at the beginning.",
+      "input_tokens": 189,
+      "visual_tokens": 144,
+      "positions_sha256": "eb4291de2791d00ed04fda98dd4c4649359e7ddf10b3bea5a1fc11eb92be4e87"
+    },
+    {
+      "method": "first_recent_two",
+      "question": "Name the animal visible most recently.",
+      "input_tokens": 188,
+      "visual_tokens": 144,
+      "positions_sha256": "f439fe0d2da3be3f4f2200ecc6749333d862319681c35c15981dd223ce81cddd"
+    },
+    {
+      "method": "first_recent_two",
+      "question": "List the animals in order of first appearance.",
+      "input_tokens": 190,
+      "visual_tokens": 144,
+      "positions_sha256": "9d11497009b3fbd26d515806f05145764bb76e7e7ff55a2d4ad1634c820b953e"
+    },
+    {
+      "method": "short_long_aligned",
+      "question": "Name the animal visible at the beginning.",
+      "input_tokens": 196,
+      "visual_tokens": 144,
+      "positions_sha256": "edda735e18e3aeacabac2d4953636177abef0353c430273af5be2a14f38f9c5f"
+    },
+    {
+      "method": "short_long_aligned",
+      "question": "Name the animal visible most recently.",
+      "input_tokens": 195,
+      "visual_tokens": 144,
+      "positions_sha256": "4cf40e616882a233c1da71f643b3b96e615cebbe1e7f9efdce7604f63bebc560"
+    },
+    {
+      "method": "short_long_aligned",
+      "question": "List the animals in order of first appearance.",
+      "input_tokens": 197,
+      "visual_tokens": 144,
+      "positions_sha256": "7ad978f9b3adfda58b1b2adf0e1f4054050d476cff00afe95d1d06cbe66ba97b"
+    }
+  ],
+  "memory": {
+    "events": 6,
+    "blocks": [
+      {
+        "first": 0,
+        "last": 3,
+        "begin": 0.0,
+        "end": 7.0,
+        "center": 3.5,
+        "leaves": 4,
+        "depth": 2,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": false
+      },
+      {
+        "first": 4,
+        "last": 4,
+        "begin": 8.0,
+        "end": 9.0,
+        "center": 8.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": true
+      },
+      {
+        "first": 5,
+        "last": 5,
+        "begin": 10.0,
+        "end": 11.0,
+        "center": 10.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": true
+      }
+    ],
+    "long_roots": 2,
+    "recent_pairs": 1,
+    "tokens": 144,
+    "tensor_bytes": 21312,
+    "merges": 3,
+    "peak_tensor_bytes": 21312,
+    "provenance_is_not_exact_frame": true
+  },
+  "merges": [
+    {
+      "left": {
+        "first": 0,
+        "last": 0,
+        "begin": 0.0,
+        "end": 1.0,
+        "center": 0.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": true
+      },
+      "right": {
+        "first": 1,
+        "last": 1,
+        "begin": 2.0,
+        "end": 3.0,
+        "center": 2.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": true
+      },
+      "parent": {
+        "first": 0,
+        "last": 1,
+        "begin": 0.0,
+        "end": 3.0,
+        "center": 1.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": false
+      },
+      "penalty": {
+        "similarity_penalty": 0.1984582543373108,
+        "count_penalty": 1.000001,
+        "time_penalty": 0.21428571428571427,
+        "total": 0.5222408445920671
+      }
+    },
+    {
+      "left": {
+        "first": 2,
+        "last": 2,
+        "begin": 4.0,
+        "end": 5.0,
+        "center": 4.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": true
+      },
+      "right": {
+        "first": 3,
+        "last": 3,
+        "begin": 6.0,
+        "end": 7.0,
+        "center": 6.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": true
+      },
+      "parent": {
+        "first": 2,
+        "last": 3,
+        "begin": 4.0,
+        "end": 7.0,
+        "center": 5.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": false
+      },
+      "penalty": {
+        "similarity_penalty": 0.01583153009414673,
+        "count_penalty": 0.6666676666666667,
+        "time_penalty": 0.6111111111111112,
+        "total": 0.3952219009265476
+      }
+    },
+    {
+      "left": {
+        "first": 0,
+        "last": 1,
+        "begin": 0.0,
+        "end": 3.0,
+        "center": 1.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": false
+      },
+      "right": {
+        "first": 2,
+        "last": 3,
+        "begin": 4.0,
+        "end": 7.0,
+        "center": 5.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": false
+      },
+      "parent": {
+        "first": 0,
+        "last": 3,
+        "begin": 0.0,
+        "end": 7.0,
+        "center": 3.5,
+        "leaves": 4,
+        "depth": 2,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 7104,
+        "exact_pair": false
+      },
+      "penalty": {
+        "similarity_penalty": 0.2890321612358093,
+        "count_penalty": 1.000001,
+        "time_penalty": 0.3181818181818182,
+        "total": 0.5792496281306873
+      }
+    }
+  ],
+  "scope": "CPU tiny random weights, real processor/pixels, no semantic evidence; content-dependent merge may differ on GPU"
+}

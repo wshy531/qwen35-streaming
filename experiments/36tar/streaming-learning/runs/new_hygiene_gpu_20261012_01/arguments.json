@@ -1,0 +1,6 @@
+{
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "video": "E:\\VIT Model\\datasets\\numeric_hand_hygiene_v1\\hand_hygiene.webm",
+  "wall_seconds": 90,
+  "allow_branch": []
+}

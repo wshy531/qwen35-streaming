@@ -1,0 +1,173 @@
+{
+  "frames": [
+    {
+      "source": "clean_hands",
+      "sample_index": 6,
+      "source_frame_id": 180,
+      "source_pts": 6.006,
+      "canvas_sha256": "6de9f5792cffc5c244f866cba57bedb626cf54ef5b45e095ec3fa36113c00e15"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 7,
+      "source_frame_id": 210,
+      "source_pts": 7.007,
+      "canvas_sha256": "b61f11af0beba1bb533db7f348a12317844950ddb6a97023ebefbdd3814bb885"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 8,
+      "source_frame_id": 240,
+      "source_pts": 8.008,
+      "canvas_sha256": "86a635868a154d681627f1d568002c402b42931b687bd6b476d571e4b404d063"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 9,
+      "source_frame_id": 270,
+      "source_pts": 9.009,
+      "canvas_sha256": "20c5e692310b97e4f092d05907d29db592993456fec0d68b0f9c06b5e7fd7eaa"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 10,
+      "source_frame_id": 300,
+      "source_pts": 10.01,
+      "canvas_sha256": "8d995b95dae0477faa954b52b26853a0a152ac1c96f5d0177e3f572c4b3ab496"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 11,
+      "source_frame_id": 330,
+      "source_pts": 11.011,
+      "canvas_sha256": "ac74b41a66e67a881f2f4c1fd9040e71ca954b36cc5b5eda7bb9177e02801505"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 12,
+      "source_frame_id": 360,
+      "source_pts": 12.012,
+      "canvas_sha256": "62dc066f9a7a552fb19417c24c02dec7d01582d5d3f489da6b5f6e2159881962"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 13,
+      "source_frame_id": 390,
+      "source_pts": 13.013,
+      "canvas_sha256": "df8ecbb496c2e3fcc016315e1905926ca1065f94e1440cc29dce6b24f035aba9"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 14,
+      "source_frame_id": 420,
+      "source_pts": 14.014,
+      "canvas_sha256": "d5588e589447df2c944c369daec93a61c45c8f9ee2a7a968ce969461b5772371"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 15,
+      "source_frame_id": 450,
+      "source_pts": 15.015,
+      "canvas_sha256": "73c28bfcb48e687a65f6e67cba0d5556f741fe10e8da6b0efebae0c4a9cb7244"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 16,
+      "source_frame_id": 480,
+      "source_pts": 16.016,
+      "canvas_sha256": "1a83a6f412f31f3ae303245282d43c024f618bde0b895f05f2c4ef373f7953ae"
+    },
+    {
+      "source": "clean_hands",
+      "sample_index": 17,
+      "source_frame_id": 510,
+      "source_pts": 17.017,
+      "canvas_sha256": "53d234fa6252dfe66765d8066a6856c31b87a506bb44421505f43be8d052aa70"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 6,
+      "source_frame_id": 144,
+      "source_pts": 6.006,
+      "canvas_sha256": "e886a848dda0a029cb62bc62259b540350c2a25883b0146f84c25e050b2a439f"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 7,
+      "source_frame_id": 168,
+      "source_pts": 7.007,
+      "canvas_sha256": "04fbd91a178314fc3733cd0f2d40843974e97524b28402d962ca2b3fe2d982d8"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 8,
+      "source_frame_id": 192,
+      "source_pts": 8.008,
+      "canvas_sha256": "d332125dd84f07672d21da69c540b02cf6b576deaf8e3ad2b92ce459df912587"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 9,
+      "source_frame_id": 216,
+      "source_pts": 9.009,
+      "canvas_sha256": "f8b3684d39e44c5111bb9583fcf2a79e041a6afae3857a380ff9b1b7a206fb02"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 10,
+      "source_frame_id": 240,
+      "source_pts": 10.01,
+      "canvas_sha256": "0e6e8a179f03dba491fe89c8dced9dccb0b623dfb435659d3da0f0b88fd1a2eb"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 11,
+      "source_frame_id": 264,
+      "source_pts": 11.011,
+      "canvas_sha256": "5e38d10bc69b01574ac7c50753d19da7584bea745ecf6d6747f074f2aa8cae45"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 12,
+      "source_frame_id": 288,
+      "source_pts": 12.012,
+      "canvas_sha256": "c2c2d3a3fe571daf73e8b54c496b8ac5e644e9c05b0121daef2c8015c6f06208"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 13,
+      "source_frame_id": 312,
+      "source_pts": 13.013,
+      "canvas_sha256": "2ede58f77310fc4d069ccfa357c7726c3a48b0f56a5c456beba80ac69284b63f"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 14,
+      "source_frame_id": 336,
+      "source_pts": 14.014,
+      "canvas_sha256": "0e2af5d3cff85cdc395a7f9fec87b8ae66195735fe35b39296032258645ae8b4"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 15,
+      "source_frame_id": 360,
+      "source_pts": 15.015,
+      "canvas_sha256": "5988032a0c56f8bdfc1f3e4d44586389e49533a8a68cdd930f4c2ce79e002946"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 16,
+      "source_frame_id": 384,
+      "source_pts": 16.016,
+      "canvas_sha256": "661a76f80ad924160a9a7866ca853ced204c61e6ebc8aebfb5734432032936d6"
+    },
+    {
+      "source": "hand_hygiene",
+      "sample_index": 17,
+      "source_frame_id": 408,
+      "source_pts": 17.017,
+      "canvas_sha256": "2d1fb20bcdb7ea2f54aeb9779598277a2effc95c9a80ccddce693de6a867a71b"
+    }
+  ],
+  "scope": "source annotations, no predictions"
+}

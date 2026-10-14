@@ -1,0 +1,1689 @@
+{
+  "passed": true,
+  "events": [
+    {
+      "kind": "main_current",
+      "encoded_pts": 7.0,
+      "result": {
+        "question": "Name the animal visible most recently.",
+        "answer": "bird",
+        "generated_ids": [
+          21892,
+          248046
+        ],
+        "stop_reason": "eos",
+        "frame_id": 7,
+        "timestamp": 7.0,
+        "wall_seconds": 0.1727415000000292,
+        "reference_mode": "fp32_ieee_math",
+        "model_called": true
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 4,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 2,
+            "begin": 4.0,
+            "end": 5.0,
+            "center": 4.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          {
+            "first": 3,
+            "last": 3,
+            "begin": 6.0,
+            "end": 7.0,
+            "center": 6.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 1,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "window_current",
+      "encoded_pts": 7.0,
+      "result": {
+        "question": "Name the animal visible most recently.",
+        "answer": "The bird",
+        "generated_ids": [
+          760,
+          11619,
+          248046
+        ],
+        "stop_reason": "eos",
+        "input_tokens": 75,
+        "visual_tokens": 48,
+        "blocks": [
+          {
+            "first": 3,
+            "last": 3,
+            "begin": 6.0,
+            "end": 7.0,
+            "center": 6.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "positions_use_survivor_coordinates": true,
+        "grid_span_preserved": true,
+        "sequence_axis_contiguous": true,
+        "projected_mass_not_used_in_attention": true,
+        "model_called": true,
+        "evidence_scope": "latest_complete_pair",
+        "evidence_interval": [
+          6.0,
+          7.0
+        ],
+        "compressed": false,
+        "exact_pair_evidence": true
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 4,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 2,
+            "begin": 4.0,
+            "end": 5.0,
+            "center": 4.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          {
+            "first": 3,
+            "last": 3,
+            "begin": 6.0,
+            "end": 7.0,
+            "center": 6.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 1,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "coarse_first_interval",
+      "encoded_pts": 7.0,
+      "result": {
+        "question": "Name the main visible animal in this memory interval.",
+        "answer": "dog",
+        "generated_ids": [
+          17907,
+          248046
+        ],
+        "stop_reason": "eos",
+        "input_tokens": 85,
+        "visual_tokens": 48,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          }
+        ],
+        "positions_use_survivor_coordinates": true,
+        "grid_span_preserved": true,
+        "sequence_axis_contiguous": true,
+        "projected_mass_not_used_in_attention": true,
+        "model_called": true,
+        "evidence_scope": "whole_long_term_interval",
+        "evidence_interval": [
+          0.0,
+          3.0
+        ],
+        "compressed": true,
+        "exact_pair_evidence": false
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 4,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 2,
+            "begin": 4.0,
+            "end": 5.0,
+            "center": 4.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          {
+            "first": 3,
+            "last": 3,
+            "begin": 6.0,
+            "end": 7.0,
+            "center": 6.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 1,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "exact_pair_0.5",
+      "encoded_pts": 7.0,
+      "result": {
+        "model_called": false,
+        "reason": "compressed_only_no_exact_pair",
+        "answer": null,
+        "target_time": 0.5,
+        "available_compressed_interval": [
+          0.0,
+          3.0
+        ]
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 4,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 2,
+            "begin": 4.0,
+            "end": 5.0,
+            "center": 4.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          {
+            "first": 3,
+            "last": 3,
+            "begin": 6.0,
+            "end": 7.0,
+            "center": 6.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 1,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "future_99",
+      "encoded_pts": 7.0,
+      "result": {
+        "model_called": false,
+        "reason": "beyond_encoded_horizon",
+        "answer": null,
+        "target_time": 99.0
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 4,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 2,
+            "begin": 4.0,
+            "end": 5.0,
+            "center": 4.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          },
+          {
+            "first": 3,
+            "last": 3,
+            "begin": 6.0,
+            "end": 7.0,
+            "center": 6.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 1,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "main_current",
+      "encoded_pts": 11.0,
+      "result": {
+        "question": "Name the animal visible most recently.",
+        "answer": "The animal visible most recently is a dog.",
+        "generated_ids": [
+          760,
+          9572,
+          9155,
+          1379,
+          5742,
+          369,
+          264,
+          5388,
+          13,
+          248046
+        ],
+        "stop_reason": "eos",
+        "frame_id": 11,
+        "timestamp": 11.0,
+        "wall_seconds": 0.3536053000002539,
+        "reference_mode": "fp32_ieee_math",
+        "model_called": true
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 6,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 4,
+            "begin": 4.0,
+            "end": 9.0,
+            "center": 6.5,
+            "leaves": 3,
+            "depth": 2,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 3,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "window_current",
+      "encoded_pts": 11.0,
+      "result": {
+        "question": "Name the animal visible most recently.",
+        "answer": "dog",
+        "generated_ids": [
+          17907,
+          248046
+        ],
+        "stop_reason": "eos",
+        "input_tokens": 76,
+        "visual_tokens": 48,
+        "blocks": [
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "positions_use_survivor_coordinates": true,
+        "grid_span_preserved": true,
+        "sequence_axis_contiguous": true,
+        "projected_mass_not_used_in_attention": true,
+        "model_called": true,
+        "evidence_scope": "latest_complete_pair",
+        "evidence_interval": [
+          10.0,
+          11.0
+        ],
+        "compressed": false,
+        "exact_pair_evidence": true
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 6,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 4,
+            "begin": 4.0,
+            "end": 9.0,
+            "center": 6.5,
+            "leaves": 3,
+            "depth": 2,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 3,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "coarse_first_interval",
+      "encoded_pts": 11.0,
+      "result": {
+        "question": "Name the main visible animal in this memory interval.",
+        "answer": "dog",
+        "generated_ids": [
+          17907,
+          248046
+        ],
+        "stop_reason": "eos",
+        "input_tokens": 85,
+        "visual_tokens": 48,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          }
+        ],
+        "positions_use_survivor_coordinates": true,
+        "grid_span_preserved": true,
+        "sequence_axis_contiguous": true,
+        "projected_mass_not_used_in_attention": true,
+        "model_called": true,
+        "evidence_scope": "whole_long_term_interval",
+        "evidence_interval": [
+          0.0,
+          3.0
+        ],
+        "compressed": true,
+        "exact_pair_evidence": false
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 6,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 4,
+            "begin": 4.0,
+            "end": 9.0,
+            "center": 6.5,
+            "leaves": 3,
+            "depth": 2,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 3,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "exact_pair_0.5",
+      "encoded_pts": 11.0,
+      "result": {
+        "model_called": false,
+        "reason": "compressed_only_no_exact_pair",
+        "answer": null,
+        "target_time": 0.5,
+        "available_compressed_interval": [
+          0.0,
+          3.0
+        ]
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 6,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 4,
+            "begin": 4.0,
+            "end": 9.0,
+            "center": 6.5,
+            "leaves": 3,
+            "depth": 2,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 3,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "future_99",
+      "encoded_pts": 11.0,
+      "result": {
+        "model_called": false,
+        "reason": "beyond_encoded_horizon",
+        "answer": null,
+        "target_time": 99.0
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 6,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 4,
+            "begin": 4.0,
+            "end": 9.0,
+            "center": 6.5,
+            "leaves": 3,
+            "depth": 2,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 3,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    },
+    {
+      "kind": "coarse_middle_interval",
+      "encoded_pts": 11.0,
+      "result": {
+        "question": "Name the main visible animal in this memory interval.",
+        "answer": "A cat",
+        "generated_ids": [
+          32,
+          7993,
+          248046
+        ],
+        "stop_reason": "eos",
+        "input_tokens": 85,
+        "visual_tokens": 48,
+        "blocks": [
+          {
+            "first": 2,
+            "last": 4,
+            "begin": 4.0,
+            "end": 9.0,
+            "center": 6.5,
+            "leaves": 3,
+            "depth": 2,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          }
+        ],
+        "positions_use_survivor_coordinates": true,
+        "grid_span_preserved": true,
+        "sequence_axis_contiguous": true,
+        "projected_mass_not_used_in_attention": true,
+        "model_called": true,
+        "evidence_scope": "whole_long_term_interval",
+        "evidence_interval": [
+          4.0,
+          9.0
+        ],
+        "compressed": true,
+        "exact_pair_evidence": false
+      },
+      "main_unchanged": true,
+      "memory": {
+        "events": 6,
+        "blocks": [
+          {
+            "first": 0,
+            "last": 1,
+            "begin": 0.0,
+            "end": 3.0,
+            "center": 1.5,
+            "leaves": 2,
+            "depth": 1,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 2,
+            "last": 4,
+            "begin": 4.0,
+            "end": 9.0,
+            "center": 6.5,
+            "leaves": 3,
+            "depth": 2,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": false
+          },
+          {
+            "first": 5,
+            "last": 5,
+            "begin": 10.0,
+            "end": 11.0,
+            "center": 10.5,
+            "leaves": 1,
+            "depth": 0,
+            "grid": [
+              6,
+              8
+            ],
+            "tokens": 48,
+            "tensor_bytes": 197568,
+            "exact_pair": true
+          }
+        ],
+        "long_roots": 2,
+        "recent_pairs": 1,
+        "tokens": 144,
+        "tensor_bytes": 592704,
+        "merges": 3,
+        "peak_tensor_bytes": 592704,
+        "provenance_is_not_exact_frame": true
+      }
+    }
+  ],
+  "counts": {
+    "vision": 6,
+    "language": 38
+  },
+  "model_called_queries": 7,
+  "generated_tokens": 24,
+  "input_frames": [
+    {
+      "session_frame_id": 0,
+      "session_pts": 0.0,
+      "source_id": "dog",
+      "source_frame_id": 300,
+      "source_pts": 12.0,
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "source_rgb_sha256": "35e4972ebe6142c2ff2f72290805170d8be154648bada46266de22572ff54dca",
+      "canvas_rgb_sha256": "d4a5c4af7ba7cdb79f4fe1b1bd6f5796d11fd76da6a39bb5fcc391a62b440525"
+    },
+    {
+      "session_frame_id": 1,
+      "session_pts": 1.0,
+      "source_id": "dog",
+      "source_frame_id": 325,
+      "source_pts": 13.0,
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "source_rgb_sha256": "c3bfd710f7240c703d567bf84819060de22adb1fe3459278f20f74fb303b6995",
+      "canvas_rgb_sha256": "393c3f4d23a9e268a82446ea6773a95f97e1d91ed8132c33e3905290de162d12"
+    },
+    {
+      "session_frame_id": 2,
+      "session_pts": 2.0,
+      "source_id": "dog",
+      "source_frame_id": 350,
+      "source_pts": 14.0,
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "source_rgb_sha256": "274d7fdbe62164d04968b0ca96c193aabd3a454be3a15fe2fa545c390adcc997",
+      "canvas_rgb_sha256": "203595cc17c04a4b016956d42e944eb9d67fa66d5a19b52f9035c9273944681e"
+    },
+    {
+      "session_frame_id": 3,
+      "session_pts": 3.0,
+      "source_id": "dog",
+      "source_frame_id": 375,
+      "source_pts": 15.0,
+      "source_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+      "source_rgb_sha256": "d69324ad19a829c051ed31692085fe5e04edf4cefe3ee4b6152429135a41e91d",
+      "canvas_rgb_sha256": "077365cddfe7974942c03b6e7751996b1083b620b83a774904bdf1cf3797f903"
+    },
+    {
+      "session_frame_id": 4,
+      "session_pts": 4.0,
+      "source_id": "pigeon",
+      "source_frame_id": 0,
+      "source_pts": 0.0,
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "source_rgb_sha256": "40db920c6359ca15901463899a56698456290b46a8f55ee8c7b7f0f5e722a03d",
+      "canvas_rgb_sha256": "6794b23c7f6898830572d38957f99b54d7cd34f857638d4f5968ef6b3da41188"
+    },
+    {
+      "session_frame_id": 5,
+      "session_pts": 5.0,
+      "source_id": "pigeon",
+      "source_frame_id": 30,
+      "source_pts": 1.001,
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "source_rgb_sha256": "e7f0528cd5d5212169bd0cb12c4fba4aa23d202a18fb95c54a0a6d709b38e668",
+      "canvas_rgb_sha256": "9af39fbee6e0433fe79b40f7e02bf07d6abc5c2bb0cd0e7c15826fb410da44d9"
+    },
+    {
+      "session_frame_id": 6,
+      "session_pts": 6.0,
+      "source_id": "pigeon",
+      "source_frame_id": 60,
+      "source_pts": 2.002,
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "source_rgb_sha256": "1eb78d5b9e78ee87b527c3ec6a8a307df36adaaf282701e9b1fab8837d76c255",
+      "canvas_rgb_sha256": "99b19c65386da04e8ff5461be63f41547667ced361e8d51757596b105e28d081"
+    },
+    {
+      "session_frame_id": 7,
+      "session_pts": 7.0,
+      "source_id": "pigeon",
+      "source_frame_id": 90,
+      "source_pts": 3.003,
+      "source_sha256": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+      "source_rgb_sha256": "22b64cbaa61d6b7d48ba4aa783bd835476ae25fcd529e3eb0343a3a2add10ae6",
+      "canvas_rgb_sha256": "26bf6b700ec8540b675f38b56288e282c119f4dc45ed28294f2f38fe5d273eab"
+    },
+    {
+      "session_frame_id": 8,
+      "session_pts": 8.0,
+      "source_id": "cat",
+      "source_frame_id": 0,
+      "source_pts": 0.0,
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "source_rgb_sha256": "ac1dad8f71cc360db05bccb1de5d13b950369c17e3890e3f6620b136c6ecc7f8",
+      "canvas_rgb_sha256": "402265372aff05bb96987b4cc8a85c5bc2832c4499943267a5f9f25525bef11a"
+    },
+    {
+      "session_frame_id": 9,
+      "session_pts": 9.0,
+      "source_id": "cat",
+      "source_frame_id": 30,
+      "source_pts": 0.9999999999999999,
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "source_rgb_sha256": "96b9dda3a328efca3f6be669e2f751221bc3dddafc5c608aee14a2b80e424adb",
+      "canvas_rgb_sha256": "cb22e9c8c5957476cb0a6d0a1e3375de04c22b303e7411c8ddbdfcdabd89248b"
+    },
+    {
+      "session_frame_id": 10,
+      "session_pts": 10.0,
+      "source_id": "cat",
+      "source_frame_id": 60,
+      "source_pts": 2.0,
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "source_rgb_sha256": "387b7addce5fad292c38664f54fbfabf69d9484e9c2f8aad119a614e035bc85b",
+      "canvas_rgb_sha256": "2da794a5ef9a5029914e7a1f574c42c2eddcf01b92baf6a1f4c382fff8abfe50"
+    },
+    {
+      "session_frame_id": 11,
+      "session_pts": 11.0,
+      "source_id": "cat",
+      "source_frame_id": 90,
+      "source_pts": 3.0,
+      "source_sha256": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+      "source_rgb_sha256": "50c70f4a1260ebb0e9b3a5424ad62b9efc151a12fc5283cd1a3d0f4382bc226a",
+      "canvas_rgb_sha256": "4b77db28db09ed9fefaab8502c207f1c68024b9a31e46930e97d76df56d114b7"
+    }
+  ],
+  "source_assets": {
+    "E:\\VIT Model\\datasets\\general_stream_v1\\dog.webm": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+    "E:\\VIT Model\\datasets\\general_stream_v1\\pigeon.webm": "515a172e5cdc356981c95837c70b93b8975f96e5bb371e4a5392d067d11f2853",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32"
+  },
+  "ledger": [
+    {
+      "frame_ids": [
+        0,
+        1
+      ],
+      "timestamps": [
+        0.0,
+        1.0
+      ],
+      "temporal_mean": 0.5,
+      "rendered_timestamp": "0.5",
+      "synthetic_padding": false,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "token_ids": [
+        27,
+        15,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "block_text": "<0.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+    },
+    {
+      "frame_ids": [
+        2,
+        3
+      ],
+      "timestamps": [
+        2.0,
+        3.0
+      ],
+      "temporal_mean": 2.5,
+      "rendered_timestamp": "2.5",
+      "synthetic_padding": false,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "token_ids": [
+        27,
+        17,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "block_text": "<2.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+    },
+    {
+      "frame_ids": [
+        4,
+        5
+      ],
+      "timestamps": [
+        4.0,
+        5.0
+      ],
+      "temporal_mean": 4.5,
+      "rendered_timestamp": "4.5",
+      "synthetic_padding": false,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "token_ids": [
+        27,
+        19,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "block_text": "<4.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+    },
+    {
+      "frame_ids": [
+        6,
+        7
+      ],
+      "timestamps": [
+        6.0,
+        7.0
+      ],
+      "temporal_mean": 6.5,
+      "rendered_timestamp": "6.5",
+      "synthetic_padding": false,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "token_ids": [
+        27,
+        21,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "block_text": "<6.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+    },
+    {
+      "frame_ids": [
+        8,
+        9
+      ],
+      "timestamps": [
+        8.0,
+        9.0
+      ],
+      "temporal_mean": 8.5,
+      "rendered_timestamp": "8.5",
+      "synthetic_padding": false,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "token_ids": [
+        27,
+        23,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "block_text": "<8.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+    },
+    {
+      "frame_ids": [
+        10,
+        11
+      ],
+      "timestamps": [
+        10.0,
+        11.0
+      ],
+      "temporal_mean": 10.5,
+      "rendered_timestamp": "10.5",
+      "synthetic_padding": false,
+      "grid": [
+        [
+          1,
+          12,
+          16
+        ]
+      ],
+      "token_ids": [
+        27,
+        16,
+        15,
+        13,
+        20,
+        6283,
+        29,
+        248053,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248057,
+        248054
+      ],
+      "block_text": "<10.5 seconds><|vision_start|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|video_pad|><|vision_end|>"
+    }
+  ],
+  "memory": {
+    "events": 6,
+    "blocks": [
+      {
+        "first": 0,
+        "last": 1,
+        "begin": 0.0,
+        "end": 3.0,
+        "center": 1.5,
+        "leaves": 2,
+        "depth": 1,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": false
+      },
+      {
+        "first": 2,
+        "last": 4,
+        "begin": 4.0,
+        "end": 9.0,
+        "center": 6.5,
+        "leaves": 3,
+        "depth": 2,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": false
+      },
+      {
+        "first": 5,
+        "last": 5,
+        "begin": 10.0,
+        "end": 11.0,
+        "center": 10.5,
+        "leaves": 1,
+        "depth": 0,
+        "grid": [
+          6,
+          8
+        ],
+        "tokens": 48,
+        "tensor_bytes": 197568,
+        "exact_pair": true
+      }
+    ],
+    "long_roots": 2,
+    "recent_pairs": 1,
+    "tokens": 144,
+    "tensor_bytes": 592704,
+    "merges": 3,
+    "peak_tensor_bytes": 592704,
+    "provenance_is_not_exact_frame": true
+  },
+  "captured_feature_sha256": [
+    "c074845085d66f0d43b55cd4ca07d65cc38f8eebd584b1d7d845062abc57fcab",
+    "a649d3ebc2c4603aa78caf2d8438c5cbbfe1a7b30b515f2fcb40ae1927969f64",
+    "478ecb73d9fd3bab36c6e31726f8dc1eda80dba6053acab17926e973722e17c6",
+    "0fc1daf64ea01b71d365b9c65daf5bb51c3b5dcff4ab96701c5e326a966df044",
+    "7d904d5977ab4c60ebd989ef7adc0df3547584111141f1be2af8901fb4a9b783",
+    "c7f12e0dfb74cc4a833201d2e19db28fce55e7e7a6f29163b697559c0399ca12"
+  ],
+  "same_projected_features_as_gpu74": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "query_after_encoded_pts": 7.0,
+  "continued_to_encoded_pts": 11.0,
+  "default_integration": false,
+  "semantic_accuracy_evaluated": false,
+  "scope": "Finite controlled PTS ingestion; current unmerged pair, coarse interval not exact historical frame",
+  "peak_allocated_gib": 3.255587577819824,
+  "peak_reserved_gib": 3.59375,
+  "wall_seconds_including_load": 7.070792500000152
+}

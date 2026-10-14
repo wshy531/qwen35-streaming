@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "cpu_cases": 8,
+  "cpu_matched_logit_pairs_bitwise": 16,
+  "cpu_native_feature_generations_equal": 8,
+  "source_hashes_checked": 96,
+  "rgb_bytes": 7077888,
+  "new_python_syntax_checked": 2,
+  "cpu_proof_sha256": "5f8b51902b168a5bba378a3b544f9f9094c4414d28ef3388106f78701c1760fc",
+  "head": "d26a5167bd3977b585f3aeff73264f77de47f1bc",
+  "branch": "36tar/general-video-demo",
+  "tracked_original_and_current_code_unchanged": true,
+  "gpu_runs": [
+    {
+      "run": "E:\\VIT Model\\runs\\protocol_readout_original_gpu_20261013_01",
+      "arm": "original",
+      "loaded": false,
+      "reason": "Resource gate refused load",
+      "precheck": {
+        "ram_available_bytes": 2820411392,
+        "gpu_free_bytes": 7443841024,
+        "gpu_total_bytes": 8585216000,
+        "branch": "36tar/general-video-demo"
+      }
+    },
+    {
+      "run": "E:\\VIT Model\\runs\\protocol_readout_original_gpu_20261013_02",
+      "arm": "original",
+      "loaded": true,
+      "counts": {
+        "vision": 8,
+        "language": 59
+      },
+      "generated": 59,
+      "summary_sha256": "e89b94168d388cb9e88b033d0cf49641fad6f7dca200218418c8a11b2bf942b2"
+    },
+    {
+      "run": "E:\\VIT Model\\runs\\protocol_readout_current_gpu_20261013_01",
+      "arm": "current",
+      "loaded": true,
+      "counts": {
+        "vision": 16,
+        "language": 126
+      },
+      "generated": 118,
+      "summary_sha256": "4b42300842f433c1402bc8162ffb8010fe8d1370e4e5c29f934d63ce36402241"
+    }
+  ],
+  "comparisons": [
+    {
+      "case": "dog_pair_0",
+      "original": "A dog",
+      "current_native": "A dog",
+      "current_feature": "A dog",
+      "original_current_generated_equal": true,
+      "current_native_feature_generated_equal": true,
+      "original_current_first_logits_sha_equal": true,
+      "current_native_feature_prefill": {
+        "atol": 0.0001,
+        "rtol": 0.0001,
+        "allclose": true,
+        "bitwise_equal": true,
+        "max_abs": 0.0,
+        "left_sha256": "ef2f014be34b17ae38ec6b398310475169d570d9f8de0d0fbe82973bdd490fe2",
+        "right_sha256": "ef2f014be34b17ae38ec6b398310475169d570d9f8de0d0fbe82973bdd490fe2"
+      },
+      "stops": [
+        "eos",
+        "eos",
+        "eos"
+      ]
+    },
+    {
+      "case": "pigeon_pair_0",
+      "original": "A bird",
+      "current_native": "A bird",
+      "current_feature": "A bird",
+      "original_current_generated_equal": true,
+      "current_native_feature_generated_equal": true,
+      "original_current_first_logits_sha_equal": true,
+      "current_native_feature_prefill": {
+        "atol": 0.0001,
+        "rtol": 0.0001,
+        "allclose": true,
+        "bitwise_equal": true,
+        "max_abs": 0.0,
+        "left_sha256": "6d6524643f6ceff5b5bf5c29fa88361e716786c6d87f098874af1feafcfcef86",
+        "right_sha256": "6d6524643f6ceff5b5bf5c29fa88361e716786c6d87f098874af1feafcfcef86"
+      },
+      "stops": [
+        "eos",
+        "eos",
+        "eos"
+      ]
+    },
+    {
+      "case": "pigeon_pair_1",
+      "original": "The main visible animal in these frames is a dog.",
+      "current_native": "The main visible animal in these frames is a dog.",
+      "current_feature": "The main visible animal in these frames is a dog.",
+      "original_current_generated_equal": true,
+      "current_native_feature_generated_equal": true,
+      "original_current_first_logits_sha_equal": true,
+      "current_native_feature_prefill": {
+        "atol": 0.0001,
+        "rtol": 0.0001,
+        "allclose": true,
+        "bitwise_equal": true,
+        "max_abs": 0.0,
+        "left_sha256": "7a9f5f4113f8e89123259ab3f8c9c8202b0d8d36f58878ab4defbce40274eca3",
+        "right_sha256": "7a9f5f4113f8e89123259ab3f8c9c8202b0d8d36f58878ab4defbce40274eca3"
+      },
+      "stops": [
+        "eos",
+        "eos",
+        "eos"
+      ]
+    },
+    {
+      "case": "cat_pair_0",
+      "original": "A dog",
+      "current_native": "A dog",
+      "current_feature": "A dog",
+      "original_current_generated_equal": true,
+      "current_native_feature_generated_equal": true,
+      "original_current_first_logits_sha_equal": true,
+      "current_native_feature_prefill": {
+        "atol": 0.0001,
+        "rtol": 0.0001,
+        "allclose": true,
+        "bitwise_equal": true,
+        "max_abs": 0.0,
+        "left_sha256": "cfe3914758387ca45cd1e62faf8048173fe6b1d91cdbff8f4fa6798f8ad90d0c",
+        "right_sha256": "cfe3914758387ca45cd1e62faf8048173fe6b1d91cdbff8f4fa6798f8ad90d0c"
+      },
+      "stops": [
+        "eos",
+        "eos",
+        "eos"
+      ]
+    },
+    {
+      "case": "cat_pair_1",
+      "original": "A dog.",
+      "current_native": "A dog.",
+      "current_feature": "A dog.",
+      "original_current_generated_equal": true,
+      "current_native_feature_generated_equal": true,
+      "original_current_first_logits_sha_equal": true,
+      "current_native_feature_prefill": {
+        "atol": 0.0001,
+        "rtol": 0.0001,
+        "allclose": true,
+        "bitwise_equal": true,
+        "max_abs": 0.0,
+        "left_sha256": "1a9d42488c6219274f262ff52da83bbfbecd01576c793bf745eb9649b056e4e2",
+        "right_sha256": "1a9d42488c6219274f262ff52da83bbfbecd01576c793bf745eb9649b056e4e2"
+      },
+      "stops": [
+        "eos",
+        "eos",
+        "eos"
+      ]
+    },
+    {
+      "case": "clean_hands_pair_0",
+      "original": "A person is washing their hands with soap.",
+      "current_native": "A person is washing their hands with soap.",
+      "current_feature": "A person is washing their hands with soap.",
+      "original_current_generated_equal": true,
+      "current_native_feature_generated_equal": true,
+      "original_current_first_logits_sha_equal": true,
+      "current_native_feature_prefill": {
+        "atol": 0.0001,
+        "rtol": 0.0001,
+        "allclose": true,
+        "bitwise_equal": true,
+        "max_abs": 0.0,
+        "left_sha256": "c2160470169da706350a20d0edc9643cd4c0d2a661559b5597db05f8583f8f26",
+        "right_sha256": "c2160470169da706350a20d0edc9643cd4c0d2a661559b5597db05f8583f8f26"
+      },
+      "stops": [
+        "eos",
+        "eos",
+        "eos"
+      ]
+    },
+    {
+      "case": "clean_hands_pair_5",
+      "original": "A person is wiping a bathroom mirror with a paper towel.",
+      "current_native": "A person is wiping a bathroom mirror with a paper towel.",
+      "current_feature": "A person is wiping a bathroom mirror with a paper towel.",
+      "original_current_generated_equal": true,
+      "current_native_feature_generated_equal": true,
+      "original_current_first_logits_sha_equal": true,
+      "current_native_feature_prefill": {
+        "atol": 0.0001,
+        "rtol": 0.0001,
+        "allclose": true,
+        "bitwise_equal": true,
+        "max_abs": 0.0,
+        "left_sha256": "04c2294a35f8e97e450874285f984df04a2b2e3b3306fe63a943ab3e33f8b75e",
+        "right_sha256": "04c2294a35f8e97e450874285f984df04a2b2e3b3306fe63a943ab3e33f8b75e"
+      },
+      "stops": [
+        "eos",
+        "eos",
+        "eos"
+      ]
+    },
+    {
+      "case": "hand_hygiene_pair_5",
+      "original": "A woman in scrubs is washing her hands.",
+      "current_native": "A woman in scrubs is washing her hands.",
+      "current_feature": "A woman in scrubs is washing her hands.",
+      "original_current_generated_equal": true,
+      "current_native_feature_generated_equal": true,
+      "original_current_first_logits_sha_equal": true,
+      "current_native_feature_prefill": {
+        "atol": 0.0001,
+        "rtol": 0.0001,
+        "allclose": true,
+        "bitwise_equal": true,
+        "max_abs": 0.0,
+        "left_sha256": "42ce2b3c5c901f6027597f11db2952fdf7af3878004db326bfb5dc572f78ea79",
+        "right_sha256": "42ce2b3c5c901f6027597f11db2952fdf7af3878004db326bfb5dc572f78ea79"
+      },
+      "stops": [
+        "eos",
+        "eos",
+        "eos"
+      ]
+    }
+  ],
+  "matched_input_cases": 8,
+  "model_loads_actual": 2,
+  "model_questions_actual": 24,
+  "current_native_feature_prefill_bitwise_cases": 8,
+  "original_current_first_logits_sha_equal_cases": 8,
+  "original_current_generated_equal_cases": 8,
+  "current_native_feature_generated_equal_cases": 8,
+  "generated_tokens_total": 177,
+  "eos_answers": 24,
+  "budget_answers": 0,
+  "scope": "Familiar single-pair protocol diagnosis; matching does not certify correctness or long-history equivalence"
+}

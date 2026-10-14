@@ -1,0 +1,7 @@
+{
+  "tests": 84,
+  "passed": false,
+  "failures": 1,
+  "errors": 1,
+  "scope": "CPU tiny weights, actual local processor; no real GPU"
+}

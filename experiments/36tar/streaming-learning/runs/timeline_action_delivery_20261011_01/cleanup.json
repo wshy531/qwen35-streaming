@@ -1,0 +1,42 @@
+{
+  "old_runs_and_sources_preserved": true,
+  "removed": [
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\timeline_action_cpu_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\timeline_stream_preflight_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\timeline_reference_preflight_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\timeline_stream_gpu_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\timeline_reference_gpu_20261011_01\\tmp"
+    },
+    {
+      "bytes": 0,
+      "absolute_path_checked": true,
+      "no_reparse_point": true,
+      "path": "E:\\VIT Model\\runs\\timeline_reference_gpu_20261011_02\\tmp"
+    }
+  ],
+  "model_data_environment_untouched": true
+}

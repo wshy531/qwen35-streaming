@@ -1,0 +1,164 @@
+{
+  "threshold": 0.047536224126815796,
+  "arms": [
+    "raw96",
+    "first_source",
+    "merged_source",
+    "checker_source"
+  ],
+  "cases": [
+    {
+      "id": "cat_later",
+      "source": "cat",
+      "start": 4,
+      "questions": [
+        {
+          "id": "subject",
+          "text": "Name the main visible animal in these frames."
+        },
+        {
+          "id": "coat",
+          "text": "Is the animal's coat mostly light-colored or mostly dark-colored? Answer light or dark."
+        },
+        {
+          "id": "people",
+          "text": "Are any people visible behind the animal? Answer yes or no."
+        }
+      ]
+    },
+    {
+      "id": "dog_later",
+      "source": "dog",
+      "start": 20,
+      "questions": [
+        {
+          "id": "subject",
+          "text": "Name the main visible animal in these frames."
+        },
+        {
+          "id": "coat",
+          "text": "Is the animal's coat mostly light-colored or mostly dark-colored? Answer light or dark."
+        },
+        {
+          "id": "people",
+          "text": "Are any people visible behind the animal? Answer yes or no."
+        }
+      ]
+    },
+    {
+      "id": "clean_later",
+      "source": "clean_hands",
+      "start": 8,
+      "questions": [
+        {
+          "id": "action",
+          "text": "Briefly describe the visible action."
+        },
+        {
+          "id": "object",
+          "text": "Name the main object or substance being used with the hands."
+        },
+        {
+          "id": "order",
+          "text": "Briefly describe the visible actions in chronological order."
+        }
+      ]
+    },
+    {
+      "id": "hygiene_later",
+      "source": "hand_hygiene",
+      "start": 8,
+      "questions": [
+        {
+          "id": "action",
+          "text": "Briefly describe the visible action."
+        },
+        {
+          "id": "object",
+          "text": "Name the main object or substance being used with the hands."
+        },
+        {
+          "id": "order",
+          "text": "Briefly describe the visible actions in chronological order."
+        }
+      ]
+    },
+    {
+      "id": "dog_then_cat",
+      "parts": [
+        [
+          "dog",
+          20
+        ],
+        [
+          "cat",
+          4
+        ]
+      ],
+      "questions": [
+        {
+          "id": "first",
+          "text": "Name the animal visible at the beginning."
+        },
+        {
+          "id": "last",
+          "text": "Name the animal visible at the end."
+        },
+        {
+          "id": "order",
+          "text": "List the animals in order of first appearance."
+        }
+      ]
+    },
+    {
+      "id": "cat_then_dog",
+      "parts": [
+        [
+          "cat",
+          4
+        ],
+        [
+          "dog",
+          20
+        ]
+      ],
+      "questions": [
+        {
+          "id": "first",
+          "text": "Name the animal visible at the beginning."
+        },
+        {
+          "id": "last",
+          "text": "Name the animal visible at the end."
+        },
+        {
+          "id": "order",
+          "text": "List the animals in order of first appearance."
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "subject",
+      "text": "Name the main visible animal in these frames."
+    },
+    {
+      "id": "coat",
+      "text": "Is the animal's coat mostly light-colored or mostly dark-colored? Answer light or dark."
+    },
+    {
+      "id": "people",
+      "text": "Are any people visible behind the animal? Answer yes or no."
+    }
+  ],
+  "sampling_fps": 1,
+  "frames_per_case": 4,
+  "synthetic_session_pts": [
+    0.0,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "scope": "Source frames disjoint from GPU91/92 rule-selection inputs only; old project sources and some previously tested frames, not unseen videos or a benchmark."
+}

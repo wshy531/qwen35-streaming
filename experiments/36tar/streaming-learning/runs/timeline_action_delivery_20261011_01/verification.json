@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "cpu_tests": 153,
+  "source_contracts": 17,
+  "epoch_contracts": 4,
+  "same_input_cases": 7,
+  "generated_ids_equal": 7,
+  "original_strict_correct": 4,
+  "streaming_strict_correct": 4,
+  "gpu_records": 50,
+  "stage_gpu_submissions": 3,
+  "stage_model_loads": 2,
+  "ram_failure_preserved": true,
+  "frozen_files_unchanged": 61,
+  "original_and_existing_core_unchanged": true,
+  "sources_assets_and_inputs_verified": true,
+  "qa_bitwise_unchanged": true,
+  "reset_memory_verified": true,
+  "workers_exited": true,
+  "camera_opened": false,
+  "syntax_files": 249,
+  "readme_links": 46,
+  "capsule_bytes": 12679103,
+  "capsule_limit_bytes": 13631488,
+  "single_file_limit_bytes": 1048576,
+  "runs": [
+    {
+      "run": "timeline_stream_preflight_20261011_01",
+      "frames": 23,
+      "qa": 7,
+      "resets": 3,
+      "drop": 0,
+      "current_proof_verified": true
+    },
+    {
+      "run": "timeline_stream_gpu_20261011_01",
+      "frames": 23,
+      "qa": 7,
+      "resets": 3,
+      "drop": 0,
+      "current_proof_verified": true
+    }
+  ],
+  "cluster": 0,
+  "training": 0
+}

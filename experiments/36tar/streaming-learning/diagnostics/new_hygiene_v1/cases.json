@@ -1,0 +1,69 @@
+{
+  "source_sha256": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9",
+  "pairs": [
+    {
+      "id": "standing",
+      "frames": [
+        {
+          "frame_id": 144,
+          "timestamp": 6.006
+        },
+        {
+          "frame_id": 168,
+          "timestamp": 7.007
+        }
+      ],
+      "expected_by_question": {
+        "numeric": "3",
+        "action": null
+      },
+      "rubric": "Person standing near dispenser, no water washing or paper use visible."
+    },
+    {
+      "id": "dispensing",
+      "frames": [
+        {
+          "frame_id": 240,
+          "timestamp": 10.01
+        },
+        {
+          "frame_id": 264,
+          "timestamp": 11.011
+        }
+      ],
+      "expected_by_question": {
+        "numeric": "3",
+        "action": null
+      },
+      "rubric": "Pressing wall liquid dispenser; no running water or paper towel visible."
+    },
+    {
+      "id": "rubbing",
+      "frames": [
+        {
+          "frame_id": 336,
+          "timestamp": 14.014
+        },
+        {
+          "frame_id": 360,
+          "timestamp": 15.015
+        }
+      ],
+      "expected_by_question": {
+        "numeric": "3",
+        "action": null
+      },
+      "rubric": "Rubbing hands near dispenser; no running water/paper towel visible; category semantics may overlap hygiene in casual language."
+    }
+  ],
+  "questions": [
+    {
+      "id": "numeric",
+      "text": "What are the hands doing in the most recent two frames? Choose one: 1 = washing or rinsing hands with water; 2 = taking or using a paper towel; 3 = another action. Reply only 1, 2, or 3."
+    },
+    {
+      "id": "action",
+      "text": "Describe what the person or hands are doing in the most recent two frames."
+    }
+  ]
+}

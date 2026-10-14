@@ -1,0 +1,10 @@
+test_loss_and_zero_are_explicit (__main__.Contracts.test_loss_and_zero_are_explicit) ... ok
+test_merge_and_penalties_against_frozen_forest (__main__.Contracts.test_merge_and_penalties_against_frozen_forest) ... ok
+test_multi_level_mass_positions_pressure_and_release (__main__.Contracts.test_multi_level_mass_positions_pressure_and_release) ... ok
+test_raw_adapter_matches_existing_context (__main__.Contracts.test_raw_adapter_matches_existing_context) ... ok
+test_real_composition_queries_reset_continue (__main__.Contracts.test_real_composition_queries_reset_continue) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.917s
+
+OK

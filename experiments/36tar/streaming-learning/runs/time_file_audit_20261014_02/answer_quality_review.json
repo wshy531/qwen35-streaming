@@ -1,0 +1,86 @@
+{
+  "all_actual_answers_reviewed": true,
+  "rows": [
+    {
+      "plan_index": 1,
+      "question": "Name the animal visible at 0.5 seconds.",
+      "selected_interval": [
+        0.0,
+        0.9999999999999999
+      ],
+      "raw_answer": "A cat.",
+      "interpretation": "cat",
+      "expected": "cat",
+      "correct": true
+    },
+    {
+      "plan_index": 3,
+      "question": "Name the animal visible at 2.5 seconds.",
+      "selected_interval": [
+        2.0,
+        3.0
+      ],
+      "raw_answer": "A dog",
+      "interpretation": "dog",
+      "expected": "cat",
+      "correct": false
+    },
+    {
+      "plan_index": 4,
+      "question": "Is the animal's coat mostly light-colored or mostly dark-colored at 0.5 seconds? Answer light or dark.",
+      "selected_interval": [
+        0.0,
+        0.9999999999999999
+      ],
+      "raw_answer": "dark-colored",
+      "interpretation": "dark",
+      "expected": "dark",
+      "correct": true
+    },
+    {
+      "plan_index": 5,
+      "question": "Name the animal visible at 0.5 seconds.",
+      "selected_interval": [
+        0.0,
+        0.9999999999999999
+      ],
+      "raw_answer": "A cat.",
+      "interpretation": "cat",
+      "expected": "cat",
+      "correct": true
+    },
+    {
+      "plan_index": 7,
+      "question": "Name the animal visible at 4.5 seconds.",
+      "selected_interval": [
+        4.0,
+        5.0
+      ],
+      "raw_answer": "A dog.",
+      "interpretation": "dog",
+      "expected": "cat",
+      "correct": false
+    },
+    {
+      "plan_index": 10,
+      "question": "Name the animal visible at 6.5 seconds.",
+      "selected_interval": [
+        6.0,
+        7.0
+      ],
+      "raw_answer": "A dog.",
+      "interpretation": "dog",
+      "expected": "cat",
+      "correct": false
+    }
+  ],
+  "correct_related_answers": 3,
+  "mechanism_acceptance_passed": true,
+  "scope": "Known single video; repeated first-pair answer included, not general accuracy.",
+  "limits": [
+    "7 refusals do not prove object-relevance detection; only syntax/time/coverage are checked.",
+    "Three cat pairs still misidentified as dog; correct evidence selection does not repair base recognition.",
+    "JPEGs are display-only; old JPEG files in the report cannot serve evicted feature queries.",
+    "HTML/source/image references checked; browser-render visual inspection blocked by file URL policy."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "model_dir": "E:\\VIT Model\\models\\Qwen3.5-0.8B",
+  "device": "Integrated Camera",
+  "capture_size": "640x480",
+  "capture_fps": 15,
+  "idle_seconds": 3.0,
+  "fps": 1.0,
+  "duration": 12.0,
+  "max_frames": 12,
+  "question": "Describe what is happening now.",
+  "answer_tokens": 16,
+  "max_tokens": 288,
+  "qa_every": 2,
+  "first_qa_frames": 4,
+  "wall_seconds": 180,
+  "allow_branch": [],
+  "video": null,
+  "playback": "clock",
+  "repeat_count": 1,
+  "repeat_period": null,
+  "consumer_delay_seconds": 0.0
+}

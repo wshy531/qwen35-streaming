@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "frozen_original_files_unchanged": 61,
+  "active_proof_matches": true,
+  "cpu_tests_passed": 97,
+  "gpu_runs_this_stage": 2,
+  "conditions": [
+    {
+      "condition": "normal",
+      "source_samples": 12,
+      "delivered": 12,
+      "dropped": 0,
+      "questions": 3,
+      "resets": 2,
+      "source_fingerprint": {
+        "samples": 12,
+        "sha256": "e292c3f8f2e2a3dd702c7bf8920c86c95199a042bbef43623501f653dba8ebe8"
+      },
+      "answer_lags_seconds": [
+        0.6059999999994687,
+        0.6329999999994183,
+        0.5509999999998989
+      ],
+      "main_unchanged_bitwise": true,
+      "producer_stopped": true
+    },
+    {
+      "condition": "overload",
+      "source_samples": 12,
+      "delivered": 8,
+      "dropped": 4,
+      "questions": 2,
+      "resets": 1,
+      "source_fingerprint": {
+        "samples": 12,
+        "sha256": "e292c3f8f2e2a3dd702c7bf8920c86c95199a042bbef43623501f653dba8ebe8"
+      },
+      "answer_lags_seconds": [
+        2.37,
+        3.5679999999997243
+      ],
+      "main_unchanged_bitwise": true,
+      "producer_stopped": true
+    }
+  ],
+  "syntax_files": 226,
+  "readme_links": 22,
+  "capsule_files": 1152,
+  "capsule_bytes": 9538313,
+  "no_new_media_weights_env_credentials": true,
+  "changes_only_in_personal_capsule": true,
+  "cleanup": {
+    "removed": [
+      {
+        "bytes": 0,
+        "path": "E:\\VIT Model\\runs\\clock_playback_cpu_20261011_01\\tmp"
+      },
+      {
+        "bytes": 0,
+        "path": "E:\\VIT Model\\runs\\clock_normal_preflight_20261011_01\\tmp"
+      },
+      {
+        "bytes": 0,
+        "path": "E:\\VIT Model\\runs\\clock_overload_preflight_20261011_01\\tmp"
+      },
+      {
+        "bytes": 0,
+        "path": "E:\\VIT Model\\runs\\clock_normal_gpu_20261011_01\\tmp"
+      },
+      {
+        "bytes": 0,
+        "path": "E:\\VIT Model\\runs\\clock_overload_gpu_20261011_01\\tmp"
+      },
+      {
+        "bytes": 137082,
+        "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\__pycache__"
+      },
+      {
+        "bytes": 208484,
+        "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\scripts\\__pycache__"
+      },
+      {
+        "bytes": 85740,
+        "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\streaming\\__pycache__"
+      },
+      {
+        "bytes": 126063,
+        "path": "E:\\VIT Model\\publish\\qwen35-streaming\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\tests\\__pycache__"
+      }
+    ],
+    "completed": true,
+    "scope": "Only this stage tmp and active Python caches; frozen history retained"
+  },
+  "viewer_check_scope": "Actual JS scripts and snapshot in a DOM stub; no browser visual claim"
+}

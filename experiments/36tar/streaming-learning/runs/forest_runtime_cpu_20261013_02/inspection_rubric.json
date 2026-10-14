@@ -1,0 +1,32 @@
+{
+  "saved_before_gpu": true,
+  "not_used_by_model_or_memory": true,
+  "known_repeated_source_not_generalization": true,
+  "controlled_pair_subjects": [
+    "dog",
+    "dog",
+    "bird",
+    "cat",
+    "cat",
+    "dog",
+    "dog",
+    "bird",
+    "cat",
+    "cat",
+    "dog",
+    "dog"
+  ],
+  "first_subject": "dog",
+  "short_event_between_first_dog_and_cat": "bird",
+  "unique_first_appearance_order": [
+    "dog",
+    "bird",
+    "cat"
+  ],
+  "natural_first": "washing/rubbing soapy hands",
+  "natural_last": "taking paper towel and drying hands",
+  "contact_hashes": {
+    "controlled_repeated_contact.jpg": "eed9d8bcc35f51a42c8ee936f073ef31296c08d19e2ae495e27bd5de80faecc3",
+    "natural_clean_contact.jpg": "688429a31b10f9f310f076e4f647e8dea23ae71e6aebeff86c40d0cbd9a04ba4"
+  }
+}

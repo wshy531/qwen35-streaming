@@ -1,0 +1,7 @@
+{
+  "retries": 2,
+  "stage": "second delivery audit",
+  "reason": "CURRENT_SOURCE_MANIFEST CRLF flagged as trailing whitespace because capsule intentionally disables Git text conversion",
+  "passed": false,
+  "inference_source_changed": false
+}

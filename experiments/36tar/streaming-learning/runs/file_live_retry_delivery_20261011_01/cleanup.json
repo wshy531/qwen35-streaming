@@ -1,0 +1,12 @@
+{
+  "removed": [
+    {
+      "no_reparse_point": true,
+      "absolute_path_checked": true,
+      "path": "E:\\VIT Model\\runs\\file_live_gpu_20261011_02\\tmp",
+      "bytes": 0
+    }
+  ],
+  "old_runs_and_sources_preserved": true,
+  "model_data_environment_untouched": true
+}

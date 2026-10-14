@@ -1,0 +1,19 @@
+{
+  "model_loads": 1,
+  "vision_max": 1,
+  "questions_max": 2,
+  "generated_max": 64,
+  "language_max": 77,
+  "wall_seconds": 360,
+  "answer_tokens": 32,
+  "main_max_tokens": 256,
+  "qa_max_tokens": 512,
+  "bank_visual_tokens_max": 144,
+  "bank_tensor_bytes_max": 592704,
+  "cpu_feature_temporaries_bound_bytes": 4194304,
+  "rgb_working_estimate_bound_bytes": 1048576,
+  "ram_min_gib": 3,
+  "gpu_free_min_gib": 5.5,
+  "conversion_free_min_gib": 2,
+  "file_bytes_max": 67108864
+}

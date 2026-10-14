@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source_hashes_verified": 105,
+  "fresh_cpu_and_gpu_snapshots_verified": true,
+  "model_questions": 63,
+  "long_forest_merges": 4,
+  "query_state_guards_and_reset_ledgers_verified": true,
+  "reset_answer_id_pairs": 9,
+  "gpu_summary_sha256": "81b16b95ccacbd65c31044bfd491a42eea90eba8da5daa75851190de242f2dca",
+  "cpu_proof_sha256": "2bb7cae90dd1e56c1fb81d9c0942bbb6a66511a36bd457e7a14ff5ed03a0dc8c",
+  "no_default_or_teammate_tracked_changes": true,
+  "no_model_loaded_by_audit": true
+}

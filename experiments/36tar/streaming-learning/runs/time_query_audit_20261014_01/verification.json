@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "source_hashes": 140,
+  "cpu_tests": 3,
+  "counts": {
+    "vision": 12,
+    "language": 327
+  },
+  "questions": 72,
+  "generated_tokens": 235,
+  "route_oracle_generated_ids_exact": 12,
+  "pure_value_counterfactual_input_controls": 12,
+  "matched_suffix_and_reversed_features": true,
+  "explicit_main_reset_before_every_case_queries": true,
+  "conservative_feature_bytes": 9729280,
+  "gpu_summary_sha256": "e9c82682f85aee446b6d8c6090ace5c915904f2b3f937348a2cd0f985a91b6ee",
+  "cpu_proof_sha256": "18f7bc75e8e4d2aad2802c2bc71bd2c199b152e1b383e0c3b3d7aef194ddf67b",
+  "default_core_unchanged": true
+}

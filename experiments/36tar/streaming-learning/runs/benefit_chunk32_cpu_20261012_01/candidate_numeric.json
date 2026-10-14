@@ -1,0 +1,1050 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case_id": "dog_2",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 2.4143165244794318e-09,
+          "rms_diff": 5.433425709355788e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.384185791015625e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.9802322387695312e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 2.8230977555665504e-09,
+          "rms_diff": 5.73745095877598e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.384185791015625e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.9802322387695312e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "dog_4",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 4.22440038505556e-09,
+          "rms_diff": 7.463150986097844e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.384185791015625e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.9802322387695312e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 3.3240372676601737e-09,
+          "rms_diff": 6.427067766878736e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.384185791015625e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.9802322387695312e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "dog_6",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 2.6046986789651783e-09,
+          "rms_diff": 5.3184074921830415e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.384185791015625e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.9802322387695312e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 3.842229645556472e-09,
+          "rms_diff": 6.956176967776173e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.384185791015625e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.9802322387695312e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "dog_8",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 4.307737722086813e-09,
+          "rms_diff": 7.468326401749437e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.9802322387695312e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 4.220316984770989e-09,
+          "rms_diff": 7.310280825123527e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 2.9802322387695312e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "dog_10",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 5.892381582661699e-10,
+          "rms_diff": 2.5411066584268838e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 8.940696716308594e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 5.979992501181641e-09,
+          "rms_diff": 9.201589712404257e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 8.940696716308594e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "dog_12",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 4.324890223728062e-09,
+          "rms_diff": 7.517027889036854e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 8.940696716308594e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 6.476240099750896e-10,
+          "rms_diff": 2.634836349102443e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 8.940696716308594e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "pigeon_2",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 3.944407467315614e-09,
+          "rms_diff": 7.1104544474565046e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 2.5710757967090103e-09,
+          "rms_diff": 5.467104990941607e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "pigeon_4",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 8.940696716308594e-08,
+          "mean_abs_diff": 1.0506082226413582e-08,
+          "rms_diff": 1.4449131668925475e-08,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 7.450580596923828e-08,
+          "mean_abs_diff": 8.263433493027605e-09,
+          "rms_diff": 1.1764092811006321e-08,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "pigeon_6",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 3.816652327515158e-09,
+          "rms_diff": 7.023801540384511e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 7.227752618632621e-09,
+          "rms_diff": 1.0570755826222467e-08,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "pigeon_8",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 8.940696716308594e-08,
+          "mean_abs_diff": 6.351987824615435e-09,
+          "rms_diff": 9.734210770773188e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 4.978147671863553e-09,
+          "rms_diff": 8.155232045226057e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "pigeon_10",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 3.952709715093761e-09,
+          "rms_diff": 6.955895415217128e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 4.3661168014352825e-09,
+          "rms_diff": 7.584132433180457e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 3.5762786865234375e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    },
+    {
+      "case_id": "pigeon_12",
+      "qa_last": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 1.1563691115767938e-09,
+          "rms_diff": 3.4790474945367578e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 4.76837158203125e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "fixed_next_token": {
+        "logits": {
+          "max_abs_diff": 5.960464477539063e-08,
+          "mean_abs_diff": 2.5331696740238385e-09,
+          "rms_diff": 5.542141856551552e-09,
+          "bitwise_equal": false,
+          "allclose_5e3": true,
+          "last_argmax_equal": true,
+          "all_positions_argmax_equal": true,
+          "registered_numeric_limits_passed": true,
+          "allclose_1e4": true,
+          "fp32_reference_limits_passed": true
+        },
+        "final_states": {
+          "key_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 4.76837158203125e-07,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "value_cache": {
+            "populated_layers": 1,
+            "max_abs_diff": 5.960464477539063e-08,
+            "all_tensors_bitwise_equal": false,
+            "allclose_1e4": true
+          },
+          "conv_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          },
+          "recurrent_states": {
+            "populated_layers": 1,
+            "max_abs_diff": 0.0,
+            "all_tensors_bitwise_equal": true,
+            "allclose_1e4": true
+          }
+        },
+        "passed": true
+      },
+      "main_unchanged_bitwise": true,
+      "no_resets": true
+    }
+  ],
+  "scope": "Tiny32 vs64, fixed suffix and next Token, not real-weight accuracy or full hidden-state equivalence"
+}
