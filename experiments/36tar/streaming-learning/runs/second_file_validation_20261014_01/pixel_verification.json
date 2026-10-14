@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "original_sha256": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+  "original_dimensions": [
+    1920,
+    1080
+  ],
+  "original_frames": 1083,
+  "original_end_pts": 43.28,
+  "unique_samples": 26,
+  "sample_size": [
+    256,
+    144
+  ],
+  "canvas_size": [
+    256,
+    192
+  ],
+  "letterbox_top_bottom_rows": 24,
+  "pixels_independently_matched_cpu_proofs": true,
+  "one_original_full_rgb_array_bytes": 6220800,
+  "memory_estimate_limit": "Entry RGB+preview estimate counts sampled small packets; it excludes decoder-native buffers and original RGB conversion. Original RGB array alone is 6220800 bytes, so 2MiB is not full decoding peak or process RSS."
+}
