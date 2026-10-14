@@ -1,0 +1,74 @@
+[
+  {
+    "case": "new_dog",
+    "truth": "yes",
+    "direct_raw": "Yes",
+    "description": "A golden retriever dog is sitting on the ground.",
+    "bridge_raw": "Yes",
+    "direct_normalized": "yes",
+    "bridge_normalized": "yes",
+    "direct_correct": true,
+    "bridge_correct": true,
+    "direct_binary_format": true,
+    "bridge_binary_format": true,
+    "stop_reasons": {
+      "direct": "eos",
+      "description": "eos",
+      "bridge": "eos"
+    }
+  },
+  {
+    "case": "new_rabbit",
+    "truth": "yes",
+    "direct_raw": "Yes",
+    "description": "A white rabbit with black ears is sitting on a bed of hay.",
+    "bridge_raw": "Yes",
+    "direct_normalized": "yes",
+    "bridge_normalized": "yes",
+    "direct_correct": true,
+    "bridge_correct": true,
+    "direct_binary_format": true,
+    "bridge_binary_format": true,
+    "stop_reasons": {
+      "description": "eos",
+      "bridge": "eos",
+      "direct": "eos"
+    }
+  },
+  {
+    "case": "new_fountain",
+    "truth": "no",
+    "direct_raw": "No.",
+    "description": "A view of a city street with a fountain in the foreground and a tall building in the background.",
+    "bridge_raw": "No",
+    "direct_normalized": "no",
+    "bridge_normalized": "no",
+    "direct_correct": true,
+    "bridge_correct": true,
+    "direct_binary_format": true,
+    "bridge_binary_format": true,
+    "stop_reasons": {
+      "direct": "eos",
+      "description": "eos",
+      "bridge": "eos"
+    }
+  },
+  {
+    "case": "new_books",
+    "truth": "no",
+    "direct_raw": "No.",
+    "description": "A library with shelves filled with books.",
+    "bridge_raw": "No",
+    "direct_normalized": "no",
+    "bridge_normalized": "no",
+    "direct_correct": true,
+    "bridge_correct": true,
+    "direct_binary_format": true,
+    "bridge_binary_format": true,
+    "stop_reasons": {
+      "description": "eos",
+      "bridge": "eos",
+      "direct": "eos"
+    }
+  }
+]
