@@ -1,0 +1,15 @@
+{
+  "tests": 45,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "modules": [
+    "tests.test_live_source",
+    "tests.test_capture_progress",
+    "tests.test_playback",
+    "tests.test_repeat_source"
+  ],
+  "physical_camera_opened": false,
+  "gpu_tested": false
+}

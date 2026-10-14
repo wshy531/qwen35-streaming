@@ -50,8 +50,12 @@ def read_message(stream):
         raise ValueError('Truncated capture header')
     meta = json.loads(raw.decode('utf-8'))
     if meta.get('kind') != 'frame':
-        if meta.get('kind') not in ('end','error'):
+        if meta.get('kind') not in ('end','error','progress'):
             raise ValueError('Invalid capture message kind')
+        if meta['kind']=='progress' and (
+                meta.get('source_kind') not in ('synthetic','dshow','file') or
+                meta.get('reason') not in ('scheduled_wait','decoded_frame')):
+            raise ValueError('Invalid capture progress metadata')
         return meta,None
     shape = meta.get('shape')
     if not isinstance(shape,list) or len(shape)!=3 or shape[2]!=3 or any(type(n)!=int for n in shape) or not all(1<=n<=256 for n in shape[:2]):
@@ -83,7 +87,8 @@ def validate_packet(meta,rgb,last=None):
 class LiveSource:
     """Pipe drainer never touches GPU; bounded latest-frame slot feeds one owner.
 
-    Idle detection terminates a worker blocked in native read. Explicit close
+    Progress during intentional pacing/decoded camera frames keeps sparse
+    sampling alive. Idle detection still terminates a blocked native read. Explicit close
     wakes the consumer, terminates/joins the worker and joins its pipe drainer.
     """
     def __init__(self,kind,device,fps,duration,max_frames,on_frame=None,idle_seconds=3.,
@@ -103,6 +108,7 @@ class LiveSource:
         self.last_metadata = None
         self.maximum_packet_bytes = 0
         self.worker_torch_loaded = None
+        self.progress_messages = 0
 
     def start(self):
         if self.process is not None:
@@ -137,6 +143,11 @@ class LiveSource:
                     break
                 self.last_activity = time.monotonic()
                 meta,rgb = item
+                if meta['kind']=='progress':
+                    if meta['source_kind']!=self.kind:
+                        raise ValueError('Capture progress source differs from registered source')
+                    self.progress_messages += 1
+                    continue
                 if meta['kind']=='error':
                     raise RuntimeError(meta.get('message','Capture worker error'))
                 if meta['kind']=='end':
@@ -187,6 +198,7 @@ class LiveSource:
             'worker_alive':self.process is not None and self.process.poll() is None,'queue_capacity':1,
             'max_packet_rgb_bytes':self.maximum_packet_bytes,'timestamp_basis':'source_pts' if self.kind=='file' else 'receive_monotonic',
             'sensor_to_answer_latency_measured':False,'source_kind':self.kind,'last_metadata':self.last_metadata,
+            'capture_progress_messages':self.progress_messages,
             'worker_torch_loaded':self.worker_torch_loaded}
 
     def close(self):

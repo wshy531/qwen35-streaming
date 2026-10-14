@@ -20,6 +20,27 @@ def send(meta,rgb=None):
     sys.stdout.buffer.flush()
 
 
+class CaptureProgress:
+    """Report deliberate waits/decoded frames, never a blocked native read."""
+    def __init__(self, source_kind, clock=time.monotonic, sleep=time.sleep, emit=send):
+        self.source_kind, self.clock, self.sleep, self.emit = source_kind, clock, sleep, emit
+        self.last_report = -math.inf
+
+    def report(self, reason):
+        now = self.clock()
+        if now-self.last_report >= .1:
+            self.emit({'kind':'progress','source_kind':self.source_kind,'reason':reason})
+            self.last_report = now
+
+    def wait_until(self, deadline):
+        while True:
+            remaining = deadline-self.clock()
+            if remaining <= 0:
+                return
+            self.report('scheduled_wait')
+            self.sleep(min(.05, remaining))
+
+
 def owner_guard(owner_pid,deadline,stop):
     # An OS process handle stays attached to the original parent if PID is reused.
     if os.name=='nt':
@@ -71,6 +92,7 @@ def main():
                 time.sleep(.1)
         if a.fixture=='error':
             raise RuntimeError('Explicit synthetic disconnect')
+        progress = CaptureProgress(a.kind)
         count, last_timestamp = 0, None
         def frame(rgb,frame_id,decoded,device_pts,received=None):
             nonlocal count, last_timestamp
@@ -90,7 +112,7 @@ def main():
         if a.kind=='synthetic':
             for i in range(a.max_frames):
                 if i and a.fixture!='burst':
-                    time.sleep(1/a.fps)
+                    progress.wait_until(min(time.monotonic()+1/a.fps,a.origin+a.duration))
                 rgb = np.full((64,96,3),[32+16*(i%8),64,128],np.uint8)
                 if not frame(rgb,i,i+1,None):
                     break
@@ -104,11 +126,7 @@ def main():
                     if packet.timestamp>=a.duration:
                         reason = 'live_duration_limit'
                         break
-                    while True:
-                        remaining = a.origin+packet.timestamp-time.monotonic()
-                        if remaining<=0:
-                            break
-                        time.sleep(min(.02,remaining))
+                    progress.wait_until(a.origin+packet.timestamp)
                     rgb = fit_canvas(packet.rgb,(192,256))
                     send({'kind':'frame','frame_id':packet.frame_id,'decoded_count':packet.decoded_count,
                           'timestamp':packet.timestamp,'device_pts':packet.timestamp,'shape':list(rgb.shape),
@@ -138,6 +156,7 @@ def main():
                         break
                     if image.width>w or image.height>h:
                         raise ValueError('Negotiated camera dimensions exceed requested budget')
+                    progress.report('decoded_frame')
                     if sampler.accept(now):
                         rgb = Image.fromarray(image.to_ndarray(format='rgb24'))
                         rgb.thumbnail((256,256))

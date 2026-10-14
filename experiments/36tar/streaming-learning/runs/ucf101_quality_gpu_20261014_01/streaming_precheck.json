@@ -1,0 +1,6 @@
+{
+  "arm": "streaming",
+  "gpu_free_gib": 5.3173828125,
+  "ram_available_gib": 2.553131103515625,
+  "branch": "wshy/fix-live-sampling-timeout"
+}
