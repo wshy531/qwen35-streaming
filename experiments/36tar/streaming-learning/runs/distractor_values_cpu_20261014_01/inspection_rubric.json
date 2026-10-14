@@ -1,0 +1,44 @@
+{
+  "saved_before_gpu": true,
+  "truth": {
+    "development_dog_cat": {
+      "early_animal": "dog",
+      "middle_animal": "cat",
+      "early_coat": "light"
+    },
+    "development_cat_dog": {
+      "early_animal": "cat",
+      "middle_animal": "dog",
+      "early_coat": "dark"
+    },
+    "confirmation_dog_cat": {
+      "early_animal": "dog",
+      "middle_animal": "cat",
+      "early_coat": "light"
+    },
+    "confirmation_cat_dog": {
+      "early_animal": "cat",
+      "middle_animal": "dog",
+      "early_coat": "dark"
+    }
+  },
+  "photo_sha256": {
+    "confirmation_cat_dog_contact.jpg": "9d57970b329b3b938ff474d63e429034ffcffda2cfd854114062853f38eb4bd8",
+    "confirmation_dog_cat_contact.jpg": "7e8b2c7ab9e0852be2009e38f36529e92801afcfe51779e56f535928e417c85b",
+    "development_cat_dog_contact.jpg": "5d42265bc9c5631f726918fad7ee7137b22dd56a98a4f9e56ce8ef272ea829fb",
+    "development_dog_cat_contact.jpg": "8bba7dbc0376cc38be87c1a70cc02cbf2a6ca5ae41fddfc156a221ae5ee4be40"
+  },
+  "source_sha256": {
+    "E:\\VIT Model\\datasets\\general_stream_v1\\dog.webm": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3"
+  },
+  "manual_view": "Contact sheets byte-identical to the four inspected GPU95 cases; target labels transferred before current GPU answers.",
+  "rules": [
+    "Target feature values and factual label held fixed across all full-context interventions.",
+    "Synthetic context results are target-fact readability checks, not actual recorded-history accuracy.",
+    "All_history and single_old must reproduce GPU95 exactly.",
+    "Full-context arms must keep all text/positions/length/node metadata/mass/coords fixed; only non-target values vary.",
+    "No added arms after answers; familiar cases are diagnosis only."
+  ]
+}

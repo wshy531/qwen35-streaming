@@ -1,0 +1,547 @@
+{
+  "passed": true,
+  "source_hashes": 144,
+  "cpu_tests": 2,
+  "counts": {
+    "vision": 12,
+    "language": 277
+  },
+  "questions": 72,
+  "generated_tokens": 185,
+  "fixed_layout_non_target_value_controls": [
+    {
+      "case": "development_dog_cat",
+      "topic": "early_animal",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "early_animal",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "early_animal",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "early_animal",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "middle_animal",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "middle_animal",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "middle_animal",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "middle_animal",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "early_coat",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "early_coat",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "early_coat",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "development_dog_cat",
+      "topic": "early_coat",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "early_animal",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "early_animal",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "early_animal",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "early_animal",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "middle_animal",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "middle_animal",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "middle_animal",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "middle_animal",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "early_coat",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "early_coat",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "early_coat",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "development_cat_dog",
+      "topic": "early_coat",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "early_animal",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "early_animal",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "early_animal",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "early_animal",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "middle_animal",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "middle_animal",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "middle_animal",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "middle_animal",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "early_coat",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "early_coat",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "early_coat",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "confirmation_dog_cat",
+      "topic": "early_coat",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "early_animal",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "early_animal",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "early_animal",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "early_animal",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "middle_animal",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "middle_animal",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "middle_animal",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "middle_animal",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "early_coat",
+      "arm": "other_to_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "early_coat",
+      "arm": "other_to_target",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "early_coat",
+      "arm": "recent_to_other",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "case": "confirmation_cat_dog",
+      "topic": "early_coat",
+      "arm": "swap_other_recent",
+      "fixed_full_layout_and_target_values": true,
+      "donor_by_slot": [
+        0,
+        2,
+        1
+      ]
+    }
+  ],
+  "original_and_single_generated_ids_match_gpu95": 24,
+  "same_input_frames_and_features_as_gpu95": true,
+  "conservative_feature_bytes": 9729280,
+  "gpu_summary_sha256": "f91e641c44459edf6ae9a269f419bae8081a7fbc30e3c85e591809d441838606",
+  "cpu_proof_sha256": "adef079e16abd1cffe3066103c409d8851043f744b4647cfd42d7699805de00c",
+  "default_core_unchanged": true
+}

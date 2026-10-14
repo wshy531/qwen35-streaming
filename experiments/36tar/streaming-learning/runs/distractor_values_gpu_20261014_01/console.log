@@ -1,0 +1,74 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 13991.17it/s]
+{"case": "development_dog_cat", "condition": "all_history", "topic": "early_animal", "answer": "dog"}
+{"case": "development_dog_cat", "condition": "all_history", "topic": "middle_animal", "answer": "cat"}
+{"case": "development_dog_cat", "condition": "all_history", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_dog_cat", "condition": "other_to_recent", "topic": "early_animal", "answer": "dog"}
+{"case": "development_dog_cat", "condition": "other_to_recent", "topic": "middle_animal", "answer": "cat"}
+{"case": "development_dog_cat", "condition": "other_to_recent", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_dog_cat", "condition": "other_to_target", "topic": "early_animal", "answer": "dog"}
+{"case": "development_dog_cat", "condition": "other_to_target", "topic": "middle_animal", "answer": "cat"}
+{"case": "development_dog_cat", "condition": "other_to_target", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_dog_cat", "condition": "recent_to_other", "topic": "early_animal", "answer": "dog"}
+{"case": "development_dog_cat", "condition": "recent_to_other", "topic": "middle_animal", "answer": "A cat"}
+{"case": "development_dog_cat", "condition": "recent_to_other", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_dog_cat", "condition": "swap_other_recent", "topic": "early_animal", "answer": "dog"}
+{"case": "development_dog_cat", "condition": "swap_other_recent", "topic": "middle_animal", "answer": "A cat"}
+{"case": "development_dog_cat", "condition": "swap_other_recent", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_dog_cat", "condition": "single_old", "topic": "early_animal", "answer": "A dog"}
+{"case": "development_dog_cat", "condition": "single_old", "topic": "middle_animal", "answer": "A cat."}
+{"case": "development_dog_cat", "condition": "single_old", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_cat_dog", "condition": "all_history", "topic": "early_animal", "answer": "cat"}
+{"case": "development_cat_dog", "condition": "all_history", "topic": "middle_animal", "answer": "dog"}
+{"case": "development_cat_dog", "condition": "all_history", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_cat_dog", "condition": "other_to_recent", "topic": "early_animal", "answer": "cat"}
+{"case": "development_cat_dog", "condition": "other_to_recent", "topic": "middle_animal", "answer": "A dog"}
+{"case": "development_cat_dog", "condition": "other_to_recent", "topic": "early_coat", "answer": "dark-colored"}
+{"case": "development_cat_dog", "condition": "other_to_target", "topic": "early_animal", "answer": "cat"}
+{"case": "development_cat_dog", "condition": "other_to_target", "topic": "middle_animal", "answer": "dog"}
+{"case": "development_cat_dog", "condition": "other_to_target", "topic": "early_coat", "answer": "dark-colored"}
+{"case": "development_cat_dog", "condition": "recent_to_other", "topic": "early_animal", "answer": "A cat"}
+{"case": "development_cat_dog", "condition": "recent_to_other", "topic": "middle_animal", "answer": "A dog"}
+{"case": "development_cat_dog", "condition": "recent_to_other", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_cat_dog", "condition": "swap_other_recent", "topic": "early_animal", "answer": "cat"}
+{"case": "development_cat_dog", "condition": "swap_other_recent", "topic": "middle_animal", "answer": "A dog"}
+{"case": "development_cat_dog", "condition": "swap_other_recent", "topic": "early_coat", "answer": "light-colored"}
+{"case": "development_cat_dog", "condition": "single_old", "topic": "early_animal", "answer": "A cat."}
+{"case": "development_cat_dog", "condition": "single_old", "topic": "middle_animal", "answer": "A dog"}
+{"case": "development_cat_dog", "condition": "single_old", "topic": "early_coat", "answer": "dark-colored"}
+{"case": "confirmation_dog_cat", "condition": "all_history", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "all_history", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "all_history", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_dog_cat", "condition": "other_to_recent", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "other_to_recent", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "other_to_recent", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_dog_cat", "condition": "other_to_target", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "other_to_target", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "other_to_target", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_dog_cat", "condition": "recent_to_other", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "recent_to_other", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "recent_to_other", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_dog_cat", "condition": "swap_other_recent", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "swap_other_recent", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_dog_cat", "condition": "swap_other_recent", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_dog_cat", "condition": "single_old", "topic": "early_animal", "answer": "A dog"}
+{"case": "confirmation_dog_cat", "condition": "single_old", "topic": "middle_animal", "answer": "A dog"}
+{"case": "confirmation_dog_cat", "condition": "single_old", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_cat_dog", "condition": "all_history", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "all_history", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "all_history", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_cat_dog", "condition": "other_to_recent", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "other_to_recent", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "other_to_recent", "topic": "early_coat", "answer": "dark-colored"}
+{"case": "confirmation_cat_dog", "condition": "other_to_target", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "other_to_target", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "other_to_target", "topic": "early_coat", "answer": "dark-colored"}
+{"case": "confirmation_cat_dog", "condition": "recent_to_other", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "recent_to_other", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "recent_to_other", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_cat_dog", "condition": "swap_other_recent", "topic": "early_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "swap_other_recent", "topic": "middle_animal", "answer": "dog"}
+{"case": "confirmation_cat_dog", "condition": "swap_other_recent", "topic": "early_coat", "answer": "light-colored"}
+{"case": "confirmation_cat_dog", "condition": "single_old", "topic": "early_animal", "answer": "A dog"}
+{"case": "confirmation_cat_dog", "condition": "single_old", "topic": "middle_animal", "answer": "A dog."}
+{"case": "confirmation_cat_dog", "condition": "single_old", "topic": "early_coat", "answer": "dark-colored"}
