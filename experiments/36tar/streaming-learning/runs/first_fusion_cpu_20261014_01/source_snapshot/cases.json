@@ -1,0 +1,33 @@
+{
+  "threshold": 0.047536224126815796,
+  "original_video": {
+    "source": "cat",
+    "start": 0,
+    "frames": 4
+  },
+  "static_photo_ids": [
+    "black_photo",
+    "light_photo"
+  ],
+  "questions": [
+    {
+      "id": "coat",
+      "text": "Is the animal's coat mostly light-colored or mostly dark-colored during the first 0.0-3.0 seconds? Answer light or dark."
+    },
+    {
+      "id": "subject",
+      "text": "Name the main visible animal in these frames."
+    }
+  ],
+  "arms": [
+    "raw96",
+    "first48",
+    "last48",
+    "merged_destination",
+    "unmixed_destination",
+    "merged_first_grid",
+    "unmixed_first_grid"
+  ],
+  "photo_manifest_sha_required": true,
+  "static_images_are_repeated_controls_not_video": true
+}

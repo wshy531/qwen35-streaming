@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "source_hashes": 126,
+  "cpu_tests": 1,
+  "counts": {
+    "vision": 6,
+    "language": 165
+  },
+  "questions": 42,
+  "generated_tokens": 114,
+  "independent_2x2_controls": [
+    {
+      "case": "video_cat",
+      "topic": "coat",
+      "value_and_position_independent": true
+    },
+    {
+      "case": "video_cat",
+      "topic": "subject",
+      "value_and_position_independent": true
+    },
+    {
+      "case": "black_photo",
+      "topic": "coat",
+      "value_and_position_independent": true
+    },
+    {
+      "case": "black_photo",
+      "topic": "subject",
+      "value_and_position_independent": true
+    },
+    {
+      "case": "light_photo",
+      "topic": "coat",
+      "value_and_position_independent": true
+    },
+    {
+      "case": "light_photo",
+      "topic": "subject",
+      "value_and_position_independent": true
+    }
+  ],
+  "same_video_features_as_gpu90": true,
+  "static_photo_repetition_exact": true,
+  "representative_actual_intervals_retained": true,
+  "conservative_feature_bytes": 7427584,
+  "default_core_unchanged": true,
+  "gpu_summary_sha256": "a9877caf73ed8d53bc94688b2f867262fd586d37a769a24dc5209926270c5c30",
+  "cpu_proof_sha256": "30e48c69b6641a7d9d8a63f6557008dc63e6e061ea8547889871164e7a1fdac0"
+}

@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "id": "black_photo",
+      "file": "black_cat.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Black_cat_laying.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Black_cat_laying.JPG",
+      "author": "Cep21",
+      "license": "Public domain, PD-self",
+      "expected_bytes": 115204,
+      "sha1": "cce6539b8c552464a934a282c8f5c5e9c3793aed",
+      "path": "E:\\VIT Model\\datasets\\coat_controls_v1\\black_cat.jpg",
+      "bytes": 115204,
+      "sha256": "c79eb65d3167fa2c1a6723bf1573fc3fc7bc9b1477dffb21c5c29641ba7d6380",
+      "transformation": "None for original JPEG; model uses letterbox 256x192 at runtime",
+      "repeated_static_control_not_natural_video": true
+    },
+    {
+      "id": "light_photo",
+      "file": "light_cat.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/White_cat_in_black_background.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:White_cat_in_black_background.jpg",
+      "author": "Shadman.aousaf",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "expected_bytes": 89358,
+      "sha1": "1b4e2fff6615b9fe6a9caf9d872f87708b7d378c",
+      "path": "E:\\VIT Model\\datasets\\coat_controls_v1\\light_cat.jpg",
+      "bytes": 89358,
+      "sha256": "bac28217d038a2b8ee14eb00cdfd964bb08af5ae5ca24253cb8ec0b4a65cf350",
+      "transformation": "None for original JPEG; model uses letterbox 256x192 at runtime",
+      "repeated_static_control_not_natural_video": true
+    }
+  ],
+  "total_bytes": 204562,
+  "elapsed_seconds": 2.5
+}

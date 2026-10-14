@@ -1,0 +1,44 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 10503.80it/s]
+{"case": "video_cat", "condition": "raw96", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "raw96", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "first48", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "first48", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "last48", "topic": "coat", "answer": "dark-colored"}
+{"case": "video_cat", "condition": "last48", "topic": "subject", "answer": "A dog"}
+{"case": "video_cat", "condition": "merged_destination", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "merged_destination", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "unmixed_destination", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "unmixed_destination", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "merged_first_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "merged_first_grid", "topic": "subject", "answer": "Cat"}
+{"case": "video_cat", "condition": "unmixed_first_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "video_cat", "condition": "unmixed_first_grid", "topic": "subject", "answer": "Cat"}
+{"case": "black_photo", "condition": "raw96", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "raw96", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "first48", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "first48", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "last48", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "last48", "topic": "subject", "answer": "A cat."}
+{"case": "black_photo", "condition": "merged_destination", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "merged_destination", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "unmixed_destination", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "unmixed_destination", "topic": "subject", "answer": "A cat."}
+{"case": "black_photo", "condition": "merged_first_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "merged_first_grid", "topic": "subject", "answer": "cat"}
+{"case": "black_photo", "condition": "unmixed_first_grid", "topic": "coat", "answer": "dark-colored"}
+{"case": "black_photo", "condition": "unmixed_first_grid", "topic": "subject", "answer": "A cat."}
+{"case": "light_photo", "condition": "raw96", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "raw96", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "first48", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "first48", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "last48", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "last48", "topic": "subject", "answer": "A cat."}
+{"case": "light_photo", "condition": "merged_destination", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "merged_destination", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "unmixed_destination", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "unmixed_destination", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "merged_first_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "merged_first_grid", "topic": "subject", "answer": "Cat"}
+{"case": "light_photo", "condition": "unmixed_first_grid", "topic": "coat", "answer": "light-colored"}
+{"case": "light_photo", "condition": "unmixed_first_grid", "topic": "subject", "answer": "Cat"}
