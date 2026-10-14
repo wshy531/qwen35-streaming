@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "cpu_contracts": 8,
+  "source_hashes": 147,
+  "prior_cpu_failure_and_old_success_preserved": true,
+  "frames": 9,
+  "pairs": 4,
+  "attempts": 13,
+  "model_calls": 6,
+  "refusals": 7,
+  "counts": {
+    "vision": 4,
+    "language": 35
+  },
+  "generated_tokens": 22,
+  "same_old_query_across_main_reset_generated_ids_exact": true,
+  "pixel_layout_plan_and_preview_sha_verified": true,
+  "html_structure_images_and_escaped_content_verified": true,
+  "final_version_generation_matches_gpu97": true,
+  "roundoff_boundary_cpu_contract_mocked": true,
+  "browser_render_visual_check": false,
+  "browser_limit": "file URL blocked by browser security policy; no workaround attempted",
+  "gpu_summary_sha256": "9da14fba35508ef5ff7ad546cb7fcc0b20b8ebbbd558ba27b5218d10e21c1ace",
+  "cpu_proof_sha256": "22597a9db25fd0ed9ca297396d6b64c781745f0520019ea44a07e53a40a76d30",
+  "default_core_unchanged": true
+}

@@ -1,0 +1,19 @@
+test_continuous_capacity_resets_and_bounded_eviction (contracts.Contracts.test_continuous_capacity_resets_and_bounded_eviction) ... ok
+test_failed_main_write_cannot_commit_index_and_preview_is_owned (contracts.Contracts.test_failed_main_write_cannot_commit_index_and_preview_is_owned) ... ok
+test_pending_eof_and_older_query_do_not_use_future_sample (contracts.Contracts.test_pending_eof_and_older_query_do_not_use_future_sample) ... ok
+test_refusal_has_no_model_call_for_empty_future_gap_evicted_unsupported (contracts.Contracts.test_refusal_has_no_model_call_for_empty_future_gap_evicted_unsupported) ... ok
+test_report_escapes_text_and_plan_preserves_unreached_triggers (contracts.Contracts.test_report_escapes_text_and_plan_preserves_unreached_triggers) ... ERROR
+test_same_old_query_across_reset_then_continue (contracts.Contracts.test_same_old_query_across_reset_then_continue) ... ok
+
+======================================================================
+ERROR: test_report_escapes_text_and_plan_preserves_unreached_triggers (contracts.Contracts.test_report_escapes_text_and_plan_preserves_unreached_triggers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\time_file_v1\contracts.py", line 91, in test_report_escapes_text_and_plan_preserves_unreached_triggers
+    from file_demo import render_report,plan
+ImportError: cannot import name 'render_report' from 'file_demo' (E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\event_runtime_v1\file_demo.py)
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.474s
+
+FAILED (errors=1)

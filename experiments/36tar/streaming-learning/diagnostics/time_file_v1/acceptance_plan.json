@@ -1,0 +1,54 @@
+[
+  {
+    "after_pairs": 0,
+    "question": "Name the animal visible at 0.5 seconds."
+  },
+  {
+    "after_pairs": 1,
+    "question": "Name the animal visible at 0.5 seconds."
+  },
+  {
+    "after_pairs": 1,
+    "question": "Name the animal visible at 2.5 seconds."
+  },
+  {
+    "after_pairs": 2,
+    "question": "Name the animal visible at 2.5 seconds."
+  },
+  {
+    "after_pairs": 2,
+    "question": "Is the animal's coat mostly light-colored or mostly dark-colored at 0.5 seconds? Answer light or dark."
+  },
+  {
+    "after_pairs": 3,
+    "question": "Name the animal visible at 0.5 seconds."
+  },
+  {
+    "after_pairs": 4,
+    "question": "Name the animal visible at 0.5 seconds."
+  },
+  {
+    "after_pairs": 4,
+    "question": "Name the animal visible at 4.5 seconds."
+  },
+  {
+    "after_pairs": 4,
+    "question": "Name the animal visible at 5.5 seconds."
+  },
+  {
+    "after_pairs": 4,
+    "question": "Name the animal visible at 9.5 seconds."
+  },
+  {
+    "after_pairs": "eof",
+    "question": "Name the animal visible at 6.5 seconds."
+  },
+  {
+    "after_pairs": "eof",
+    "question": "Name the animal visible at 8.5 seconds."
+  },
+  {
+    "after_pairs": "eof",
+    "question": "What happened?"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "saved_before_gpu": true,
+  "manual_view": "Viewed first preview frame from each of the four actual source pairs; all are the known dark cat video. Final preview/pixel/layout bytes transferred identically from CPU03; boundary regression tested with mocked answer, GPU plan remains unchanged.",
+  "truth_by_plan_index": {
+    "1": "cat",
+    "3": "cat",
+    "4": "dark",
+    "5": "cat",
+    "7": "cat",
+    "10": "cat"
+  },
+  "mechanism_expected": {
+    "received_frames": 9,
+    "encoded_pairs": 4,
+    "requests": 13,
+    "model_calls": 6,
+    "refusals": 7,
+    "explicit_resets": 2,
+    "final_retained_pairs": [
+      1,
+      2,
+      3
+    ],
+    "encoded_horizon": 7.0,
+    "odd_frame_pts": 8.0
+  },
+  "repeated_old_query_indices": [
+    1,
+    5
+  ],
+  "limits": [
+    "Known single file and related questions; no general accuracy estimate.",
+    "Mechanism success and semantic errors are reviewed separately.",
+    "Preview JPEGs are display artifacts, not model inputs."
+  ]
+}
