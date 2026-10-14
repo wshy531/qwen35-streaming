@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "value_swap_semantic_changes": 8,
+  "value_swap_controls": 12,
+  "old_plus_recent_new_failures": 0,
+  "all_history_new_failures_recovered_by_routing": 2,
+  "cause_boundary": "Other old context is added in all-history; visual content, text, length and positions all change. Not a pure recent-frame or attention mechanism diagnosis.",
+  "automatic_route_scope": "Two exact time-question templates only; no semantic retrieval claim."
+}

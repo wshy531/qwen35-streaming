@@ -1,0 +1,8 @@
+test_grammar_bounds_eviction_compressed_refusal (__main__.Contracts.test_grammar_bounds_eviction_compressed_refusal) ... ok
+test_oracle_route_and_value_only_swap (__main__.Contracts.test_oracle_route_and_value_only_swap) ... ok
+test_paired_suffix_and_source_time_separation (__main__.Contracts.test_paired_suffix_and_source_time_separation) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.498s
+
+OK
