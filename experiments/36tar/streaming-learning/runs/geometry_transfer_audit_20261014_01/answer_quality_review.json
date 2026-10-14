@@ -1,0 +1,811 @@
+{
+  "all_original_answers_reviewed": true,
+  "rows": [
+    {
+      "case": "cat_later",
+      "condition": "raw96",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "raw96",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "expected": "dark",
+      "interpretation": "dark",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "raw96",
+      "topic": "people",
+      "raw_answer": "no",
+      "expected": "no",
+      "interpretation": "no",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "first_source",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "first_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "expected": "dark",
+      "interpretation": "dark",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "first_source",
+      "topic": "people",
+      "raw_answer": "no",
+      "expected": "no",
+      "interpretation": "no",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "merged_source",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "merged_source",
+      "topic": "coat",
+      "raw_answer": "dark-colored",
+      "expected": "dark",
+      "interpretation": "dark",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "merged_source",
+      "topic": "people",
+      "raw_answer": "no",
+      "expected": "no",
+      "interpretation": "no",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "checker_source",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "checker_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "expected": "dark",
+      "interpretation": "light",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_later",
+      "condition": "checker_source",
+      "topic": "people",
+      "raw_answer": "no",
+      "expected": "no",
+      "interpretation": "no",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "raw96",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "raw96",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "expected": "light",
+      "interpretation": "light",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "raw96",
+      "topic": "people",
+      "raw_answer": "yes",
+      "expected": "yes",
+      "interpretation": "yes",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "first_source",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "first_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "expected": "light",
+      "interpretation": "light",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "first_source",
+      "topic": "people",
+      "raw_answer": "yes",
+      "expected": "yes",
+      "interpretation": "yes",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "merged_source",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "merged_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "expected": "light",
+      "interpretation": "light",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "merged_source",
+      "topic": "people",
+      "raw_answer": "yes",
+      "expected": "yes",
+      "interpretation": "yes",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "checker_source",
+      "topic": "subject",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "checker_source",
+      "topic": "coat",
+      "raw_answer": "light-colored",
+      "expected": "light",
+      "interpretation": "light",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_later",
+      "condition": "checker_source",
+      "topic": "people",
+      "raw_answer": "yes",
+      "expected": "yes",
+      "interpretation": "yes",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "raw96",
+      "topic": "action",
+      "raw_answer": "A person is washing their hands in a sink.",
+      "expected": "washing/rubbing soapy hands at sink",
+      "interpretation": "Correct coarse washing/rubbing hands description, consistent with the visible soapy hands.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "raw96",
+      "topic": "object",
+      "raw_answer": "Soap",
+      "expected": "soap/lather and/or water",
+      "interpretation": "Soap is visibly present as lather.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "raw96",
+      "topic": "order",
+      "raw_answer": "1. A person is washing their hands in a sink.\n2. They are scrubbing their hands with soap.",
+      "expected": "continuous washing/rubbing soapy hands; no invented separate event required",
+      "interpretation": "The predeclared truth is continuous washing/rubbing, without a separately distinguishable event order. Coarse washing description accepted; no precise sequence ability credited.",
+      "correct": true,
+      "stop_reason": "budget"
+    },
+    {
+      "case": "clean_later",
+      "condition": "first_source",
+      "topic": "action",
+      "raw_answer": "A person is washing their hands in a sink.",
+      "expected": "washing/rubbing soapy hands at sink",
+      "interpretation": "Correct coarse washing/rubbing hands description, consistent with the visible soapy hands.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "first_source",
+      "topic": "object",
+      "raw_answer": "Soap",
+      "expected": "soap/lather and/or water",
+      "interpretation": "Soap is visibly present as lather.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "first_source",
+      "topic": "order",
+      "raw_answer": "1. A person is washing their hands in a sink.\n2. They are scrubbing their hands with soap.",
+      "expected": "continuous washing/rubbing soapy hands; no invented separate event required",
+      "interpretation": "The predeclared truth is continuous washing/rubbing, without a separately distinguishable event order. Coarse washing description accepted; no precise sequence ability credited.",
+      "correct": true,
+      "stop_reason": "budget"
+    },
+    {
+      "case": "clean_later",
+      "condition": "merged_source",
+      "topic": "action",
+      "raw_answer": "A person is washing their hands in a sink.",
+      "expected": "washing/rubbing soapy hands at sink",
+      "interpretation": "Correct coarse washing/rubbing hands description, consistent with the visible soapy hands.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "merged_source",
+      "topic": "object",
+      "raw_answer": "Soap",
+      "expected": "soap/lather and/or water",
+      "interpretation": "Soap is visibly present as lather.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "merged_source",
+      "topic": "order",
+      "raw_answer": "1. A person is washing their hands in a sink.\n2. They are scrubbing their hands with soap.",
+      "expected": "continuous washing/rubbing soapy hands; no invented separate event required",
+      "interpretation": "The predeclared truth is continuous washing/rubbing, without a separately distinguishable event order. Coarse washing description accepted; no precise sequence ability credited.",
+      "correct": true,
+      "stop_reason": "budget"
+    },
+    {
+      "case": "clean_later",
+      "condition": "checker_source",
+      "topic": "action",
+      "raw_answer": "A person is washing their hands with soap.",
+      "expected": "washing/rubbing soapy hands at sink",
+      "interpretation": "Correct coarse washing/rubbing hands description, consistent with the visible soapy hands.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "checker_source",
+      "topic": "object",
+      "raw_answer": "Soap",
+      "expected": "soap/lather and/or water",
+      "interpretation": "Soap is visibly present as lather.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "clean_later",
+      "condition": "checker_source",
+      "topic": "order",
+      "raw_answer": "A person is washing their hands under running water.",
+      "expected": "continuous washing/rubbing soapy hands; no invented separate event required",
+      "interpretation": "The predeclared truth is continuous washing/rubbing, without a separately distinguishable event order. Coarse washing description accepted; no precise sequence ability credited.",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "raw96",
+      "topic": "action",
+      "raw_answer": "A woman is holding a bottle of hand sanitizer and pouring it into a dispenser.",
+      "expected": "dispense sanitizer then rub hands",
+      "interpretation": "Direction and objects hallucinated: pours a held bottle into dispenser, whereas visible action is receiving product then rubbing.",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "raw96",
+      "topic": "object",
+      "raw_answer": "Soap",
+      "expected": "hand sanitizer/dispenser; not towel",
+      "interpretation": "Soap is an imprecise/mismatched substance label for the hand-sanitizer clip; strict predeclared substance rubric fails. Marked as wording sensitivity.",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "raw96",
+      "topic": "order",
+      "raw_answer": "A woman in blue scrubs is standing in front of a white dispenser. She holds a small white cup in her hand",
+      "expected": "dispense/apply sanitizer before rubbing hands",
+      "interpretation": "Cup hallucination and no dispense→rub order; token-limit truncation retained.",
+      "correct": false,
+      "stop_reason": "budget"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "first_source",
+      "topic": "action",
+      "raw_answer": "A woman in scrubs is holding a roll of paper towels and placing it on a dispenser.",
+      "expected": "dispense sanitizer then rub hands",
+      "interpretation": "Paper-towel roll and placement are not visible; also only the first pair is retained.",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "first_source",
+      "topic": "object",
+      "raw_answer": "A hand",
+      "expected": "hand sanitizer/dispenser; not towel",
+      "interpretation": "A hand does not identify the requested object or substance.",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "first_source",
+      "topic": "order",
+      "raw_answer": "A woman in blue scrubs is standing in front of a white paper dispenser. She reaches out with her right hand and",
+      "expected": "dispense/apply sanitizer before rubbing hands",
+      "interpretation": "Paper-dispenser interpretation and missing sanitizer→rub sequence; token-limit truncation retained.",
+      "correct": false,
+      "stop_reason": "budget"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "merged_source",
+      "topic": "action",
+      "raw_answer": "A woman is holding a bottle of water and pouring it into a dispenser.",
+      "expected": "dispense sanitizer then rub hands",
+      "interpretation": "Water bottle and pouring into the dispenser are hallucinated.",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "merged_source",
+      "topic": "object",
+      "raw_answer": "A hand is holding a bottle of water.",
+      "expected": "hand sanitizer/dispenser; not towel",
+      "interpretation": "Water bottle is hallucinated.",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "merged_source",
+      "topic": "order",
+      "raw_answer": "A woman in a blue uniform is standing in front of a white dispenser. She holds a small white object in her hand",
+      "expected": "dispense/apply sanitizer before rubbing hands",
+      "interpretation": "Missing dispense→rub order; small-object claim unsupported and token-limit truncation retained.",
+      "correct": false,
+      "stop_reason": "budget"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "checker_source",
+      "topic": "action",
+      "raw_answer": "A person is holding a bottle of hand sanitizer and pouring it into a dispenser.",
+      "expected": "dispense sanitizer then rub hands",
+      "interpretation": "Despite naming sanitizer, it reverses dispensing direction and invents a held bottle.",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "checker_source",
+      "topic": "object",
+      "raw_answer": "Soap",
+      "expected": "hand sanitizer/dispenser; not towel",
+      "interpretation": "Soap is an imprecise/mismatched substance label for hand sanitizer; same strict rubric as raw96.",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "hygiene_later",
+      "condition": "checker_source",
+      "topic": "order",
+      "raw_answer": "A person in a blue uniform is seen holding a roll of paper towels. They then place the roll on a white surface",
+      "expected": "dispense/apply sanitizer before rubbing hands",
+      "interpretation": "Paper-towel roll and subsequent placement are hallucinated; no correct sanitizer→rub sequence.",
+      "correct": false,
+      "stop_reason": "budget"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "raw96",
+      "topic": "first",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "raw96",
+      "topic": "last",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "raw96",
+      "topic": "order",
+      "raw_answer": "1. dog\n2. woman",
+      "expected": [
+        "dog",
+        "cat"
+      ],
+      "interpretation": [
+        "dog"
+      ],
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "first_source",
+      "topic": "first",
+      "raw_answer": "A dog.",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "first_source",
+      "topic": "last",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "first_source",
+      "topic": "order",
+      "raw_answer": "1. Dog\n2. Woman",
+      "expected": [
+        "dog",
+        "cat"
+      ],
+      "interpretation": [
+        "dog"
+      ],
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "merged_source",
+      "topic": "first",
+      "raw_answer": "A dog.",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "merged_source",
+      "topic": "last",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "merged_source",
+      "topic": "order",
+      "raw_answer": "1. dog\n2. dog",
+      "expected": [
+        "dog",
+        "cat"
+      ],
+      "interpretation": [
+        "dog"
+      ],
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "checker_source",
+      "topic": "first",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "checker_source",
+      "topic": "last",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "dog_then_cat",
+      "condition": "checker_source",
+      "topic": "order",
+      "raw_answer": "1. Dog\n2. Woman",
+      "expected": [
+        "dog",
+        "cat"
+      ],
+      "interpretation": [
+        "dog"
+      ],
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "raw96",
+      "topic": "first",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "raw96",
+      "topic": "last",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "raw96",
+      "topic": "order",
+      "raw_answer": "1. dog\n2. woman",
+      "expected": [
+        "cat",
+        "dog"
+      ],
+      "interpretation": [
+        "dog"
+      ],
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "first_source",
+      "topic": "first",
+      "raw_answer": "A dog",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "first_source",
+      "topic": "last",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "first_source",
+      "topic": "order",
+      "raw_answer": "1. dog\n2. dog",
+      "expected": [
+        "cat",
+        "dog"
+      ],
+      "interpretation": [
+        "dog"
+      ],
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "merged_source",
+      "topic": "first",
+      "raw_answer": "A dog.",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "merged_source",
+      "topic": "last",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "merged_source",
+      "topic": "order",
+      "raw_answer": "1. dog\n2. dog",
+      "expected": [
+        "cat",
+        "dog"
+      ],
+      "interpretation": [
+        "dog"
+      ],
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "checker_source",
+      "topic": "first",
+      "raw_answer": "A dog.",
+      "expected": "cat",
+      "interpretation": "dog",
+      "correct": false,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "checker_source",
+      "topic": "last",
+      "raw_answer": "A dog",
+      "expected": "dog",
+      "interpretation": "dog",
+      "correct": true,
+      "stop_reason": "eos"
+    },
+    {
+      "case": "cat_then_dog",
+      "condition": "checker_source",
+      "topic": "order",
+      "raw_answer": "1. dog\n2. dog",
+      "expected": [
+        "cat",
+        "dog"
+      ],
+      "interpretation": [
+        "dog"
+      ],
+      "correct": false,
+      "stop_reason": "eos"
+    }
+  ],
+  "metrics": {
+    "raw96": {
+      "correct": 10,
+      "questions": 18,
+      "raw_answerable_retained": 10,
+      "raw_answerable_facts": 10,
+      "new_losses": [],
+      "gains_on_raw_failure": []
+    },
+    "first_source": {
+      "correct": 10,
+      "questions": 18,
+      "raw_answerable_retained": 10,
+      "raw_answerable_facts": 10,
+      "new_losses": [],
+      "gains_on_raw_failure": []
+    },
+    "merged_source": {
+      "correct": 10,
+      "questions": 18,
+      "raw_answerable_retained": 10,
+      "raw_answerable_facts": 10,
+      "new_losses": [],
+      "gains_on_raw_failure": []
+    },
+    "checker_source": {
+      "correct": 9,
+      "questions": 18,
+      "raw_answerable_retained": 9,
+      "raw_answerable_facts": 10,
+      "new_losses": [
+        [
+          "cat_later",
+          "coat"
+        ]
+      ],
+      "gains_on_raw_failure": []
+    }
+  },
+  "interpretation": "Related checks in six cases. Raw failures and candidate new losses retained. No independent general accuracy estimate.",
+  "limits": [
+    "Old sources/some old frames; disjoint only from rule selection.",
+    "Four natural snippets plus two constructed reversed-order controls.",
+    "Source-position policy comparison changes both values and applied coordinates.",
+    "Human free-form answers manually graded; strict missing causal order and major hallucinations count as failures."
+  ]
+}

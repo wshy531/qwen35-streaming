@@ -1,0 +1,118 @@
+{
+  "clean_later": {
+    "raw96": {
+      "action": {
+        "correct": true,
+        "reason": "Correct coarse washing/rubbing hands description, consistent with the visible soapy hands."
+      },
+      "object": {
+        "correct": true,
+        "reason": "Soap is visibly present as lather."
+      },
+      "order": {
+        "correct": true,
+        "reason": "The predeclared truth is continuous washing/rubbing, without a separately distinguishable event order. Coarse washing description accepted; no precise sequence ability credited."
+      }
+    },
+    "first_source": {
+      "action": {
+        "correct": true,
+        "reason": "Correct coarse washing/rubbing hands description, consistent with the visible soapy hands."
+      },
+      "object": {
+        "correct": true,
+        "reason": "Soap is visibly present as lather."
+      },
+      "order": {
+        "correct": true,
+        "reason": "The predeclared truth is continuous washing/rubbing, without a separately distinguishable event order. Coarse washing description accepted; no precise sequence ability credited."
+      }
+    },
+    "merged_source": {
+      "action": {
+        "correct": true,
+        "reason": "Correct coarse washing/rubbing hands description, consistent with the visible soapy hands."
+      },
+      "object": {
+        "correct": true,
+        "reason": "Soap is visibly present as lather."
+      },
+      "order": {
+        "correct": true,
+        "reason": "The predeclared truth is continuous washing/rubbing, without a separately distinguishable event order. Coarse washing description accepted; no precise sequence ability credited."
+      }
+    },
+    "checker_source": {
+      "action": {
+        "correct": true,
+        "reason": "Correct coarse washing/rubbing hands description, consistent with the visible soapy hands."
+      },
+      "object": {
+        "correct": true,
+        "reason": "Soap is visibly present as lather."
+      },
+      "order": {
+        "correct": true,
+        "reason": "The predeclared truth is continuous washing/rubbing, without a separately distinguishable event order. Coarse washing description accepted; no precise sequence ability credited."
+      }
+    }
+  },
+  "hygiene_later": {
+    "raw96": {
+      "action": {
+        "correct": false,
+        "reason": "Direction and objects hallucinated: pours a held bottle into dispenser, whereas visible action is receiving product then rubbing."
+      },
+      "object": {
+        "correct": false,
+        "reason": "Soap is an imprecise/mismatched substance label for the hand-sanitizer clip; strict predeclared substance rubric fails. Marked as wording sensitivity."
+      },
+      "order": {
+        "correct": false,
+        "reason": "Cup hallucination and no dispense→rub order; token-limit truncation retained."
+      }
+    },
+    "first_source": {
+      "action": {
+        "correct": false,
+        "reason": "Paper-towel roll and placement are not visible; also only the first pair is retained."
+      },
+      "object": {
+        "correct": false,
+        "reason": "A hand does not identify the requested object or substance."
+      },
+      "order": {
+        "correct": false,
+        "reason": "Paper-dispenser interpretation and missing sanitizer→rub sequence; token-limit truncation retained."
+      }
+    },
+    "merged_source": {
+      "action": {
+        "correct": false,
+        "reason": "Water bottle and pouring into the dispenser are hallucinated."
+      },
+      "object": {
+        "correct": false,
+        "reason": "Water bottle is hallucinated."
+      },
+      "order": {
+        "correct": false,
+        "reason": "Missing dispense→rub order; small-object claim unsupported and token-limit truncation retained."
+      }
+    },
+    "checker_source": {
+      "action": {
+        "correct": false,
+        "reason": "Despite naming sanitizer, it reverses dispensing direction and invents a held bottle."
+      },
+      "object": {
+        "correct": false,
+        "reason": "Soap is an imprecise/mismatched substance label for hand sanitizer; same strict rubric as raw96."
+      },
+      "order": {
+        "correct": false,
+        "reason": "Paper-towel roll and subsequent placement are hallucinated; no correct sanitizer→rub sequence."
+      }
+    }
+  }
+}

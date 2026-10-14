@@ -1,0 +1,7 @@
+test_frozen_rule_exact_and_owned (__main__.Contracts.test_frozen_rule_exact_and_owned) ... ok
+test_input_identity_and_reversed_order (__main__.Contracts.test_input_identity_and_reversed_order) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 3.878s
+
+OK

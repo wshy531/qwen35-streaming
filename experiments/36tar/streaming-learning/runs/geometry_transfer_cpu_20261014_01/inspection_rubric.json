@@ -1,0 +1,63 @@
+{
+  "saved_before_gpu": true,
+  "manual_view": "All six model-canvas contact sheets inspected before any real model answers.",
+  "truth": {
+    "cat_later": {
+      "subject": "cat",
+      "coat": "dark",
+      "people": "no"
+    },
+    "dog_later": {
+      "subject": "dog",
+      "coat": "light",
+      "people": "yes"
+    },
+    "clean_later": {
+      "action": "washing/rubbing soapy hands at sink",
+      "object": "soap/lather and/or water",
+      "order": "continuous washing/rubbing soapy hands; no invented separate event required"
+    },
+    "hygiene_later": {
+      "action": "dispense sanitizer then rub hands",
+      "object": "hand sanitizer/dispenser; not towel",
+      "order": "dispense/apply sanitizer before rubbing hands"
+    },
+    "dog_then_cat": {
+      "first": "dog",
+      "last": "cat",
+      "order": [
+        "dog",
+        "cat"
+      ]
+    },
+    "cat_then_dog": {
+      "first": "cat",
+      "last": "dog",
+      "order": [
+        "cat",
+        "dog"
+      ]
+    }
+  },
+  "source_sha256": {
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\cat_play.webm": "3258309e1d573fda6595fee0c02e3f055931a06c01bac24d986a5aff28297b32",
+    "E:\\VIT Model\\datasets\\general_stream_v1\\dog.webm": "66559a1c5d786a414202e417c39c86fbc7d6b2240d3dc06e20f2dd87b97fb87a",
+    "E:\\VIT Model\\datasets\\natural_commons_v1\\clean_hands.webm": "b6afe16e598ec730d92185308220298f48a0b0865f7bacb39f5d34eecd61bbf3",
+    "E:\\VIT Model\\datasets\\numeric_hand_hygiene_v1\\hand_hygiene.webm": "eec2f057d85c1754bab7b6a901a28f17c05d3be8659195184c2f4f55466880d9"
+  },
+  "photo_sha256": {
+    "cat_later_contact.jpg": "046fc0b8f659a4b27c98942576f631a05059a21e19166c4b0d42ce763b977148",
+    "cat_then_dog_contact.jpg": "b1677e3d06085fb7da119bf6fb83bbfe2073d4bb3f31e0d1048758375f72f638",
+    "clean_later_contact.jpg": "264710aef2f110b661282dcd22c148798077e04db986fdf457db97fe5c419586",
+    "dog_later_contact.jpg": "8d0d02ee4673fb05510bda125a698ef7e6f68d3bf8787cf55abbf55cd02c13cb",
+    "dog_then_cat_contact.jpg": "745610b7265733d3a2b31b0b65d99a6cd3b09614c5f0ded8572e2e9913fa8e29",
+    "hygiene_later_contact.jpg": "207f2e3f29ff4e0f27114e9a95eabe7d1e0ece6f4119711222ec93846513a27d"
+  },
+  "scoring": "Animal short labels exact semantic parse; human answers manually reviewed against visible action/object/order, preserve hallucinations/truncations. All answers retained, raw failures separated.",
+  "limits": [
+    "Old sources and some previously tested frames; disjoint only from GPU91/92 rule-selection cases.",
+    "Reversed-order inputs are constructed from two source clips with synthetic session PTS.",
+    "Color is mostly coat, not background; no people visible in cat snippet, people clearly behind dog.",
+    "No water visible in sanitizer snippet; soap vs sanitizer wording may require partial/incorrect classification."
+  ]
+}

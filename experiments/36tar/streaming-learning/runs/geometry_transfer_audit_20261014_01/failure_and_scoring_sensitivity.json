@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "preload_refusal_preserved": true,
+  "failed_attempt_real_model_loads": 0,
+  "failed_and_success_sources_identical": true,
+  "strict_vs_lenient_soap_sensitivity": {
+    "strict_raw": 10,
+    "strict_checker": 9,
+    "lenient_raw": 11,
+    "lenient_checker": 10,
+    "same_new_loss": "cat_later/coat",
+    "no_candidate_gain_on_raw_failure_under_either_rubric": true
+  }
+}

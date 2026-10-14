@@ -1,0 +1,74 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 12037.75it/s]
+{"case": "cat_later", "condition": "raw96", "topic": "subject", "answer": "A dog"}
+{"case": "cat_later", "condition": "raw96", "topic": "coat", "answer": "dark-colored"}
+{"case": "cat_later", "condition": "raw96", "topic": "people", "answer": "no"}
+{"case": "cat_later", "condition": "first_source", "topic": "subject", "answer": "A dog"}
+{"case": "cat_later", "condition": "first_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "cat_later", "condition": "first_source", "topic": "people", "answer": "no"}
+{"case": "cat_later", "condition": "merged_source", "topic": "subject", "answer": "A dog"}
+{"case": "cat_later", "condition": "merged_source", "topic": "coat", "answer": "dark-colored"}
+{"case": "cat_later", "condition": "merged_source", "topic": "people", "answer": "no"}
+{"case": "cat_later", "condition": "checker_source", "topic": "subject", "answer": "A dog"}
+{"case": "cat_later", "condition": "checker_source", "topic": "coat", "answer": "light-colored"}
+{"case": "cat_later", "condition": "checker_source", "topic": "people", "answer": "no"}
+{"case": "dog_later", "condition": "raw96", "topic": "subject", "answer": "A dog"}
+{"case": "dog_later", "condition": "raw96", "topic": "coat", "answer": "light-colored"}
+{"case": "dog_later", "condition": "raw96", "topic": "people", "answer": "yes"}
+{"case": "dog_later", "condition": "first_source", "topic": "subject", "answer": "A dog"}
+{"case": "dog_later", "condition": "first_source", "topic": "coat", "answer": "light-colored"}
+{"case": "dog_later", "condition": "first_source", "topic": "people", "answer": "yes"}
+{"case": "dog_later", "condition": "merged_source", "topic": "subject", "answer": "A dog"}
+{"case": "dog_later", "condition": "merged_source", "topic": "coat", "answer": "light-colored"}
+{"case": "dog_later", "condition": "merged_source", "topic": "people", "answer": "yes"}
+{"case": "dog_later", "condition": "checker_source", "topic": "subject", "answer": "A dog"}
+{"case": "dog_later", "condition": "checker_source", "topic": "coat", "answer": "light-colored"}
+{"case": "dog_later", "condition": "checker_source", "topic": "people", "answer": "yes"}
+{"case": "clean_later", "condition": "raw96", "topic": "action", "answer": "A person is washing their hands in a sink."}
+{"case": "clean_later", "condition": "raw96", "topic": "object", "answer": "Soap"}
+{"case": "clean_later", "condition": "raw96", "topic": "order", "answer": "1. A person is washing their hands in a sink.\n2. They are scrubbing their hands with soap."}
+{"case": "clean_later", "condition": "first_source", "topic": "action", "answer": "A person is washing their hands in a sink."}
+{"case": "clean_later", "condition": "first_source", "topic": "object", "answer": "Soap"}
+{"case": "clean_later", "condition": "first_source", "topic": "order", "answer": "1. A person is washing their hands in a sink.\n2. They are scrubbing their hands with soap."}
+{"case": "clean_later", "condition": "merged_source", "topic": "action", "answer": "A person is washing their hands in a sink."}
+{"case": "clean_later", "condition": "merged_source", "topic": "object", "answer": "Soap"}
+{"case": "clean_later", "condition": "merged_source", "topic": "order", "answer": "1. A person is washing their hands in a sink.\n2. They are scrubbing their hands with soap."}
+{"case": "clean_later", "condition": "checker_source", "topic": "action", "answer": "A person is washing their hands with soap."}
+{"case": "clean_later", "condition": "checker_source", "topic": "object", "answer": "Soap"}
+{"case": "clean_later", "condition": "checker_source", "topic": "order", "answer": "A person is washing their hands under running water."}
+{"case": "hygiene_later", "condition": "raw96", "topic": "action", "answer": "A woman is holding a bottle of hand sanitizer and pouring it into a dispenser."}
+{"case": "hygiene_later", "condition": "raw96", "topic": "object", "answer": "Soap"}
+{"case": "hygiene_later", "condition": "raw96", "topic": "order", "answer": "A woman in blue scrubs is standing in front of a white dispenser. She holds a small white cup in her hand"}
+{"case": "hygiene_later", "condition": "first_source", "topic": "action", "answer": "A woman in scrubs is holding a roll of paper towels and placing it on a dispenser."}
+{"case": "hygiene_later", "condition": "first_source", "topic": "object", "answer": "A hand"}
+{"case": "hygiene_later", "condition": "first_source", "topic": "order", "answer": "A woman in blue scrubs is standing in front of a white paper dispenser. She reaches out with her right hand and"}
+{"case": "hygiene_later", "condition": "merged_source", "topic": "action", "answer": "A woman is holding a bottle of water and pouring it into a dispenser."}
+{"case": "hygiene_later", "condition": "merged_source", "topic": "object", "answer": "A hand is holding a bottle of water."}
+{"case": "hygiene_later", "condition": "merged_source", "topic": "order", "answer": "A woman in a blue uniform is standing in front of a white dispenser. She holds a small white object in her hand"}
+{"case": "hygiene_later", "condition": "checker_source", "topic": "action", "answer": "A person is holding a bottle of hand sanitizer and pouring it into a dispenser."}
+{"case": "hygiene_later", "condition": "checker_source", "topic": "object", "answer": "Soap"}
+{"case": "hygiene_later", "condition": "checker_source", "topic": "order", "answer": "A person in a blue uniform is seen holding a roll of paper towels. They then place the roll on a white surface"}
+{"case": "dog_then_cat", "condition": "raw96", "topic": "first", "answer": "A dog"}
+{"case": "dog_then_cat", "condition": "raw96", "topic": "last", "answer": "A dog"}
+{"case": "dog_then_cat", "condition": "raw96", "topic": "order", "answer": "1. dog\n2. woman"}
+{"case": "dog_then_cat", "condition": "first_source", "topic": "first", "answer": "A dog."}
+{"case": "dog_then_cat", "condition": "first_source", "topic": "last", "answer": "A dog"}
+{"case": "dog_then_cat", "condition": "first_source", "topic": "order", "answer": "1. Dog\n2. Woman"}
+{"case": "dog_then_cat", "condition": "merged_source", "topic": "first", "answer": "A dog."}
+{"case": "dog_then_cat", "condition": "merged_source", "topic": "last", "answer": "A dog"}
+{"case": "dog_then_cat", "condition": "merged_source", "topic": "order", "answer": "1. dog\n2. dog"}
+{"case": "dog_then_cat", "condition": "checker_source", "topic": "first", "answer": "A dog"}
+{"case": "dog_then_cat", "condition": "checker_source", "topic": "last", "answer": "A dog"}
+{"case": "dog_then_cat", "condition": "checker_source", "topic": "order", "answer": "1. Dog\n2. Woman"}
+{"case": "cat_then_dog", "condition": "raw96", "topic": "first", "answer": "A dog"}
+{"case": "cat_then_dog", "condition": "raw96", "topic": "last", "answer": "A dog"}
+{"case": "cat_then_dog", "condition": "raw96", "topic": "order", "answer": "1. dog\n2. woman"}
+{"case": "cat_then_dog", "condition": "first_source", "topic": "first", "answer": "A dog"}
+{"case": "cat_then_dog", "condition": "first_source", "topic": "last", "answer": "A dog"}
+{"case": "cat_then_dog", "condition": "first_source", "topic": "order", "answer": "1. dog\n2. dog"}
+{"case": "cat_then_dog", "condition": "merged_source", "topic": "first", "answer": "A dog."}
+{"case": "cat_then_dog", "condition": "merged_source", "topic": "last", "answer": "A dog"}
+{"case": "cat_then_dog", "condition": "merged_source", "topic": "order", "answer": "1. dog\n2. dog"}
+{"case": "cat_then_dog", "condition": "checker_source", "topic": "first", "answer": "A dog."}
+{"case": "cat_then_dog", "condition": "checker_source", "topic": "last", "answer": "A dog"}
+{"case": "cat_then_dog", "condition": "checker_source", "topic": "order", "answer": "1. dog\n2. dog"}

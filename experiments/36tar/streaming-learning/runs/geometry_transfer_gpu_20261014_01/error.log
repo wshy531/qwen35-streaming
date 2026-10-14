@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\geometry_transfer_v1\probe.py", line 208, in main
+    (preflight if args.stage == 'preflight' else gpu)(args)
+  File "E:\VIT Model\.venv\Lib\site-packages\torch\utils\_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "E:\VIT Model\publish\qwen35-streaming\experiments\36tar\streaming-learning\diagnostics\geometry_transfer_v1\probe.py", line 175, in gpu
+    if ram < 3*2**30 or free < 5.5*2**30: raise RuntimeError('Resource gate refused load')
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Resource gate refused load
