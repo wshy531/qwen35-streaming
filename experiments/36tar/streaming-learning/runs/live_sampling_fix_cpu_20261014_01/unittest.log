@@ -1,0 +1,40 @@
+test_capture_worker_exits_when_parent_dies (tests.test_live_source.LiveSourceTests.test_capture_worker_exits_when_parent_dies) ... ok
+test_early_close_releases_pipe_and_cancels_slot (tests.test_live_source.LiveSourceTests.test_early_close_releases_pipe_and_cancels_slot) ... ok
+test_file_pacing_reports_progress_without_changing_frame_deadline (tests.test_live_source.LiveSourceTests.test_file_pacing_reports_progress_without_changing_frame_deadline) ... ok
+test_file_requires_source_pts_and_preserves_pts (tests.test_live_source.LiveSourceTests.test_file_requires_source_pts_and_preserves_pts) ... ok
+test_ids_time_and_shape_strict_across_packets (tests.test_live_source.LiveSourceTests.test_ids_time_and_shape_strict_across_packets) ... ok
+test_invalid_budget_and_camera_fault_fixture_rejected_before_spawn (tests.test_live_source.LiveSourceTests.test_invalid_budget_and_camera_fault_fixture_rejected_before_spawn) ... ok
+test_low_fps_stalled_worker_still_uses_original_idle_timeout (tests.test_live_source.LiveSourceTests.test_low_fps_stalled_worker_still_uses_original_idle_timeout) ... ok
+test_missing_file_worker_reports_error_and_closes (tests.test_live_source.LiveSourceTests.test_missing_file_worker_reports_error_and_closes) ... FAIL
+test_oversized_header_is_refused_before_allocation (tests.test_live_source.LiveSourceTests.test_oversized_header_is_refused_before_allocation) ... ok
+test_oversized_pixel_shape_is_refused_before_payload (tests.test_live_source.LiveSourceTests.test_oversized_pixel_shape_is_refused_before_payload) ... ok
+test_packet_wire_roundtrip_and_readonly_rgb (tests.test_live_source.LiveSourceTests.test_packet_wire_roundtrip_and_readonly_rgb) ... ok
+test_progress_is_metadata_only_and_invalid_progress_is_rejected (tests.test_live_source.LiveSourceTests.test_progress_is_metadata_only_and_invalid_progress_is_rejected) ... ok
+test_real_burst_overload_keeps_only_latest_and_conserves_counts (tests.test_live_source.LiveSourceTests.test_real_burst_overload_keeps_only_latest_and_conserves_counts) ... ok
+test_real_disconnect_error_is_not_silent_eof (tests.test_live_source.LiveSourceTests.test_real_disconnect_error_is_not_silent_eof) ... ok
+test_real_file_worker_preserves_complete_source_and_bounded_latest_slot (tests.test_live_source.LiveSourceTests.test_real_file_worker_preserves_complete_source_and_bounded_latest_slot) ... ok
+test_real_low_fps_wait_exceeds_idle_timeout_without_disconnect (tests.test_live_source.LiveSourceTests.test_real_low_fps_wait_exceeds_idle_timeout_without_disconnect) ... ok
+test_real_stalled_native_style_read_times_out_and_worker_stops (tests.test_live_source.LiveSourceTests.test_real_stalled_native_style_read_times_out_and_worker_stops) ... ok
+test_real_synthetic_worker_completes_and_closes_without_torch (tests.test_live_source.LiveSourceTests.test_real_synthetic_worker_completes_and_closes_without_torch) ... ok
+test_timestamp_basis_must_be_explicit_and_device_pts_metadata_valid (tests.test_live_source.LiveSourceTests.test_timestamp_basis_must_be_explicit_and_device_pts_metadata_valid) ... ok
+test_truncated_header_and_pixels_rejected (tests.test_live_source.LiveSourceTests.test_truncated_header_and_pixels_rejected) ... ok
+test_unknown_control_kind_refused (tests.test_live_source.LiveSourceTests.test_unknown_control_kind_refused) ... ok
+test_camera_reports_real_decode_progress_between_selected_frames (tests.test_capture_progress.CaptureProgressTests.test_camera_reports_real_decode_progress_between_selected_frames) ... ok
+test_progress_from_wrong_source_is_rejected_without_counting_frames (tests.test_capture_progress.CaptureProgressTests.test_progress_from_wrong_source_is_rejected_without_counting_frames) ... ok
+test_real_sparse_file_survives_low_sampling_and_pts_gaps (tests.test_capture_progress.CaptureProgressTests.test_real_sparse_file_survives_low_sampling_and_pts_gaps) ... ok
+
+======================================================================
+FAIL: test_missing_file_worker_reports_error_and_closes (tests.test_live_source.LiveSourceTests.test_missing_file_worker_reports_error_and_closes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI_project\qwen35-streaming-fix-live-sampling-timeout\experiments\36tar\streaming-learning\code\qwen35-streaming-s4\tests\test_live_source.py", line 167, in test_missing_file_worker_reports_error_and_closes
+    self.assertEqual(source.reason,'source_error')
+AssertionError: 'source_idle_timeout' != 'source_error'
+- source_idle_timeout
++ source_error
+
+
+----------------------------------------------------------------------
+Ran 24 tests in 27.113s
+
+FAILED (failures=1)

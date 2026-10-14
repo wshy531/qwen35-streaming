@@ -9,7 +9,13 @@
 
 当前仓库总览、Windows环境与通用演示入口见[根README](../../../README.md)。后续候选结果见[实验索引](FOLLOWUP_EXPERIMENTS.md)、[森林逐题分析](FOREST_RUNTIME_ANALYSIS.md)、[严格时间文件入口](TIME_FILE_ENTRY.md)和[第二素材验收](SECOND_FILE_VALIDATION.md)。候选没有统一升级默认；保存/取回正确不等于识别正确，未进行SFT或物理摄像头验收。
 
+本开发分支从最新main `6ed58af`引入PR #3来源修复与小型证据，保留PR #4文档更新；main是否包含修复以最终新PR合并状态为准。
+
 先读 [实验总纲](实验总纲.md)，再读 [架构设计入口](架构设计.md)。总纲是唯一进度主记录；其余方案、报告和历史快照不替代最新状态。旧记录中的本机绝对路径是实验来源，不是新机器上的运行路径。
+
+2026-10-14协作方已配置本机Windows CUDA开发环境：`D:\AI_project\qwen35-streaming\.venv`（Python3.11.7、torch2.10.0+cu126、torchvision0.25.0+cu126、transformers5.3.0），固定revision模型资产位于仓库外`D:\AI_project\models\Qwen3.5-0.8B`。在PowerShell执行`. D:\AI_project\Activate-QwenEnv.ps1`启用环境，缓存和临时目录均使用D盘；完整版本见`D:\AI_project\qwen35-environment.lock.txt`。
+
+该环境在RTX4060 Laptop完成UCF101三视频、早期/完整六上下文的原模型与流式真实问答对照，共12回答。六组生成Token全部相同，流式六问均保持主缓存逐位不变；俯卧撑/剃须识别正确，篮球只描述运球/防守、未准确给出扣篮。FP32峰allocated约3.276GiB/reserved3.443GiB。见[固定方案](diagnostics/ucf101_quality_v1/方案.md)、[完整实际回答](runs/ucf101_quality_gpu_20261014_02/summary.json)与[小样本质量判断](runs/ucf101_quality_gpu_20261014_02/quality_assessment.json)。这不是正式UCF101准确率、端到端提速或长期实时验收。
 
 ## 阅读入口
 
@@ -116,6 +122,14 @@ $live = @('--model-dir', 'E:/VIT Model/models/Qwen3.5-0.8B', '--device', 'Integr
 ```
 
 设备检查仅3帧、不载入模型/不保存RGB；GPU要求新CPUproof、同配置设备probe和原RAM/显存门禁。采集子进程不加载Torch，最大RGB256×256×3，native输入buffer8MiB、只视频不录音，父端最新帧槽容量1；阻塞超时可终止采集进程。会话时间依据接收后的monotonic时刻，原设备PTS另存，页面scope明确非传感器曝光到答案延迟。当前无实际驱动断流/摄像头GPU/场景质量证据，不能据软件测试宣布这些通过。所有历史proof是源快照，改过源码后必须重新预检。
+
+低采样率下，子进程在正常等待下一次采样或文件PTS播放时发送有界进度消息；摄像头仅在实际解码到画面时报告进度。消息不携带RGB、不计入采样帧数或源指纹，也不触发模型。`--idle-seconds`检查采集/播放进度的停顿，避免把正常的长采样间隔误判为断流；原生读取卡住仍会超时。2026-10-14本地修复最终通过45项CPU来源/播放/循环契约，0失败/0跳过，包括0.2FPS真实合成源、真实视频5秒PTS空隙、取消长等待与时长截断。摄像头采样过滤仅用模拟解码器验证，物理摄像头/GPU未运行；本次源码变化需要重新生成CPUproof。
+
+完整日志见 [修复回归](runs/live_sampling_fix_cpu_20261014_02/unittest.log) 与 [结果摘要](runs/live_sampling_fix_cpu_20261014_02/summary.json)。首次24项运行有一项缺失文件测试触发启动阶段超时，原失败日志保留在`runs/live_sampling_fix_cpu_20261014_01`；单项复测约0.5秒正常返回文件错误，最终完整复测也通过。未确定首次超时的确切原因，不据此声称消除了所有启动超时。
+
+合并目标分支最新提交后，持久CUDA环境再验45项全部通过，0失败/0错误/0跳过；见[发布前摘要](runs/live_sampling_delivery_20261014_01/summary.json)和[完整日志](runs/live_sampling_delivery_20261014_01/unittest.log)。可在`code/qwen35-streaming-s4`目录，用自己的Python环境运行`python -m unittest tests.test_live_source tests.test_capture_progress tests.test_playback tests.test_repeat_source -v`复现（含真实文件测试，需要PyAV）。
+
+另用UCF101三个真实原视频做修改前后对照，0.2/1FPS共六组配对符合预期：旧版剃须0.2FPS组首帧后误超时，新版收到5秒处后续帧；其他控制组帧/PTS/像素一致。见[独立验收方案及结果](diagnostics/capture_dataset_v1/方案.md)与[完整数据报告](runs/ucf101_capture_20261014_02/summary.json)。该验证只覆盖采集输入稳定性，未运行模型问答。
 
 ## 两分钟显式重复压力输入
 

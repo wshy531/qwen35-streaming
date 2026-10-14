@@ -14,6 +14,7 @@ import numpy as np
 import psutil
 
 from streaming.live_source import LiveSource,read_message,validate_packet
+from scripts.capture_worker import CaptureProgress
 
 
 def meta(**changes):
@@ -58,6 +59,33 @@ class LiveSourceTests(unittest.TestCase):
     def test_unknown_control_kind_refused(self):
         with self.assertRaises(ValueError):
             read_message(wire({'kind':'unrecognized'}))
+
+    def test_progress_is_metadata_only_and_invalid_progress_is_rejected(self):
+        message = {'kind':'progress','source_kind':'file','reason':'scheduled_wait'}
+        stream = wire(message)
+        value, rgb = read_message(stream)
+        self.assertEqual(value,message)
+        self.assertIsNone(rgb)
+        self.assertEqual(stream.tell(),len(stream.getvalue()))
+        for change in ({'source_kind':'unknown'},{'reason':'always_alive'}):
+            with self.assertRaisesRegex(ValueError,'progress metadata'):
+                read_message(wire({**message,**change}))
+
+    def test_file_pacing_reports_progress_without_changing_frame_deadline(self):
+        now, messages = [0.], []
+        def sleep(seconds):
+            now[0] += seconds
+        progress = CaptureProgress('file',clock=lambda:now[0],sleep=sleep,
+                                   emit=lambda message:messages.append((now[0],message)))
+        progress.wait_until(5.)
+        self.assertAlmostEqual(now[0],5.)
+        self.assertGreater(len(messages),1)
+        self.assertTrue(all(m['kind']=='progress' and m['reason']=='scheduled_wait' for _,m in messages))
+        stamps = [0.,*(stamp for stamp,_ in messages),5.]
+        self.assertLess(max(b-a for a,b in zip(stamps,stamps[1:])),.2)
+        count = len(messages)
+        progress.wait_until(4.)
+        self.assertEqual(len(messages),count)
 
     def test_ids_time_and_shape_strict_across_packets(self):
         rgb = np.zeros((32,32,3),np.uint8)
@@ -153,6 +181,35 @@ class LiveSourceTests(unittest.TestCase):
             s.close()
         self.assertFalse(s.status()['worker_alive'])
         self.assertFalse(s.status()['producer_alive'])
+
+    def test_real_low_fps_wait_exceeds_idle_timeout_without_disconnect(self):
+        s = LiveSource('synthetic','test',.2,8,2,idle_seconds=3.)
+        try:
+            rows = list(s.start())
+            self.assertEqual([p.frame_id for p in rows],[0,1])
+            self.assertGreaterEqual(rows[1].timestamp-rows[0].timestamp,4.9)
+            self.assertEqual(s.reason,'frame_budget_limit')
+            self.assertEqual(s.digest.count,2)
+            self.assertEqual(s.status()['produced_samples'],2)
+            self.assertGreater(s.status()['capture_progress_messages'],0)
+            self.assertFalse(s.worker_torch_loaded)
+        finally:
+            s.close()
+        self.assertFalse(s.status()['worker_alive'])
+        self.assertFalse(s.status()['producer_alive'])
+
+    def test_low_fps_stalled_worker_still_uses_original_idle_timeout(self):
+        s = LiveSource('synthetic','test',.2,12,3,fixture='stall',idle_seconds=1.)
+        start = time.monotonic()
+        try:
+            with self.assertRaisesRegex(RuntimeError,'idle timeout'):
+                next(s.start())
+            self.assertEqual(s.reason,'source_idle_timeout')
+            self.assertEqual(s.progress_messages,0)
+        finally:
+            s.close()
+        self.assertLess(time.monotonic()-start,4.)
+        self.assertFalse(s.status()['worker_alive'])
 
     def test_real_burst_overload_keeps_only_latest_and_conserves_counts(self):
         s = LiveSource('synthetic','test',10,10,80,fixture='burst')

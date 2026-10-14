@@ -1,0 +1,27 @@
+{
+  "scope": "Qualitative engineering review of full-context answers only; not official UCF101 accuracy",
+  "input_settings": "1 FPS; aspect-preserving 192x256 canvas; FP32 IEEE/math; greedy; thinking disabled",
+  "same_generated_token_pairs": 6,
+  "streaming_main_cache_unchanged_queries": 6,
+  "assessments": [
+    {
+      "file": "v_BasketballDunk_g04_c03.avi",
+      "expected_action_from_filename": "BasketballDunk",
+      "original_and_streaming_answer": "A basketball player dribbles down the court while a defender jumps to block him.",
+      "verdict": "basketball scene recognized; expected dunk action not identified",
+      "note": "No causal attribution to sampling, resolution, or model size was tested. Early-prefix answers are not scored against the full-clip label."
+    },
+    {
+      "file": "v_PushUps_g03_c01.avi",
+      "expected_action_from_filename": "PushUps",
+      "original_and_streaming_answer": "A man is doing pushups in a gym.",
+      "verdict": "main visible action recognized"
+    },
+    {
+      "file": "v_ShavingBeard_g02_c05.avi",
+      "expected_action_from_filename": "ShavingBeard",
+      "original_and_streaming_answer": "A man is shaving his face.",
+      "verdict": "main visible action recognized"
+    }
+  ]
+}
