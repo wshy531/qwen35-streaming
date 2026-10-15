@@ -1,0 +1,178 @@
+[
+  {
+    "case": "dog_cat_early",
+    "reader": "direct",
+    "truth": "dog",
+    "all_answer": "A dog.",
+    "selected_answer": "A dog",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "dog_cat_early",
+    "reader": "bridge",
+    "truth": "dog",
+    "all_answer": "dog",
+    "selected_answer": "dog",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "dog_cat_late",
+    "reader": "direct",
+    "truth": "cat",
+    "all_answer": "A cat.",
+    "selected_answer": "A cat.",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "dog_cat_late",
+    "reader": "bridge",
+    "truth": "cat",
+    "all_answer": "bird",
+    "selected_answer": "dog",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "cat_dog_early",
+    "reader": "direct",
+    "truth": "cat",
+    "all_answer": "A cat.",
+    "selected_answer": "A cat.",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "cat_dog_early",
+    "reader": "bridge",
+    "truth": "cat",
+    "all_answer": "dog",
+    "selected_answer": "dog",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "cat_dog_late",
+    "reader": "direct",
+    "truth": "dog",
+    "all_answer": "A dog.",
+    "selected_answer": "A dog.",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "cat_dog_late",
+    "reader": "bridge",
+    "truth": "dog",
+    "all_answer": "bird",
+    "selected_answer": "dog",
+    "corrected": true,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": false
+  },
+  {
+    "case": "bird_dog_early",
+    "reader": "direct",
+    "truth": "bird",
+    "all_answer": "dog",
+    "selected_answer": "A dog.",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "bird_dog_early",
+    "reader": "bridge",
+    "truth": "bird",
+    "all_answer": "dog",
+    "selected_answer": "dog",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "bird_dog_late",
+    "reader": "direct",
+    "truth": "dog",
+    "all_answer": "A dog",
+    "selected_answer": "A dog.",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "bird_dog_late",
+    "reader": "bridge",
+    "truth": "dog",
+    "all_answer": "dog",
+    "selected_answer": "dog",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "title_dog_early",
+    "reader": "direct",
+    "truth": "none",
+    "all_answer": "A dog",
+    "selected_answer": "A dog",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "title_dog_early",
+    "reader": "bridge",
+    "truth": "none",
+    "all_answer": "dog",
+    "selected_answer": "dog",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "title_dog_late",
+    "reader": "direct",
+    "truth": "dog",
+    "all_answer": "A dog.",
+    "selected_answer": "A dog.",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "title_dog_late",
+    "reader": "bridge",
+    "truth": "dog",
+    "all_answer": "bird",
+    "selected_answer": "dog",
+    "corrected": true,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": false
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "sources": 172,
+  "cpu_contracts": 6,
+  "real_loads": 1,
+  "model_questions": 48,
+  "answer_paths": 32,
+  "counts": {
+    "vision": 4,
+    "language": 413
+  },
+  "generated": 357,
+  "scores": {
+    "all_direct": {
+      "all": {
+        "cases": 8,
+        "correct": 6,
+        "schema_exact": 1,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "early": {
+        "cases": 4,
+        "correct": 2,
+        "schema_exact": 1,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "late": {
+        "cases": 4,
+        "correct": 4,
+        "schema_exact": 0,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      }
+    },
+    "selected_direct": {
+      "all": {
+        "cases": 8,
+        "correct": 6,
+        "schema_exact": 0,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "early": {
+        "cases": 4,
+        "correct": 2,
+        "schema_exact": 0,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "late": {
+        "cases": 4,
+        "correct": 4,
+        "schema_exact": 0,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      }
+    },
+    "all_bridge": {
+      "all": {
+        "cases": 8,
+        "correct": 2,
+        "schema_exact": 8,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "early": {
+        "cases": 4,
+        "correct": 1,
+        "schema_exact": 4,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "late": {
+        "cases": 4,
+        "correct": 1,
+        "schema_exact": 4,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      }
+    },
+    "selected_bridge": {
+      "all": {
+        "cases": 8,
+        "correct": 4,
+        "schema_exact": 8,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "early": {
+        "cases": 4,
+        "correct": 1,
+        "schema_exact": 4,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "late": {
+        "cases": 4,
+        "correct": 3,
+        "schema_exact": 4,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      }
+    }
+  },
+  "selection_effect": {
+    "direct": {
+      "corrected": 0,
+      "lost_correct": 0,
+      "both_correct": 6,
+      "both_incorrect": 2
+    },
+    "bridge": {
+      "corrected": 2,
+      "lost_correct": 0,
+      "both_correct": 2,
+      "both_incorrect": 4
+    }
+  },
+  "refusals": 11,
+  "refusals_zero_model_calls": true,
+  "time_only_selection": true,
+  "default_promoted": false,
+  "synthetic_cross_video_sequences": true,
+  "correlated_queries": 8,
+  "familiar_source_pairs": 4,
+  "retained_source_bytes": 791808,
+  "external_working_conservative_bytes": 2771328,
+  "peak_allocated_gib": 3.2380595207214355,
+  "peak_reserved_gib": 3.3828125,
+  "wall_seconds_including_load": 19.873740199999702,
+  "gpu_summary_sha256": "24f86b7a45d2ed132af297ff58698861b3f5b8567231a245e7bacea42c5e2dbe",
+  "cpu_proof_sha256": "e0d627110bb29b77a7eec7e5f933658bde1b610bfe5dc65537918727b3c7c189"
+}
