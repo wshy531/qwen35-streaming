@@ -1,0 +1,162 @@
+{
+  "passed": true,
+  "sources": 168,
+  "cpu_contracts": 4,
+  "real_loads": 1,
+  "model_questions": 35,
+  "counts": {
+    "vision": 0,
+    "language": 111
+  },
+  "generated": 76,
+  "main": {
+    "normal": {
+      "cases": 16,
+      "correct": 10,
+      "format_valid": 16,
+      "known_cases": 11,
+      "known_correct": 10,
+      "missing_cases": 5,
+      "missing_correct": 0,
+      "unwarranted_uncertain": 0,
+      "guessed_when_missing": 5,
+      "budget_stops": 0
+    },
+    "reversed": {
+      "cases": 16,
+      "correct": 9,
+      "format_valid": 16,
+      "known_cases": 11,
+      "known_correct": 9,
+      "missing_cases": 5,
+      "missing_correct": 0,
+      "unwarranted_uncertain": 0,
+      "guessed_when_missing": 5,
+      "budget_stops": 0
+    }
+  },
+  "by_group": {
+    "relation": {
+      "normal": {
+        "cases": 8,
+        "correct": 7,
+        "format_valid": 8,
+        "known_cases": 8,
+        "known_correct": 7,
+        "missing_cases": 0,
+        "missing_correct": 0,
+        "unwarranted_uncertain": 0,
+        "guessed_when_missing": 0,
+        "budget_stops": 0
+      },
+      "reversed": {
+        "cases": 8,
+        "correct": 6,
+        "format_valid": 8,
+        "known_cases": 8,
+        "known_correct": 6,
+        "missing_cases": 0,
+        "missing_correct": 0,
+        "unwarranted_uncertain": 0,
+        "guessed_when_missing": 0,
+        "budget_stops": 0
+      }
+    },
+    "coat": {
+      "normal": {
+        "cases": 4,
+        "correct": 1,
+        "format_valid": 4,
+        "known_cases": 1,
+        "known_correct": 1,
+        "missing_cases": 3,
+        "missing_correct": 0,
+        "unwarranted_uncertain": 0,
+        "guessed_when_missing": 3,
+        "budget_stops": 0
+      },
+      "reversed": {
+        "cases": 4,
+        "correct": 1,
+        "format_valid": 4,
+        "known_cases": 1,
+        "known_correct": 1,
+        "missing_cases": 3,
+        "missing_correct": 0,
+        "unwarranted_uncertain": 0,
+        "guessed_when_missing": 3,
+        "budget_stops": 0
+      }
+    },
+    "order": {
+      "normal": {
+        "cases": 4,
+        "correct": 2,
+        "format_valid": 4,
+        "known_cases": 2,
+        "known_correct": 2,
+        "missing_cases": 2,
+        "missing_correct": 0,
+        "unwarranted_uncertain": 0,
+        "guessed_when_missing": 2,
+        "budget_stops": 0
+      },
+      "reversed": {
+        "cases": 4,
+        "correct": 2,
+        "format_valid": 4,
+        "known_cases": 2,
+        "known_correct": 2,
+        "missing_cases": 2,
+        "missing_correct": 0,
+        "unwarranted_uncertain": 0,
+        "guessed_when_missing": 2,
+        "budget_stops": 0
+      }
+    }
+  },
+  "anchors": [
+    {
+      "case": "anchor_detail_dog_people",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "anchor_missing_coat",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "anchor_missing_order",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    }
+  ],
+  "anchor_score": {
+    "cases": 3,
+    "correct": 0,
+    "format_valid": 3,
+    "known_cases": 1,
+    "known_correct": 0,
+    "missing_cases": 2,
+    "missing_correct": 0,
+    "unwarranted_uncertain": 0,
+    "guessed_when_missing": 2,
+    "budget_stops": 0
+  },
+  "changed_pairs": 4,
+  "both_correct_pairs": 9,
+  "normal_only_pairs": 1,
+  "reversed_only_pairs": 0,
+  "no_adaptive_order_selection": true,
+  "default_promoted": false,
+  "no_visual_evidence": true,
+  "peak_allocated_gib": 3.2273497581481934,
+  "peak_reserved_gib": 3.3828125,
+  "wall_seconds_including_load": 9.502677800000129,
+  "gpu_summary_sha256": "e1669a532e27732709a08dbf75ddad81f03871dd8a4c51405a97a136f90ae248",
+  "cpu_proof_sha256": "6f520bf99ab6b426d9f096fc4d7d202aea8fdcedfa73482a6202c4ce4932fa00"
+}

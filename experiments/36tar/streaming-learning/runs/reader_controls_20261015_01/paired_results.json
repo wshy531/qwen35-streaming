@@ -1,0 +1,178 @@
+[
+  {
+    "case": "background_q_behind",
+    "group": "relation",
+    "truth": "yes",
+    "normal": "yes",
+    "reversed": "no",
+    "changed": true,
+    "both_correct": false,
+    "normal_only": true,
+    "reversed_only": false
+  },
+  {
+    "case": "background_q_background",
+    "group": "relation",
+    "truth": "yes",
+    "normal": "yes",
+    "reversed": "yes",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "behind_q_behind",
+    "group": "relation",
+    "truth": "yes",
+    "normal": "yes",
+    "reversed": "yes",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "behind_q_background",
+    "group": "relation",
+    "truth": "yes",
+    "normal": "yes",
+    "reversed": "yes",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "no_background",
+    "group": "relation",
+    "truth": "no",
+    "normal": "no",
+    "reversed": "no",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "no_behind",
+    "group": "relation",
+    "truth": "no",
+    "normal": "no",
+    "reversed": "no",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "woman_in_front",
+    "group": "relation",
+    "truth": "no",
+    "normal": "no",
+    "reversed": "no",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "dog_behind_woman",
+    "group": "relation",
+    "truth": "no",
+    "normal": "yes",
+    "reversed": "yes",
+    "changed": false,
+    "both_correct": false,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "coat_known",
+    "group": "coat",
+    "truth": "black-white",
+    "normal": "black-white",
+    "reversed": "black-white",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "coat_omitted",
+    "group": "coat",
+    "truth": "uncertain",
+    "normal": "black-white",
+    "reversed": "white",
+    "changed": true,
+    "both_correct": false,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "coat_not_stated",
+    "group": "coat",
+    "truth": "uncertain",
+    "normal": "black-white",
+    "reversed": "white",
+    "changed": true,
+    "both_correct": false,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "coat_irrelevant",
+    "group": "coat",
+    "truth": "uncertain",
+    "normal": "black-white",
+    "reversed": "white",
+    "changed": true,
+    "both_correct": false,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "order_cat_dog",
+    "group": "order",
+    "truth": "cat",
+    "normal": "cat",
+    "reversed": "cat",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "order_dog_cat",
+    "group": "order",
+    "truth": "dog",
+    "normal": "dog",
+    "reversed": "dog",
+    "changed": false,
+    "both_correct": true,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "order_omitted",
+    "group": "order",
+    "truth": "uncertain",
+    "normal": "dog",
+    "reversed": "dog",
+    "changed": false,
+    "both_correct": false,
+    "normal_only": false,
+    "reversed_only": false
+  },
+  {
+    "case": "order_not_stated",
+    "group": "order",
+    "truth": "uncertain",
+    "normal": "dog",
+    "reversed": "dog",
+    "changed": false,
+    "both_correct": false,
+    "normal_only": false,
+    "reversed_only": false
+  }
+]
