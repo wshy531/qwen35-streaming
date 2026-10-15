@@ -1,0 +1,7 @@
+{
+  "python": "3.11.7",
+  "av": "16.1.0",
+  "workspace": "D:\\AI_project\\qwen35-streaming-fix-live-sampling-timeout\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4",
+  "physical_camera_opened": false,
+  "gpu_tested": false
+}

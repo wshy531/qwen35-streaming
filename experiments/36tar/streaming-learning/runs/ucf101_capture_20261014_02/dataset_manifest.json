@@ -1,0 +1,40 @@
+{
+  "dataset": "UCF101",
+  "official_page": "https://www.crcv.ucf.edu/research/data-sets/ucf101/",
+  "mirror": "https://huggingface.co/datasets/bitmind/UCF101-Videos",
+  "mirror_revision": "e88622e14fa09fa328b1a97e795232f6189eda41",
+  "selection": "First lexicographic mirror test clip in each of Basketball, PushUps, ShavingBeard; selected before decode",
+  "scope": "Small engineering validation subset, not official split accuracy",
+  "clips": [
+    {
+      "file": "v_BasketballDunk_g04_c03.avi",
+      "remote_path": "test\\Basketball\\v_BasketballDunk_g04_c03.avi",
+      "mirror_category": "Basketball",
+      "bytes": 300888,
+      "sha256": "08c9b19912bc336294c3113e04268bee5c3c4c2470555466a4354b67b0a97561",
+      "url": "https://huggingface.co/datasets/bitmind/UCF101-Videos/resolve/e88622e14fa09fa328b1a97e795232f6189eda41/test%5CBasketball%5Cv_BasketballDunk_g04_c03.avi",
+      "split": "mirror_test",
+      "original_bytes_unchanged": true
+    },
+    {
+      "file": "v_PushUps_g03_c01.avi",
+      "remote_path": "test\\PushUps\\v_PushUps_g03_c01.avi",
+      "mirror_category": "PushUps",
+      "bytes": 191000,
+      "sha256": "85eb978b0ea2807ec83ee920ad3e5920d1a3a1f56abe44ba2b5a38ad6ee7a25d",
+      "url": "https://huggingface.co/datasets/bitmind/UCF101-Videos/resolve/e88622e14fa09fa328b1a97e795232f6189eda41/test%5CPushUps%5Cv_PushUps_g03_c01.avi",
+      "split": "mirror_test",
+      "original_bytes_unchanged": true
+    },
+    {
+      "file": "v_ShavingBeard_g02_c05.avi",
+      "remote_path": "test\\ShavingBeard\\v_ShavingBeard_g02_c05.avi",
+      "mirror_category": "ShavingBeard",
+      "bytes": 351628,
+      "sha256": "1b3582ff7bceb69ce02969377ec1cbe5cd49a4a8ceb2adf43044bf00f1c18606",
+      "url": "https://huggingface.co/datasets/bitmind/UCF101-Videos/resolve/e88622e14fa09fa328b1a97e795232f6189eda41/test%5CShavingBeard%5Cv_ShavingBeard_g02_c05.avi",
+      "split": "mirror_test",
+      "original_bytes_unchanged": true
+    }
+  ]
+}

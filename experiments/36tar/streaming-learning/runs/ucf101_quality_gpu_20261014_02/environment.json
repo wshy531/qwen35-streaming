@@ -1,0 +1,21 @@
+{
+  "python": "3.11.7",
+  "executable": "D:\\AI_project\\qwen35-streaming\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "torch": "2.10.0+cu126",
+    "torchvision": "0.25.0+cu126",
+    "transformers": "5.3.0",
+    "accelerate": "1.12.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0",
+    "Pillow": "12.1.1",
+    "psutil": "7.2.2"
+  },
+  "model_dir": "D:/AI_project/models/Qwen3.5-0.8B",
+  "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+  "activation_script": "D:/AI_project/Activate-QwenEnv.ps1",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "verified_cuda_runtime": "12.6",
+  "driver": "566.24",
+  "pip_check_passed": true
+}

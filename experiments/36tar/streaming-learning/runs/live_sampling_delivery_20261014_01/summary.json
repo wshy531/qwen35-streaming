@@ -1,0 +1,16 @@
+{
+  "tests": 45,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "passed": true,
+  "wall_seconds": 24.84299999999348,
+  "python_executable": "D:\\AI_project\\qwen35-streaming\\.venv\\Scripts\\python.exe",
+  "tested_commit": "f11ab66f47bbc6d450d9bb6ee500c6e85e1ab9f8",
+  "test_modules": [
+    "tests.test_live_source",
+    "tests.test_capture_progress",
+    "tests.test_playback",
+    "tests.test_repeat_source"
+  ]
+}
