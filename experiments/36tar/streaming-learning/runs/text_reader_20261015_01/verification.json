@@ -1,0 +1,237 @@
+{
+  "passed": true,
+  "sources": 164,
+  "cpu_contracts": 4,
+  "real_loads": 1,
+  "model_questions": 80,
+  "counts": {
+    "vision": 0,
+    "language": 350
+  },
+  "generated": 310,
+  "summary": {
+    "old_free": {
+      "all": {
+        "cases": 20,
+        "format_valid": 13,
+        "exact_text_correct": 7,
+        "canonical_text_correct": 7,
+        "canonical_image_correct": 5,
+        "image_truth_cases": 12,
+        "uncertain": 0,
+        "budget_stops": 5,
+        "forced_steps": 0
+      },
+      "generated": {
+        "cases": 12,
+        "format_valid": 8,
+        "exact_text_correct": 3,
+        "canonical_text_correct": 3,
+        "canonical_image_correct": 5,
+        "image_truth_cases": 12,
+        "uncertain": 0,
+        "budget_stops": 3,
+        "forced_steps": 0
+      },
+      "control": {
+        "cases": 8,
+        "format_valid": 5,
+        "exact_text_correct": 4,
+        "canonical_text_correct": 4,
+        "canonical_image_correct": 0,
+        "image_truth_cases": 0,
+        "uncertain": 0,
+        "budget_stops": 2,
+        "forced_steps": 0
+      }
+    },
+    "old_constrained": {
+      "all": {
+        "cases": 20,
+        "format_valid": 20,
+        "exact_text_correct": 10,
+        "canonical_text_correct": 10,
+        "canonical_image_correct": 6,
+        "image_truth_cases": 12,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 7
+      },
+      "generated": {
+        "cases": 12,
+        "format_valid": 12,
+        "exact_text_correct": 4,
+        "canonical_text_correct": 4,
+        "canonical_image_correct": 6,
+        "image_truth_cases": 12,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 4
+      },
+      "control": {
+        "cases": 8,
+        "format_valid": 8,
+        "exact_text_correct": 6,
+        "canonical_text_correct": 6,
+        "canonical_image_correct": 0,
+        "image_truth_cases": 0,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 3
+      }
+    },
+    "structured_free": {
+      "all": {
+        "cases": 20,
+        "format_valid": 20,
+        "exact_text_correct": 13,
+        "canonical_text_correct": 13,
+        "canonical_image_correct": 8,
+        "image_truth_cases": 12,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 0
+      },
+      "generated": {
+        "cases": 12,
+        "format_valid": 12,
+        "exact_text_correct": 7,
+        "canonical_text_correct": 7,
+        "canonical_image_correct": 8,
+        "image_truth_cases": 12,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 0
+      },
+      "control": {
+        "cases": 8,
+        "format_valid": 8,
+        "exact_text_correct": 6,
+        "canonical_text_correct": 6,
+        "canonical_image_correct": 0,
+        "image_truth_cases": 0,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 0
+      }
+    },
+    "structured_constrained": {
+      "all": {
+        "cases": 20,
+        "format_valid": 20,
+        "exact_text_correct": 13,
+        "canonical_text_correct": 13,
+        "canonical_image_correct": 8,
+        "image_truth_cases": 12,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 0
+      },
+      "generated": {
+        "cases": 12,
+        "format_valid": 12,
+        "exact_text_correct": 7,
+        "canonical_text_correct": 7,
+        "canonical_image_correct": 8,
+        "image_truth_cases": 12,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 0
+      },
+      "control": {
+        "cases": 8,
+        "format_valid": 8,
+        "exact_text_correct": 6,
+        "canonical_text_correct": 6,
+        "canonical_image_correct": 0,
+        "image_truth_cases": 0,
+        "uncertain": 0,
+        "budget_stops": 0,
+        "forced_steps": 0
+      }
+    }
+  },
+  "same_prompt_decode_pairs": 40,
+  "historical_original12_comparison": [
+    {
+      "case": "subject_dog",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "subject_cat",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "subject_bird",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "subject_title",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "subject_outro",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "subject_hands",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "detail_cat_coat",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "detail_dog_people",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "first_dog_cat",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "first_cat_dog",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "first_bird_dog",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    },
+    {
+      "case": "first_title_dog",
+      "input_ids_equal": true,
+      "first_logits_equal": true,
+      "generated_ids_equal": true
+    }
+  ],
+  "candidate_retained": true,
+  "default_promoted": false,
+  "no_new_visual_or_end_to_end_evidence": true,
+  "peak_allocated_gib": 3.2294840812683105,
+  "peak_reserved_gib": 3.380859375,
+  "wall_seconds_including_load": 21.868370400000003,
+  "gpu_summary_sha256": "62e4ac05b72c2d4dd5ae422b152bb253eeac1083b58b9f8980d40268a374fbf9",
+  "cpu_proof_sha256": "b112cc5d6c08f8094613de52506cb48bce77f58719f939245c2bf2b9e088c722"
+}
