@@ -1,4 +1,5 @@
 """Real processor plus tiny weights test causal online contracts, not semantics."""
+import os
 from unittest import mock
 import unittest
 
@@ -41,7 +42,7 @@ class OnlineTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         torch.set_num_threads(1)
-        cls.processor = AutoProcessor.from_pretrained(PROJECT/"models/Qwen3.5-0.8B",local_files_only=True)
+        cls.processor = AutoProcessor.from_pretrained(os.environ.get("QWEN35_MODEL_DIR", PROJECT/"models/Qwen3.5-0.8B"),local_files_only=True)
 
     def setUp(self):
         self.model = small_model(self.processor)
