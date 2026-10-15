@@ -1,0 +1,9 @@
+{
+  "suite": "temporal",
+  "tests": 7,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "wall_seconds": 0.0
+}
