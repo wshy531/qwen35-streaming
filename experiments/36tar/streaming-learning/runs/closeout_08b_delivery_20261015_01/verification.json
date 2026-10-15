@@ -1,0 +1,6 @@
+{
+  "passed": false,
+  "phase": "capture source-map resolution",
+  "error": "FileNotFoundError: scripts/capture_worker.py was resolved relative to experiment root instead of active CORE",
+  "scope": "New audit path error; no test or model rerun; original receipts unchanged"
+}

@@ -1,0 +1,60 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"event": "encoded", "timestamp": 1.0, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 1.0, "memory_from": 0.0, "answer": " Beliau campion"}
+{"event": "eof", "timestamp": 1.0, "memory_from": 0.0, "answer": null}
+{"event": "encoded", "timestamp": 1.0, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 1.0, "memory_from": 0.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 3.0, "memory_from": 2.0, "answer": null}
+{"event": "encoded", "timestamp": 3.0, "memory_from": 2.0, "answer": null}
+{"event": "answer", "timestamp": 3.0, "memory_from": 2.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "encoded", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "answer", "timestamp": 5.0, "memory_from": 4.0, "answer": " Beliau campion"}
+{"event": "eof", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "history_answer", "timestamp": 5.0, "memory_from": 4.0, "answer": " Beliau campion"}
+{"event": "history_answer", "timestamp": 5.0, "memory_from": 4.0, "answer": " Beliau campion"}
+{"event": "history_answer", "timestamp": 5.0, "memory_from": 4.0, "answer": "没有保留该时间的画面证据，无法据此回答。"}
+{"event": "encoded", "timestamp": 1.0, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 1.0, "memory_from": 0.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 2.0, "memory_from": 2.0, "answer": null}
+{"event": "encoded", "timestamp": 2.0, "memory_from": 2.0, "answer": null}
+{"event": "eof", "timestamp": 2.0, "memory_from": 2.0, "answer": null}
+{"event": "history_answer", "timestamp": 2.0, "memory_from": 2.0, "answer": " Beliau campion"}
+{"event": "encoded", "timestamp": 1.0, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 1.0, "memory_from": 0.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 3.0, "memory_from": 2.0, "answer": null}
+{"event": "encoded", "timestamp": 3.0, "memory_from": 2.0, "answer": null}
+{"event": "answer", "timestamp": 3.0, "memory_from": 2.0, "answer": " Beliau campion"}
+{"event": "history_answer", "timestamp": 3.0, "memory_from": 2.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "encoded", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "answer", "timestamp": 5.0, "memory_from": 4.0, "answer": " Beliau campion"}
+{"event": "eof", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "encoded", "timestamp": 1.0, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 1.0, "memory_from": 0.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 3.0, "memory_from": 2.0, "answer": null}
+{"event": "encoded", "timestamp": 3.0, "memory_from": 2.0, "answer": null}
+{"event": "answer", "timestamp": 3.0, "memory_from": 2.0, "answer": " Beliau campion"}
+{"event": "history_answer", "timestamp": 3.0, "memory_from": 2.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "encoded", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "answer", "timestamp": 5.0, "memory_from": 4.0, "answer": " Beliau campion"}
+{"event": "eof", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "encoded", "timestamp": 1.0, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 1.0, "memory_from": 0.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 3.0, "memory_from": 2.0, "answer": null}
+{"event": "encoded", "timestamp": 3.0, "memory_from": 2.0, "answer": null}
+{"event": "answer", "timestamp": 3.0, "memory_from": 2.0, "answer": " Beliau campion"}
+{"event": "capacity_reset", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "encoded", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "answer", "timestamp": 5.0, "memory_from": 4.0, "answer": " Beliau campion"}
+{"event": "eof", "timestamp": 5.0, "memory_from": 4.0, "answer": null}
+{"event": "encoded", "timestamp": 1.0, "memory_from": 0.0, "answer": null}
+{"event": "encoded", "timestamp": 3.0, "memory_from": 0.0, "answer": null}
+{"event": "answer", "timestamp": 3.0, "memory_from": 0.0, "answer": " Beliau campion收获的Native运动员Informe છ Favor 쇼핑柱 Panc,—dfa важна诊所 diseño"}
+{"event": "encoded", "timestamp": 5.0, "memory_from": 0.0, "answer": null}
+{"event": "capacity_reset", "timestamp": 7.0, "memory_from": 6.0, "answer": null}
+{"event": "encoded", "timestamp": 7.0, "memory_from": 6.0, "answer": null}
+{"event": "eof", "timestamp": 7.0, "memory_from": 6.0, "answer": null}
+
+Console log: D:\AI_project\qwen35-streaming-closeout-08b\experiments\36tar\streaming-learning\runs\closeout_08b_generic_cpu_20261015_01.console.log

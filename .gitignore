@@ -229,3 +229,8 @@ data/
 *.mp4
 *.avi
 *.mov
+
+# Local closeout viewers include decoded frames; publish text receipts only.
+experiments/36tar/streaming-learning/runs/closeout_08b_*/**/*.html
+experiments/36tar/streaming-learning/runs/closeout_08b_*/**/*.png
+experiments/36tar/streaming-learning/runs/closeout_08b_*/**/*.jpg

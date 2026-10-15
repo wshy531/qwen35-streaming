@@ -4,3 +4,7 @@
 runs/live_sampling_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 runs/ucf101_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 runs/ucf101_*.console.log whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/closeout_08b_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+diagnostics/closeout_08b_v1/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve terminal progress bars and blank lines in raw captured logs.
+runs/closeout_08b_*/**/*.log -whitespace

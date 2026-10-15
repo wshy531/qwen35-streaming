@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "staged_files_before_this_receipt": 157,
+  "all_tracked_python_ast": 465,
+  "parsed_new_json": 81,
+  "raw_evidence_blobs_equal": 147,
+  "documentation_links_exist": 102,
+  "diff_check_passed": true,
+  "raw_terminal_logs_exempt_from_style_only": true,
+  "no_model_media_env_or_detected_credentials": true,
+  "pip_check": "No broken requirements found",
+  "note": "Publication validation; no additional model load or repeated quality run"
+}

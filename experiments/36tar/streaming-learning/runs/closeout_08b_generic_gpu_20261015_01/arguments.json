@@ -1,0 +1,23 @@
+{
+  "video": "D:\\AI_project\\data\\ucf101_capture_validation\\v_ShavingBeard_g02_c05.avi",
+  "model_dir": "D:\\AI_project\\models\\Qwen3.5-0.8B",
+  "question": "What is the main action shown in the video? Answer in one short sentence.",
+  "fps": 1.0,
+  "duration": 8.0,
+  "max_frames": 8,
+  "answer_tokens": 16,
+  "qa_every": 4,
+  "first_qa_frames": 4,
+  "playback": "clock",
+  "repeat_count": 1,
+  "repeat_period": null,
+  "consumer_delay_seconds": 0.0,
+  "max_tokens": 288,
+  "wall_seconds": 180,
+  "allow_branch": [],
+  "remember_history": false,
+  "memory_every_pairs": 4,
+  "history_time": [],
+  "history_question": "Describe the visible subject and action in these retained historical frames.",
+  "history_query_after": null
+}

@@ -1,0 +1,23 @@
+{
+  "model_dir": "D:\\AI_project\\models\\Qwen3.5-0.8B",
+  "input_kind": "file",
+  "video": "D:\\AI_project\\data\\ucf101_capture_validation\\v_ShavingBeard_g02_c05.avi",
+  "device": "Integrated Camera",
+  "capture_size": "640x480",
+  "capture_fps": 15,
+  "idle_seconds": 3.0,
+  "fps": 0.2,
+  "duration": 12.0,
+  "max_frames": 4,
+  "question": "What is the main action shown in the video? Answer in one short sentence.",
+  "answer_tokens": 16,
+  "max_tokens": 288,
+  "qa_every": 2,
+  "first_qa_frames": 2,
+  "wall_seconds": 180,
+  "allow_branch": [],
+  "playback": "clock",
+  "repeat_count": 1,
+  "repeat_period": null,
+  "consumer_delay_seconds": 0.0
+}

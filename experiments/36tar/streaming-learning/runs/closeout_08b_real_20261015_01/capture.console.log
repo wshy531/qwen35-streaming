@@ -1,0 +1,6 @@
+{"file": "v_BasketballDunk_g04_c03.avi", "fps": 0.2, "before": "source_eof", "before_frames": 1, "after_frames": 1, "passed": true}
+{"file": "v_BasketballDunk_g04_c03.avi", "fps": 1.0, "before": "frame_budget_limit", "before_frames": 3, "after_frames": 3, "passed": true}
+{"file": "v_PushUps_g03_c01.avi", "fps": 0.2, "before": "source_eof", "before_frames": 1, "after_frames": 1, "passed": true}
+{"file": "v_PushUps_g03_c01.avi", "fps": 1.0, "before": "frame_budget_limit", "before_frames": 3, "after_frames": 3, "passed": true}
+{"file": "v_ShavingBeard_g02_c05.avi", "fps": 0.2, "before": "source_idle_timeout", "before_frames": 1, "after_frames": 2, "passed": true}
+{"file": "v_ShavingBeard_g02_c05.avi", "fps": 1.0, "before": "frame_budget_limit", "before_frames": 3, "after_frames": 3, "passed": true}

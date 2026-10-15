@@ -1,0 +1,14 @@
+usage: live_demo.py [-h] --stage {preflight,capture-check,gpu} --model-dir
+                    MODEL_DIR [--input-kind {file,camera}] [--video VIDEO]
+                    [--device DEVICE] [--capture-size CAPTURE_SIZE]
+                    [--capture-fps CAPTURE_FPS] [--idle-seconds IDLE_SECONDS]
+                    [--fps FPS] [--duration DURATION]
+                    [--max-frames MAX_FRAMES] [--question QUESTION]
+                    [--answer-tokens ANSWER_TOKENS] [--max-tokens MAX_TOKENS]
+                    [--qa-every QA_EVERY] [--first-qa-frames FIRST_QA_FRAMES]
+                    [--wall-seconds WALL_SECONDS]
+                    [--allow-branch ALLOW_BRANCH] [--ui-port UI_PORT] --out
+                    OUT [--preflight PREFLIGHT]
+                    [--capture-check CAPTURE_CHECK]
+live_demo.py: error: Live request exceeds bounded camera limits
+

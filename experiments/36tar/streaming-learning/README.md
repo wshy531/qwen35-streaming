@@ -5,7 +5,7 @@
 [原PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 已由协作方合并；本轮修改通过新的个人分支和PR审阅，main不直推。
 [PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 已于2026-10-14合入main（ba22776），包含通用入口、按PTS墙钟播放、同输入原模型对照及后续记忆/时间查询诊断。通用入口阶段153项CPU/17来源契约及4个epoch契约通过；第六段重复短片播放约120秒、112帧/36回答/19reset、无丢帧，allocated峰值3.270GiB。各段测试数量和答案对应其固定版本，不是当前整库测试总数；洗脸、猫/鸟和无动物画面等失败仍保留。
 
-协作方[修复PR #3](https://github.com/wshy531/qwen35-streaming/pull/3) 已合到`36tar/general-video-demo`，含低帧率正常等待进度通知、45项通过的来源/播放/循环回归，以及UCF101三视频六组问答对照。当前main ba22776尚未包含该修复及证据，需要后续另行整合；不能因PR #3合入实验分支就称main已经更新。
+本收尾分支基于 main `6ed58af`，已整合[修复 PR #3](https://github.com/wshy531/qwen35-streaming/pull/3) 的低帧率等待进度通知与文本证据。2026-10-15 当前源码重新通过195项完整CPU回归及15项时间记忆契约，UCF101六组同输入GPU原/流式Token一致；通用8帧/reset与0.2FPS稀疏文件入口通过。详见[0.8B收尾报告、证据与复现](CLOSEOUT_08B.md)。本分支合并后才进入main；历史候选和误识别继续保留，2B尚未启动。
 
 当前仓库总览、Windows环境与通用演示入口见[根README](../../../README.md)。后续候选结果见[实验索引](FOLLOWUP_EXPERIMENTS.md)、[森林逐题分析](FOREST_RUNTIME_ANALYSIS.md)、[严格时间文件入口](TIME_FILE_ENTRY.md)和[第二素材验收](SECOND_FILE_VALIDATION.md)。候选没有统一升级默认；保存/取回正确不等于识别正确，未进行SFT或物理摄像头验收。
 

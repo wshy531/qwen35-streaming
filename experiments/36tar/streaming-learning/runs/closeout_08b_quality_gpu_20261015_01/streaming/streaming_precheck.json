@@ -1,0 +1,6 @@
+{
+  "arm": "streaming",
+  "gpu_free_gib": 6.9326171875,
+  "ram_available_gib": 3.970409393310547,
+  "branch": "wshy/closeout-08b-20261015"
+}
