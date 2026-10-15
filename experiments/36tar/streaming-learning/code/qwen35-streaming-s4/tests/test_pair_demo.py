@@ -1,4 +1,5 @@
 """Policy contracts with the actual processor and tiny FP32 model, no semantics."""
+import os
 import unittest
 from unittest import mock
 
@@ -22,7 +23,7 @@ class DemoTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         torch.set_num_threads(1)
-        cls.processor = AutoProcessor.from_pretrained(PROJECT / "models/Qwen3.5-0.8B", local_files_only=True)
+        cls.processor = AutoProcessor.from_pretrained(os.environ.get("QWEN35_MODEL_DIR", PROJECT / "models/Qwen3.5-0.8B"), local_files_only=True)
 
     def setUp(self):
         self.model = small_model(self.processor)

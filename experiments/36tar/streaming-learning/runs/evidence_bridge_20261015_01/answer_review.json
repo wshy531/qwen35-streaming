@@ -1,0 +1,46 @@
+[
+  {
+    "case": "dog",
+    "truth": "dog",
+    "visual_description": "A white dog is eating grass in front of a tower.",
+    "reader_raw": "Yes",
+    "oracle_raw": "Yes",
+    "strict_requested_answer_correct": false,
+    "binary_presence_secondary_posthoc": true,
+    "visual_subject_present_correct": true,
+    "caveat": "Dog supported; eating grass is not established by these two frames."
+  },
+  {
+    "case": "cat",
+    "truth": "cat",
+    "visual_description": "A black and white cat is lying on the ground.",
+    "reader_raw": "Yes",
+    "oracle_raw": "Yes",
+    "strict_requested_answer_correct": false,
+    "binary_presence_secondary_posthoc": true,
+    "visual_subject_present_correct": true,
+    "caveat": "Cat supported; action/posture not scored."
+  },
+  {
+    "case": "title",
+    "truth": "none",
+    "visual_description": "The video shows a white background with the text \"Pablo MIV\" in a stylized font.",
+    "reader_raw": "No",
+    "oracle_raw": "No",
+    "strict_requested_answer_correct": false,
+    "binary_presence_secondary_posthoc": true,
+    "visual_subject_present_correct": true,
+    "caveat": "Text graphic supported; MIV OCR disagrees with MIX in visible frame."
+  },
+  {
+    "case": "outro",
+    "truth": "none",
+    "visual_description": "A video title screen with a black background and text in red, yellow, and white.",
+    "reader_raw": "No",
+    "oracle_raw": "No",
+    "strict_requested_answer_correct": false,
+    "binary_presence_secondary_posthoc": true,
+    "visual_subject_present_correct": true,
+    "caveat": "Text end screen supported; calling it a title screen is imprecise."
+  }
+]

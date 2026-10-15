@@ -1,0 +1,5 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00, 298.51it/s]
+Loading weights:   0%|          | 0/49 [00:00<?, ?it/s]Loading weights: 100%|██████████| 49/49 [00:00<00:00, 12248.70it/s]
+{"suite": "baseline", "discovered": 12, "tests": 12, "passed": true, "failures": 0, "errors": 0, "skipped": 0, "wall_seconds": 0.17199999999866122, "python": "D:\\AI_project\\qwen35-streaming\\.venv\\Scripts\\python.exe", "packages": {"torch": "2.10.0+cu126", "transformers": "5.3.0", "numpy": "2.4.6", "av": "16.1.0"}}

@@ -1,0 +1,109 @@
+{
+  "passed": true,
+  "peer_commit": "80b12924b79f3ea75176c54b48a917287104836e",
+  "closeout_commit": "0d864af5fbd33201f54fac3a613a550c14fb828f",
+  "both_histories_preserved": true,
+  "peer_files_byte_identical_except_documented_edits": 168,
+  "default_code_byte_identical_to_closeout": true,
+  "capsules": [
+    {
+      "run": "evidence_bridge_20261015_01",
+      "files": 47,
+      "envelope_bytes": 583191,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    },
+    {
+      "run": "local_readout_20261015_01",
+      "files": 44,
+      "envelope_bytes": 1986622,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    },
+    {
+      "run": "reader_controls_20261015_01",
+      "files": 38,
+      "envelope_bytes": 996109,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    },
+    {
+      "run": "readout_challenge_20261015_01",
+      "files": 49,
+      "envelope_bytes": 1276211,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    },
+    {
+      "run": "readout_grounding_20261014_01",
+      "files": 49,
+      "envelope_bytes": 767346,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "summary_sha256"
+      ]
+    },
+    {
+      "run": "readout_holdout_20261015_01",
+      "files": 52,
+      "envelope_bytes": 567201,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    },
+    {
+      "run": "readout_transfer_20261015_01",
+      "files": 49,
+      "envelope_bytes": 1241283,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    },
+    {
+      "run": "target_readout_20261015_01",
+      "files": 53,
+      "envelope_bytes": 2494996,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    },
+    {
+      "run": "text_reader_20261015_01",
+      "files": 38,
+      "envelope_bytes": 1665594,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    },
+    {
+      "run": "visual_channel_20261015_01",
+      "files": 69,
+      "envelope_bytes": 2196644,
+      "receipt_hashes_checked": [
+        "cpu_proof_sha256",
+        "gpu_summary_sha256"
+      ]
+    }
+  ],
+  "archived_files_verified": 488,
+  "archived_python_ast_passed": 106,
+  "archived_json_parsed": 277,
+  "expected_historical_syntax_failure_preserved": [
+    "runs/visual_channel_cpu_20261015_01/source_snapshot/probe.py"
+  ],
+  "fresh_cpu_tests": 218,
+  "new_gpu_loads": 0,
+  "old_quality_is_archived_evidence_not_new_run": true
+}

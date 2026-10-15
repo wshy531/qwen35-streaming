@@ -1,0 +1,17 @@
+{
+  "suite": "streaming",
+  "discovered": 180,
+  "tests": 180,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "wall_seconds": 64.95300000000134,
+  "python": "D:\\AI_project\\qwen35-streaming\\.venv\\Scripts\\python.exe",
+  "packages": {
+    "torch": "2.10.0+cu126",
+    "transformers": "5.3.0",
+    "numpy": "2.4.6",
+    "av": "16.1.0"
+  }
+}

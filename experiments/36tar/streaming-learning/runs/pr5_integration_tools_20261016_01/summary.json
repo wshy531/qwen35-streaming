@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "tests": 8,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "sources": {
+    "experiments\\36tar\\streaming-learning\\tools\\tests\\test_restore_text_bundle.py": "c44d6a418f33107db97d91be5bf1600a7114f848009754daf05b3a1424996977",
+    "experiments\\36tar\\streaming-learning\\tools\\restore_text_bundle.py": "1b8488cacd69a39c62e252ff0ec88a0b71b6d10330e4f5ef205c1001f8ac4e15"
+  }
+}

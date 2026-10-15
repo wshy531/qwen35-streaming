@@ -1,0 +1,9 @@
+{
+  "suite": "time_file",
+  "tests": 8,
+  "passed": true,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "wall_seconds": 1.25
+}

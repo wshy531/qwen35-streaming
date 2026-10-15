@@ -1,0 +1,392 @@
+{
+  "budget": {
+    "model_loads": 2,
+    "questions_per_arm": 6,
+    "generated_per_arm": 144,
+    "answer_tokens": 24,
+    "original_vision_max": 6,
+    "original_language_max": 160,
+    "streaming_vision_max": 8,
+    "streaming_language_max": 180,
+    "max_tokens": 512,
+    "max_frames_per_video": 8,
+    "gpu_free_min_gib": 5.5,
+    "ram_available_after_import_min_gib": 1.5,
+    "conversion_free_min_gib": 2,
+    "wall_seconds": 600,
+    "precision": "fp32_ieee_math",
+    "load_policy": "direct GPU device_map; each arm in a separate child process"
+  },
+  "reports": [
+    {
+      "arm": "streaming",
+      "answers": [
+        {
+          "file": "v_BasketballDunk_g04_c03.avi",
+          "arm": "streaming",
+          "question": "What is the main action shown in the video? Answer in one short sentence.",
+          "checkpoint": "early",
+          "real_frames": 2,
+          "answer": "A basketball player dribbles down the court.",
+          "generated_ids": [
+            32,
+            18659,
+            2693,
+            75857,
+            37481,
+            1441,
+            279,
+            5300,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "frame_id": 25,
+          "timestamp": 1.0,
+          "wall_seconds": 0.44512630000099307,
+          "reference_mode": "fp32_ieee_math",
+          "main_unchanged_bitwise": true,
+          "main_tokens": 59
+        },
+        {
+          "file": "v_BasketballDunk_g04_c03.avi",
+          "arm": "streaming",
+          "question": "What is the main action shown in the video? Answer in one short sentence.",
+          "checkpoint": "full",
+          "real_frames": 3,
+          "answer": "A basketball player dribbles down the court while a defender jumps to block him.",
+          "generated_ids": [
+            32,
+            18659,
+            2693,
+            75857,
+            37481,
+            1441,
+            279,
+            5300,
+            1345,
+            264,
+            27298,
+            33075,
+            310,
+            2424,
+            1384,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "frame_id": 50,
+          "timestamp": 2.0,
+          "wall_seconds": 0.6645638999980292,
+          "reference_mode": "fp32_ieee_math",
+          "main_unchanged_bitwise": true,
+          "main_tokens": 115
+        },
+        {
+          "file": "v_PushUps_g03_c01.avi",
+          "arm": "streaming",
+          "question": "What is the main action shown in the video? Answer in one short sentence.",
+          "checkpoint": "early",
+          "real_frames": 2,
+          "answer": "A man is doing pushups in a gym.",
+          "generated_ids": [
+            32,
+            855,
+            369,
+            3604,
+            4336,
+            8339,
+            303,
+            264,
+            18244,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "frame_id": 25,
+          "timestamp": 1.0,
+          "wall_seconds": 0.4730981000029715,
+          "reference_mode": "fp32_ieee_math",
+          "main_unchanged_bitwise": true,
+          "main_tokens": 59
+        },
+        {
+          "file": "v_PushUps_g03_c01.avi",
+          "arm": "streaming",
+          "question": "What is the main action shown in the video? Answer in one short sentence.",
+          "checkpoint": "full",
+          "real_frames": 3,
+          "answer": "A man is doing pushups in a gym.",
+          "generated_ids": [
+            32,
+            855,
+            369,
+            3604,
+            4336,
+            8339,
+            303,
+            264,
+            18244,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "frame_id": 50,
+          "timestamp": 2.0,
+          "wall_seconds": 0.4977184999952442,
+          "reference_mode": "fp32_ieee_math",
+          "main_unchanged_bitwise": true,
+          "main_tokens": 115
+        },
+        {
+          "file": "v_ShavingBeard_g02_c05.avi",
+          "arm": "streaming",
+          "question": "What is the main action shown in the video? Answer in one short sentence.",
+          "checkpoint": "early",
+          "real_frames": 2,
+          "answer": "A man is shaving his face.",
+          "generated_ids": [
+            32,
+            855,
+            369,
+            77251,
+            780,
+            3460,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "frame_id": 25,
+          "timestamp": 1.0,
+          "wall_seconds": 0.3910031999985222,
+          "reference_mode": "fp32_ieee_math",
+          "main_unchanged_bitwise": true,
+          "main_tokens": 59
+        },
+        {
+          "file": "v_ShavingBeard_g02_c05.avi",
+          "arm": "streaming",
+          "question": "What is the main action shown in the video? Answer in one short sentence.",
+          "checkpoint": "full",
+          "real_frames": 8,
+          "answer": "A man is shaving his face.",
+          "generated_ids": [
+            32,
+            855,
+            369,
+            77251,
+            780,
+            3460,
+            13,
+            248046
+          ],
+          "stop_reason": "eos",
+          "frame_id": 175,
+          "timestamp": 7.0,
+          "wall_seconds": 0.38112659999751486,
+          "reference_mode": "fp32_ieee_math",
+          "main_unchanged_bitwise": true,
+          "main_tokens": 227
+        }
+      ],
+      "counts": {
+        "vision": 8,
+        "language": 82
+      },
+      "generated_tokens": 65,
+      "model_source": "D:\\AI_project\\qwen35-streaming-closeout-08b\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming-s4\\qwen35_local\\modeling_qwen3_5.py",
+      "peak_allocated_gib": 3.2734522819519043,
+      "peak_reserved_gib": 3.435546875,
+      "driver_free_gib_after_float": 3.5654296875,
+      "driver_resident_delta_gib_after_float": 3.3671875,
+      "wall_seconds_including_load": 5.721840400001383
+    }
+  ],
+  "comparisons": [],
+  "source_hashes": {
+    "code\\qwen35-streaming\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "code\\qwen35-streaming\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py": "7c195a2e69bbf97b439200862a23db876add0d6c20f34991913b765470e0cd71",
+    "code\\qwen35-streaming-s4\\qwen35_local\\__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f",
+    "code\\qwen35-streaming-s4\\qwen35_local\\configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "code\\qwen35-streaming-s4\\qwen35_local\\modeling_qwen3_5.py": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611",
+    "code\\qwen35-streaming-s4\\scripts\\__init__.py": "86dfb66a6285dc8b962b9e4ede5fde54115da09f79f552083e9d53fa9fe45280",
+    "code\\qwen35-streaming-s4\\scripts\\action_ablation.py": "c6d88d92fda2163fa88ddaf9d1828550b312e17fd4e1c47bebdb02f0c90a6f6f",
+    "code\\qwen35-streaming-s4\\scripts\\baseline.py": "6675b088761705a9f98c349fbdbf02e52344a595fa7f500b4274d0594cf019c6",
+    "code\\qwen35-streaming-s4\\scripts\\capture_worker.py": "eda61468a095bae90760d9ebbf7a2e8cef1223bdd858778a215a28169a51c556",
+    "code\\qwen35-streaming-s4\\scripts\\chunk_experiment.py": "b90d12682b6f07e995dd7611e34e0dc2f95047b88085bcb8a47a8ec685ea13fa",
+    "code\\qwen35-streaming-s4\\scripts\\chunk_interleaved.py": "66ced70ccb9543a38fc76b1308a313bc305dbfa813e81cbbaec72559a11ff92d",
+    "code\\qwen35-streaming-s4\\scripts\\chunk_size_probe.py": "60a1d6522f2524dbc3a161609b595cfd315e04fe530e507fcacb48e94cbb036d",
+    "code\\qwen35-streaming-s4\\scripts\\chunk_weight_check.py": "8b59e8486930d669a9ffe0969856718904e317a2e3ad778b887d921a7a130150",
+    "code\\qwen35-streaming-s4\\scripts\\equal_tail_control.py": "3efa096f560f0ab8cf34de400c5478c70ac2563fbf0aaa5ce2cc5f3f9b1c1b03",
+    "code\\qwen35-streaming-s4\\scripts\\fair_video.py": "0ef56870d606b5a4609ba49d1a9486d89c2a30a1c0dd2f25ec3926941e63cd2f",
+    "code\\qwen35-streaming-s4\\scripts\\four_frame_online.py": "d7fdc2683150ffddf26a2d3d872897f304b0c3065106fc50f05cd028f110d29e",
+    "code\\qwen35-streaming-s4\\scripts\\fp32_regression.py": "9e51af60930ee768e03d9640a69d62bf988811f6f9ecc8c6fbcb63a2869fa800",
+    "code\\qwen35-streaming-s4\\scripts\\live_demo.py": "156acd9282fe3cfcae73ef2f10c4db972134c4855e145b78d2c3870a67b858a2",
+    "code\\qwen35-streaming-s4\\scripts\\natural_experiment.py": "1798ee86298933b61b676e08f231743339ccedc35a10ad71e9b182cb6ca6a10d",
+    "code\\qwen35-streaming-s4\\scripts\\online_experiment.py": "73bb944e4b2f3ed4e4574d6ccba454be0e897d31ee08b9af55f4438e22d498dd",
+    "code\\qwen35-streaming-s4\\scripts\\original_first_control.py": "6330d36b79e6a617aee40060fc03e4943b61c8afe2f7b012571b47927a5bcb8e",
+    "code\\qwen35-streaming-s4\\scripts\\pair_demo.py": "e0f91a107dcd48914e6685695c603da1509ab8e71050e403ddf52488feea5c91",
+    "code\\qwen35-streaming-s4\\scripts\\precision_diagnostic_cpu.py": "88e24629aaf7f9e421b0a4017119053e24c16b114810bf124fbc22e2ed260499",
+    "code\\qwen35-streaming-s4\\scripts\\precision_fullmodel.py": "c0b1071e841d1e1c827b31bbb67c2626d05c1bd77fd96df960f31a157dbaa0c6",
+    "code\\qwen35-streaming-s4\\scripts\\precision_layers.py": "7565f280d28d170b51ff45696b390004642cddf9d106b64840c12bdeedae0d7b",
+    "code\\qwen35-streaming-s4\\scripts\\precision_recurrence_cpu.py": "8ab627f4846f935d71d6ad86831777a0054eefd757c38043077958942f864694",
+    "code\\qwen35-streaming-s4\\scripts\\prefix_first_control.py": "1c891a0a0f500707c61c1f27ecde374cba9ade45d17a39bda7c3640bae95404b",
+    "code\\qwen35-streaming-s4\\scripts\\protocol_capability_control.py": "0e3fa348e385224bde781c9f40fd409d3b28c9c3c1b64f315b6b97db92320f3c",
+    "code\\qwen35-streaming-s4\\scripts\\qkv_replay.py": "1a9338dbcfd2423674b22e4493fa5cbc0e4041072227df55a4160accde184f77",
+    "code\\qwen35-streaming-s4\\scripts\\sampling_stability.py": "20cc2e20cc13b9ab1909c2d4acf3d3a5f9e73c80d151c39f5abf3de6e074cc23",
+    "code\\qwen35-streaming-s4\\scripts\\scene_pair_control.py": "b6ded03977ffeca4d3e1478d265411e7ca492fa9f2076b66c6f79b7fc8d56037",
+    "code\\qwen35-streaming-s4\\scripts\\shared_features_control.py": "e15759d9d927b7384e9a09cd79a05a47a550a692d06519a4b65beb1e7e68c26e",
+    "code\\qwen35-streaming-s4\\scripts\\smoke_test.py": "d5cc3173daf4cd1fafb5cd881968b8de11cb4c98075dbdb171c49cf3c4624b3c",
+    "code\\qwen35-streaming-s4\\scripts\\stability_experiment.py": "620e59416873b5f894dc4e15b9002fe9fb644a0f56f8c2e1321c18cac53a1afd",
+    "code\\qwen35-streaming-s4\\scripts\\stage_timing.py": "6b04038281fe56e6c661ec5f0456892b7a1c579e0ea7ed951584040c0ded2eaf",
+    "code\\qwen35-streaming-s4\\scripts\\timeline_reference.py": "b97ef089a60f32155b79c27b6e13373d5ff3e65dcdc75efe7f62a17878a9b217",
+    "code\\qwen35-streaming-s4\\scripts\\timestamp_diagnostic.py": "f0070d3d52a03e2d40499db69f96b205a19894d715422879d2b24f6a9807ec6f",
+    "code\\qwen35-streaming-s4\\scripts\\video_demo.py": "c2ac712da201a1624c843188002f4e454c8e6e0bc93b06e22ea571a011b0601e",
+    "code\\qwen35-streaming-s4\\scripts\\vision_expand.py": "4d703213a1680da0bc746123a41b3595ad04ea77f4ac98294452658d8d44c561",
+    "code\\qwen35-streaming-s4\\scripts\\vision_fixed_control.py": "d5639c805f91002a8c533ad9962da9a3011aacc5721e5fd0fb37fd83ca396a4f",
+    "code\\qwen35-streaming-s4\\scripts\\vision_fixed_online.py": "99a212591ab8c19e18498368b8561a4ad5c7c52befb880729c5f5c0bacda9474",
+    "code\\qwen35-streaming-s4\\scripts\\vision_fixed_units.py": "367dfad3699e064fd844d68304191067b447f8a66063879ce56208dcf842d205",
+    "code\\qwen35-streaming-s4\\scripts\\vision_trace.py": "e5ce68b266a2de0806293f68d29a7ff0d822f5ea7eaeaf83411ebbbb6a82478e",
+    "code\\qwen35-streaming-s4\\scripts\\window_experiment.py": "589e95f20eb3fb947aef33d0ab78624d69fa96d67bb05e28066f3b3c3ec72c62",
+    "code\\qwen35-streaming-s4\\streaming\\__init__.py": "16795d71ce6a13c2d34275576d369c83e7ae791940b898dd42eaa3e47a38db23",
+    "code\\qwen35-streaming-s4\\streaming\\action_inputs.py": "1235ae932233446c63fdf422fdcda26b7c83556c037e638dc3577d9fad8e53e0",
+    "code\\qwen35-streaming-s4\\streaming\\demo.py": "c1f1367be18698be06cbb7f4d316b08595880b4a67c399299a7813aeccb909a7",
+    "code\\qwen35-streaming-s4\\streaming\\fair_inputs.py": "eb5a0bc03bcef1f12ec3ce3328bc0a2c9fc7baf1f9ceef9fb2b8ff66f3317814",
+    "code\\qwen35-streaming-s4\\streaming\\frame_memory.py": "d0712c3304763ef199dc92e4bebafef6d389bcfb0d55139e2495f54475314767",
+    "code\\qwen35-streaming-s4\\streaming\\hybrid.py": "86bb4855fa4af51e3f35ccb529684c6cfe4bc6e092f64a9c8b9777f73d69460a",
+    "code\\qwen35-streaming-s4\\streaming\\inference.py": "e5335712202fc13432bcc574d919f2387fc814cde28ae80abbc5e1f0a5621d24",
+    "code\\qwen35-streaming-s4\\streaming\\inputs.py": "aaa98fcb49801c6e09df2bb9743cbd20992bae25110c8325bd3f69a112e54c45",
+    "code\\qwen35-streaming-s4\\streaming\\live_source.py": "0b2455a0b6939313701fd93a2953ba926917ea5ce2236454e717da17db3313c9",
+    "code\\qwen35-streaming-s4\\streaming\\online.py": "90732e09495eee295175f9861cbd5030c659432588669472a2a7ef44e3ea47a9",
+    "code\\qwen35-streaming-s4\\streaming\\playback.py": "90952c39450f764df64dafdf5962c3c02fb4ff0c047d32e0e7868fdec28ee32c",
+    "code\\qwen35-streaming-s4\\streaming\\preprocessing.py": "361bfd6aafcf8b1a8b84f823dba9e358a9dc526f848df9005011bb039ca60343",
+    "code\\qwen35-streaming-s4\\streaming\\remembering.py": "ea89926e6da2cdd7106e690dfa17838b7b6c9254c063dea328a1b38b84a8b5b3",
+    "code\\qwen35-streaming-s4\\streaming\\repeat_source.py": "7be2ae0aa593ffc03c914748378778871eadfd6f1dbf4f865413109142868e6d",
+    "code\\qwen35-streaming-s4\\streaming\\sampling_inputs.py": "b2fe76308f4e8da0bc46f06df7cf67636813fa647bc31692fe76aa8d8b4d056f",
+    "code\\qwen35-streaming-s4\\streaming\\session.py": "12e06e161593d94ce9c9422df8627c8bfb440a0c255216f526b8e1b9ad7bb8f9",
+    "code\\qwen35-streaming-s4\\streaming\\timeline_inputs.py": "6f181d29dda85f5913dddd80b966a208a2f12e8a9bcac6049acd7ed40b10a978",
+    "code\\qwen35-streaming-s4\\streaming\\viewer.py": "5ba3e6c21fcbe4b103dfaf6bbbab107b1d106e8387e16f6abfc3b5fcbc0ee8d1",
+    "code\\qwen35-streaming-s4\\streaming\\window.py": "04b8de8580ed079ead091e13754d9ad16fc1d9ca17623d2647daef41da6894ea",
+    "code\\qwen35-streaming-s4\\tests\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "code\\qwen35-streaming-s4\\tests\\test_action_inputs.py": "48e40fee55382c8af5301fd29c3e302f2d843b0cf597977b290ce468dac55d1f",
+    "code\\qwen35-streaming-s4\\tests\\test_capture_progress.py": "aaddfb88be40f89e692c35a1e9462b0af8bd0f81c140b73dd9539c8b0d999070",
+    "code\\qwen35-streaming-s4\\tests\\test_fair_inputs.py": "179152198bb6c53eb60fdbcc6b3993776418adb9d44aa26c6952ba57aa36b7d8",
+    "code\\qwen35-streaming-s4\\tests\\test_frame_memory.py": "67a9097928aabf4909100faa21505165d61f1500e6bd3f0611f91ecf2e1fb8dd",
+    "code\\qwen35-streaming-s4\\tests\\test_history_demo.py": "3975e044182a3b6d2b39aac7c272d42b752846ab9e3ebed858f397ee8809a7d2",
+    "code\\qwen35-streaming-s4\\tests\\test_history_trigger.py": "a7af0e4c2adf5a7724bac1f8cefc5491c94500572f2e5da3bb8acfe58de4fc15",
+    "code\\qwen35-streaming-s4\\tests\\test_live_source.py": "086135cc19d8af517c7d18246bf3cb504edf114df3921bc94d0451d5ffd6eac5",
+    "code\\qwen35-streaming-s4\\tests\\test_local_model.py": "1deeb001e7bca335fe0b786c0f548543b4386079b6d29926525f5d110e64c24d",
+    "code\\qwen35-streaming-s4\\tests\\test_mixed_state.py": "b63e6a5609ea497fe4f47fd8bf2cb037837d6da1997560d7f87254558575d7e8",
+    "code\\qwen35-streaming-s4\\tests\\test_online.py": "54ff6967baaaec828e0c8bc92ad7d3e3f9dba175d4f021e1df848a7a3de0a316",
+    "code\\qwen35-streaming-s4\\tests\\test_pair_demo.py": "8ad494ebbd090b8c9615463c0ca809d75ec73e6ec5a695c79bc523c7bfc7cbc9",
+    "code\\qwen35-streaming-s4\\tests\\test_playback.py": "1e2d68ce6ec15005a1651f9014212846d088e3e04921b2aa5dfd003b2094a8c1",
+    "code\\qwen35-streaming-s4\\tests\\test_recurrent_reference.py": "bab4cb398797ecd80a4d1b9e050afb44f4f55238baa19648521887c6ee4ed51c",
+    "code\\qwen35-streaming-s4\\tests\\test_repeat_source.py": "880d224c0d7957d03e3088c70742e95a83fdef68fdc217a1581a0bf1c6dfa115",
+    "code\\qwen35-streaming-s4\\tests\\test_sampling_inputs.py": "74b34be15fea7acdbbb3d08b7defe83f21e22cb70ac8e299c4b14bca1325e09c",
+    "code\\qwen35-streaming-s4\\tests\\test_stream_session.py": "8f0af36ce5a81ddca526d44fd0772d52b205abde68fa0d4022d1fe902b7be792",
+    "code\\qwen35-streaming-s4\\tests\\test_stream_window.py": "94de80f03e6413a386be82cc84b0716474fdb535d7c8af209b3b1b6132a5e0a4",
+    "code\\qwen35-streaming-s4\\tests\\test_timeline_inputs.py": "0dfbd40dceead971120a1109fdb26ac989f0bd11dccd488ce803f2cdca8ed451",
+    "code\\qwen35-streaming-s4\\tests\\test_video_demo.py": "d24cb9085a550a19bfd9ef3fd37e69a1b8fa490ea81f0414850c0a0fdb89006b",
+    "diagnostics\\ucf101_quality_v1\\evaluate.py": "b1c6c184a53c749e1ad5038e258c6ad4e70a73fea50d83fe8196b428f53b5720",
+    "diagnostics\\ucf101_quality_v1\\run.py": "dc1e4eb599d53422a2c6ff490c25f6511a29aeeee8e18eb0960ad5824e37678e",
+    "diagnostics\\ucf101_quality_v1\\方案.md": "79545b1d70c8cdc15332973633a363f4a85046aa5d27499409cd7495ea70a235"
+  },
+  "input_identity": {
+    "v_BasketballDunk_g04_c03.avi": {
+      "source": {
+        "samples": 3,
+        "sha256": "0dc9c67bead06dc4449e0e1f79e6a970fe9d8812fd077aab2b16d285d36b6894"
+      },
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ]
+      ]
+    },
+    "v_PushUps_g03_c01.avi": {
+      "source": {
+        "samples": 3,
+        "sha256": "37126e471107efbf52a1f3edcd6aa26ce2b53b879df376b2eea8e76afb625a08"
+      },
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ]
+      ]
+    },
+    "v_ShavingBeard_g02_c05.avi": {
+      "source": {
+        "samples": 8,
+        "sha256": "7d1836c6f526c6bfb1aa396810c3c9611f9b45b0a936c9a401250c5acc279875"
+      },
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ],
+        [
+          75,
+          3.0,
+          76
+        ],
+        [
+          100,
+          4.0,
+          101
+        ],
+        [
+          125,
+          5.0,
+          126
+        ],
+        [
+          150,
+          6.0,
+          151
+        ],
+        [
+          175,
+          7.0,
+          176
+        ]
+      ]
+    }
+  },
+  "scope": "3-video/6-context engineering QA; not official UCF101 accuracy"
+}

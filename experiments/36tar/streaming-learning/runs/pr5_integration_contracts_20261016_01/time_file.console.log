@@ -1,0 +1,4 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+{"kind": "finish", "received_frames": 2, "encoded_pairs": 1, "main_epoch": 0, "retained_intervals": [[0.0, 1.0]], "odd_eof": null}
+{"kind": "query", "question": "What happened?", "trigger": "eof", "model_called": false, "evidence_interval": null, "answer": "问题不属于支持的时间问句，或含歧义。", "retained_intervals": [[0.0, 1.0]], "main_epoch": 0}
+{"suite": "time_file", "tests": 8, "passed": true, "failures": 0, "errors": 0, "skipped": 0, "wall_seconds": 0.6399999999994179}

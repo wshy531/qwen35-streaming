@@ -1,0 +1,314 @@
+[
+  {
+    "case": "dog_cat_early",
+    "arm": "direct_numeric",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "dog_cat_early",
+    "arm": "shared_v",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "dog_cat_early",
+    "arm": "numeric_wrapped",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  },
+  {
+    "case": "dog_cat_late",
+    "arm": "direct_numeric",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "dog_cat_late",
+    "arm": "shared_v",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "dog_cat_late",
+    "arm": "numeric_wrapped",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  },
+  {
+    "case": "cat_dog_early",
+    "arm": "direct_numeric",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "cat_dog_early",
+    "arm": "shared_v",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "cat_dog_early",
+    "arm": "numeric_wrapped",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  },
+  {
+    "case": "cat_dog_late",
+    "arm": "direct_numeric",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "cat_dog_late",
+    "arm": "shared_v",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "cat_dog_late",
+    "arm": "numeric_wrapped",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  },
+  {
+    "case": "bird_dog_early",
+    "arm": "direct_numeric",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "bird_dog_early",
+    "arm": "shared_v",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "bird_dog_early",
+    "arm": "numeric_wrapped",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  },
+  {
+    "case": "bird_dog_late",
+    "arm": "direct_numeric",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "bird_dog_late",
+    "arm": "shared_v",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "bird_dog_late",
+    "arm": "numeric_wrapped",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  },
+  {
+    "case": "title_dog_early",
+    "arm": "direct_numeric",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "title_dog_early",
+    "arm": "shared_v",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "title_dog_early",
+    "arm": "numeric_wrapped",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  },
+  {
+    "case": "title_dog_late",
+    "arm": "direct_numeric",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "title_dog_late",
+    "arm": "shared_v",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "visual_values_sha256": true,
+      "four_axis_positions": true,
+      "nodes": true
+    }
+  },
+  {
+    "case": "title_dog_late",
+    "arm": "numeric_wrapped",
+    "equal": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  }
+]

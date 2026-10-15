@@ -1,2 +1,34 @@
 # Keep frozen personal code/evidence byte identities across checkouts.
 ** -text
+# Windows-generated evidence retains CRLF bytes; treat CR as a line ending.
+runs/live_sampling_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/ucf101_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/ucf101_*.console.log whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/closeout_08b_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+diagnostics/closeout_08b_v1/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve terminal progress bars and blank lines in raw captured logs.
+runs/closeout_08b_*/**/*.log -whitespace
+runs/pr5_integration_*/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/pr5_integration_*/**/*.log -whitespace
+diagnostics/pr5_integration_v1/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve exact published PR5 text evidence across Windows checkouts.
+runs/evidence_bridge_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/local_readout_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/reader_controls_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/readout_challenge_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/readout_grounding_20261014_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/readout_holdout_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/readout_transfer_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/target_readout_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/text_reader_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+runs/visual_channel_20261015_01/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+READOUT_GROUNDING_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+EVIDENCE_BRIDGE_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+READOUT_HOLDOUT_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+READOUT_CHALLENGE_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+TEXT_READER_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+READER_CONTROLS_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+TARGET_READOUT_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+LOCAL_READOUT_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+READOUT_TRANSFER_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+VISUAL_CHANNEL_RESULT.md whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

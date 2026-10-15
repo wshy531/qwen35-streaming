@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "error": "Audit expected default_promoted in every historical schema; grounding receipt uses next_candidate_activated instead",
+  "scope": "Audit schema mismatch only; original evidence unchanged"
+}

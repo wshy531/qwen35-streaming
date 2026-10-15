@@ -1,0 +1,12 @@
+test_bad_pair_rejection_is_atomic (test_memory.MemoryTests.test_bad_pair_rejection_is_atomic) ... ok
+test_bad_query_and_limits_rejected (test_memory.MemoryTests.test_bad_query_and_limits_rejected) ... ok
+test_clear_removes_evidence_and_identity (test_memory.MemoryTests.test_clear_removes_evidence_and_identity) ... ok
+test_fifo_eviction_keeps_hard_limit (test_memory.MemoryTests.test_fifo_eviction_keeps_hard_limit) ... ok
+test_gap_and_future_never_replaced_by_nearest (test_memory.MemoryTests.test_gap_and_future_never_replaced_by_nearest) ... ok
+test_oversized_anchor_refused_without_mutation (test_memory.MemoryTests.test_oversized_anchor_refused_without_mutation) ... ok
+test_retained_pixels_owned_and_returned_copy (test_memory.MemoryTests.test_retained_pixels_owned_and_returned_copy) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.002s
+
+OK

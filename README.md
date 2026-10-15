@@ -2,11 +2,11 @@
 
 基于 Qwen3.5-0.8B 官方权重和原始模型实现的流式视频理解实验。
 
-当前阶段：已经建立原始基线、视频抽帧/时间戳、增量混合状态续接和可视化问答原型，正在验证有界历史证据的保存、选择与读取。未进行 SFT，尚未实现无限历史或默认缓存裁剪。
+当前阶段：Qwen3.5-0.8B 文件视频流式原型已完成本轮工程收尾验证，本分支整合低帧率修复并申请合入 main；后续进入 2B 兼容性与质量验证。可选记忆仍保留实验身份，未进行 SFT，尚未实现无限历史或默认缓存裁剪。
 
-## 当前进度（2026-10-14）
+## 当前进度（2026-10-15）
 
-[PR #1](https://github.com/wshy531/qwen35-streaming/pull/1) 和 [PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 已合入 `main`；本次说明以主分支提交 `ba22776` 为基准。
+[PR #1](https://github.com/wshy531/qwen35-streaming/pull/1)、[PR #2](https://github.com/wshy531/qwen35-streaming/pull/2) 和文档 PR #4 已合入 `main`；本轮从 `6ed58af` 整合修复并完成验收，详见 [0.8B 收尾报告](experiments/36tar/streaming-learning/CLOSEOUT_08B.md)。本分支合并后，修复才进入 main。
 
 - **文件视频流式原型已可用**：顺序采样，成对编码新增帧，续接注意力 KV、卷积和递归状态；问答在独立缓存分支生成，不写回视频主历史。
 - **运行与展示已接入**：支持文件快速重放、按视频 PTS 墙钟播放、单最新帧槽及丢帧统计，网页显示画面、回答、时间和 reset。达到主状态容量限额时重置，并明确显示新的记忆起点。
@@ -15,7 +15,9 @@
 
 活动实现与运行说明见 [流式实验 README](experiments/36tar/streaming-learning/README.md)；阶段记录见 [实验总纲](experiments/36tar/streaming-learning/实验总纲.md)，候选结果见 [后续实验索引](experiments/36tar/streaming-learning/FOLLOWUP_EXPERIMENTS.md)、[森林效果分析](experiments/36tar/streaming-learning/FOREST_RUNTIME_ANALYSIS.md) 和 [第二素材验证](experiments/36tar/streaming-learning/SECOND_FILE_VALIDATION.md)。实验总纲中的旧路径和阶段描述是交付快照，不是本机目录约定。
 
-协作方低帧率断流修复和 UCF101 验证见 [PR #3](https://github.com/wshy531/qwen35-streaming/pull/3) 及 `wshy/fix-live-sampling-timeout` 分支。PR #3 已合入 `36tar/general-video-demo`；该修复的 45 项回归通过，三视频/六上下文原与流式生成 Token 一致、问答主缓存保持不变；俯卧撑/剃须识别正确，篮球未识别出扣篮。**当前 `main` 尚未包含这次修复和证据**，仍需从实验分支另行整合，不能将其作为主分支新增验收。
+本分支已整合 [PR #3](https://github.com/wshy531/qwen35-streaming/pull/3) 的低帧率修复与文本证据，并在当前源码重新完成 **195 项完整回归 + 15 项时间记忆契约**。UCF101 三视频/六上下文的原与流式生成 Token 一致，问答主缓存保持不变；通用 8 帧/reset 与 0.2 FPS 稀疏文件 GPU 入口均通过。本轮 4 次模型载入、14 次问答；俯卧撑/剃须动作符合视频，篮球未识别出扣篮。完整原答、失败记录和复现步骤见收尾报告，不将六组样例当正式准确率。
+
+2026-10-16：本分支已进一步完整整合 PR #5 的十组历史读取诊断，并修复文本证据恢复工具的解压限额；重新通过 **218 项CPU测试**。统一由 PR #6 交付，新增候选未升级默认；详见 [整合审核与证据](experiments/36tar/streaming-learning/PR_INTEGRATION_20261016.md)。
 
 ## 仓库结构
 
@@ -140,7 +142,9 @@ CPU 预检通过后再运行 GPU；预检使用随机微型模型，不代表理
 - [x] 实现文件视频增量续接、问答隔离、有界 reset 和可视化演示
 - [x] 完成有限墙钟播放、过载及重复短片的延迟/显存/状态验证
 - [x] 开始外部记忆、事件代表、视觉 Token 合并和时间查询的独立对照
-- [ ] 将低帧率来源修复和独立真实数据验证整合到当前主线
+- [x] 在本收尾分支整合低帧率修复与真实数据证据，并完成当前源码验收
+- [ ] 审核并合并本收尾 PR 到 main
+- [ ] 开始 Qwen3.5-2B 官方配置兼容性、基线和同输入流式对照
 - [ ] 用更多独立素材区分基座识别、证据读取和压缩损失
 - [ ] 根据对照证据决定 KV/递归状态及记忆候选是否升级默认
 - [ ] 验证自然长视频、实际摄像头和更长运行的稳定性

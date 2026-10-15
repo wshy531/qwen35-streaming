@@ -1,0 +1,29 @@
+test_continuous_capacity_resets_and_bounded_eviction (contracts.Contracts.test_continuous_capacity_resets_and_bounded_eviction) ... ok
+test_failed_main_write_cannot_commit_index_and_preview_is_owned (contracts.Contracts.test_failed_main_write_cannot_commit_index_and_preview_is_owned) ... ok
+test_file_pts_roundoff_boundary_does_not_snap_real_gap (contracts.Contracts.test_file_pts_roundoff_boundary_does_not_snap_real_gap) ... ok
+test_pending_eof_and_older_query_do_not_use_future_sample (contracts.Contracts.test_pending_eof_and_older_query_do_not_use_future_sample) ... ok
+test_refusal_has_no_model_call_for_empty_future_gap_evicted_unsupported (contracts.Contracts.test_refusal_has_no_model_call_for_empty_future_gap_evicted_unsupported) ... ok
+test_report_escapes_text_and_plan_preserves_unreached_triggers (contracts.Contracts.test_report_escapes_text_and_plan_preserves_unreached_triggers) ... ERROR
+test_same_old_query_across_reset_then_continue (contracts.Contracts.test_same_old_query_across_reset_then_continue) ... ok
+test_short_input_keeps_unreached_query_pending (contracts.Contracts.test_short_input_keeps_unreached_query_pending) ... ERROR
+
+======================================================================
+ERROR: test_report_escapes_text_and_plan_preserves_unreached_triggers (contracts.Contracts.test_report_escapes_text_and_plan_preserves_unreached_triggers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI_project\qwen35-streaming-closeout-08b\experiments\36tar\streaming-learning\diagnostics\time_file_v1\contracts.py", line 91, in test_report_escapes_text_and_plan_preserves_unreached_triggers
+    from time_file_entry import render_report,plan
+ModuleNotFoundError: No module named 'time_file_entry'
+
+======================================================================
+ERROR: test_short_input_keeps_unreached_query_pending (contracts.Contracts.test_short_input_keeps_unreached_query_pending)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\AI_project\qwen35-streaming-closeout-08b\experiments\36tar\streaming-learning\diagnostics\time_file_v1\contracts.py", line 109, in test_short_input_keeps_unreached_query_pending
+    from time_file_entry import replay
+ModuleNotFoundError: No module named 'time_file_entry'
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.665s
+
+FAILED (errors=2)

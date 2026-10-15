@@ -1,0 +1,21 @@
+[
+  {
+    "run": "visual_channel_cpu_20261015_01",
+    "status": {
+      "status": "failed",
+      "phase": "bootstrap_or_watchdog",
+      "exit_code": 1
+    },
+    "bootstrap_sha256": "b77f00f010904e01e15ea284cb7660de0f4b5c7770bd6035b03aba261796fa8b"
+  },
+  {
+    "run": "visual_channel_cpu_20261015_02",
+    "status": {
+      "status": "failed",
+      "stage": "preflight",
+      "error": "KeyError",
+      "message": "'unsupported_localization_questions'"
+    },
+    "bootstrap_sha256": "4a506137f9cac7d42dbc8d63f97af817bbcfab606ca983747cbbf434f4b9314f"
+  }
+]

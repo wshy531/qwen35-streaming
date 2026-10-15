@@ -1,0 +1,180 @@
+{
+  "scope": "CPU 微型随机权重：全输入接口预检，回答没有语义意义；不模拟GPU耗时 · 独立文件读帧进程 / 原视频PTS墙钟播放",
+  "budget": {
+    "model_loads": 1,
+    "frames_max": 4,
+    "vision_forwards_max": 2,
+    "questions_max": 2,
+    "language_forwards_max": 38,
+    "generated_tokens_max": 32,
+    "history_tokens_max": 176,
+    "wall_seconds": 180,
+    "free_gpu_gib_min": 5.5,
+    "available_ram_gib_min": 3,
+    "precision": "fp32_ieee_math",
+    "resize": "letterbox",
+    "video_logits": "none",
+    "qa_logits": "last",
+    "playback": "clock",
+    "queue_capacity": 1,
+    "consumer_delay_seconds": 0.0,
+    "repeat_count": 1,
+    "repeat_period_seconds": null,
+    "first_qa_frames": 2,
+    "external_history_enabled": false,
+    "external_history_queries_max": 0,
+    "external_history_rgb_max_bytes": 0,
+    "external_history_max_pairs": 0,
+    "external_history_every_pairs": 4,
+    "external_history_query_after": null
+  },
+  "counts": {
+    "vision": 1,
+    "language": 19,
+    "lm_head_rows": 17
+  },
+  "final": {
+    "received_real_frames": 2,
+    "encoded_real_frames": 2,
+    "pairs": 1,
+    "questions": 1,
+    "resets": 0,
+    "epoch": 0,
+    "generated_tokens": 16,
+    "memory_from_pts": 0.0,
+    "history_across_reset": false,
+    "last_received_id": 125,
+    "last_received_pts": 5.0,
+    "pending_frame_id": null,
+    "pending_rgb_bytes": 0,
+    "max_buffered_rgb_bytes": 294912,
+    "finished": true,
+    "closed": false,
+    "invalid": false,
+    "session": {
+      "accepted_frames": 2,
+      "encoded_real_frames": 2,
+      "pending_frame_id": null,
+      "last_received_id": 125,
+      "last_encoded_id": 125,
+      "last_encoded_pts": 5.0,
+      "seen_tokens": 59,
+      "next_rope_position": 19,
+      "vision_encodings": 1,
+      "pending_rgb_bytes": 0,
+      "finished": true,
+      "invalid": false,
+      "closed": false,
+      "reference_mode": "fp32_ieee_math"
+    }
+  },
+  "schedule": [
+    {
+      "kind": "encoded",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "answer",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    },
+    {
+      "kind": "eof",
+      "epoch": 0,
+      "memory_from_pts": 0.0,
+      "encoded_frames": 2,
+      "seen_tokens": 59
+    }
+  ],
+  "append_including_qa_and_decode_latency": {
+    "count": 2,
+    "sum_seconds": 0.25066140000126325,
+    "max_seconds": 0.21593140000186395
+  },
+  "replay_wall_seconds": 5.2189999999973224,
+  "peak_process_rss_bytes": 412774400,
+  "cross_reset_memory": false,
+  "end_to_end_speedup_proven": false,
+  "realtime": false,
+  "requested_playback": "clock",
+  "effective_playback": "live",
+  "source_fingerprint": {
+    "samples": 2,
+    "sha256": "9c43b54bc75de0208872da736082394bc16ca45f65a97595c0f71c4a37692ab8"
+  },
+  "max_encoded_pair_gap_seconds": 5.0,
+  "answer_lags_seconds": [
+    0.21899999999732245
+  ],
+  "resource_samples": [
+    {
+      "kind": "encoded",
+      "wall_seconds": 5.1560000000026776,
+      "epoch": 0,
+      "seen_tokens": 59,
+      "session_pts": 5.0,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 410083328,
+      "ram_available_bytes": 2631970816
+    },
+    {
+      "kind": "answer",
+      "wall_seconds": 5.2189999999973224,
+      "epoch": 0,
+      "seen_tokens": 59,
+      "session_pts": 5.0,
+      "memory_from_pts": 0.0,
+      "rss_bytes": 412774400,
+      "ram_available_bytes": 2629234688
+    }
+  ],
+  "synthetic_repeat": false,
+  "repeat_count": 1,
+  "repeat_period_seconds": null,
+  "playback": {
+    "produced_samples": 2,
+    "delivered_samples": 2,
+    "dropped_samples": 0,
+    "cancelled_samples": 0,
+    "buffered_samples": 0,
+    "max_buffered_samples": 1,
+    "buffered_rgb_bytes": 0,
+    "peak_buffered_rgb_bytes": 147456,
+    "finished": true,
+    "source_fingerprint": {
+      "samples": 2,
+      "sha256": "9c43b54bc75de0208872da736082394bc16ca45f65a97595c0f71c4a37692ab8"
+    },
+    "end_reason": "source_eof",
+    "producer_alive": false,
+    "worker_alive": false,
+    "queue_capacity": 1,
+    "max_packet_rgb_bytes": 147456,
+    "timestamp_basis": "source_pts",
+    "sensor_to_answer_latency_measured": false,
+    "source_kind": "file",
+    "last_metadata": {
+      "kind": "frame",
+      "frame_id": 125,
+      "decoded_count": 126,
+      "timestamp": 5.0,
+      "device_pts": 5.0,
+      "source_kind": "file",
+      "timestamp_basis": "source_pts"
+    },
+    "capture_progress_messages": 34,
+    "worker_torch_loaded": false
+  },
+  "external_history_enabled": false,
+  "historical_answers": [],
+  "history_query_schedule": "after source finish",
+  "history_query_triggered": false,
+  "pending_history_times": [],
+  "history_query_after": null,
+  "main_history_across_reset": false
+}

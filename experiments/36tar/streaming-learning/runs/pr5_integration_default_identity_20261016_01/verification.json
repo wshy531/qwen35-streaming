@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "full_cpu_tests": 195,
+  "extra_contract_tests": 15,
+  "total_successful_test_executions": 210,
+  "source_maps_verified": {
+    "root": 7,
+    "baseline": 19,
+    "streaming": 81,
+    "capture": 2,
+    "quality": 87,
+    "generic": 82,
+    "sparse_file": 85
+  },
+  "python_ast_parsed": 466,
+  "capture_pairs_passed": 6,
+  "quality_token_pairs_equal": 6,
+  "quality_main_cache_checks_unchanged": 6,
+  "real_model_loads": 4,
+  "real_questions": 14,
+  "generated_tokens": 146,
+  "demo_results": {
+    "generic": {
+      "run": "closeout_08b_generic_gpu_20261015_01",
+      "frames": 8,
+      "questions": 1,
+      "resets": 1,
+      "generated_tokens": 8,
+      "peak_allocated_gib": 3.266378879547119,
+      "dropped_samples": 0,
+      "producer_alive": false,
+      "answer": "A man is shaving his face."
+    },
+    "sparse_file": {
+      "run": "closeout_08b_sparse_file_gpu_20261015_03",
+      "frames": 2,
+      "questions": 1,
+      "resets": 0,
+      "generated_tokens": 8,
+      "peak_allocated_gib": 3.2625322341918945,
+      "dropped_samples": 0,
+      "producer_alive": false,
+      "answer": "A man is shaving his face."
+    }
+  },
+  "failures_preserved": {
+    "audit_capture_path": "closeout_08b_delivery_20261015_01",
+    "audit_launcher_alias": "closeout_08b_delivery_20261015_02",
+    "full_cpu_initial": "closeout_08b_cpu_20261015_01",
+    "time_file_missing_entry_alias": "closeout_08b_real_20261015_01/time_file",
+    "sparse_cli_minimum_frame_rejection": "closeout_08b_real_20261015_01/sparse_file_cpu.console.log",
+    "sparse_gpu_resource_refusal_before_weight_load": "closeout_08b_sparse_file_gpu_20261015_02"
+  },
+  "scope": "Finite 0.8B engineering closeout; historical optional experiments retain their original evidence; no accuracy, speedup, camera or 2B claim",
+  "text_evidence_files": 148,
+  "text_evidence_bytes": 651212
+}

@@ -1,4 +1,5 @@
 """Fair-comparison contracts: actual epoch, independent pixels/tokens/positions."""
+import os
 import json
 from pathlib import Path
 import tempfile
@@ -22,7 +23,7 @@ class FairInputTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         if cls.processor is None:
-            cls.processor = AutoProcessor.from_pretrained(PROJECT / 'models/Qwen3.5-0.8B', local_files_only=True)
+            cls.processor = AutoProcessor.from_pretrained(os.environ.get('QWEN35_MODEL_DIR', PROJECT / 'models/Qwen3.5-0.8B'), local_files_only=True)
         current = small_model(cls.processor)
         package = original_package()
         cls.model = package.Qwen3_5ForConditionalGeneration(package.Qwen3_5Config(**current.config.to_dict())).eval()

@@ -1,0 +1,882 @@
+[
+  {
+    "file": "v_BasketballDunk_g04_c03.avi",
+    "duration_seconds": 2.48,
+    "fps": 0.2,
+    "max_samples": 3,
+    "duration_limit": 12,
+    "idle_seconds": 3,
+    "expected_frames": [
+      [
+        0,
+        0.0,
+        1
+      ]
+    ],
+    "baseline_failure_expected": false,
+    "before": {
+      "ok": true,
+      "error": null,
+      "reason": "source_eof",
+      "wall_seconds": 0.5630000000019209,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ]
+      ],
+      "fingerprint": {
+        "samples": 1,
+        "sha256": "0ea71c7eef99dbdb57950160f513e084b54bf77a2f946f30312cfdb69632922b"
+      },
+      "status": {
+        "produced_samples": 1,
+        "delivered_samples": 1,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 1,
+          "sha256": "0ea71c7eef99dbdb57950160f513e084b54bf77a2f946f30312cfdb69632922b"
+        },
+        "end_reason": "source_eof",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 0,
+          "decoded_count": 1,
+          "timestamp": 0.0,
+          "device_pts": 0.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "after": {
+      "ok": true,
+      "error": null,
+      "reason": "source_eof",
+      "wall_seconds": 0.5619999999980791,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ]
+      ],
+      "fingerprint": {
+        "samples": 1,
+        "sha256": "0ea71c7eef99dbdb57950160f513e084b54bf77a2f946f30312cfdb69632922b"
+      },
+      "status": {
+        "produced_samples": 1,
+        "delivered_samples": 1,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 1,
+          "sha256": "0ea71c7eef99dbdb57950160f513e084b54bf77a2f946f30312cfdb69632922b"
+        },
+        "end_reason": "source_eof",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 0,
+          "decoded_count": 1,
+          "timestamp": 0.0,
+          "device_pts": 0.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "capture_progress_messages": 0,
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "checks": {
+      "after_completed": true,
+      "after_frames_match": true,
+      "after_pixels_match": true,
+      "after_no_drops": true,
+      "bounded_pending_rgb": true,
+      "after_torch_not_loaded": true,
+      "both_cleaned_up": true,
+      "baseline_expected_outcome": true
+    },
+    "passed": true
+  },
+  {
+    "file": "v_BasketballDunk_g04_c03.avi",
+    "duration_seconds": 2.48,
+    "fps": 1.0,
+    "max_samples": 3,
+    "duration_limit": 12,
+    "idle_seconds": 3,
+    "expected_frames": [
+      [
+        0,
+        0.0,
+        1
+      ],
+      [
+        25,
+        1.0,
+        26
+      ],
+      [
+        50,
+        2.0,
+        51
+      ]
+    ],
+    "baseline_failure_expected": false,
+    "before": {
+      "ok": true,
+      "error": null,
+      "reason": "frame_budget_limit",
+      "wall_seconds": 2.0,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ]
+      ],
+      "fingerprint": {
+        "samples": 3,
+        "sha256": "0dc9c67bead06dc4449e0e1f79e6a970fe9d8812fd077aab2b16d285d36b6894"
+      },
+      "status": {
+        "produced_samples": 3,
+        "delivered_samples": 3,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 3,
+          "sha256": "0dc9c67bead06dc4449e0e1f79e6a970fe9d8812fd077aab2b16d285d36b6894"
+        },
+        "end_reason": "frame_budget_limit",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 50,
+          "decoded_count": 51,
+          "timestamp": 2.0,
+          "device_pts": 2.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "after": {
+      "ok": true,
+      "error": null,
+      "reason": "frame_budget_limit",
+      "wall_seconds": 2.0,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ]
+      ],
+      "fingerprint": {
+        "samples": 3,
+        "sha256": "0dc9c67bead06dc4449e0e1f79e6a970fe9d8812fd077aab2b16d285d36b6894"
+      },
+      "status": {
+        "produced_samples": 3,
+        "delivered_samples": 3,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 3,
+          "sha256": "0dc9c67bead06dc4449e0e1f79e6a970fe9d8812fd077aab2b16d285d36b6894"
+        },
+        "end_reason": "frame_budget_limit",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 50,
+          "decoded_count": 51,
+          "timestamp": 2.0,
+          "device_pts": 2.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "capture_progress_messages": 12,
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "checks": {
+      "after_completed": true,
+      "after_frames_match": true,
+      "after_pixels_match": true,
+      "after_no_drops": true,
+      "bounded_pending_rgb": true,
+      "after_torch_not_loaded": true,
+      "both_cleaned_up": true,
+      "baseline_expected_outcome": true
+    },
+    "passed": true
+  },
+  {
+    "file": "v_PushUps_g03_c01.avi",
+    "duration_seconds": 2.88,
+    "fps": 0.2,
+    "max_samples": 3,
+    "duration_limit": 12,
+    "idle_seconds": 3,
+    "expected_frames": [
+      [
+        0,
+        0.0,
+        1
+      ]
+    ],
+    "baseline_failure_expected": false,
+    "before": {
+      "ok": true,
+      "error": null,
+      "reason": "source_eof",
+      "wall_seconds": 0.5780000000013388,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ]
+      ],
+      "fingerprint": {
+        "samples": 1,
+        "sha256": "96adff26000175c53da94a90f7b1da289e04823e7479684dad21a176bfc13b99"
+      },
+      "status": {
+        "produced_samples": 1,
+        "delivered_samples": 1,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 1,
+          "sha256": "96adff26000175c53da94a90f7b1da289e04823e7479684dad21a176bfc13b99"
+        },
+        "end_reason": "source_eof",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 0,
+          "decoded_count": 1,
+          "timestamp": 0.0,
+          "device_pts": 0.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "after": {
+      "ok": true,
+      "error": null,
+      "reason": "source_eof",
+      "wall_seconds": 0.5619999999980791,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ]
+      ],
+      "fingerprint": {
+        "samples": 1,
+        "sha256": "96adff26000175c53da94a90f7b1da289e04823e7479684dad21a176bfc13b99"
+      },
+      "status": {
+        "produced_samples": 1,
+        "delivered_samples": 1,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 1,
+          "sha256": "96adff26000175c53da94a90f7b1da289e04823e7479684dad21a176bfc13b99"
+        },
+        "end_reason": "source_eof",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 0,
+          "decoded_count": 1,
+          "timestamp": 0.0,
+          "device_pts": 0.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "capture_progress_messages": 0,
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "checks": {
+      "after_completed": true,
+      "after_frames_match": true,
+      "after_pixels_match": true,
+      "after_no_drops": true,
+      "bounded_pending_rgb": true,
+      "after_torch_not_loaded": true,
+      "both_cleaned_up": true,
+      "baseline_expected_outcome": true
+    },
+    "passed": true
+  },
+  {
+    "file": "v_PushUps_g03_c01.avi",
+    "duration_seconds": 2.88,
+    "fps": 1.0,
+    "max_samples": 3,
+    "duration_limit": 12,
+    "idle_seconds": 3,
+    "expected_frames": [
+      [
+        0,
+        0.0,
+        1
+      ],
+      [
+        25,
+        1.0,
+        26
+      ],
+      [
+        50,
+        2.0,
+        51
+      ]
+    ],
+    "baseline_failure_expected": false,
+    "before": {
+      "ok": true,
+      "error": null,
+      "reason": "frame_budget_limit",
+      "wall_seconds": 2.0,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ]
+      ],
+      "fingerprint": {
+        "samples": 3,
+        "sha256": "37126e471107efbf52a1f3edcd6aa26ce2b53b879df376b2eea8e76afb625a08"
+      },
+      "status": {
+        "produced_samples": 3,
+        "delivered_samples": 3,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 3,
+          "sha256": "37126e471107efbf52a1f3edcd6aa26ce2b53b879df376b2eea8e76afb625a08"
+        },
+        "end_reason": "frame_budget_limit",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 50,
+          "decoded_count": 51,
+          "timestamp": 2.0,
+          "device_pts": 2.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "after": {
+      "ok": true,
+      "error": null,
+      "reason": "frame_budget_limit",
+      "wall_seconds": 2.0,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ]
+      ],
+      "fingerprint": {
+        "samples": 3,
+        "sha256": "37126e471107efbf52a1f3edcd6aa26ce2b53b879df376b2eea8e76afb625a08"
+      },
+      "status": {
+        "produced_samples": 3,
+        "delivered_samples": 3,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 3,
+          "sha256": "37126e471107efbf52a1f3edcd6aa26ce2b53b879df376b2eea8e76afb625a08"
+        },
+        "end_reason": "frame_budget_limit",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 50,
+          "decoded_count": 51,
+          "timestamp": 2.0,
+          "device_pts": 2.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "capture_progress_messages": 11,
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "checks": {
+      "after_completed": true,
+      "after_frames_match": true,
+      "after_pixels_match": true,
+      "after_no_drops": true,
+      "bounded_pending_rgb": true,
+      "after_torch_not_loaded": true,
+      "both_cleaned_up": true,
+      "baseline_expected_outcome": true
+    },
+    "passed": true
+  },
+  {
+    "file": "v_ShavingBeard_g02_c05.avi",
+    "duration_seconds": 7.16,
+    "fps": 0.2,
+    "max_samples": 3,
+    "duration_limit": 12,
+    "idle_seconds": 3,
+    "expected_frames": [
+      [
+        0,
+        0.0,
+        1
+      ],
+      [
+        125,
+        5.0,
+        126
+      ]
+    ],
+    "baseline_failure_expected": true,
+    "before": {
+      "ok": false,
+      "error": "RuntimeError: Source producer failed: Source idle timeout; capture worker terminated",
+      "reason": "source_idle_timeout",
+      "wall_seconds": 3.7030000000013388,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ]
+      ],
+      "fingerprint": {
+        "samples": 1,
+        "sha256": "01e04f13647f42b2d4d5b31730768f415b9cf20562641d28bf48606c585758cd"
+      },
+      "status": {
+        "produced_samples": 1,
+        "delivered_samples": 1,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 1,
+          "sha256": "01e04f13647f42b2d4d5b31730768f415b9cf20562641d28bf48606c585758cd"
+        },
+        "end_reason": "source_idle_timeout",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 0,
+          "decoded_count": 1,
+          "timestamp": 0.0,
+          "device_pts": 0.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "worker_torch_loaded": null
+      },
+      "cleaned_up": true
+    },
+    "after": {
+      "ok": true,
+      "error": null,
+      "reason": "source_eof",
+      "wall_seconds": 5.0,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          125,
+          5.0,
+          126
+        ]
+      ],
+      "fingerprint": {
+        "samples": 2,
+        "sha256": "9c43b54bc75de0208872da736082394bc16ca45f65a97595c0f71c4a37692ab8"
+      },
+      "status": {
+        "produced_samples": 2,
+        "delivered_samples": 2,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 2,
+          "sha256": "9c43b54bc75de0208872da736082394bc16ca45f65a97595c0f71c4a37692ab8"
+        },
+        "end_reason": "source_eof",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 125,
+          "decoded_count": 126,
+          "timestamp": 5.0,
+          "device_pts": 5.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "capture_progress_messages": 34,
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "checks": {
+      "after_completed": true,
+      "after_frames_match": true,
+      "after_pixels_match": true,
+      "after_no_drops": true,
+      "bounded_pending_rgb": true,
+      "after_torch_not_loaded": true,
+      "both_cleaned_up": true,
+      "baseline_expected_outcome": true
+    },
+    "passed": true
+  },
+  {
+    "file": "v_ShavingBeard_g02_c05.avi",
+    "duration_seconds": 7.16,
+    "fps": 1.0,
+    "max_samples": 3,
+    "duration_limit": 12,
+    "idle_seconds": 3,
+    "expected_frames": [
+      [
+        0,
+        0.0,
+        1
+      ],
+      [
+        25,
+        1.0,
+        26
+      ],
+      [
+        50,
+        2.0,
+        51
+      ]
+    ],
+    "baseline_failure_expected": false,
+    "before": {
+      "ok": true,
+      "error": null,
+      "reason": "frame_budget_limit",
+      "wall_seconds": 2.0160000000032596,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ]
+      ],
+      "fingerprint": {
+        "samples": 3,
+        "sha256": "6526c883e05b0f95acd3d741fc5e1c83e2125fcf9939462ffebcddd482c92982"
+      },
+      "status": {
+        "produced_samples": 3,
+        "delivered_samples": 3,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 3,
+          "sha256": "6526c883e05b0f95acd3d741fc5e1c83e2125fcf9939462ffebcddd482c92982"
+        },
+        "end_reason": "frame_budget_limit",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 50,
+          "decoded_count": 51,
+          "timestamp": 2.0,
+          "device_pts": 2.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "after": {
+      "ok": true,
+      "error": null,
+      "reason": "frame_budget_limit",
+      "wall_seconds": 2.0,
+      "frames": [
+        [
+          0,
+          0.0,
+          1
+        ],
+        [
+          25,
+          1.0,
+          26
+        ],
+        [
+          50,
+          2.0,
+          51
+        ]
+      ],
+      "fingerprint": {
+        "samples": 3,
+        "sha256": "6526c883e05b0f95acd3d741fc5e1c83e2125fcf9939462ffebcddd482c92982"
+      },
+      "status": {
+        "produced_samples": 3,
+        "delivered_samples": 3,
+        "dropped_samples": 0,
+        "cancelled_samples": 0,
+        "buffered_samples": 0,
+        "max_buffered_samples": 1,
+        "buffered_rgb_bytes": 0,
+        "peak_buffered_rgb_bytes": 147456,
+        "finished": true,
+        "source_fingerprint": {
+          "samples": 3,
+          "sha256": "6526c883e05b0f95acd3d741fc5e1c83e2125fcf9939462ffebcddd482c92982"
+        },
+        "end_reason": "frame_budget_limit",
+        "producer_alive": false,
+        "worker_alive": false,
+        "queue_capacity": 1,
+        "max_packet_rgb_bytes": 147456,
+        "timestamp_basis": "source_pts",
+        "sensor_to_answer_latency_measured": false,
+        "source_kind": "file",
+        "last_metadata": {
+          "kind": "frame",
+          "frame_id": 50,
+          "decoded_count": 51,
+          "timestamp": 2.0,
+          "device_pts": 2.0,
+          "source_kind": "file",
+          "timestamp_basis": "source_pts"
+        },
+        "capture_progress_messages": 12,
+        "worker_torch_loaded": false
+      },
+      "cleaned_up": true
+    },
+    "checks": {
+      "after_completed": true,
+      "after_frames_match": true,
+      "after_pixels_match": true,
+      "after_no_drops": true,
+      "bounded_pending_rgb": true,
+      "after_torch_not_loaded": true,
+      "both_cleaned_up": true,
+      "baseline_expected_outcome": true
+    },
+    "passed": true
+  }
+]

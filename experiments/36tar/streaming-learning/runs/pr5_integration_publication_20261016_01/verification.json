@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "python_ast": 472,
+  "documentation_links": 133,
+  "staged_files_before_receipt": 36,
+  "raw_evidence_blobs_equal": 28,
+  "diff_check": true,
+  "no_new_models_media_env_or_detected_credentials": true,
+  "fresh_cpu_tests": 218,
+  "new_gpu_loads": 0
+}

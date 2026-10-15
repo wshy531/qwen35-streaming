@@ -1,0 +1,153 @@
+{
+  "arm": "original",
+  "answers": [
+    {
+      "file": "v_BasketballDunk_g04_c03.avi",
+      "arm": "original",
+      "question": "What is the main action shown in the video? Answer in one short sentence.",
+      "checkpoint": "early",
+      "real_frames": 2,
+      "answer": "A basketball player dribbles down the court.",
+      "generated_ids": [
+        32,
+        18659,
+        2693,
+        75857,
+        37481,
+        1441,
+        279,
+        5300,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "wall_seconds": 1.1213186000240967
+    },
+    {
+      "file": "v_BasketballDunk_g04_c03.avi",
+      "arm": "original",
+      "question": "What is the main action shown in the video? Answer in one short sentence.",
+      "checkpoint": "full",
+      "real_frames": 3,
+      "answer": "A basketball player dribbles down the court while a defender jumps to block him.",
+      "generated_ids": [
+        32,
+        18659,
+        2693,
+        75857,
+        37481,
+        1441,
+        279,
+        5300,
+        1345,
+        264,
+        27298,
+        33075,
+        310,
+        2424,
+        1384,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "wall_seconds": 0.6780828000046313
+    },
+    {
+      "file": "v_PushUps_g03_c01.avi",
+      "arm": "original",
+      "question": "What is the main action shown in the video? Answer in one short sentence.",
+      "checkpoint": "early",
+      "real_frames": 2,
+      "answer": "A man is doing pushups in a gym.",
+      "generated_ids": [
+        32,
+        855,
+        369,
+        3604,
+        4336,
+        8339,
+        303,
+        264,
+        18244,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "wall_seconds": 0.49405660000047646
+    },
+    {
+      "file": "v_PushUps_g03_c01.avi",
+      "arm": "original",
+      "question": "What is the main action shown in the video? Answer in one short sentence.",
+      "checkpoint": "full",
+      "real_frames": 3,
+      "answer": "A man is doing pushups in a gym.",
+      "generated_ids": [
+        32,
+        855,
+        369,
+        3604,
+        4336,
+        8339,
+        303,
+        264,
+        18244,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "wall_seconds": 0.4985191999876406
+    },
+    {
+      "file": "v_ShavingBeard_g02_c05.avi",
+      "arm": "original",
+      "question": "What is the main action shown in the video? Answer in one short sentence.",
+      "checkpoint": "early",
+      "real_frames": 2,
+      "answer": "A man is shaving his face.",
+      "generated_ids": [
+        32,
+        855,
+        369,
+        77251,
+        780,
+        3460,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "wall_seconds": 0.39325670001562685
+    },
+    {
+      "file": "v_ShavingBeard_g02_c05.avi",
+      "arm": "original",
+      "question": "What is the main action shown in the video? Answer in one short sentence.",
+      "checkpoint": "full",
+      "real_frames": 8,
+      "answer": "A man is shaving his face.",
+      "generated_ids": [
+        32,
+        855,
+        369,
+        77251,
+        780,
+        3460,
+        13,
+        248046
+      ],
+      "stop_reason": "eos",
+      "wall_seconds": 0.4331976000103168
+    }
+  ],
+  "counts": {
+    "vision": 6,
+    "language": 71
+  },
+  "generated_tokens": 65,
+  "model_source": "D:\\AI_project\\qwen35-streaming-fix-live-sampling-timeout\\experiments\\36tar\\streaming-learning\\code\\qwen35-streaming\\qwen35_local\\modeling_qwen3_5.py",
+  "peak_allocated_gib": 3.257871150970459,
+  "peak_reserved_gib": 3.404296875,
+  "driver_free_gib_after_float": 3.5673828125,
+  "driver_resident_delta_gib_after_float": 3.365234375,
+  "wall_seconds_including_load": 4.634113700012676
+}

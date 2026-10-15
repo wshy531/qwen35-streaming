@@ -1,0 +1,60 @@
+{
+  "suites": [
+    {
+      "suite": "root",
+      "discovered": 3,
+      "tests": 3,
+      "passed": true,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "wall_seconds": 0.5939999999973224,
+      "python": "D:\\AI_project\\qwen35-streaming\\.venv\\Scripts\\python.exe",
+      "packages": {
+        "torch": "2.10.0+cu126",
+        "transformers": "5.3.0",
+        "numpy": "2.4.6",
+        "av": "16.1.0"
+      }
+    },
+    {
+      "suite": "baseline",
+      "discovered": 12,
+      "tests": 12,
+      "passed": true,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "wall_seconds": 0.2970000000059372,
+      "python": "D:\\AI_project\\qwen35-streaming\\.venv\\Scripts\\python.exe",
+      "packages": {
+        "torch": "2.10.0+cu126",
+        "transformers": "5.3.0",
+        "numpy": "2.4.6",
+        "av": "16.1.0"
+      }
+    },
+    {
+      "suite": "streaming",
+      "discovered": 180,
+      "tests": 143,
+      "passed": false,
+      "failures": 0,
+      "errors": 3,
+      "skipped": 0,
+      "wall_seconds": 46.21899999999732,
+      "python": "D:\\AI_project\\qwen35-streaming\\.venv\\Scripts\\python.exe",
+      "packages": {
+        "torch": "2.10.0+cu126",
+        "transformers": "5.3.0",
+        "numpy": "2.4.6",
+        "av": "16.1.0"
+      }
+    }
+  ],
+  "all_passed": false,
+  "tracked_python_ast_parsed": 448,
+  "syntax_errors": [],
+  "test_count": 158,
+  "random_weights_are_not_quality_evidence": true
+}

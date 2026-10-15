@@ -1,0 +1,6 @@
+{
+  "passed": false,
+  "phase": "launcher source-map resolution",
+  "error": "FileNotFoundError: @launcher is an entrypoint alias, not a CORE-relative filename",
+  "scope": "New audit alias error; existing source and model receipts unchanged"
+}

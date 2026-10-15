@@ -1,0 +1,112 @@
+{
+  "suffix": {
+    "forced_tail_direct": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "four_axis_positions": true,
+      "visual_values_sha256": true,
+      "nodes": true
+    },
+    "forced_tail_v": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true,
+      "four_axis_positions": true,
+      "visual_values_sha256": true,
+      "nodes": true
+    },
+    "forced_tail_original_text": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    },
+    "forced_tail_local_text": {
+      "input_ids": true,
+      "first_logits_sha256": true,
+      "generated_ids": true,
+      "answer": true,
+      "stop_reason": true
+    }
+  },
+  "swap": {
+    "dog_tail_swap_early": {
+      "direct_numeric": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      },
+      "original_bridge": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      },
+      "candidate_bridge": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      },
+      "shared_v": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    "cat_tail_swap_early": {
+      "direct_numeric": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      },
+      "original_bridge": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      },
+      "candidate_bridge": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      },
+      "shared_v": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "all_passed": false,
+  "jobs": [
+    {
+      "job": "temporal",
+      "exit_code": 0,
+      "passed": true,
+      "wall_seconds": 0.5780000000013388,
+      "output": "runs\\closeout_08b_real_20261015_01\\temporal"
+    },
+    {
+      "job": "time_file",
+      "exit_code": 1,
+      "passed": false,
+      "wall_seconds": 15.671999999998661,
+      "output": "runs\\closeout_08b_real_20261015_01\\time_file"
+    },
+    {
+      "job": "capture",
+      "exit_code": 0,
+      "passed": true,
+      "wall_seconds": 24.07800000000134,
+      "output": "runs\\closeout_08b_capture_20261015_01"
+    },
+    {
+      "job": "quality_cpu",
+      "exit_code": 0,
+      "passed": true,
+      "wall_seconds": 26.39100000000326,
+      "output": "runs\\closeout_08b_quality_cpu_20261015_01"
+    },
+    {
+      "job": "quality_gpu",
+      "exit_code": 0,
+      "passed": true,
+      "wall_seconds": 40.04699999999866,
+      "output": "runs\\closeout_08b_quality_gpu_20261015_01"
+    },
+    {
+      "job": "generic_cpu",
+      "exit_code": 0,
+      "passed": true,
+      "wall_seconds": 21.639999999999418,
+      "output": "runs\\closeout_08b_generic_cpu_20261015_01"
+    },
+    {
+      "job": "generic_gpu",
+      "exit_code": 0,
+      "passed": true,
+      "wall_seconds": 22.29699999999866,
+      "output": "runs\\closeout_08b_generic_gpu_20261015_01"
+    },
+    {
+      "job": "sparse_file_cpu",
+      "exit_code": 2,
+      "passed": false,
+      "wall_seconds": 10.5,
+      "output": "runs\\closeout_08b_sparse_file_cpu_20261015_01"
+    }
+  ],
+  "gpu_model_loads_max": 4,
+  "scope": "0.8B finite closeout; no camera, 2B, training or formal benchmark claim"
+}
