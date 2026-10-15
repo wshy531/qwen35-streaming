@@ -1,0 +1,13 @@
+test_duplicate_paths_and_file_directory_conflicts (test_restore_text_bundle.RestoreTests.test_duplicate_paths_and_file_directory_conflicts) ... ok
+test_envelope_size_hash_and_base64_are_checked (test_restore_text_bundle.RestoreTests.test_envelope_size_hash_and_base64_are_checked) ... ok
+test_existing_output_is_preserved (test_restore_text_bundle.RestoreTests.test_existing_output_is_preserved) ... ok
+test_expanded_archive_exceeding_declared_limit_is_rejected (test_restore_text_bundle.RestoreTests.test_expanded_archive_exceeding_declared_limit_is_rejected) ... ok
+test_late_invalid_file_leaves_no_partial_output (test_restore_text_bundle.RestoreTests.test_late_invalid_file_leaves_no_partial_output) ... ok
+test_path_escape_is_rejected (test_restore_text_bundle.RestoreTests.test_path_escape_is_rejected) ... ok
+test_ten_actual_capsules_restore_exact_bytes (test_restore_text_bundle.RestoreTests.test_ten_actual_capsules_restore_exact_bytes) ... ok
+test_utf8_original_bytes_and_python_not_executed (test_restore_text_bundle.RestoreTests.test_utf8_original_bytes_and_python_not_executed) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 9.774s
+
+OK
