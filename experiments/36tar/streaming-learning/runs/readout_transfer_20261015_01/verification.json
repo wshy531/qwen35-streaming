@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "sources": 180,
+  "cpu_contracts": 7,
+  "real_loads": 1,
+  "model_questions": 40,
+  "final_paths": 30,
+  "normal_answer_paths": 18,
+  "swap_answer_paths": 6,
+  "forced_tail_unscored_paths": 6,
+  "counts": {
+    "vision": 4,
+    "language": 301
+  },
+  "generated": 253,
+  "scores": {
+    "direct_numeric": {
+      "all": {
+        "cases": 6,
+        "correct": 5,
+        "schema_exact": 0,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "early": {
+        "cases": 3,
+        "correct": 2,
+        "schema_exact": 0,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "late": {
+        "cases": 3,
+        "correct": 3,
+        "schema_exact": 0,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      }
+    },
+    "original_bridge": {
+      "all": {
+        "cases": 6,
+        "correct": 1,
+        "schema_exact": 6,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "early": {
+        "cases": 3,
+        "correct": 1,
+        "schema_exact": 3,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "late": {
+        "cases": 3,
+        "correct": 0,
+        "schema_exact": 3,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      }
+    },
+    "candidate_bridge": {
+      "all": {
+        "cases": 6,
+        "correct": 2,
+        "schema_exact": 6,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "early": {
+        "cases": 3,
+        "correct": 2,
+        "schema_exact": 3,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      },
+      "late": {
+        "cases": 3,
+        "correct": 0,
+        "schema_exact": 3,
+        "answer_budget_stops": 0,
+        "description_budget_stops": 0
+      }
+    }
+  },
+  "strict_new_early_pair": {
+    "direct_numeric": true,
+    "original_bridge": false,
+    "candidate_bridge": false
+  },
+  "strict_swap_pair": {
+    "direct_numeric": true,
+    "original_bridge": false,
+    "candidate_bridge": false
+  },
+  "normal_candidate_effect": {
+    "corrected": 1,
+    "lost_correct": 0,
+    "both_correct": 1,
+    "both_incorrect": 4
+  },
+  "same_suffix_exactly_equal": true,
+  "swaps_match_other_source_exactly": true,
+  "refusals": 13,
+  "removed_early_formally_refused": 3,
+  "forced_tail_not_candidate_accuracy": true,
+  "default_promoted": false,
+  "new_real_videos": 2,
+  "familiar_negative_sources": 1,
+  "normal_correlated_queries": 6,
+  "synthetic_timelines": true,
+  "retained_source_bytes": 791808,
+  "external_working_conservative_bytes": 2771328,
+  "peak_allocated_gib": 3.2316298484802246,
+  "peak_reserved_gib": 3.37890625,
+  "wall_seconds_including_load": 20.878922500000044,
+  "gpu_summary_sha256": "877c9a0161c6526c262dd6c0e18cbc5a79d75c56f183eaf4b8ecbb75bbd74221",
+  "cpu_proof_sha256": "48c4fc85048be5ae7b77fbde63ef18cd2eb35944716e57783bc111d5bfcbfb3b"
+}
