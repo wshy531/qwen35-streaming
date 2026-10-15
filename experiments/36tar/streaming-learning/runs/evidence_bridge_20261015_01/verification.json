@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "sources": 152,
+  "cpu_contracts": 3,
+  "real_loads": 1,
+  "real_qa": 12,
+  "counts": {
+    "vision": 4,
+    "language": 102
+  },
+  "generated": 82,
+  "all_eos": true,
+  "strict_requested_labels_correct": 0,
+  "secondary_posthoc_binary_presence_correct": 4,
+  "cases": 4,
+  "binary_score_was_not_preregistered_endpoint": true,
+  "default_promoted": false,
+  "human_input_diagnostic_only": true,
+  "visual_descriptions_have_unverified_details": true,
+  "peak_allocated_gib": 3.231203079223633,
+  "no_current_direct_baseline": true,
+  "no_generic_accuracy_or_speed_claim": true,
+  "cpu_proof_sha256": "e9fc6373cd263c8420726d41558dd666e02e37bea4759e8b5cd6a3c6c0a63386",
+  "gpu_summary_sha256": "489f28a0349522633a203b946bb582f3cc235284db8b09bb8d293a8a5eb318a0"
+}

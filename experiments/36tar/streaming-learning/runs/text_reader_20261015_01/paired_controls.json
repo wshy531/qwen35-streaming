@@ -1,0 +1,50 @@
+{
+  "people_present": {
+    "old_free": "yes",
+    "old_constrained": "yes",
+    "structured_free": "yes",
+    "structured_constrained": "yes"
+  },
+  "people_absent": {
+    "old_free": "no",
+    "old_constrained": "no",
+    "structured_free": "no",
+    "structured_constrained": "no"
+  },
+  "coat_black_white": {
+    "old_free": "Based on the description provided, the cat has black and white fur. Therefore, the colors are black-white.",
+    "old_constrained": "black-white",
+    "structured_free": "black-white",
+    "structured_constrained": "black-white"
+  },
+  "coat_orange": {
+    "old_free": "Based on the description provided, the cat has orange fur. The question asks for the colors, and the description explicitly states",
+    "old_constrained": "orange",
+    "structured_free": "orange",
+    "structured_constrained": "orange"
+  },
+  "first_cat_then_dog": {
+    "old_free": "cat",
+    "old_constrained": "cat",
+    "structured_free": "cat",
+    "structured_constrained": "cat"
+  },
+  "first_dog_then_cat": {
+    "old_free": "dog",
+    "old_constrained": "dog",
+    "structured_free": "dog",
+    "structured_constrained": "dog"
+  },
+  "missing_coat": {
+    "old_free": "Based on the description provided, the coat color is not stated. Therefore, I cannot determine the specific color of the cat",
+    "old_constrained": "white",
+    "structured_free": "black-white",
+    "structured_constrained": "black-white"
+  },
+  "missing_order": {
+    "old_free": "dog",
+    "old_constrained": "dog",
+    "structured_free": "dog",
+    "structured_constrained": "dog"
+  }
+}

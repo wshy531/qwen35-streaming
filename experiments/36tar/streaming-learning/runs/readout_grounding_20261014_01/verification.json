@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "source_hashes": 148,
+  "cpu_paired_checks": 8,
+  "real_qa": 16,
+  "real_model_loads": 2,
+  "vision_forwards": 12,
+  "language_forwards": 64,
+  "generated": 48,
+  "all8_pairs_match_ids_positions_features_first_logits_and_generation": true,
+  "per_arm_positive_correct": {
+    "existing": "2/2",
+    "allow_absent": "0/2"
+  },
+  "per_arm_absent_correct": {
+    "existing": "0/2",
+    "allow_absent": "2/2"
+  },
+  "interpretation": [
+    "Current raw-feature readout introduces no extra observed loss relative to the original on these exact8 paired prompts.",
+    "Absent-aware wording collapses all four cases to none in both paths; do not promote this wording or claim grounded refusal.",
+    "Changing wording changes suffix text, length and later positions together. No single phrase/attention/head causal claim.",
+    "Four familiar pairs and correlated checks only; no generic accuracy, memory/compression superiority or speedup."
+  ],
+  "peak_allocated_gib": {
+    "original": 3.2332191467285156,
+    "features": 3.233887195587158
+  },
+  "summary_sha256": {
+    "original": "eaeb090074ff54b2d75e73c9dce29ce6d5a14f684966762066442c8d3cf4a407",
+    "features": "6b39fa119b454dcff183c280266fdc81564900af7f379790ded3d103596ec75a"
+  },
+  "cpu_proof_sha256": "e38f463690fd17b49fe3bba8cf30ac72fdb9a5761e7f265d4a679f6b5ab4ea1d",
+  "next_candidate_activated": false
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "post_output_qualitative_review_not_new_endpoint",
+  "dog_description_omission": "New early dog and common dog suffix are correctly identified by direct raw-feature readout. Neutral V only mentions garden/tree/house/fence; both text readers output none. Omission in a short caption does not establish visual absence.",
+  "cat_description": "V mentions cat and additionally a small bird landing on its back, not seen in the manually inspected input. Original R chooses bird; frozen candidate R chooses cat. Correct final subject does not make the entire generated caption factual.",
+  "unique_pair_scores": {
+    "direct_numeric": {
+      "correct": 3,
+      "total": 4
+    },
+    "original_bridge": {
+      "correct": 1,
+      "total": 4
+    },
+    "candidate_bridge": {
+      "correct": 2,
+      "total": 4
+    }
+  },
+  "direct_semantics": "All direct normal outputs are allowed short aliases; no full-sentence scoring discrepancy in this stage.",
+  "causal_scope": "Direct raw features pass both new early animals and both swaps with identical suffix, demonstrating dependence on supplied early evidence under manual intervention/time-only selection. Caption bridge fails the strict pair. This is not a forest compression, semantic retrieval, or natural long-video benchmark.",
+  "decision": "Keep the frozen local/plain reader as optional diagnostic. Preserve original visual features; do not make neutral generated captions the sole evidence or infer absence from omission. Do not add a post-output adaptive route choosing whichever arm happens to be correct."
+}

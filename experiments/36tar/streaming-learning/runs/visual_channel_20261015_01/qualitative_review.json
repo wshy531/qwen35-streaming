@@ -1,0 +1,9 @@
+{
+  "kind": "post_output_interpretation_frozen_scores_unchanged",
+  "chat": "Questions are in the current QA context, not automatically retained across turns. Main ask forks; historical native readout creates a fresh HybridSequence. Reset/release of a QA cache does not delete video memory or saved text logs, nor does a text log become model context by itself. Debug return_evidence can explicitly keep a branch cache; no automatic dialogue history is implemented.",
+  "matched_task": "Adding auxiliary text changes cat dog->bird, both incorrect; no normal case changes correctness versus matched visual-only task. Do not claim general uselessness from the tie or grounded vision use from a dog-heavy score.",
+  "recovered_dog": "Versus caption-only, visual-plus-caption corrects four dog queries across two distinct dog source pairs; three queries reuse one suffix. It also loses correct cat and no-animal answers.",
+  "task_sensitivity": "The short numeric question reads cat correctly; the new visual task as a whole answers dog. This cannot be attributed only to output label order or fusion: several task words changed. Matched task control isolates addition of the auxiliary block.",
+  "caption_contamination": "Cat caption claims a bird not observed in inspected input; fused answers bird while matched visual-only answers dog. Both are wrong. Correct washing-hands caption does not correct fused dog false positive. No validated arbitration exists.",
+  "decision": "Keep the adapter and all failures as an optional diagnostic. Preserve original direct readout as reference; no default promotion, training, post-hoc arm chooser or persistent chat feature."
+}

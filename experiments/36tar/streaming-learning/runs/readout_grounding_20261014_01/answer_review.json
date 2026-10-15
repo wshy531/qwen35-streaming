@@ -1,0 +1,242 @@
+[
+  {
+    "case": "dog",
+    "arm": "original",
+    "wording": "existing",
+    "question": "Name the animal visible at 20.5 seconds.",
+    "truth": "dog",
+    "raw_answer": "A dog.",
+    "interpretation": "dog",
+    "correct": true,
+    "generated_ids": [
+      32,
+      5388,
+      13,
+      248046
+    ]
+  },
+  {
+    "case": "dog",
+    "arm": "features",
+    "wording": "existing",
+    "question": "Name the animal visible at 20.5 seconds.",
+    "truth": "dog",
+    "raw_answer": "A dog.",
+    "interpretation": "dog",
+    "correct": true,
+    "generated_ids": [
+      32,
+      5388,
+      13,
+      248046
+    ]
+  },
+  {
+    "case": "dog",
+    "arm": "original",
+    "wording": "allow_absent",
+    "question": "Which animal, if any, is visible at 20.5 seconds? Answer none if no animal is visible, or uncertain if the image is unclear.",
+    "truth": "dog",
+    "raw_answer": "none",
+    "interpretation": "none",
+    "correct": false,
+    "generated_ids": [
+      6487,
+      248046
+    ]
+  },
+  {
+    "case": "dog",
+    "arm": "features",
+    "wording": "allow_absent",
+    "question": "Which animal, if any, is visible at 20.5 seconds? Answer none if no animal is visible, or uncertain if the image is unclear.",
+    "truth": "dog",
+    "raw_answer": "none",
+    "interpretation": "none",
+    "correct": false,
+    "generated_ids": [
+      6487,
+      248046
+    ]
+  },
+  {
+    "case": "cat",
+    "arm": "original",
+    "wording": "existing",
+    "question": "Name the animal visible at 0.5 seconds.",
+    "truth": "cat",
+    "raw_answer": "A cat.",
+    "interpretation": "cat",
+    "correct": true,
+    "generated_ids": [
+      32,
+      7993,
+      13,
+      248046
+    ]
+  },
+  {
+    "case": "cat",
+    "arm": "features",
+    "wording": "existing",
+    "question": "Name the animal visible at 0.5 seconds.",
+    "truth": "cat",
+    "raw_answer": "A cat.",
+    "interpretation": "cat",
+    "correct": true,
+    "generated_ids": [
+      32,
+      7993,
+      13,
+      248046
+    ]
+  },
+  {
+    "case": "cat",
+    "arm": "original",
+    "wording": "allow_absent",
+    "question": "Which animal, if any, is visible at 0.5 seconds? Answer none if no animal is visible, or uncertain if the image is unclear.",
+    "truth": "cat",
+    "raw_answer": "none",
+    "interpretation": "none",
+    "correct": false,
+    "generated_ids": [
+      6487,
+      248046
+    ]
+  },
+  {
+    "case": "cat",
+    "arm": "features",
+    "wording": "allow_absent",
+    "question": "Which animal, if any, is visible at 0.5 seconds? Answer none if no animal is visible, or uncertain if the image is unclear.",
+    "truth": "cat",
+    "raw_answer": "none",
+    "interpretation": "none",
+    "correct": false,
+    "generated_ids": [
+      6487,
+      248046
+    ]
+  },
+  {
+    "case": "title",
+    "arm": "original",
+    "wording": "existing",
+    "question": "Name the animal visible at 0.5 seconds.",
+    "truth": "none",
+    "raw_answer": "A dog.",
+    "interpretation": "dog",
+    "correct": false,
+    "generated_ids": [
+      32,
+      5388,
+      13,
+      248046
+    ]
+  },
+  {
+    "case": "title",
+    "arm": "features",
+    "wording": "existing",
+    "question": "Name the animal visible at 0.5 seconds.",
+    "truth": "none",
+    "raw_answer": "A dog.",
+    "interpretation": "dog",
+    "correct": false,
+    "generated_ids": [
+      32,
+      5388,
+      13,
+      248046
+    ]
+  },
+  {
+    "case": "title",
+    "arm": "original",
+    "wording": "allow_absent",
+    "question": "Which animal, if any, is visible at 0.5 seconds? Answer none if no animal is visible, or uncertain if the image is unclear.",
+    "truth": "none",
+    "raw_answer": "none",
+    "interpretation": "none",
+    "correct": true,
+    "generated_ids": [
+      6487,
+      248046
+    ]
+  },
+  {
+    "case": "title",
+    "arm": "features",
+    "wording": "allow_absent",
+    "question": "Which animal, if any, is visible at 0.5 seconds? Answer none if no animal is visible, or uncertain if the image is unclear.",
+    "truth": "none",
+    "raw_answer": "none",
+    "interpretation": "none",
+    "correct": true,
+    "generated_ids": [
+      6487,
+      248046
+    ]
+  },
+  {
+    "case": "outro",
+    "arm": "original",
+    "wording": "existing",
+    "question": "Name the animal visible at 40.5 seconds.",
+    "truth": "none",
+    "raw_answer": "A dog.",
+    "interpretation": "dog",
+    "correct": false,
+    "generated_ids": [
+      32,
+      5388,
+      13,
+      248046
+    ]
+  },
+  {
+    "case": "outro",
+    "arm": "features",
+    "wording": "existing",
+    "question": "Name the animal visible at 40.5 seconds.",
+    "truth": "none",
+    "raw_answer": "A dog.",
+    "interpretation": "dog",
+    "correct": false,
+    "generated_ids": [
+      32,
+      5388,
+      13,
+      248046
+    ]
+  },
+  {
+    "case": "outro",
+    "arm": "original",
+    "wording": "allow_absent",
+    "question": "Which animal, if any, is visible at 40.5 seconds? Answer none if no animal is visible, or uncertain if the image is unclear.",
+    "truth": "none",
+    "raw_answer": "none",
+    "interpretation": "none",
+    "correct": true,
+    "generated_ids": [
+      6487,
+      248046
+    ]
+  },
+  {
+    "case": "outro",
+    "arm": "features",
+    "wording": "allow_absent",
+    "question": "Which animal, if any, is visible at 40.5 seconds? Answer none if no animal is visible, or uncertain if the image is unclear.",
+    "truth": "none",
+    "raw_answer": "none",
+    "interpretation": "none",
+    "correct": true,
+    "generated_ids": [
+      6487,
+      248046
+    ]
+  }
+]

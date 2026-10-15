@@ -1,0 +1,42 @@
+{
+  "kind": "post_output_qualitative_review_not_replacement_scoring",
+  "direct_local_sentence_cases": [
+    "dog_cat_early",
+    "cat_dog_late",
+    "bird_dog_late",
+    "title_dog_late"
+  ],
+  "direct_local_semantic_observation": "Four full dog sentences fail the frozen short-label canonical endpoint but identify the same correct dog as direct_numeric. All direct local subject meanings remain the same six correct/two wrong as numeric; this manual observation is not a new frozen accuracy endpoint.",
+  "bird": {
+    "description": "A person is seen running from a building.",
+    "local_wrapped": "bird",
+    "local_plain": "dog",
+    "image_truth": "bird",
+    "interpretation": "Wrapped-local is label-correct but bird is absent from its text-only input. This is not evidence that the visual reader recovered the bird; the two-stage chain lacks supplied subject support."
+  },
+  "title": {
+    "description": "The title card for \"Pablo Miv\" appears on a white background.",
+    "numeric_wrapped": "dog",
+    "local_wrapped": "bird",
+    "numeric_plain": "none",
+    "local_plain": "none",
+    "interpretation": "Removing the complete descriptor wrapper corrects this case under both question versions. Interval text and fixed description-prefix labels changed together; no separate numeric-only causal attribution."
+  },
+  "cats": {
+    "cases": [
+      "dog_cat_late",
+      "cat_dog_early"
+    ],
+    "numeric_wrapped": "dog",
+    "numeric_plain": "dog",
+    "local_wrapped": "cat",
+    "local_plain": "cat",
+    "interpretation": "Question localization corrects both repeated cat queries under either wrapper. These are two positions of the same visual source, not two independent cats."
+  },
+  "limits": [
+    "Adaptive development cases already seen in GPU111",
+    "Four shared sources/eight correlated queries",
+    "No new natural video, training, compression, default activation, speed benchmark or generalization proof",
+    "Do not infer inner attention cause from a prompt-level outcome"
+  ]
+}

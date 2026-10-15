@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "sources": 156,
+  "cpu_contracts": 3,
+  "real_loads": 1,
+  "model_questions": 12,
+  "logged_rows": 12,
+  "counts": {
+    "vision": 4,
+    "language": 95
+  },
+  "generated": 75,
+  "score": {
+    "direct": {
+      "yes": {
+        "correct": 2,
+        "total": 2
+      },
+      "no": {
+        "correct": 2,
+        "total": 2
+      }
+    },
+    "bridge": {
+      "yes": {
+        "correct": 2,
+        "total": 2
+      },
+      "no": {
+        "correct": 2,
+        "total": 2
+      }
+    }
+  },
+  "all_eos": true,
+  "paired_same_normalized_answer": 4,
+  "bridge_only_correct": 0,
+  "direct_only_correct": 0,
+  "independent_sources": 4,
+  "positive_sources": 2,
+  "negative_sources": 2,
+  "static_repeated_photo_pairs_not_natural_video": true,
+  "no_training_or_compression": true,
+  "default_promoted": false,
+  "peak_allocated_gib": 3.231058120727539,
+  "peak_reserved_gib": 3.40234375,
+  "wall_seconds_including_load": 9.445458000001963,
+  "cpu_proof_sha256": "ab399fd7c32b6fd01878d95eb9e68bcf5743032986d4a1a17eb8f025c476614c",
+  "gpu_summary_sha256": "6d066bd9d3508370bb68b2ba0d182ca4186409cae62fc9a6af998a4d63414c00"
+}

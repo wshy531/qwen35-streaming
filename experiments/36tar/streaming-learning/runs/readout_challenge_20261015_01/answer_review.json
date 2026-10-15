@@ -1,0 +1,342 @@
+[
+  {
+    "case": "subject_dog",
+    "kind": "subject",
+    "sources": [
+      "dog"
+    ],
+    "truth": "dog",
+    "direct_raw": "dog",
+    "description": "A white dog is seen in the foreground, while a woman stands in the background.",
+    "bridge_raw": "dog",
+    "direct_label": "dog",
+    "bridge_label": "dog",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": true,
+    "direct_correct": true,
+    "bridge_correct": true,
+    "hard_subset_member": false,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "direct": "eos",
+      "description": "eos",
+      "bridge": "eos"
+    }
+  },
+  {
+    "case": "subject_cat",
+    "kind": "subject",
+    "sources": [
+      "cat"
+    ],
+    "truth": "cat",
+    "direct_raw": "cat",
+    "description": "A black and white cat is lying on its back on a gray surface.",
+    "bridge_raw": "cat",
+    "direct_label": "cat",
+    "bridge_label": "cat",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": true,
+    "direct_correct": true,
+    "bridge_correct": true,
+    "hard_subset_member": false,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "description": "eos",
+      "bridge": "eos",
+      "direct": "eos"
+    }
+  },
+  {
+    "case": "subject_bird",
+    "kind": "subject",
+    "sources": [
+      "bird"
+    ],
+    "truth": "bird",
+    "direct_raw": "dog",
+    "description": "A person is seen running from a building.",
+    "bridge_raw": "Based on the description provided, there is no mention of any non-human animals. The only animal mentioned is a \"person",
+    "direct_label": "dog",
+    "bridge_label": "other",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": false,
+    "direct_correct": false,
+    "bridge_correct": false,
+    "hard_subset_member": true,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "direct": "eos",
+      "description": "eos",
+      "bridge": "budget"
+    }
+  },
+  {
+    "case": "subject_title",
+    "kind": "subject",
+    "sources": [
+      "title"
+    ],
+    "truth": "none",
+    "direct_raw": "dog",
+    "description": "A white background is shown, followed by a white screen with a red and blue logo.",
+    "bridge_raw": "Based on the description provided, there is no mention of any non-human animals. The description only specifies a white background,",
+    "direct_label": "dog",
+    "bridge_label": "other",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": false,
+    "direct_correct": false,
+    "bridge_correct": false,
+    "hard_subset_member": true,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "description": "eos",
+      "bridge": "budget",
+      "direct": "eos"
+    }
+  },
+  {
+    "case": "subject_outro",
+    "kind": "subject",
+    "sources": [
+      "outro"
+    ],
+    "truth": "none",
+    "direct_raw": "dog",
+    "description": "The video begins with a black screen displaying the title \"PabloMik\" and the channel name \"DALEAL",
+    "bridge_raw": "Based on the description provided, the video begins with a black screen. There is no visual content, such as an image",
+    "direct_label": "dog",
+    "bridge_label": "other",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": false,
+    "direct_correct": false,
+    "bridge_correct": false,
+    "hard_subset_member": true,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "direct": "eos",
+      "description": "budget",
+      "bridge": "budget"
+    }
+  },
+  {
+    "case": "subject_hands",
+    "kind": "subject",
+    "sources": [
+      "hands"
+    ],
+    "truth": "none",
+    "direct_raw": "dog",
+    "description": "A person is washing their hands in a sink with soap and water.",
+    "bridge_raw": "none",
+    "direct_label": "dog",
+    "bridge_label": "none",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": true,
+    "direct_correct": false,
+    "bridge_correct": true,
+    "hard_subset_member": true,
+    "corrected": true,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "description": "eos",
+      "bridge": "eos",
+      "direct": "eos"
+    }
+  },
+  {
+    "case": "detail_cat_coat",
+    "kind": "coat",
+    "sources": [
+      "cat"
+    ],
+    "truth": "black-white",
+    "direct_raw": "black-white",
+    "description": "A black and white cat is lying on its back on a gray surface.",
+    "bridge_raw": "Based on the description provided, the cat is black and white.",
+    "direct_label": "black-white",
+    "bridge_label": "other",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": false,
+    "direct_correct": true,
+    "bridge_correct": false,
+    "hard_subset_member": false,
+    "corrected": false,
+    "introduced_loss": true,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": true,
+    "stop_reasons": {
+      "direct": "eos",
+      "description": "eos",
+      "bridge": "eos"
+    }
+  },
+  {
+    "case": "detail_dog_people",
+    "kind": "people",
+    "sources": [
+      "dog"
+    ],
+    "truth": "yes",
+    "direct_raw": "yes",
+    "description": "A white dog is seen in the foreground, while a woman stands in the background.",
+    "bridge_raw": "no",
+    "direct_label": "yes",
+    "bridge_label": "no",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": true,
+    "direct_correct": true,
+    "bridge_correct": false,
+    "hard_subset_member": false,
+    "corrected": false,
+    "introduced_loss": true,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": true,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "description": "eos",
+      "bridge": "eos",
+      "direct": "eos"
+    }
+  },
+  {
+    "case": "first_dog_cat",
+    "kind": "first",
+    "sources": [
+      "dog",
+      "cat"
+    ],
+    "truth": "dog",
+    "direct_raw": "dog",
+    "description": "A white dog is seen in the foreground while a woman stands in the background.",
+    "bridge_raw": "dog",
+    "direct_label": "dog",
+    "bridge_label": "dog",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": true,
+    "direct_correct": true,
+    "bridge_correct": true,
+    "hard_subset_member": false,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "direct": "eos",
+      "description": "eos",
+      "bridge": "eos"
+    }
+  },
+  {
+    "case": "first_cat_dog",
+    "kind": "first",
+    "sources": [
+      "cat",
+      "dog"
+    ],
+    "truth": "cat",
+    "direct_raw": "cat",
+    "description": "A black and white cat is lying on the ground while a woman stands nearby.",
+    "bridge_raw": "cat",
+    "direct_label": "cat",
+    "bridge_label": "cat",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": true,
+    "direct_correct": true,
+    "bridge_correct": true,
+    "hard_subset_member": false,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "description": "eos",
+      "bridge": "eos",
+      "direct": "eos"
+    }
+  },
+  {
+    "case": "first_bird_dog",
+    "kind": "first",
+    "sources": [
+      "bird",
+      "dog"
+    ],
+    "truth": "bird",
+    "direct_raw": "dog",
+    "description": "A dog is seen running on a rooftop while a woman watches from the side.",
+    "bridge_raw": "dog",
+    "direct_label": "dog",
+    "bridge_label": "dog",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": true,
+    "direct_correct": false,
+    "bridge_correct": false,
+    "hard_subset_member": true,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "direct": "eos",
+      "description": "eos",
+      "bridge": "eos"
+    }
+  },
+  {
+    "case": "first_title_dog",
+    "kind": "first",
+    "sources": [
+      "title",
+      "dog"
+    ],
+    "truth": "none",
+    "direct_raw": "dog",
+    "description": "A white dog is seen in the foreground while a woman stands in the background.",
+    "bridge_raw": "dog",
+    "direct_label": "dog",
+    "bridge_label": "dog",
+    "direct_schema_exact": true,
+    "bridge_schema_exact": true,
+    "direct_correct": false,
+    "bridge_correct": false,
+    "hard_subset_member": true,
+    "corrected": false,
+    "introduced_loss": false,
+    "lost_correct_to_uncertain": false,
+    "lost_correct_to_wrong": false,
+    "lost_correct_to_invalid": false,
+    "stop_reasons": {
+      "description": "eos",
+      "bridge": "eos",
+      "direct": "eos"
+    }
+  }
+]

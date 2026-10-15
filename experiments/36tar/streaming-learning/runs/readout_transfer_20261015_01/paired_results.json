@@ -1,0 +1,90 @@
+[
+  {
+    "case": "dog_tail_early",
+    "mode": "normal",
+    "truth": "dog",
+    "original": "none",
+    "candidate": "none",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "dog_tail_late",
+    "mode": "normal",
+    "truth": "dog",
+    "original": "none",
+    "candidate": "none",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "cat_tail_early",
+    "mode": "normal",
+    "truth": "cat",
+    "original": "bird",
+    "candidate": "cat",
+    "corrected": true,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": false
+  },
+  {
+    "case": "cat_tail_late",
+    "mode": "normal",
+    "truth": "dog",
+    "original": "none",
+    "candidate": "none",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "none_tail_early",
+    "mode": "normal",
+    "truth": "none",
+    "original": "none",
+    "candidate": "none",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": true,
+    "both_incorrect": false
+  },
+  {
+    "case": "none_tail_late",
+    "mode": "normal",
+    "truth": "dog",
+    "original": "none",
+    "candidate": "none",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  },
+  {
+    "case": "dog_tail_swap_early",
+    "mode": "swap_early",
+    "truth": "cat",
+    "original": "bird",
+    "candidate": "cat",
+    "corrected": true,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": false
+  },
+  {
+    "case": "cat_tail_swap_early",
+    "mode": "swap_early",
+    "truth": "dog",
+    "original": "none",
+    "candidate": "none",
+    "corrected": false,
+    "lost_correct": false,
+    "both_correct": false,
+    "both_incorrect": true
+  }
+]

@@ -1,0 +1,490 @@
+{
+  "insertions": [
+    {
+      "case": "dog_tail_early",
+      "status": "included",
+      "tokens": 26,
+      "cut": 59,
+      "prefix_exact": true,
+      "suffix_shift_exact": true,
+      "visual_values_same": true
+    },
+    {
+      "case": "dog_tail_late",
+      "status": "included",
+      "tokens": 30,
+      "cut": 59,
+      "prefix_exact": true,
+      "suffix_shift_exact": true,
+      "visual_values_same": true
+    },
+    {
+      "case": "cat_tail_early",
+      "status": "included",
+      "tokens": 28,
+      "cut": 59,
+      "prefix_exact": true,
+      "suffix_shift_exact": true,
+      "visual_values_same": true
+    },
+    {
+      "case": "cat_tail_late",
+      "status": "included",
+      "tokens": 30,
+      "cut": 59,
+      "prefix_exact": true,
+      "suffix_shift_exact": true,
+      "visual_values_same": true
+    },
+    {
+      "case": "none_tail_early",
+      "status": "included",
+      "tokens": 26,
+      "cut": 59,
+      "prefix_exact": true,
+      "suffix_shift_exact": true,
+      "visual_values_same": true
+    },
+    {
+      "case": "none_tail_late",
+      "status": "included",
+      "tokens": 30,
+      "cut": 59,
+      "prefix_exact": true,
+      "suffix_shift_exact": true,
+      "visual_values_same": true
+    },
+    {
+      "case": "dog_tail_swap_early",
+      "status": "included",
+      "tokens": 28,
+      "cut": 59,
+      "prefix_exact": true,
+      "suffix_shift_exact": true,
+      "visual_values_same": true
+    },
+    {
+      "case": "cat_tail_swap_early",
+      "status": "included",
+      "tokens": 26,
+      "cut": 59,
+      "prefix_exact": true,
+      "suffix_shift_exact": true,
+      "visual_values_same": true
+    }
+  ],
+  "anchors": [
+    {
+      "case": "dog_tail_early",
+      "arm": "direct_numeric",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "dog_tail_early",
+      "arm": "shared_v",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "dog_tail_early",
+      "arm": "text_only",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      }
+    },
+    {
+      "case": "dog_tail_late",
+      "arm": "direct_numeric",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "dog_tail_late",
+      "arm": "shared_v",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "dog_tail_late",
+      "arm": "text_only",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      }
+    },
+    {
+      "case": "cat_tail_early",
+      "arm": "direct_numeric",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "cat_tail_early",
+      "arm": "shared_v",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "cat_tail_early",
+      "arm": "text_only",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      }
+    },
+    {
+      "case": "cat_tail_late",
+      "arm": "direct_numeric",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "cat_tail_late",
+      "arm": "shared_v",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "cat_tail_late",
+      "arm": "text_only",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      }
+    },
+    {
+      "case": "none_tail_early",
+      "arm": "direct_numeric",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "none_tail_early",
+      "arm": "shared_v",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "none_tail_early",
+      "arm": "text_only",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      }
+    },
+    {
+      "case": "none_tail_late",
+      "arm": "direct_numeric",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "none_tail_late",
+      "arm": "shared_v",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "none_tail_late",
+      "arm": "text_only",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      }
+    },
+    {
+      "case": "dog_tail_swap_early",
+      "arm": "direct_numeric",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "dog_tail_swap_early",
+      "arm": "shared_v",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "dog_tail_swap_early",
+      "arm": "text_only",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      }
+    },
+    {
+      "case": "cat_tail_swap_early",
+      "arm": "direct_numeric",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "cat_tail_swap_early",
+      "arm": "shared_v",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    {
+      "case": "cat_tail_swap_early",
+      "arm": "text_only",
+      "equal": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      }
+    }
+  ],
+  "swaps": {
+    "dog_tail_swap_early": {
+      "direct_numeric": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      },
+      "text_only": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      },
+      "visual_task_only": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      },
+      "visual_plus_description": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      },
+      "shared_v": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    },
+    "cat_tail_swap_early": {
+      "direct_numeric": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      },
+      "text_only": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true
+      },
+      "visual_task_only": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      },
+      "visual_plus_description": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      },
+      "shared_v": {
+        "input_ids": true,
+        "first_logits_sha256": true,
+        "generated_ids": true,
+        "answer": true,
+        "stop_reason": true,
+        "four_axis_positions": true,
+        "visual_values_sha256": true,
+        "nodes": true
+      }
+    }
+  }
+}
