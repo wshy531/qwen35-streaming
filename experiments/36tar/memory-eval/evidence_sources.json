@@ -1,0 +1,41 @@
+{
+  "source_root_scope": "project-local text only; no media, pixels, weights or credentials",
+  "all_current_method_sources": [
+    "08b-memory-eval",
+    "2b-memory-eval",
+    "causal-memory-v1",
+    "holdout-eval-v1",
+    "delayed-memory-v1",
+    "memory-task-audit-v1",
+    "memory-target-new24-v1",
+    "question-readout-v1",
+    "question-readout-new24-v1",
+    "question-readout-audit-v1"
+  ],
+  "run_folders": [
+    "08b_fallback_preparation_20261018_01",
+    "08b_capability_pilot_20261019_01",
+    "08b_native_reference_20261019_01",
+    "08b_memory_compare_20261019_01",
+    "08b_stage2_analysis_20261019_01",
+    "08b_grouping_diagnostic_20261019_01",
+    "08b_frozen74_compare_20261019_01",
+    "08b_causal_memory_dev_20261019_01",
+    "08b_causal_memory74_20261019_01",
+    "08b_holdout47_preflight_20261019_01",
+    "08b_holdout47_compare_20261019_01",
+    "08b_delayed_memory_20261019_01",
+    "08b_question_readout_20261019_01",
+    "08b_question_readout_new24_20261019_01",
+    "natural_eval_v2_20261019_01",
+    "holdout_qualification_20261019_01",
+    "memory_task_alignment_20261019_01",
+    "memory_target_new24_20261019_01"
+  ],
+  "active_originals": [
+    "experiments/2b-memory-eval/memory_policy.py",
+    "experiments/2b-memory-eval/prefix_request.py",
+    "experiments/2b-memory-eval/score_memory_eval.py",
+    "experiments/question-readout-v1/selector.py"
+  ]
+}

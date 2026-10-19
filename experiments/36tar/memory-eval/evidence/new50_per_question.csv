@@ -1,0 +1,401 @@
+﻿id,arm,group,stratum,memory_character,question,expected,choice,leading,text,correct,leading_correct,format_error,visual_tokens,seconds,selection_seconds
+nextgqa:val:14012319794:5,native_original,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she got the flag,4,3,3,D,False,False,False,1536,1.270564500002365,0
+nextgqa:val:14012319794:5,full_pairwise,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she got the flag,4,3,3,D,False,False,False,1536,1.0714567999966675,0
+nextgqa:val:14012319794:5,M1_all8,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she got the flag,4,3,3,D,False,False,False,384,0.35053719999996247,0
+nextgqa:val:14012319794:5,recent4,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she got the flag,4,0,0,A,False,False,False,192,0.19789060000039171,0
+nextgqa:val:14012319794:5,uniform4,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she got the flag,4,0,0,A,False,False,False,192,0.19739609999669483,0
+nextgqa:val:14012319794:5,Q4,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she got the flag,4,0,0,A,False,False,False,192,0.19817990000592545,1.7859791000009864
+nextgqa:val:14012319794:5,annotation4,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she got the flag,4,0,0,A,False,False,False,192,0.1980632000049809,0
+nextgqa:val:14012319794:5,text_only,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she got the flag,4,0,0,A,False,False,False,0,0.17000929999630898,0
+nextgqa:val:14012319794:2,native_original,shared_home_14012319794_13919236672,C,recent,why did the little girl take out the bottle of syrup from the cupboard near the end of the video,4,4,4,E,True,True,False,1536,1.0908586000005016,0
+nextgqa:val:14012319794:2,full_pairwise,shared_home_14012319794_13919236672,C,recent,why did the little girl take out the bottle of syrup from the cupboard near the end of the video,4,4,4,E,True,True,False,1536,0.7246613000024809,0
+nextgqa:val:14012319794:2,M1_all8,shared_home_14012319794_13919236672,C,recent,why did the little girl take out the bottle of syrup from the cupboard near the end of the video,4,4,4,E,True,True,False,384,0.3390198999986751,0
+nextgqa:val:14012319794:2,recent4,shared_home_14012319794_13919236672,C,recent,why did the little girl take out the bottle of syrup from the cupboard near the end of the video,4,4,4,E,True,True,False,192,0.19560149999597343,0
+nextgqa:val:14012319794:2,uniform4,shared_home_14012319794_13919236672,C,recent,why did the little girl take out the bottle of syrup from the cupboard near the end of the video,4,4,4,E,True,True,False,192,0.19784559999970952,0
+nextgqa:val:14012319794:2,Q4,shared_home_14012319794_13919236672,C,recent,why did the little girl take out the bottle of syrup from the cupboard near the end of the video,4,4,4,E,True,True,False,192,0.36505490000126883,1.824928900001396
+nextgqa:val:14012319794:2,annotation4,shared_home_14012319794_13919236672,C,recent,why did the little girl take out the bottle of syrup from the cupboard near the end of the video,4,4,4,E,True,True,False,192,0.20375870000134455,0
+nextgqa:val:14012319794:2,text_only,shared_home_14012319794_13919236672,C,recent,why did the little girl take out the bottle of syrup from the cupboard near the end of the video,4,4,4,E,True,True,False,0,0.17129239999485435,0
+nextgqa:val:13919236672:6,native_original,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she turned around herself at the beginning of the video,3,,2,C. get out of car,False,False,True,1584,1.1980358000000706,0
+nextgqa:val:13919236672:6,full_pairwise,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she turned around herself at the beginning of the video,3,,2,C. get out of car,False,False,True,1584,0.8849351000026218,0
+nextgqa:val:13919236672:6,M1_all8,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she turned around herself at the beginning of the video,3,3,3,D,True,True,False,384,0.331552699994063,0
+nextgqa:val:13919236672:6,recent4,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she turned around herself at the beginning of the video,3,3,3,D,True,True,False,192,0.19509180000022752,0
+nextgqa:val:13919236672:6,uniform4,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she turned around herself at the beginning of the video,3,2,2,C,False,False,False,192,0.19504669999878388,0
+nextgqa:val:13919236672:6,Q4,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she turned around herself at the beginning of the video,3,3,3,D,True,True,False,192,0.19813009999779752,2.161609700000554
+nextgqa:val:13919236672:6,annotation4,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she turned around herself at the beginning of the video,3,2,2,C,False,False,False,192,0.21956069999578176,0
+nextgqa:val:13919236672:6,text_only,shared_home_14012319794_13919236672,T,past_with_late_cue,what did the girl do after she turned around herself at the beginning of the video,3,0,0,A,False,False,False,0,0.17219679999834625,0
+nextgqa:val:13919236672:9,native_original,shared_home_14012319794_13919236672,T,past_with_late_cue,what does the girl do after approaching the red box in the middle,1,2,2,C,False,False,False,1584,0.8943537000013748,0
+nextgqa:val:13919236672:9,full_pairwise,shared_home_14012319794_13919236672,T,past_with_late_cue,what does the girl do after approaching the red box in the middle,1,2,2,C,False,False,False,1584,0.7404034999999567,0
+nextgqa:val:13919236672:9,M1_all8,shared_home_14012319794_13919236672,T,past_with_late_cue,what does the girl do after approaching the red box in the middle,1,0,0,A,False,False,False,384,0.33899319999909494,0
+nextgqa:val:13919236672:9,recent4,shared_home_14012319794_13919236672,T,past_with_late_cue,what does the girl do after approaching the red box in the middle,1,3,3,D,False,False,False,192,0.19656209999811836,0
+nextgqa:val:13919236672:9,uniform4,shared_home_14012319794_13919236672,T,past_with_late_cue,what does the girl do after approaching the red box in the middle,1,0,0,A,False,False,False,192,0.19419360000028973,0
+nextgqa:val:13919236672:9,Q4,shared_home_14012319794_13919236672,T,past_with_late_cue,what does the girl do after approaching the red box in the middle,1,3,3,D,False,False,False,192,0.19702030000189552,1.3522681000031298
+nextgqa:val:13919236672:9,annotation4,shared_home_14012319794_13919236672,T,past_with_late_cue,what does the girl do after approaching the red box in the middle,1,3,3,D,False,False,False,192,0.1951716000039596,0
+nextgqa:val:13919236672:9,text_only,shared_home_14012319794_13919236672,T,past_with_late_cue,what does the girl do after approaching the red box in the middle,1,0,0,A,False,False,False,0,0.16947909999726107,0
+nextgqa:val:13919236672:5,native_original,shared_home_14012319794_13919236672,C,recent,why did the girl continue looking down while holding the blue toy at the end of the video,4,,4,E. pick up green object,False,True,True,1584,1.0216703999976744,0
+nextgqa:val:13919236672:5,full_pairwise,shared_home_14012319794_13919236672,C,recent,why did the girl continue looking down while holding the blue toy at the end of the video,4,,4,E. pick up green object,False,True,True,1584,0.8671027000018512,0
+nextgqa:val:13919236672:5,M1_all8,shared_home_14012319794_13919236672,C,recent,why did the girl continue looking down while holding the blue toy at the end of the video,4,1,1,B,False,False,False,384,0.3410269000014523,0
+nextgqa:val:13919236672:5,recent4,shared_home_14012319794_13919236672,C,recent,why did the girl continue looking down while holding the blue toy at the end of the video,4,4,4,E,True,True,False,192,0.1996475999985705,0
+nextgqa:val:13919236672:5,uniform4,shared_home_14012319794_13919236672,C,recent,why did the girl continue looking down while holding the blue toy at the end of the video,4,1,1,B,False,False,False,192,0.20231049999711104,0
+nextgqa:val:13919236672:5,Q4,shared_home_14012319794_13919236672,C,recent,why did the girl continue looking down while holding the blue toy at the end of the video,4,1,1,B,False,False,False,192,0.20036300000356277,2.0046713999981876
+nextgqa:val:13919236672:5,annotation4,shared_home_14012319794_13919236672,C,recent,why did the girl continue looking down while holding the blue toy at the end of the video,4,1,1,B,False,False,False,192,0.19778930000029504,0
+nextgqa:val:13919236672:5,text_only,shared_home_14012319794_13919236672,C,recent,why did the girl continue looking down while holding the blue toy at the end of the video,4,1,1,B,False,False,False,0,0.1776179000007687,0
+nextgqa:val:3851961428:8,native_original,vidor:3851961428,T,past_with_late_cue,what did the boy do after he took out the goggles,3,2,2,C,False,False,False,864,0.6257285999963642,0
+nextgqa:val:3851961428:8,full_pairwise,vidor:3851961428,T,past_with_late_cue,what did the boy do after he took out the goggles,3,2,2,C,False,False,False,864,0.7367693000051077,0
+nextgqa:val:3851961428:8,M1_all8,vidor:3851961428,T,past_with_late_cue,what did the boy do after he took out the goggles,3,2,2,C,False,False,False,384,0.33059879999927944,0
+nextgqa:val:3851961428:8,recent4,vidor:3851961428,T,past_with_late_cue,what did the boy do after he took out the goggles,3,2,2,C,False,False,False,192,0.1940859999958775,0
+nextgqa:val:3851961428:8,uniform4,vidor:3851961428,T,past_with_late_cue,what did the boy do after he took out the goggles,3,2,2,C,False,False,False,192,0.18936009999742964,0
+nextgqa:val:3851961428:8,Q4,vidor:3851961428,T,past_with_late_cue,what did the boy do after he took out the goggles,3,2,2,C,False,False,False,192,0.34290069999406114,1.626762100000633
+nextgqa:val:3851961428:8,annotation4,vidor:3851961428,T,past_with_late_cue,what did the boy do after he took out the goggles,3,2,2,C,False,False,False,192,0.1895868000065093,0
+nextgqa:val:3851961428:8,text_only,vidor:3851961428,T,past_with_late_cue,what did the boy do after he took out the goggles,3,2,2,C,False,False,False,0,0.1628151999975671,0
+nextgqa:val:3851961428:2,native_original,vidor:3851961428,T,past_with_late_cue,what did the man in red do after he saw the boy in blue struggle,3,2,2,C,False,False,False,864,0.6416629999948782,0
+nextgqa:val:3851961428:2,full_pairwise,vidor:3851961428,T,past_with_late_cue,what did the man in red do after he saw the boy in blue struggle,3,2,2,C,False,False,False,864,0.5034486000004108,0
+nextgqa:val:3851961428:2,M1_all8,vidor:3851961428,T,past_with_late_cue,what did the man in red do after he saw the boy in blue struggle,3,2,2,C,False,False,False,384,0.33209440000064205,0
+nextgqa:val:3851961428:2,recent4,vidor:3851961428,T,past_with_late_cue,what did the man in red do after he saw the boy in blue struggle,3,2,2,C,False,False,False,192,0.19296049999684328,0
+nextgqa:val:3851961428:2,uniform4,vidor:3851961428,T,past_with_late_cue,what did the man in red do after he saw the boy in blue struggle,3,2,2,C,False,False,False,192,0.19066970000130823,0
+nextgqa:val:3851961428:2,Q4,vidor:3851961428,T,past_with_late_cue,what did the man in red do after he saw the boy in blue struggle,3,2,2,C,False,False,False,192,0.18802919999870937,1.341215699998429
+nextgqa:val:3851961428:2,annotation4,vidor:3851961428,T,past_with_late_cue,what did the man in red do after he saw the boy in blue struggle,3,2,2,C,False,False,False,192,0.18741149999550544,0
+nextgqa:val:3851961428:2,text_only,vidor:3851961428,T,past_with_late_cue,what did the man in red do after he saw the boy in blue struggle,3,1,1,B,False,False,False,0,0.17330589999619406,0
+nextgqa:val:3851961428:10,native_original,vidor:3851961428,T,recent,what did the person on the most right do after he did a gesture to the man in red,3,2,2,C,False,False,False,864,0.6485775999972248,0
+nextgqa:val:3851961428:10,full_pairwise,vidor:3851961428,T,recent,what did the person on the most right do after he did a gesture to the man in red,3,2,2,C,False,False,False,864,0.8616472999929101,0
+nextgqa:val:3851961428:10,M1_all8,vidor:3851961428,T,recent,what did the person on the most right do after he did a gesture to the man in red,3,2,2,C,False,False,False,384,0.33930120000150055,0
+nextgqa:val:3851961428:10,recent4,vidor:3851961428,T,recent,what did the person on the most right do after he did a gesture to the man in red,3,2,2,C,False,False,False,192,0.35459890000493033,0
+nextgqa:val:3851961428:10,uniform4,vidor:3851961428,T,recent,what did the person on the most right do after he did a gesture to the man in red,3,2,2,C,False,False,False,192,0.19978590000391705,0
+nextgqa:val:3851961428:10,Q4,vidor:3851961428,T,recent,what did the person on the most right do after he did a gesture to the man in red,3,2,2,C,False,False,False,192,0.19033490000583697,2.2214461999974446
+nextgqa:val:3851961428:10,annotation4,vidor:3851961428,T,recent,what did the person on the most right do after he did a gesture to the man in red,3,2,2,C,False,False,False,192,0.187595199997304,0
+nextgqa:val:3851961428:10,text_only,vidor:3851961428,T,recent,what did the person on the most right do after he did a gesture to the man in red,3,2,2,C,False,False,False,0,0.16964569999981904,0
+nextgqa:val:4251505427:6,native_original,vidor:4251505427,T,past_with_late_cue,what does the child with beanie do after pointing 1 finger up at the start,0,,0,A. go closer to camera,False,True,True,912,0.6806830000059563,0
+nextgqa:val:4251505427:6,full_pairwise,vidor:4251505427,T,past_with_late_cue,what does the child with beanie do after pointing 1 finger up at the start,0,,0,A. go closer to camera,False,True,True,912,1.0012149000031059,0
+nextgqa:val:4251505427:6,M1_all8,vidor:4251505427,T,past_with_late_cue,what does the child with beanie do after pointing 1 finger up at the start,0,0,0,A,True,True,False,384,0.3358804000017699,0
+nextgqa:val:4251505427:6,recent4,vidor:4251505427,T,past_with_late_cue,what does the child with beanie do after pointing 1 finger up at the start,0,0,0,A,True,True,False,192,0.19341419999545906,0
+nextgqa:val:4251505427:6,uniform4,vidor:4251505427,T,past_with_late_cue,what does the child with beanie do after pointing 1 finger up at the start,0,1,1,B,False,False,False,192,0.19432500000402797,0
+nextgqa:val:4251505427:6,Q4,vidor:4251505427,T,past_with_late_cue,what does the child with beanie do after pointing 1 finger up at the start,0,1,1,B,False,False,False,192,0.19344409999757772,1.3558386999939103
+nextgqa:val:4251505427:6,annotation4,vidor:4251505427,T,past_with_late_cue,what does the child with beanie do after pointing 1 finger up at the start,0,1,1,B,False,False,False,192,0.18946900000446476,0
+nextgqa:val:4251505427:6,text_only,vidor:4251505427,T,past_with_late_cue,what does the child with beanie do after pointing 1 finger up at the start,0,1,1,B,False,False,False,0,0.16702989999612328,0
+nextgqa:val:8797589693:6,native_original,vidor:8797589693,F,past_with_late_cue,how does the man in black signal the man in blue to take a seat at the start,4,4,4,E,True,True,False,1104,0.6574284000016632,0
+nextgqa:val:8797589693:6,full_pairwise,vidor:8797589693,F,past_with_late_cue,how does the man in black signal the man in blue to take a seat at the start,4,4,4,E,True,True,False,1104,0.6534620000020368,0
+nextgqa:val:8797589693:6,M1_all8,vidor:8797589693,F,past_with_late_cue,how does the man in black signal the man in blue to take a seat at the start,4,4,4,E,True,True,False,384,0.3367027999993297,0
+nextgqa:val:8797589693:6,recent4,vidor:8797589693,F,past_with_late_cue,how does the man in black signal the man in blue to take a seat at the start,4,4,4,E,True,True,False,192,0.19081979999464238,0
+nextgqa:val:8797589693:6,uniform4,vidor:8797589693,F,past_with_late_cue,how does the man in black signal the man in blue to take a seat at the start,4,4,4,E,True,True,False,192,0.18932309999945574,0
+nextgqa:val:8797589693:6,Q4,vidor:8797589693,F,past_with_late_cue,how does the man in black signal the man in blue to take a seat at the start,4,4,4,E,True,True,False,192,0.19248869999864837,1.374393099998997
+nextgqa:val:8797589693:6,annotation4,vidor:8797589693,F,past_with_late_cue,how does the man in black signal the man in blue to take a seat at the start,4,4,4,E,True,True,False,192,0.18979620000027353,0
+nextgqa:val:8797589693:6,text_only,vidor:8797589693,F,past_with_late_cue,how does the man in black signal the man in blue to take a seat at the start,4,2,2,C,False,False,False,0,0.16547110000101384,0
+nextgqa:val:8797589693:8,native_original,vidor:8797589693,C,recent,why is the lady in white holding a phone at the end,3,3,3,D,True,True,False,1104,0.6369775999992271,0
+nextgqa:val:8797589693:8,full_pairwise,vidor:8797589693,C,recent,why is the lady in white holding a phone at the end,3,3,3,D,True,True,False,1104,0.5258969999995315,0
+nextgqa:val:8797589693:8,M1_all8,vidor:8797589693,C,recent,why is the lady in white holding a phone at the end,3,3,3,D,True,True,False,384,0.32431280000309926,0
+nextgqa:val:8797589693:8,recent4,vidor:8797589693,C,recent,why is the lady in white holding a phone at the end,3,3,3,D,True,True,False,192,0.1875551999983145,0
+nextgqa:val:8797589693:8,uniform4,vidor:8797589693,C,recent,why is the lady in white holding a phone at the end,3,3,3,D,True,True,False,192,0.1919188999963808,0
+nextgqa:val:8797589693:8,Q4,vidor:8797589693,C,recent,why is the lady in white holding a phone at the end,3,3,3,D,True,True,False,192,0.19420959999843035,1.304837800002133
+nextgqa:val:8797589693:8,annotation4,vidor:8797589693,C,recent,why is the lady in white holding a phone at the end,3,3,3,D,True,True,False,192,0.1921479000011459,0
+nextgqa:val:8797589693:8,text_only,vidor:8797589693,C,recent,why is the lady in white holding a phone at the end,3,0,0,A,False,False,False,0,0.1711966000002576,0
+nextgqa:val:4882821564:4,native_original,vidor:4882821564,F,past_with_late_cue,how did the boy react when he entered the room at the start,3,4,4,E,False,False,False,1104,0.754230300000927,0
+nextgqa:val:4882821564:4,full_pairwise,vidor:4882821564,F,past_with_late_cue,how did the boy react when he entered the room at the start,3,4,4,E,False,False,False,1104,0.5834705000015674,0
+nextgqa:val:4882821564:4,M1_all8,vidor:4882821564,F,past_with_late_cue,how did the boy react when he entered the room at the start,3,4,4,E,False,False,False,384,0.3301104000056512,0
+nextgqa:val:4882821564:4,recent4,vidor:4882821564,F,past_with_late_cue,how did the boy react when he entered the room at the start,3,4,4,E,False,False,False,192,0.21591669999907026,0
+nextgqa:val:4882821564:4,uniform4,vidor:4882821564,F,past_with_late_cue,how did the boy react when he entered the room at the start,3,4,4,E,False,False,False,192,0.1949492000057944,0
+nextgqa:val:4882821564:4,Q4,vidor:4882821564,F,past_with_late_cue,how did the boy react when he entered the room at the start,3,4,4,E,False,False,False,192,0.1900817999994615,1.8463422999993782
+nextgqa:val:4882821564:4,annotation4,vidor:4882821564,F,past_with_late_cue,how did the boy react when he entered the room at the start,3,4,4,E,False,False,False,192,0.19229619999532588,0
+nextgqa:val:4882821564:4,text_only,vidor:4882821564,F,past_with_late_cue,how did the boy react when he entered the room at the start,3,4,4,E,False,False,False,0,0.16911329999857116,0
+nextgqa:val:4882821564:5,native_original,vidor:4882821564,T,past_not_repeated_in_samples,what did the woman do after the boy walked towards her with a present,1,,2,C. walk to the sofa,False,False,True,1104,0.7711596000008285,0
+nextgqa:val:4882821564:5,full_pairwise,vidor:4882821564,T,past_not_repeated_in_samples,what did the woman do after the boy walked towards her with a present,1,,2,C. walk to the sofa,False,False,True,1104,0.6476523999954225,0
+nextgqa:val:4882821564:5,M1_all8,vidor:4882821564,T,past_not_repeated_in_samples,what did the woman do after the boy walked towards her with a present,1,0,0,A,False,False,False,384,0.32609149999916553,0
+nextgqa:val:4882821564:5,recent4,vidor:4882821564,T,past_not_repeated_in_samples,what did the woman do after the boy walked towards her with a present,1,1,1,B,True,True,False,192,0.18817320000380278,0
+nextgqa:val:4882821564:5,uniform4,vidor:4882821564,T,past_not_repeated_in_samples,what did the woman do after the boy walked towards her with a present,1,1,1,B,True,True,False,192,0.3427838999996311,0
+nextgqa:val:4882821564:5,Q4,vidor:4882821564,T,past_not_repeated_in_samples,what did the woman do after the boy walked towards her with a present,1,0,0,A,False,False,False,192,0.18765179999900283,1.3682912000003853
+nextgqa:val:4882821564:5,annotation4,vidor:4882821564,T,past_not_repeated_in_samples,what did the woman do after the boy walked towards her with a present,1,1,1,B,True,True,False,192,0.1883224000048358,0
+nextgqa:val:4882821564:5,text_only,vidor:4882821564,T,past_not_repeated_in_samples,what did the woman do after the boy walked towards her with a present,1,0,0,A,False,False,False,0,0.1653987999961828,0
+nextgqa:val:4882821564:3,native_original,vidor:4882821564,C,recent,why did the boy return to the christmas tree after unwrapping one present,2,2,2,C,True,True,False,1104,0.6392552000033902,0
+nextgqa:val:4882821564:3,full_pairwise,vidor:4882821564,C,recent,why did the boy return to the christmas tree after unwrapping one present,2,2,2,C,True,True,False,1104,0.5341576999999234,0
+nextgqa:val:4882821564:3,M1_all8,vidor:4882821564,C,recent,why did the boy return to the christmas tree after unwrapping one present,2,2,2,C,True,True,False,384,0.3301508000004105,0
+nextgqa:val:4882821564:3,recent4,vidor:4882821564,C,recent,why did the boy return to the christmas tree after unwrapping one present,2,2,2,C,True,True,False,192,0.19371700000192504,0
+nextgqa:val:4882821564:3,uniform4,vidor:4882821564,C,recent,why did the boy return to the christmas tree after unwrapping one present,2,2,2,C,True,True,False,192,0.1863773000004585,0
+nextgqa:val:4882821564:3,Q4,vidor:4882821564,C,recent,why did the boy return to the christmas tree after unwrapping one present,2,2,2,C,True,True,False,192,0.18679189999966184,1.341337999998359
+nextgqa:val:4882821564:3,annotation4,vidor:4882821564,C,recent,why did the boy return to the christmas tree after unwrapping one present,2,2,2,C,True,True,False,192,0.1863396999979159,0
+nextgqa:val:4882821564:3,text_only,vidor:4882821564,C,recent,why did the boy return to the christmas tree after unwrapping one present,2,2,2,C,True,True,False,0,0.16683590000320692,0
+nextgqa:val:7330294814:7,native_original,vidor:7330294814,T,past_with_late_cue,what does the lady in white do after sitting on the couch at the start,0,,3,D. look down at its body then,False,False,True,960,0.7996267999988049,0
+nextgqa:val:7330294814:7,full_pairwise,vidor:7330294814,T,past_with_late_cue,what does the lady in white do after sitting on the couch at the start,0,,3,D. look down at its body then,False,False,True,960,0.668073100001493,0
+nextgqa:val:7330294814:7,M1_all8,vidor:7330294814,T,past_with_late_cue,what does the lady in white do after sitting on the couch at the start,0,3,3,D,False,False,False,384,0.3299893000003067,0
+nextgqa:val:7330294814:7,recent4,vidor:7330294814,T,past_with_late_cue,what does the lady in white do after sitting on the couch at the start,0,3,3,D,False,False,False,192,0.19064670000079786,0
+nextgqa:val:7330294814:7,uniform4,vidor:7330294814,T,past_with_late_cue,what does the lady in white do after sitting on the couch at the start,0,3,3,D,False,False,False,192,0.19018839999625925,0
+nextgqa:val:7330294814:7,Q4,vidor:7330294814,T,past_with_late_cue,what does the lady in white do after sitting on the couch at the start,0,3,3,D,False,False,False,192,0.18612749999738298,1.3917600999993738
+nextgqa:val:7330294814:7,annotation4,vidor:7330294814,T,past_with_late_cue,what does the lady in white do after sitting on the couch at the start,0,3,3,D,False,False,False,192,0.18933780000224942,0
+nextgqa:val:7330294814:7,text_only,vidor:7330294814,T,past_with_late_cue,what does the lady in white do after sitting on the couch at the start,0,3,3,D,False,False,False,0,0.16636529999959748,0
+nextgqa:val:7330294814:0,native_original,vidor:7330294814,F,recent,what is the baby in yellow doing on the floor,4,,0,A. fell down,False,False,True,960,0.6330386999979964,0
+nextgqa:val:7330294814:0,full_pairwise,vidor:7330294814,F,recent,what is the baby in yellow doing on the floor,4,,0,A. fell down,False,False,True,960,0.8096495999998297,0
+nextgqa:val:7330294814:0,M1_all8,vidor:7330294814,F,recent,what is the baby in yellow doing on the floor,4,0,0,A,False,False,False,384,0.34503330000006827,0
+nextgqa:val:7330294814:0,recent4,vidor:7330294814,F,recent,what is the baby in yellow doing on the floor,4,4,4,E,True,True,False,192,0.19687589999375632,0
+nextgqa:val:7330294814:0,uniform4,vidor:7330294814,F,recent,what is the baby in yellow doing on the floor,4,0,0,A,False,False,False,192,0.19359090000216383,0
+nextgqa:val:7330294814:0,Q4,vidor:7330294814,F,recent,what is the baby in yellow doing on the floor,4,0,0,A,False,False,False,192,0.19128269999782788,1.3240830000067945
+nextgqa:val:7330294814:0,annotation4,vidor:7330294814,F,recent,what is the baby in yellow doing on the floor,4,0,0,A,False,False,False,192,0.19017750000057276,0
+nextgqa:val:7330294814:0,text_only,vidor:7330294814,F,recent,what is the baby in yellow doing on the floor,4,1,1,B,False,False,False,0,0.16676490000099875,0
+nextgqa:val:3846475848:4,native_original,vidor:3846475848,T,past_not_repeated_in_samples,what does the man do after cleaning one side of the ferret,2,,2,C. lift ferret up,False,True,True,864,0.6574979999932111,0
+nextgqa:val:3846475848:4,full_pairwise,vidor:3846475848,T,past_not_repeated_in_samples,what does the man do after cleaning one side of the ferret,2,,2,C. lift ferret up,False,True,True,864,0.7029321000009077,0
+nextgqa:val:3846475848:4,M1_all8,vidor:3846475848,T,past_not_repeated_in_samples,what does the man do after cleaning one side of the ferret,2,2,2,C,True,True,False,384,0.5371037000004435,0
+nextgqa:val:3846475848:4,recent4,vidor:3846475848,T,past_not_repeated_in_samples,what does the man do after cleaning one side of the ferret,2,2,2,C,True,True,False,192,0.18948850000015227,0
+nextgqa:val:3846475848:4,uniform4,vidor:3846475848,T,past_not_repeated_in_samples,what does the man do after cleaning one side of the ferret,2,2,2,C,True,True,False,192,0.18665479999617673,0
+nextgqa:val:3846475848:4,Q4,vidor:3846475848,T,past_not_repeated_in_samples,what does the man do after cleaning one side of the ferret,2,2,2,C,True,True,False,192,0.1860928000023705,2.4482615999950212
+nextgqa:val:3846475848:4,annotation4,vidor:3846475848,T,past_not_repeated_in_samples,what does the man do after cleaning one side of the ferret,2,2,2,C,True,True,False,192,0.18905589999485528,0
+nextgqa:val:3846475848:4,text_only,vidor:3846475848,T,past_not_repeated_in_samples,what does the man do after cleaning one side of the ferret,2,2,2,C,True,True,False,0,0.16647540000121808,0
+nextgqa:val:3846475848:5,native_original,vidor:3846475848,T,past_with_late_cue,what does the man do after finishing cleaning the ferret,3,,3,D. use towel dry ferret,False,True,True,864,0.6648511000021244,0
+nextgqa:val:3846475848:5,full_pairwise,vidor:3846475848,T,past_with_late_cue,what does the man do after finishing cleaning the ferret,3,,3,D. use towel dry ferret,False,True,True,864,0.6432289000003948,0
+nextgqa:val:3846475848:5,M1_all8,vidor:3846475848,T,past_with_late_cue,what does the man do after finishing cleaning the ferret,3,3,3,D,True,True,False,384,0.3218711000008625,0
+nextgqa:val:3846475848:5,recent4,vidor:3846475848,T,past_with_late_cue,what does the man do after finishing cleaning the ferret,3,3,3,D,True,True,False,192,0.18632649999926798,0
+nextgqa:val:3846475848:5,uniform4,vidor:3846475848,T,past_with_late_cue,what does the man do after finishing cleaning the ferret,3,3,3,D,True,True,False,192,0.18539700000110315,0
+nextgqa:val:3846475848:5,Q4,vidor:3846475848,T,past_with_late_cue,what does the man do after finishing cleaning the ferret,3,3,3,D,True,True,False,192,0.18785699999716599,1.2946641000016825
+nextgqa:val:3846475848:5,annotation4,vidor:3846475848,T,past_with_late_cue,what does the man do after finishing cleaning the ferret,3,3,3,D,True,True,False,192,0.1859658999965177,0
+nextgqa:val:3846475848:5,text_only,vidor:3846475848,T,past_with_late_cue,what does the man do after finishing cleaning the ferret,3,0,0,A,False,False,False,0,0.17095549999794457,0
+nextgqa:val:3846475848:7,native_original,vidor:3846475848,T,recent,what does the man do after the ferret attempts to run away,0,0,0,A,True,True,False,864,0.514340000001539,0
+nextgqa:val:3846475848:7,full_pairwise,vidor:3846475848,T,recent,what does the man do after the ferret attempts to run away,0,0,0,A,True,True,False,864,0.4948216000047978,0
+nextgqa:val:3846475848:7,M1_all8,vidor:3846475848,T,recent,what does the man do after the ferret attempts to run away,0,0,0,A,True,True,False,384,0.3215813999995589,0
+nextgqa:val:3846475848:7,recent4,vidor:3846475848,T,recent,what does the man do after the ferret attempts to run away,0,0,0,A,True,True,False,192,0.1826705999992555,0
+nextgqa:val:3846475848:7,uniform4,vidor:3846475848,T,recent,what does the man do after the ferret attempts to run away,0,0,0,A,True,True,False,192,0.18506010000419337,0
+nextgqa:val:3846475848:7,Q4,vidor:3846475848,T,recent,what does the man do after the ferret attempts to run away,0,0,0,A,True,True,False,192,0.18745760000456357,1.6316797999970731
+nextgqa:val:3846475848:7,annotation4,vidor:3846475848,T,recent,what does the man do after the ferret attempts to run away,0,0,0,A,True,True,False,192,0.1874491999988095,0
+nextgqa:val:3846475848:7,text_only,vidor:3846475848,T,recent,what does the man do after the ferret attempts to run away,0,0,0,A,True,True,False,0,0.16446240000368562,0
+nextgqa:val:6443512089:5,native_original,vidor:6443512089,F,past_with_late_cue,what does the child change the pace of his movement into,4,4,4,E,True,True,False,1008,0.5939644999962184,0
+nextgqa:val:6443512089:5,full_pairwise,vidor:6443512089,F,past_with_late_cue,what does the child change the pace of his movement into,4,4,4,E,True,True,False,1008,0.5316682999982731,0
+nextgqa:val:6443512089:5,M1_all8,vidor:6443512089,F,past_with_late_cue,what does the child change the pace of his movement into,4,4,4,E,True,True,False,384,0.3269568999967305,0
+nextgqa:val:6443512089:5,recent4,vidor:6443512089,F,past_with_late_cue,what does the child change the pace of his movement into,4,0,0,A,False,False,False,192,0.18713040000147885,0
+nextgqa:val:6443512089:5,uniform4,vidor:6443512089,F,past_with_late_cue,what does the child change the pace of his movement into,4,4,4,E,True,True,False,192,0.3451829999976326,0
+nextgqa:val:6443512089:5,Q4,vidor:6443512089,F,past_with_late_cue,what does the child change the pace of his movement into,4,0,0,A,False,False,False,192,0.35085809999873163,1.9542791999992914
+nextgqa:val:6443512089:5,annotation4,vidor:6443512089,F,past_with_late_cue,what does the child change the pace of his movement into,4,4,4,E,True,True,False,192,0.1878651999941212,0
+nextgqa:val:6443512089:5,text_only,vidor:6443512089,F,past_with_late_cue,what does the child change the pace of his movement into,4,4,4,E,True,True,False,0,0.1634831999981543,0
+nextgqa:val:6078524411:5,native_original,vidor:6078524411,F,past_with_late_cue,how does the baby play with the paper,2,2,2,C,True,True,False,1008,0.6590636999972048,0
+nextgqa:val:6078524411:5,full_pairwise,vidor:6078524411,F,past_with_late_cue,how does the baby play with the paper,2,2,2,C,True,True,False,1008,0.5225200999993831,0
+nextgqa:val:6078524411:5,M1_all8,vidor:6078524411,F,past_with_late_cue,how does the baby play with the paper,2,0,0,A,False,False,False,384,0.3241691000002902,0
+nextgqa:val:6078524411:5,recent4,vidor:6078524411,F,past_with_late_cue,how does the baby play with the paper,2,0,0,A,False,False,False,192,0.3461563000018941,0
+nextgqa:val:6078524411:5,uniform4,vidor:6078524411,F,past_with_late_cue,how does the baby play with the paper,2,0,0,A,False,False,False,192,0.18565519999538083,0
+nextgqa:val:6078524411:5,Q4,vidor:6078524411,F,past_with_late_cue,how does the baby play with the paper,2,0,0,A,False,False,False,192,0.1858838999978616,1.9689538000020548
+nextgqa:val:6078524411:5,annotation4,vidor:6078524411,F,past_with_late_cue,how does the baby play with the paper,2,0,0,A,False,False,False,192,0.18723029999819119,0
+nextgqa:val:6078524411:5,text_only,vidor:6078524411,F,past_with_late_cue,how does the baby play with the paper,2,0,0,A,False,False,False,0,0.16287829999782844,0
+nextgqa:val:6078524411:8,native_original,vidor:6078524411,F,past_with_late_cue,what does the boy do with the toy on the table,4,0,0,A,False,False,False,1008,0.5895841000019573,0
+nextgqa:val:6078524411:8,full_pairwise,vidor:6078524411,F,past_with_late_cue,what does the boy do with the toy on the table,4,0,0,A,False,False,False,1008,0.869187399999646,0
+nextgqa:val:6078524411:8,M1_all8,vidor:6078524411,F,past_with_late_cue,what does the boy do with the toy on the table,4,0,0,A,False,False,False,384,0.3931200000006356,0
+nextgqa:val:6078524411:8,recent4,vidor:6078524411,F,past_with_late_cue,what does the boy do with the toy on the table,4,0,0,A,False,False,False,192,0.19199739999749,0
+nextgqa:val:6078524411:8,uniform4,vidor:6078524411,F,past_with_late_cue,what does the boy do with the toy on the table,4,0,0,A,False,False,False,192,0.1953231000006781,0
+nextgqa:val:6078524411:8,Q4,vidor:6078524411,F,past_with_late_cue,what does the boy do with the toy on the table,4,0,0,A,False,False,False,192,0.1904833000007784,1.3277209000007133
+nextgqa:val:6078524411:8,annotation4,vidor:6078524411,F,past_with_late_cue,what does the boy do with the toy on the table,4,0,0,A,False,False,False,192,0.18865219999861438,0
+nextgqa:val:6078524411:8,text_only,vidor:6078524411,F,past_with_late_cue,what does the boy do with the toy on the table,4,0,0,A,False,False,False,0,0.1673947000017506,0
+nextgqa:val:6078524411:2,native_original,vidor:6078524411,T,recent,how did the baby do after playing by himself for a while,3,4,4,E,False,False,False,1008,0.5822479999987991,0
+nextgqa:val:6078524411:2,full_pairwise,vidor:6078524411,T,recent,how did the baby do after playing by himself for a while,3,4,4,E,False,False,False,1008,0.5135241000025417,0
+nextgqa:val:6078524411:2,M1_all8,vidor:6078524411,T,recent,how did the baby do after playing by himself for a while,3,4,4,E,False,False,False,384,0.3268007000006037,0
+nextgqa:val:6078524411:2,recent4,vidor:6078524411,T,recent,how did the baby do after playing by himself for a while,3,4,4,E,False,False,False,192,0.19109810000372818,0
+nextgqa:val:6078524411:2,uniform4,vidor:6078524411,T,recent,how did the baby do after playing by himself for a while,3,4,4,E,False,False,False,192,0.1876127999930759,0
+nextgqa:val:6078524411:2,Q4,vidor:6078524411,T,recent,how did the baby do after playing by himself for a while,3,4,4,E,False,False,False,192,0.18744120000337716,1.3155924000020605
+nextgqa:val:6078524411:2,annotation4,vidor:6078524411,T,recent,how did the baby do after playing by himself for a while,3,4,4,E,False,False,False,192,0.189958499999193,0
+nextgqa:val:6078524411:2,text_only,vidor:6078524411,T,recent,how did the baby do after playing by himself for a while,3,0,0,A,False,False,False,0,0.1704539999991539,0
+nextgqa:val:3124551255:6,native_original,vidor:3124551255,T,past_with_late_cue,what does the boy do after putting his hand into the mouth of toy at the start,3,4,4,E,False,False,False,816,0.5787018000046373,0
+nextgqa:val:3124551255:6,full_pairwise,vidor:3124551255,T,past_with_late_cue,what does the boy do after putting his hand into the mouth of toy at the start,3,4,4,E,False,False,False,816,0.6595126000029268,0
+nextgqa:val:3124551255:6,M1_all8,vidor:3124551255,T,past_with_late_cue,what does the boy do after putting his hand into the mouth of toy at the start,3,4,4,E,False,False,False,384,0.3279136999990442,0
+nextgqa:val:3124551255:6,recent4,vidor:3124551255,T,past_with_late_cue,what does the boy do after putting his hand into the mouth of toy at the start,3,4,4,E,False,False,False,192,0.34460529999341816,0
+nextgqa:val:3124551255:6,uniform4,vidor:3124551255,T,past_with_late_cue,what does the boy do after putting his hand into the mouth of toy at the start,3,4,4,E,False,False,False,192,0.35970679999445565,0
+nextgqa:val:3124551255:6,Q4,vidor:3124551255,T,past_with_late_cue,what does the boy do after putting his hand into the mouth of toy at the start,3,4,4,E,False,False,False,192,0.3662744999965071,1.6219075999979395
+nextgqa:val:3124551255:6,annotation4,vidor:3124551255,T,past_with_late_cue,what does the boy do after putting his hand into the mouth of toy at the start,3,4,4,E,False,False,False,192,0.34477859999606153,0
+nextgqa:val:3124551255:6,text_only,vidor:3124551255,T,past_with_late_cue,what does the boy do after putting his hand into the mouth of toy at the start,3,3,3,D,True,True,False,0,0.16657159999886062,0
+nextgqa:val:4488066715:4,native_original,vidor:4488066715,F,past_with_late_cue,how does the adult react when the baby tries to touch the bowl with his other hand,2,2,2,C,True,True,False,1056,0.608239399996819,0
+nextgqa:val:4488066715:4,full_pairwise,vidor:4488066715,F,past_with_late_cue,how does the adult react when the baby tries to touch the bowl with his other hand,2,2,2,C,True,True,False,1056,0.5095612000004621,0
+nextgqa:val:4488066715:4,M1_all8,vidor:4488066715,F,past_with_late_cue,how does the adult react when the baby tries to touch the bowl with his other hand,2,2,2,C,True,True,False,384,0.32550240000273334,0
+nextgqa:val:4488066715:4,recent4,vidor:4488066715,F,past_with_late_cue,how does the adult react when the baby tries to touch the bowl with his other hand,2,2,2,C,True,True,False,192,0.18699890000425512,0
+nextgqa:val:4488066715:4,uniform4,vidor:4488066715,F,past_with_late_cue,how does the adult react when the baby tries to touch the bowl with his other hand,2,2,2,C,True,True,False,192,0.18218000000342727,0
+nextgqa:val:4488066715:4,Q4,vidor:4488066715,F,past_with_late_cue,how does the adult react when the baby tries to touch the bowl with his other hand,2,2,2,C,True,True,False,192,0.1880313000001479,1.361035499998252
+nextgqa:val:4488066715:4,annotation4,vidor:4488066715,F,past_with_late_cue,how does the adult react when the baby tries to touch the bowl with his other hand,2,2,2,C,True,True,False,192,0.18963020000228425,0
+nextgqa:val:4488066715:4,text_only,vidor:4488066715,F,past_with_late_cue,how does the adult react when the baby tries to touch the bowl with his other hand,2,2,2,C,True,True,False,0,0.16952799999853596,0
+nextgqa:val:4488066715:0,native_original,vidor:4488066715,C,recent,why does the baby hold on to the whisk,4,2,2,C,False,False,False,1056,0.6033253999994486,0
+nextgqa:val:4488066715:0,full_pairwise,vidor:4488066715,C,recent,why does the baby hold on to the whisk,4,2,2,C,False,False,False,1056,0.6614197000017157,0
+nextgqa:val:4488066715:0,M1_all8,vidor:4488066715,C,recent,why does the baby hold on to the whisk,4,2,2,C,False,False,False,384,0.5720761000047787,0
+nextgqa:val:4488066715:0,recent4,vidor:4488066715,C,recent,why does the baby hold on to the whisk,4,2,2,C,False,False,False,192,0.3446803999977419,0
+nextgqa:val:4488066715:0,uniform4,vidor:4488066715,C,recent,why does the baby hold on to the whisk,4,4,4,E,True,True,False,192,0.18524960000650026,0
+nextgqa:val:4488066715:0,Q4,vidor:4488066715,C,recent,why does the baby hold on to the whisk,4,4,4,E,True,True,False,192,0.1861088000005111,1.3145908000005875
+nextgqa:val:4488066715:0,annotation4,vidor:4488066715,C,recent,why does the baby hold on to the whisk,4,,4,E. playing,False,True,True,192,0.2320534999962547,0
+nextgqa:val:4488066715:0,text_only,vidor:4488066715,C,recent,why does the baby hold on to the whisk,4,1,1,B,False,False,False,0,0.16096739999920828,0
+nextgqa:val:5521781780:0,native_original,vidor:5521781780,T,past_not_repeated_in_samples,what does the man in grey do after taking a photo of the first structure at the start,1,2,2,C,False,False,False,1104,0.6581952000051388,0
+nextgqa:val:5521781780:0,full_pairwise,vidor:5521781780,T,past_not_repeated_in_samples,what does the man in grey do after taking a photo of the first structure at the start,1,2,2,C,False,False,False,1104,0.5540854999999283,0
+nextgqa:val:5521781780:0,M1_all8,vidor:5521781780,T,past_not_repeated_in_samples,what does the man in grey do after taking a photo of the first structure at the start,1,2,2,C,False,False,False,384,0.322396800002025,0
+nextgqa:val:5521781780:0,recent4,vidor:5521781780,T,past_not_repeated_in_samples,what does the man in grey do after taking a photo of the first structure at the start,1,1,1,B,True,True,False,192,0.18373939999582944,0
+nextgqa:val:5521781780:0,uniform4,vidor:5521781780,T,past_not_repeated_in_samples,what does the man in grey do after taking a photo of the first structure at the start,1,1,1,B,True,True,False,192,0.18543360000330722,0
+nextgqa:val:5521781780:0,Q4,vidor:5521781780,T,past_not_repeated_in_samples,what does the man in grey do after taking a photo of the first structure at the start,1,2,2,C,False,False,False,192,0.1821533999973326,1.336086700001033
+nextgqa:val:5521781780:0,annotation4,vidor:5521781780,T,past_not_repeated_in_samples,what does the man in grey do after taking a photo of the first structure at the start,1,1,1,B,True,True,False,192,0.1831949999977951,0
+nextgqa:val:5521781780:0,text_only,vidor:5521781780,T,past_not_repeated_in_samples,what does the man in grey do after taking a photo of the first structure at the start,1,1,1,B,True,True,False,0,0.16525560000445694,0
+nextgqa:val:5521781780:3,native_original,vidor:5521781780,F,past_not_repeated_in_samples,what does the man in grey hold in his hands while he was walking around,0,0,0,A,True,True,False,1104,0.6433455000005779,0
+nextgqa:val:5521781780:3,full_pairwise,vidor:5521781780,F,past_not_repeated_in_samples,what does the man in grey hold in his hands while he was walking around,0,0,0,A,True,True,False,1104,0.5275287000040407,0
+nextgqa:val:5521781780:3,M1_all8,vidor:5521781780,F,past_not_repeated_in_samples,what does the man in grey hold in his hands while he was walking around,0,0,0,A,True,True,False,384,0.3220350000046892,0
+nextgqa:val:5521781780:3,recent4,vidor:5521781780,F,past_not_repeated_in_samples,what does the man in grey hold in his hands while he was walking around,0,0,0,A,True,True,False,192,0.2047180000008666,0
+nextgqa:val:5521781780:3,uniform4,vidor:5521781780,F,past_not_repeated_in_samples,what does the man in grey hold in his hands while he was walking around,0,0,0,A,True,True,False,192,0.18594560000201454,0
+nextgqa:val:5521781780:3,Q4,vidor:5521781780,F,past_not_repeated_in_samples,what does the man in grey hold in his hands while he was walking around,0,2,2,C,False,False,False,192,0.1852541000043857,2.2032499999986612
+nextgqa:val:5521781780:3,annotation4,vidor:5521781780,F,past_not_repeated_in_samples,what does the man in grey hold in his hands while he was walking around,0,2,2,C,False,False,False,192,0.1868908999967971,0
+nextgqa:val:5521781780:3,text_only,vidor:5521781780,F,past_not_repeated_in_samples,what does the man in grey hold in his hands while he was walking around,0,0,0,A,True,True,False,0,0.1612091999995755,0
+nextgqa:val:5521781780:7,native_original,vidor:5521781780,F,recent,what activity is being carried out by the group of people,3,3,3,D,True,True,False,1104,0.6439096000030986,0
+nextgqa:val:5521781780:7,full_pairwise,vidor:5521781780,F,recent,what activity is being carried out by the group of people,3,3,3,D,True,True,False,1104,0.6654013999941526,0
+nextgqa:val:5521781780:7,M1_all8,vidor:5521781780,F,recent,what activity is being carried out by the group of people,3,3,3,D,True,True,False,384,0.5734229000008781,0
+nextgqa:val:5521781780:7,recent4,vidor:5521781780,F,recent,what activity is being carried out by the group of people,3,3,3,D,True,True,False,192,0.19014600000082282,0
+nextgqa:val:5521781780:7,uniform4,vidor:5521781780,F,recent,what activity is being carried out by the group of people,3,3,3,D,True,True,False,192,0.18669319999753498,0
+nextgqa:val:5521781780:7,Q4,vidor:5521781780,F,recent,what activity is being carried out by the group of people,3,3,3,D,True,True,False,192,0.19048900000052527,1.3012173000024632
+nextgqa:val:5521781780:7,annotation4,vidor:5521781780,F,recent,what activity is being carried out by the group of people,3,3,3,D,True,True,False,192,0.19105380000110017,0
+nextgqa:val:5521781780:7,text_only,vidor:5521781780,F,recent,what activity is being carried out by the group of people,3,2,2,C,False,False,False,0,0.16351330000179587,0
+nextgqa:val:3477387686:5,native_original,vidor:3477387686,F,past_with_late_cue,how did the girl show affection to the dog in the beginning of the video,1,1,1,B,True,True,False,816,0.5381366000001435,0
+nextgqa:val:3477387686:5,full_pairwise,vidor:3477387686,F,past_with_late_cue,how did the girl show affection to the dog in the beginning of the video,1,1,1,B,True,True,False,816,0.5314978000023984,0
+nextgqa:val:3477387686:5,M1_all8,vidor:3477387686,F,past_with_late_cue,how did the girl show affection to the dog in the beginning of the video,1,1,1,B,True,True,False,384,0.3232715999984066,0
+nextgqa:val:3477387686:5,recent4,vidor:3477387686,F,past_with_late_cue,how did the girl show affection to the dog in the beginning of the video,1,1,1,B,True,True,False,192,0.18422439999994822,0
+nextgqa:val:3477387686:5,uniform4,vidor:3477387686,F,past_with_late_cue,how did the girl show affection to the dog in the beginning of the video,1,1,1,B,True,True,False,192,0.33273670000198763,0
+nextgqa:val:3477387686:5,Q4,vidor:3477387686,F,past_with_late_cue,how did the girl show affection to the dog in the beginning of the video,1,1,1,B,True,True,False,192,0.19214980000106152,1.3107243999984348
+nextgqa:val:3477387686:5,annotation4,vidor:3477387686,F,past_with_late_cue,how did the girl show affection to the dog in the beginning of the video,1,1,1,B,True,True,False,192,0.19254300000466174,0
+nextgqa:val:3477387686:5,text_only,vidor:3477387686,F,past_with_late_cue,how did the girl show affection to the dog in the beginning of the video,1,1,1,B,True,True,False,0,0.1692886999953771,0
+nextgqa:val:3477387686:4,native_original,vidor:3477387686,T,past_with_late_cue,what did the dog do after the girl puts her palm out,2,2,2,C,True,True,False,816,0.5262369999982184,0
+nextgqa:val:3477387686:4,full_pairwise,vidor:3477387686,T,past_with_late_cue,what did the dog do after the girl puts her palm out,2,2,2,C,True,True,False,816,0.4903113999971538,0
+nextgqa:val:3477387686:4,M1_all8,vidor:3477387686,T,past_with_late_cue,what did the dog do after the girl puts her palm out,2,2,2,C,True,True,False,384,0.32437389999540756,0
+nextgqa:val:3477387686:4,recent4,vidor:3477387686,T,past_with_late_cue,what did the dog do after the girl puts her palm out,2,2,2,C,True,True,False,192,0.33850969999912195,0
+nextgqa:val:3477387686:4,uniform4,vidor:3477387686,T,past_with_late_cue,what did the dog do after the girl puts her palm out,2,2,2,C,True,True,False,192,0.34983359999750974,0
+nextgqa:val:3477387686:4,Q4,vidor:3477387686,T,past_with_late_cue,what did the dog do after the girl puts her palm out,2,2,2,C,True,True,False,192,0.18600919999880716,1.3541588000007323
+nextgqa:val:3477387686:4,annotation4,vidor:3477387686,T,past_with_late_cue,what did the dog do after the girl puts her palm out,2,2,2,C,True,True,False,192,0.33474939999723574,0
+nextgqa:val:3477387686:4,text_only,vidor:3477387686,T,past_with_late_cue,what did the dog do after the girl puts her palm out,2,2,2,C,True,True,False,0,0.3512756999989506,0
+nextgqa:val:3477387686:6,native_original,vidor:3477387686,F,recent,how did the girl show affection to the dog at the end of the video,1,2,2,C,False,False,False,816,0.5205994999996619,0
+nextgqa:val:3477387686:6,full_pairwise,vidor:3477387686,F,recent,how did the girl show affection to the dog at the end of the video,1,2,2,C,False,False,False,816,0.4834973000033642,0
+nextgqa:val:3477387686:6,M1_all8,vidor:3477387686,F,recent,how did the girl show affection to the dog at the end of the video,1,2,2,C,False,False,False,384,0.3228735000011511,0
+nextgqa:val:3477387686:6,recent4,vidor:3477387686,F,recent,how did the girl show affection to the dog at the end of the video,1,2,2,C,False,False,False,192,0.18661480000446318,0
+nextgqa:val:3477387686:6,uniform4,vidor:3477387686,F,recent,how did the girl show affection to the dog at the end of the video,1,2,2,C,False,False,False,192,0.18695429999934277,0
+nextgqa:val:3477387686:6,Q4,vidor:3477387686,F,recent,how did the girl show affection to the dog at the end of the video,1,2,2,C,False,False,False,192,0.1883733999929973,2.431004199999734
+nextgqa:val:3477387686:6,annotation4,vidor:3477387686,F,recent,how did the girl show affection to the dog at the end of the video,1,2,2,C,False,False,False,192,0.18818630000168923,0
+nextgqa:val:3477387686:6,text_only,vidor:3477387686,F,recent,how did the girl show affection to the dog at the end of the video,1,2,2,C,False,False,False,0,0.16948389999743085,0
+nextgqa:val:5498331490:6,native_original,vidor:5498331490,T,past_with_late_cue,what does the cat do after sitting on the toilet bowl for a while at the start,0,0,0,A,True,True,False,1104,0.6461060000001453,0
+nextgqa:val:5498331490:6,full_pairwise,vidor:5498331490,T,past_with_late_cue,what does the cat do after sitting on the toilet bowl for a while at the start,0,0,0,A,True,True,False,1104,0.6036437000002479,0
+nextgqa:val:5498331490:6,M1_all8,vidor:5498331490,T,past_with_late_cue,what does the cat do after sitting on the toilet bowl for a while at the start,0,4,4,E,False,False,False,384,0.3222114000018337,0
+nextgqa:val:5498331490:6,recent4,vidor:5498331490,T,past_with_late_cue,what does the cat do after sitting on the toilet bowl for a while at the start,0,0,0,A,True,True,False,192,0.19622729999537114,0
+nextgqa:val:5498331490:6,uniform4,vidor:5498331490,T,past_with_late_cue,what does the cat do after sitting on the toilet bowl for a while at the start,0,4,4,E,False,False,False,192,0.3461252999986755,0
+nextgqa:val:5498331490:6,Q4,vidor:5498331490,T,past_with_late_cue,what does the cat do after sitting on the toilet bowl for a while at the start,0,0,0,A,True,True,False,192,0.348495099999127,2.590213000003132
+nextgqa:val:5498331490:6,annotation4,vidor:5498331490,T,past_with_late_cue,what does the cat do after sitting on the toilet bowl for a while at the start,0,0,0,A,True,True,False,192,0.1864523000040208,0
+nextgqa:val:5498331490:6,text_only,vidor:5498331490,T,past_with_late_cue,what does the cat do after sitting on the toilet bowl for a while at the start,0,0,0,A,True,True,False,0,0.1687517000027583,0
+nextgqa:val:5498331490:7,native_original,vidor:5498331490,F,recent,what does the cat do with its two front paws on the toile bowl in the second half of the video,1,1,1,B,True,True,False,1104,0.6435952999963774,0
+nextgqa:val:5498331490:7,full_pairwise,vidor:5498331490,F,recent,what does the cat do with its two front paws on the toile bowl in the second half of the video,1,1,1,B,True,True,False,1104,0.528729799996654,0
+nextgqa:val:5498331490:7,M1_all8,vidor:5498331490,F,recent,what does the cat do with its two front paws on the toile bowl in the second half of the video,1,1,1,B,True,True,False,384,0.32367859999794746,0
+nextgqa:val:5498331490:7,recent4,vidor:5498331490,F,recent,what does the cat do with its two front paws on the toile bowl in the second half of the video,1,1,1,B,True,True,False,192,0.18730199999845354,0
+nextgqa:val:5498331490:7,uniform4,vidor:5498331490,F,recent,what does the cat do with its two front paws on the toile bowl in the second half of the video,1,1,1,B,True,True,False,192,0.1863560999991023,0
+nextgqa:val:5498331490:7,Q4,vidor:5498331490,F,recent,what does the cat do with its two front paws on the toile bowl in the second half of the video,1,1,1,B,True,True,False,192,0.1859721000000718,1.3466422999990755
+nextgqa:val:5498331490:7,annotation4,vidor:5498331490,F,recent,what does the cat do with its two front paws on the toile bowl in the second half of the video,1,1,1,B,True,True,False,192,0.18794619999971474,0
+nextgqa:val:5498331490:7,text_only,vidor:5498331490,F,recent,what does the cat do with its two front paws on the toile bowl in the second half of the video,1,1,1,B,True,True,False,0,0.16693120000127237,0
+nextgqa:val:8428551576:7,native_original,vidor:8428551576,F,past_not_repeated_in_samples,how does the baby listen to the ipod,1,2,2,C,False,False,False,1104,0.6771530999976676,0
+nextgqa:val:8428551576:7,full_pairwise,vidor:8428551576,F,past_not_repeated_in_samples,how does the baby listen to the ipod,1,2,2,C,False,False,False,1104,0.5342794000025606,0
+nextgqa:val:8428551576:7,M1_all8,vidor:8428551576,F,past_not_repeated_in_samples,how does the baby listen to the ipod,1,2,2,C,False,False,False,384,0.3240619999996852,0
+nextgqa:val:8428551576:7,recent4,vidor:8428551576,F,past_not_repeated_in_samples,how does the baby listen to the ipod,1,2,2,C,False,False,False,192,0.3483734000037657,0
+nextgqa:val:8428551576:7,uniform4,vidor:8428551576,F,past_not_repeated_in_samples,how does the baby listen to the ipod,1,2,2,C,False,False,False,192,0.3545940999974846,0
+nextgqa:val:8428551576:7,Q4,vidor:8428551576,F,past_not_repeated_in_samples,how does the baby listen to the ipod,1,2,2,C,False,False,False,192,0.3568578999984311,2.231667700005346
+nextgqa:val:8428551576:7,annotation4,vidor:8428551576,F,past_not_repeated_in_samples,how does the baby listen to the ipod,1,2,2,C,False,False,False,192,0.1862907000031555,0
+nextgqa:val:8428551576:7,text_only,vidor:8428551576,F,past_not_repeated_in_samples,how does the baby listen to the ipod,1,1,1,B,True,True,False,0,0.16614669999398757,0
+nextgqa:val:8428551576:8,native_original,vidor:8428551576,F,recent,how did the baby reach for the two metal pans,2,2,2,C,True,True,False,1104,0.6361238999961643,0
+nextgqa:val:8428551576:8,full_pairwise,vidor:8428551576,F,recent,how did the baby reach for the two metal pans,2,2,2,C,True,True,False,1104,0.8555455999958212,0
+nextgqa:val:8428551576:8,M1_all8,vidor:8428551576,F,recent,how did the baby reach for the two metal pans,2,2,2,C,True,True,False,384,0.3453402000013739,0
+nextgqa:val:8428551576:8,recent4,vidor:8428551576,F,recent,how did the baby reach for the two metal pans,2,2,2,C,True,True,False,192,0.36060600000200793,0
+nextgqa:val:8428551576:8,uniform4,vidor:8428551576,F,recent,how did the baby reach for the two metal pans,2,2,2,C,True,True,False,192,0.3446592999971472,0
+nextgqa:val:8428551576:8,Q4,vidor:8428551576,F,recent,how did the baby reach for the two metal pans,2,2,2,C,True,True,False,192,0.18637470000248868,1.3342207000023336
+nextgqa:val:8428551576:8,annotation4,vidor:8428551576,F,recent,how did the baby reach for the two metal pans,2,2,2,C,True,True,False,192,0.18830990000424208,0
+nextgqa:val:8428551576:8,text_only,vidor:8428551576,F,recent,how did the baby reach for the two metal pans,2,1,1,B,False,False,False,0,0.16178840000065975,0
+nextgqa:val:8428551576:9,native_original,vidor:8428551576,T,recent,what does the baby do after grabbing the two metal pans,1,2,2,C,False,False,False,1104,0.6392941000012797,0
+nextgqa:val:8428551576:9,full_pairwise,vidor:8428551576,T,recent,what does the baby do after grabbing the two metal pans,1,2,2,C,False,False,False,1104,0.5357517000011285,0
+nextgqa:val:8428551576:9,M1_all8,vidor:8428551576,T,recent,what does the baby do after grabbing the two metal pans,1,2,2,C,False,False,False,384,0.33142270000098506,0
+nextgqa:val:8428551576:9,recent4,vidor:8428551576,T,recent,what does the baby do after grabbing the two metal pans,1,1,1,B,True,True,False,192,0.19524359999923036,0
+nextgqa:val:8428551576:9,uniform4,vidor:8428551576,T,recent,what does the baby do after grabbing the two metal pans,1,2,2,C,False,False,False,192,0.1914035999943735,0
+nextgqa:val:8428551576:9,Q4,vidor:8428551576,T,recent,what does the baby do after grabbing the two metal pans,1,1,1,B,True,True,False,192,0.19395470000017667,1.3228397999992012
+nextgqa:val:8428551576:9,annotation4,vidor:8428551576,T,recent,what does the baby do after grabbing the two metal pans,1,2,2,C,False,False,False,192,0.18860989999666344,0
+nextgqa:val:8428551576:9,text_only,vidor:8428551576,T,recent,what does the baby do after grabbing the two metal pans,1,1,1,B,True,True,False,0,0.18045079999865266,0
+nextgqa:val:5875535585:0,native_original,vidor:5875535585,F,past_not_repeated_in_samples,what does the man singing do with the microphone stand at the start while singing,1,,1,B. hold microphone stand,False,True,True,912,0.6470770999949309,0
+nextgqa:val:5875535585:0,full_pairwise,vidor:5875535585,F,past_not_repeated_in_samples,what does the man singing do with the microphone stand at the start while singing,1,,1,B. hold microphone stand,False,True,True,912,0.9018360999980359,0
+nextgqa:val:5875535585:0,M1_all8,vidor:5875535585,F,past_not_repeated_in_samples,what does the man singing do with the microphone stand at the start while singing,1,1,1,B,True,True,False,384,0.4442659999986063,0
+nextgqa:val:5875535585:0,recent4,vidor:5875535585,F,past_not_repeated_in_samples,what does the man singing do with the microphone stand at the start while singing,1,1,1,B,True,True,False,192,0.19304790000023786,0
+nextgqa:val:5875535585:0,uniform4,vidor:5875535585,F,past_not_repeated_in_samples,what does the man singing do with the microphone stand at the start while singing,1,1,1,B,True,True,False,192,0.21155560000624973,0
+nextgqa:val:5875535585:0,Q4,vidor:5875535585,F,past_not_repeated_in_samples,what does the man singing do with the microphone stand at the start while singing,1,1,1,B,True,True,False,192,0.18602939999982482,1.334713299998839
+nextgqa:val:5875535585:0,annotation4,vidor:5875535585,F,past_not_repeated_in_samples,what does the man singing do with the microphone stand at the start while singing,1,1,1,B,True,True,False,192,0.18859660000453005,0
+nextgqa:val:5875535585:0,text_only,vidor:5875535585,F,past_not_repeated_in_samples,what does the man singing do with the microphone stand at the start while singing,1,1,1,B,True,True,False,0,0.17108120000193594,0
+nextgqa:val:5875535585:5,native_original,vidor:5875535585,T,past_with_late_cue,what does the man in black do after he lets go of the mic stand at the start,0,1,1,B,False,False,False,912,0.5483855999991647,0
+nextgqa:val:5875535585:5,full_pairwise,vidor:5875535585,T,past_with_late_cue,what does the man in black do after he lets go of the mic stand at the start,0,1,1,B,False,False,False,912,0.5181530000045313,0
+nextgqa:val:5875535585:5,M1_all8,vidor:5875535585,T,past_with_late_cue,what does the man in black do after he lets go of the mic stand at the start,0,1,1,B,False,False,False,384,0.5741844999938621,0
+nextgqa:val:5875535585:5,recent4,vidor:5875535585,T,past_with_late_cue,what does the man in black do after he lets go of the mic stand at the start,0,3,3,D,False,False,False,192,0.35091620000457624,0
+nextgqa:val:5875535585:5,uniform4,vidor:5875535585,T,past_with_late_cue,what does the man in black do after he lets go of the mic stand at the start,0,0,0,A,True,True,False,192,0.3386769999997341,0
+nextgqa:val:5875535585:5,Q4,vidor:5875535585,T,past_with_late_cue,what does the man in black do after he lets go of the mic stand at the start,0,3,3,D,False,False,False,192,0.3594177999984822,1.6610522999981185
+nextgqa:val:5875535585:5,annotation4,vidor:5875535585,T,past_with_late_cue,what does the man in black do after he lets go of the mic stand at the start,0,1,1,B,False,False,False,192,0.35142330000235233,0
+nextgqa:val:5875535585:5,text_only,vidor:5875535585,T,past_with_late_cue,what does the man in black do after he lets go of the mic stand at the start,0,2,2,C,False,False,False,0,0.3546349999960512,0
+nextgqa:val:5875535585:4,native_original,vidor:5875535585,F,recent,what does the guitarist in red do with his head constantly while he is playing the guitar,4,1,1,B,False,False,False,912,0.5276795999961905,0
+nextgqa:val:5875535585:4,full_pairwise,vidor:5875535585,F,recent,what does the guitarist in red do with his head constantly while he is playing the guitar,4,1,1,B,False,False,False,912,0.4952631999985897,0
+nextgqa:val:5875535585:4,M1_all8,vidor:5875535585,F,recent,what does the guitarist in red do with his head constantly while he is playing the guitar,4,1,1,B,False,False,False,384,0.3235986999934539,0
+nextgqa:val:5875535585:4,recent4,vidor:5875535585,F,recent,what does the guitarist in red do with his head constantly while he is playing the guitar,4,1,1,B,False,False,False,192,0.18954849999863654,0
+nextgqa:val:5875535585:4,uniform4,vidor:5875535585,F,recent,what does the guitarist in red do with his head constantly while he is playing the guitar,4,1,1,B,False,False,False,192,0.1952545999956783,0
+nextgqa:val:5875535585:4,Q4,vidor:5875535585,F,recent,what does the guitarist in red do with his head constantly while he is playing the guitar,4,1,1,B,False,False,False,192,0.18681439999636495,1.3806747999988147
+nextgqa:val:5875535585:4,annotation4,vidor:5875535585,F,recent,what does the guitarist in red do with his head constantly while he is playing the guitar,4,1,1,B,False,False,False,192,0.1868151000016951,0
+nextgqa:val:5875535585:4,text_only,vidor:5875535585,F,recent,what does the guitarist in red do with his head constantly while he is playing the guitar,4,1,1,B,False,False,False,0,0.16646269999910146,0
+nextgqa:val:2559262403:4,native_original,vidor:2559262403,F,past_not_repeated_in_samples,how do the pugs drink water from the bowl,2,,2,C. with their tongues,False,True,True,1104,0.7567386000009719,0
+nextgqa:val:2559262403:4,full_pairwise,vidor:2559262403,F,past_not_repeated_in_samples,how do the pugs drink water from the bowl,2,,2,C. with their tongues,False,True,True,1104,1.0066155000022263,0
+nextgqa:val:2559262403:4,M1_all8,vidor:2559262403,F,past_not_repeated_in_samples,how do the pugs drink water from the bowl,2,2,2,C,True,True,False,384,0.5931998000014573,0
+nextgqa:val:2559262403:4,recent4,vidor:2559262403,F,past_not_repeated_in_samples,how do the pugs drink water from the bowl,2,2,2,C,True,True,False,192,0.19250540000211913,0
+nextgqa:val:2559262403:4,uniform4,vidor:2559262403,F,past_not_repeated_in_samples,how do the pugs drink water from the bowl,2,2,2,C,True,True,False,192,0.18628909999824828,0
+nextgqa:val:2559262403:4,Q4,vidor:2559262403,F,past_not_repeated_in_samples,how do the pugs drink water from the bowl,2,2,2,C,True,True,False,192,0.1839782999959425,1.7041275999945356
+nextgqa:val:2559262403:4,annotation4,vidor:2559262403,F,past_not_repeated_in_samples,how do the pugs drink water from the bowl,2,2,2,C,True,True,False,192,0.18601560000388417,0
+nextgqa:val:2559262403:4,text_only,vidor:2559262403,F,past_not_repeated_in_samples,how do the pugs drink water from the bowl,2,0,0,A,False,False,False,0,0.16240359999937937,0
+nextgqa:val:8457210773:3,native_original,vidor:8457210773,F,past_with_late_cue,how did the brown dog react when playing with the black dog at the start,3,4,4,E,False,False,False,960,0.6182870999982697,0
+nextgqa:val:8457210773:3,full_pairwise,vidor:8457210773,F,past_with_late_cue,how did the brown dog react when playing with the black dog at the start,3,4,4,E,False,False,False,960,0.751395200000843,0
+nextgqa:val:8457210773:3,M1_all8,vidor:8457210773,F,past_with_late_cue,how did the brown dog react when playing with the black dog at the start,3,2,2,C,False,False,False,384,0.32265779999579536,0
+nextgqa:val:8457210773:3,recent4,vidor:8457210773,F,past_with_late_cue,how did the brown dog react when playing with the black dog at the start,3,2,2,C,False,False,False,192,0.18714159999944968,0
+nextgqa:val:8457210773:3,uniform4,vidor:8457210773,F,past_with_late_cue,how did the brown dog react when playing with the black dog at the start,3,4,4,E,False,False,False,192,0.33532299999933457,0
+nextgqa:val:8457210773:3,Q4,vidor:8457210773,F,past_with_late_cue,how did the brown dog react when playing with the black dog at the start,3,4,4,E,False,False,False,192,0.3377699999982724,1.3995412000003853
+nextgqa:val:8457210773:3,annotation4,vidor:8457210773,F,past_with_late_cue,how did the brown dog react when playing with the black dog at the start,3,4,4,E,False,False,False,192,0.34747000000061234,0
+nextgqa:val:8457210773:3,text_only,vidor:8457210773,F,past_with_late_cue,how did the brown dog react when playing with the black dog at the start,3,0,0,A,False,False,False,0,0.3453732000052696,0
+nextgqa:val:8457210773:5,native_original,vidor:8457210773,T,recent,what did the brown dog do after the black dog with red collar walked past in the middle,2,1,1,B,False,False,False,960,0.5655860999977449,0
+nextgqa:val:8457210773:5,full_pairwise,vidor:8457210773,T,recent,what did the brown dog do after the black dog with red collar walked past in the middle,2,1,1,B,False,False,False,960,0.5057735000009416,0
+nextgqa:val:8457210773:5,M1_all8,vidor:8457210773,T,recent,what did the brown dog do after the black dog with red collar walked past in the middle,2,1,1,B,False,False,False,384,0.576578399995924,0
+nextgqa:val:8457210773:5,recent4,vidor:8457210773,T,recent,what did the brown dog do after the black dog with red collar walked past in the middle,2,1,1,B,False,False,False,192,0.1866927000010037,0
+nextgqa:val:8457210773:5,uniform4,vidor:8457210773,T,recent,what did the brown dog do after the black dog with red collar walked past in the middle,2,1,1,B,False,False,False,192,0.18387739999889163,0
+nextgqa:val:8457210773:5,Q4,vidor:8457210773,T,recent,what did the brown dog do after the black dog with red collar walked past in the middle,2,1,1,B,False,False,False,192,0.2811857999986387,2.5009110999963013
+nextgqa:val:8457210773:5,annotation4,vidor:8457210773,T,recent,what did the brown dog do after the black dog with red collar walked past in the middle,2,1,1,B,False,False,False,192,0.1939459000059287,0
+nextgqa:val:8457210773:5,text_only,vidor:8457210773,T,recent,what did the brown dog do after the black dog with red collar walked past in the middle,2,0,0,A,False,False,False,0,0.1674864999949932,0
+nextgqa:val:8457210773:8,native_original,vidor:8457210773,F,recent,how did the brown dog play with the black dog,4,,2,C. caress,False,False,True,960,0.6367395999986911,0
+nextgqa:val:8457210773:8,full_pairwise,vidor:8457210773,F,recent,how did the brown dog play with the black dog,4,,2,C. caress,False,False,True,960,0.5973652999964543,0
+nextgqa:val:8457210773:8,M1_all8,vidor:8457210773,F,recent,how did the brown dog play with the black dog,4,4,4,E,True,True,False,384,0.23130749999836553,0
+nextgqa:val:8457210773:8,recent4,vidor:8457210773,F,recent,how did the brown dog play with the black dog,4,4,4,E,True,True,False,192,0.20412260000011884,0
+nextgqa:val:8457210773:8,uniform4,vidor:8457210773,F,recent,how did the brown dog play with the black dog,4,4,4,E,True,True,False,192,0.195867399997951,0
+nextgqa:val:8457210773:8,Q4,vidor:8457210773,F,recent,how did the brown dog play with the black dog,4,4,4,E,True,True,False,192,0.3434268000055454,1.3479061999969417
+nextgqa:val:8457210773:8,annotation4,vidor:8457210773,F,recent,how did the brown dog play with the black dog,4,4,4,E,True,True,False,192,0.3636203999994905,0
+nextgqa:val:8457210773:8,text_only,vidor:8457210773,F,recent,how did the brown dog play with the black dog,4,1,1,B,False,False,False,0,0.36759120000351686,0
+nextgqa:val:4372494989:3,native_original,vidor:4372494989,F,past_not_repeated_in_samples,how does the man in red attempt to teach the child about how to pray,0,4,4,E,False,False,False,1056,0.6199723000027006,0
+nextgqa:val:4372494989:3,full_pairwise,vidor:4372494989,F,past_not_repeated_in_samples,how does the man in red attempt to teach the child about how to pray,0,4,4,E,False,False,False,1056,0.6640836999940802,0
+nextgqa:val:4372494989:3,M1_all8,vidor:4372494989,F,past_not_repeated_in_samples,how does the man in red attempt to teach the child about how to pray,0,4,4,E,False,False,False,384,0.3489387000008719,0
+nextgqa:val:4372494989:3,recent4,vidor:4372494989,F,past_not_repeated_in_samples,how does the man in red attempt to teach the child about how to pray,0,4,4,E,False,False,False,192,0.18710309999733,0
+nextgqa:val:4372494989:3,uniform4,vidor:4372494989,F,past_not_repeated_in_samples,how does the man in red attempt to teach the child about how to pray,0,4,4,E,False,False,False,192,0.322618500002136,0
+nextgqa:val:4372494989:3,Q4,vidor:4372494989,F,past_not_repeated_in_samples,how does the man in red attempt to teach the child about how to pray,0,4,4,E,False,False,False,192,0.3328946999972686,1.4779010999991442
+nextgqa:val:4372494989:3,annotation4,vidor:4372494989,F,past_not_repeated_in_samples,how does the man in red attempt to teach the child about how to pray,0,4,4,E,False,False,False,192,0.2093070999981137,0
+nextgqa:val:4372494989:3,text_only,vidor:4372494989,F,past_not_repeated_in_samples,how does the man in red attempt to teach the child about how to pray,0,4,4,E,False,False,False,0,0.3545966000019689,0
+nextgqa:val:4372494989:5,native_original,vidor:4372494989,T,past_not_repeated_in_samples,what does the man do after standing up,0,,2,C. push the float,False,False,True,1056,0.7079052999979467,0
+nextgqa:val:4372494989:5,full_pairwise,vidor:4372494989,T,past_not_repeated_in_samples,what does the man do after standing up,0,,2,C. push the float,False,False,True,1056,0.6335314999960246,0
+nextgqa:val:4372494989:5,M1_all8,vidor:4372494989,T,past_not_repeated_in_samples,what does the man do after standing up,0,2,2,C,False,False,False,384,0.32888200000161305,0
+nextgqa:val:4372494989:5,recent4,vidor:4372494989,T,past_not_repeated_in_samples,what does the man do after standing up,0,2,2,C,False,False,False,192,0.1902263000010862,0
+nextgqa:val:4372494989:5,uniform4,vidor:4372494989,T,past_not_repeated_in_samples,what does the man do after standing up,0,2,2,C,False,False,False,192,0.34507850000227336,0
+nextgqa:val:4372494989:5,Q4,vidor:4372494989,T,past_not_repeated_in_samples,what does the man do after standing up,0,2,2,C,False,False,False,192,0.3503989999953774,2.1789812999995775
+nextgqa:val:4372494989:5,annotation4,vidor:4372494989,T,past_not_repeated_in_samples,what does the man do after standing up,0,2,2,C,False,False,False,192,0.34873620000144,0
+nextgqa:val:4372494989:5,text_only,vidor:4372494989,T,past_not_repeated_in_samples,what does the man do after standing up,0,0,0,A,True,True,False,0,0.35450570000102744,0
+nextgqa:val:5945172741:1,native_original,vidor:5945172741,T,past_with_late_cue,what did the man do when the child climbed up and approached him,3,,2,C. hi-five,False,False,True,768,0.5997477999990224,0
+nextgqa:val:5945172741:1,full_pairwise,vidor:5945172741,T,past_with_late_cue,what did the man do when the child climbed up and approached him,3,,2,C. hi-five,False,False,True,768,0.48199790000217035,0
+nextgqa:val:5945172741:1,M1_all8,vidor:5945172741,T,past_with_late_cue,what did the man do when the child climbed up and approached him,3,2,2,C,False,False,False,384,0.33761690000392264,0
+nextgqa:val:5945172741:1,recent4,vidor:5945172741,T,past_with_late_cue,what did the man do when the child climbed up and approached him,3,0,0,A,False,False,False,192,0.19587119999778224,0
+nextgqa:val:5945172741:1,uniform4,vidor:5945172741,T,past_with_late_cue,what did the man do when the child climbed up and approached him,3,2,2,C,False,False,False,192,0.1951919999992242,0
+nextgqa:val:5945172741:1,Q4,vidor:5945172741,T,past_with_late_cue,what did the man do when the child climbed up and approached him,3,0,0,A,False,False,False,192,0.19904030000179773,1.6322872999953688
+nextgqa:val:5945172741:1,annotation4,vidor:5945172741,T,past_with_late_cue,what did the man do when the child climbed up and approached him,3,0,0,A,False,False,False,192,0.19632760000240523,0
+nextgqa:val:5945172741:1,text_only,vidor:5945172741,T,past_with_late_cue,what did the man do when the child climbed up and approached him,3,0,0,A,False,False,False,0,0.1713333000006969,0
+nextgqa:val:5945172741:7,native_original,vidor:5945172741,F,past_not_repeated_in_samples,how did the man show affection to the girl when he held her,1,,2,C. play with baby,False,False,True,768,0.5765043999999762,0
+nextgqa:val:5945172741:7,full_pairwise,vidor:5945172741,F,past_not_repeated_in_samples,how did the man show affection to the girl when he held her,1,,2,C. play with baby,False,False,True,768,0.6213339999958407,0
+nextgqa:val:5945172741:7,M1_all8,vidor:5945172741,F,past_not_repeated_in_samples,how did the man show affection to the girl when he held her,1,4,4,E,False,False,False,384,0.5966019999978016,0
+nextgqa:val:5945172741:7,recent4,vidor:5945172741,F,past_not_repeated_in_samples,how did the man show affection to the girl when he held her,1,4,4,E,False,False,False,192,0.34710590000031516,0
+nextgqa:val:5945172741:7,uniform4,vidor:5945172741,F,past_not_repeated_in_samples,how did the man show affection to the girl when he held her,1,1,1,B,True,True,False,192,0.19001249999564607,0
+nextgqa:val:5945172741:7,Q4,vidor:5945172741,F,past_not_repeated_in_samples,how did the man show affection to the girl when he held her,1,4,4,E,False,False,False,192,0.19153750000259606,1.6375895000019227
+nextgqa:val:5945172741:7,annotation4,vidor:5945172741,F,past_not_repeated_in_samples,how did the man show affection to the girl when he held her,1,4,4,E,False,False,False,192,0.20774710000114283,0
+nextgqa:val:5945172741:7,text_only,vidor:5945172741,F,past_not_repeated_in_samples,how did the man show affection to the girl when he held her,1,1,1,B,True,True,False,0,0.17098190000251634,0
+nextgqa:val:5945172741:4,native_original,vidor:5945172741,T,recent,what did the girl do after she got off the bed near the end,3,,3,D. leaves the room,False,True,True,768,0.5768174000040744,0
+nextgqa:val:5945172741:4,full_pairwise,vidor:5945172741,T,recent,what did the girl do after she got off the bed near the end,3,,3,D. leaves the room,False,True,True,768,0.48817720000079134,0
+nextgqa:val:5945172741:4,M1_all8,vidor:5945172741,T,recent,what did the girl do after she got off the bed near the end,3,3,3,D,True,True,False,384,0.3206914000038523,0
+nextgqa:val:5945172741:4,recent4,vidor:5945172741,T,recent,what did the girl do after she got off the bed near the end,3,3,3,D,True,True,False,192,0.18920820000494132,0
+nextgqa:val:5945172741:4,uniform4,vidor:5945172741,T,recent,what did the girl do after she got off the bed near the end,3,3,3,D,True,True,False,192,0.1862970000001951,0
+nextgqa:val:5945172741:4,Q4,vidor:5945172741,T,recent,what did the girl do after she got off the bed near the end,3,3,3,D,True,True,False,192,0.20476370000687893,1.3232520999954431
+nextgqa:val:5945172741:4,annotation4,vidor:5945172741,T,recent,what did the girl do after she got off the bed near the end,3,3,3,D,True,True,False,192,0.20379919999686535,0
+nextgqa:val:5945172741:4,text_only,vidor:5945172741,T,recent,what did the girl do after she got off the bed near the end,3,0,0,A,False,False,False,0,0.16683999999804655,0
+nextgqa:val:4336654741:6,native_original,vidor:4336654741,T,past_with_late_cue,what does the baby do after holding the arm of the lady in the middle,4,,4,E. smile,False,True,True,1104,0.7537147999973968,0
+nextgqa:val:4336654741:6,full_pairwise,vidor:4336654741,T,past_with_late_cue,what does the baby do after holding the arm of the lady in the middle,4,,4,E. smile,False,True,True,1104,0.9078178999989177,0
+nextgqa:val:4336654741:6,M1_all8,vidor:4336654741,T,past_with_late_cue,what does the baby do after holding the arm of the lady in the middle,4,4,4,E,True,True,False,384,0.3242757000043639,0
+nextgqa:val:4336654741:6,recent4,vidor:4336654741,T,past_with_late_cue,what does the baby do after holding the arm of the lady in the middle,4,4,4,E,True,True,False,192,0.1927547000013874,0
+nextgqa:val:4336654741:6,uniform4,vidor:4336654741,T,past_with_late_cue,what does the baby do after holding the arm of the lady in the middle,4,4,4,E,True,True,False,192,0.18692819999705534,0
+nextgqa:val:4336654741:6,Q4,vidor:4336654741,T,past_with_late_cue,what does the baby do after holding the arm of the lady in the middle,4,4,4,E,True,True,False,192,0.18781630000012228,2.2782415000037872
+nextgqa:val:4336654741:6,annotation4,vidor:4336654741,T,past_with_late_cue,what does the baby do after holding the arm of the lady in the middle,4,4,4,E,True,True,False,192,0.18968680000398308,0
+nextgqa:val:4336654741:6,text_only,vidor:4336654741,T,past_with_late_cue,what does the baby do after holding the arm of the lady in the middle,4,4,4,E,True,True,False,0,0.17011839999759104,0

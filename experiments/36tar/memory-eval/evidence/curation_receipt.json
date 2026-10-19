@@ -1,0 +1,21 @@
+{
+  "reviewed": 72,
+  "admitted": 50,
+  "retained_ambiguous": 22,
+  "reviewed_sources": 24,
+  "admitted_sources": 22,
+  "analysis_groups": 21,
+  "strata": {
+    "T": 24,
+    "C": 5,
+    "F": 21
+  },
+  "memory_characters": {
+    "past_with_late_cue": 22,
+    "recent": 18,
+    "past_not_repeated_in_samples": 10
+  },
+  "pages": 50,
+  "reviewer": "single_assistant_no_independent_human",
+  "old_necessity_proven": 0
+}

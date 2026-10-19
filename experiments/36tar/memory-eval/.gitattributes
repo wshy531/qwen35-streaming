@@ -1,0 +1,9 @@
+* -text whitespace=cr-at-eol
+archive/* -diff -whitespace
+evidence/* -diff -whitespace
+validation/* -whitespace
+docs/* -whitespace
+docs/PROGRESS_SNAPSHOT_20261020.md -diff
+src/* -whitespace
+ARCHIVE_INDEX.json -diff
+PUBLICATION_MANIFEST.json -diff

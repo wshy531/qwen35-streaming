@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "all24_media_SHA_verified": true,
+  "all50_PNG_SHA_verified": true,
+  "original_preparation_lock_unchanged": true,
+  "all72_original_fields_unchanged": true,
+  "witness_PTS_RGB_identity": true,
+  "admitted": 50,
+  "ambiguous_retained": 22,
+  "all400_answers_verified": true,
+  "full_native50_generated_ids_same": true,
+  "recorded_file_sha256": {
+    "runs\\memory_target_new24_20261019_01\\question_reviews.jsonl": "4093147e8878407f765be92775315fe69896e91d4c5a961d201a951c547aa1e7",
+    "runs\\memory_target_new24_20261019_01\\source_reviews.jsonl": "a4b4b93feb2675ffa7a7381d06fd90dfe9a14d627886bb0bcd345cb36eb795b2",
+    "runs\\08b_question_readout_new24_20261019_01\\analysis.json": "0afdf87949760c40bb0d26b6cb1c85136252dc3c508b2b3d1c945c2249323822",
+    "runs\\08b_question_readout_new24_20261019_01\\posthoc_evidence_audit.json": "b6f95a77f0a69c4ec5ba3d59b33df9923e027c9d03fdd747355be4a3e41a67e7",
+    "runs\\08b_question_readout_new24_20261019_01\\逐题结果.csv": "88e91a95339b0f5c4eb7e811a562bc7c7e5b493dd55f28bf6ed6c88dd08a383f",
+    "问题相关历史读取与新视频对照结果.md": "886e71ec43fb8e721c3135a3c64dc38d29c89726eadaa4140d2fdbd8e935a36c"
+  }
+}

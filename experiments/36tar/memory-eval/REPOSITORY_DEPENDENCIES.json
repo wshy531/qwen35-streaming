@@ -1,0 +1,15 @@
+{
+  "base_commit": "c32a5951622dc6ce9e7e770b457af77cca7a883d",
+  "existing_source_sha256": {
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/streaming/online.py": "90732e09495eee295175f9861cbd5030c659432588669472a2a7ef44e3ea47a9",
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/streaming/hybrid.py": "86bb4855fa4af51e3f35ccb529684c6cfe4bc6e092f64a9c8b9777f73d69460a",
+    "experiments/36tar/streaming-learning/diagnostics/forest_runtime_v1/forest.py": "dd9d3888b386a174653afc923b52ed9c498ce17e79835d92e1e52afb7d3b5e66",
+    "experiments/36tar/streaming-learning/diagnostics/history_causal_v1/reader.py": "d5c37462ba9efb2f0096d0350ff65dc7a682f4ff35e9b5757d3ee336dfe68abf",
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/qwen35_local/configuration_qwen3_5.py": "8b36d9f1bc6202e1020925945b1b230725ebf8dbf79887b6a2080c8327945565",
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/qwen35_local/modeling_qwen3_5.py": "d05520eb621cdb2950d958b453e388646f13dee3399ec5a98837d138540d3611",
+    "experiments/36tar/streaming-learning/code/qwen35-streaming-s4/qwen35_local/__init__.py": "1825851adf45de0d54879b63f367de195159aaa575c9434e8df3d820e6511c5f"
+  },
+  "no_new_default_core_files": true,
+  "original_profile_uses_author_absolute_paths": true,
+  "fresh_CPU_proof_required_after_path_adaptation": true
+}

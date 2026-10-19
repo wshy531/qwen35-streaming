@@ -1,0 +1,19 @@
+test_all_actual_question_selections_replay_without_answers (test_delivery_contracts.DeliveryTests.test_all_actual_question_selections_replay_without_answers) ... ok
+test_archived_actual_answers_recompute (test_delivery_contracts.DeliveryTests.test_archived_actual_answers_recompute) ... ok
+test_provenance_span_does_not_resurrect_discarded_event (test_delivery_contracts.DeliveryTests.test_provenance_span_does_not_resurrect_discarded_event) ... ok
+test_each_question_has_own_cutoff_and_snapshot_only_tail (test_prefix_request.PrefixRequestTests.test_each_question_has_own_cutoff_and_snapshot_only_tail) ... ok
+test_labels_annotations_and_task_cannot_change_input (test_prefix_request.PrefixRequestTests.test_labels_annotations_and_task_cannot_change_input) ... ok
+test_later_stream_is_invariant_to_number_of_questions (test_prefix_request.PrefixRequestTests.test_later_stream_is_invariant_to_number_of_questions) ... ok
+test_reject_invalid_times_or_nonmonotonic_real_frames (test_prefix_request.PrefixRequestTests.test_reject_invalid_times_or_nonmonotonic_real_frames) ... ok
+test_reject_wrong_assets_and_path_escape (test_prefix_request.PrefixRequestTests.test_reject_wrong_assets_and_path_escape) ... ok
+test_escape_refused_before_creation (test_restore_boundaries.RestoreBoundaries.test_escape_refused_before_creation) ... ok
+test_exact_utf8_and_no_execution (test_restore_boundaries.RestoreBoundaries.test_exact_utf8_and_no_execution) ... ok
+test_existing_output_untouched (test_restore_boundaries.RestoreBoundaries.test_existing_output_untouched) ... ok
+test_expansion_limit_refused_before_creation (test_restore_boundaries.RestoreBoundaries.test_expansion_limit_refused_before_creation) ... ok
+test_identity_refused_before_creation (test_restore_boundaries.RestoreBoundaries.test_identity_refused_before_creation) ... ok
+test_optimization_cannot_disable_checks (test_restore_boundaries.RestoreBoundaries.test_optimization_cannot_disable_checks) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 4.173s
+
+OK
