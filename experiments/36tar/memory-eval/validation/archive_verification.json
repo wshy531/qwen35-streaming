@@ -1,0 +1,33 @@
+{
+  "bundles": 32,
+  "original_files": 624,
+  "text_bytes": 31758936,
+  "new50": {
+    "native_original": 15,
+    "full_pairwise": 15,
+    "M1_all8": 22,
+    "recent4": 27,
+    "uniform4": 25,
+    "Q4": 22,
+    "annotation4": 22,
+    "text_only": 19
+  },
+  "primary45": {
+    "native_original": 12,
+    "full_pairwise": 12,
+    "M1_all8": 19,
+    "recent4": 23,
+    "uniform4": 21,
+    "Q4": 18,
+    "annotation4": 19,
+    "text_only": 17
+  },
+  "main_answers": 1415,
+  "failed_attempt_answers_separate": 154,
+  "preserved_old_attempt_generated_ids": true,
+  "new_model_loads": 0,
+  "GPU_used": false,
+  "media_verified_in_this_check": false,
+  "limitations": "Archived RGB/PTS audits are historical receipts; this publication check has no media or pretrained execution.",
+  "status": "passed"
+}

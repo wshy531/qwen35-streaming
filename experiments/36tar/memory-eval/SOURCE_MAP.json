@@ -1,0 +1,18 @@
+{
+  "experiments/2b-memory-eval/memory_policy.py": {
+    "path": "src/memory_policy.py",
+    "sha256": "9e42b27f02e693923e85f96919f24216638685ac4af54c2159b78fc8ea5583ae"
+  },
+  "experiments/2b-memory-eval/prefix_request.py": {
+    "path": "src/prefix_request.py",
+    "sha256": "0b4679ea3d26c3d6a8b391d3f5b79e0cf14c77ee537fafacfa066ccb49c9f757"
+  },
+  "experiments/2b-memory-eval/score_memory_eval.py": {
+    "path": "src/score_memory_eval.py",
+    "sha256": "60585fde02978c240db51dd44f3870fdf8a864143cb8cdd16ef8d95e84d7e378"
+  },
+  "experiments/question-readout-v1/selector.py": {
+    "path": "src/selector.py",
+    "sha256": "d8d7b8ca0d22f6b3654286d46e0bc3d5f32f30de9a03cc85d563a338d5d88847"
+  }
+}

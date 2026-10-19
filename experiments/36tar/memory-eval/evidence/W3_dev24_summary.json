@@ -1,0 +1,630 @@
+{
+  "stage": "dev24",
+  "status": "fixed_stage_analysis",
+  "summary": {
+    "full_pairwise": {
+      "questions": 24,
+      "groups": 14,
+      "correct": 16,
+      "video_macro": 0.6904761904761905,
+      "statuses": {
+        "ok": 22,
+        "format_error": 2
+      }
+    },
+    "M1_all8": {
+      "questions": 24,
+      "groups": 14,
+      "correct": 16,
+      "video_macro": 0.6428571428571429,
+      "statuses": {
+        "ok": 24
+      }
+    },
+    "recent4": {
+      "questions": 24,
+      "groups": 14,
+      "correct": 16,
+      "video_macro": 0.6785714285714286,
+      "statuses": {
+        "ok": 24
+      }
+    },
+    "uniform4": {
+      "questions": 24,
+      "groups": 14,
+      "correct": 16,
+      "video_macro": 0.6785714285714286,
+      "statuses": {
+        "ok": 24
+      }
+    },
+    "Q4": {
+      "questions": 24,
+      "groups": 14,
+      "correct": 16,
+      "video_macro": 0.6785714285714286,
+      "statuses": {
+        "ok": 24
+      }
+    },
+    "annotation4": {
+      "questions": 24,
+      "groups": 14,
+      "correct": 16,
+      "video_macro": 0.6785714285714286,
+      "statuses": {
+        "ok": 24
+      }
+    },
+    "text_only": {
+      "questions": 24,
+      "groups": 14,
+      "correct": 14,
+      "video_macro": 0.630952380952381,
+      "statuses": {
+        "ok": 24
+      }
+    }
+  },
+  "query_changed_from_uniform": 24,
+  "queries_with_selection_choice": 24,
+  "score_calls": 142,
+  "selection_seconds_total": 41.91332880000846,
+  "selection_seconds_per_question": 1.7463887000003524,
+  "author_interval_coverage": {
+    "M1_all8": {
+      "all_hit": 13,
+      "known": 22,
+      "details": [
+        {
+          "id": "nextgqa:val:3445431963:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:2",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:5",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3763643225:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:11566980553:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:8",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:6691330381:2",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:6691330381:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:2552130183:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4190655097:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:2495861393:10",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2495861393:7",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:4782722858:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4782722858:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:8403741210:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3194558043:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:9917882506:7",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:9917882506:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3935853204:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3935853204:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "ovo:506",
+          "all_author_intervals_hit": null
+        },
+        {
+          "id": "ovo:145",
+          "all_author_intervals_hit": null
+        }
+      ]
+    },
+    "recent4": {
+      "all_hit": 5,
+      "known": 22,
+      "details": [
+        {
+          "id": "nextgqa:val:3445431963:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:2",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:5",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3763643225:6",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:8",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:4",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:2",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:0",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2552130183:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4190655097:0",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2495861393:10",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2495861393:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4782722858:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4782722858:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:8403741210:4",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3194558043:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:9917882506:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:9917882506:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3935853204:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3935853204:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "ovo:506",
+          "all_author_intervals_hit": null
+        },
+        {
+          "id": "ovo:145",
+          "all_author_intervals_hit": null
+        }
+      ]
+    },
+    "uniform4": {
+      "all_hit": 5,
+      "known": 22,
+      "details": [
+        {
+          "id": "nextgqa:val:3445431963:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:2",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:5",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3763643225:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:11566980553:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:8",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:4",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:2",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:2552130183:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4190655097:0",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2495861393:10",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2495861393:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4782722858:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4782722858:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:8403741210:4",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3194558043:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:9917882506:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:9917882506:0",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3935853204:4",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3935853204:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "ovo:506",
+          "all_author_intervals_hit": null
+        },
+        {
+          "id": "ovo:145",
+          "all_author_intervals_hit": null
+        }
+      ]
+    },
+    "Q4": {
+      "all_hit": 4,
+      "known": 22,
+      "details": [
+        {
+          "id": "nextgqa:val:3445431963:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:2",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:5",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3763643225:6",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:8",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:6691330381:2",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:0",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2552130183:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4190655097:0",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2495861393:10",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2495861393:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4782722858:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4782722858:4",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:8403741210:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3194558043:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:9917882506:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:9917882506:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3935853204:4",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3935853204:6",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "ovo:506",
+          "all_author_intervals_hit": null
+        },
+        {
+          "id": "ovo:145",
+          "all_author_intervals_hit": null
+        }
+      ]
+    },
+    "annotation4": {
+      "all_hit": 13,
+      "known": 22,
+      "details": [
+        {
+          "id": "nextgqa:val:3445431963:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:2",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3445431963:5",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:3763643225:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:11566980553:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:8",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:11566980553:7",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:6691330381:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:6691330381:2",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:6691330381:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:2552130183:1",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4190655097:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:2495861393:10",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:2495861393:7",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:4782722858:3",
+          "all_author_intervals_hit": false
+        },
+        {
+          "id": "nextgqa:val:4782722858:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:8403741210:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3194558043:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:9917882506:7",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:9917882506:0",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3935853204:4",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "nextgqa:val:3935853204:6",
+          "all_author_intervals_hit": true
+        },
+        {
+          "id": "ovo:506",
+          "all_author_intervals_hit": null
+        },
+        {
+          "id": "ovo:145",
+          "all_author_intervals_hit": null
+        }
+      ]
+    }
+  },
+  "all_old_controls_generated_ids_same": true,
+  "no_new72_outputs": true,
+  "no_final_holdout_claim": true,
+  "format_rule_unchanged": true,
+  "limitations": "Question likelihood is an uncalibrated matching proxy; author intervals not necessity; M1_all8/full have larger read budgets. All data previously open.",
+  "comparisons": {
+    "uniform4": {
+      "corrections": 0,
+      "new_losses": 0,
+      "format_only_corrections": 0,
+      "format_only_losses": 0,
+      "macro_delta": 0.0,
+      "bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "same_read_cap": true
+    },
+    "recent4": {
+      "corrections": 0,
+      "new_losses": 0,
+      "format_only_corrections": 0,
+      "format_only_losses": 0,
+      "macro_delta": 0.0,
+      "bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "same_read_cap": true
+    },
+    "M1_all8": {
+      "corrections": 1,
+      "new_losses": 1,
+      "format_only_corrections": 0,
+      "format_only_losses": 0,
+      "macro_delta": 0.03571428571428571,
+      "bootstrap95": [
+        -0.10714285714285714,
+        0.21428571428571427
+      ],
+      "same_read_cap": false
+    }
+  }
+}

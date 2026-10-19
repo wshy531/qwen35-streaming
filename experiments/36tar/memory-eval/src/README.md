@@ -1,0 +1,1 @@
+Four exact original source files. SOURCE_MAP.json records their original paths and SHA256. Historical study harnesses are in the bounded archives, not duplicate active implementations. No pretrained model is loaded by importing memory_policy/prefix_request/score_memory_eval; selector imports PyTorch but does not load weights.

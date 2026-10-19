@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "exact_original_text_files": 624,
+  "restored_all_bytes_same": true,
+  "active_Python_AST_files": 10,
+  "README_local_links": 23,
+  "archive": {
+    "bundles": 32,
+    "original_files": 624,
+    "text_bytes": 31758936
+  },
+  "CPU_tests": 14,
+  "new_model_loads": 0,
+  "default_code_changes": 0
+}
